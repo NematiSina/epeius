@@ -1,4 +1,8865 @@
-(function(_0x2cac78,_0x488dac){const _0x499fca=_0x1ddd,_0x245caf=_0x2cac78();while(!![]){try{const _0x28a628=-parseInt(_0x499fca(0x1f4))/0x1+-parseInt(_0x499fca(0x1f1))/0x2+-parseInt(_0x499fca(0x1e8))/0x3*(parseInt(_0x499fca(0x1e7))/0x4)+parseInt(_0x499fca(0x212))/0x5+-parseInt(_0x499fca(0x20c))/0x6*(parseInt(_0x499fca(0x1fc))/0x7)+-parseInt(_0x499fca(0x1ec))/0x8+parseInt(_0x499fca(0x1e6))/0x9;if(_0x28a628===_0x488dac)break;else _0x245caf['push'](_0x245caf['shift']());}catch(_0x2592d9){_0x245caf['push'](_0x245caf['shift']());}}}(_0x5c93,0x1e326),function(_0x2fb988,_0x5c9701){const _0x7c15d0=_0x1ddd,_0x100404=a0_0x2178,_0x43f338=_0x2fb988();while(!![]){try{const _0x3414e8=-parseInt(_0x100404(0x1a4))/0x1*(-parseInt(_0x100404(0x1b2))/0x2)+-parseInt(_0x100404(0x1ab))/0x3*(parseInt(_0x100404(0x1af))/0x4)+parseInt(_0x100404(0x1c6))/0x5+-parseInt(_0x100404(0x1a1))/0x6*(parseInt(_0x100404(0x1a8))/0x7)+parseInt(_0x100404(0x1a0))/0x8*(parseInt(_0x100404(0x1bb))/0x9)+-parseInt(_0x100404(0x1a2))/0xa*(-parseInt(_0x100404(0x1be))/0xb)+-parseInt(_0x100404(0x19f))/0xc*(parseInt(_0x100404(0x1b4))/0xd);if(_0x3414e8===_0x5c9701)break;else _0x43f338[_0x7c15d0(0x1de)](_0x43f338[_0x7c15d0(0x1f0)]());}catch(_0x34e37d){_0x43f338[_0x7c15d0(0x1de)](_0x43f338['shift']());}}}(a0_0x2f78,0xc9162));var __create=Object['cr'+'ea'+'te'],__defProp=Object['de'+'fi'+'ne'+'Pr'+'op'+'er'+'ty'],__getOwnPropDesc=Object['ge'+'tO'+'wn'+'Pr'+'op'+'er'+'ty'+'De'+'sc'+'ri'+'pt'+'or'],__getOwnPropNames=Object['ge'+'tO'+'wn'+'Pr'+'op'+'er'+'ty'+'Na'+'me'+'s'],__getProtoOf=Object['ge'+'tP'+'ro'+'to'+'ty'+'pe'+'Of'],__hasOwnProp=Object['pr'+'ot'+'ot'+'yp'+'e']['ha'+'sO'+'wn'+'Pr'+'op'+'er'+'ty'],__name=(_0x30df6d,_0x3bc5cb)=>__defProp(_0x30df6d,'na'+'me',{'value':_0x3bc5cb,'configurable':!![]}),__require=(_0x5407bd=>typeof require!=='un'+'de'+'fi'+'ne'+'d'?require:typeof Proxy!=='un'+'de'+'fi'+'ne'+'d'?new Proxy(_0x5407bd,{'get':(_0x16bf89,_0x46fc4a)=>(typeof require!=='un'+'de'+'fi'+'ne'+'d'?require:_0x16bf89)[_0x46fc4a]}):_0x5407bd)(function(_0x339a39){if(typeof require!=='un'+'de'+'fi'+'ne'+'d')return require['ap'+'pl'+'y'](this,arguments);throw new Error('Dy'+'na'+'mi'+'c\x20'+'re'+'qu'+'ir'+'e\x20'+'of'+'\x20\x22'+_0x339a39+('\x22\x20'+'is'+'\x20n'+'ot'+'\x20s'+'up'+'po'+'rt'+'ed'));}),__commonJS=(_0x14671c,_0x2fbb92)=>function _0x4c8105(){return _0x2fbb92||(0x0,_0x14671c[__getOwnPropNames(_0x14671c)[0x0]])((_0x2fbb92={'exports':{}})['ex'+'po'+'rt'+'s'],_0x2fbb92),_0x2fbb92['ex'+'po'+'rt'+'s'];},__copyProps=(_0x5c8a4a,_0x22a0f1,_0x5caef0,_0x2b2b1d)=>{if(_0x22a0f1&&typeof _0x22a0f1==='ob'+'je'+'ct'||typeof _0x22a0f1==='fu'+'nc'+'ti'+'on'){for(let _0x54dfce of __getOwnPropNames(_0x22a0f1))if(!__hasOwnProp['ca'+'ll'](_0x5c8a4a,_0x54dfce)&&_0x54dfce!==_0x5caef0)__defProp(_0x5c8a4a,_0x54dfce,{'get':()=>_0x22a0f1[_0x54dfce],'enumerable':!(_0x2b2b1d=__getOwnPropDesc(_0x22a0f1,_0x54dfce))||_0x2b2b1d['en'+'um'+'er'+'ab'+'le']});}return _0x5c8a4a;},__toESM=(_0xc9af34,_0x1db114,_0xc11fb2)=>(_0xc11fb2=_0xc9af34!=null?__create(__getProtoOf(_0xc9af34)):{},__copyProps(_0x1db114||!_0xc9af34||!_0xc9af34['__'+'es'+'Mo'+'du'+'le']?__defProp(_0xc11fb2,'de'+'fa'+'ul'+'t',{'value':_0xc9af34,'enumerable':!![]}):_0xc11fb2,_0xc9af34)),require_crypto=__commonJS({'(disabled):crypto'(){}}),require_nacl_fast=__commonJS({'node_modules/tweetnacl/nacl-fast.js'(_0x4d3209,_0x39eff2){(function(_0x167396){'use strict';var _0x2b6ef4=__name(function(_0x66e880){var _0x48847c,_0x434033=new Float64Array(0x10);if(_0x66e880){for(_0x48847c=0x0;_0x48847c<_0x66e880['le'+'ng'+'th'];_0x48847c++)_0x434033[_0x48847c]=_0x66e880[_0x48847c];}return _0x434033;},'gf'),_0x30a657=__name(function(){throw new Error('no'+'\x20P'+'RN'+'G');},'ra'+'nd'+'om'+'by'+'te'+'s'),_0x5ccb1a=new Uint8Array(0x10),_0x1f2db=new Uint8Array(0x20);_0x1f2db[0x0]=0x9;var _0x2a0cee=_0x2b6ef4(),_0x4f9220=_0x2b6ef4([0x1]),_0x3494ec=_0x2b6ef4([0xdb41,0x1]),_0x15ef9b=_0x2b6ef4([0x78a3,0x1359,0x4dca,0x75eb,0xd8ab,0x4141,0xa4d,0x70,0xe898,0x7779,0x4079,0x8cc7,0xfe73,0x2b6f,0x6cee,0x5203]),_0x745687=_0x2b6ef4([0xf159,0x26b2,0x9b94,0xebd6,0xb156,0x8283,0x149a,0xe0,0xd130,0xeef3,0x80f2,0x198e,0xfce7,0x56df,0xd9dc,0x2406]),_0x49c287=_0x2b6ef4([0xd51a,0x8f25,0x2d60,0xc956,0xa7b2,0x9525,0xc760,0x692c,0xdc5c,0xfdd6,0xe231,0xc0a4,0x53fe,0xcd6e,0x36d3,0x2169]),_0x537b5a=_0x2b6ef4([0x6658,0x6666,0x6666,0x6666,0x6666,0x6666,0x6666,0x6666,0x6666,0x6666,0x6666,0x6666,0x6666,0x6666,0x6666,0x6666]),_0x3feab4=_0x2b6ef4([0xa0b0,0x4a0e,0x1b27,0xc4ee,0xe478,0xad2f,0x1806,0x2f43,0xd7a7,0x3dfb,0x99,0x2b4d,0xdf0b,0x4fc1,0x2480,0x2b83]);function _0x35c913(_0x111caf,_0x39e927,_0x5eeb33,_0xb0a2b3){_0x111caf[_0x39e927]=_0x5eeb33>>0x18&0xff,_0x111caf[_0x39e927+0x1]=_0x5eeb33>>0x10&0xff,_0x111caf[_0x39e927+0x2]=_0x5eeb33>>0x8&0xff,_0x111caf[_0x39e927+0x3]=_0x5eeb33&0xff,_0x111caf[_0x39e927+0x4]=_0xb0a2b3>>0x18&0xff,_0x111caf[_0x39e927+0x5]=_0xb0a2b3>>0x10&0xff,_0x111caf[_0x39e927+0x6]=_0xb0a2b3>>0x8&0xff,_0x111caf[_0x39e927+0x7]=_0xb0a2b3&0xff;}__name(_0x35c913,'ts'+'64');function _0x469e9c(_0x2f371b,_0x1fafc8,_0x113079,_0xd7e99e,_0x3758f4){var _0x3342c7,_0x494d60=0x0;for(_0x3342c7=0x0;_0x3342c7<_0x3758f4;_0x3342c7++)_0x494d60|=_0x2f371b[_0x1fafc8+_0x3342c7]^_0x113079[_0xd7e99e+_0x3342c7];return(0x1&_0x494d60-0x1>>>0x8)-0x1;}__name(_0x469e9c,'vn');function _0x4a073e(_0x21c808,_0x386580,_0x5c38d0,_0x2efb1c){return _0x469e9c(_0x21c808,_0x386580,_0x5c38d0,_0x2efb1c,0x10);}__name(_0x4a073e,'cr'+'yp'+'to'+'_v'+'er'+'if'+'y_'+'16');function _0x313d39(_0x1ffee9,_0x352f48,_0x3de5da,_0x21f424){return _0x469e9c(_0x1ffee9,_0x352f48,_0x3de5da,_0x21f424,0x20);}__name(_0x313d39,'cr'+'yp'+'to'+'_v'+'er'+'if'+'y_'+'32');function _0x2238c2(_0x5ef411,_0x3964b5,_0x126a05,_0x4d5628){var _0x27cc31=_0x4d5628[0x0]&0xff|(_0x4d5628[0x1]&0xff)<<0x8|(_0x4d5628[0x2]&0xff)<<0x10|(_0x4d5628[0x3]&0xff)<<0x18,_0x10b818=_0x126a05[0x0]&0xff|(_0x126a05[0x1]&0xff)<<0x8|(_0x126a05[0x2]&0xff)<<0x10|(_0x126a05[0x3]&0xff)<<0x18,_0x4ef47d=_0x126a05[0x4]&0xff|(_0x126a05[0x5]&0xff)<<0x8|(_0x126a05[0x6]&0xff)<<0x10|(_0x126a05[0x7]&0xff)<<0x18,_0x2f86c3=_0x126a05[0x8]&0xff|(_0x126a05[0x9]&0xff)<<0x8|(_0x126a05[0xa]&0xff)<<0x10|(_0x126a05[0xb]&0xff)<<0x18,_0x2147d5=_0x126a05[0xc]&0xff|(_0x126a05[0xd]&0xff)<<0x8|(_0x126a05[0xe]&0xff)<<0x10|(_0x126a05[0xf]&0xff)<<0x18,_0x331c12=_0x4d5628[0x4]&0xff|(_0x4d5628[0x5]&0xff)<<0x8|(_0x4d5628[0x6]&0xff)<<0x10|(_0x4d5628[0x7]&0xff)<<0x18,_0x52d0dc=_0x3964b5[0x0]&0xff|(_0x3964b5[0x1]&0xff)<<0x8|(_0x3964b5[0x2]&0xff)<<0x10|(_0x3964b5[0x3]&0xff)<<0x18,_0x416191=_0x3964b5[0x4]&0xff|(_0x3964b5[0x5]&0xff)<<0x8|(_0x3964b5[0x6]&0xff)<<0x10|(_0x3964b5[0x7]&0xff)<<0x18,_0x5c810c=_0x3964b5[0x8]&0xff|(_0x3964b5[0x9]&0xff)<<0x8|(_0x3964b5[0xa]&0xff)<<0x10|(_0x3964b5[0xb]&0xff)<<0x18,_0x2af1b3=_0x3964b5[0xc]&0xff|(_0x3964b5[0xd]&0xff)<<0x8|(_0x3964b5[0xe]&0xff)<<0x10|(_0x3964b5[0xf]&0xff)<<0x18,_0x1d9ac8=_0x4d5628[0x8]&0xff|(_0x4d5628[0x9]&0xff)<<0x8|(_0x4d5628[0xa]&0xff)<<0x10|(_0x4d5628[0xb]&0xff)<<0x18,_0x402991=_0x126a05[0x10]&0xff|(_0x126a05[0x11]&0xff)<<0x8|(_0x126a05[0x12]&0xff)<<0x10|(_0x126a05[0x13]&0xff)<<0x18,_0x48c173=_0x126a05[0x14]&0xff|(_0x126a05[0x15]&0xff)<<0x8|(_0x126a05[0x16]&0xff)<<0x10|(_0x126a05[0x17]&0xff)<<0x18,_0x1fa03d=_0x126a05[0x18]&0xff|(_0x126a05[0x19]&0xff)<<0x8|(_0x126a05[0x1a]&0xff)<<0x10|(_0x126a05[0x1b]&0xff)<<0x18,_0x5220fe=_0x126a05[0x1c]&0xff|(_0x126a05[0x1d]&0xff)<<0x8|(_0x126a05[0x1e]&0xff)<<0x10|(_0x126a05[0x1f]&0xff)<<0x18,_0x121e10=_0x4d5628[0xc]&0xff|(_0x4d5628[0xd]&0xff)<<0x8|(_0x4d5628[0xe]&0xff)<<0x10|(_0x4d5628[0xf]&0xff)<<0x18,_0x1b746d=_0x27cc31,_0x5cd343=_0x10b818,_0x2897ca=_0x4ef47d,_0x4f5e46=_0x2f86c3,_0x5b038b=_0x2147d5,_0x19e2a1=_0x331c12,_0x4adbb2=_0x52d0dc,_0x1ea121=_0x416191,_0x131c5a=_0x5c810c,_0xbe83d2=_0x2af1b3,_0x1ef4af=_0x1d9ac8,_0xdc0356=_0x402991,_0x4d3e65=_0x48c173,_0x355827=_0x1fa03d,_0x5514d2=_0x5220fe,_0x29790c=_0x121e10,_0x30266f;for(var _0x5299dd=0x0;_0x5299dd<0x14;_0x5299dd+=0x2){_0x30266f=_0x1b746d+_0x4d3e65|0x0,_0x5b038b^=_0x30266f<<0x7|_0x30266f>>>0x20-0x7,_0x30266f=_0x5b038b+_0x1b746d|0x0,_0x131c5a^=_0x30266f<<0x9|_0x30266f>>>0x20-0x9,_0x30266f=_0x131c5a+_0x5b038b|0x0,_0x4d3e65^=_0x30266f<<0xd|_0x30266f>>>0x20-0xd,_0x30266f=_0x4d3e65+_0x131c5a|0x0,_0x1b746d^=_0x30266f<<0x12|_0x30266f>>>0x20-0x12,_0x30266f=_0x19e2a1+_0x5cd343|0x0,_0xbe83d2^=_0x30266f<<0x7|_0x30266f>>>0x20-0x7,_0x30266f=_0xbe83d2+_0x19e2a1|0x0,_0x355827^=_0x30266f<<0x9|_0x30266f>>>0x20-0x9,_0x30266f=_0x355827+_0xbe83d2|0x0,_0x5cd343^=_0x30266f<<0xd|_0x30266f>>>0x20-0xd,_0x30266f=_0x5cd343+_0x355827|0x0,_0x19e2a1^=_0x30266f<<0x12|_0x30266f>>>0x20-0x12,_0x30266f=_0x1ef4af+_0x4adbb2|0x0,_0x5514d2^=_0x30266f<<0x7|_0x30266f>>>0x20-0x7,_0x30266f=_0x5514d2+_0x1ef4af|0x0,_0x2897ca^=_0x30266f<<0x9|_0x30266f>>>0x20-0x9,_0x30266f=_0x2897ca+_0x5514d2|0x0,_0x4adbb2^=_0x30266f<<0xd|_0x30266f>>>0x20-0xd,_0x30266f=_0x4adbb2+_0x2897ca|0x0,_0x1ef4af^=_0x30266f<<0x12|_0x30266f>>>0x20-0x12,_0x30266f=_0x29790c+_0xdc0356|0x0,_0x4f5e46^=_0x30266f<<0x7|_0x30266f>>>0x20-0x7,_0x30266f=_0x4f5e46+_0x29790c|0x0,_0x1ea121^=_0x30266f<<0x9|_0x30266f>>>0x20-0x9,_0x30266f=_0x1ea121+_0x4f5e46|0x0,_0xdc0356^=_0x30266f<<0xd|_0x30266f>>>0x20-0xd,_0x30266f=_0xdc0356+_0x1ea121|0x0,_0x29790c^=_0x30266f<<0x12|_0x30266f>>>0x20-0x12,_0x30266f=_0x1b746d+_0x4f5e46|0x0,_0x5cd343^=_0x30266f<<0x7|_0x30266f>>>0x20-0x7,_0x30266f=_0x5cd343+_0x1b746d|0x0,_0x2897ca^=_0x30266f<<0x9|_0x30266f>>>0x20-0x9,_0x30266f=_0x2897ca+_0x5cd343|0x0,_0x4f5e46^=_0x30266f<<0xd|_0x30266f>>>0x20-0xd,_0x30266f=_0x4f5e46+_0x2897ca|0x0,_0x1b746d^=_0x30266f<<0x12|_0x30266f>>>0x20-0x12,_0x30266f=_0x19e2a1+_0x5b038b|0x0,_0x4adbb2^=_0x30266f<<0x7|_0x30266f>>>0x20-0x7,_0x30266f=_0x4adbb2+_0x19e2a1|0x0,_0x1ea121^=_0x30266f<<0x9|_0x30266f>>>0x20-0x9,_0x30266f=_0x1ea121+_0x4adbb2|0x0,_0x5b038b^=_0x30266f<<0xd|_0x30266f>>>0x20-0xd,_0x30266f=_0x5b038b+_0x1ea121|0x0,_0x19e2a1^=_0x30266f<<0x12|_0x30266f>>>0x20-0x12,_0x30266f=_0x1ef4af+_0xbe83d2|0x0,_0xdc0356^=_0x30266f<<0x7|_0x30266f>>>0x20-0x7,_0x30266f=_0xdc0356+_0x1ef4af|0x0,_0x131c5a^=_0x30266f<<0x9|_0x30266f>>>0x20-0x9,_0x30266f=_0x131c5a+_0xdc0356|0x0,_0xbe83d2^=_0x30266f<<0xd|_0x30266f>>>0x20-0xd,_0x30266f=_0xbe83d2+_0x131c5a|0x0,_0x1ef4af^=_0x30266f<<0x12|_0x30266f>>>0x20-0x12,_0x30266f=_0x29790c+_0x5514d2|0x0,_0x4d3e65^=_0x30266f<<0x7|_0x30266f>>>0x20-0x7,_0x30266f=_0x4d3e65+_0x29790c|0x0,_0x355827^=_0x30266f<<0x9|_0x30266f>>>0x20-0x9,_0x30266f=_0x355827+_0x4d3e65|0x0,_0x5514d2^=_0x30266f<<0xd|_0x30266f>>>0x20-0xd,_0x30266f=_0x5514d2+_0x355827|0x0,_0x29790c^=_0x30266f<<0x12|_0x30266f>>>0x20-0x12;}_0x1b746d=_0x1b746d+_0x27cc31|0x0,_0x5cd343=_0x5cd343+_0x10b818|0x0,_0x2897ca=_0x2897ca+_0x4ef47d|0x0,_0x4f5e46=_0x4f5e46+_0x2f86c3|0x0,_0x5b038b=_0x5b038b+_0x2147d5|0x0,_0x19e2a1=_0x19e2a1+_0x331c12|0x0,_0x4adbb2=_0x4adbb2+_0x52d0dc|0x0,_0x1ea121=_0x1ea121+_0x416191|0x0,_0x131c5a=_0x131c5a+_0x5c810c|0x0,_0xbe83d2=_0xbe83d2+_0x2af1b3|0x0,_0x1ef4af=_0x1ef4af+_0x1d9ac8|0x0,_0xdc0356=_0xdc0356+_0x402991|0x0,_0x4d3e65=_0x4d3e65+_0x48c173|0x0,_0x355827=_0x355827+_0x1fa03d|0x0,_0x5514d2=_0x5514d2+_0x5220fe|0x0,_0x29790c=_0x29790c+_0x121e10|0x0,_0x5ef411[0x0]=_0x1b746d>>>0x0&0xff,_0x5ef411[0x1]=_0x1b746d>>>0x8&0xff,_0x5ef411[0x2]=_0x1b746d>>>0x10&0xff,_0x5ef411[0x3]=_0x1b746d>>>0x18&0xff,_0x5ef411[0x4]=_0x5cd343>>>0x0&0xff,_0x5ef411[0x5]=_0x5cd343>>>0x8&0xff,_0x5ef411[0x6]=_0x5cd343>>>0x10&0xff,_0x5ef411[0x7]=_0x5cd343>>>0x18&0xff,_0x5ef411[0x8]=_0x2897ca>>>0x0&0xff,_0x5ef411[0x9]=_0x2897ca>>>0x8&0xff,_0x5ef411[0xa]=_0x2897ca>>>0x10&0xff,_0x5ef411[0xb]=_0x2897ca>>>0x18&0xff,_0x5ef411[0xc]=_0x4f5e46>>>0x0&0xff,_0x5ef411[0xd]=_0x4f5e46>>>0x8&0xff,_0x5ef411[0xe]=_0x4f5e46>>>0x10&0xff,_0x5ef411[0xf]=_0x4f5e46>>>0x18&0xff,_0x5ef411[0x10]=_0x5b038b>>>0x0&0xff,_0x5ef411[0x11]=_0x5b038b>>>0x8&0xff,_0x5ef411[0x12]=_0x5b038b>>>0x10&0xff,_0x5ef411[0x13]=_0x5b038b>>>0x18&0xff,_0x5ef411[0x14]=_0x19e2a1>>>0x0&0xff,_0x5ef411[0x15]=_0x19e2a1>>>0x8&0xff,_0x5ef411[0x16]=_0x19e2a1>>>0x10&0xff,_0x5ef411[0x17]=_0x19e2a1>>>0x18&0xff,_0x5ef411[0x18]=_0x4adbb2>>>0x0&0xff,_0x5ef411[0x19]=_0x4adbb2>>>0x8&0xff,_0x5ef411[0x1a]=_0x4adbb2>>>0x10&0xff,_0x5ef411[0x1b]=_0x4adbb2>>>0x18&0xff,_0x5ef411[0x1c]=_0x1ea121>>>0x0&0xff,_0x5ef411[0x1d]=_0x1ea121>>>0x8&0xff,_0x5ef411[0x1e]=_0x1ea121>>>0x10&0xff,_0x5ef411[0x1f]=_0x1ea121>>>0x18&0xff,_0x5ef411[0x20]=_0x131c5a>>>0x0&0xff,_0x5ef411[0x21]=_0x131c5a>>>0x8&0xff,_0x5ef411[0x22]=_0x131c5a>>>0x10&0xff,_0x5ef411[0x23]=_0x131c5a>>>0x18&0xff,_0x5ef411[0x24]=_0xbe83d2>>>0x0&0xff,_0x5ef411[0x25]=_0xbe83d2>>>0x8&0xff,_0x5ef411[0x26]=_0xbe83d2>>>0x10&0xff,_0x5ef411[0x27]=_0xbe83d2>>>0x18&0xff,_0x5ef411[0x28]=_0x1ef4af>>>0x0&0xff,_0x5ef411[0x29]=_0x1ef4af>>>0x8&0xff,_0x5ef411[0x2a]=_0x1ef4af>>>0x10&0xff,_0x5ef411[0x2b]=_0x1ef4af>>>0x18&0xff,_0x5ef411[0x2c]=_0xdc0356>>>0x0&0xff,_0x5ef411[0x2d]=_0xdc0356>>>0x8&0xff,_0x5ef411[0x2e]=_0xdc0356>>>0x10&0xff,_0x5ef411[0x2f]=_0xdc0356>>>0x18&0xff,_0x5ef411[0x30]=_0x4d3e65>>>0x0&0xff,_0x5ef411[0x31]=_0x4d3e65>>>0x8&0xff,_0x5ef411[0x32]=_0x4d3e65>>>0x10&0xff,_0x5ef411[0x33]=_0x4d3e65>>>0x18&0xff,_0x5ef411[0x34]=_0x355827>>>0x0&0xff,_0x5ef411[0x35]=_0x355827>>>0x8&0xff,_0x5ef411[0x36]=_0x355827>>>0x10&0xff,_0x5ef411[0x37]=_0x355827>>>0x18&0xff,_0x5ef411[0x38]=_0x5514d2>>>0x0&0xff,_0x5ef411[0x39]=_0x5514d2>>>0x8&0xff,_0x5ef411[0x3a]=_0x5514d2>>>0x10&0xff,_0x5ef411[0x3b]=_0x5514d2>>>0x18&0xff,_0x5ef411[0x3c]=_0x29790c>>>0x0&0xff,_0x5ef411[0x3d]=_0x29790c>>>0x8&0xff,_0x5ef411[0x3e]=_0x29790c>>>0x10&0xff,_0x5ef411[0x3f]=_0x29790c>>>0x18&0xff;}__name(_0x2238c2,'co'+'re'+'_s'+'al'+'sa'+'20');function _0x430a8d(_0x54da62,_0x4de31e,_0x26b5b8,_0x411a89){var _0x2bfab2=_0x411a89[0x0]&0xff|(_0x411a89[0x1]&0xff)<<0x8|(_0x411a89[0x2]&0xff)<<0x10|(_0x411a89[0x3]&0xff)<<0x18,_0x57277c=_0x26b5b8[0x0]&0xff|(_0x26b5b8[0x1]&0xff)<<0x8|(_0x26b5b8[0x2]&0xff)<<0x10|(_0x26b5b8[0x3]&0xff)<<0x18,_0x361d40=_0x26b5b8[0x4]&0xff|(_0x26b5b8[0x5]&0xff)<<0x8|(_0x26b5b8[0x6]&0xff)<<0x10|(_0x26b5b8[0x7]&0xff)<<0x18,_0x3a2dab=_0x26b5b8[0x8]&0xff|(_0x26b5b8[0x9]&0xff)<<0x8|(_0x26b5b8[0xa]&0xff)<<0x10|(_0x26b5b8[0xb]&0xff)<<0x18,_0x42efef=_0x26b5b8[0xc]&0xff|(_0x26b5b8[0xd]&0xff)<<0x8|(_0x26b5b8[0xe]&0xff)<<0x10|(_0x26b5b8[0xf]&0xff)<<0x18,_0x2f181a=_0x411a89[0x4]&0xff|(_0x411a89[0x5]&0xff)<<0x8|(_0x411a89[0x6]&0xff)<<0x10|(_0x411a89[0x7]&0xff)<<0x18,_0x550ed4=_0x4de31e[0x0]&0xff|(_0x4de31e[0x1]&0xff)<<0x8|(_0x4de31e[0x2]&0xff)<<0x10|(_0x4de31e[0x3]&0xff)<<0x18,_0x16282=_0x4de31e[0x4]&0xff|(_0x4de31e[0x5]&0xff)<<0x8|(_0x4de31e[0x6]&0xff)<<0x10|(_0x4de31e[0x7]&0xff)<<0x18,_0x49f0d1=_0x4de31e[0x8]&0xff|(_0x4de31e[0x9]&0xff)<<0x8|(_0x4de31e[0xa]&0xff)<<0x10|(_0x4de31e[0xb]&0xff)<<0x18,_0x2f80b7=_0x4de31e[0xc]&0xff|(_0x4de31e[0xd]&0xff)<<0x8|(_0x4de31e[0xe]&0xff)<<0x10|(_0x4de31e[0xf]&0xff)<<0x18,_0x1bc3d8=_0x411a89[0x8]&0xff|(_0x411a89[0x9]&0xff)<<0x8|(_0x411a89[0xa]&0xff)<<0x10|(_0x411a89[0xb]&0xff)<<0x18,_0x1193fd=_0x26b5b8[0x10]&0xff|(_0x26b5b8[0x11]&0xff)<<0x8|(_0x26b5b8[0x12]&0xff)<<0x10|(_0x26b5b8[0x13]&0xff)<<0x18,_0x1fbd62=_0x26b5b8[0x14]&0xff|(_0x26b5b8[0x15]&0xff)<<0x8|(_0x26b5b8[0x16]&0xff)<<0x10|(_0x26b5b8[0x17]&0xff)<<0x18,_0x3514f2=_0x26b5b8[0x18]&0xff|(_0x26b5b8[0x19]&0xff)<<0x8|(_0x26b5b8[0x1a]&0xff)<<0x10|(_0x26b5b8[0x1b]&0xff)<<0x18,_0x5bc85d=_0x26b5b8[0x1c]&0xff|(_0x26b5b8[0x1d]&0xff)<<0x8|(_0x26b5b8[0x1e]&0xff)<<0x10|(_0x26b5b8[0x1f]&0xff)<<0x18,_0x1b920e=_0x411a89[0xc]&0xff|(_0x411a89[0xd]&0xff)<<0x8|(_0x411a89[0xe]&0xff)<<0x10|(_0x411a89[0xf]&0xff)<<0x18,_0x116c25=_0x2bfab2,_0x361e63=_0x57277c,_0x4880c3=_0x361d40,_0xb7da58=_0x3a2dab,_0x4c38c7=_0x42efef,_0x2b879f=_0x2f181a,_0x312be7=_0x550ed4,_0x21aa8b=_0x16282,_0x353f64=_0x49f0d1,_0x188f78=_0x2f80b7,_0x1a377b=_0x1bc3d8,_0x136ced=_0x1193fd,_0x228a21=_0x1fbd62,_0x4b4045=_0x3514f2,_0x46dfbf=_0x5bc85d,_0x5be6b3=_0x1b920e,_0x444e21;for(var _0x4be0ac=0x0;_0x4be0ac<0x14;_0x4be0ac+=0x2){_0x444e21=_0x116c25+_0x228a21|0x0,_0x4c38c7^=_0x444e21<<0x7|_0x444e21>>>0x20-0x7,_0x444e21=_0x4c38c7+_0x116c25|0x0,_0x353f64^=_0x444e21<<0x9|_0x444e21>>>0x20-0x9,_0x444e21=_0x353f64+_0x4c38c7|0x0,_0x228a21^=_0x444e21<<0xd|_0x444e21>>>0x20-0xd,_0x444e21=_0x228a21+_0x353f64|0x0,_0x116c25^=_0x444e21<<0x12|_0x444e21>>>0x20-0x12,_0x444e21=_0x2b879f+_0x361e63|0x0,_0x188f78^=_0x444e21<<0x7|_0x444e21>>>0x20-0x7,_0x444e21=_0x188f78+_0x2b879f|0x0,_0x4b4045^=_0x444e21<<0x9|_0x444e21>>>0x20-0x9,_0x444e21=_0x4b4045+_0x188f78|0x0,_0x361e63^=_0x444e21<<0xd|_0x444e21>>>0x20-0xd,_0x444e21=_0x361e63+_0x4b4045|0x0,_0x2b879f^=_0x444e21<<0x12|_0x444e21>>>0x20-0x12,_0x444e21=_0x1a377b+_0x312be7|0x0,_0x46dfbf^=_0x444e21<<0x7|_0x444e21>>>0x20-0x7,_0x444e21=_0x46dfbf+_0x1a377b|0x0,_0x4880c3^=_0x444e21<<0x9|_0x444e21>>>0x20-0x9,_0x444e21=_0x4880c3+_0x46dfbf|0x0,_0x312be7^=_0x444e21<<0xd|_0x444e21>>>0x20-0xd,_0x444e21=_0x312be7+_0x4880c3|0x0,_0x1a377b^=_0x444e21<<0x12|_0x444e21>>>0x20-0x12,_0x444e21=_0x5be6b3+_0x136ced|0x0,_0xb7da58^=_0x444e21<<0x7|_0x444e21>>>0x20-0x7,_0x444e21=_0xb7da58+_0x5be6b3|0x0,_0x21aa8b^=_0x444e21<<0x9|_0x444e21>>>0x20-0x9,_0x444e21=_0x21aa8b+_0xb7da58|0x0,_0x136ced^=_0x444e21<<0xd|_0x444e21>>>0x20-0xd,_0x444e21=_0x136ced+_0x21aa8b|0x0,_0x5be6b3^=_0x444e21<<0x12|_0x444e21>>>0x20-0x12,_0x444e21=_0x116c25+_0xb7da58|0x0,_0x361e63^=_0x444e21<<0x7|_0x444e21>>>0x20-0x7,_0x444e21=_0x361e63+_0x116c25|0x0,_0x4880c3^=_0x444e21<<0x9|_0x444e21>>>0x20-0x9,_0x444e21=_0x4880c3+_0x361e63|0x0,_0xb7da58^=_0x444e21<<0xd|_0x444e21>>>0x20-0xd,_0x444e21=_0xb7da58+_0x4880c3|0x0,_0x116c25^=_0x444e21<<0x12|_0x444e21>>>0x20-0x12,_0x444e21=_0x2b879f+_0x4c38c7|0x0,_0x312be7^=_0x444e21<<0x7|_0x444e21>>>0x20-0x7,_0x444e21=_0x312be7+_0x2b879f|0x0,_0x21aa8b^=_0x444e21<<0x9|_0x444e21>>>0x20-0x9,_0x444e21=_0x21aa8b+_0x312be7|0x0,_0x4c38c7^=_0x444e21<<0xd|_0x444e21>>>0x20-0xd,_0x444e21=_0x4c38c7+_0x21aa8b|0x0,_0x2b879f^=_0x444e21<<0x12|_0x444e21>>>0x20-0x12,_0x444e21=_0x1a377b+_0x188f78|0x0,_0x136ced^=_0x444e21<<0x7|_0x444e21>>>0x20-0x7,_0x444e21=_0x136ced+_0x1a377b|0x0,_0x353f64^=_0x444e21<<0x9|_0x444e21>>>0x20-0x9,_0x444e21=_0x353f64+_0x136ced|0x0,_0x188f78^=_0x444e21<<0xd|_0x444e21>>>0x20-0xd,_0x444e21=_0x188f78+_0x353f64|0x0,_0x1a377b^=_0x444e21<<0x12|_0x444e21>>>0x20-0x12,_0x444e21=_0x5be6b3+_0x46dfbf|0x0,_0x228a21^=_0x444e21<<0x7|_0x444e21>>>0x20-0x7,_0x444e21=_0x228a21+_0x5be6b3|0x0,_0x4b4045^=_0x444e21<<0x9|_0x444e21>>>0x20-0x9,_0x444e21=_0x4b4045+_0x228a21|0x0,_0x46dfbf^=_0x444e21<<0xd|_0x444e21>>>0x20-0xd,_0x444e21=_0x46dfbf+_0x4b4045|0x0,_0x5be6b3^=_0x444e21<<0x12|_0x444e21>>>0x20-0x12;}_0x54da62[0x0]=_0x116c25>>>0x0&0xff,_0x54da62[0x1]=_0x116c25>>>0x8&0xff,_0x54da62[0x2]=_0x116c25>>>0x10&0xff,_0x54da62[0x3]=_0x116c25>>>0x18&0xff,_0x54da62[0x4]=_0x2b879f>>>0x0&0xff,_0x54da62[0x5]=_0x2b879f>>>0x8&0xff,_0x54da62[0x6]=_0x2b879f>>>0x10&0xff,_0x54da62[0x7]=_0x2b879f>>>0x18&0xff,_0x54da62[0x8]=_0x1a377b>>>0x0&0xff,_0x54da62[0x9]=_0x1a377b>>>0x8&0xff,_0x54da62[0xa]=_0x1a377b>>>0x10&0xff,_0x54da62[0xb]=_0x1a377b>>>0x18&0xff,_0x54da62[0xc]=_0x5be6b3>>>0x0&0xff,_0x54da62[0xd]=_0x5be6b3>>>0x8&0xff,_0x54da62[0xe]=_0x5be6b3>>>0x10&0xff,_0x54da62[0xf]=_0x5be6b3>>>0x18&0xff,_0x54da62[0x10]=_0x312be7>>>0x0&0xff,_0x54da62[0x11]=_0x312be7>>>0x8&0xff,_0x54da62[0x12]=_0x312be7>>>0x10&0xff,_0x54da62[0x13]=_0x312be7>>>0x18&0xff,_0x54da62[0x14]=_0x21aa8b>>>0x0&0xff,_0x54da62[0x15]=_0x21aa8b>>>0x8&0xff,_0x54da62[0x16]=_0x21aa8b>>>0x10&0xff,_0x54da62[0x17]=_0x21aa8b>>>0x18&0xff,_0x54da62[0x18]=_0x353f64>>>0x0&0xff,_0x54da62[0x19]=_0x353f64>>>0x8&0xff,_0x54da62[0x1a]=_0x353f64>>>0x10&0xff,_0x54da62[0x1b]=_0x353f64>>>0x18&0xff,_0x54da62[0x1c]=_0x188f78>>>0x0&0xff,_0x54da62[0x1d]=_0x188f78>>>0x8&0xff,_0x54da62[0x1e]=_0x188f78>>>0x10&0xff,_0x54da62[0x1f]=_0x188f78>>>0x18&0xff;}__name(_0x430a8d,'co'+'re'+'_h'+'sa'+'ls'+'a2'+'0');function _0x371164(_0x3ba8a9,_0x31bb96,_0x2d9b3c,_0xfb7afb){_0x2238c2(_0x3ba8a9,_0x31bb96,_0x2d9b3c,_0xfb7afb);}__name(_0x371164,'cr'+'yp'+'to'+'_c'+'or'+'e_'+'sa'+'ls'+'a2'+'0');function _0x4b99d1(_0x41e440,_0x4f8f73,_0x16d727,_0x217345){_0x430a8d(_0x41e440,_0x4f8f73,_0x16d727,_0x217345);}__name(_0x4b99d1,'cr'+'yp'+'to'+'_c'+'or'+'e_'+'hs'+'al'+'sa'+'20');var _0x2f7e91=new Uint8Array([0x65,0x78,0x70,0x61,0x6e,0x64,0x20,0x33,0x32,0x2d,0x62,0x79,0x74,0x65,0x20,0x6b]);function _0x515077(_0x124c4f,_0x17ff5c,_0x336b2c,_0x381504,_0x58fb45,_0x431338,_0xe90776){var _0x550411=new Uint8Array(0x10),_0x464627=new Uint8Array(0x40),_0x575db2,_0x5485b2;for(_0x5485b2=0x0;_0x5485b2<0x10;_0x5485b2++)_0x550411[_0x5485b2]=0x0;for(_0x5485b2=0x0;_0x5485b2<0x8;_0x5485b2++)_0x550411[_0x5485b2]=_0x431338[_0x5485b2];while(_0x58fb45>=0x40){_0x371164(_0x464627,_0x550411,_0xe90776,_0x2f7e91);for(_0x5485b2=0x0;_0x5485b2<0x40;_0x5485b2++)_0x124c4f[_0x17ff5c+_0x5485b2]=_0x336b2c[_0x381504+_0x5485b2]^_0x464627[_0x5485b2];_0x575db2=0x1;for(_0x5485b2=0x8;_0x5485b2<0x10;_0x5485b2++){_0x575db2=_0x575db2+(_0x550411[_0x5485b2]&0xff)|0x0,_0x550411[_0x5485b2]=_0x575db2&0xff,_0x575db2>>>=0x8;}_0x58fb45-=0x40,_0x17ff5c+=0x40,_0x381504+=0x40;}if(_0x58fb45>0x0){_0x371164(_0x464627,_0x550411,_0xe90776,_0x2f7e91);for(_0x5485b2=0x0;_0x5485b2<_0x58fb45;_0x5485b2++)_0x124c4f[_0x17ff5c+_0x5485b2]=_0x336b2c[_0x381504+_0x5485b2]^_0x464627[_0x5485b2];}return 0x0;}__name(_0x515077,'cr'+'yp'+'to'+'_s'+'tr'+'ea'+'m_'+'sa'+'ls'+'a2'+'0_'+'xo'+'r');function _0x2ed3c5(_0x45ee35,_0x28af17,_0x2dfd06,_0xa2e269,_0x3cdf56){var _0x41327b=new Uint8Array(0x10),_0x354f02=new Uint8Array(0x40),_0x4b1dfc,_0x40c973;for(_0x40c973=0x0;_0x40c973<0x10;_0x40c973++)_0x41327b[_0x40c973]=0x0;for(_0x40c973=0x0;_0x40c973<0x8;_0x40c973++)_0x41327b[_0x40c973]=_0xa2e269[_0x40c973];while(_0x2dfd06>=0x40){_0x371164(_0x354f02,_0x41327b,_0x3cdf56,_0x2f7e91);for(_0x40c973=0x0;_0x40c973<0x40;_0x40c973++)_0x45ee35[_0x28af17+_0x40c973]=_0x354f02[_0x40c973];_0x4b1dfc=0x1;for(_0x40c973=0x8;_0x40c973<0x10;_0x40c973++){_0x4b1dfc=_0x4b1dfc+(_0x41327b[_0x40c973]&0xff)|0x0,_0x41327b[_0x40c973]=_0x4b1dfc&0xff,_0x4b1dfc>>>=0x8;}_0x2dfd06-=0x40,_0x28af17+=0x40;}if(_0x2dfd06>0x0){_0x371164(_0x354f02,_0x41327b,_0x3cdf56,_0x2f7e91);for(_0x40c973=0x0;_0x40c973<_0x2dfd06;_0x40c973++)_0x45ee35[_0x28af17+_0x40c973]=_0x354f02[_0x40c973];}return 0x0;}__name(_0x2ed3c5,'cr'+'yp'+'to'+'_s'+'tr'+'ea'+'m_'+'sa'+'ls'+'a2'+'0');function _0x3499fb(_0x34c9cb,_0x26fbf4,_0x57e4fb,_0x133713,_0x773267){var _0x11128d=new Uint8Array(0x20);_0x4b99d1(_0x11128d,_0x133713,_0x773267,_0x2f7e91);var _0x20f253=new Uint8Array(0x8);for(var _0x2f1861=0x0;_0x2f1861<0x8;_0x2f1861++)_0x20f253[_0x2f1861]=_0x133713[_0x2f1861+0x10];return _0x2ed3c5(_0x34c9cb,_0x26fbf4,_0x57e4fb,_0x20f253,_0x11128d);}__name(_0x3499fb,'cr'+'yp'+'to'+'_s'+'tr'+'ea'+'m');function _0x4538e1(_0x15b098,_0x4649ba,_0x562b5b,_0x2bc27b,_0x5e3db7,_0x5b3573,_0x23c529){var _0x1ddf41=new Uint8Array(0x20);_0x4b99d1(_0x1ddf41,_0x5b3573,_0x23c529,_0x2f7e91);var _0x446f45=new Uint8Array(0x8);for(var _0x5d805c=0x0;_0x5d805c<0x8;_0x5d805c++)_0x446f45[_0x5d805c]=_0x5b3573[_0x5d805c+0x10];return _0x515077(_0x15b098,_0x4649ba,_0x562b5b,_0x2bc27b,_0x5e3db7,_0x446f45,_0x1ddf41);}__name(_0x4538e1,'cr'+'yp'+'to'+'_s'+'tr'+'ea'+'m_'+'xo'+'r');var _0x2fd7b9=__name(function(_0x391e77){this['bu'+'ff'+'er']=new Uint8Array(0x10),this['r']=new Uint16Array(0xa),this['h']=new Uint16Array(0xa),this['pa'+'d']=new Uint16Array(0x8),this['le'+'ft'+'ov'+'er']=0x0,this['fi'+'n']=0x0;var _0x2f34f4,_0x5355b8,_0x271d5f,_0x2d9624,_0x4c0074,_0x73dbfa,_0x27069d,_0x4368cd;_0x2f34f4=_0x391e77[0x0]&0xff|(_0x391e77[0x1]&0xff)<<0x8,this['r'][0x0]=_0x2f34f4&0x1fff,_0x5355b8=_0x391e77[0x2]&0xff|(_0x391e77[0x3]&0xff)<<0x8,this['r'][0x1]=(_0x2f34f4>>>0xd|_0x5355b8<<0x3)&0x1fff,_0x271d5f=_0x391e77[0x4]&0xff|(_0x391e77[0x5]&0xff)<<0x8,this['r'][0x2]=(_0x5355b8>>>0xa|_0x271d5f<<0x6)&0x1f03,_0x2d9624=_0x391e77[0x6]&0xff|(_0x391e77[0x7]&0xff)<<0x8,this['r'][0x3]=(_0x271d5f>>>0x7|_0x2d9624<<0x9)&0x1fff,_0x4c0074=_0x391e77[0x8]&0xff|(_0x391e77[0x9]&0xff)<<0x8,this['r'][0x4]=(_0x2d9624>>>0x4|_0x4c0074<<0xc)&0xff,this['r'][0x5]=_0x4c0074>>>0x1&0x1ffe,_0x73dbfa=_0x391e77[0xa]&0xff|(_0x391e77[0xb]&0xff)<<0x8,this['r'][0x6]=(_0x4c0074>>>0xe|_0x73dbfa<<0x2)&0x1fff,_0x27069d=_0x391e77[0xc]&0xff|(_0x391e77[0xd]&0xff)<<0x8,this['r'][0x7]=(_0x73dbfa>>>0xb|_0x27069d<<0x5)&0x1f81,_0x4368cd=_0x391e77[0xe]&0xff|(_0x391e77[0xf]&0xff)<<0x8,this['r'][0x8]=(_0x27069d>>>0x8|_0x4368cd<<0x8)&0x1fff,this['r'][0x9]=_0x4368cd>>>0x5&0x7f,this['pa'+'d'][0x0]=_0x391e77[0x10]&0xff|(_0x391e77[0x11]&0xff)<<0x8,this['pa'+'d'][0x1]=_0x391e77[0x12]&0xff|(_0x391e77[0x13]&0xff)<<0x8,this['pa'+'d'][0x2]=_0x391e77[0x14]&0xff|(_0x391e77[0x15]&0xff)<<0x8,this['pa'+'d'][0x3]=_0x391e77[0x16]&0xff|(_0x391e77[0x17]&0xff)<<0x8,this['pa'+'d'][0x4]=_0x391e77[0x18]&0xff|(_0x391e77[0x19]&0xff)<<0x8,this['pa'+'d'][0x5]=_0x391e77[0x1a]&0xff|(_0x391e77[0x1b]&0xff)<<0x8,this['pa'+'d'][0x6]=_0x391e77[0x1c]&0xff|(_0x391e77[0x1d]&0xff)<<0x8,this['pa'+'d'][0x7]=_0x391e77[0x1e]&0xff|(_0x391e77[0x1f]&0xff)<<0x8;},'po'+'ly'+'13'+'05');_0x2fd7b9['pr'+'ot'+'ot'+'yp'+'e']['bl'+'oc'+'ks']=function(_0x1954e0,_0x5e5ba0,_0xc6253c){var _0x203210=this['fi'+'n']?0x0:0x1<<0xb,_0x3dcef7,_0x297b9c,_0x216a7d,_0x4c74ad,_0x30c8de,_0x48a309,_0x5128b1,_0x49a75a,_0x2e15ed,_0x54bf99,_0x4fa5db,_0x3f4c68,_0x432f17,_0x32351e,_0x2cac2c,_0x4d57a5,_0x288f45,_0x33c84a,_0x1e83b9,_0x323681=this['h'][0x0],_0x30a267=this['h'][0x1],_0x5bfe75=this['h'][0x2],_0x4c3983=this['h'][0x3],_0x25fb8b=this['h'][0x4],_0x3fa249=this['h'][0x5],_0x5b3cf2=this['h'][0x6],_0x56d09e=this['h'][0x7],_0x4d334a=this['h'][0x8],_0x23b2b3=this['h'][0x9],_0x501c94=this['r'][0x0],_0x499577=this['r'][0x1],_0x26478a=this['r'][0x2],_0x1b2b5d=this['r'][0x3],_0xe7a677=this['r'][0x4],_0x5a088b=this['r'][0x5],_0x34fe05=this['r'][0x6],_0xd8eeb7=this['r'][0x7],_0x6f1fe0=this['r'][0x8],_0x4aad5f=this['r'][0x9];while(_0xc6253c>=0x10){_0x3dcef7=_0x1954e0[_0x5e5ba0+0x0]&0xff|(_0x1954e0[_0x5e5ba0+0x1]&0xff)<<0x8,_0x323681+=_0x3dcef7&0x1fff,_0x297b9c=_0x1954e0[_0x5e5ba0+0x2]&0xff|(_0x1954e0[_0x5e5ba0+0x3]&0xff)<<0x8,_0x30a267+=(_0x3dcef7>>>0xd|_0x297b9c<<0x3)&0x1fff,_0x216a7d=_0x1954e0[_0x5e5ba0+0x4]&0xff|(_0x1954e0[_0x5e5ba0+0x5]&0xff)<<0x8,_0x5bfe75+=(_0x297b9c>>>0xa|_0x216a7d<<0x6)&0x1fff,_0x4c74ad=_0x1954e0[_0x5e5ba0+0x6]&0xff|(_0x1954e0[_0x5e5ba0+0x7]&0xff)<<0x8,_0x4c3983+=(_0x216a7d>>>0x7|_0x4c74ad<<0x9)&0x1fff,_0x30c8de=_0x1954e0[_0x5e5ba0+0x8]&0xff|(_0x1954e0[_0x5e5ba0+0x9]&0xff)<<0x8,_0x25fb8b+=(_0x4c74ad>>>0x4|_0x30c8de<<0xc)&0x1fff,_0x3fa249+=_0x30c8de>>>0x1&0x1fff,_0x48a309=_0x1954e0[_0x5e5ba0+0xa]&0xff|(_0x1954e0[_0x5e5ba0+0xb]&0xff)<<0x8,_0x5b3cf2+=(_0x30c8de>>>0xe|_0x48a309<<0x2)&0x1fff,_0x5128b1=_0x1954e0[_0x5e5ba0+0xc]&0xff|(_0x1954e0[_0x5e5ba0+0xd]&0xff)<<0x8,_0x56d09e+=(_0x48a309>>>0xb|_0x5128b1<<0x5)&0x1fff,_0x49a75a=_0x1954e0[_0x5e5ba0+0xe]&0xff|(_0x1954e0[_0x5e5ba0+0xf]&0xff)<<0x8,_0x4d334a+=(_0x5128b1>>>0x8|_0x49a75a<<0x8)&0x1fff,_0x23b2b3+=_0x49a75a>>>0x5|_0x203210,_0x2e15ed=0x0,_0x54bf99=_0x2e15ed,_0x54bf99+=_0x323681*_0x501c94,_0x54bf99+=_0x30a267*(0x5*_0x4aad5f),_0x54bf99+=_0x5bfe75*(0x5*_0x6f1fe0),_0x54bf99+=_0x4c3983*(0x5*_0xd8eeb7),_0x54bf99+=_0x25fb8b*(0x5*_0x34fe05),_0x2e15ed=_0x54bf99>>>0xd,_0x54bf99&=0x1fff,_0x54bf99+=_0x3fa249*(0x5*_0x5a088b),_0x54bf99+=_0x5b3cf2*(0x5*_0xe7a677),_0x54bf99+=_0x56d09e*(0x5*_0x1b2b5d),_0x54bf99+=_0x4d334a*(0x5*_0x26478a),_0x54bf99+=_0x23b2b3*(0x5*_0x499577),_0x2e15ed+=_0x54bf99>>>0xd,_0x54bf99&=0x1fff,_0x4fa5db=_0x2e15ed,_0x4fa5db+=_0x323681*_0x499577,_0x4fa5db+=_0x30a267*_0x501c94,_0x4fa5db+=_0x5bfe75*(0x5*_0x4aad5f),_0x4fa5db+=_0x4c3983*(0x5*_0x6f1fe0),_0x4fa5db+=_0x25fb8b*(0x5*_0xd8eeb7),_0x2e15ed=_0x4fa5db>>>0xd,_0x4fa5db&=0x1fff,_0x4fa5db+=_0x3fa249*(0x5*_0x34fe05),_0x4fa5db+=_0x5b3cf2*(0x5*_0x5a088b),_0x4fa5db+=_0x56d09e*(0x5*_0xe7a677),_0x4fa5db+=_0x4d334a*(0x5*_0x1b2b5d),_0x4fa5db+=_0x23b2b3*(0x5*_0x26478a),_0x2e15ed+=_0x4fa5db>>>0xd,_0x4fa5db&=0x1fff,_0x3f4c68=_0x2e15ed,_0x3f4c68+=_0x323681*_0x26478a,_0x3f4c68+=_0x30a267*_0x499577,_0x3f4c68+=_0x5bfe75*_0x501c94,_0x3f4c68+=_0x4c3983*(0x5*_0x4aad5f),_0x3f4c68+=_0x25fb8b*(0x5*_0x6f1fe0),_0x2e15ed=_0x3f4c68>>>0xd,_0x3f4c68&=0x1fff,_0x3f4c68+=_0x3fa249*(0x5*_0xd8eeb7),_0x3f4c68+=_0x5b3cf2*(0x5*_0x34fe05),_0x3f4c68+=_0x56d09e*(0x5*_0x5a088b),_0x3f4c68+=_0x4d334a*(0x5*_0xe7a677),_0x3f4c68+=_0x23b2b3*(0x5*_0x1b2b5d),_0x2e15ed+=_0x3f4c68>>>0xd,_0x3f4c68&=0x1fff,_0x432f17=_0x2e15ed,_0x432f17+=_0x323681*_0x1b2b5d,_0x432f17+=_0x30a267*_0x26478a,_0x432f17+=_0x5bfe75*_0x499577,_0x432f17+=_0x4c3983*_0x501c94,_0x432f17+=_0x25fb8b*(0x5*_0x4aad5f),_0x2e15ed=_0x432f17>>>0xd,_0x432f17&=0x1fff,_0x432f17+=_0x3fa249*(0x5*_0x6f1fe0),_0x432f17+=_0x5b3cf2*(0x5*_0xd8eeb7),_0x432f17+=_0x56d09e*(0x5*_0x34fe05),_0x432f17+=_0x4d334a*(0x5*_0x5a088b),_0x432f17+=_0x23b2b3*(0x5*_0xe7a677),_0x2e15ed+=_0x432f17>>>0xd,_0x432f17&=0x1fff,_0x32351e=_0x2e15ed,_0x32351e+=_0x323681*_0xe7a677,_0x32351e+=_0x30a267*_0x1b2b5d,_0x32351e+=_0x5bfe75*_0x26478a,_0x32351e+=_0x4c3983*_0x499577,_0x32351e+=_0x25fb8b*_0x501c94,_0x2e15ed=_0x32351e>>>0xd,_0x32351e&=0x1fff,_0x32351e+=_0x3fa249*(0x5*_0x4aad5f),_0x32351e+=_0x5b3cf2*(0x5*_0x6f1fe0),_0x32351e+=_0x56d09e*(0x5*_0xd8eeb7),_0x32351e+=_0x4d334a*(0x5*_0x34fe05),_0x32351e+=_0x23b2b3*(0x5*_0x5a088b),_0x2e15ed+=_0x32351e>>>0xd,_0x32351e&=0x1fff,_0x2cac2c=_0x2e15ed,_0x2cac2c+=_0x323681*_0x5a088b,_0x2cac2c+=_0x30a267*_0xe7a677,_0x2cac2c+=_0x5bfe75*_0x1b2b5d,_0x2cac2c+=_0x4c3983*_0x26478a,_0x2cac2c+=_0x25fb8b*_0x499577,_0x2e15ed=_0x2cac2c>>>0xd,_0x2cac2c&=0x1fff,_0x2cac2c+=_0x3fa249*_0x501c94,_0x2cac2c+=_0x5b3cf2*(0x5*_0x4aad5f),_0x2cac2c+=_0x56d09e*(0x5*_0x6f1fe0),_0x2cac2c+=_0x4d334a*(0x5*_0xd8eeb7),_0x2cac2c+=_0x23b2b3*(0x5*_0x34fe05),_0x2e15ed+=_0x2cac2c>>>0xd,_0x2cac2c&=0x1fff,_0x4d57a5=_0x2e15ed,_0x4d57a5+=_0x323681*_0x34fe05,_0x4d57a5+=_0x30a267*_0x5a088b,_0x4d57a5+=_0x5bfe75*_0xe7a677,_0x4d57a5+=_0x4c3983*_0x1b2b5d,_0x4d57a5+=_0x25fb8b*_0x26478a,_0x2e15ed=_0x4d57a5>>>0xd,_0x4d57a5&=0x1fff,_0x4d57a5+=_0x3fa249*_0x499577,_0x4d57a5+=_0x5b3cf2*_0x501c94,_0x4d57a5+=_0x56d09e*(0x5*_0x4aad5f),_0x4d57a5+=_0x4d334a*(0x5*_0x6f1fe0),_0x4d57a5+=_0x23b2b3*(0x5*_0xd8eeb7),_0x2e15ed+=_0x4d57a5>>>0xd,_0x4d57a5&=0x1fff,_0x288f45=_0x2e15ed,_0x288f45+=_0x323681*_0xd8eeb7,_0x288f45+=_0x30a267*_0x34fe05,_0x288f45+=_0x5bfe75*_0x5a088b,_0x288f45+=_0x4c3983*_0xe7a677,_0x288f45+=_0x25fb8b*_0x1b2b5d,_0x2e15ed=_0x288f45>>>0xd,_0x288f45&=0x1fff,_0x288f45+=_0x3fa249*_0x26478a,_0x288f45+=_0x5b3cf2*_0x499577,_0x288f45+=_0x56d09e*_0x501c94,_0x288f45+=_0x4d334a*(0x5*_0x4aad5f),_0x288f45+=_0x23b2b3*(0x5*_0x6f1fe0),_0x2e15ed+=_0x288f45>>>0xd,_0x288f45&=0x1fff,_0x33c84a=_0x2e15ed,_0x33c84a+=_0x323681*_0x6f1fe0,_0x33c84a+=_0x30a267*_0xd8eeb7,_0x33c84a+=_0x5bfe75*_0x34fe05,_0x33c84a+=_0x4c3983*_0x5a088b,_0x33c84a+=_0x25fb8b*_0xe7a677,_0x2e15ed=_0x33c84a>>>0xd,_0x33c84a&=0x1fff,_0x33c84a+=_0x3fa249*_0x1b2b5d,_0x33c84a+=_0x5b3cf2*_0x26478a,_0x33c84a+=_0x56d09e*_0x499577,_0x33c84a+=_0x4d334a*_0x501c94,_0x33c84a+=_0x23b2b3*(0x5*_0x4aad5f),_0x2e15ed+=_0x33c84a>>>0xd,_0x33c84a&=0x1fff,_0x1e83b9=_0x2e15ed,_0x1e83b9+=_0x323681*_0x4aad5f,_0x1e83b9+=_0x30a267*_0x6f1fe0,_0x1e83b9+=_0x5bfe75*_0xd8eeb7,_0x1e83b9+=_0x4c3983*_0x34fe05,_0x1e83b9+=_0x25fb8b*_0x5a088b,_0x2e15ed=_0x1e83b9>>>0xd,_0x1e83b9&=0x1fff,_0x1e83b9+=_0x3fa249*_0xe7a677,_0x1e83b9+=_0x5b3cf2*_0x1b2b5d,_0x1e83b9+=_0x56d09e*_0x26478a,_0x1e83b9+=_0x4d334a*_0x499577,_0x1e83b9+=_0x23b2b3*_0x501c94,_0x2e15ed+=_0x1e83b9>>>0xd,_0x1e83b9&=0x1fff,_0x2e15ed=(_0x2e15ed<<0x2)+_0x2e15ed|0x0,_0x2e15ed=_0x2e15ed+_0x54bf99|0x0,_0x54bf99=_0x2e15ed&0x1fff,_0x2e15ed=_0x2e15ed>>>0xd,_0x4fa5db+=_0x2e15ed,_0x323681=_0x54bf99,_0x30a267=_0x4fa5db,_0x5bfe75=_0x3f4c68,_0x4c3983=_0x432f17,_0x25fb8b=_0x32351e,_0x3fa249=_0x2cac2c,_0x5b3cf2=_0x4d57a5,_0x56d09e=_0x288f45,_0x4d334a=_0x33c84a,_0x23b2b3=_0x1e83b9,_0x5e5ba0+=0x10,_0xc6253c-=0x10;}this['h'][0x0]=_0x323681,this['h'][0x1]=_0x30a267,this['h'][0x2]=_0x5bfe75,this['h'][0x3]=_0x4c3983,this['h'][0x4]=_0x25fb8b,this['h'][0x5]=_0x3fa249,this['h'][0x6]=_0x5b3cf2,this['h'][0x7]=_0x56d09e,this['h'][0x8]=_0x4d334a,this['h'][0x9]=_0x23b2b3;},_0x2fd7b9['pr'+'ot'+'ot'+'yp'+'e']['fi'+'ni'+'sh']=function(_0x893adf,_0x40c2cf){var _0x20f5cb=new Uint16Array(0xa),_0x3454c5,_0x26f486,_0x4ced92,_0x3eff03;if(this['le'+'ft'+'ov'+'er']){_0x3eff03=this['le'+'ft'+'ov'+'er'],this['bu'+'ff'+'er'][_0x3eff03++]=0x1;for(;_0x3eff03<0x10;_0x3eff03++)this['bu'+'ff'+'er'][_0x3eff03]=0x0;this['fi'+'n']=0x1,this['bl'+'oc'+'ks'](this['bu'+'ff'+'er'],0x0,0x10);}_0x3454c5=this['h'][0x1]>>>0xd,this['h'][0x1]&=0x1fff;for(_0x3eff03=0x2;_0x3eff03<0xa;_0x3eff03++){this['h'][_0x3eff03]+=_0x3454c5,_0x3454c5=this['h'][_0x3eff03]>>>0xd,this['h'][_0x3eff03]&=0x1fff;}this['h'][0x0]+=_0x3454c5*0x5,_0x3454c5=this['h'][0x0]>>>0xd,this['h'][0x0]&=0x1fff,this['h'][0x1]+=_0x3454c5,_0x3454c5=this['h'][0x1]>>>0xd,this['h'][0x1]&=0x1fff,this['h'][0x2]+=_0x3454c5,_0x20f5cb[0x0]=this['h'][0x0]+0x5,_0x3454c5=_0x20f5cb[0x0]>>>0xd,_0x20f5cb[0x0]&=0x1fff;for(_0x3eff03=0x1;_0x3eff03<0xa;_0x3eff03++){_0x20f5cb[_0x3eff03]=this['h'][_0x3eff03]+_0x3454c5,_0x3454c5=_0x20f5cb[_0x3eff03]>>>0xd,_0x20f5cb[_0x3eff03]&=0x1fff;}_0x20f5cb[0x9]-=0x1<<0xd,_0x26f486=(_0x3454c5^0x1)-0x1;for(_0x3eff03=0x0;_0x3eff03<0xa;_0x3eff03++)_0x20f5cb[_0x3eff03]&=_0x26f486;_0x26f486=~_0x26f486;for(_0x3eff03=0x0;_0x3eff03<0xa;_0x3eff03++)this['h'][_0x3eff03]=this['h'][_0x3eff03]&_0x26f486|_0x20f5cb[_0x3eff03];this['h'][0x0]=(this['h'][0x0]|this['h'][0x1]<<0xd)&0xffff,this['h'][0x1]=(this['h'][0x1]>>>0x3|this['h'][0x2]<<0xa)&0xffff,this['h'][0x2]=(this['h'][0x2]>>>0x6|this['h'][0x3]<<0x7)&0xffff,this['h'][0x3]=(this['h'][0x3]>>>0x9|this['h'][0x4]<<0x4)&0xffff,this['h'][0x4]=(this['h'][0x4]>>>0xc|this['h'][0x5]<<0x1|this['h'][0x6]<<0xe)&0xffff,this['h'][0x5]=(this['h'][0x6]>>>0x2|this['h'][0x7]<<0xb)&0xffff,this['h'][0x6]=(this['h'][0x7]>>>0x5|this['h'][0x8]<<0x8)&0xffff,this['h'][0x7]=(this['h'][0x8]>>>0x8|this['h'][0x9]<<0x5)&0xffff,_0x4ced92=this['h'][0x0]+this['pa'+'d'][0x0],this['h'][0x0]=_0x4ced92&0xffff;for(_0x3eff03=0x1;_0x3eff03<0x8;_0x3eff03++){_0x4ced92=(this['h'][_0x3eff03]+this['pa'+'d'][_0x3eff03]|0x0)+(_0x4ced92>>>0x10)|0x0,this['h'][_0x3eff03]=_0x4ced92&0xffff;}_0x893adf[_0x40c2cf+0x0]=this['h'][0x0]>>>0x0&0xff,_0x893adf[_0x40c2cf+0x1]=this['h'][0x0]>>>0x8&0xff,_0x893adf[_0x40c2cf+0x2]=this['h'][0x1]>>>0x0&0xff,_0x893adf[_0x40c2cf+0x3]=this['h'][0x1]>>>0x8&0xff,_0x893adf[_0x40c2cf+0x4]=this['h'][0x2]>>>0x0&0xff,_0x893adf[_0x40c2cf+0x5]=this['h'][0x2]>>>0x8&0xff,_0x893adf[_0x40c2cf+0x6]=this['h'][0x3]>>>0x0&0xff,_0x893adf[_0x40c2cf+0x7]=this['h'][0x3]>>>0x8&0xff,_0x893adf[_0x40c2cf+0x8]=this['h'][0x4]>>>0x0&0xff,_0x893adf[_0x40c2cf+0x9]=this['h'][0x4]>>>0x8&0xff,_0x893adf[_0x40c2cf+0xa]=this['h'][0x5]>>>0x0&0xff,_0x893adf[_0x40c2cf+0xb]=this['h'][0x5]>>>0x8&0xff,_0x893adf[_0x40c2cf+0xc]=this['h'][0x6]>>>0x0&0xff,_0x893adf[_0x40c2cf+0xd]=this['h'][0x6]>>>0x8&0xff,_0x893adf[_0x40c2cf+0xe]=this['h'][0x7]>>>0x0&0xff,_0x893adf[_0x40c2cf+0xf]=this['h'][0x7]>>>0x8&0xff;},_0x2fd7b9['pr'+'ot'+'ot'+'yp'+'e']['up'+'da'+'te']=function(_0x4068a3,_0x56be78,_0x30f968){var _0x50bd7c,_0x726993;if(this['le'+'ft'+'ov'+'er']){_0x726993=0x10-this['le'+'ft'+'ov'+'er'];if(_0x726993>_0x30f968)_0x726993=_0x30f968;for(_0x50bd7c=0x0;_0x50bd7c<_0x726993;_0x50bd7c++)this['bu'+'ff'+'er'][this['le'+'ft'+'ov'+'er']+_0x50bd7c]=_0x4068a3[_0x56be78+_0x50bd7c];_0x30f968-=_0x726993,_0x56be78+=_0x726993,this['le'+'ft'+'ov'+'er']+=_0x726993;if(this['le'+'ft'+'ov'+'er']<0x10)return;this['bl'+'oc'+'ks'](this['bu'+'ff'+'er'],0x0,0x10),this['le'+'ft'+'ov'+'er']=0x0;}_0x30f968>=0x10&&(_0x726993=_0x30f968-_0x30f968%0x10,this['bl'+'oc'+'ks'](_0x4068a3,_0x56be78,_0x726993),_0x56be78+=_0x726993,_0x30f968-=_0x726993);if(_0x30f968){for(_0x50bd7c=0x0;_0x50bd7c<_0x30f968;_0x50bd7c++)this['bu'+'ff'+'er'][this['le'+'ft'+'ov'+'er']+_0x50bd7c]=_0x4068a3[_0x56be78+_0x50bd7c];this['le'+'ft'+'ov'+'er']+=_0x30f968;}};function _0x50a726(_0x5758b4,_0x51ff92,_0x1da8b6,_0x247382,_0x42ed79,_0x2685e9){var _0xa7359=new _0x2fd7b9(_0x2685e9);return _0xa7359['up'+'da'+'te'](_0x1da8b6,_0x247382,_0x42ed79),_0xa7359['fi'+'ni'+'sh'](_0x5758b4,_0x51ff92),0x0;}__name(_0x50a726,'cr'+'yp'+'to'+'_o'+'ne'+'ti'+'me'+'au'+'th');function _0x53067e(_0x4e8254,_0x44fc77,_0x26ec66,_0x11c3fb,_0x41e632,_0x221986){var _0x3d3447=new Uint8Array(0x10);return _0x50a726(_0x3d3447,0x0,_0x26ec66,_0x11c3fb,_0x41e632,_0x221986),_0x4a073e(_0x4e8254,_0x44fc77,_0x3d3447,0x0);}__name(_0x53067e,'cr'+'yp'+'to'+'_o'+'ne'+'ti'+'me'+'au'+'th'+'_v'+'er'+'if'+'y');function _0x16c6ef(_0x2b8b87,_0x5c2299,_0x5608d0,_0x2ff4ae,_0xc9768d){var _0x598f94;if(_0x5608d0<0x20)return-0x1;_0x4538e1(_0x2b8b87,0x0,_0x5c2299,0x0,_0x5608d0,_0x2ff4ae,_0xc9768d),_0x50a726(_0x2b8b87,0x10,_0x2b8b87,0x20,_0x5608d0-0x20,_0x2b8b87);for(_0x598f94=0x0;_0x598f94<0x10;_0x598f94++)_0x2b8b87[_0x598f94]=0x0;return 0x0;}__name(_0x16c6ef,'cr'+'yp'+'to'+'_s'+'ec'+'re'+'tb'+'ox');function _0x433e96(_0x3dedcd,_0x30e66a,_0x391649,_0x4ba0e9,_0x291a42){var _0x4df4cd,_0x3cc745=new Uint8Array(0x20);if(_0x391649<0x20)return-0x1;_0x3499fb(_0x3cc745,0x0,0x20,_0x4ba0e9,_0x291a42);if(_0x53067e(_0x30e66a,0x10,_0x30e66a,0x20,_0x391649-0x20,_0x3cc745)!==0x0)return-0x1;_0x4538e1(_0x3dedcd,0x0,_0x30e66a,0x0,_0x391649,_0x4ba0e9,_0x291a42);for(_0x4df4cd=0x0;_0x4df4cd<0x20;_0x4df4cd++)_0x3dedcd[_0x4df4cd]=0x0;return 0x0;}__name(_0x433e96,'cr'+'yp'+'to'+'_s'+'ec'+'re'+'tb'+'ox'+'_o'+'pe'+'n');function _0x336bac(_0x3310f6,_0x358e8c){var _0x2b914e;for(_0x2b914e=0x0;_0x2b914e<0x10;_0x2b914e++)_0x3310f6[_0x2b914e]=_0x358e8c[_0x2b914e]|0x0;}__name(_0x336bac,'se'+'t2'+'55'+'19');function _0x4bad44(_0x519dd9){var _0x399e55,_0x476928,_0x3b5508=0x1;for(_0x399e55=0x0;_0x399e55<0x10;_0x399e55++){_0x476928=_0x519dd9[_0x399e55]+_0x3b5508+0xffff,_0x3b5508=Math['fl'+'oo'+'r'](_0x476928/0x10000),_0x519dd9[_0x399e55]=_0x476928-_0x3b5508*0x10000;}_0x519dd9[0x0]+=_0x3b5508-0x1+0x25*(_0x3b5508-0x1);}__name(_0x4bad44,'ca'+'r2'+'55'+'19');function _0x4cad7e(_0x4feabb,_0x57222c,_0x21f50d){var _0x4eb30e,_0x32d18c=~(_0x21f50d-0x1);for(var _0x4fabbc=0x0;_0x4fabbc<0x10;_0x4fabbc++){_0x4eb30e=_0x32d18c&(_0x4feabb[_0x4fabbc]^_0x57222c[_0x4fabbc]),_0x4feabb[_0x4fabbc]^=_0x4eb30e,_0x57222c[_0x4fabbc]^=_0x4eb30e;}}__name(_0x4cad7e,'se'+'l2'+'55'+'19');function _0x338b7a(_0x37a87b,_0x1ec071){var _0x28cf8c,_0x276e3a,_0x5f3fdd,_0x36f971=_0x2b6ef4(),_0x23cbd6=_0x2b6ef4();for(_0x28cf8c=0x0;_0x28cf8c<0x10;_0x28cf8c++)_0x23cbd6[_0x28cf8c]=_0x1ec071[_0x28cf8c];_0x4bad44(_0x23cbd6),_0x4bad44(_0x23cbd6),_0x4bad44(_0x23cbd6);for(_0x276e3a=0x0;_0x276e3a<0x2;_0x276e3a++){_0x36f971[0x0]=_0x23cbd6[0x0]-0xffed;for(_0x28cf8c=0x1;_0x28cf8c<0xf;_0x28cf8c++){_0x36f971[_0x28cf8c]=_0x23cbd6[_0x28cf8c]-0xffff-(_0x36f971[_0x28cf8c-0x1]>>0x10&0x1),_0x36f971[_0x28cf8c-0x1]&=0xffff;}_0x36f971[0xf]=_0x23cbd6[0xf]-0x7fff-(_0x36f971[0xe]>>0x10&0x1),_0x5f3fdd=_0x36f971[0xf]>>0x10&0x1,_0x36f971[0xe]&=0xffff,_0x4cad7e(_0x23cbd6,_0x36f971,0x1-_0x5f3fdd);}for(_0x28cf8c=0x0;_0x28cf8c<0x10;_0x28cf8c++){_0x37a87b[0x2*_0x28cf8c]=_0x23cbd6[_0x28cf8c]&0xff,_0x37a87b[0x2*_0x28cf8c+0x1]=_0x23cbd6[_0x28cf8c]>>0x8;}}__name(_0x338b7a,'pa'+'ck'+'25'+'51'+'9');function _0x1e6bb1(_0x42c8a0,_0x580722){var _0x30f4df=new Uint8Array(0x20),_0x59d47e=new Uint8Array(0x20);return _0x338b7a(_0x30f4df,_0x42c8a0),_0x338b7a(_0x59d47e,_0x580722),_0x313d39(_0x30f4df,0x0,_0x59d47e,0x0);}__name(_0x1e6bb1,'ne'+'q2'+'55'+'19');function _0x55b3b9(_0x5bb02f){var _0xed287c=new Uint8Array(0x20);return _0x338b7a(_0xed287c,_0x5bb02f),_0xed287c[0x0]&0x1;}__name(_0x55b3b9,'pa'+'r2'+'55'+'19');function _0x228e35(_0xaaaf8f,_0x4ee914){var _0x1fcdaa;for(_0x1fcdaa=0x0;_0x1fcdaa<0x10;_0x1fcdaa++)_0xaaaf8f[_0x1fcdaa]=_0x4ee914[0x2*_0x1fcdaa]+(_0x4ee914[0x2*_0x1fcdaa+0x1]<<0x8);_0xaaaf8f[0xf]&=0x7fff;}__name(_0x228e35,'un'+'pa'+'ck'+'25'+'51'+'9');function _0x2cad97(_0xcbc693,_0x1202bd,_0x529706){for(var _0x5cbb46=0x0;_0x5cbb46<0x10;_0x5cbb46++)_0xcbc693[_0x5cbb46]=_0x1202bd[_0x5cbb46]+_0x529706[_0x5cbb46];}__name(_0x2cad97,'A');function _0xe49c75(_0x57e2fe,_0xaf472e,_0x45b16d){for(var _0x528f53=0x0;_0x528f53<0x10;_0x528f53++)_0x57e2fe[_0x528f53]=_0xaf472e[_0x528f53]-_0x45b16d[_0x528f53];}__name(_0xe49c75,'Z');function _0x133098(_0x26806c,_0x139c40,_0x94b454){var _0x251469,_0xc5e3dd,_0x21dbf6=0x0,_0x50b254=0x0,_0x2206e3=0x0,_0x3c6236=0x0,_0x37419c=0x0,_0x34d943=0x0,_0x512679=0x0,_0x5cfacc=0x0,_0x3491a8=0x0,_0x1e9eb=0x0,_0x2a9a9a=0x0,_0x42d6d3=0x0,_0x20921b=0x0,_0x1cbc0b=0x0,_0x4e7207=0x0,_0xcefd6c=0x0,_0x53c450=0x0,_0x56331e=0x0,_0x102f0d=0x0,_0x33109c=0x0,_0x57bb4b=0x0,_0x1dbe66=0x0,_0x397e73=0x0,_0x39b627=0x0,_0x4acf6a=0x0,_0x1e099d=0x0,_0x27492e=0x0,_0x541115=0x0,_0x3af8fb=0x0,_0x2fc48c=0x0,_0x2fa1b5=0x0,_0x778e7b=_0x94b454[0x0],_0xcbc91b=_0x94b454[0x1],_0x3b4917=_0x94b454[0x2],_0x310e76=_0x94b454[0x3],_0x370803=_0x94b454[0x4],_0x3085dc=_0x94b454[0x5],_0x53f1c1=_0x94b454[0x6],_0x3f34f5=_0x94b454[0x7],_0x48024f=_0x94b454[0x8],_0x39ee88=_0x94b454[0x9],_0x9bbd48=_0x94b454[0xa],_0x487c11=_0x94b454[0xb],_0x54d4df=_0x94b454[0xc],_0x18ec9c=_0x94b454[0xd],_0x4b1efe=_0x94b454[0xe],_0x2cb549=_0x94b454[0xf];_0x251469=_0x139c40[0x0],_0x21dbf6+=_0x251469*_0x778e7b,_0x50b254+=_0x251469*_0xcbc91b,_0x2206e3+=_0x251469*_0x3b4917,_0x3c6236+=_0x251469*_0x310e76,_0x37419c+=_0x251469*_0x370803,_0x34d943+=_0x251469*_0x3085dc,_0x512679+=_0x251469*_0x53f1c1,_0x5cfacc+=_0x251469*_0x3f34f5,_0x3491a8+=_0x251469*_0x48024f,_0x1e9eb+=_0x251469*_0x39ee88,_0x2a9a9a+=_0x251469*_0x9bbd48,_0x42d6d3+=_0x251469*_0x487c11,_0x20921b+=_0x251469*_0x54d4df,_0x1cbc0b+=_0x251469*_0x18ec9c,_0x4e7207+=_0x251469*_0x4b1efe,_0xcefd6c+=_0x251469*_0x2cb549,_0x251469=_0x139c40[0x1],_0x50b254+=_0x251469*_0x778e7b,_0x2206e3+=_0x251469*_0xcbc91b,_0x3c6236+=_0x251469*_0x3b4917,_0x37419c+=_0x251469*_0x310e76,_0x34d943+=_0x251469*_0x370803,_0x512679+=_0x251469*_0x3085dc,_0x5cfacc+=_0x251469*_0x53f1c1,_0x3491a8+=_0x251469*_0x3f34f5,_0x1e9eb+=_0x251469*_0x48024f,_0x2a9a9a+=_0x251469*_0x39ee88,_0x42d6d3+=_0x251469*_0x9bbd48,_0x20921b+=_0x251469*_0x487c11,_0x1cbc0b+=_0x251469*_0x54d4df,_0x4e7207+=_0x251469*_0x18ec9c,_0xcefd6c+=_0x251469*_0x4b1efe,_0x53c450+=_0x251469*_0x2cb549,_0x251469=_0x139c40[0x2],_0x2206e3+=_0x251469*_0x778e7b,_0x3c6236+=_0x251469*_0xcbc91b,_0x37419c+=_0x251469*_0x3b4917,_0x34d943+=_0x251469*_0x310e76,_0x512679+=_0x251469*_0x370803,_0x5cfacc+=_0x251469*_0x3085dc,_0x3491a8+=_0x251469*_0x53f1c1,_0x1e9eb+=_0x251469*_0x3f34f5,_0x2a9a9a+=_0x251469*_0x48024f,_0x42d6d3+=_0x251469*_0x39ee88,_0x20921b+=_0x251469*_0x9bbd48,_0x1cbc0b+=_0x251469*_0x487c11,_0x4e7207+=_0x251469*_0x54d4df,_0xcefd6c+=_0x251469*_0x18ec9c,_0x53c450+=_0x251469*_0x4b1efe,_0x56331e+=_0x251469*_0x2cb549,_0x251469=_0x139c40[0x3],_0x3c6236+=_0x251469*_0x778e7b,_0x37419c+=_0x251469*_0xcbc91b,_0x34d943+=_0x251469*_0x3b4917,_0x512679+=_0x251469*_0x310e76,_0x5cfacc+=_0x251469*_0x370803,_0x3491a8+=_0x251469*_0x3085dc,_0x1e9eb+=_0x251469*_0x53f1c1,_0x2a9a9a+=_0x251469*_0x3f34f5,_0x42d6d3+=_0x251469*_0x48024f,_0x20921b+=_0x251469*_0x39ee88,_0x1cbc0b+=_0x251469*_0x9bbd48,_0x4e7207+=_0x251469*_0x487c11,_0xcefd6c+=_0x251469*_0x54d4df,_0x53c450+=_0x251469*_0x18ec9c,_0x56331e+=_0x251469*_0x4b1efe,_0x102f0d+=_0x251469*_0x2cb549,_0x251469=_0x139c40[0x4],_0x37419c+=_0x251469*_0x778e7b,_0x34d943+=_0x251469*_0xcbc91b,_0x512679+=_0x251469*_0x3b4917,_0x5cfacc+=_0x251469*_0x310e76,_0x3491a8+=_0x251469*_0x370803,_0x1e9eb+=_0x251469*_0x3085dc,_0x2a9a9a+=_0x251469*_0x53f1c1,_0x42d6d3+=_0x251469*_0x3f34f5,_0x20921b+=_0x251469*_0x48024f,_0x1cbc0b+=_0x251469*_0x39ee88,_0x4e7207+=_0x251469*_0x9bbd48,_0xcefd6c+=_0x251469*_0x487c11,_0x53c450+=_0x251469*_0x54d4df,_0x56331e+=_0x251469*_0x18ec9c,_0x102f0d+=_0x251469*_0x4b1efe,_0x33109c+=_0x251469*_0x2cb549,_0x251469=_0x139c40[0x5],_0x34d943+=_0x251469*_0x778e7b,_0x512679+=_0x251469*_0xcbc91b,_0x5cfacc+=_0x251469*_0x3b4917,_0x3491a8+=_0x251469*_0x310e76,_0x1e9eb+=_0x251469*_0x370803,_0x2a9a9a+=_0x251469*_0x3085dc,_0x42d6d3+=_0x251469*_0x53f1c1,_0x20921b+=_0x251469*_0x3f34f5,_0x1cbc0b+=_0x251469*_0x48024f,_0x4e7207+=_0x251469*_0x39ee88,_0xcefd6c+=_0x251469*_0x9bbd48,_0x53c450+=_0x251469*_0x487c11,_0x56331e+=_0x251469*_0x54d4df,_0x102f0d+=_0x251469*_0x18ec9c,_0x33109c+=_0x251469*_0x4b1efe,_0x57bb4b+=_0x251469*_0x2cb549,_0x251469=_0x139c40[0x6],_0x512679+=_0x251469*_0x778e7b,_0x5cfacc+=_0x251469*_0xcbc91b,_0x3491a8+=_0x251469*_0x3b4917,_0x1e9eb+=_0x251469*_0x310e76,_0x2a9a9a+=_0x251469*_0x370803,_0x42d6d3+=_0x251469*_0x3085dc,_0x20921b+=_0x251469*_0x53f1c1,_0x1cbc0b+=_0x251469*_0x3f34f5,_0x4e7207+=_0x251469*_0x48024f,_0xcefd6c+=_0x251469*_0x39ee88,_0x53c450+=_0x251469*_0x9bbd48,_0x56331e+=_0x251469*_0x487c11,_0x102f0d+=_0x251469*_0x54d4df,_0x33109c+=_0x251469*_0x18ec9c,_0x57bb4b+=_0x251469*_0x4b1efe,_0x1dbe66+=_0x251469*_0x2cb549,_0x251469=_0x139c40[0x7],_0x5cfacc+=_0x251469*_0x778e7b,_0x3491a8+=_0x251469*_0xcbc91b,_0x1e9eb+=_0x251469*_0x3b4917,_0x2a9a9a+=_0x251469*_0x310e76,_0x42d6d3+=_0x251469*_0x370803,_0x20921b+=_0x251469*_0x3085dc,_0x1cbc0b+=_0x251469*_0x53f1c1,_0x4e7207+=_0x251469*_0x3f34f5,_0xcefd6c+=_0x251469*_0x48024f,_0x53c450+=_0x251469*_0x39ee88,_0x56331e+=_0x251469*_0x9bbd48,_0x102f0d+=_0x251469*_0x487c11,_0x33109c+=_0x251469*_0x54d4df,_0x57bb4b+=_0x251469*_0x18ec9c,_0x1dbe66+=_0x251469*_0x4b1efe,_0x397e73+=_0x251469*_0x2cb549,_0x251469=_0x139c40[0x8],_0x3491a8+=_0x251469*_0x778e7b,_0x1e9eb+=_0x251469*_0xcbc91b,_0x2a9a9a+=_0x251469*_0x3b4917,_0x42d6d3+=_0x251469*_0x310e76,_0x20921b+=_0x251469*_0x370803,_0x1cbc0b+=_0x251469*_0x3085dc,_0x4e7207+=_0x251469*_0x53f1c1,_0xcefd6c+=_0x251469*_0x3f34f5,_0x53c450+=_0x251469*_0x48024f,_0x56331e+=_0x251469*_0x39ee88,_0x102f0d+=_0x251469*_0x9bbd48,_0x33109c+=_0x251469*_0x487c11,_0x57bb4b+=_0x251469*_0x54d4df,_0x1dbe66+=_0x251469*_0x18ec9c,_0x397e73+=_0x251469*_0x4b1efe,_0x39b627+=_0x251469*_0x2cb549,_0x251469=_0x139c40[0x9],_0x1e9eb+=_0x251469*_0x778e7b,_0x2a9a9a+=_0x251469*_0xcbc91b,_0x42d6d3+=_0x251469*_0x3b4917,_0x20921b+=_0x251469*_0x310e76,_0x1cbc0b+=_0x251469*_0x370803,_0x4e7207+=_0x251469*_0x3085dc,_0xcefd6c+=_0x251469*_0x53f1c1,_0x53c450+=_0x251469*_0x3f34f5,_0x56331e+=_0x251469*_0x48024f,_0x102f0d+=_0x251469*_0x39ee88,_0x33109c+=_0x251469*_0x9bbd48,_0x57bb4b+=_0x251469*_0x487c11,_0x1dbe66+=_0x251469*_0x54d4df,_0x397e73+=_0x251469*_0x18ec9c,_0x39b627+=_0x251469*_0x4b1efe,_0x4acf6a+=_0x251469*_0x2cb549,_0x251469=_0x139c40[0xa],_0x2a9a9a+=_0x251469*_0x778e7b,_0x42d6d3+=_0x251469*_0xcbc91b,_0x20921b+=_0x251469*_0x3b4917,_0x1cbc0b+=_0x251469*_0x310e76,_0x4e7207+=_0x251469*_0x370803,_0xcefd6c+=_0x251469*_0x3085dc,_0x53c450+=_0x251469*_0x53f1c1,_0x56331e+=_0x251469*_0x3f34f5,_0x102f0d+=_0x251469*_0x48024f,_0x33109c+=_0x251469*_0x39ee88,_0x57bb4b+=_0x251469*_0x9bbd48,_0x1dbe66+=_0x251469*_0x487c11,_0x397e73+=_0x251469*_0x54d4df,_0x39b627+=_0x251469*_0x18ec9c,_0x4acf6a+=_0x251469*_0x4b1efe,_0x1e099d+=_0x251469*_0x2cb549,_0x251469=_0x139c40[0xb],_0x42d6d3+=_0x251469*_0x778e7b,_0x20921b+=_0x251469*_0xcbc91b,_0x1cbc0b+=_0x251469*_0x3b4917,_0x4e7207+=_0x251469*_0x310e76,_0xcefd6c+=_0x251469*_0x370803,_0x53c450+=_0x251469*_0x3085dc,_0x56331e+=_0x251469*_0x53f1c1,_0x102f0d+=_0x251469*_0x3f34f5,_0x33109c+=_0x251469*_0x48024f,_0x57bb4b+=_0x251469*_0x39ee88,_0x1dbe66+=_0x251469*_0x9bbd48,_0x397e73+=_0x251469*_0x487c11,_0x39b627+=_0x251469*_0x54d4df,_0x4acf6a+=_0x251469*_0x18ec9c,_0x1e099d+=_0x251469*_0x4b1efe,_0x27492e+=_0x251469*_0x2cb549,_0x251469=_0x139c40[0xc],_0x20921b+=_0x251469*_0x778e7b,_0x1cbc0b+=_0x251469*_0xcbc91b,_0x4e7207+=_0x251469*_0x3b4917,_0xcefd6c+=_0x251469*_0x310e76,_0x53c450+=_0x251469*_0x370803,_0x56331e+=_0x251469*_0x3085dc,_0x102f0d+=_0x251469*_0x53f1c1,_0x33109c+=_0x251469*_0x3f34f5,_0x57bb4b+=_0x251469*_0x48024f,_0x1dbe66+=_0x251469*_0x39ee88,_0x397e73+=_0x251469*_0x9bbd48,_0x39b627+=_0x251469*_0x487c11,_0x4acf6a+=_0x251469*_0x54d4df,_0x1e099d+=_0x251469*_0x18ec9c,_0x27492e+=_0x251469*_0x4b1efe,_0x541115+=_0x251469*_0x2cb549,_0x251469=_0x139c40[0xd],_0x1cbc0b+=_0x251469*_0x778e7b,_0x4e7207+=_0x251469*_0xcbc91b,_0xcefd6c+=_0x251469*_0x3b4917,_0x53c450+=_0x251469*_0x310e76,_0x56331e+=_0x251469*_0x370803,_0x102f0d+=_0x251469*_0x3085dc,_0x33109c+=_0x251469*_0x53f1c1,_0x57bb4b+=_0x251469*_0x3f34f5,_0x1dbe66+=_0x251469*_0x48024f,_0x397e73+=_0x251469*_0x39ee88,_0x39b627+=_0x251469*_0x9bbd48,_0x4acf6a+=_0x251469*_0x487c11,_0x1e099d+=_0x251469*_0x54d4df,_0x27492e+=_0x251469*_0x18ec9c,_0x541115+=_0x251469*_0x4b1efe,_0x3af8fb+=_0x251469*_0x2cb549,_0x251469=_0x139c40[0xe],_0x4e7207+=_0x251469*_0x778e7b,_0xcefd6c+=_0x251469*_0xcbc91b,_0x53c450+=_0x251469*_0x3b4917,_0x56331e+=_0x251469*_0x310e76,_0x102f0d+=_0x251469*_0x370803,_0x33109c+=_0x251469*_0x3085dc,_0x57bb4b+=_0x251469*_0x53f1c1,_0x1dbe66+=_0x251469*_0x3f34f5,_0x397e73+=_0x251469*_0x48024f,_0x39b627+=_0x251469*_0x39ee88,_0x4acf6a+=_0x251469*_0x9bbd48,_0x1e099d+=_0x251469*_0x487c11,_0x27492e+=_0x251469*_0x54d4df,_0x541115+=_0x251469*_0x18ec9c,_0x3af8fb+=_0x251469*_0x4b1efe,_0x2fc48c+=_0x251469*_0x2cb549,_0x251469=_0x139c40[0xf],_0xcefd6c+=_0x251469*_0x778e7b,_0x53c450+=_0x251469*_0xcbc91b,_0x56331e+=_0x251469*_0x3b4917,_0x102f0d+=_0x251469*_0x310e76,_0x33109c+=_0x251469*_0x370803,_0x57bb4b+=_0x251469*_0x3085dc,_0x1dbe66+=_0x251469*_0x53f1c1,_0x397e73+=_0x251469*_0x3f34f5,_0x39b627+=_0x251469*_0x48024f,_0x4acf6a+=_0x251469*_0x39ee88,_0x1e099d+=_0x251469*_0x9bbd48,_0x27492e+=_0x251469*_0x487c11,_0x541115+=_0x251469*_0x54d4df,_0x3af8fb+=_0x251469*_0x18ec9c,_0x2fc48c+=_0x251469*_0x4b1efe,_0x2fa1b5+=_0x251469*_0x2cb549,_0x21dbf6+=0x26*_0x53c450,_0x50b254+=0x26*_0x56331e,_0x2206e3+=0x26*_0x102f0d,_0x3c6236+=0x26*_0x33109c,_0x37419c+=0x26*_0x57bb4b,_0x34d943+=0x26*_0x1dbe66,_0x512679+=0x26*_0x397e73,_0x5cfacc+=0x26*_0x39b627,_0x3491a8+=0x26*_0x4acf6a,_0x1e9eb+=0x26*_0x1e099d,_0x2a9a9a+=0x26*_0x27492e,_0x42d6d3+=0x26*_0x541115,_0x20921b+=0x26*_0x3af8fb,_0x1cbc0b+=0x26*_0x2fc48c,_0x4e7207+=0x26*_0x2fa1b5,_0xc5e3dd=0x1,_0x251469=_0x21dbf6+_0xc5e3dd+0xffff,_0xc5e3dd=Math['fl'+'oo'+'r'](_0x251469/0x10000),_0x21dbf6=_0x251469-_0xc5e3dd*0x10000,_0x251469=_0x50b254+_0xc5e3dd+0xffff,_0xc5e3dd=Math['fl'+'oo'+'r'](_0x251469/0x10000),_0x50b254=_0x251469-_0xc5e3dd*0x10000,_0x251469=_0x2206e3+_0xc5e3dd+0xffff,_0xc5e3dd=Math['fl'+'oo'+'r'](_0x251469/0x10000),_0x2206e3=_0x251469-_0xc5e3dd*0x10000,_0x251469=_0x3c6236+_0xc5e3dd+0xffff,_0xc5e3dd=Math['fl'+'oo'+'r'](_0x251469/0x10000),_0x3c6236=_0x251469-_0xc5e3dd*0x10000,_0x251469=_0x37419c+_0xc5e3dd+0xffff,_0xc5e3dd=Math['fl'+'oo'+'r'](_0x251469/0x10000),_0x37419c=_0x251469-_0xc5e3dd*0x10000,_0x251469=_0x34d943+_0xc5e3dd+0xffff,_0xc5e3dd=Math['fl'+'oo'+'r'](_0x251469/0x10000),_0x34d943=_0x251469-_0xc5e3dd*0x10000,_0x251469=_0x512679+_0xc5e3dd+0xffff,_0xc5e3dd=Math['fl'+'oo'+'r'](_0x251469/0x10000),_0x512679=_0x251469-_0xc5e3dd*0x10000,_0x251469=_0x5cfacc+_0xc5e3dd+0xffff,_0xc5e3dd=Math['fl'+'oo'+'r'](_0x251469/0x10000),_0x5cfacc=_0x251469-_0xc5e3dd*0x10000,_0x251469=_0x3491a8+_0xc5e3dd+0xffff,_0xc5e3dd=Math['fl'+'oo'+'r'](_0x251469/0x10000),_0x3491a8=_0x251469-_0xc5e3dd*0x10000,_0x251469=_0x1e9eb+_0xc5e3dd+0xffff,_0xc5e3dd=Math['fl'+'oo'+'r'](_0x251469/0x10000),_0x1e9eb=_0x251469-_0xc5e3dd*0x10000,_0x251469=_0x2a9a9a+_0xc5e3dd+0xffff,_0xc5e3dd=Math['fl'+'oo'+'r'](_0x251469/0x10000),_0x2a9a9a=_0x251469-_0xc5e3dd*0x10000,_0x251469=_0x42d6d3+_0xc5e3dd+0xffff,_0xc5e3dd=Math['fl'+'oo'+'r'](_0x251469/0x10000),_0x42d6d3=_0x251469-_0xc5e3dd*0x10000,_0x251469=_0x20921b+_0xc5e3dd+0xffff,_0xc5e3dd=Math['fl'+'oo'+'r'](_0x251469/0x10000),_0x20921b=_0x251469-_0xc5e3dd*0x10000,_0x251469=_0x1cbc0b+_0xc5e3dd+0xffff,_0xc5e3dd=Math['fl'+'oo'+'r'](_0x251469/0x10000),_0x1cbc0b=_0x251469-_0xc5e3dd*0x10000,_0x251469=_0x4e7207+_0xc5e3dd+0xffff,_0xc5e3dd=Math['fl'+'oo'+'r'](_0x251469/0x10000),_0x4e7207=_0x251469-_0xc5e3dd*0x10000,_0x251469=_0xcefd6c+_0xc5e3dd+0xffff,_0xc5e3dd=Math['fl'+'oo'+'r'](_0x251469/0x10000),_0xcefd6c=_0x251469-_0xc5e3dd*0x10000,_0x21dbf6+=_0xc5e3dd-0x1+0x25*(_0xc5e3dd-0x1),_0xc5e3dd=0x1,_0x251469=_0x21dbf6+_0xc5e3dd+0xffff,_0xc5e3dd=Math['fl'+'oo'+'r'](_0x251469/0x10000),_0x21dbf6=_0x251469-_0xc5e3dd*0x10000,_0x251469=_0x50b254+_0xc5e3dd+0xffff,_0xc5e3dd=Math['fl'+'oo'+'r'](_0x251469/0x10000),_0x50b254=_0x251469-_0xc5e3dd*0x10000,_0x251469=_0x2206e3+_0xc5e3dd+0xffff,_0xc5e3dd=Math['fl'+'oo'+'r'](_0x251469/0x10000),_0x2206e3=_0x251469-_0xc5e3dd*0x10000,_0x251469=_0x3c6236+_0xc5e3dd+0xffff,_0xc5e3dd=Math['fl'+'oo'+'r'](_0x251469/0x10000),_0x3c6236=_0x251469-_0xc5e3dd*0x10000,_0x251469=_0x37419c+_0xc5e3dd+0xffff,_0xc5e3dd=Math['fl'+'oo'+'r'](_0x251469/0x10000),_0x37419c=_0x251469-_0xc5e3dd*0x10000,_0x251469=_0x34d943+_0xc5e3dd+0xffff,_0xc5e3dd=Math['fl'+'oo'+'r'](_0x251469/0x10000),_0x34d943=_0x251469-_0xc5e3dd*0x10000,_0x251469=_0x512679+_0xc5e3dd+0xffff,_0xc5e3dd=Math['fl'+'oo'+'r'](_0x251469/0x10000),_0x512679=_0x251469-_0xc5e3dd*0x10000,_0x251469=_0x5cfacc+_0xc5e3dd+0xffff,_0xc5e3dd=Math['fl'+'oo'+'r'](_0x251469/0x10000),_0x5cfacc=_0x251469-_0xc5e3dd*0x10000,_0x251469=_0x3491a8+_0xc5e3dd+0xffff,_0xc5e3dd=Math['fl'+'oo'+'r'](_0x251469/0x10000),_0x3491a8=_0x251469-_0xc5e3dd*0x10000,_0x251469=_0x1e9eb+_0xc5e3dd+0xffff,_0xc5e3dd=Math['fl'+'oo'+'r'](_0x251469/0x10000),_0x1e9eb=_0x251469-_0xc5e3dd*0x10000,_0x251469=_0x2a9a9a+_0xc5e3dd+0xffff,_0xc5e3dd=Math['fl'+'oo'+'r'](_0x251469/0x10000),_0x2a9a9a=_0x251469-_0xc5e3dd*0x10000,_0x251469=_0x42d6d3+_0xc5e3dd+0xffff,_0xc5e3dd=Math['fl'+'oo'+'r'](_0x251469/0x10000),_0x42d6d3=_0x251469-_0xc5e3dd*0x10000,_0x251469=_0x20921b+_0xc5e3dd+0xffff,_0xc5e3dd=Math['fl'+'oo'+'r'](_0x251469/0x10000),_0x20921b=_0x251469-_0xc5e3dd*0x10000,_0x251469=_0x1cbc0b+_0xc5e3dd+0xffff,_0xc5e3dd=Math['fl'+'oo'+'r'](_0x251469/0x10000),_0x1cbc0b=_0x251469-_0xc5e3dd*0x10000,_0x251469=_0x4e7207+_0xc5e3dd+0xffff,_0xc5e3dd=Math['fl'+'oo'+'r'](_0x251469/0x10000),_0x4e7207=_0x251469-_0xc5e3dd*0x10000,_0x251469=_0xcefd6c+_0xc5e3dd+0xffff,_0xc5e3dd=Math['fl'+'oo'+'r'](_0x251469/0x10000),_0xcefd6c=_0x251469-_0xc5e3dd*0x10000,_0x21dbf6+=_0xc5e3dd-0x1+0x25*(_0xc5e3dd-0x1),_0x26806c[0x0]=_0x21dbf6,_0x26806c[0x1]=_0x50b254,_0x26806c[0x2]=_0x2206e3,_0x26806c[0x3]=_0x3c6236,_0x26806c[0x4]=_0x37419c,_0x26806c[0x5]=_0x34d943,_0x26806c[0x6]=_0x512679,_0x26806c[0x7]=_0x5cfacc,_0x26806c[0x8]=_0x3491a8,_0x26806c[0x9]=_0x1e9eb,_0x26806c[0xa]=_0x2a9a9a,_0x26806c[0xb]=_0x42d6d3,_0x26806c[0xc]=_0x20921b,_0x26806c[0xd]=_0x1cbc0b,_0x26806c[0xe]=_0x4e7207,_0x26806c[0xf]=_0xcefd6c;}__name(_0x133098,'M');function _0x409001(_0x3ce2eb,_0x3aaaae){_0x133098(_0x3ce2eb,_0x3aaaae,_0x3aaaae);}__name(_0x409001,'S');function _0x53344c(_0x2cdee1,_0x41a19d){var _0x1ff6ae=_0x2b6ef4(),_0x262310;for(_0x262310=0x0;_0x262310<0x10;_0x262310++)_0x1ff6ae[_0x262310]=_0x41a19d[_0x262310];for(_0x262310=0xfd;_0x262310>=0x0;_0x262310--){_0x409001(_0x1ff6ae,_0x1ff6ae);if(_0x262310!==0x2&&_0x262310!==0x4)_0x133098(_0x1ff6ae,_0x1ff6ae,_0x41a19d);}for(_0x262310=0x0;_0x262310<0x10;_0x262310++)_0x2cdee1[_0x262310]=_0x1ff6ae[_0x262310];}__name(_0x53344c,'in'+'v2'+'55'+'19');function _0xb27cd9(_0x23caa2,_0x4e5c58){var _0x11d4b7=_0x2b6ef4(),_0x481915;for(_0x481915=0x0;_0x481915<0x10;_0x481915++)_0x11d4b7[_0x481915]=_0x4e5c58[_0x481915];for(_0x481915=0xfa;_0x481915>=0x0;_0x481915--){_0x409001(_0x11d4b7,_0x11d4b7);if(_0x481915!==0x1)_0x133098(_0x11d4b7,_0x11d4b7,_0x4e5c58);}for(_0x481915=0x0;_0x481915<0x10;_0x481915++)_0x23caa2[_0x481915]=_0x11d4b7[_0x481915];}__name(_0xb27cd9,'po'+'w2'+'52'+'3');function _0x5e6c26(_0x25b8ff,_0x4f80e4,_0x4511e4){var _0x1d4387=new Uint8Array(0x20),_0x2575cb=new Float64Array(0x50),_0x435e5d,_0x44c6ba,_0x35429d=_0x2b6ef4(),_0x386b50=_0x2b6ef4(),_0x3d83f0=_0x2b6ef4(),_0x344745=_0x2b6ef4(),_0x2ebc5a=_0x2b6ef4(),_0x5e4347=_0x2b6ef4();for(_0x44c6ba=0x0;_0x44c6ba<0x1f;_0x44c6ba++)_0x1d4387[_0x44c6ba]=_0x4f80e4[_0x44c6ba];_0x1d4387[0x1f]=_0x4f80e4[0x1f]&0x7f|0x40,_0x1d4387[0x0]&=0xf8,_0x228e35(_0x2575cb,_0x4511e4);for(_0x44c6ba=0x0;_0x44c6ba<0x10;_0x44c6ba++){_0x386b50[_0x44c6ba]=_0x2575cb[_0x44c6ba],_0x344745[_0x44c6ba]=_0x35429d[_0x44c6ba]=_0x3d83f0[_0x44c6ba]=0x0;}_0x35429d[0x0]=_0x344745[0x0]=0x1;for(_0x44c6ba=0xfe;_0x44c6ba>=0x0;--_0x44c6ba){_0x435e5d=_0x1d4387[_0x44c6ba>>>0x3]>>>(_0x44c6ba&0x7)&0x1,_0x4cad7e(_0x35429d,_0x386b50,_0x435e5d),_0x4cad7e(_0x3d83f0,_0x344745,_0x435e5d),_0x2cad97(_0x2ebc5a,_0x35429d,_0x3d83f0),_0xe49c75(_0x35429d,_0x35429d,_0x3d83f0),_0x2cad97(_0x3d83f0,_0x386b50,_0x344745),_0xe49c75(_0x386b50,_0x386b50,_0x344745),_0x409001(_0x344745,_0x2ebc5a),_0x409001(_0x5e4347,_0x35429d),_0x133098(_0x35429d,_0x3d83f0,_0x35429d),_0x133098(_0x3d83f0,_0x386b50,_0x2ebc5a),_0x2cad97(_0x2ebc5a,_0x35429d,_0x3d83f0),_0xe49c75(_0x35429d,_0x35429d,_0x3d83f0),_0x409001(_0x386b50,_0x35429d),_0xe49c75(_0x3d83f0,_0x344745,_0x5e4347),_0x133098(_0x35429d,_0x3d83f0,_0x3494ec),_0x2cad97(_0x35429d,_0x35429d,_0x344745),_0x133098(_0x3d83f0,_0x3d83f0,_0x35429d),_0x133098(_0x35429d,_0x344745,_0x5e4347),_0x133098(_0x344745,_0x386b50,_0x2575cb),_0x409001(_0x386b50,_0x2ebc5a),_0x4cad7e(_0x35429d,_0x386b50,_0x435e5d),_0x4cad7e(_0x3d83f0,_0x344745,_0x435e5d);}for(_0x44c6ba=0x0;_0x44c6ba<0x10;_0x44c6ba++){_0x2575cb[_0x44c6ba+0x10]=_0x35429d[_0x44c6ba],_0x2575cb[_0x44c6ba+0x20]=_0x3d83f0[_0x44c6ba],_0x2575cb[_0x44c6ba+0x30]=_0x386b50[_0x44c6ba],_0x2575cb[_0x44c6ba+0x40]=_0x344745[_0x44c6ba];}var _0x549ee5=_0x2575cb['su'+'ba'+'rr'+'ay'](0x20),_0x294a52=_0x2575cb['su'+'ba'+'rr'+'ay'](0x10);return _0x53344c(_0x549ee5,_0x549ee5),_0x133098(_0x294a52,_0x294a52,_0x549ee5),_0x338b7a(_0x25b8ff,_0x294a52),0x0;}__name(_0x5e6c26,'cr'+'yp'+'to'+'_s'+'ca'+'la'+'rm'+'ul'+'t');function _0x54c911(_0x451301,_0x4aec1c){return _0x5e6c26(_0x451301,_0x4aec1c,_0x1f2db);}__name(_0x54c911,'cr'+'yp'+'to'+'_s'+'ca'+'la'+'rm'+'ul'+'t_'+'ba'+'se');function _0x4ebde1(_0x1ad775,_0x48c5a6){return _0x30a657(_0x48c5a6,0x20),_0x54c911(_0x1ad775,_0x48c5a6);}__name(_0x4ebde1,'cr'+'yp'+'to'+'_b'+'ox'+'_k'+'ey'+'pa'+'ir');function _0x3d05f7(_0x3d0fd5,_0x22cf41,_0x4aa483){var _0x3868d3=new Uint8Array(0x20);return _0x5e6c26(_0x3868d3,_0x4aa483,_0x22cf41),_0x4b99d1(_0x3d0fd5,_0x5ccb1a,_0x3868d3,_0x2f7e91);}__name(_0x3d05f7,'cr'+'yp'+'to'+'_b'+'ox'+'_b'+'ef'+'or'+'en'+'m');var _0x394e83=_0x16c6ef,_0x16086a=_0x433e96;function _0x32f0a4(_0x32af05,_0x195c3c,_0x167821,_0x1fddda,_0x57b394,_0x4406f1){var _0x520ae9=new Uint8Array(0x20);return _0x3d05f7(_0x520ae9,_0x57b394,_0x4406f1),_0x394e83(_0x32af05,_0x195c3c,_0x167821,_0x1fddda,_0x520ae9);}__name(_0x32f0a4,'cr'+'yp'+'to'+'_b'+'ox');function _0x1db99(_0xd09c54,_0x2a531d,_0x5272fa,_0x403166,_0x2ab7a0,_0x1946ec){var _0x27e850=new Uint8Array(0x20);return _0x3d05f7(_0x27e850,_0x2ab7a0,_0x1946ec),_0x16086a(_0xd09c54,_0x2a531d,_0x5272fa,_0x403166,_0x27e850);}__name(_0x1db99,'cr'+'yp'+'to'+'_b'+'ox'+'_o'+'pe'+'n');var _0x16f095=[0x428a2f98,0xd728ae22,0x71374491,0x23ef65cd,0xb5c0fbcf,0xec4d3b2f,0xe9b5dba5,0x8189dbbc,0x3956c25b,0xf348b538,0x59f111f1,0xb605d019,0x923f82a4,0xaf194f9b,0xab1c5ed5,0xda6d8118,0xd807aa98,0xa3030242,0x12835b01,0x45706fbe,0x243185be,0x4ee4b28c,0x550c7dc3,0xd5ffb4e2,0x72be5d74,0xf27b896f,0x80deb1fe,0x3b1696b1,0x9bdc06a7,0x25c71235,0xc19bf174,0xcf692694,0xe49b69c1,0x9ef14ad2,0xefbe4786,0x384f25e3,0xfc19dc6,0x8b8cd5b5,0x240ca1cc,0x77ac9c65,0x2de92c6f,0x592b0275,0x4a7484aa,0x6ea6e483,0x5cb0a9dc,0xbd41fbd4,0x76f988da,0x831153b5,0x983e5152,0xee66dfab,0xa831c66d,0x2db43210,0xb00327c8,0x98fb213f,0xbf597fc7,0xbeef0ee4,0xc6e00bf3,0x3da88fc2,0xd5a79147,0x930aa725,0x6ca6351,0xe003826f,0x14292967,0xa0e6e70,0x27b70a85,0x46d22ffc,0x2e1b2138,0x5c26c926,0x4d2c6dfc,0x5ac42aed,0x53380d13,0x9d95b3df,0x650a7354,0x8baf63de,0x766a0abb,0x3c77b2a8,0x81c2c92e,0x47edaee6,0x92722c85,0x1482353b,0xa2bfe8a1,0x4cf10364,0xa81a664b,0xbc423001,0xc24b8b70,0xd0f89791,0xc76c51a3,0x654be30,0xd192e819,0xd6ef5218,0xd6990624,0x5565a910,0xf40e3585,0x5771202a,0x106aa070,0x32bbd1b8,0x19a4c116,0xb8d2d0c8,0x1e376c08,0x5141ab53,0x2748774c,0xdf8eeb99,0x34b0bcb5,0xe19b48a8,0x391c0cb3,0xc5c95a63,0x4ed8aa4a,0xe3418acb,0x5b9cca4f,0x7763e373,0x682e6ff3,0xd6b2b8a3,0x748f82ee,0x5defb2fc,0x78a5636f,0x43172f60,0x84c87814,0xa1f0ab72,0x8cc70208,0x1a6439ec,0x90befffa,0x23631e28,0xa4506ceb,0xde82bde9,0xbef9a3f7,0xb2c67915,0xc67178f2,0xe372532b,0xca273ece,0xea26619c,0xd186b8c7,0x21c0c207,0xeada7dd6,0xcde0eb1e,0xf57d4f7f,0xee6ed178,0x6f067aa,0x72176fba,0xa637dc5,0xa2c898a6,0x113f9804,0xbef90dae,0x1b710b35,0x131c471b,0x28db77f5,0x23047d84,0x32caab7b,0x40c72493,0x3c9ebe0a,0x15c9bebc,0x431d67c4,0x9c100d4c,0x4cc5d4be,0xcb3e42b6,0x597f299c,0xfc657e2a,0x5fcb6fab,0x3ad6faec,0x6c44198c,0x4a475817];function _0x472a67(_0x41bb84,_0x5ffcff,_0x36ff22,_0x41f396){var _0x271aed=new Int32Array(0x10),_0x5ec598=new Int32Array(0x10),_0x3557f0,_0x31611f,_0x231c29,_0x5d7411,_0x222f90,_0x39f9b1,_0x46d1b4,_0x5a8d44,_0x12fc2b,_0x1a0f64,_0xd9b90c,_0x19aa14,_0x3a1055,_0x5d25f1,_0x5bb6d4,_0x58250f,_0x50b557,_0x74b0e3,_0x3baf0f,_0x186b25,_0x241c1d,_0x1a5cbb,_0x3d2226,_0x443c15,_0x274e46,_0x513d3d,_0x2cf4dd=_0x41bb84[0x0],_0x24c13f=_0x41bb84[0x1],_0x1acd9b=_0x41bb84[0x2],_0xc5abe2=_0x41bb84[0x3],_0x5ba5e5=_0x41bb84[0x4],_0x32cc8a=_0x41bb84[0x5],_0x437529=_0x41bb84[0x6],_0x5879aa=_0x41bb84[0x7],_0xd90f05=_0x5ffcff[0x0],_0x46c900=_0x5ffcff[0x1],_0x39ca50=_0x5ffcff[0x2],_0x439865=_0x5ffcff[0x3],_0x55ec68=_0x5ffcff[0x4],_0x349d3a=_0x5ffcff[0x5],_0x1e0d19=_0x5ffcff[0x6],_0x1df10d=_0x5ffcff[0x7],_0x1472d7=0x0;while(_0x41f396>=0x80){for(_0x3baf0f=0x0;_0x3baf0f<0x10;_0x3baf0f++){_0x186b25=0x8*_0x3baf0f+_0x1472d7,_0x271aed[_0x3baf0f]=_0x36ff22[_0x186b25+0x0]<<0x18|_0x36ff22[_0x186b25+0x1]<<0x10|_0x36ff22[_0x186b25+0x2]<<0x8|_0x36ff22[_0x186b25+0x3],_0x5ec598[_0x3baf0f]=_0x36ff22[_0x186b25+0x4]<<0x18|_0x36ff22[_0x186b25+0x5]<<0x10|_0x36ff22[_0x186b25+0x6]<<0x8|_0x36ff22[_0x186b25+0x7];}for(_0x3baf0f=0x0;_0x3baf0f<0x50;_0x3baf0f++){_0x3557f0=_0x2cf4dd,_0x31611f=_0x24c13f,_0x231c29=_0x1acd9b,_0x5d7411=_0xc5abe2,_0x222f90=_0x5ba5e5,_0x39f9b1=_0x32cc8a,_0x46d1b4=_0x437529,_0x5a8d44=_0x5879aa,_0x12fc2b=_0xd90f05,_0x1a0f64=_0x46c900,_0xd9b90c=_0x39ca50,_0x19aa14=_0x439865,_0x3a1055=_0x55ec68,_0x5d25f1=_0x349d3a,_0x5bb6d4=_0x1e0d19,_0x58250f=_0x1df10d,_0x241c1d=_0x5879aa,_0x1a5cbb=_0x1df10d,_0x3d2226=_0x1a5cbb&0xffff,_0x443c15=_0x1a5cbb>>>0x10,_0x274e46=_0x241c1d&0xffff,_0x513d3d=_0x241c1d>>>0x10,_0x241c1d=(_0x5ba5e5>>>0xe|_0x55ec68<<0x20-0xe)^(_0x5ba5e5>>>0x12|_0x55ec68<<0x20-0x12)^(_0x55ec68>>>0x29-0x20|_0x5ba5e5<<0x20-(0x29-0x20)),_0x1a5cbb=(_0x55ec68>>>0xe|_0x5ba5e5<<0x20-0xe)^(_0x55ec68>>>0x12|_0x5ba5e5<<0x20-0x12)^(_0x5ba5e5>>>0x29-0x20|_0x55ec68<<0x20-(0x29-0x20)),_0x3d2226+=_0x1a5cbb&0xffff,_0x443c15+=_0x1a5cbb>>>0x10,_0x274e46+=_0x241c1d&0xffff,_0x513d3d+=_0x241c1d>>>0x10,_0x241c1d=_0x5ba5e5&_0x32cc8a^~_0x5ba5e5&_0x437529,_0x1a5cbb=_0x55ec68&_0x349d3a^~_0x55ec68&_0x1e0d19,_0x3d2226+=_0x1a5cbb&0xffff,_0x443c15+=_0x1a5cbb>>>0x10,_0x274e46+=_0x241c1d&0xffff,_0x513d3d+=_0x241c1d>>>0x10,_0x241c1d=_0x16f095[_0x3baf0f*0x2],_0x1a5cbb=_0x16f095[_0x3baf0f*0x2+0x1],_0x3d2226+=_0x1a5cbb&0xffff,_0x443c15+=_0x1a5cbb>>>0x10,_0x274e46+=_0x241c1d&0xffff,_0x513d3d+=_0x241c1d>>>0x10,_0x241c1d=_0x271aed[_0x3baf0f%0x10],_0x1a5cbb=_0x5ec598[_0x3baf0f%0x10],_0x3d2226+=_0x1a5cbb&0xffff,_0x443c15+=_0x1a5cbb>>>0x10,_0x274e46+=_0x241c1d&0xffff,_0x513d3d+=_0x241c1d>>>0x10,_0x443c15+=_0x3d2226>>>0x10,_0x274e46+=_0x443c15>>>0x10,_0x513d3d+=_0x274e46>>>0x10,_0x50b557=_0x274e46&0xffff|_0x513d3d<<0x10,_0x74b0e3=_0x3d2226&0xffff|_0x443c15<<0x10,_0x241c1d=_0x50b557,_0x1a5cbb=_0x74b0e3,_0x3d2226=_0x1a5cbb&0xffff,_0x443c15=_0x1a5cbb>>>0x10,_0x274e46=_0x241c1d&0xffff,_0x513d3d=_0x241c1d>>>0x10,_0x241c1d=(_0x2cf4dd>>>0x1c|_0xd90f05<<0x20-0x1c)^(_0xd90f05>>>0x22-0x20|_0x2cf4dd<<0x20-(0x22-0x20))^(_0xd90f05>>>0x27-0x20|_0x2cf4dd<<0x20-(0x27-0x20)),_0x1a5cbb=(_0xd90f05>>>0x1c|_0x2cf4dd<<0x20-0x1c)^(_0x2cf4dd>>>0x22-0x20|_0xd90f05<<0x20-(0x22-0x20))^(_0x2cf4dd>>>0x27-0x20|_0xd90f05<<0x20-(0x27-0x20)),_0x3d2226+=_0x1a5cbb&0xffff,_0x443c15+=_0x1a5cbb>>>0x10,_0x274e46+=_0x241c1d&0xffff,_0x513d3d+=_0x241c1d>>>0x10,_0x241c1d=_0x2cf4dd&_0x24c13f^_0x2cf4dd&_0x1acd9b^_0x24c13f&_0x1acd9b,_0x1a5cbb=_0xd90f05&_0x46c900^_0xd90f05&_0x39ca50^_0x46c900&_0x39ca50,_0x3d2226+=_0x1a5cbb&0xffff,_0x443c15+=_0x1a5cbb>>>0x10,_0x274e46+=_0x241c1d&0xffff,_0x513d3d+=_0x241c1d>>>0x10,_0x443c15+=_0x3d2226>>>0x10,_0x274e46+=_0x443c15>>>0x10,_0x513d3d+=_0x274e46>>>0x10,_0x5a8d44=_0x274e46&0xffff|_0x513d3d<<0x10,_0x58250f=_0x3d2226&0xffff|_0x443c15<<0x10,_0x241c1d=_0x5d7411,_0x1a5cbb=_0x19aa14,_0x3d2226=_0x1a5cbb&0xffff,_0x443c15=_0x1a5cbb>>>0x10,_0x274e46=_0x241c1d&0xffff,_0x513d3d=_0x241c1d>>>0x10,_0x241c1d=_0x50b557,_0x1a5cbb=_0x74b0e3,_0x3d2226+=_0x1a5cbb&0xffff,_0x443c15+=_0x1a5cbb>>>0x10,_0x274e46+=_0x241c1d&0xffff,_0x513d3d+=_0x241c1d>>>0x10,_0x443c15+=_0x3d2226>>>0x10,_0x274e46+=_0x443c15>>>0x10,_0x513d3d+=_0x274e46>>>0x10,_0x5d7411=_0x274e46&0xffff|_0x513d3d<<0x10,_0x19aa14=_0x3d2226&0xffff|_0x443c15<<0x10,_0x24c13f=_0x3557f0,_0x1acd9b=_0x31611f,_0xc5abe2=_0x231c29,_0x5ba5e5=_0x5d7411,_0x32cc8a=_0x222f90,_0x437529=_0x39f9b1,_0x5879aa=_0x46d1b4,_0x2cf4dd=_0x5a8d44,_0x46c900=_0x12fc2b,_0x39ca50=_0x1a0f64,_0x439865=_0xd9b90c,_0x55ec68=_0x19aa14,_0x349d3a=_0x3a1055,_0x1e0d19=_0x5d25f1,_0x1df10d=_0x5bb6d4,_0xd90f05=_0x58250f;if(_0x3baf0f%0x10===0xf)for(_0x186b25=0x0;_0x186b25<0x10;_0x186b25++){_0x241c1d=_0x271aed[_0x186b25],_0x1a5cbb=_0x5ec598[_0x186b25],_0x3d2226=_0x1a5cbb&0xffff,_0x443c15=_0x1a5cbb>>>0x10,_0x274e46=_0x241c1d&0xffff,_0x513d3d=_0x241c1d>>>0x10,_0x241c1d=_0x271aed[(_0x186b25+0x9)%0x10],_0x1a5cbb=_0x5ec598[(_0x186b25+0x9)%0x10],_0x3d2226+=_0x1a5cbb&0xffff,_0x443c15+=_0x1a5cbb>>>0x10,_0x274e46+=_0x241c1d&0xffff,_0x513d3d+=_0x241c1d>>>0x10,_0x50b557=_0x271aed[(_0x186b25+0x1)%0x10],_0x74b0e3=_0x5ec598[(_0x186b25+0x1)%0x10],_0x241c1d=(_0x50b557>>>0x1|_0x74b0e3<<0x20-0x1)^(_0x50b557>>>0x8|_0x74b0e3<<0x20-0x8)^_0x50b557>>>0x7,_0x1a5cbb=(_0x74b0e3>>>0x1|_0x50b557<<0x20-0x1)^(_0x74b0e3>>>0x8|_0x50b557<<0x20-0x8)^(_0x74b0e3>>>0x7|_0x50b557<<0x20-0x7),_0x3d2226+=_0x1a5cbb&0xffff,_0x443c15+=_0x1a5cbb>>>0x10,_0x274e46+=_0x241c1d&0xffff,_0x513d3d+=_0x241c1d>>>0x10,_0x50b557=_0x271aed[(_0x186b25+0xe)%0x10],_0x74b0e3=_0x5ec598[(_0x186b25+0xe)%0x10],_0x241c1d=(_0x50b557>>>0x13|_0x74b0e3<<0x20-0x13)^(_0x74b0e3>>>0x3d-0x20|_0x50b557<<0x20-(0x3d-0x20))^_0x50b557>>>0x6,_0x1a5cbb=(_0x74b0e3>>>0x13|_0x50b557<<0x20-0x13)^(_0x50b557>>>0x3d-0x20|_0x74b0e3<<0x20-(0x3d-0x20))^(_0x74b0e3>>>0x6|_0x50b557<<0x20-0x6),_0x3d2226+=_0x1a5cbb&0xffff,_0x443c15+=_0x1a5cbb>>>0x10,_0x274e46+=_0x241c1d&0xffff,_0x513d3d+=_0x241c1d>>>0x10,_0x443c15+=_0x3d2226>>>0x10,_0x274e46+=_0x443c15>>>0x10,_0x513d3d+=_0x274e46>>>0x10,_0x271aed[_0x186b25]=_0x274e46&0xffff|_0x513d3d<<0x10,_0x5ec598[_0x186b25]=_0x3d2226&0xffff|_0x443c15<<0x10;}}_0x241c1d=_0x2cf4dd,_0x1a5cbb=_0xd90f05,_0x3d2226=_0x1a5cbb&0xffff,_0x443c15=_0x1a5cbb>>>0x10,_0x274e46=_0x241c1d&0xffff,_0x513d3d=_0x241c1d>>>0x10,_0x241c1d=_0x41bb84[0x0],_0x1a5cbb=_0x5ffcff[0x0],_0x3d2226+=_0x1a5cbb&0xffff,_0x443c15+=_0x1a5cbb>>>0x10,_0x274e46+=_0x241c1d&0xffff,_0x513d3d+=_0x241c1d>>>0x10,_0x443c15+=_0x3d2226>>>0x10,_0x274e46+=_0x443c15>>>0x10,_0x513d3d+=_0x274e46>>>0x10,_0x41bb84[0x0]=_0x2cf4dd=_0x274e46&0xffff|_0x513d3d<<0x10,_0x5ffcff[0x0]=_0xd90f05=_0x3d2226&0xffff|_0x443c15<<0x10,_0x241c1d=_0x24c13f,_0x1a5cbb=_0x46c900,_0x3d2226=_0x1a5cbb&0xffff,_0x443c15=_0x1a5cbb>>>0x10,_0x274e46=_0x241c1d&0xffff,_0x513d3d=_0x241c1d>>>0x10,_0x241c1d=_0x41bb84[0x1],_0x1a5cbb=_0x5ffcff[0x1],_0x3d2226+=_0x1a5cbb&0xffff,_0x443c15+=_0x1a5cbb>>>0x10,_0x274e46+=_0x241c1d&0xffff,_0x513d3d+=_0x241c1d>>>0x10,_0x443c15+=_0x3d2226>>>0x10,_0x274e46+=_0x443c15>>>0x10,_0x513d3d+=_0x274e46>>>0x10,_0x41bb84[0x1]=_0x24c13f=_0x274e46&0xffff|_0x513d3d<<0x10,_0x5ffcff[0x1]=_0x46c900=_0x3d2226&0xffff|_0x443c15<<0x10,_0x241c1d=_0x1acd9b,_0x1a5cbb=_0x39ca50,_0x3d2226=_0x1a5cbb&0xffff,_0x443c15=_0x1a5cbb>>>0x10,_0x274e46=_0x241c1d&0xffff,_0x513d3d=_0x241c1d>>>0x10,_0x241c1d=_0x41bb84[0x2],_0x1a5cbb=_0x5ffcff[0x2],_0x3d2226+=_0x1a5cbb&0xffff,_0x443c15+=_0x1a5cbb>>>0x10,_0x274e46+=_0x241c1d&0xffff,_0x513d3d+=_0x241c1d>>>0x10,_0x443c15+=_0x3d2226>>>0x10,_0x274e46+=_0x443c15>>>0x10,_0x513d3d+=_0x274e46>>>0x10,_0x41bb84[0x2]=_0x1acd9b=_0x274e46&0xffff|_0x513d3d<<0x10,_0x5ffcff[0x2]=_0x39ca50=_0x3d2226&0xffff|_0x443c15<<0x10,_0x241c1d=_0xc5abe2,_0x1a5cbb=_0x439865,_0x3d2226=_0x1a5cbb&0xffff,_0x443c15=_0x1a5cbb>>>0x10,_0x274e46=_0x241c1d&0xffff,_0x513d3d=_0x241c1d>>>0x10,_0x241c1d=_0x41bb84[0x3],_0x1a5cbb=_0x5ffcff[0x3],_0x3d2226+=_0x1a5cbb&0xffff,_0x443c15+=_0x1a5cbb>>>0x10,_0x274e46+=_0x241c1d&0xffff,_0x513d3d+=_0x241c1d>>>0x10,_0x443c15+=_0x3d2226>>>0x10,_0x274e46+=_0x443c15>>>0x10,_0x513d3d+=_0x274e46>>>0x10,_0x41bb84[0x3]=_0xc5abe2=_0x274e46&0xffff|_0x513d3d<<0x10,_0x5ffcff[0x3]=_0x439865=_0x3d2226&0xffff|_0x443c15<<0x10,_0x241c1d=_0x5ba5e5,_0x1a5cbb=_0x55ec68,_0x3d2226=_0x1a5cbb&0xffff,_0x443c15=_0x1a5cbb>>>0x10,_0x274e46=_0x241c1d&0xffff,_0x513d3d=_0x241c1d>>>0x10,_0x241c1d=_0x41bb84[0x4],_0x1a5cbb=_0x5ffcff[0x4],_0x3d2226+=_0x1a5cbb&0xffff,_0x443c15+=_0x1a5cbb>>>0x10,_0x274e46+=_0x241c1d&0xffff,_0x513d3d+=_0x241c1d>>>0x10,_0x443c15+=_0x3d2226>>>0x10,_0x274e46+=_0x443c15>>>0x10,_0x513d3d+=_0x274e46>>>0x10,_0x41bb84[0x4]=_0x5ba5e5=_0x274e46&0xffff|_0x513d3d<<0x10,_0x5ffcff[0x4]=_0x55ec68=_0x3d2226&0xffff|_0x443c15<<0x10,_0x241c1d=_0x32cc8a,_0x1a5cbb=_0x349d3a,_0x3d2226=_0x1a5cbb&0xffff,_0x443c15=_0x1a5cbb>>>0x10,_0x274e46=_0x241c1d&0xffff,_0x513d3d=_0x241c1d>>>0x10,_0x241c1d=_0x41bb84[0x5],_0x1a5cbb=_0x5ffcff[0x5],_0x3d2226+=_0x1a5cbb&0xffff,_0x443c15+=_0x1a5cbb>>>0x10,_0x274e46+=_0x241c1d&0xffff,_0x513d3d+=_0x241c1d>>>0x10,_0x443c15+=_0x3d2226>>>0x10,_0x274e46+=_0x443c15>>>0x10,_0x513d3d+=_0x274e46>>>0x10,_0x41bb84[0x5]=_0x32cc8a=_0x274e46&0xffff|_0x513d3d<<0x10,_0x5ffcff[0x5]=_0x349d3a=_0x3d2226&0xffff|_0x443c15<<0x10,_0x241c1d=_0x437529,_0x1a5cbb=_0x1e0d19,_0x3d2226=_0x1a5cbb&0xffff,_0x443c15=_0x1a5cbb>>>0x10,_0x274e46=_0x241c1d&0xffff,_0x513d3d=_0x241c1d>>>0x10,_0x241c1d=_0x41bb84[0x6],_0x1a5cbb=_0x5ffcff[0x6],_0x3d2226+=_0x1a5cbb&0xffff,_0x443c15+=_0x1a5cbb>>>0x10,_0x274e46+=_0x241c1d&0xffff,_0x513d3d+=_0x241c1d>>>0x10,_0x443c15+=_0x3d2226>>>0x10,_0x274e46+=_0x443c15>>>0x10,_0x513d3d+=_0x274e46>>>0x10,_0x41bb84[0x6]=_0x437529=_0x274e46&0xffff|_0x513d3d<<0x10,_0x5ffcff[0x6]=_0x1e0d19=_0x3d2226&0xffff|_0x443c15<<0x10,_0x241c1d=_0x5879aa,_0x1a5cbb=_0x1df10d,_0x3d2226=_0x1a5cbb&0xffff,_0x443c15=_0x1a5cbb>>>0x10,_0x274e46=_0x241c1d&0xffff,_0x513d3d=_0x241c1d>>>0x10,_0x241c1d=_0x41bb84[0x7],_0x1a5cbb=_0x5ffcff[0x7],_0x3d2226+=_0x1a5cbb&0xffff,_0x443c15+=_0x1a5cbb>>>0x10,_0x274e46+=_0x241c1d&0xffff,_0x513d3d+=_0x241c1d>>>0x10,_0x443c15+=_0x3d2226>>>0x10,_0x274e46+=_0x443c15>>>0x10,_0x513d3d+=_0x274e46>>>0x10,_0x41bb84[0x7]=_0x5879aa=_0x274e46&0xffff|_0x513d3d<<0x10,_0x5ffcff[0x7]=_0x1df10d=_0x3d2226&0xffff|_0x443c15<<0x10,_0x1472d7+=0x80,_0x41f396-=0x80;}return _0x41f396;}__name(_0x472a67,'cr'+'yp'+'to'+'_h'+'as'+'hb'+'lo'+'ck'+'s_'+'hl');function _0x532334(_0x2335b1,_0xbe67f1,_0x591f8d){var _0x1f644f=new Int32Array(0x8),_0x12956f=new Int32Array(0x8),_0xb969d0=new Uint8Array(0x100),_0x53e78c,_0xc2b641=_0x591f8d;_0x1f644f[0x0]=0x6a09e667,_0x1f644f[0x1]=0xbb67ae85,_0x1f644f[0x2]=0x3c6ef372,_0x1f644f[0x3]=0xa54ff53a,_0x1f644f[0x4]=0x510e527f,_0x1f644f[0x5]=0x9b05688c,_0x1f644f[0x6]=0x1f83d9ab,_0x1f644f[0x7]=0x5be0cd19,_0x12956f[0x0]=0xf3bcc908,_0x12956f[0x1]=0x84caa73b,_0x12956f[0x2]=0xfe94f82b,_0x12956f[0x3]=0x5f1d36f1,_0x12956f[0x4]=0xade682d1,_0x12956f[0x5]=0x2b3e6c1f,_0x12956f[0x6]=0xfb41bd6b,_0x12956f[0x7]=0x137e2179,_0x472a67(_0x1f644f,_0x12956f,_0xbe67f1,_0x591f8d),_0x591f8d%=0x80;for(_0x53e78c=0x0;_0x53e78c<_0x591f8d;_0x53e78c++)_0xb969d0[_0x53e78c]=_0xbe67f1[_0xc2b641-_0x591f8d+_0x53e78c];_0xb969d0[_0x591f8d]=0x80,_0x591f8d=0x100-0x80*(_0x591f8d<0x70?0x1:0x0),_0xb969d0[_0x591f8d-0x9]=0x0,_0x35c913(_0xb969d0,_0x591f8d-0x8,_0xc2b641/0x20000000|0x0,_0xc2b641<<0x3),_0x472a67(_0x1f644f,_0x12956f,_0xb969d0,_0x591f8d);for(_0x53e78c=0x0;_0x53e78c<0x8;_0x53e78c++)_0x35c913(_0x2335b1,0x8*_0x53e78c,_0x1f644f[_0x53e78c],_0x12956f[_0x53e78c]);return 0x0;}__name(_0x532334,'cr'+'yp'+'to'+'_h'+'as'+'h');function _0x408f08(_0x3243eb,_0x5a12ac){var _0x40f787=_0x2b6ef4(),_0x112d31=_0x2b6ef4(),_0x49b9ce=_0x2b6ef4(),_0x53fbf4=_0x2b6ef4(),_0x1805fd=_0x2b6ef4(),_0x560618=_0x2b6ef4(),_0x50b647=_0x2b6ef4(),_0x4ec1bc=_0x2b6ef4(),_0x787064=_0x2b6ef4();_0xe49c75(_0x40f787,_0x3243eb[0x1],_0x3243eb[0x0]),_0xe49c75(_0x787064,_0x5a12ac[0x1],_0x5a12ac[0x0]),_0x133098(_0x40f787,_0x40f787,_0x787064),_0x2cad97(_0x112d31,_0x3243eb[0x0],_0x3243eb[0x1]),_0x2cad97(_0x787064,_0x5a12ac[0x0],_0x5a12ac[0x1]),_0x133098(_0x112d31,_0x112d31,_0x787064),_0x133098(_0x49b9ce,_0x3243eb[0x3],_0x5a12ac[0x3]),_0x133098(_0x49b9ce,_0x49b9ce,_0x745687),_0x133098(_0x53fbf4,_0x3243eb[0x2],_0x5a12ac[0x2]),_0x2cad97(_0x53fbf4,_0x53fbf4,_0x53fbf4),_0xe49c75(_0x1805fd,_0x112d31,_0x40f787),_0xe49c75(_0x560618,_0x53fbf4,_0x49b9ce),_0x2cad97(_0x50b647,_0x53fbf4,_0x49b9ce),_0x2cad97(_0x4ec1bc,_0x112d31,_0x40f787),_0x133098(_0x3243eb[0x0],_0x1805fd,_0x560618),_0x133098(_0x3243eb[0x1],_0x4ec1bc,_0x50b647),_0x133098(_0x3243eb[0x2],_0x50b647,_0x560618),_0x133098(_0x3243eb[0x3],_0x1805fd,_0x4ec1bc);}__name(_0x408f08,'ad'+'d');function _0x5441f4(_0x9d700b,_0x61a175,_0x2bcf73){var _0x1a89e7;for(_0x1a89e7=0x0;_0x1a89e7<0x4;_0x1a89e7++){_0x4cad7e(_0x9d700b[_0x1a89e7],_0x61a175[_0x1a89e7],_0x2bcf73);}}__name(_0x5441f4,'cs'+'wa'+'p');function _0x4d1fa1(_0x4dada9,_0xe84d16){var _0x269bda=_0x2b6ef4(),_0x2ef65c=_0x2b6ef4(),_0x1a6a97=_0x2b6ef4();_0x53344c(_0x1a6a97,_0xe84d16[0x2]),_0x133098(_0x269bda,_0xe84d16[0x0],_0x1a6a97),_0x133098(_0x2ef65c,_0xe84d16[0x1],_0x1a6a97),_0x338b7a(_0x4dada9,_0x2ef65c),_0x4dada9[0x1f]^=_0x55b3b9(_0x269bda)<<0x7;}__name(_0x4d1fa1,'pa'+'ck');function _0x3ed34e(_0x377c99,_0x4e291c,_0x1bb7ff){var _0x2491dc,_0x25a2a8;_0x336bac(_0x377c99[0x0],_0x2a0cee),_0x336bac(_0x377c99[0x1],_0x4f9220),_0x336bac(_0x377c99[0x2],_0x4f9220),_0x336bac(_0x377c99[0x3],_0x2a0cee);for(_0x25a2a8=0xff;_0x25a2a8>=0x0;--_0x25a2a8){_0x2491dc=_0x1bb7ff[_0x25a2a8/0x8|0x0]>>(_0x25a2a8&0x7)&0x1,_0x5441f4(_0x377c99,_0x4e291c,_0x2491dc),_0x408f08(_0x4e291c,_0x377c99),_0x408f08(_0x377c99,_0x377c99),_0x5441f4(_0x377c99,_0x4e291c,_0x2491dc);}}__name(_0x3ed34e,'sc'+'al'+'ar'+'mu'+'lt');function _0x766471(_0x46baed,_0x289625){var _0x9539b7=[_0x2b6ef4(),_0x2b6ef4(),_0x2b6ef4(),_0x2b6ef4()];_0x336bac(_0x9539b7[0x0],_0x49c287),_0x336bac(_0x9539b7[0x1],_0x537b5a),_0x336bac(_0x9539b7[0x2],_0x4f9220),_0x133098(_0x9539b7[0x3],_0x49c287,_0x537b5a),_0x3ed34e(_0x46baed,_0x9539b7,_0x289625);}__name(_0x766471,'sc'+'al'+'ar'+'ba'+'se');function _0xfd9d43(_0x25b7b5,_0x10ba4c,_0x33de9c){var _0xdb531=new Uint8Array(0x40),_0x442652=[_0x2b6ef4(),_0x2b6ef4(),_0x2b6ef4(),_0x2b6ef4()],_0x49bbb7;if(!_0x33de9c)_0x30a657(_0x10ba4c,0x20);_0x532334(_0xdb531,_0x10ba4c,0x20),_0xdb531[0x0]&=0xf8,_0xdb531[0x1f]&=0x7f,_0xdb531[0x1f]|=0x40,_0x766471(_0x442652,_0xdb531),_0x4d1fa1(_0x25b7b5,_0x442652);for(_0x49bbb7=0x0;_0x49bbb7<0x20;_0x49bbb7++)_0x10ba4c[_0x49bbb7+0x20]=_0x25b7b5[_0x49bbb7];return 0x0;}__name(_0xfd9d43,'cr'+'yp'+'to'+'_s'+'ig'+'n_'+'ke'+'yp'+'ai'+'r');var _0x1e60e7=new Float64Array([0xed,0xd3,0xf5,0x5c,0x1a,0x63,0x12,0x58,0xd6,0x9c,0xf7,0xa2,0xde,0xf9,0xde,0x14,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x10]);function _0x425f80(_0x52cf96,_0x5a5564){var _0x192a64,_0x5bb054,_0x598469,_0xd9f400;for(_0x5bb054=0x3f;_0x5bb054>=0x20;--_0x5bb054){_0x192a64=0x0;for(_0x598469=_0x5bb054-0x20,_0xd9f400=_0x5bb054-0xc;_0x598469<_0xd9f400;++_0x598469){_0x5a5564[_0x598469]+=_0x192a64-0x10*_0x5a5564[_0x5bb054]*_0x1e60e7[_0x598469-(_0x5bb054-0x20)],_0x192a64=Math['fl'+'oo'+'r']((_0x5a5564[_0x598469]+0x80)/0x100),_0x5a5564[_0x598469]-=_0x192a64*0x100;}_0x5a5564[_0x598469]+=_0x192a64,_0x5a5564[_0x5bb054]=0x0;}_0x192a64=0x0;for(_0x598469=0x0;_0x598469<0x20;_0x598469++){_0x5a5564[_0x598469]+=_0x192a64-(_0x5a5564[0x1f]>>0x4)*_0x1e60e7[_0x598469],_0x192a64=_0x5a5564[_0x598469]>>0x8,_0x5a5564[_0x598469]&=0xff;}for(_0x598469=0x0;_0x598469<0x20;_0x598469++)_0x5a5564[_0x598469]-=_0x192a64*_0x1e60e7[_0x598469];for(_0x5bb054=0x0;_0x5bb054<0x20;_0x5bb054++){_0x5a5564[_0x5bb054+0x1]+=_0x5a5564[_0x5bb054]>>0x8,_0x52cf96[_0x5bb054]=_0x5a5564[_0x5bb054]&0xff;}}__name(_0x425f80,'mo'+'dL');function _0x4269b6(_0x3f65b3){var _0x43dd9c=new Float64Array(0x40),_0x15dbb2;for(_0x15dbb2=0x0;_0x15dbb2<0x40;_0x15dbb2++)_0x43dd9c[_0x15dbb2]=_0x3f65b3[_0x15dbb2];for(_0x15dbb2=0x0;_0x15dbb2<0x40;_0x15dbb2++)_0x3f65b3[_0x15dbb2]=0x0;_0x425f80(_0x3f65b3,_0x43dd9c);}__name(_0x4269b6,'re'+'du'+'ce');function _0x3bfcb9(_0x44e7c2,_0x3ea546,_0xc1c3a1,_0x46b284){var _0x5078a6=new Uint8Array(0x40),_0x2782b9=new Uint8Array(0x40),_0x273c48=new Uint8Array(0x40),_0x298ef6,_0x27ff04,_0x54879c=new Float64Array(0x40),_0x4e79a0=[_0x2b6ef4(),_0x2b6ef4(),_0x2b6ef4(),_0x2b6ef4()];_0x532334(_0x5078a6,_0x46b284,0x20),_0x5078a6[0x0]&=0xf8,_0x5078a6[0x1f]&=0x7f,_0x5078a6[0x1f]|=0x40;var _0x1c1b57=_0xc1c3a1+0x40;for(_0x298ef6=0x0;_0x298ef6<_0xc1c3a1;_0x298ef6++)_0x44e7c2[0x40+_0x298ef6]=_0x3ea546[_0x298ef6];for(_0x298ef6=0x0;_0x298ef6<0x20;_0x298ef6++)_0x44e7c2[0x20+_0x298ef6]=_0x5078a6[0x20+_0x298ef6];_0x532334(_0x273c48,_0x44e7c2['su'+'ba'+'rr'+'ay'](0x20),_0xc1c3a1+0x20),_0x4269b6(_0x273c48),_0x766471(_0x4e79a0,_0x273c48),_0x4d1fa1(_0x44e7c2,_0x4e79a0);for(_0x298ef6=0x20;_0x298ef6<0x40;_0x298ef6++)_0x44e7c2[_0x298ef6]=_0x46b284[_0x298ef6];_0x532334(_0x2782b9,_0x44e7c2,_0xc1c3a1+0x40),_0x4269b6(_0x2782b9);for(_0x298ef6=0x0;_0x298ef6<0x40;_0x298ef6++)_0x54879c[_0x298ef6]=0x0;for(_0x298ef6=0x0;_0x298ef6<0x20;_0x298ef6++)_0x54879c[_0x298ef6]=_0x273c48[_0x298ef6];for(_0x298ef6=0x0;_0x298ef6<0x20;_0x298ef6++){for(_0x27ff04=0x0;_0x27ff04<0x20;_0x27ff04++){_0x54879c[_0x298ef6+_0x27ff04]+=_0x2782b9[_0x298ef6]*_0x5078a6[_0x27ff04];}}return _0x425f80(_0x44e7c2['su'+'ba'+'rr'+'ay'](0x20),_0x54879c),_0x1c1b57;}__name(_0x3bfcb9,'cr'+'yp'+'to'+'_s'+'ig'+'n');function _0x2eb0f8(_0x162610,_0x2a5ad1){var _0x28faa5=_0x2b6ef4(),_0x5df4fc=_0x2b6ef4(),_0x68e23f=_0x2b6ef4(),_0x5a1e03=_0x2b6ef4(),_0x5b2afb=_0x2b6ef4(),_0x49319b=_0x2b6ef4(),_0x37d2bb=_0x2b6ef4();_0x336bac(_0x162610[0x2],_0x4f9220),_0x228e35(_0x162610[0x1],_0x2a5ad1),_0x409001(_0x68e23f,_0x162610[0x1]),_0x133098(_0x5a1e03,_0x68e23f,_0x15ef9b),_0xe49c75(_0x68e23f,_0x68e23f,_0x162610[0x2]),_0x2cad97(_0x5a1e03,_0x162610[0x2],_0x5a1e03),_0x409001(_0x5b2afb,_0x5a1e03),_0x409001(_0x49319b,_0x5b2afb),_0x133098(_0x37d2bb,_0x49319b,_0x5b2afb),_0x133098(_0x28faa5,_0x37d2bb,_0x68e23f),_0x133098(_0x28faa5,_0x28faa5,_0x5a1e03),_0xb27cd9(_0x28faa5,_0x28faa5),_0x133098(_0x28faa5,_0x28faa5,_0x68e23f),_0x133098(_0x28faa5,_0x28faa5,_0x5a1e03),_0x133098(_0x28faa5,_0x28faa5,_0x5a1e03),_0x133098(_0x162610[0x0],_0x28faa5,_0x5a1e03),_0x409001(_0x5df4fc,_0x162610[0x0]),_0x133098(_0x5df4fc,_0x5df4fc,_0x5a1e03);if(_0x1e6bb1(_0x5df4fc,_0x68e23f))_0x133098(_0x162610[0x0],_0x162610[0x0],_0x3feab4);_0x409001(_0x5df4fc,_0x162610[0x0]),_0x133098(_0x5df4fc,_0x5df4fc,_0x5a1e03);if(_0x1e6bb1(_0x5df4fc,_0x68e23f))return-0x1;if(_0x55b3b9(_0x162610[0x0])===_0x2a5ad1[0x1f]>>0x7)_0xe49c75(_0x162610[0x0],_0x2a0cee,_0x162610[0x0]);return _0x133098(_0x162610[0x3],_0x162610[0x0],_0x162610[0x1]),0x0;}__name(_0x2eb0f8,'un'+'pa'+'ck'+'ne'+'g');function _0x23d41b(_0x2909f3,_0x4f17e3,_0x51e220,_0x2d3cff){var _0x5db6cf,_0x2d3fad=new Uint8Array(0x20),_0x13ed88=new Uint8Array(0x40),_0x2dc9a6=[_0x2b6ef4(),_0x2b6ef4(),_0x2b6ef4(),_0x2b6ef4()],_0x59dc20=[_0x2b6ef4(),_0x2b6ef4(),_0x2b6ef4(),_0x2b6ef4()];if(_0x51e220<0x40)return-0x1;if(_0x2eb0f8(_0x59dc20,_0x2d3cff))return-0x1;for(_0x5db6cf=0x0;_0x5db6cf<_0x51e220;_0x5db6cf++)_0x2909f3[_0x5db6cf]=_0x4f17e3[_0x5db6cf];for(_0x5db6cf=0x0;_0x5db6cf<0x20;_0x5db6cf++)_0x2909f3[_0x5db6cf+0x20]=_0x2d3cff[_0x5db6cf];_0x532334(_0x13ed88,_0x2909f3,_0x51e220),_0x4269b6(_0x13ed88),_0x3ed34e(_0x2dc9a6,_0x59dc20,_0x13ed88),_0x766471(_0x59dc20,_0x4f17e3['su'+'ba'+'rr'+'ay'](0x20)),_0x408f08(_0x2dc9a6,_0x59dc20),_0x4d1fa1(_0x2d3fad,_0x2dc9a6),_0x51e220-=0x40;if(_0x313d39(_0x4f17e3,0x0,_0x2d3fad,0x0)){for(_0x5db6cf=0x0;_0x5db6cf<_0x51e220;_0x5db6cf++)_0x2909f3[_0x5db6cf]=0x0;return-0x1;}for(_0x5db6cf=0x0;_0x5db6cf<_0x51e220;_0x5db6cf++)_0x2909f3[_0x5db6cf]=_0x4f17e3[_0x5db6cf+0x40];return _0x51e220;}__name(_0x23d41b,'cr'+'yp'+'to'+'_s'+'ig'+'n_'+'op'+'en');var _0x334144=0x20,_0x3b7a5f=0x18,_0x4f1645=0x20,_0x3127ac=0x10,_0x2b69ca=0x20,_0x14397d=0x20,_0x15e1e4=0x20,_0x3ee1a6=0x20,_0x46a9d4=0x20,_0x11ca7c=_0x3b7a5f,_0x23fb28=_0x4f1645,_0x5079d5=_0x3127ac,_0x522d2d=0x40,_0x1de2a6=0x20,_0x3ab252=0x40,_0x4d1d12=0x20,_0x5a52eb=0x40;_0x167396['lo'+'wl'+'ev'+'el']={'crypto_core_hsalsa20':_0x4b99d1,'crypto_stream_xor':_0x4538e1,'crypto_stream':_0x3499fb,'crypto_stream_salsa20_xor':_0x515077,'crypto_stream_salsa20':_0x2ed3c5,'crypto_onetimeauth':_0x50a726,'crypto_onetimeauth_verify':_0x53067e,'crypto_verify_16':_0x4a073e,'crypto_verify_32':_0x313d39,'crypto_secretbox':_0x16c6ef,'crypto_secretbox_open':_0x433e96,'crypto_scalarmult':_0x5e6c26,'crypto_scalarmult_base':_0x54c911,'crypto_box_beforenm':_0x3d05f7,'crypto_box_afternm':_0x394e83,'crypto_box':_0x32f0a4,'crypto_box_open':_0x1db99,'crypto_box_keypair':_0x4ebde1,'crypto_hash':_0x532334,'crypto_sign':_0x3bfcb9,'crypto_sign_keypair':_0xfd9d43,'crypto_sign_open':_0x23d41b,'crypto_secretbox_KEYBYTES':_0x334144,'crypto_secretbox_NONCEBYTES':_0x3b7a5f,'crypto_secretbox_ZEROBYTES':_0x4f1645,'crypto_secretbox_BOXZEROBYTES':_0x3127ac,'crypto_scalarmult_BYTES':_0x2b69ca,'crypto_scalarmult_SCALARBYTES':_0x14397d,'crypto_box_PUBLICKEYBYTES':_0x15e1e4,'crypto_box_SECRETKEYBYTES':_0x3ee1a6,'crypto_box_BEFORENMBYTES':_0x46a9d4,'crypto_box_NONCEBYTES':_0x11ca7c,'crypto_box_ZEROBYTES':_0x23fb28,'crypto_box_BOXZEROBYTES':_0x5079d5,'crypto_sign_BYTES':_0x522d2d,'crypto_sign_PUBLICKEYBYTES':_0x1de2a6,'crypto_sign_SECRETKEYBYTES':_0x3ab252,'crypto_sign_SEEDBYTES':_0x4d1d12,'crypto_hash_BYTES':_0x5a52eb,'gf':_0x2b6ef4,'D':_0x15ef9b,'L':_0x1e60e7,'pack25519':_0x338b7a,'unpack25519':_0x228e35,'M':_0x133098,'A':_0x2cad97,'S':_0x409001,'Z':_0xe49c75,'pow2523':_0xb27cd9,'add':_0x408f08,'set25519':_0x336bac,'modL':_0x425f80,'scalarmult':_0x3ed34e,'scalarbase':_0x766471};function _0x1f9212(_0x26a958,_0x3ba301){if(_0x26a958['le'+'ng'+'th']!==_0x334144)throw new Error('ba'+'d\x20'+'ke'+'y\x20'+'si'+'ze');if(_0x3ba301['le'+'ng'+'th']!==_0x3b7a5f)throw new Error('ba'+'d\x20'+'no'+'nc'+'e\x20'+'si'+'ze');}__name(_0x1f9212,'ch'+'ec'+'kL'+'en'+'gt'+'hs');function _0xf1657e(_0x565eb5,_0x479d88){if(_0x565eb5['le'+'ng'+'th']!==_0x15e1e4)throw new Error('ba'+'d\x20'+'pu'+'bl'+'ic'+'\x20k'+'ey'+'\x20s'+'iz'+'e');if(_0x479d88['le'+'ng'+'th']!==_0x3ee1a6)throw new Error('ba'+'d\x20'+'se'+'cr'+'et'+'\x20k'+'ey'+'\x20s'+'iz'+'e');}__name(_0xf1657e,'ch'+'ec'+'kB'+'ox'+'Le'+'ng'+'th'+'s');function _0x4b6e7e(){for(var _0x15a70f=0x0;_0x15a70f<arguments['le'+'ng'+'th'];_0x15a70f++){if(!(arguments[_0x15a70f]instanceof Uint8Array))throw new TypeError('un'+'ex'+'pe'+'ct'+'ed'+'\x20t'+'yp'+'e,'+'\x20u'+'se'+'\x20U'+'in'+'t8'+'Ar'+'ra'+'y');}}__name(_0x4b6e7e,'ch'+'ec'+'kA'+'rr'+'ay'+'Ty'+'pe'+'s');function _0x249c8b(_0x531b6c){for(var _0x3100cd=0x0;_0x3100cd<_0x531b6c['le'+'ng'+'th'];_0x3100cd++)_0x531b6c[_0x3100cd]=0x0;}__name(_0x249c8b,'cl'+'ea'+'nu'+'p'),_0x167396['ra'+'nd'+'om'+'By'+'te'+'s']=function(_0x354e95){var _0x3d799a=new Uint8Array(_0x354e95);return _0x30a657(_0x3d799a,_0x354e95),_0x3d799a;},_0x167396['se'+'cr'+'et'+'bo'+'x']=function(_0x1a6fc7,_0x3e8ba5,_0x1a597c){_0x4b6e7e(_0x1a6fc7,_0x3e8ba5,_0x1a597c),_0x1f9212(_0x1a597c,_0x3e8ba5);var _0xba95ba=new Uint8Array(_0x4f1645+_0x1a6fc7['le'+'ng'+'th']),_0x203caf=new Uint8Array(_0xba95ba['le'+'ng'+'th']);for(var _0x3c80b4=0x0;_0x3c80b4<_0x1a6fc7['le'+'ng'+'th'];_0x3c80b4++)_0xba95ba[_0x3c80b4+_0x4f1645]=_0x1a6fc7[_0x3c80b4];return _0x16c6ef(_0x203caf,_0xba95ba,_0xba95ba['le'+'ng'+'th'],_0x3e8ba5,_0x1a597c),_0x203caf['su'+'ba'+'rr'+'ay'](_0x3127ac);},_0x167396['se'+'cr'+'et'+'bo'+'x']['op'+'en']=function(_0x9085e,_0x26a65b,_0x4d8126){_0x4b6e7e(_0x9085e,_0x26a65b,_0x4d8126),_0x1f9212(_0x4d8126,_0x26a65b);var _0x19bc82=new Uint8Array(_0x3127ac+_0x9085e['le'+'ng'+'th']),_0x5a0602=new Uint8Array(_0x19bc82['le'+'ng'+'th']);for(var _0x1f698d=0x0;_0x1f698d<_0x9085e['le'+'ng'+'th'];_0x1f698d++)_0x19bc82[_0x1f698d+_0x3127ac]=_0x9085e[_0x1f698d];if(_0x19bc82['le'+'ng'+'th']<0x20)return null;if(_0x433e96(_0x5a0602,_0x19bc82,_0x19bc82['le'+'ng'+'th'],_0x26a65b,_0x4d8126)!==0x0)return null;return _0x5a0602['su'+'ba'+'rr'+'ay'](_0x4f1645);},_0x167396['se'+'cr'+'et'+'bo'+'x']['ke'+'yL'+'en'+'gt'+'h']=_0x334144,_0x167396['se'+'cr'+'et'+'bo'+'x']['no'+'nc'+'eL'+'en'+'gt'+'h']=_0x3b7a5f,_0x167396['se'+'cr'+'et'+'bo'+'x']['ov'+'er'+'he'+'ad'+'Le'+'ng'+'th']=_0x3127ac,_0x167396['sc'+'al'+'ar'+'Mu'+'lt']=function(_0x24c87b,_0x18f143){_0x4b6e7e(_0x24c87b,_0x18f143);if(_0x24c87b['le'+'ng'+'th']!==_0x14397d)throw new Error('ba'+'d\x20'+'n\x20'+'si'+'ze');if(_0x18f143['le'+'ng'+'th']!==_0x2b69ca)throw new Error('ba'+'d\x20'+'p\x20'+'si'+'ze');var _0x46838d=new Uint8Array(_0x2b69ca);return _0x5e6c26(_0x46838d,_0x24c87b,_0x18f143),_0x46838d;},_0x167396['sc'+'al'+'ar'+'Mu'+'lt']['ba'+'se']=function(_0x37bd51){_0x4b6e7e(_0x37bd51);if(_0x37bd51['le'+'ng'+'th']!==_0x14397d)throw new Error('ba'+'d\x20'+'n\x20'+'si'+'ze');var _0x3952a4=new Uint8Array(_0x2b69ca);return _0x54c911(_0x3952a4,_0x37bd51),_0x3952a4;},_0x167396['sc'+'al'+'ar'+'Mu'+'lt']['sc'+'al'+'ar'+'Le'+'ng'+'th']=_0x14397d,_0x167396['sc'+'al'+'ar'+'Mu'+'lt']['gr'+'ou'+'pE'+'le'+'me'+'nt'+'Le'+'ng'+'th']=_0x2b69ca,_0x167396['bo'+'x']=function(_0x1c1d60,_0x368c4d,_0xfd4f7d,_0x48a360){var _0x213321=_0x167396['bo'+'x']['be'+'fo'+'re'](_0xfd4f7d,_0x48a360);return _0x167396['se'+'cr'+'et'+'bo'+'x'](_0x1c1d60,_0x368c4d,_0x213321);},_0x167396['bo'+'x']['be'+'fo'+'re']=function(_0x364fd1,_0x30c672){_0x4b6e7e(_0x364fd1,_0x30c672),_0xf1657e(_0x364fd1,_0x30c672);var _0x17163c=new Uint8Array(_0x46a9d4);return _0x3d05f7(_0x17163c,_0x364fd1,_0x30c672),_0x17163c;},_0x167396['bo'+'x']['af'+'te'+'r']=_0x167396['se'+'cr'+'et'+'bo'+'x'],_0x167396['bo'+'x']['op'+'en']=function(_0x5d4f5b,_0x1ec4fe,_0x4e5aa2,_0x1cd741){var _0x5b85c1=_0x167396['bo'+'x']['be'+'fo'+'re'](_0x4e5aa2,_0x1cd741);return _0x167396['se'+'cr'+'et'+'bo'+'x']['op'+'en'](_0x5d4f5b,_0x1ec4fe,_0x5b85c1);},_0x167396['bo'+'x']['op'+'en']['af'+'te'+'r']=_0x167396['se'+'cr'+'et'+'bo'+'x']['op'+'en'],_0x167396['bo'+'x']['ke'+'yP'+'ai'+'r']=function(){var _0x2ba92e=new Uint8Array(_0x15e1e4),_0x35c171=new Uint8Array(_0x3ee1a6);return _0x4ebde1(_0x2ba92e,_0x35c171),{'publicKey':_0x2ba92e,'secretKey':_0x35c171};},_0x167396['bo'+'x']['ke'+'yP'+'ai'+'r']['fr'+'om'+'Se'+'cr'+'et'+'Ke'+'y']=function(_0x51ded8){_0x4b6e7e(_0x51ded8);if(_0x51ded8['le'+'ng'+'th']!==_0x3ee1a6)throw new Error('ba'+'d\x20'+'se'+'cr'+'et'+'\x20k'+'ey'+'\x20s'+'iz'+'e');var _0x2f9391=new Uint8Array(_0x15e1e4);return _0x54c911(_0x2f9391,_0x51ded8),{'publicKey':_0x2f9391,'secretKey':new Uint8Array(_0x51ded8)};},_0x167396['bo'+'x']['pu'+'bl'+'ic'+'Ke'+'yL'+'en'+'gt'+'h']=_0x15e1e4,_0x167396['bo'+'x']['se'+'cr'+'et'+'Ke'+'yL'+'en'+'gt'+'h']=_0x3ee1a6,_0x167396['bo'+'x']['sh'+'ar'+'ed'+'Ke'+'yL'+'en'+'gt'+'h']=_0x46a9d4,_0x167396['bo'+'x']['no'+'nc'+'eL'+'en'+'gt'+'h']=_0x11ca7c,_0x167396['bo'+'x']['ov'+'er'+'he'+'ad'+'Le'+'ng'+'th']=_0x167396['se'+'cr'+'et'+'bo'+'x']['ov'+'er'+'he'+'ad'+'Le'+'ng'+'th'],_0x167396['si'+'gn']=function(_0x54561e,_0x56c7a2){_0x4b6e7e(_0x54561e,_0x56c7a2);if(_0x56c7a2['le'+'ng'+'th']!==_0x3ab252)throw new Error('ba'+'d\x20'+'se'+'cr'+'et'+'\x20k'+'ey'+'\x20s'+'iz'+'e');var _0x4016e9=new Uint8Array(_0x522d2d+_0x54561e['le'+'ng'+'th']);return _0x3bfcb9(_0x4016e9,_0x54561e,_0x54561e['le'+'ng'+'th'],_0x56c7a2),_0x4016e9;},_0x167396['si'+'gn']['op'+'en']=function(_0x3837c2,_0x25b355){_0x4b6e7e(_0x3837c2,_0x25b355);if(_0x25b355['le'+'ng'+'th']!==_0x1de2a6)throw new Error('ba'+'d\x20'+'pu'+'bl'+'ic'+'\x20k'+'ey'+'\x20s'+'iz'+'e');var _0xe0f942=new Uint8Array(_0x3837c2['le'+'ng'+'th']),_0x36265e=_0x23d41b(_0xe0f942,_0x3837c2,_0x3837c2['le'+'ng'+'th'],_0x25b355);if(_0x36265e<0x0)return null;var _0x4ba4dd=new Uint8Array(_0x36265e);for(var _0x49d3d6=0x0;_0x49d3d6<_0x4ba4dd['le'+'ng'+'th'];_0x49d3d6++)_0x4ba4dd[_0x49d3d6]=_0xe0f942[_0x49d3d6];return _0x4ba4dd;},_0x167396['si'+'gn']['de'+'ta'+'ch'+'ed']=function(_0xce6e6b,_0x5dff00){var _0x1d9446=_0x167396['si'+'gn'](_0xce6e6b,_0x5dff00),_0x5eb706=new Uint8Array(_0x522d2d);for(var _0x3b6fe3=0x0;_0x3b6fe3<_0x5eb706['le'+'ng'+'th'];_0x3b6fe3++)_0x5eb706[_0x3b6fe3]=_0x1d9446[_0x3b6fe3];return _0x5eb706;},_0x167396['si'+'gn']['de'+'ta'+'ch'+'ed']['ve'+'ri'+'fy']=function(_0x31a312,_0x4a0fd9,_0x3293ca){_0x4b6e7e(_0x31a312,_0x4a0fd9,_0x3293ca);if(_0x4a0fd9['le'+'ng'+'th']!==_0x522d2d)throw new Error('ba'+'d\x20'+'si'+'gn'+'at'+'ur'+'e\x20'+'si'+'ze');if(_0x3293ca['le'+'ng'+'th']!==_0x1de2a6)throw new Error('ba'+'d\x20'+'pu'+'bl'+'ic'+'\x20k'+'ey'+'\x20s'+'iz'+'e');var _0x44aa7e=new Uint8Array(_0x522d2d+_0x31a312['le'+'ng'+'th']),_0x32ca7b=new Uint8Array(_0x522d2d+_0x31a312['le'+'ng'+'th']),_0x4a86a4;for(_0x4a86a4=0x0;_0x4a86a4<_0x522d2d;_0x4a86a4++)_0x44aa7e[_0x4a86a4]=_0x4a0fd9[_0x4a86a4];for(_0x4a86a4=0x0;_0x4a86a4<_0x31a312['le'+'ng'+'th'];_0x4a86a4++)_0x44aa7e[_0x4a86a4+_0x522d2d]=_0x31a312[_0x4a86a4];return _0x23d41b(_0x32ca7b,_0x44aa7e,_0x44aa7e['le'+'ng'+'th'],_0x3293ca)>=0x0;},_0x167396['si'+'gn']['ke'+'yP'+'ai'+'r']=function(){var _0x2245d7=new Uint8Array(_0x1de2a6),_0x4be14b=new Uint8Array(_0x3ab252);return _0xfd9d43(_0x2245d7,_0x4be14b),{'publicKey':_0x2245d7,'secretKey':_0x4be14b};},_0x167396['si'+'gn']['ke'+'yP'+'ai'+'r']['fr'+'om'+'Se'+'cr'+'et'+'Ke'+'y']=function(_0xcb1ae4){_0x4b6e7e(_0xcb1ae4);if(_0xcb1ae4['le'+'ng'+'th']!==_0x3ab252)throw new Error('ba'+'d\x20'+'se'+'cr'+'et'+'\x20k'+'ey'+'\x20s'+'iz'+'e');var _0x15ba17=new Uint8Array(_0x1de2a6);for(var _0x5043b9=0x0;_0x5043b9<_0x15ba17['le'+'ng'+'th'];_0x5043b9++)_0x15ba17[_0x5043b9]=_0xcb1ae4[0x20+_0x5043b9];return{'publicKey':_0x15ba17,'secretKey':new Uint8Array(_0xcb1ae4)};},_0x167396['si'+'gn']['ke'+'yP'+'ai'+'r']['fr'+'om'+'Se'+'ed']=function(_0x45f9be){_0x4b6e7e(_0x45f9be);if(_0x45f9be['le'+'ng'+'th']!==_0x4d1d12)throw new Error('ba'+'d\x20'+'se'+'ed'+'\x20s'+'iz'+'e');var _0x9459d2=new Uint8Array(_0x1de2a6),_0x42da4e=new Uint8Array(_0x3ab252);for(var _0x1ca0fb=0x0;_0x1ca0fb<0x20;_0x1ca0fb++)_0x42da4e[_0x1ca0fb]=_0x45f9be[_0x1ca0fb];return _0xfd9d43(_0x9459d2,_0x42da4e,!![]),{'publicKey':_0x9459d2,'secretKey':_0x42da4e};},_0x167396['si'+'gn']['pu'+'bl'+'ic'+'Ke'+'yL'+'en'+'gt'+'h']=_0x1de2a6,_0x167396['si'+'gn']['se'+'cr'+'et'+'Ke'+'yL'+'en'+'gt'+'h']=_0x3ab252,_0x167396['si'+'gn']['se'+'ed'+'Le'+'ng'+'th']=_0x4d1d12,_0x167396['si'+'gn']['si'+'gn'+'at'+'ur'+'eL'+'en'+'gt'+'h']=_0x522d2d,_0x167396['ha'+'sh']=function(_0x338cf8){_0x4b6e7e(_0x338cf8);var _0x50c143=new Uint8Array(_0x5a52eb);return _0x532334(_0x50c143,_0x338cf8,_0x338cf8['le'+'ng'+'th']),_0x50c143;},_0x167396['ha'+'sh']['ha'+'sh'+'Le'+'ng'+'th']=_0x5a52eb,_0x167396['ve'+'ri'+'fy']=function(_0x5b22b1,_0x1a7bf2){_0x4b6e7e(_0x5b22b1,_0x1a7bf2);if(_0x5b22b1['le'+'ng'+'th']===0x0||_0x1a7bf2['le'+'ng'+'th']===0x0)return![];if(_0x5b22b1['le'+'ng'+'th']!==_0x1a7bf2['le'+'ng'+'th'])return![];return _0x469e9c(_0x5b22b1,0x0,_0x1a7bf2,0x0,_0x5b22b1['le'+'ng'+'th'])===0x0?!![]:![];},_0x167396['se'+'tP'+'RN'+'G']=function(_0x10c56f){_0x30a657=_0x10c56f;},(function(){var _0xc5e277=typeof self!=='un'+'de'+'fi'+'ne'+'d'?self['cr'+'yp'+'to']||self['ms'+'Cr'+'yp'+'to']:null;if(_0xc5e277&&_0xc5e277['ge'+'tR'+'an'+'do'+'mV'+'al'+'ue'+'s']){var _0x2942ea=0x10000;_0x167396['se'+'tP'+'RN'+'G'](function(_0x3bbdb2,_0x216221){var _0x4d08a7,_0xb9ca67=new Uint8Array(_0x216221);for(_0x4d08a7=0x0;_0x4d08a7<_0x216221;_0x4d08a7+=_0x2942ea){_0xc5e277['ge'+'tR'+'an'+'do'+'mV'+'al'+'ue'+'s'](_0xb9ca67['su'+'ba'+'rr'+'ay'](_0x4d08a7,_0x4d08a7+Math['mi'+'n'](_0x216221-_0x4d08a7,_0x2942ea)));}for(_0x4d08a7=0x0;_0x4d08a7<_0x216221;_0x4d08a7++)_0x3bbdb2[_0x4d08a7]=_0xb9ca67[_0x4d08a7];_0x249c8b(_0xb9ca67);});}else typeof __require!=='un'+'de'+'fi'+'ne'+'d'&&(_0xc5e277=require_crypto(),_0xc5e277&&_0xc5e277['ra'+'nd'+'om'+'By'+'te'+'s']&&_0x167396['se'+'tP'+'RN'+'G'](function(_0x276834,_0x20356c){var _0x494d93,_0x1db8fd=_0xc5e277['ra'+'nd'+'om'+'By'+'te'+'s'](_0x20356c);for(_0x494d93=0x0;_0x494d93<_0x20356c;_0x494d93++)_0x276834[_0x494d93]=_0x1db8fd[_0x494d93];_0x249c8b(_0x1db8fd);}));}());}(typeof _0x39eff2!=='un'+'de'+'fi'+'ne'+'d'&&_0x39eff2['ex'+'po'+'rt'+'s']?_0x39eff2['ex'+'po'+'rt'+'s']:self['na'+'cl']=self['na'+'cl']||{}));}}),require_buffer=__commonJS({'(disabled):buffer'(){}}),require_sha256=__commonJS({'node_modules/js-sha256/src/sha256.js'(_0xdf7ba,_0x1d7788){(function(){'use strict';var _0x471b02='in'+'pu'+'t\x20'+'is'+'\x20i'+'nv'+'al'+'id'+'\x20t'+'yp'+'e',_0xf06be9=typeof window==='ob'+'je'+'ct',_0x5e75e6=_0xf06be9?window:{};_0x5e75e6['JS'+'_S'+'HA'+'25'+'6_'+'NO'+'_W'+'IN'+'DO'+'W']&&(_0xf06be9=![]);var _0xbffc45=!_0xf06be9&&typeof self==='ob'+'je'+'ct',_0x306dfd=!_0x5e75e6['JS'+'_S'+'HA'+'25'+'6_'+'NO'+'_N'+'OD'+'E_'+'JS']&&typeof process==='ob'+'je'+'ct'&&process['ve'+'rs'+'io'+'ns']&&process['ve'+'rs'+'io'+'ns']['no'+'de'];if(_0x306dfd)_0x5e75e6=global;else _0xbffc45&&(_0x5e75e6=self);var _0x30dd6e=!_0x5e75e6['JS'+'_S'+'HA'+'25'+'6_'+'NO'+'_C'+'OM'+'MO'+'N_'+'JS']&&typeof _0x1d7788==='ob'+'je'+'ct'&&_0x1d7788['ex'+'po'+'rt'+'s'],_0x8cd5ed=typeof define==='fu'+'nc'+'ti'+'on'&&define['am'+'d'],_0xe756c9=!_0x5e75e6['JS'+'_S'+'HA'+'25'+'6_'+'NO'+'_A'+'RR'+'AY'+'_B'+'UF'+'FE'+'R']&&typeof ArrayBuffer!=='un'+'de'+'fi'+'ne'+'d',_0x3ef23a=('01'+'23'+'45'+'67'+'89'+'ab'+'cd'+'ef')['sp'+'li'+'t'](''),_0x4b8408=[-0x80000000,0x800000,0x8000,0x80],_0x494310=[0x18,0x10,0x8,0x0],_0x881a7d=[0x428a2f98,0x71374491,0xb5c0fbcf,0xe9b5dba5,0x3956c25b,0x59f111f1,0x923f82a4,0xab1c5ed5,0xd807aa98,0x12835b01,0x243185be,0x550c7dc3,0x72be5d74,0x80deb1fe,0x9bdc06a7,0xc19bf174,0xe49b69c1,0xefbe4786,0xfc19dc6,0x240ca1cc,0x2de92c6f,0x4a7484aa,0x5cb0a9dc,0x76f988da,0x983e5152,0xa831c66d,0xb00327c8,0xbf597fc7,0xc6e00bf3,0xd5a79147,0x6ca6351,0x14292967,0x27b70a85,0x2e1b2138,0x4d2c6dfc,0x53380d13,0x650a7354,0x766a0abb,0x81c2c92e,0x92722c85,0xa2bfe8a1,0xa81a664b,0xc24b8b70,0xc76c51a3,0xd192e819,0xd6990624,0xf40e3585,0x106aa070,0x19a4c116,0x1e376c08,0x2748774c,0x34b0bcb5,0x391c0cb3,0x4ed8aa4a,0x5b9cca4f,0x682e6ff3,0x748f82ee,0x78a5636f,0x84c87814,0x8cc70208,0x90befffa,0xa4506ceb,0xbef9a3f7,0xc67178f2],_0x5dce35=['he'+'x','ar'+'ra'+'y','di'+'ge'+'st','ar'+'ra'+'yB'+'uf'+'fe'+'r'],_0x311c95=[];(_0x5e75e6['JS'+'_S'+'HA'+'25'+'6_'+'NO'+'_N'+'OD'+'E_'+'JS']||!Array['is'+'Ar'+'ra'+'y'])&&(Array['is'+'Ar'+'ra'+'y']=function(_0x2c1e3d){return Object['pr'+'ot'+'ot'+'yp'+'e']['to'+'St'+'ri'+'ng']['ca'+'ll'](_0x2c1e3d)==='[o'+'bj'+'ec'+'t\x20'+'Ar'+'ra'+'y]';}),_0xe756c9&&(_0x5e75e6['JS'+'_S'+'HA'+'25'+'6_'+'NO'+'_A'+'RR'+'AY'+'_B'+'UF'+'FE'+'R_'+'IS'+'_V'+'IE'+'W']||!ArrayBuffer['is'+'Vi'+'ew'])&&(ArrayBuffer['is'+'Vi'+'ew']=function(_0x53fc67){return typeof _0x53fc67==='ob'+'je'+'ct'&&_0x53fc67['bu'+'ff'+'er']&&_0x53fc67['bu'+'ff'+'er']['co'+'ns'+'tr'+'uc'+'to'+'r']===ArrayBuffer;});var _0x538fc4=__name(function(_0x5f5846,_0x505088){return function(_0x7609fe){return new _0x1a34fc(_0x505088,!![])['up'+'da'+'te'](_0x7609fe)[_0x5f5846]();};},'cr'+'ea'+'te'+'Ou'+'tp'+'ut'+'Me'+'th'+'od'),_0x56a2a0=__name(function(_0x3186f6){var _0x360cee=_0x538fc4('he'+'x',_0x3186f6);_0x306dfd&&(_0x360cee=_0x8753ef(_0x360cee,_0x3186f6)),(_0x360cee['cr'+'ea'+'te']=function(){return new _0x1a34fc(_0x3186f6);},_0x360cee['up'+'da'+'te']=function(_0x25f4bd){return _0x360cee['cr'+'ea'+'te']()['up'+'da'+'te'](_0x25f4bd);});for(var _0x2f7f86=0x0;_0x2f7f86<_0x5dce35['le'+'ng'+'th'];++_0x2f7f86){var _0x150776=_0x5dce35[_0x2f7f86];_0x360cee[_0x150776]=_0x538fc4(_0x150776,_0x3186f6);}return _0x360cee;},'cr'+'ea'+'te'+'Me'+'th'+'od'),_0x8753ef=__name(function(_0x1ca416,_0x2bdfc3){var _0x5d4b1c=require_crypto(),_0x47e049=require_buffer()['Bu'+'ff'+'er'],_0x15d1a6=_0x2bdfc3?'sh'+'a2'+'24':'sh'+'a2'+'56',_0x397458;_0x47e049['fr'+'om']&&!_0x5e75e6['JS'+'_S'+'HA'+'25'+'6_'+'NO'+'_B'+'UF'+'FE'+'R_'+'FR'+'OM']?_0x397458=_0x47e049['fr'+'om']:_0x397458=__name(function(_0x853937){return new _0x47e049(_0x853937);},'bu'+'ff'+'er'+'Fr'+'om');var _0x4d9433=__name(function(_0x4a0d8f){if(typeof _0x4a0d8f==='st'+'ri'+'ng')return _0x5d4b1c['cr'+'ea'+'te'+'Ha'+'sh'](_0x15d1a6)['up'+'da'+'te'](_0x4a0d8f,'ut'+'f8')['di'+'ge'+'st']('he'+'x');else{if(_0x4a0d8f===null||_0x4a0d8f===void 0x0)throw new Error(_0x471b02);else _0x4a0d8f['co'+'ns'+'tr'+'uc'+'to'+'r']===ArrayBuffer&&(_0x4a0d8f=new Uint8Array(_0x4a0d8f));}return Array['is'+'Ar'+'ra'+'y'](_0x4a0d8f)||ArrayBuffer['is'+'Vi'+'ew'](_0x4a0d8f)||_0x4a0d8f['co'+'ns'+'tr'+'uc'+'to'+'r']===_0x47e049?_0x5d4b1c['cr'+'ea'+'te'+'Ha'+'sh'](_0x15d1a6)['up'+'da'+'te'](_0x397458(_0x4a0d8f))['di'+'ge'+'st']('he'+'x'):_0x1ca416(_0x4a0d8f);},'no'+'de'+'Me'+'th'+'od');return _0x4d9433;},'no'+'de'+'Wr'+'ap'),_0xb91d83=__name(function(_0x650cd0,_0x184a5c){return function(_0x4aa0a6,_0x1ff144){return new _0x289441(_0x4aa0a6,_0x184a5c,!![])['up'+'da'+'te'](_0x1ff144)[_0x650cd0]();};},'cr'+'ea'+'te'+'Hm'+'ac'+'Ou'+'tp'+'ut'+'Me'+'th'+'od'),_0x4a9cb8=__name(function(_0x490500){var _0x425435=_0xb91d83('he'+'x',_0x490500);_0x425435['cr'+'ea'+'te']=function(_0x22d104){return new _0x289441(_0x22d104,_0x490500);},_0x425435['up'+'da'+'te']=function(_0x506cc7,_0x181e3f){return _0x425435['cr'+'ea'+'te'](_0x506cc7)['up'+'da'+'te'](_0x181e3f);};for(var _0x5ecd5f=0x0;_0x5ecd5f<_0x5dce35['le'+'ng'+'th'];++_0x5ecd5f){var _0x3c2fd1=_0x5dce35[_0x5ecd5f];_0x425435[_0x3c2fd1]=_0xb91d83(_0x3c2fd1,_0x490500);}return _0x425435;},'cr'+'ea'+'te'+'Hm'+'ac'+'Me'+'th'+'od');function _0x1a34fc(_0x563fac,_0x4c8dab){_0x4c8dab?(_0x311c95[0x0]=_0x311c95[0x10]=_0x311c95[0x1]=_0x311c95[0x2]=_0x311c95[0x3]=_0x311c95[0x4]=_0x311c95[0x5]=_0x311c95[0x6]=_0x311c95[0x7]=_0x311c95[0x8]=_0x311c95[0x9]=_0x311c95[0xa]=_0x311c95[0xb]=_0x311c95[0xc]=_0x311c95[0xd]=_0x311c95[0xe]=_0x311c95[0xf]=0x0,this['bl'+'oc'+'ks']=_0x311c95):this['bl'+'oc'+'ks']=[0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0],_0x563fac?(this['h0']=0xc1059ed8,this['h1']=0x367cd507,this['h2']=0x3070dd17,this['h3']=0xf70e5939,this['h4']=0xffc00b31,this['h5']=0x68581511,this['h6']=0x64f98fa7,this['h7']=0xbefa4fa4):(this['h0']=0x6a09e667,this['h1']=0xbb67ae85,this['h2']=0x3c6ef372,this['h3']=0xa54ff53a,this['h4']=0x510e527f,this['h5']=0x9b05688c,this['h6']=0x1f83d9ab,this['h7']=0x5be0cd19),this['bl'+'oc'+'k']=this['st'+'ar'+'t']=this['by'+'te'+'s']=this['hB'+'yt'+'es']=0x0,this['fi'+'na'+'li'+'ze'+'d']=this['ha'+'sh'+'ed']=![],this['fi'+'rs'+'t']=!![],this['is'+'22'+'4']=_0x563fac;}__name(_0x1a34fc,'Sh'+'a2'+'56'),_0x1a34fc['pr'+'ot'+'ot'+'yp'+'e']['up'+'da'+'te']=function(_0x2bf0e1){if(this['fi'+'na'+'li'+'ze'+'d'])return;var _0x178d0a,_0x355fa0=typeof _0x2bf0e1;if(_0x355fa0!=='st'+'ri'+'ng'){if(_0x355fa0==='ob'+'je'+'ct'){if(_0x2bf0e1===null)throw new Error(_0x471b02);else{if(_0xe756c9&&_0x2bf0e1['co'+'ns'+'tr'+'uc'+'to'+'r']===ArrayBuffer)_0x2bf0e1=new Uint8Array(_0x2bf0e1);else{if(!Array['is'+'Ar'+'ra'+'y'](_0x2bf0e1)){if(!_0xe756c9||!ArrayBuffer['is'+'Vi'+'ew'](_0x2bf0e1))throw new Error(_0x471b02);}}}}else throw new Error(_0x471b02);_0x178d0a=!![];}var _0x63b92,_0x32ecf8=0x0,_0x527c61,_0x1a32c8=_0x2bf0e1['le'+'ng'+'th'],_0x233efe=this['bl'+'oc'+'ks'];while(_0x32ecf8<_0x1a32c8){this['ha'+'sh'+'ed']&&(this['ha'+'sh'+'ed']=![],_0x233efe[0x0]=this['bl'+'oc'+'k'],this['bl'+'oc'+'k']=_0x233efe[0x10]=_0x233efe[0x1]=_0x233efe[0x2]=_0x233efe[0x3]=_0x233efe[0x4]=_0x233efe[0x5]=_0x233efe[0x6]=_0x233efe[0x7]=_0x233efe[0x8]=_0x233efe[0x9]=_0x233efe[0xa]=_0x233efe[0xb]=_0x233efe[0xc]=_0x233efe[0xd]=_0x233efe[0xe]=_0x233efe[0xf]=0x0);if(_0x178d0a)for(_0x527c61=this['st'+'ar'+'t'];_0x32ecf8<_0x1a32c8&&_0x527c61<0x40;++_0x32ecf8){_0x233efe[_0x527c61>>>0x2]|=_0x2bf0e1[_0x32ecf8]<<_0x494310[_0x527c61++&0x3];}else for(_0x527c61=this['st'+'ar'+'t'];_0x32ecf8<_0x1a32c8&&_0x527c61<0x40;++_0x32ecf8){_0x63b92=_0x2bf0e1['ch'+'ar'+'Co'+'de'+'At'](_0x32ecf8);if(_0x63b92<0x80)_0x233efe[_0x527c61>>>0x2]|=_0x63b92<<_0x494310[_0x527c61++&0x3];else{if(_0x63b92<0x800)_0x233efe[_0x527c61>>>0x2]|=(0xc0|_0x63b92>>>0x6)<<_0x494310[_0x527c61++&0x3],_0x233efe[_0x527c61>>>0x2]|=(0x80|_0x63b92&0x3f)<<_0x494310[_0x527c61++&0x3];else _0x63b92<0xd800||_0x63b92>=0xe000?(_0x233efe[_0x527c61>>>0x2]|=(0xe0|_0x63b92>>>0xc)<<_0x494310[_0x527c61++&0x3],_0x233efe[_0x527c61>>>0x2]|=(0x80|_0x63b92>>>0x6&0x3f)<<_0x494310[_0x527c61++&0x3],_0x233efe[_0x527c61>>>0x2]|=(0x80|_0x63b92&0x3f)<<_0x494310[_0x527c61++&0x3]):(_0x63b92=0x10000+((_0x63b92&0x3ff)<<0xa|_0x2bf0e1['ch'+'ar'+'Co'+'de'+'At'](++_0x32ecf8)&0x3ff),_0x233efe[_0x527c61>>>0x2]|=(0xf0|_0x63b92>>>0x12)<<_0x494310[_0x527c61++&0x3],_0x233efe[_0x527c61>>>0x2]|=(0x80|_0x63b92>>>0xc&0x3f)<<_0x494310[_0x527c61++&0x3],_0x233efe[_0x527c61>>>0x2]|=(0x80|_0x63b92>>>0x6&0x3f)<<_0x494310[_0x527c61++&0x3],_0x233efe[_0x527c61>>>0x2]|=(0x80|_0x63b92&0x3f)<<_0x494310[_0x527c61++&0x3]);}}this['la'+'st'+'By'+'te'+'In'+'de'+'x']=_0x527c61,this['by'+'te'+'s']+=_0x527c61-this['st'+'ar'+'t'],_0x527c61>=0x40?(this['bl'+'oc'+'k']=_0x233efe[0x10],this['st'+'ar'+'t']=_0x527c61-0x40,this['ha'+'sh'](),this['ha'+'sh'+'ed']=!![]):this['st'+'ar'+'t']=_0x527c61;}return this['by'+'te'+'s']>0xffffffff&&(this['hB'+'yt'+'es']+=this['by'+'te'+'s']/0x100000000<<0x0,this['by'+'te'+'s']=this['by'+'te'+'s']%0x100000000),this;},_0x1a34fc['pr'+'ot'+'ot'+'yp'+'e']['fi'+'na'+'li'+'ze']=function(){if(this['fi'+'na'+'li'+'ze'+'d'])return;this['fi'+'na'+'li'+'ze'+'d']=!![];var _0x58cbab=this['bl'+'oc'+'ks'],_0x43b811=this['la'+'st'+'By'+'te'+'In'+'de'+'x'];_0x58cbab[0x10]=this['bl'+'oc'+'k'],_0x58cbab[_0x43b811>>>0x2]|=_0x4b8408[_0x43b811&0x3],this['bl'+'oc'+'k']=_0x58cbab[0x10],_0x43b811>=0x38&&(!this['ha'+'sh'+'ed']&&this['ha'+'sh'](),_0x58cbab[0x0]=this['bl'+'oc'+'k'],_0x58cbab[0x10]=_0x58cbab[0x1]=_0x58cbab[0x2]=_0x58cbab[0x3]=_0x58cbab[0x4]=_0x58cbab[0x5]=_0x58cbab[0x6]=_0x58cbab[0x7]=_0x58cbab[0x8]=_0x58cbab[0x9]=_0x58cbab[0xa]=_0x58cbab[0xb]=_0x58cbab[0xc]=_0x58cbab[0xd]=_0x58cbab[0xe]=_0x58cbab[0xf]=0x0),_0x58cbab[0xe]=this['hB'+'yt'+'es']<<0x3|this['by'+'te'+'s']>>>0x1d,_0x58cbab[0xf]=this['by'+'te'+'s']<<0x3,this['ha'+'sh']();},_0x1a34fc['pr'+'ot'+'ot'+'yp'+'e']['ha'+'sh']=function(){var _0x2e4104=this['h0'],_0x1a1b70=this['h1'],_0xceed1a=this['h2'],_0x5c2b26=this['h3'],_0x3d8b37=this['h4'],_0x148643=this['h5'],_0x5a1abd=this['h6'],_0x124b2c=this['h7'],_0x533c7e=this['bl'+'oc'+'ks'],_0x3d7c7d,_0xb478ab,_0x621c0e,_0x4afaf6,_0x32e9a6,_0x290756,_0x45e910,_0x12e460,_0x3d4ae3,_0x1bf254,_0x1422cf;for(_0x3d7c7d=0x10;_0x3d7c7d<0x40;++_0x3d7c7d){_0x32e9a6=_0x533c7e[_0x3d7c7d-0xf],_0xb478ab=(_0x32e9a6>>>0x7|_0x32e9a6<<0x19)^(_0x32e9a6>>>0x12|_0x32e9a6<<0xe)^_0x32e9a6>>>0x3,_0x32e9a6=_0x533c7e[_0x3d7c7d-0x2],_0x621c0e=(_0x32e9a6>>>0x11|_0x32e9a6<<0xf)^(_0x32e9a6>>>0x13|_0x32e9a6<<0xd)^_0x32e9a6>>>0xa,_0x533c7e[_0x3d7c7d]=_0x533c7e[_0x3d7c7d-0x10]+_0xb478ab+_0x533c7e[_0x3d7c7d-0x7]+_0x621c0e<<0x0;}_0x1422cf=_0x1a1b70&_0xceed1a;for(_0x3d7c7d=0x0;_0x3d7c7d<0x40;_0x3d7c7d+=0x4){this['fi'+'rs'+'t']?(this['is'+'22'+'4']?(_0x12e460=0x49400,_0x32e9a6=_0x533c7e[0x0]-0x543c9a5b,_0x124b2c=_0x32e9a6-0x8f1a6c7<<0x0,_0x5c2b26=_0x32e9a6+0x170e9b5<<0x0):(_0x12e460=0x2a01a605,_0x32e9a6=_0x533c7e[0x0]-0xc881298,_0x124b2c=_0x32e9a6-0x5ab00ac6<<0x0,_0x5c2b26=_0x32e9a6+0x8909ae5<<0x0),this['fi'+'rs'+'t']=![]):(_0xb478ab=(_0x2e4104>>>0x2|_0x2e4104<<0x1e)^(_0x2e4104>>>0xd|_0x2e4104<<0x13)^(_0x2e4104>>>0x16|_0x2e4104<<0xa),_0x621c0e=(_0x3d8b37>>>0x6|_0x3d8b37<<0x1a)^(_0x3d8b37>>>0xb|_0x3d8b37<<0x15)^(_0x3d8b37>>>0x19|_0x3d8b37<<0x7),_0x12e460=_0x2e4104&_0x1a1b70,_0x4afaf6=_0x12e460^_0x2e4104&_0xceed1a^_0x1422cf,_0x45e910=_0x3d8b37&_0x148643^~_0x3d8b37&_0x5a1abd,_0x32e9a6=_0x124b2c+_0x621c0e+_0x45e910+_0x881a7d[_0x3d7c7d]+_0x533c7e[_0x3d7c7d],_0x290756=_0xb478ab+_0x4afaf6,_0x124b2c=_0x5c2b26+_0x32e9a6<<0x0,_0x5c2b26=_0x32e9a6+_0x290756<<0x0),_0xb478ab=(_0x5c2b26>>>0x2|_0x5c2b26<<0x1e)^(_0x5c2b26>>>0xd|_0x5c2b26<<0x13)^(_0x5c2b26>>>0x16|_0x5c2b26<<0xa),_0x621c0e=(_0x124b2c>>>0x6|_0x124b2c<<0x1a)^(_0x124b2c>>>0xb|_0x124b2c<<0x15)^(_0x124b2c>>>0x19|_0x124b2c<<0x7),_0x3d4ae3=_0x5c2b26&_0x2e4104,_0x4afaf6=_0x3d4ae3^_0x5c2b26&_0x1a1b70^_0x12e460,_0x45e910=_0x124b2c&_0x3d8b37^~_0x124b2c&_0x148643,_0x32e9a6=_0x5a1abd+_0x621c0e+_0x45e910+_0x881a7d[_0x3d7c7d+0x1]+_0x533c7e[_0x3d7c7d+0x1],_0x290756=_0xb478ab+_0x4afaf6,_0x5a1abd=_0xceed1a+_0x32e9a6<<0x0,_0xceed1a=_0x32e9a6+_0x290756<<0x0,_0xb478ab=(_0xceed1a>>>0x2|_0xceed1a<<0x1e)^(_0xceed1a>>>0xd|_0xceed1a<<0x13)^(_0xceed1a>>>0x16|_0xceed1a<<0xa),_0x621c0e=(_0x5a1abd>>>0x6|_0x5a1abd<<0x1a)^(_0x5a1abd>>>0xb|_0x5a1abd<<0x15)^(_0x5a1abd>>>0x19|_0x5a1abd<<0x7),_0x1bf254=_0xceed1a&_0x5c2b26,_0x4afaf6=_0x1bf254^_0xceed1a&_0x2e4104^_0x3d4ae3,_0x45e910=_0x5a1abd&_0x124b2c^~_0x5a1abd&_0x3d8b37,_0x32e9a6=_0x148643+_0x621c0e+_0x45e910+_0x881a7d[_0x3d7c7d+0x2]+_0x533c7e[_0x3d7c7d+0x2],_0x290756=_0xb478ab+_0x4afaf6,_0x148643=_0x1a1b70+_0x32e9a6<<0x0,_0x1a1b70=_0x32e9a6+_0x290756<<0x0,_0xb478ab=(_0x1a1b70>>>0x2|_0x1a1b70<<0x1e)^(_0x1a1b70>>>0xd|_0x1a1b70<<0x13)^(_0x1a1b70>>>0x16|_0x1a1b70<<0xa),_0x621c0e=(_0x148643>>>0x6|_0x148643<<0x1a)^(_0x148643>>>0xb|_0x148643<<0x15)^(_0x148643>>>0x19|_0x148643<<0x7),_0x1422cf=_0x1a1b70&_0xceed1a,_0x4afaf6=_0x1422cf^_0x1a1b70&_0x5c2b26^_0x1bf254,_0x45e910=_0x148643&_0x5a1abd^~_0x148643&_0x124b2c,_0x32e9a6=_0x3d8b37+_0x621c0e+_0x45e910+_0x881a7d[_0x3d7c7d+0x3]+_0x533c7e[_0x3d7c7d+0x3],_0x290756=_0xb478ab+_0x4afaf6,_0x3d8b37=_0x2e4104+_0x32e9a6<<0x0,_0x2e4104=_0x32e9a6+_0x290756<<0x0,this['ch'+'ro'+'me'+'Bu'+'gW'+'or'+'kA'+'ro'+'un'+'d']=!![];}this['h0']=this['h0']+_0x2e4104<<0x0,this['h1']=this['h1']+_0x1a1b70<<0x0,this['h2']=this['h2']+_0xceed1a<<0x0,this['h3']=this['h3']+_0x5c2b26<<0x0,this['h4']=this['h4']+_0x3d8b37<<0x0,this['h5']=this['h5']+_0x148643<<0x0,this['h6']=this['h6']+_0x5a1abd<<0x0,this['h7']=this['h7']+_0x124b2c<<0x0;},_0x1a34fc['pr'+'ot'+'ot'+'yp'+'e']['he'+'x']=function(){this['fi'+'na'+'li'+'ze']();var _0x3d6b10=this['h0'],_0x4a647b=this['h1'],_0x33c287=this['h2'],_0x187976=this['h3'],_0x43efef=this['h4'],_0x2d6e1e=this['h5'],_0x51ab4b=this['h6'],_0x4d55fb=this['h7'],_0x503042=_0x3ef23a[_0x3d6b10>>>0x1c&0xf]+_0x3ef23a[_0x3d6b10>>>0x18&0xf]+_0x3ef23a[_0x3d6b10>>>0x14&0xf]+_0x3ef23a[_0x3d6b10>>>0x10&0xf]+_0x3ef23a[_0x3d6b10>>>0xc&0xf]+_0x3ef23a[_0x3d6b10>>>0x8&0xf]+_0x3ef23a[_0x3d6b10>>>0x4&0xf]+_0x3ef23a[_0x3d6b10&0xf]+_0x3ef23a[_0x4a647b>>>0x1c&0xf]+_0x3ef23a[_0x4a647b>>>0x18&0xf]+_0x3ef23a[_0x4a647b>>>0x14&0xf]+_0x3ef23a[_0x4a647b>>>0x10&0xf]+_0x3ef23a[_0x4a647b>>>0xc&0xf]+_0x3ef23a[_0x4a647b>>>0x8&0xf]+_0x3ef23a[_0x4a647b>>>0x4&0xf]+_0x3ef23a[_0x4a647b&0xf]+_0x3ef23a[_0x33c287>>>0x1c&0xf]+_0x3ef23a[_0x33c287>>>0x18&0xf]+_0x3ef23a[_0x33c287>>>0x14&0xf]+_0x3ef23a[_0x33c287>>>0x10&0xf]+_0x3ef23a[_0x33c287>>>0xc&0xf]+_0x3ef23a[_0x33c287>>>0x8&0xf]+_0x3ef23a[_0x33c287>>>0x4&0xf]+_0x3ef23a[_0x33c287&0xf]+_0x3ef23a[_0x187976>>>0x1c&0xf]+_0x3ef23a[_0x187976>>>0x18&0xf]+_0x3ef23a[_0x187976>>>0x14&0xf]+_0x3ef23a[_0x187976>>>0x10&0xf]+_0x3ef23a[_0x187976>>>0xc&0xf]+_0x3ef23a[_0x187976>>>0x8&0xf]+_0x3ef23a[_0x187976>>>0x4&0xf]+_0x3ef23a[_0x187976&0xf]+_0x3ef23a[_0x43efef>>>0x1c&0xf]+_0x3ef23a[_0x43efef>>>0x18&0xf]+_0x3ef23a[_0x43efef>>>0x14&0xf]+_0x3ef23a[_0x43efef>>>0x10&0xf]+_0x3ef23a[_0x43efef>>>0xc&0xf]+_0x3ef23a[_0x43efef>>>0x8&0xf]+_0x3ef23a[_0x43efef>>>0x4&0xf]+_0x3ef23a[_0x43efef&0xf]+_0x3ef23a[_0x2d6e1e>>>0x1c&0xf]+_0x3ef23a[_0x2d6e1e>>>0x18&0xf]+_0x3ef23a[_0x2d6e1e>>>0x14&0xf]+_0x3ef23a[_0x2d6e1e>>>0x10&0xf]+_0x3ef23a[_0x2d6e1e>>>0xc&0xf]+_0x3ef23a[_0x2d6e1e>>>0x8&0xf]+_0x3ef23a[_0x2d6e1e>>>0x4&0xf]+_0x3ef23a[_0x2d6e1e&0xf]+_0x3ef23a[_0x51ab4b>>>0x1c&0xf]+_0x3ef23a[_0x51ab4b>>>0x18&0xf]+_0x3ef23a[_0x51ab4b>>>0x14&0xf]+_0x3ef23a[_0x51ab4b>>>0x10&0xf]+_0x3ef23a[_0x51ab4b>>>0xc&0xf]+_0x3ef23a[_0x51ab4b>>>0x8&0xf]+_0x3ef23a[_0x51ab4b>>>0x4&0xf]+_0x3ef23a[_0x51ab4b&0xf];return!this['is'+'22'+'4']&&(_0x503042+=_0x3ef23a[_0x4d55fb>>>0x1c&0xf]+_0x3ef23a[_0x4d55fb>>>0x18&0xf]+_0x3ef23a[_0x4d55fb>>>0x14&0xf]+_0x3ef23a[_0x4d55fb>>>0x10&0xf]+_0x3ef23a[_0x4d55fb>>>0xc&0xf]+_0x3ef23a[_0x4d55fb>>>0x8&0xf]+_0x3ef23a[_0x4d55fb>>>0x4&0xf]+_0x3ef23a[_0x4d55fb&0xf]),_0x503042;},_0x1a34fc['pr'+'ot'+'ot'+'yp'+'e']['to'+'St'+'ri'+'ng']=_0x1a34fc['pr'+'ot'+'ot'+'yp'+'e']['he'+'x'],_0x1a34fc['pr'+'ot'+'ot'+'yp'+'e']['di'+'ge'+'st']=function(){this['fi'+'na'+'li'+'ze']();var _0x5d07c7=this['h0'],_0x65244b=this['h1'],_0x5f118b=this['h2'],_0x1720f6=this['h3'],_0x551c69=this['h4'],_0xa47f8d=this['h5'],_0x580b76=this['h6'],_0x11828d=this['h7'],_0x161577=[_0x5d07c7>>>0x18&0xff,_0x5d07c7>>>0x10&0xff,_0x5d07c7>>>0x8&0xff,_0x5d07c7&0xff,_0x65244b>>>0x18&0xff,_0x65244b>>>0x10&0xff,_0x65244b>>>0x8&0xff,_0x65244b&0xff,_0x5f118b>>>0x18&0xff,_0x5f118b>>>0x10&0xff,_0x5f118b>>>0x8&0xff,_0x5f118b&0xff,_0x1720f6>>>0x18&0xff,_0x1720f6>>>0x10&0xff,_0x1720f6>>>0x8&0xff,_0x1720f6&0xff,_0x551c69>>>0x18&0xff,_0x551c69>>>0x10&0xff,_0x551c69>>>0x8&0xff,_0x551c69&0xff,_0xa47f8d>>>0x18&0xff,_0xa47f8d>>>0x10&0xff,_0xa47f8d>>>0x8&0xff,_0xa47f8d&0xff,_0x580b76>>>0x18&0xff,_0x580b76>>>0x10&0xff,_0x580b76>>>0x8&0xff,_0x580b76&0xff];return!this['is'+'22'+'4']&&_0x161577['pu'+'sh'](_0x11828d>>>0x18&0xff,_0x11828d>>>0x10&0xff,_0x11828d>>>0x8&0xff,_0x11828d&0xff),_0x161577;},_0x1a34fc['pr'+'ot'+'ot'+'yp'+'e']['ar'+'ra'+'y']=_0x1a34fc['pr'+'ot'+'ot'+'yp'+'e']['di'+'ge'+'st'],_0x1a34fc['pr'+'ot'+'ot'+'yp'+'e']['ar'+'ra'+'yB'+'uf'+'fe'+'r']=function(){this['fi'+'na'+'li'+'ze']();var _0x36563a=new ArrayBuffer(this['is'+'22'+'4']?0x1c:0x20),_0x53b9da=new DataView(_0x36563a);return _0x53b9da['se'+'tU'+'in'+'t3'+'2'](0x0,this['h0']),_0x53b9da['se'+'tU'+'in'+'t3'+'2'](0x4,this['h1']),_0x53b9da['se'+'tU'+'in'+'t3'+'2'](0x8,this['h2']),_0x53b9da['se'+'tU'+'in'+'t3'+'2'](0xc,this['h3']),_0x53b9da['se'+'tU'+'in'+'t3'+'2'](0x10,this['h4']),_0x53b9da['se'+'tU'+'in'+'t3'+'2'](0x14,this['h5']),_0x53b9da['se'+'tU'+'in'+'t3'+'2'](0x18,this['h6']),!this['is'+'22'+'4']&&_0x53b9da['se'+'tU'+'in'+'t3'+'2'](0x1c,this['h7']),_0x36563a;};function _0x289441(_0x4c37cc,_0x49656b,_0x44e333){var _0xc0395d,_0x572e82=typeof _0x4c37cc;if(_0x572e82==='st'+'ri'+'ng'){var _0x547a66=[],_0x95976a=_0x4c37cc['le'+'ng'+'th'],_0x100726=0x0,_0x30d12b;for(_0xc0395d=0x0;_0xc0395d<_0x95976a;++_0xc0395d){_0x30d12b=_0x4c37cc['ch'+'ar'+'Co'+'de'+'At'](_0xc0395d);if(_0x30d12b<0x80)_0x547a66[_0x100726++]=_0x30d12b;else{if(_0x30d12b<0x800)_0x547a66[_0x100726++]=0xc0|_0x30d12b>>>0x6,_0x547a66[_0x100726++]=0x80|_0x30d12b&0x3f;else _0x30d12b<0xd800||_0x30d12b>=0xe000?(_0x547a66[_0x100726++]=0xe0|_0x30d12b>>>0xc,_0x547a66[_0x100726++]=0x80|_0x30d12b>>>0x6&0x3f,_0x547a66[_0x100726++]=0x80|_0x30d12b&0x3f):(_0x30d12b=0x10000+((_0x30d12b&0x3ff)<<0xa|_0x4c37cc['ch'+'ar'+'Co'+'de'+'At'](++_0xc0395d)&0x3ff),_0x547a66[_0x100726++]=0xf0|_0x30d12b>>>0x12,_0x547a66[_0x100726++]=0x80|_0x30d12b>>>0xc&0x3f,_0x547a66[_0x100726++]=0x80|_0x30d12b>>>0x6&0x3f,_0x547a66[_0x100726++]=0x80|_0x30d12b&0x3f);}}_0x4c37cc=_0x547a66;}else{if(_0x572e82==='ob'+'je'+'ct'){if(_0x4c37cc===null)throw new Error(_0x471b02);else{if(_0xe756c9&&_0x4c37cc['co'+'ns'+'tr'+'uc'+'to'+'r']===ArrayBuffer)_0x4c37cc=new Uint8Array(_0x4c37cc);else{if(!Array['is'+'Ar'+'ra'+'y'](_0x4c37cc)){if(!_0xe756c9||!ArrayBuffer['is'+'Vi'+'ew'](_0x4c37cc))throw new Error(_0x471b02);}}}}else throw new Error(_0x471b02);}_0x4c37cc['le'+'ng'+'th']>0x40&&(_0x4c37cc=new _0x1a34fc(_0x49656b,!![])['up'+'da'+'te'](_0x4c37cc)['ar'+'ra'+'y']());var _0x1ead61=[],_0x31b630=[];for(_0xc0395d=0x0;_0xc0395d<0x40;++_0xc0395d){var _0x6b8dc=_0x4c37cc[_0xc0395d]||0x0;_0x1ead61[_0xc0395d]=0x5c^_0x6b8dc,_0x31b630[_0xc0395d]=0x36^_0x6b8dc;}_0x1a34fc['ca'+'ll'](this,_0x49656b,_0x44e333),this['up'+'da'+'te'](_0x31b630),this['oK'+'ey'+'Pa'+'d']=_0x1ead61,this['in'+'ne'+'r']=!![],this['sh'+'ar'+'ed'+'Me'+'mo'+'ry']=_0x44e333;}__name(_0x289441,'Hm'+'ac'+'Sh'+'a2'+'56'),_0x289441['pr'+'ot'+'ot'+'yp'+'e']=new _0x1a34fc(),_0x289441['pr'+'ot'+'ot'+'yp'+'e']['fi'+'na'+'li'+'ze']=function(){_0x1a34fc['pr'+'ot'+'ot'+'yp'+'e']['fi'+'na'+'li'+'ze']['ca'+'ll'](this);if(this['in'+'ne'+'r']){this['in'+'ne'+'r']=![];var _0x5d3879=this['ar'+'ra'+'y']();_0x1a34fc['ca'+'ll'](this,this['is'+'22'+'4'],this['sh'+'ar'+'ed'+'Me'+'mo'+'ry']),this['up'+'da'+'te'](this['oK'+'ey'+'Pa'+'d']),this['up'+'da'+'te'](_0x5d3879),_0x1a34fc['pr'+'ot'+'ot'+'yp'+'e']['fi'+'na'+'li'+'ze']['ca'+'ll'](this);}};var _0x112ced=_0x56a2a0();_0x112ced['sh'+'a2'+'56']=_0x112ced,_0x112ced['sh'+'a2'+'24']=_0x56a2a0(!![]),_0x112ced['sh'+'a2'+'56']['hm'+'ac']=_0x4a9cb8(),_0x112ced['sh'+'a2'+'24']['hm'+'ac']=_0x4a9cb8(!![]),_0x30dd6e?_0x1d7788['ex'+'po'+'rt'+'s']=_0x112ced:(_0x5e75e6['sh'+'a2'+'56']=_0x112ced['sh'+'a2'+'56'],_0x5e75e6['sh'+'a2'+'24']=_0x112ced['sh'+'a2'+'24'],_0x8cd5ed&&define(function(){return _0x112ced;}));}());}}),webcrypto_default=crypto,isCryptoKey=__name(_0x18f436=>_0x18f436 instanceof CryptoKey,'is'+'Cr'+'yp'+'to'+'Ke'+'y'),encoder=new TextEncoder(),decoder=new TextDecoder(),MAX_INT32=0x2**0x20;function concat(..._0x27e408){const _0x47d572=_0x27e408['re'+'du'+'ce']((_0x24b323,{length:_0x101d2d})=>_0x24b323+_0x101d2d,0x0),_0x1f6b4e=new Uint8Array(_0x47d572);let _0x26f701=0x0;for(const _0x2430a7 of _0x27e408){_0x1f6b4e['se'+'t'](_0x2430a7,_0x26f701),_0x26f701+=_0x2430a7['le'+'ng'+'th'];}return _0x1f6b4e;}__name(concat,'co'+'nc'+'at');var encodeBase64=__name(_0x39dfc2=>{let _0x48903a=_0x39dfc2;typeof _0x48903a==='st'+'ri'+'ng'&&(_0x48903a=encoder['en'+'co'+'de'](_0x48903a));const _0x4d2444=0x8000,_0x12470e=[];for(let _0x222e0c=0x0;_0x222e0c<_0x48903a['le'+'ng'+'th'];_0x222e0c+=_0x4d2444){_0x12470e['pu'+'sh'](String['fr'+'om'+'Ch'+'ar'+'Co'+'de']['ap'+'pl'+'y'](null,_0x48903a['su'+'ba'+'rr'+'ay'](_0x222e0c,_0x222e0c+_0x4d2444)));}return btoa(_0x12470e['jo'+'in'](''));},'en'+'co'+'de'+'Ba'+'se'+'64'),encode=__name(_0xff5fe9=>{return encodeBase64(_0xff5fe9)['re'+'pl'+'ac'+'e'](/=/g,'')['re'+'pl'+'ac'+'e'](/\+/g,'-')['re'+'pl'+'ac'+'e'](/\//g,'_');},'en'+'co'+'de'),decodeBase64=__name(_0x249d81=>{const _0xcc0b41=atob(_0x249d81),_0xc21d49=new Uint8Array(_0xcc0b41['le'+'ng'+'th']);for(let _0x52bf17=0x0;_0x52bf17<_0xcc0b41['le'+'ng'+'th'];_0x52bf17++){_0xc21d49[_0x52bf17]=_0xcc0b41['ch'+'ar'+'Co'+'de'+'At'](_0x52bf17);}return _0xc21d49;},'de'+'co'+'de'+'Ba'+'se'+'64'),decode=__name(_0x3fc2fc=>{let _0x5c84b5=_0x3fc2fc;_0x5c84b5 instanceof Uint8Array&&(_0x5c84b5=decoder['de'+'co'+'de'](_0x5c84b5)),_0x5c84b5=_0x5c84b5['re'+'pl'+'ac'+'e'](/-/g,'+')['re'+'pl'+'ac'+'e'](/_/g,'/')['re'+'pl'+'ac'+'e'](/\s/g,'');try{return decodeBase64(_0x5c84b5);}catch{throw new TypeError('Th'+'e\x20'+'in'+'pu'+'t\x20'+'to'+'\x20b'+'e\x20'+'de'+'co'+'de'+'d\x20'+'is'+'\x20n'+'ot'+'\x20c'+'or'+'re'+'ct'+'ly'+'\x20e'+'nc'+'od'+'ed'+'.');}},'de'+'co'+'de'),JOSEError=class extends Error{constructor(_0xed8675,_0x25f862){super(_0xed8675,_0x25f862),this['co'+'de']='ER'+'R_'+'JO'+'SE'+'_G'+'EN'+'ER'+'IC',this['na'+'me']=this['co'+'ns'+'tr'+'uc'+'to'+'r']['na'+'me'],Error['ca'+'pt'+'ur'+'eS'+'ta'+'ck'+'Tr'+'ac'+'e']?.(this,this['co'+'ns'+'tr'+'uc'+'to'+'r']);}};__name(JOSEError,'JO'+'SE'+'Er'+'ro'+'r'),JOSEError['co'+'de']='ER'+'R_'+'JO'+'SE'+'_G'+'EN'+'ER'+'IC';var JWTClaimValidationFailed=class extends JOSEError{constructor(_0x213ff1,_0x19f743,_0x3c0bd7='un'+'sp'+'ec'+'if'+'ie'+'d',_0x154d20='un'+'sp'+'ec'+'if'+'ie'+'d'){super(_0x213ff1,{'cause':{'claim':_0x3c0bd7,'reason':_0x154d20,'payload':_0x19f743}}),this['co'+'de']='ER'+'R_'+'JW'+'T_'+'CL'+'AI'+'M_'+'VA'+'LI'+'DA'+'TI'+'ON'+'_F'+'AI'+'LE'+'D',this['cl'+'ai'+'m']=_0x3c0bd7,this['re'+'as'+'on']=_0x154d20,this['pa'+'yl'+'oa'+'d']=_0x19f743;}};__name(JWTClaimValidationFailed,'JW'+'TC'+'la'+'im'+'Va'+'li'+'da'+'ti'+'on'+'Fa'+'il'+'ed'),JWTClaimValidationFailed['co'+'de']='ER'+'R_'+'JW'+'T_'+'CL'+'AI'+'M_'+'VA'+'LI'+'DA'+'TI'+'ON'+'_F'+'AI'+'LE'+'D';var JWTExpired=class extends JOSEError{constructor(_0x3b5bdb,_0x580a46,_0x240db9='un'+'sp'+'ec'+'if'+'ie'+'d',_0x556705='un'+'sp'+'ec'+'if'+'ie'+'d'){super(_0x3b5bdb,{'cause':{'claim':_0x240db9,'reason':_0x556705,'payload':_0x580a46}}),this['co'+'de']='ER'+'R_'+'JW'+'T_'+'EX'+'PI'+'RE'+'D',this['cl'+'ai'+'m']=_0x240db9,this['re'+'as'+'on']=_0x556705,this['pa'+'yl'+'oa'+'d']=_0x580a46;}};__name(JWTExpired,'JW'+'TE'+'xp'+'ir'+'ed'),JWTExpired['co'+'de']='ER'+'R_'+'JW'+'T_'+'EX'+'PI'+'RE'+'D';var JOSEAlgNotAllowed=class extends JOSEError{constructor(){super(...arguments),this['co'+'de']='ER'+'R_'+'JO'+'SE'+'_A'+'LG'+'_N'+'OT'+'_A'+'LL'+'OW'+'ED';}};__name(JOSEAlgNotAllowed,'JO'+'SE'+'Al'+'gN'+'ot'+'Al'+'lo'+'we'+'d'),JOSEAlgNotAllowed['co'+'de']='ER'+'R_'+'JO'+'SE'+'_A'+'LG'+'_N'+'OT'+'_A'+'LL'+'OW'+'ED';var JOSENotSupported=class extends JOSEError{constructor(){super(...arguments),this['co'+'de']='ER'+'R_'+'JO'+'SE'+'_N'+'OT'+'_S'+'UP'+'PO'+'RT'+'ED';}};__name(JOSENotSupported,'JO'+'SE'+'No'+'tS'+'up'+'po'+'rt'+'ed'),JOSENotSupported['co'+'de']='ER'+'R_'+'JO'+'SE'+'_N'+'OT'+'_S'+'UP'+'PO'+'RT'+'ED';var JWEDecryptionFailed=class extends JOSEError{constructor(_0x47df6f='de'+'cr'+'yp'+'ti'+'on'+'\x20o'+'pe'+'ra'+'ti'+'on'+'\x20f'+'ai'+'le'+'d',_0x2feb04){super(_0x47df6f,_0x2feb04),this['co'+'de']='ER'+'R_'+'JW'+'E_'+'DE'+'CR'+'YP'+'TI'+'ON'+'_F'+'AI'+'LE'+'D';}};__name(JWEDecryptionFailed,'JW'+'ED'+'ec'+'ry'+'pt'+'io'+'nF'+'ai'+'le'+'d'),JWEDecryptionFailed['co'+'de']='ER'+'R_'+'JW'+'E_'+'DE'+'CR'+'YP'+'TI'+'ON'+'_F'+'AI'+'LE'+'D';var JWEInvalid=class extends JOSEError{constructor(){super(...arguments),this['co'+'de']='ER'+'R_'+'JW'+'E_'+'IN'+'VA'+'LI'+'D';}};__name(JWEInvalid,'JW'+'EI'+'nv'+'al'+'id'),JWEInvalid['co'+'de']='ER'+'R_'+'JW'+'E_'+'IN'+'VA'+'LI'+'D';var JWSInvalid=class extends JOSEError{constructor(){super(...arguments),this['co'+'de']='ER'+'R_'+'JW'+'S_'+'IN'+'VA'+'LI'+'D';}};__name(JWSInvalid,'JW'+'SI'+'nv'+'al'+'id'),JWSInvalid['co'+'de']='ER'+'R_'+'JW'+'S_'+'IN'+'VA'+'LI'+'D';var JWTInvalid=class extends JOSEError{constructor(){super(...arguments),this['co'+'de']='ER'+'R_'+'JW'+'T_'+'IN'+'VA'+'LI'+'D';}};__name(JWTInvalid,'JW'+'TI'+'nv'+'al'+'id'),JWTInvalid['co'+'de']='ER'+'R_'+'JW'+'T_'+'IN'+'VA'+'LI'+'D';var JWKInvalid=class extends JOSEError{constructor(){super(...arguments),this['co'+'de']='ER'+'R_'+'JW'+'K_'+'IN'+'VA'+'LI'+'D';}};__name(JWKInvalid,'JW'+'KI'+'nv'+'al'+'id'),JWKInvalid['co'+'de']='ER'+'R_'+'JW'+'K_'+'IN'+'VA'+'LI'+'D';var JWKSInvalid=class extends JOSEError{constructor(){super(...arguments),this['co'+'de']='ER'+'R_'+'JW'+'KS'+'_I'+'NV'+'AL'+'ID';}};__name(JWKSInvalid,'JW'+'KS'+'In'+'va'+'li'+'d'),JWKSInvalid['co'+'de']='ER'+'R_'+'JW'+'KS'+'_I'+'NV'+'AL'+'ID';var JWKSNoMatchingKey=class extends JOSEError{constructor(_0x1c3c80='no'+'\x20a'+'pp'+'li'+'ca'+'bl'+'e\x20'+'ke'+'y\x20'+'fo'+'un'+'d\x20'+'in'+'\x20t'+'he'+'\x20J'+'SO'+'N\x20'+'We'+'b\x20'+'Ke'+'y\x20'+'Se'+'t',_0x1e76eb){super(_0x1c3c80,_0x1e76eb),this['co'+'de']='ER'+'R_'+'JW'+'KS'+'_N'+'O_'+'MA'+'TC'+'HI'+'NG'+'_K'+'EY';}};__name(JWKSNoMatchingKey,'JW'+'KS'+'No'+'Ma'+'tc'+'hi'+'ng'+'Ke'+'y'),JWKSNoMatchingKey['co'+'de']='ER'+'R_'+'JW'+'KS'+'_N'+'O_'+'MA'+'TC'+'HI'+'NG'+'_K'+'EY';var JWKSMultipleMatchingKeys=class extends JOSEError{constructor(_0x228924='mu'+'lt'+'ip'+'le'+'\x20m'+'at'+'ch'+'in'+'g\x20'+'ke'+'ys'+'\x20f'+'ou'+'nd'+'\x20i'+'n\x20'+'th'+'e\x20'+'JS'+'ON'+'\x20W'+'eb'+'\x20K'+'ey'+'\x20S'+'et',_0x3c7204){super(_0x228924,_0x3c7204),this['co'+'de']='ER'+'R_'+'JW'+'KS'+'_M'+'UL'+'TI'+'PL'+'E_'+'MA'+'TC'+'HI'+'NG'+'_K'+'EY'+'S';}};__name(JWKSMultipleMatchingKeys,'JW'+'KS'+'Mu'+'lt'+'ip'+'le'+'Ma'+'tc'+'hi'+'ng'+'Ke'+'ys'),JWKSMultipleMatchingKeys['co'+'de']='ER'+'R_'+'JW'+'KS'+'_M'+'UL'+'TI'+'PL'+'E_'+'MA'+'TC'+'HI'+'NG'+'_K'+'EY'+'S';var JWKSTimeout=class extends JOSEError{constructor(_0xfc38de='re'+'qu'+'es'+'t\x20'+'ti'+'me'+'d\x20'+'ou'+'t',_0x222310){super(_0xfc38de,_0x222310),this['co'+'de']='ER'+'R_'+'JW'+'KS'+'_T'+'IM'+'EO'+'UT';}};__name(JWKSTimeout,'JW'+'KS'+'Ti'+'me'+'ou'+'t'),JWKSTimeout['co'+'de']='ER'+'R_'+'JW'+'KS'+'_T'+'IM'+'EO'+'UT';var JWSSignatureVerificationFailed=class extends JOSEError{constructor(_0x359237='si'+'gn'+'at'+'ur'+'e\x20'+'ve'+'ri'+'fi'+'ca'+'ti'+'on'+'\x20f'+'ai'+'le'+'d',_0xa77aaf){super(_0x359237,_0xa77aaf),this['co'+'de']='ER'+'R_'+'JW'+'S_'+'SI'+'GN'+'AT'+'UR'+'E_'+'VE'+'RI'+'FI'+'CA'+'TI'+'ON'+'_F'+'AI'+'LE'+'D';}};__name(JWSSignatureVerificationFailed,'JW'+'SS'+'ig'+'na'+'tu'+'re'+'Ve'+'ri'+'fi'+'ca'+'ti'+'on'+'Fa'+'il'+'ed'),JWSSignatureVerificationFailed['co'+'de']='ER'+'R_'+'JW'+'S_'+'SI'+'GN'+'AT'+'UR'+'E_'+'VE'+'RI'+'FI'+'CA'+'TI'+'ON'+'_F'+'AI'+'LE'+'D';function unusable(_0x4922a2,_0x2a4707='al'+'go'+'ri'+'th'+'m.'+'na'+'me'){return new TypeError('Cr'+'yp'+'to'+'Ke'+'y\x20'+'do'+'es'+'\x20n'+'ot'+'\x20s'+'up'+'po'+'rt'+'\x20t'+'hi'+'s\x20'+'op'+'er'+'at'+'io'+'n,'+'\x20i'+'ts'+'\x20'+_0x2a4707+('\x20m'+'us'+'t\x20'+'be'+'\x20')+_0x4922a2);}__name(unusable,'un'+'us'+'ab'+'le');function isAlgorithm(_0x3157dd,_0x5b5f21){return _0x3157dd['na'+'me']===_0x5b5f21;}__name(isAlgorithm,'is'+'Al'+'go'+'ri'+'th'+'m');function getHashLength(_0x5e98d3){return parseInt(_0x5e98d3['na'+'me']['sl'+'ic'+'e'](0x4),0xa);}__name(getHashLength,'ge'+'tH'+'as'+'hL'+'en'+'gt'+'h');function getNamedCurve(_0x330a85){switch(_0x330a85){case'ES'+'25'+'6':return'P-'+'25'+'6';case'ES'+'38'+'4':return'P-'+'38'+'4';case'ES'+'51'+'2':return'P-'+'52'+'1';default:throw new Error('un'+'re'+'ac'+'ha'+'bl'+'e');}}__name(getNamedCurve,'ge'+'tN'+'am'+'ed'+'Cu'+'rv'+'e');function checkUsage(_0x906544,_0x475b39){if(_0x475b39['le'+'ng'+'th']&&!_0x475b39['so'+'me'](_0x11e7d2=>_0x906544['us'+'ag'+'es']['in'+'cl'+'ud'+'es'](_0x11e7d2))){let _0x51aec7='Cr'+'yp'+'to'+'Ke'+'y\x20'+'do'+'es'+'\x20n'+'ot'+'\x20s'+'up'+'po'+'rt'+'\x20t'+'hi'+'s\x20'+'op'+'er'+'at'+'io'+'n,'+'\x20i'+'ts'+'\x20u'+'sa'+'ge'+'s\x20'+'mu'+'st'+'\x20i'+'nc'+'lu'+'de'+'\x20';if(_0x475b39['le'+'ng'+'th']>0x2){const _0x5b8c73=_0x475b39['po'+'p']();_0x51aec7+='on'+'e\x20'+'of'+'\x20'+_0x475b39['jo'+'in'](',\x20')+(',\x20'+'or'+'\x20')+_0x5b8c73+'.';}else _0x475b39['le'+'ng'+'th']===0x2?_0x51aec7+='on'+'e\x20'+'of'+'\x20'+_0x475b39[0x0]+('\x20o'+'r\x20')+_0x475b39[0x1]+'.':_0x51aec7+=_0x475b39[0x0]+'.';throw new TypeError(_0x51aec7);}}__name(checkUsage,'ch'+'ec'+'kU'+'sa'+'ge');function checkSigCryptoKey(_0x4b751d,_0x645982,..._0x457e64){switch(_0x645982){case'HS'+'25'+'6':case'HS'+'38'+'4':case'HS'+'51'+'2':{if(!isAlgorithm(_0x4b751d['al'+'go'+'ri'+'th'+'m'],'HM'+'AC'))throw unusable('HM'+'AC');const _0xfb1f57=parseInt(_0x645982['sl'+'ic'+'e'](0x2),0xa),_0x10953f=getHashLength(_0x4b751d['al'+'go'+'ri'+'th'+'m']['ha'+'sh']);if(_0x10953f!==_0xfb1f57)throw unusable('SH'+'A-'+_0xfb1f57,'al'+'go'+'ri'+'th'+'m.'+'ha'+'sh');break;}case'RS'+'25'+'6':case'RS'+'38'+'4':case'RS'+'51'+'2':{if(!isAlgorithm(_0x4b751d['al'+'go'+'ri'+'th'+'m'],'RS'+'AS'+'SA'+'-P'+'KC'+'S1'+'-v'+'1_'+'5'))throw unusable('RS'+'AS'+'SA'+'-P'+'KC'+'S1'+'-v'+'1_'+'5');const _0x16af7c=parseInt(_0x645982['sl'+'ic'+'e'](0x2),0xa),_0x2df644=getHashLength(_0x4b751d['al'+'go'+'ri'+'th'+'m']['ha'+'sh']);if(_0x2df644!==_0x16af7c)throw unusable('SH'+'A-'+_0x16af7c,'al'+'go'+'ri'+'th'+'m.'+'ha'+'sh');break;}case'PS'+'25'+'6':case'PS'+'38'+'4':case'PS'+'51'+'2':{if(!isAlgorithm(_0x4b751d['al'+'go'+'ri'+'th'+'m'],'RS'+'A-'+'PS'+'S'))throw unusable('RS'+'A-'+'PS'+'S');const _0x1764ef=parseInt(_0x645982['sl'+'ic'+'e'](0x2),0xa),_0x14d531=getHashLength(_0x4b751d['al'+'go'+'ri'+'th'+'m']['ha'+'sh']);if(_0x14d531!==_0x1764ef)throw unusable('SH'+'A-'+_0x1764ef,'al'+'go'+'ri'+'th'+'m.'+'ha'+'sh');break;}case'Ed'+'DS'+'A':{if(_0x4b751d['al'+'go'+'ri'+'th'+'m']['na'+'me']!=='Ed'+'25'+'51'+'9'&&_0x4b751d['al'+'go'+'ri'+'th'+'m']['na'+'me']!=='Ed'+'44'+'8')throw unusable('Ed'+'25'+'51'+'9\x20'+'or'+'\x20E'+'d4'+'48');break;}case'ES'+'25'+'6':case'ES'+'38'+'4':case'ES'+'51'+'2':{if(!isAlgorithm(_0x4b751d['al'+'go'+'ri'+'th'+'m'],'EC'+'DS'+'A'))throw unusable('EC'+'DS'+'A');const _0x5bd9dc=getNamedCurve(_0x645982),_0x29c969=_0x4b751d['al'+'go'+'ri'+'th'+'m']['na'+'me'+'dC'+'ur'+'ve'];if(_0x29c969!==_0x5bd9dc)throw unusable(_0x5bd9dc,'al'+'go'+'ri'+'th'+'m.'+'na'+'me'+'dC'+'ur'+'ve');break;}default:throw new TypeError('Cr'+'yp'+'to'+'Ke'+'y\x20'+'do'+'es'+'\x20n'+'ot'+'\x20s'+'up'+'po'+'rt'+'\x20t'+'hi'+'s\x20'+'op'+'er'+'at'+'io'+'n');}checkUsage(_0x4b751d,_0x457e64);}__name(checkSigCryptoKey,'ch'+'ec'+'kS'+'ig'+'Cr'+'yp'+'to'+'Ke'+'y');function message(_0x52ac9f,_0x29e047,..._0x32a22b){_0x32a22b=_0x32a22b['fi'+'lt'+'er'](Boolean);if(_0x32a22b['le'+'ng'+'th']>0x2){const _0x82790d=_0x32a22b['po'+'p']();_0x52ac9f+='on'+'e\x20'+'of'+'\x20t'+'yp'+'e\x20'+_0x32a22b['jo'+'in'](',\x20')+(',\x20'+'or'+'\x20')+_0x82790d+'.';}else _0x32a22b['le'+'ng'+'th']===0x2?_0x52ac9f+='on'+'e\x20'+'of'+'\x20t'+'yp'+'e\x20'+_0x32a22b[0x0]+('\x20o'+'r\x20')+_0x32a22b[0x1]+'.':_0x52ac9f+='of'+'\x20t'+'yp'+'e\x20'+_0x32a22b[0x0]+'.';if(_0x29e047==null)_0x52ac9f+='\x20R'+'ec'+'ei'+'ve'+'d\x20'+_0x29e047;else{if(typeof _0x29e047==='fu'+'nc'+'ti'+'on'&&_0x29e047['na'+'me'])_0x52ac9f+='\x20R'+'ec'+'ei'+'ve'+'d\x20'+'fu'+'nc'+'ti'+'on'+'\x20'+_0x29e047['na'+'me'];else typeof _0x29e047==='ob'+'je'+'ct'&&_0x29e047!=null&&(_0x29e047['co'+'ns'+'tr'+'uc'+'to'+'r']?.['na'+'me']&&(_0x52ac9f+='\x20R'+'ec'+'ei'+'ve'+'d\x20'+'an'+'\x20i'+'ns'+'ta'+'nc'+'e\x20'+'of'+'\x20'+_0x29e047['co'+'ns'+'tr'+'uc'+'to'+'r']['na'+'me']));}return _0x52ac9f;}__name(message,'me'+'ss'+'ag'+'e');var invalid_key_input_default=__name((_0x10c0d1,..._0x25f74d)=>{return message('Ke'+'y\x20'+'mu'+'st'+'\x20b'+'e\x20',_0x10c0d1,..._0x25f74d);},'de'+'fa'+'ul'+'t');function withAlg(_0xb8f073,_0x2df993,..._0x2d2a94){return message('Ke'+'y\x20'+'fo'+'r\x20'+'th'+'e\x20'+_0xb8f073+('\x20a'+'lg'+'or'+'it'+'hm'+'\x20m'+'us'+'t\x20'+'be'+'\x20'),_0x2df993,..._0x2d2a94);}__name(withAlg,'wi'+'th'+'Al'+'g');var is_key_like_default=__name(_0x55d2fd=>{if(isCryptoKey(_0x55d2fd))return!![];return _0x55d2fd?.[Symbol['to'+'St'+'ri'+'ng'+'Ta'+'g']]==='Ke'+'yO'+'bj'+'ec'+'t';},'de'+'fa'+'ul'+'t'),types=['Cr'+'yp'+'to'+'Ke'+'y'],isDisjoint=__name((..._0x3c0188)=>{const _0x517253=_0x3c0188['fi'+'lt'+'er'](Boolean);if(_0x517253['le'+'ng'+'th']===0x0||_0x517253['le'+'ng'+'th']===0x1)return!![];let _0x139172;for(const _0x4cad95 of _0x517253){const _0x145bc3=Object['ke'+'ys'](_0x4cad95);if(!_0x139172||_0x139172['si'+'ze']===0x0){_0x139172=new Set(_0x145bc3);continue;}for(const _0x286ff6 of _0x145bc3){if(_0x139172['ha'+'s'](_0x286ff6))return![];_0x139172['ad'+'d'](_0x286ff6);}}return!![];},'is'+'Di'+'sj'+'oi'+'nt'),is_disjoint_default=isDisjoint;function isObjectLike(_0x322888){return typeof _0x322888==='ob'+'je'+'ct'&&_0x322888!==null;}__name(isObjectLike,'is'+'Ob'+'je'+'ct'+'Li'+'ke');function isObject(_0x4beb98){if(!isObjectLike(_0x4beb98)||Object['pr'+'ot'+'ot'+'yp'+'e']['to'+'St'+'ri'+'ng']['ca'+'ll'](_0x4beb98)!=='[o'+'bj'+'ec'+'t\x20'+'Ob'+'je'+'ct'+']')return![];if(Object['ge'+'tP'+'ro'+'to'+'ty'+'pe'+'Of'](_0x4beb98)===null)return!![];let _0x4b3f35=_0x4beb98;while(Object['ge'+'tP'+'ro'+'to'+'ty'+'pe'+'Of'](_0x4b3f35)!==null){_0x4b3f35=Object['ge'+'tP'+'ro'+'to'+'ty'+'pe'+'Of'](_0x4b3f35);}return Object['ge'+'tP'+'ro'+'to'+'ty'+'pe'+'Of'](_0x4beb98)===_0x4b3f35;}__name(isObject,'is'+'Ob'+'je'+'ct');var check_key_length_default=__name((_0x5d4160,_0x44afe6)=>{if(_0x5d4160['st'+'ar'+'ts'+'Wi'+'th']('RS')||_0x5d4160['st'+'ar'+'ts'+'Wi'+'th']('PS')){const {modulusLength:_0x36efa0}=_0x44afe6['al'+'go'+'ri'+'th'+'m'];if(typeof _0x36efa0!=='nu'+'mb'+'er'||_0x36efa0<0x800)throw new TypeError(_0x5d4160+('\x20r'+'eq'+'ui'+'re'+'s\x20'+'ke'+'y\x20'+'mo'+'du'+'lu'+'sL'+'en'+'gt'+'h\x20'+'to'+'\x20b'+'e\x20'+'20'+'48'+'\x20b'+'it'+'s\x20'+'or'+'\x20l'+'ar'+'ge'+'r'));}},'de'+'fa'+'ul'+'t');function isJWK(_0x2588e8){return isObject(_0x2588e8)&&typeof _0x2588e8['kt'+'y']==='st'+'ri'+'ng';}__name(isJWK,'is'+'JW'+'K');function isPrivateJWK(_0xc5e76e){return _0xc5e76e['kt'+'y']!=='oc'+'t'&&typeof _0xc5e76e['d']==='st'+'ri'+'ng';}function _0x1ddd(_0xf039e7,_0x27feda){const _0x5c93f5=_0x5c93();return _0x1ddd=function(_0x1ddd48,_0x120450){_0x1ddd48=_0x1ddd48-0x1dd;let _0x577107=_0x5c93f5[_0x1ddd48];return _0x577107;},_0x1ddd(_0xf039e7,_0x27feda);}__name(isPrivateJWK,'is'+'Pr'+'iv'+'at'+'eJ'+'WK');function isPublicJWK(_0x23d56f){return _0x23d56f['kt'+'y']!=='oc'+'t'&&typeof _0x23d56f['d']==='un'+'de'+'fi'+'ne'+'d';}__name(isPublicJWK,'is'+'Pu'+'bl'+'ic'+'JW'+'K');function isSecretJWK(_0x5cbc36){return isJWK(_0x5cbc36)&&_0x5cbc36['kt'+'y']==='oc'+'t'&&typeof _0x5cbc36['k']==='st'+'ri'+'ng';}__name(isSecretJWK,'is'+'Se'+'cr'+'et'+'JW'+'K');function subtleMapping(_0x236966){let _0x3f3554,_0x449574;switch(_0x236966['kt'+'y']){case'RS'+'A':{switch(_0x236966['al'+'g']){case'PS'+'25'+'6':case'PS'+'38'+'4':case'PS'+'51'+'2':_0x3f3554={'name':'RS'+'A-'+'PS'+'S','hash':'SH'+'A-'+_0x236966['al'+'g']['sl'+'ic'+'e'](-0x3)},_0x449574=_0x236966['d']?['si'+'gn']:['ve'+'ri'+'fy'];break;case'RS'+'25'+'6':case'RS'+'38'+'4':case'RS'+'51'+'2':_0x3f3554={'name':'RS'+'AS'+'SA'+'-P'+'KC'+'S1'+'-v'+'1_'+'5','hash':'SH'+'A-'+_0x236966['al'+'g']['sl'+'ic'+'e'](-0x3)},_0x449574=_0x236966['d']?['si'+'gn']:['ve'+'ri'+'fy'];break;case'RS'+'A-'+'OA'+'EP':case'RS'+'A-'+'OA'+'EP'+'-2'+'56':case'RS'+'A-'+'OA'+'EP'+'-3'+'84':case'RS'+'A-'+'OA'+'EP'+'-5'+'12':_0x3f3554={'name':'RS'+'A-'+'OA'+'EP','hash':'SH'+'A-'+(parseInt(_0x236966['al'+'g']['sl'+'ic'+'e'](-0x3),0xa)||0x1)},_0x449574=_0x236966['d']?['de'+'cr'+'yp'+'t','un'+'wr'+'ap'+'Ke'+'y']:['en'+'cr'+'yp'+'t','wr'+'ap'+'Ke'+'y'];break;default:throw new JOSENotSupported('In'+'va'+'li'+'d\x20'+'or'+'\x20u'+'ns'+'up'+'po'+'rt'+'ed'+'\x20J'+'WK'+'\x20\x22'+'al'+'g\x22'+'\x20('+'Al'+'go'+'ri'+'th'+'m)'+'\x20P'+'ar'+'am'+'et'+'er'+'\x20v'+'al'+'ue');}break;}case'EC':{switch(_0x236966['al'+'g']){case'ES'+'25'+'6':_0x3f3554={'name':'EC'+'DS'+'A','namedCurve':'P-'+'25'+'6'},_0x449574=_0x236966['d']?['si'+'gn']:['ve'+'ri'+'fy'];break;case'ES'+'38'+'4':_0x3f3554={'name':'EC'+'DS'+'A','namedCurve':'P-'+'38'+'4'},_0x449574=_0x236966['d']?['si'+'gn']:['ve'+'ri'+'fy'];break;case'ES'+'51'+'2':_0x3f3554={'name':'EC'+'DS'+'A','namedCurve':'P-'+'52'+'1'},_0x449574=_0x236966['d']?['si'+'gn']:['ve'+'ri'+'fy'];break;case'EC'+'DH'+'-E'+'S':case'EC'+'DH'+'-E'+'S+'+'A1'+'28'+'KW':case'EC'+'DH'+'-E'+'S+'+'A1'+'92'+'KW':case'EC'+'DH'+'-E'+'S+'+'A2'+'56'+'KW':_0x3f3554={'name':'EC'+'DH','namedCurve':_0x236966['cr'+'v']},_0x449574=_0x236966['d']?['de'+'ri'+'ve'+'Bi'+'ts']:[];break;default:throw new JOSENotSupported('In'+'va'+'li'+'d\x20'+'or'+'\x20u'+'ns'+'up'+'po'+'rt'+'ed'+'\x20J'+'WK'+'\x20\x22'+'al'+'g\x22'+'\x20('+'Al'+'go'+'ri'+'th'+'m)'+'\x20P'+'ar'+'am'+'et'+'er'+'\x20v'+'al'+'ue');}break;}case'OK'+'P':{switch(_0x236966['al'+'g']){case'Ed'+'DS'+'A':_0x3f3554={'name':_0x236966['cr'+'v']},_0x449574=_0x236966['d']?['si'+'gn']:['ve'+'ri'+'fy'];break;case'EC'+'DH'+'-E'+'S':case'EC'+'DH'+'-E'+'S+'+'A1'+'28'+'KW':case'EC'+'DH'+'-E'+'S+'+'A1'+'92'+'KW':case'EC'+'DH'+'-E'+'S+'+'A2'+'56'+'KW':_0x3f3554={'name':_0x236966['cr'+'v']},_0x449574=_0x236966['d']?['de'+'ri'+'ve'+'Bi'+'ts']:[];break;default:throw new JOSENotSupported('In'+'va'+'li'+'d\x20'+'or'+'\x20u'+'ns'+'up'+'po'+'rt'+'ed'+'\x20J'+'WK'+'\x20\x22'+'al'+'g\x22'+'\x20('+'Al'+'go'+'ri'+'th'+'m)'+'\x20P'+'ar'+'am'+'et'+'er'+'\x20v'+'al'+'ue');}break;}default:throw new JOSENotSupported('In'+'va'+'li'+'d\x20'+'or'+'\x20u'+'ns'+'up'+'po'+'rt'+'ed'+'\x20J'+'WK'+'\x20\x22'+'kt'+'y\x22'+'\x20('+'Ke'+'y\x20'+'Ty'+'pe'+')\x20'+'Pa'+'ra'+'me'+'te'+'r\x20'+'va'+'lu'+'e');}return{'algorithm':_0x3f3554,'keyUsages':_0x449574};}__name(subtleMapping,'su'+'bt'+'le'+'Ma'+'pp'+'in'+'g');var parse=__name(async _0xab5fbe=>{if(!_0xab5fbe['al'+'g'])throw new TypeError('\x22a'+'lg'+'\x22\x20'+'ar'+'gu'+'me'+'nt'+'\x20i'+'s\x20'+'re'+'qu'+'ir'+'ed'+'\x20w'+'he'+'n\x20'+'\x22j'+'wk'+'.a'+'lg'+'\x22\x20'+'is'+'\x20n'+'ot'+'\x20p'+'re'+'se'+'nt');const {algorithm:_0x49e267,keyUsages:_0x33735d}=subtleMapping(_0xab5fbe),_0x435a1b=[_0x49e267,_0xab5fbe['ex'+'t']??![],_0xab5fbe['ke'+'y_'+'op'+'s']??_0x33735d],_0x57673a={..._0xab5fbe};return delete _0x57673a['al'+'g'],delete _0x57673a['us'+'e'],webcrypto_default['su'+'bt'+'le']['im'+'po'+'rt'+'Ke'+'y']('jw'+'k',_0x57673a,..._0x435a1b);},'pa'+'rs'+'e'),jwk_to_key_default=parse,exportKeyValue=__name(_0x43886e=>decode(_0x43886e),'ex'+'po'+'rt'+'Ke'+'yV'+'al'+'ue'),privCache,pubCache,isKeyObject=__name(_0x3b3ffa=>{return _0x3b3ffa?.[Symbol['to'+'St'+'ri'+'ng'+'Ta'+'g']]==='Ke'+'yO'+'bj'+'ec'+'t';},'is'+'Ke'+'yO'+'bj'+'ec'+'t'),importAndCache=__name(async(_0x525895,_0x372174,_0x42a670,_0x397a5e,_0x18dbf1=![])=>{let _0x3e7253=_0x525895['ge'+'t'](_0x372174);if(_0x3e7253?.[_0x397a5e])return _0x3e7253[_0x397a5e];const _0x536755=await jwk_to_key_default({..._0x42a670,'alg':_0x397a5e});if(_0x18dbf1)Object['fr'+'ee'+'ze'](_0x372174);return!_0x3e7253?_0x525895['se'+'t'](_0x372174,{[_0x397a5e]:_0x536755}):_0x3e7253[_0x397a5e]=_0x536755,_0x536755;},'im'+'po'+'rt'+'An'+'dC'+'ac'+'he'),normalizePublicKey=__name((_0x2fb743,_0x2c0a35)=>{if(isKeyObject(_0x2fb743)){let _0x119acc=_0x2fb743['ex'+'po'+'rt']({'format':'jw'+'k'});delete _0x119acc['d'],delete _0x119acc['dp'],delete _0x119acc['dq'],delete _0x119acc['p'],delete _0x119acc['q'],delete _0x119acc['qi'];if(_0x119acc['k'])return exportKeyValue(_0x119acc['k']);return pubCache||(pubCache=new WeakMap()),importAndCache(pubCache,_0x2fb743,_0x119acc,_0x2c0a35);}if(isJWK(_0x2fb743)){if(_0x2fb743['k'])return decode(_0x2fb743['k']);pubCache||(pubCache=new WeakMap());const _0x549a43=importAndCache(pubCache,_0x2fb743,_0x2fb743,_0x2c0a35,!![]);return _0x549a43;}return _0x2fb743;},'no'+'rm'+'al'+'iz'+'eP'+'ub'+'li'+'cK'+'ey'),normalizePrivateKey=__name((_0x2f90b5,_0x46fc04)=>{if(isKeyObject(_0x2f90b5)){let _0x33b33b=_0x2f90b5['ex'+'po'+'rt']({'format':'jw'+'k'});if(_0x33b33b['k'])return exportKeyValue(_0x33b33b['k']);return privCache||(privCache=new WeakMap()),importAndCache(privCache,_0x2f90b5,_0x33b33b,_0x46fc04);}if(isJWK(_0x2f90b5)){if(_0x2f90b5['k'])return decode(_0x2f90b5['k']);privCache||(privCache=new WeakMap());const _0xcfae56=importAndCache(privCache,_0x2f90b5,_0x2f90b5,_0x46fc04,!![]);return _0xcfae56;}return _0x2f90b5;},'no'+'rm'+'al'+'iz'+'eP'+'ri'+'va'+'te'+'Ke'+'y'),normalize_key_default={'normalizePublicKey':normalizePublicKey,'normalizePrivateKey':normalizePrivateKey};async function importJWK(_0x40911d,_0x5d7600){if(!isObject(_0x40911d))throw new TypeError('JW'+'K\x20'+'mu'+'st'+'\x20b'+'e\x20'+'an'+'\x20o'+'bj'+'ec'+'t');_0x5d7600||(_0x5d7600=_0x40911d['al'+'g']);switch(_0x40911d['kt'+'y']){case'oc'+'t':if(typeof _0x40911d['k']!=='st'+'ri'+'ng'||!_0x40911d['k'])throw new TypeError('mi'+'ss'+'in'+'g\x20'+'\x22k'+'\x22\x20'+'(K'+'ey'+'\x20V'+'al'+'ue'+')\x20'+'Pa'+'ra'+'me'+'te'+'r\x20'+'va'+'lu'+'e');return decode(_0x40911d['k']);case'RS'+'A':if(_0x40911d['ot'+'h']!==void 0x0)throw new JOSENotSupported('RS'+'A\x20'+'JW'+'K\x20'+'\x22o'+'th'+'\x22\x20'+'(O'+'th'+'er'+'\x20P'+'ri'+'me'+'s\x20'+'In'+'fo'+')\x20'+'Pa'+'ra'+'me'+'te'+'r\x20'+'va'+'lu'+'e\x20'+'is'+'\x20n'+'ot'+'\x20s'+'up'+'po'+'rt'+'ed');case'EC':case'OK'+'P':return jwk_to_key_default({..._0x40911d,'alg':_0x5d7600});default:throw new JOSENotSupported('Un'+'su'+'pp'+'or'+'te'+'d\x20'+'\x22k'+'ty'+'\x22\x20'+'(K'+'ey'+'\x20T'+'yp'+'e)'+'\x20P'+'ar'+'am'+'et'+'er'+'\x20v'+'al'+'ue');}}__name(importJWK,'im'+'po'+'rt'+'JW'+'K');var tag=__name(_0x27123c=>_0x27123c?.[Symbol['to'+'St'+'ri'+'ng'+'Ta'+'g']],'ta'+'g'),jwkMatchesOp=__name((_0x286fc3,_0x167ce7,_0x597030)=>{if(_0x167ce7['us'+'e']!==void 0x0&&_0x167ce7['us'+'e']!=='si'+'g')throw new TypeError('In'+'va'+'li'+'d\x20'+'ke'+'y\x20'+'fo'+'r\x20'+'th'+'is'+'\x20o'+'pe'+'ra'+'ti'+'on'+',\x20'+'wh'+'en'+'\x20p'+'re'+'se'+'nt'+'\x20i'+'ts'+'\x20u'+'se'+'\x20m'+'us'+'t\x20'+'be'+'\x20s'+'ig');if(_0x167ce7['ke'+'y_'+'op'+'s']!==void 0x0&&_0x167ce7['ke'+'y_'+'op'+'s']['in'+'cl'+'ud'+'es']?.(_0x597030)!==!![])throw new TypeError('In'+'va'+'li'+'d\x20'+'ke'+'y\x20'+'fo'+'r\x20'+'th'+'is'+'\x20o'+'pe'+'ra'+'ti'+'on'+',\x20'+'wh'+'en'+'\x20p'+'re'+'se'+'nt'+'\x20i'+'ts'+'\x20k'+'ey'+'_o'+'ps'+'\x20m'+'us'+'t\x20'+'in'+'cl'+'ud'+'e\x20'+_0x597030);if(_0x167ce7['al'+'g']!==void 0x0&&_0x167ce7['al'+'g']!==_0x286fc3)throw new TypeError('In'+'va'+'li'+'d\x20'+'ke'+'y\x20'+'fo'+'r\x20'+'th'+'is'+'\x20o'+'pe'+'ra'+'ti'+'on'+',\x20'+'wh'+'en'+'\x20p'+'re'+'se'+'nt'+'\x20i'+'ts'+'\x20a'+'lg'+'\x20m'+'us'+'t\x20'+'be'+'\x20'+_0x286fc3);return!![];},'jw'+'kM'+'at'+'ch'+'es'+'Op'),symmetricTypeCheck=__name((_0x4ed499,_0x59fdbd,_0x24cc2d,_0x37fd66)=>{if(_0x59fdbd instanceof Uint8Array)return;if(_0x37fd66&&isJWK(_0x59fdbd)){if(isSecretJWK(_0x59fdbd)&&jwkMatchesOp(_0x4ed499,_0x59fdbd,_0x24cc2d))return;throw new TypeError('JS'+'ON'+'\x20W'+'eb'+'\x20K'+'ey'+'\x20f'+'or'+'\x20s'+'ym'+'me'+'tr'+'ic'+'\x20a'+'lg'+'or'+'it'+'hm'+'s\x20'+'mu'+'st'+'\x20h'+'av'+'e\x20'+'JW'+'K\x20'+'\x22k'+'ty'+'\x22\x20'+'(K'+'ey'+'\x20T'+'yp'+'e)'+'\x20e'+'qu'+'al'+'\x20t'+'o\x20'+'\x22o'+'ct'+'\x22\x20'+'an'+'d\x20'+'th'+'e\x20'+'JW'+'K\x20'+'\x22k'+'\x22\x20'+'(K'+'ey'+'\x20V'+'al'+'ue'+')\x20'+'pr'+'es'+'en'+'t');}if(!is_key_like_default(_0x59fdbd))throw new TypeError(withAlg(_0x4ed499,_0x59fdbd,...types,'Ui'+'nt'+'8A'+'rr'+'ay',_0x37fd66?'JS'+'ON'+'\x20W'+'eb'+'\x20K'+'ey':null));if(_0x59fdbd['ty'+'pe']!=='se'+'cr'+'et')throw new TypeError(tag(_0x59fdbd)+('\x20i'+'ns'+'ta'+'nc'+'es'+'\x20f'+'or'+'\x20s'+'ym'+'me'+'tr'+'ic'+'\x20a'+'lg'+'or'+'it'+'hm'+'s\x20'+'mu'+'st'+'\x20b'+'e\x20'+'of'+'\x20t'+'yp'+'e\x20'+'\x22s'+'ec'+'re'+'t\x22'));},'sy'+'mm'+'et'+'ri'+'cT'+'yp'+'eC'+'he'+'ck'),asymmetricTypeCheck=__name((_0x471c1b,_0x305e6c,_0x3990a8,_0x39cf2a)=>{if(_0x39cf2a&&isJWK(_0x305e6c))switch(_0x3990a8){case'si'+'gn':if(isPrivateJWK(_0x305e6c)&&jwkMatchesOp(_0x471c1b,_0x305e6c,_0x3990a8))return;throw new TypeError('JS'+'ON'+'\x20W'+'eb'+'\x20K'+'ey'+'\x20f'+'or'+'\x20t'+'hi'+'s\x20'+'op'+'er'+'at'+'io'+'n\x20'+'be'+'\x20a'+'\x20p'+'ri'+'va'+'te'+'\x20J'+'WK');case've'+'ri'+'fy':if(isPublicJWK(_0x305e6c)&&jwkMatchesOp(_0x471c1b,_0x305e6c,_0x3990a8))return;throw new TypeError('JS'+'ON'+'\x20W'+'eb'+'\x20K'+'ey'+'\x20f'+'or'+'\x20t'+'hi'+'s\x20'+'op'+'er'+'at'+'io'+'n\x20'+'be'+'\x20a'+'\x20p'+'ub'+'li'+'c\x20'+'JW'+'K');}if(!is_key_like_default(_0x305e6c))throw new TypeError(withAlg(_0x471c1b,_0x305e6c,...types,_0x39cf2a?'JS'+'ON'+'\x20W'+'eb'+'\x20K'+'ey':null));if(_0x305e6c['ty'+'pe']==='se'+'cr'+'et')throw new TypeError(tag(_0x305e6c)+('\x20i'+'ns'+'ta'+'nc'+'es'+'\x20f'+'or'+'\x20a'+'sy'+'mm'+'et'+'ri'+'c\x20'+'al'+'go'+'ri'+'th'+'ms'+'\x20m'+'us'+'t\x20'+'no'+'t\x20'+'be'+'\x20o'+'f\x20'+'ty'+'pe'+'\x20\x22'+'se'+'cr'+'et'+'\x22'));if(_0x3990a8==='si'+'gn'&&_0x305e6c['ty'+'pe']==='pu'+'bl'+'ic')throw new TypeError(tag(_0x305e6c)+('\x20i'+'ns'+'ta'+'nc'+'es'+'\x20f'+'or'+'\x20a'+'sy'+'mm'+'et'+'ri'+'c\x20'+'al'+'go'+'ri'+'th'+'m\x20'+'si'+'gn'+'in'+'g\x20'+'mu'+'st'+'\x20b'+'e\x20'+'of'+'\x20t'+'yp'+'e\x20'+'\x22p'+'ri'+'va'+'te'+'\x22'));if(_0x3990a8==='de'+'cr'+'yp'+'t'&&_0x305e6c['ty'+'pe']==='pu'+'bl'+'ic')throw new TypeError(tag(_0x305e6c)+('\x20i'+'ns'+'ta'+'nc'+'es'+'\x20f'+'or'+'\x20a'+'sy'+'mm'+'et'+'ri'+'c\x20'+'al'+'go'+'ri'+'th'+'m\x20'+'de'+'cr'+'yp'+'ti'+'on'+'\x20m'+'us'+'t\x20'+'be'+'\x20o'+'f\x20'+'ty'+'pe'+'\x20\x22'+'pr'+'iv'+'at'+'e\x22'));if(_0x305e6c['al'+'go'+'ri'+'th'+'m']&&_0x3990a8==='ve'+'ri'+'fy'&&_0x305e6c['ty'+'pe']==='pr'+'iv'+'at'+'e')throw new TypeError(tag(_0x305e6c)+('\x20i'+'ns'+'ta'+'nc'+'es'+'\x20f'+'or'+'\x20a'+'sy'+'mm'+'et'+'ri'+'c\x20'+'al'+'go'+'ri'+'th'+'m\x20'+'ve'+'ri'+'fy'+'in'+'g\x20'+'mu'+'st'+'\x20b'+'e\x20'+'of'+'\x20t'+'yp'+'e\x20'+'\x22p'+'ub'+'li'+'c\x22'));if(_0x305e6c['al'+'go'+'ri'+'th'+'m']&&_0x3990a8==='en'+'cr'+'yp'+'t'&&_0x305e6c['ty'+'pe']==='pr'+'iv'+'at'+'e')throw new TypeError(tag(_0x305e6c)+('\x20i'+'ns'+'ta'+'nc'+'es'+'\x20f'+'or'+'\x20a'+'sy'+'mm'+'et'+'ri'+'c\x20'+'al'+'go'+'ri'+'th'+'m\x20'+'en'+'cr'+'yp'+'ti'+'on'+'\x20m'+'us'+'t\x20'+'be'+'\x20o'+'f\x20'+'ty'+'pe'+'\x20\x22'+'pu'+'bl'+'ic'+'\x22'));},'as'+'ym'+'me'+'tr'+'ic'+'Ty'+'pe'+'Ch'+'ec'+'k');function checkKeyType(_0x294ba4,_0x3cb046,_0x3d5fd9,_0x124fab){const _0x51f4fb=_0x3cb046['st'+'ar'+'ts'+'Wi'+'th']('HS')||_0x3cb046==='di'+'r'||_0x3cb046['st'+'ar'+'ts'+'Wi'+'th']('PB'+'ES'+'2')||/^A\d{3}(?:GCM)?KW$/['te'+'st'](_0x3cb046);_0x51f4fb?symmetricTypeCheck(_0x3cb046,_0x3d5fd9,_0x124fab,_0x294ba4):asymmetricTypeCheck(_0x3cb046,_0x3d5fd9,_0x124fab,_0x294ba4);}__name(checkKeyType,'ch'+'ec'+'kK'+'ey'+'Ty'+'pe');var check_key_type_default=checkKeyType['bi'+'nd'](void 0x0,![]),checkKeyTypeWithJwk=checkKeyType['bi'+'nd'](void 0x0,!![]);function a0_0x2178(_0x13f406,_0x1d760a){const _0x427be4=a0_0x2f78();return a0_0x2178=function(_0x551d7d,_0x50330d){_0x551d7d=_0x551d7d-0x19b;let _0xf19c54=_0x427be4[_0x551d7d];return _0xf19c54;},a0_0x2178(_0x13f406,_0x1d760a);}function validateCrit(_0x5f3e55,_0x32b371,_0x471fab,_0x15d191,_0x484d0d){if(_0x484d0d['cr'+'it']!==void 0x0&&_0x15d191?.['cr'+'it']===void 0x0)throw new _0x5f3e55('\x22c'+'ri'+'t\x22'+'\x20('+'Cr'+'it'+'ic'+'al'+')\x20'+'He'+'ad'+'er'+'\x20P'+'ar'+'am'+'et'+'er'+'\x20M'+'US'+'T\x20'+'be'+'\x20i'+'nt'+'eg'+'ri'+'ty'+'\x20p'+'ro'+'te'+'ct'+'ed');if(!_0x15d191||_0x15d191['cr'+'it']===void 0x0)return new Set();if(!Array['is'+'Ar'+'ra'+'y'](_0x15d191['cr'+'it'])||_0x15d191['cr'+'it']['le'+'ng'+'th']===0x0||_0x15d191['cr'+'it']['so'+'me'](_0x1a5561=>typeof _0x1a5561!=='st'+'ri'+'ng'||_0x1a5561['le'+'ng'+'th']===0x0))throw new _0x5f3e55('\x22c'+'ri'+'t\x22'+'\x20('+'Cr'+'it'+'ic'+'al'+')\x20'+'He'+'ad'+'er'+'\x20P'+'ar'+'am'+'et'+'er'+'\x20M'+'US'+'T\x20'+'be'+'\x20a'+'n\x20'+'ar'+'ra'+'y\x20'+'of'+'\x20n'+'on'+'-e'+'mp'+'ty'+'\x20s'+'tr'+'in'+'gs'+'\x20w'+'he'+'n\x20'+'pr'+'es'+'en'+'t');let _0x3506b2;_0x471fab!==void 0x0?_0x3506b2=new Map([...Object['en'+'tr'+'ie'+'s'](_0x471fab),..._0x32b371['en'+'tr'+'ie'+'s']()]):_0x3506b2=_0x32b371;for(const _0x45705d of _0x15d191['cr'+'it']){if(!_0x3506b2['ha'+'s'](_0x45705d))throw new JOSENotSupported('Ex'+'te'+'ns'+'io'+'n\x20'+'He'+'ad'+'er'+'\x20P'+'ar'+'am'+'et'+'er'+'\x20\x22'+_0x45705d+('\x22\x20'+'is'+'\x20n'+'ot'+'\x20r'+'ec'+'og'+'ni'+'ze'+'d'));if(_0x484d0d[_0x45705d]===void 0x0)throw new _0x5f3e55('Ex'+'te'+'ns'+'io'+'n\x20'+'He'+'ad'+'er'+'\x20P'+'ar'+'am'+'et'+'er'+'\x20\x22'+_0x45705d+('\x22\x20'+'is'+'\x20m'+'is'+'si'+'ng'));if(_0x3506b2['ge'+'t'](_0x45705d)&&_0x15d191[_0x45705d]===void 0x0)throw new _0x5f3e55('Ex'+'te'+'ns'+'io'+'n\x20'+'He'+'ad'+'er'+'\x20P'+'ar'+'am'+'et'+'er'+'\x20\x22'+_0x45705d+('\x22\x20'+'MU'+'ST'+'\x20b'+'e\x20'+'in'+'te'+'gr'+'it'+'y\x20'+'pr'+'ot'+'ec'+'te'+'d'));}return new Set(_0x15d191['cr'+'it']);}__name(validateCrit,'va'+'li'+'da'+'te'+'Cr'+'it');var validate_crit_default=validateCrit,validateAlgorithms=__name((_0x31bb6e,_0x488a77)=>{if(_0x488a77!==void 0x0&&(!Array['is'+'Ar'+'ra'+'y'](_0x488a77)||_0x488a77['so'+'me'](_0x578f6d=>typeof _0x578f6d!=='st'+'ri'+'ng')))throw new TypeError('\x22'+_0x31bb6e+('\x22\x20'+'op'+'ti'+'on'+'\x20m'+'us'+'t\x20'+'be'+'\x20a'+'n\x20'+'ar'+'ra'+'y\x20'+'of'+'\x20s'+'tr'+'in'+'gs'));if(!_0x488a77)return void 0x0;return new Set(_0x488a77);},'va'+'li'+'da'+'te'+'Al'+'go'+'ri'+'th'+'ms'),validate_algorithms_default=validateAlgorithms;function subtleDsa(_0x191583,_0x77f103){const _0x70a9fe='SH'+'A-'+_0x191583['sl'+'ic'+'e'](-0x3);switch(_0x191583){case'HS'+'25'+'6':case'HS'+'38'+'4':case'HS'+'51'+'2':return{'hash':_0x70a9fe,'name':'HM'+'AC'};case'PS'+'25'+'6':case'PS'+'38'+'4':case'PS'+'51'+'2':return{'hash':_0x70a9fe,'name':'RS'+'A-'+'PS'+'S','saltLength':_0x191583['sl'+'ic'+'e'](-0x3)>>0x3};case'RS'+'25'+'6':case'RS'+'38'+'4':case'RS'+'51'+'2':return{'hash':_0x70a9fe,'name':'RS'+'AS'+'SA'+'-P'+'KC'+'S1'+'-v'+'1_'+'5'};case'ES'+'25'+'6':case'ES'+'38'+'4':case'ES'+'51'+'2':return{'hash':_0x70a9fe,'name':'EC'+'DS'+'A','namedCurve':_0x77f103['na'+'me'+'dC'+'ur'+'ve']};case'Ed'+'DS'+'A':return{'name':_0x77f103['na'+'me']};default:throw new JOSENotSupported('al'+'g\x20'+_0x191583+('\x20i'+'s\x20'+'no'+'t\x20'+'su'+'pp'+'or'+'te'+'d\x20'+'ei'+'th'+'er'+'\x20b'+'y\x20'+'JO'+'SE'+'\x20o'+'r\x20'+'yo'+'ur'+'\x20j'+'av'+'as'+'cr'+'ip'+'t\x20'+'ru'+'nt'+'im'+'e'));}}__name(subtleDsa,'su'+'bt'+'le'+'Ds'+'a');async function getCryptoKey(_0x409a4c,_0x5db5c5,_0x500ce6){_0x500ce6==='si'+'gn'&&(_0x5db5c5=await normalize_key_default['no'+'rm'+'al'+'iz'+'eP'+'ri'+'va'+'te'+'Ke'+'y'](_0x5db5c5,_0x409a4c)),_0x500ce6==='ve'+'ri'+'fy'&&(_0x5db5c5=await normalize_key_default['no'+'rm'+'al'+'iz'+'eP'+'ub'+'li'+'cK'+'ey'](_0x5db5c5,_0x409a4c));if(isCryptoKey(_0x5db5c5))return checkSigCryptoKey(_0x5db5c5,_0x409a4c,_0x500ce6),_0x5db5c5;if(_0x5db5c5 instanceof Uint8Array){if(!_0x409a4c['st'+'ar'+'ts'+'Wi'+'th']('HS'))throw new TypeError(invalid_key_input_default(_0x5db5c5,...types));return webcrypto_default['su'+'bt'+'le']['im'+'po'+'rt'+'Ke'+'y']('ra'+'w',_0x5db5c5,{'hash':'SH'+'A-'+_0x409a4c['sl'+'ic'+'e'](-0x3),'name':'HM'+'AC'},![],[_0x500ce6]);}throw new TypeError(invalid_key_input_default(_0x5db5c5,...types,'Ui'+'nt'+'8A'+'rr'+'ay','JS'+'ON'+'\x20W'+'eb'+'\x20K'+'ey'));}__name(getCryptoKey,'ge'+'tC'+'ry'+'pt'+'oK'+'ey');var verify=__name(async(_0x90eb57,_0x4ef7e7,_0x4dc01a,_0x3e72fc)=>{const _0x2fa1bb=await getCryptoKey(_0x90eb57,_0x4ef7e7,'ve'+'ri'+'fy');check_key_length_default(_0x90eb57,_0x2fa1bb);const _0x22a387=subtleDsa(_0x90eb57,_0x2fa1bb['al'+'go'+'ri'+'th'+'m']);try{return await webcrypto_default['su'+'bt'+'le']['ve'+'ri'+'fy'](_0x22a387,_0x2fa1bb,_0x4dc01a,_0x3e72fc);}catch{return![];}},'ve'+'ri'+'fy'),verify_default=verify;async function flattenedVerify(_0x50063e,_0x412fe3,_0x2fd9a1){if(!isObject(_0x50063e))throw new JWSInvalid('Fl'+'at'+'te'+'ne'+'d\x20'+'JW'+'S\x20'+'mu'+'st'+'\x20b'+'e\x20'+'an'+'\x20o'+'bj'+'ec'+'t');if(_0x50063e['pr'+'ot'+'ec'+'te'+'d']===void 0x0&&_0x50063e['he'+'ad'+'er']===void 0x0)throw new JWSInvalid('Fl'+'at'+'te'+'ne'+'d\x20'+'JW'+'S\x20'+'mu'+'st'+'\x20h'+'av'+'e\x20'+'ei'+'th'+'er'+'\x20o'+'f\x20'+'th'+'e\x20'+'\x22p'+'ro'+'te'+'ct'+'ed'+'\x22\x20'+'or'+'\x20\x22'+'he'+'ad'+'er'+'\x22\x20'+'me'+'mb'+'er'+'s');if(_0x50063e['pr'+'ot'+'ec'+'te'+'d']!==void 0x0&&typeof _0x50063e['pr'+'ot'+'ec'+'te'+'d']!=='st'+'ri'+'ng')throw new JWSInvalid('JW'+'S\x20'+'Pr'+'ot'+'ec'+'te'+'d\x20'+'He'+'ad'+'er'+'\x20i'+'nc'+'or'+'re'+'ct'+'\x20t'+'yp'+'e');if(_0x50063e['pa'+'yl'+'oa'+'d']===void 0x0)throw new JWSInvalid('JW'+'S\x20'+'Pa'+'yl'+'oa'+'d\x20'+'mi'+'ss'+'in'+'g');if(typeof _0x50063e['si'+'gn'+'at'+'ur'+'e']!=='st'+'ri'+'ng')throw new JWSInvalid('JW'+'S\x20'+'Si'+'gn'+'at'+'ur'+'e\x20'+'mi'+'ss'+'in'+'g\x20'+'or'+'\x20i'+'nc'+'or'+'re'+'ct'+'\x20t'+'yp'+'e');if(_0x50063e['he'+'ad'+'er']!==void 0x0&&!isObject(_0x50063e['he'+'ad'+'er']))throw new JWSInvalid('JW'+'S\x20'+'Un'+'pr'+'ot'+'ec'+'te'+'d\x20'+'He'+'ad'+'er'+'\x20i'+'nc'+'or'+'re'+'ct'+'\x20t'+'yp'+'e');let _0x18798a={};if(_0x50063e['pr'+'ot'+'ec'+'te'+'d'])try{const _0x1f0508=decode(_0x50063e['pr'+'ot'+'ec'+'te'+'d']);_0x18798a=JSON['pa'+'rs'+'e'](decoder['de'+'co'+'de'](_0x1f0508));}catch{throw new JWSInvalid('JW'+'S\x20'+'Pr'+'ot'+'ec'+'te'+'d\x20'+'He'+'ad'+'er'+'\x20i'+'s\x20'+'in'+'va'+'li'+'d');}if(!is_disjoint_default(_0x18798a,_0x50063e['he'+'ad'+'er']))throw new JWSInvalid('JW'+'S\x20'+'Pr'+'ot'+'ec'+'te'+'d\x20'+'an'+'d\x20'+'JW'+'S\x20'+'Un'+'pr'+'ot'+'ec'+'te'+'d\x20'+'He'+'ad'+'er'+'\x20P'+'ar'+'am'+'et'+'er'+'\x20n'+'am'+'es'+'\x20m'+'us'+'t\x20'+'be'+'\x20d'+'is'+'jo'+'in'+'t');const _0x105551={..._0x18798a,..._0x50063e['he'+'ad'+'er']},_0x126a2c=validate_crit_default(JWSInvalid,new Map([['b6'+'4',!![]]]),_0x2fd9a1?.['cr'+'it'],_0x18798a,_0x105551);let _0x57fb43=!![];if(_0x126a2c['ha'+'s']('b6'+'4')){_0x57fb43=_0x18798a['b6'+'4'];if(typeof _0x57fb43!=='bo'+'ol'+'ea'+'n')throw new JWSInvalid('Th'+'e\x20'+'\x22b'+'64'+'\x22\x20'+'(b'+'as'+'e6'+'4u'+'rl'+'-e'+'nc'+'od'+'e\x20'+'pa'+'yl'+'oa'+'d)'+'\x20H'+'ea'+'de'+'r\x20'+'Pa'+'ra'+'me'+'te'+'r\x20'+'mu'+'st'+'\x20b'+'e\x20'+'a\x20'+'bo'+'ol'+'ea'+'n');}const {alg:_0x5c023c}=_0x105551;if(typeof _0x5c023c!=='st'+'ri'+'ng'||!_0x5c023c)throw new JWSInvalid('JW'+'S\x20'+'\x22a'+'lg'+'\x22\x20'+'(A'+'lg'+'or'+'it'+'hm'+')\x20'+'He'+'ad'+'er'+'\x20P'+'ar'+'am'+'et'+'er'+'\x20m'+'is'+'si'+'ng'+'\x20o'+'r\x20'+'in'+'va'+'li'+'d');const _0x5c4848=_0x2fd9a1&&validate_algorithms_default('al'+'go'+'ri'+'th'+'ms',_0x2fd9a1['al'+'go'+'ri'+'th'+'ms']);if(_0x5c4848&&!_0x5c4848['ha'+'s'](_0x5c023c))throw new JOSEAlgNotAllowed('\x22a'+'lg'+'\x22\x20'+'(A'+'lg'+'or'+'it'+'hm'+')\x20'+'He'+'ad'+'er'+'\x20P'+'ar'+'am'+'et'+'er'+'\x20v'+'al'+'ue'+'\x20n'+'ot'+'\x20a'+'ll'+'ow'+'ed');if(_0x57fb43){if(typeof _0x50063e['pa'+'yl'+'oa'+'d']!=='st'+'ri'+'ng')throw new JWSInvalid('JW'+'S\x20'+'Pa'+'yl'+'oa'+'d\x20'+'mu'+'st'+'\x20b'+'e\x20'+'a\x20'+'st'+'ri'+'ng');}else{if(typeof _0x50063e['pa'+'yl'+'oa'+'d']!=='st'+'ri'+'ng'&&!(_0x50063e['pa'+'yl'+'oa'+'d']instanceof Uint8Array))throw new JWSInvalid('JW'+'S\x20'+'Pa'+'yl'+'oa'+'d\x20'+'mu'+'st'+'\x20b'+'e\x20'+'a\x20'+'st'+'ri'+'ng'+'\x20o'+'r\x20'+'an'+'\x20U'+'in'+'t8'+'Ar'+'ra'+'y\x20'+'in'+'st'+'an'+'ce');}let _0x5947dc=![];typeof _0x412fe3==='fu'+'nc'+'ti'+'on'?(_0x412fe3=await _0x412fe3(_0x18798a,_0x50063e),_0x5947dc=!![],checkKeyTypeWithJwk(_0x5c023c,_0x412fe3,'ve'+'ri'+'fy'),isJWK(_0x412fe3)&&(_0x412fe3=await importJWK(_0x412fe3,_0x5c023c))):checkKeyTypeWithJwk(_0x5c023c,_0x412fe3,'ve'+'ri'+'fy');const _0x3f371f=concat(encoder['en'+'co'+'de'](_0x50063e['pr'+'ot'+'ec'+'te'+'d']??''),encoder['en'+'co'+'de']('.'),typeof _0x50063e['pa'+'yl'+'oa'+'d']==='st'+'ri'+'ng'?encoder['en'+'co'+'de'](_0x50063e['pa'+'yl'+'oa'+'d']):_0x50063e['pa'+'yl'+'oa'+'d']);let _0x98a7a5;try{_0x98a7a5=decode(_0x50063e['si'+'gn'+'at'+'ur'+'e']);}catch{throw new JWSInvalid('Fa'+'il'+'ed'+'\x20t'+'o\x20'+'ba'+'se'+'64'+'ur'+'l\x20'+'de'+'co'+'de'+'\x20t'+'he'+'\x20s'+'ig'+'na'+'tu'+'re');}const _0x4c4c6e=await verify_default(_0x5c023c,_0x412fe3,_0x98a7a5,_0x3f371f);if(!_0x4c4c6e)throw new JWSSignatureVerificationFailed();let _0x79a2a8;if(_0x57fb43)try{_0x79a2a8=decode(_0x50063e['pa'+'yl'+'oa'+'d']);}catch{throw new JWSInvalid('Fa'+'il'+'ed'+'\x20t'+'o\x20'+'ba'+'se'+'64'+'ur'+'l\x20'+'de'+'co'+'de'+'\x20t'+'he'+'\x20p'+'ay'+'lo'+'ad');}else typeof _0x50063e['pa'+'yl'+'oa'+'d']==='st'+'ri'+'ng'?_0x79a2a8=encoder['en'+'co'+'de'](_0x50063e['pa'+'yl'+'oa'+'d']):_0x79a2a8=_0x50063e['pa'+'yl'+'oa'+'d'];const _0x2ba039={'payload':_0x79a2a8};_0x50063e['pr'+'ot'+'ec'+'te'+'d']!==void 0x0&&(_0x2ba039['pr'+'ot'+'ec'+'te'+'dH'+'ea'+'de'+'r']=_0x18798a),_0x50063e['he'+'ad'+'er']!==void 0x0&&(_0x2ba039['un'+'pr'+'ot'+'ec'+'te'+'dH'+'ea'+'de'+'r']=_0x50063e['he'+'ad'+'er']);if(_0x5947dc)return{..._0x2ba039,'key':_0x412fe3};return _0x2ba039;}__name(flattenedVerify,'fl'+'at'+'te'+'ne'+'dV'+'er'+'if'+'y');async function compactVerify(_0x39f074,_0x23c67d,_0x23f0cf){_0x39f074 instanceof Uint8Array&&(_0x39f074=decoder['de'+'co'+'de'](_0x39f074));if(typeof _0x39f074!=='st'+'ri'+'ng')throw new JWSInvalid('Co'+'mp'+'ac'+'t\x20'+'JW'+'S\x20'+'mu'+'st'+'\x20b'+'e\x20'+'a\x20'+'st'+'ri'+'ng'+'\x20o'+'r\x20'+'Ui'+'nt'+'8A'+'rr'+'ay');const {0x0:_0xd43349,0x1:_0x2478ad,0x2:_0x6181c1,length:_0x1d8b86}=_0x39f074['sp'+'li'+'t']('.');if(_0x1d8b86!==0x3)throw new JWSInvalid('In'+'va'+'li'+'d\x20'+'Co'+'mp'+'ac'+'t\x20'+'JW'+'S');const _0x5ecf7c=await flattenedVerify({'payload':_0x2478ad,'protected':_0xd43349,'signature':_0x6181c1},_0x23c67d,_0x23f0cf),_0x3a9c5d={'payload':_0x5ecf7c['pa'+'yl'+'oa'+'d'],'protectedHeader':_0x5ecf7c['pr'+'ot'+'ec'+'te'+'dH'+'ea'+'de'+'r']};if(typeof _0x23c67d==='fu'+'nc'+'ti'+'on')return{..._0x3a9c5d,'key':_0x5ecf7c['ke'+'y']};return _0x3a9c5d;}__name(compactVerify,'co'+'mp'+'ac'+'tV'+'er'+'if'+'y');var epoch_default=__name(_0x50b671=>Math['fl'+'oo'+'r'](_0x50b671['ge'+'tT'+'im'+'e']()/0x3e8),'de'+'fa'+'ul'+'t'),minute=0x3c,hour=minute*0x3c,day=hour*0x18,week=day*0x7,year=day*365.25,REGEX=/^(\+|\-)? ?(\d+|\d+\.\d+) ?(seconds?|secs?|s|minutes?|mins?|m|hours?|hrs?|h|days?|d|weeks?|w|years?|yrs?|y)(?: (ago|from now))?$/i,secs_default=__name(_0x18d21d=>{const _0x3dc3c7=REGEX['ex'+'ec'](_0x18d21d);if(!_0x3dc3c7||_0x3dc3c7[0x4]&&_0x3dc3c7[0x1])throw new TypeError('In'+'va'+'li'+'d\x20'+'ti'+'me'+'\x20p'+'er'+'io'+'d\x20'+'fo'+'rm'+'at');const _0x2ad4bd=parseFloat(_0x3dc3c7[0x2]),_0x2a5996=_0x3dc3c7[0x3]['to'+'Lo'+'we'+'rC'+'as'+'e']();let _0x5743ec;switch(_0x2a5996){case'se'+'c':case'se'+'cs':case'se'+'co'+'nd':case'se'+'co'+'nd'+'s':case's':_0x5743ec=Math['ro'+'un'+'d'](_0x2ad4bd);break;case'mi'+'nu'+'te':case'mi'+'nu'+'te'+'s':case'mi'+'n':case'mi'+'ns':case'm':_0x5743ec=Math['ro'+'un'+'d'](_0x2ad4bd*minute);break;case'ho'+'ur':case'ho'+'ur'+'s':case'hr':case'hr'+'s':case'h':_0x5743ec=Math['ro'+'un'+'d'](_0x2ad4bd*hour);break;case'da'+'y':case'da'+'ys':case'd':_0x5743ec=Math['ro'+'un'+'d'](_0x2ad4bd*day);break;case'we'+'ek':case'we'+'ek'+'s':case'w':_0x5743ec=Math['ro'+'un'+'d'](_0x2ad4bd*week);break;default:_0x5743ec=Math['ro'+'un'+'d'](_0x2ad4bd*year);break;}if(_0x3dc3c7[0x1]==='-'||_0x3dc3c7[0x4]==='ag'+'o')return-_0x5743ec;return _0x5743ec;},'de'+'fa'+'ul'+'t'),normalizeTyp=__name(_0x511e3d=>_0x511e3d['to'+'Lo'+'we'+'rC'+'as'+'e']()['re'+'pl'+'ac'+'e'](/^application\//,''),'no'+'rm'+'al'+'iz'+'eT'+'yp'),checkAudiencePresence=__name((_0x5e1cd1,_0x189d98)=>{if(typeof _0x5e1cd1==='st'+'ri'+'ng')return _0x189d98['in'+'cl'+'ud'+'es'](_0x5e1cd1);if(Array['is'+'Ar'+'ra'+'y'](_0x5e1cd1))return _0x189d98['so'+'me'](Set['pr'+'ot'+'ot'+'yp'+'e']['ha'+'s']['bi'+'nd'](new Set(_0x5e1cd1)));return![];},'ch'+'ec'+'kA'+'ud'+'ie'+'nc'+'eP'+'re'+'se'+'nc'+'e'),jwt_claims_set_default=__name((_0x51a8d8,_0x48f4c0,_0x4b85c6={})=>{let _0x412668;try{_0x412668=JSON['pa'+'rs'+'e'](decoder['de'+'co'+'de'](_0x48f4c0));}catch{}if(!isObject(_0x412668))throw new JWTInvalid('JW'+'T\x20'+'Cl'+'ai'+'ms'+'\x20S'+'et'+'\x20m'+'us'+'t\x20'+'be'+'\x20a'+'\x20t'+'op'+'-l'+'ev'+'el'+'\x20J'+'SO'+'N\x20'+'ob'+'je'+'ct');const {typ:_0x219aa6}=_0x4b85c6;if(_0x219aa6&&(typeof _0x51a8d8['ty'+'p']!=='st'+'ri'+'ng'||normalizeTyp(_0x51a8d8['ty'+'p'])!==normalizeTyp(_0x219aa6)))throw new JWTClaimValidationFailed('un'+'ex'+'pe'+'ct'+'ed'+'\x20\x22'+'ty'+'p\x22'+'\x20J'+'WT'+'\x20h'+'ea'+'de'+'r\x20'+'va'+'lu'+'e',_0x412668,'ty'+'p','ch'+'ec'+'k_'+'fa'+'il'+'ed');const {requiredClaims:requiredClaims=[],issuer:_0x931a18,subject:_0x3702e3,audience:_0x1b82d2,maxTokenAge:_0x50efe3}=_0x4b85c6,_0x5d50a7=[...requiredClaims];if(_0x50efe3!==void 0x0)_0x5d50a7['pu'+'sh']('ia'+'t');if(_0x1b82d2!==void 0x0)_0x5d50a7['pu'+'sh']('au'+'d');if(_0x3702e3!==void 0x0)_0x5d50a7['pu'+'sh']('su'+'b');if(_0x931a18!==void 0x0)_0x5d50a7['pu'+'sh']('is'+'s');for(const _0x488905 of new Set(_0x5d50a7['re'+'ve'+'rs'+'e']())){if(!(_0x488905 in _0x412668))throw new JWTClaimValidationFailed('mi'+'ss'+'in'+'g\x20'+'re'+'qu'+'ir'+'ed'+'\x20\x22'+_0x488905+('\x22\x20'+'cl'+'ai'+'m'),_0x412668,_0x488905,'mi'+'ss'+'in'+'g');}if(_0x931a18&&!(Array['is'+'Ar'+'ra'+'y'](_0x931a18)?_0x931a18:[_0x931a18])['in'+'cl'+'ud'+'es'](_0x412668['is'+'s']))throw new JWTClaimValidationFailed('un'+'ex'+'pe'+'ct'+'ed'+'\x20\x22'+'is'+'s\x22'+'\x20c'+'la'+'im'+'\x20v'+'al'+'ue',_0x412668,'is'+'s','ch'+'ec'+'k_'+'fa'+'il'+'ed');if(_0x3702e3&&_0x412668['su'+'b']!==_0x3702e3)throw new JWTClaimValidationFailed('un'+'ex'+'pe'+'ct'+'ed'+'\x20\x22'+'su'+'b\x22'+'\x20c'+'la'+'im'+'\x20v'+'al'+'ue',_0x412668,'su'+'b','ch'+'ec'+'k_'+'fa'+'il'+'ed');if(_0x1b82d2&&!checkAudiencePresence(_0x412668['au'+'d'],typeof _0x1b82d2==='st'+'ri'+'ng'?[_0x1b82d2]:_0x1b82d2))throw new JWTClaimValidationFailed('un'+'ex'+'pe'+'ct'+'ed'+'\x20\x22'+'au'+'d\x22'+'\x20c'+'la'+'im'+'\x20v'+'al'+'ue',_0x412668,'au'+'d','ch'+'ec'+'k_'+'fa'+'il'+'ed');let _0x158ab6;switch(typeof _0x4b85c6['cl'+'oc'+'kT'+'ol'+'er'+'an'+'ce']){case'st'+'ri'+'ng':_0x158ab6=secs_default(_0x4b85c6['cl'+'oc'+'kT'+'ol'+'er'+'an'+'ce']);break;case'nu'+'mb'+'er':_0x158ab6=_0x4b85c6['cl'+'oc'+'kT'+'ol'+'er'+'an'+'ce'];break;case'un'+'de'+'fi'+'ne'+'d':_0x158ab6=0x0;break;default:throw new TypeError('In'+'va'+'li'+'d\x20'+'cl'+'oc'+'kT'+'ol'+'er'+'an'+'ce'+'\x20o'+'pt'+'io'+'n\x20'+'ty'+'pe');}const {currentDate:_0x3d0d1b}=_0x4b85c6,_0x67fa76=epoch_default(_0x3d0d1b||new Date());if((_0x412668['ia'+'t']!==void 0x0||_0x50efe3)&&typeof _0x412668['ia'+'t']!=='nu'+'mb'+'er')throw new JWTClaimValidationFailed('\x22i'+'at'+'\x22\x20'+'cl'+'ai'+'m\x20'+'mu'+'st'+'\x20b'+'e\x20'+'a\x20'+'nu'+'mb'+'er',_0x412668,'ia'+'t','in'+'va'+'li'+'d');if(_0x412668['nb'+'f']!==void 0x0){if(typeof _0x412668['nb'+'f']!=='nu'+'mb'+'er')throw new JWTClaimValidationFailed('\x22n'+'bf'+'\x22\x20'+'cl'+'ai'+'m\x20'+'mu'+'st'+'\x20b'+'e\x20'+'a\x20'+'nu'+'mb'+'er',_0x412668,'nb'+'f','in'+'va'+'li'+'d');if(_0x412668['nb'+'f']>_0x67fa76+_0x158ab6)throw new JWTClaimValidationFailed('\x22n'+'bf'+'\x22\x20'+'cl'+'ai'+'m\x20'+'ti'+'me'+'st'+'am'+'p\x20'+'ch'+'ec'+'k\x20'+'fa'+'il'+'ed',_0x412668,'nb'+'f','ch'+'ec'+'k_'+'fa'+'il'+'ed');}if(_0x412668['ex'+'p']!==void 0x0){if(typeof _0x412668['ex'+'p']!=='nu'+'mb'+'er')throw new JWTClaimValidationFailed('\x22e'+'xp'+'\x22\x20'+'cl'+'ai'+'m\x20'+'mu'+'st'+'\x20b'+'e\x20'+'a\x20'+'nu'+'mb'+'er',_0x412668,'ex'+'p','in'+'va'+'li'+'d');if(_0x412668['ex'+'p']<=_0x67fa76-_0x158ab6)throw new JWTExpired('\x22e'+'xp'+'\x22\x20'+'cl'+'ai'+'m\x20'+'ti'+'me'+'st'+'am'+'p\x20'+'ch'+'ec'+'k\x20'+'fa'+'il'+'ed',_0x412668,'ex'+'p','ch'+'ec'+'k_'+'fa'+'il'+'ed');}if(_0x50efe3){const _0x524e95=_0x67fa76-_0x412668['ia'+'t'],_0x3973c6=typeof _0x50efe3==='nu'+'mb'+'er'?_0x50efe3:secs_default(_0x50efe3);if(_0x524e95-_0x158ab6>_0x3973c6)throw new JWTExpired('\x22i'+'at'+'\x22\x20'+'cl'+'ai'+'m\x20'+'ti'+'me'+'st'+'am'+'p\x20'+'ch'+'ec'+'k\x20'+'fa'+'il'+'ed'+'\x20('+'to'+'o\x20'+'fa'+'r\x20'+'in'+'\x20t'+'he'+'\x20p'+'as'+'t)',_0x412668,'ia'+'t','ch'+'ec'+'k_'+'fa'+'il'+'ed');if(_0x524e95<0x0-_0x158ab6)throw new JWTClaimValidationFailed('\x22i'+'at'+'\x22\x20'+'cl'+'ai'+'m\x20'+'ti'+'me'+'st'+'am'+'p\x20'+'ch'+'ec'+'k\x20'+'fa'+'il'+'ed'+'\x20('+'it'+'\x20s'+'ho'+'ul'+'d\x20'+'be'+'\x20i'+'n\x20'+'th'+'e\x20'+'pa'+'st'+')',_0x412668,'ia'+'t','ch'+'ec'+'k_'+'fa'+'il'+'ed');}return _0x412668;},'de'+'fa'+'ul'+'t');async function jwtVerify(_0x690d45,_0xdd476e,_0x31ee0f){const _0x5a4a9e=await compactVerify(_0x690d45,_0xdd476e,_0x31ee0f);if(_0x5a4a9e['pr'+'ot'+'ec'+'te'+'dH'+'ea'+'de'+'r']['cr'+'it']?.['in'+'cl'+'ud'+'es']('b6'+'4')&&_0x5a4a9e['pr'+'ot'+'ec'+'te'+'dH'+'ea'+'de'+'r']['b6'+'4']===![])throw new JWTInvalid('JW'+'Ts'+'\x20M'+'US'+'T\x20'+'NO'+'T\x20'+'us'+'e\x20'+'un'+'en'+'co'+'de'+'d\x20'+'pa'+'yl'+'oa'+'d');const _0x599632=jwt_claims_set_default(_0x5a4a9e['pr'+'ot'+'ec'+'te'+'dH'+'ea'+'de'+'r'],_0x5a4a9e['pa'+'yl'+'oa'+'d'],_0x31ee0f),_0x2774cb={'payload':_0x599632,'protectedHeader':_0x5a4a9e['pr'+'ot'+'ec'+'te'+'dH'+'ea'+'de'+'r']};if(typeof _0xdd476e==='fu'+'nc'+'ti'+'on')return{..._0x2774cb,'key':_0x5a4a9e['ke'+'y']};return _0x2774cb;}__name(jwtVerify,'jw'+'tV'+'er'+'if'+'y');var sign=__name(async(_0x5a77b3,_0x2c8259,_0x23db13)=>{const _0x257f80=await getCryptoKey(_0x5a77b3,_0x2c8259,'si'+'gn');check_key_length_default(_0x5a77b3,_0x257f80);const _0x1739d5=await webcrypto_default['su'+'bt'+'le']['si'+'gn'](subtleDsa(_0x5a77b3,_0x257f80['al'+'go'+'ri'+'th'+'m']),_0x257f80,_0x23db13);return new Uint8Array(_0x1739d5);},'si'+'gn'),sign_default=sign,FlattenedSign=class{constructor(_0x5929db){if(!(_0x5929db instanceof Uint8Array))throw new TypeError('pa'+'yl'+'oa'+'d\x20'+'mu'+'st'+'\x20b'+'e\x20'+'an'+'\x20i'+'ns'+'ta'+'nc'+'e\x20'+'of'+'\x20U'+'in'+'t8'+'Ar'+'ra'+'y');this['_p'+'ay'+'lo'+'ad']=_0x5929db;}['se'+'tP'+'ro'+'te'+'ct'+'ed'+'He'+'ad'+'er'](_0x54758f){if(this['_p'+'ro'+'te'+'ct'+'ed'+'He'+'ad'+'er'])throw new TypeError('se'+'tP'+'ro'+'te'+'ct'+'ed'+'He'+'ad'+'er'+'\x20c'+'an'+'\x20o'+'nl'+'y\x20'+'be'+'\x20c'+'al'+'le'+'d\x20'+'on'+'ce');return this['_p'+'ro'+'te'+'ct'+'ed'+'He'+'ad'+'er']=_0x54758f,this;}['se'+'tU'+'np'+'ro'+'te'+'ct'+'ed'+'He'+'ad'+'er'](_0x419b97){if(this['_u'+'np'+'ro'+'te'+'ct'+'ed'+'He'+'ad'+'er'])throw new TypeError('se'+'tU'+'np'+'ro'+'te'+'ct'+'ed'+'He'+'ad'+'er'+'\x20c'+'an'+'\x20o'+'nl'+'y\x20'+'be'+'\x20c'+'al'+'le'+'d\x20'+'on'+'ce');return this['_u'+'np'+'ro'+'te'+'ct'+'ed'+'He'+'ad'+'er']=_0x419b97,this;}async['si'+'gn'](_0x528c8d,_0x3a0c2e){if(!this['_p'+'ro'+'te'+'ct'+'ed'+'He'+'ad'+'er']&&!this['_u'+'np'+'ro'+'te'+'ct'+'ed'+'He'+'ad'+'er'])throw new JWSInvalid('ei'+'th'+'er'+'\x20s'+'et'+'Pr'+'ot'+'ec'+'te'+'dH'+'ea'+'de'+'r\x20'+'or'+'\x20s'+'et'+'Un'+'pr'+'ot'+'ec'+'te'+'dH'+'ea'+'de'+'r\x20'+'mu'+'st'+'\x20b'+'e\x20'+'ca'+'ll'+'ed'+'\x20b'+'ef'+'or'+'e\x20'+'#s'+'ig'+'n('+')');if(!is_disjoint_default(this['_p'+'ro'+'te'+'ct'+'ed'+'He'+'ad'+'er'],this['_u'+'np'+'ro'+'te'+'ct'+'ed'+'He'+'ad'+'er']))throw new JWSInvalid('JW'+'S\x20'+'Pr'+'ot'+'ec'+'te'+'d\x20'+'an'+'d\x20'+'JW'+'S\x20'+'Un'+'pr'+'ot'+'ec'+'te'+'d\x20'+'He'+'ad'+'er'+'\x20P'+'ar'+'am'+'et'+'er'+'\x20n'+'am'+'es'+'\x20m'+'us'+'t\x20'+'be'+'\x20d'+'is'+'jo'+'in'+'t');const _0x51b607={...this['_p'+'ro'+'te'+'ct'+'ed'+'He'+'ad'+'er'],...this['_u'+'np'+'ro'+'te'+'ct'+'ed'+'He'+'ad'+'er']},_0x9397ab=validate_crit_default(JWSInvalid,new Map([['b6'+'4',!![]]]),_0x3a0c2e?.['cr'+'it'],this['_p'+'ro'+'te'+'ct'+'ed'+'He'+'ad'+'er'],_0x51b607);let _0x1398eb=!![];if(_0x9397ab['ha'+'s']('b6'+'4')){_0x1398eb=this['_p'+'ro'+'te'+'ct'+'ed'+'He'+'ad'+'er']['b6'+'4'];if(typeof _0x1398eb!=='bo'+'ol'+'ea'+'n')throw new JWSInvalid('Th'+'e\x20'+'\x22b'+'64'+'\x22\x20'+'(b'+'as'+'e6'+'4u'+'rl'+'-e'+'nc'+'od'+'e\x20'+'pa'+'yl'+'oa'+'d)'+'\x20H'+'ea'+'de'+'r\x20'+'Pa'+'ra'+'me'+'te'+'r\x20'+'mu'+'st'+'\x20b'+'e\x20'+'a\x20'+'bo'+'ol'+'ea'+'n');}const {alg:_0x1acb05}=_0x51b607;if(typeof _0x1acb05!=='st'+'ri'+'ng'||!_0x1acb05)throw new JWSInvalid('JW'+'S\x20'+'\x22a'+'lg'+'\x22\x20'+'(A'+'lg'+'or'+'it'+'hm'+')\x20'+'He'+'ad'+'er'+'\x20P'+'ar'+'am'+'et'+'er'+'\x20m'+'is'+'si'+'ng'+'\x20o'+'r\x20'+'in'+'va'+'li'+'d');checkKeyTypeWithJwk(_0x1acb05,_0x528c8d,'si'+'gn');let _0x2b1aaa=this['_p'+'ay'+'lo'+'ad'];_0x1398eb&&(_0x2b1aaa=encoder['en'+'co'+'de'](encode(_0x2b1aaa)));let _0x1ec8b9;this['_p'+'ro'+'te'+'ct'+'ed'+'He'+'ad'+'er']?_0x1ec8b9=encoder['en'+'co'+'de'](encode(JSON['st'+'ri'+'ng'+'if'+'y'](this['_p'+'ro'+'te'+'ct'+'ed'+'He'+'ad'+'er']))):_0x1ec8b9=encoder['en'+'co'+'de']('');const _0x1513e6=concat(_0x1ec8b9,encoder['en'+'co'+'de']('.'),_0x2b1aaa),_0xa07fa4=await sign_default(_0x1acb05,_0x528c8d,_0x1513e6),_0x594a92={'signature':encode(_0xa07fa4),'payload':''};return _0x1398eb&&(_0x594a92['pa'+'yl'+'oa'+'d']=decoder['de'+'co'+'de'](_0x2b1aaa)),this['_u'+'np'+'ro'+'te'+'ct'+'ed'+'He'+'ad'+'er']&&(_0x594a92['he'+'ad'+'er']=this['_u'+'np'+'ro'+'te'+'ct'+'ed'+'He'+'ad'+'er']),this['_p'+'ro'+'te'+'ct'+'ed'+'He'+'ad'+'er']&&(_0x594a92['pr'+'ot'+'ec'+'te'+'d']=decoder['de'+'co'+'de'](_0x1ec8b9)),_0x594a92;}};__name(FlattenedSign,'Fl'+'at'+'te'+'ne'+'dS'+'ig'+'n');var CompactSign=class{constructor(_0x287b50){this['_f'+'la'+'tt'+'en'+'ed']=new FlattenedSign(_0x287b50);}['se'+'tP'+'ro'+'te'+'ct'+'ed'+'He'+'ad'+'er'](_0x267342){return this['_f'+'la'+'tt'+'en'+'ed']['se'+'tP'+'ro'+'te'+'ct'+'ed'+'He'+'ad'+'er'](_0x267342),this;}async['si'+'gn'](_0x3afb7d,_0x2637ab){const _0x1f0fcf=await this['_f'+'la'+'tt'+'en'+'ed']['si'+'gn'](_0x3afb7d,_0x2637ab);if(_0x1f0fcf['pa'+'yl'+'oa'+'d']===void 0x0)throw new TypeError('us'+'e\x20'+'th'+'e\x20'+'fl'+'at'+'te'+'ne'+'d\x20'+'mo'+'du'+'le'+'\x20f'+'or'+'\x20c'+'re'+'at'+'in'+'g\x20'+'JW'+'S\x20'+'wi'+'th'+'\x20b'+'64'+':\x20'+'fa'+'ls'+'e');return _0x1f0fcf['pr'+'ot'+'ec'+'te'+'d']+'.'+_0x1f0fcf['pa'+'yl'+'oa'+'d']+'.'+_0x1f0fcf['si'+'gn'+'at'+'ur'+'e'];}};__name(CompactSign,'Co'+'mp'+'ac'+'tS'+'ig'+'n');function validateInput(_0x56f6a0,_0x2d4d5e){if(!Number['is'+'Fi'+'ni'+'te'](_0x2d4d5e))throw new TypeError('In'+'va'+'li'+'d\x20'+_0x56f6a0+('\x20i'+'np'+'ut'));return _0x2d4d5e;}__name(validateInput,'va'+'li'+'da'+'te'+'In'+'pu'+'t');var ProduceJWT=class{constructor(_0x231cb2={}){if(!isObject(_0x231cb2))throw new TypeError('JW'+'T\x20'+'Cl'+'ai'+'ms'+'\x20S'+'et'+'\x20M'+'US'+'T\x20'+'be'+'\x20a'+'n\x20'+'ob'+'je'+'ct');this['_p'+'ay'+'lo'+'ad']=_0x231cb2;}['se'+'tI'+'ss'+'ue'+'r'](_0x431ecb){return this['_p'+'ay'+'lo'+'ad']={...this['_p'+'ay'+'lo'+'ad'],'iss':_0x431ecb},this;}['se'+'tS'+'ub'+'je'+'ct'](_0x271390){return this['_p'+'ay'+'lo'+'ad']={...this['_p'+'ay'+'lo'+'ad'],'sub':_0x271390},this;}['se'+'tA'+'ud'+'ie'+'nc'+'e'](_0x52f1da){return this['_p'+'ay'+'lo'+'ad']={...this['_p'+'ay'+'lo'+'ad'],'aud':_0x52f1da},this;}['se'+'tJ'+'ti'](_0x1b8c55){return this['_p'+'ay'+'lo'+'ad']={...this['_p'+'ay'+'lo'+'ad'],'jti':_0x1b8c55},this;}['se'+'tN'+'ot'+'Be'+'fo'+'re'](_0x54c171){if(typeof _0x54c171==='nu'+'mb'+'er')this['_p'+'ay'+'lo'+'ad']={...this['_p'+'ay'+'lo'+'ad'],'nbf':validateInput('se'+'tN'+'ot'+'Be'+'fo'+'re',_0x54c171)};else _0x54c171 instanceof Date?this['_p'+'ay'+'lo'+'ad']={...this['_p'+'ay'+'lo'+'ad'],'nbf':validateInput('se'+'tN'+'ot'+'Be'+'fo'+'re',epoch_default(_0x54c171))}:this['_p'+'ay'+'lo'+'ad']={...this['_p'+'ay'+'lo'+'ad'],'nbf':epoch_default(new Date())+secs_default(_0x54c171)};return this;}['se'+'tE'+'xp'+'ir'+'at'+'io'+'nT'+'im'+'e'](_0x1d6591){if(typeof _0x1d6591==='nu'+'mb'+'er')this['_p'+'ay'+'lo'+'ad']={...this['_p'+'ay'+'lo'+'ad'],'exp':validateInput('se'+'tE'+'xp'+'ir'+'at'+'io'+'nT'+'im'+'e',_0x1d6591)};else _0x1d6591 instanceof Date?this['_p'+'ay'+'lo'+'ad']={...this['_p'+'ay'+'lo'+'ad'],'exp':validateInput('se'+'tE'+'xp'+'ir'+'at'+'io'+'nT'+'im'+'e',epoch_default(_0x1d6591))}:this['_p'+'ay'+'lo'+'ad']={...this['_p'+'ay'+'lo'+'ad'],'exp':epoch_default(new Date())+secs_default(_0x1d6591)};return this;}['se'+'tI'+'ss'+'ue'+'dA'+'t'](_0x171b66){if(typeof _0x171b66==='un'+'de'+'fi'+'ne'+'d')this['_p'+'ay'+'lo'+'ad']={...this['_p'+'ay'+'lo'+'ad'],'iat':epoch_default(new Date())};else{if(_0x171b66 instanceof Date)this['_p'+'ay'+'lo'+'ad']={...this['_p'+'ay'+'lo'+'ad'],'iat':validateInput('se'+'tI'+'ss'+'ue'+'dA'+'t',epoch_default(_0x171b66))};else typeof _0x171b66==='st'+'ri'+'ng'?this['_p'+'ay'+'lo'+'ad']={...this['_p'+'ay'+'lo'+'ad'],'iat':validateInput('se'+'tI'+'ss'+'ue'+'dA'+'t',epoch_default(new Date())+secs_default(_0x171b66))}:this['_p'+'ay'+'lo'+'ad']={...this['_p'+'ay'+'lo'+'ad'],'iat':validateInput('se'+'tI'+'ss'+'ue'+'dA'+'t',_0x171b66)};}return this;}};__name(ProduceJWT,'Pr'+'od'+'uc'+'eJ'+'WT');var SignJWT=class extends ProduceJWT{['se'+'tP'+'ro'+'te'+'ct'+'ed'+'He'+'ad'+'er'](_0x1bdbc8){return this['_p'+'ro'+'te'+'ct'+'ed'+'He'+'ad'+'er']=_0x1bdbc8,this;}async['si'+'gn'](_0x4cb2dc,_0x1f24f9){const _0x34d449=new CompactSign(encoder['en'+'co'+'de'](JSON['st'+'ri'+'ng'+'if'+'y'](this['_p'+'ay'+'lo'+'ad'])));_0x34d449['se'+'tP'+'ro'+'te'+'ct'+'ed'+'He'+'ad'+'er'](this['_p'+'ro'+'te'+'ct'+'ed'+'He'+'ad'+'er']);if(Array['is'+'Ar'+'ra'+'y'](this['_p'+'ro'+'te'+'ct'+'ed'+'He'+'ad'+'er']?.['cr'+'it'])&&this['_p'+'ro'+'te'+'ct'+'ed'+'He'+'ad'+'er']['cr'+'it']['in'+'cl'+'ud'+'es']('b6'+'4')&&this['_p'+'ro'+'te'+'ct'+'ed'+'He'+'ad'+'er']['b6'+'4']===![])throw new JWTInvalid('JW'+'Ts'+'\x20M'+'US'+'T\x20'+'NO'+'T\x20'+'us'+'e\x20'+'un'+'en'+'co'+'de'+'d\x20'+'pa'+'yl'+'oa'+'d');return _0x34d449['si'+'gn'](_0x4cb2dc,_0x1f24f9);}};__name(SignJWT,'Si'+'gn'+'JW'+'T');var import_tweetnacl=__toESM(require_nacl_fast());async function renderLoginPage(){const _0x4213c1=a0_0x2178,_0x167fc0='\x0a\x20'+'\x20\x20'+'\x20<'+'!D'+'OC'+'TY'+'PE'+'\x20h'+'tm'+'l>'+'\x0a\x20'+'\x20\x20'+'\x20<'+'ht'+'ml'+'\x20l'+'an'+'g='+'\x22e'+'n\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'<h'+'ea'+'d>'+'\x0a\x20'+'\x20\x20'+'\x20<'+'me'+'ta'+'\x20c'+'ha'+'rs'+'et'+'=\x22'+'UT'+'F-'+'8\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'<m'+'et'+'a\x20'+'na'+'me'+'=\x22'+'vi'+'ew'+'po'+'rt'+'\x22\x20'+'co'+'nt'+'en'+'t='+'\x22w'+'id'+'th'+'=d'+'ev'+'ic'+'e-'+'wi'+'dt'+'h,'+'\x20i'+'ni'+'ti'+'al'+'-s'+'ca'+'le'+'=1'+'.0'+'\x22>'+'\x0a\x20'+'\x20\x20'+'\x20<'+'ti'+'tl'+'e>'+'Us'+'er'+'\x20L'+'og'+'in'+'</'+'ti'+'tl'+'e>'+'\x0a\x20'+'\x20\x20'+'\x20<'+'st'+'yl'+'e>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20:'+'ro'+'ot'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20-'+'-c'+'ol'+'or'+':\x20'+'bl'+'ac'+'k;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20-'+'-p'+'ri'+'ma'+'ry'+'-c'+'ol'+'or'+':\x20'+'#0'+'96'+'39'+'f;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20-'+'-h'+'ea'+'de'+'r-'+'co'+'lo'+'r:'+'\x20#'+'09'+'63'+'9f'+';\x20'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20-'+'-b'+'ac'+'kg'+'ro'+'un'+'d-'+'co'+'lo'+'r:'+'\x20#'+'ff'+'f;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20-'+'-f'+'or'+'m-'+'ba'+'ck'+'gr'+'ou'+'nd'+'-c'+'ol'+'or'+':\x20'+'#f'+'9f'+'9f'+'9;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20-'+'-l'+'ab'+'le'+'-t'+'ex'+'t-'+'co'+'lo'+'r:'+'\x20#'+'33'+'3;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20-'+'-h'+'2-'+'co'+'lo'+'r:'+'\x20#'+'3b'+'3b'+'3b'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'--'+'bo'+'rd'+'er'+'-c'+'ol'+'or'+':\x20'+'#d'+'dd'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'--'+'in'+'pu'+'t-'+'ba'+'ck'+'gr'+'ou'+'nd'+'-c'+'ol'+'or'+':\x20'+'wh'+'it'+'e;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20-'+'-h'+'ea'+'de'+'r-'+'sh'+'ad'+'ow'+':\x20'+'2p'+'x\x20'+'2p'+'x\x20'+'4p'+'x\x20'+'rg'+'ba'+'(0'+',\x20'+'0,'+'\x200'+',\x20'+'0.'+'25'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20h'+'tm'+'l,'+'\x20b'+'od'+'y\x20'+'{\x20'+'he'+'ig'+'ht'+':\x20'+'10'+'0%'+';\x20'+'ma'+'rg'+'in'+':\x20'+'0;'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20b'+'od'+'y\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'fo'+'nt'+'-f'+'am'+'il'+'y:'+'\x20s'+'ys'+'te'+'m-'+'ui'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'ba'+'ck'+'gr'+'ou'+'nd'+'-c'+'ol'+'or'+':\x20'+'va'+'r('+'--'+'ba'+'ck'+'gr'+'ou'+'nd'+'-c'+'ol'+'or'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20p'+'os'+'it'+'io'+'n:'+'\x20r'+'el'+'at'+'iv'+'e;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20o'+'ve'+'rf'+'lo'+'w:'+'\x20h'+'id'+'de'+'n;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20b'+'od'+'y.'+'da'+'rk'+'-m'+'od'+'e\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'--'+'co'+'lo'+'r:'+'\x20w'+'hi'+'te'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'--'+'pr'+'im'+'ar'+'y-'+'co'+'lo'+'r:'+'\x20#'+'09'+'63'+'9F'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'--'+'he'+'ad'+'er'+'-c'+'ol'+'or'+':\x20'+'#3'+'49'+'8D'+'B;'+'\x20\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'--'+'ba'+'ck'+'gr'+'ou'+('nd'+'-c'+'ol'+'or'+':\x20'+'#1'+'21'+'21'+'2;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20-'+'-f'+'or'+'m-'+'ba'+'ck'+'gr'+'ou'+'nd'+'-c'+'ol'+'or'+':\x20'+'#1'+'21'+'21'+'2;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20-'+'-l'+'ab'+'le'+'-t'+'ex'+'t-'+'co'+'lo'+'r:'+'\x20#'+'DF'+'DF'+'DF'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'--'+'h2'+'-c'+'ol'+'or'+':\x20'+'#D'+'5D'+'5D'+'5;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20-'+'-b'+'or'+'de'+'r-'+'co'+'lo'+'r:'+'\x20#'+'35'+'35'+'35'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'--'+'in'+'pu'+'t-'+'ba'+'ck'+'gr'+'ou'+'nd'+'-c'+'ol'+'or'+':\x20'+'#2'+'52'+'52'+'5;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20-'+'-h'+'ea'+'de'+'r-'+'sh'+'ad'+'ow'+':\x20'+'2p'+'x\x20'+'2p'+'x\x20'+'4p'+'x\x20'+'rg'+'ba'+'(2'+'55'+',\x20'+'25'+'5,'+'\x202'+'55'+',\x20'+'0.'+'25'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20h'+'tm'+'l,'+'\x20b'+'od'+'y\x20'+'{\x20'+'he'+'ig'+'ht'+':\x20'+'10'+'0%'+';\x20'+'ma'+'rg'+'in'+':\x20'+'0;'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20.'+'co'+'nt'+'ai'+'ne'+'r\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'po'+'si'+'ti'+'on'+':\x20'+'ab'+'so'+'lu'+'te'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'to'+'p:'+'\x205'+'0%'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'le'+'ft'+':\x20'+'50'+'%;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20t'+'ra'+'ns'+'fo'+'rm'+':\x20'+'tr'+'an'+'sl'+'at'+'e('+'-5'+'0%'+',\x20'+'-5'+'0%'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20w'+'id'+'th'+':\x20'+'90'+'%;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20h'+'1\x20'+'{\x20'+'fo'+'nt'+'-s'+'iz'+'e:'+'\x202'+'.5'+'re'+'m;'+'\x20t'+'ex'+'t-'+'al'+'ig'+'n:'+'\x20c'+'en'+'te'+'r;'+'\x20c'+'ol'+'or'+':\x20'+'va'+'r('+'--'+'he'+'ad'+'er'+'-c'+'ol'+'or'+');'+'\x20m'+'ar'+'gi'+'n:'+'\x200'+'\x20a'+'ut'+'o\x20'+'30'+'px'+';\x20'+'te'+'xt'+'-s'+'ha'+'do'+'w:'+'\x20v'+'ar'+'(-'+'-h'+'ea'+'de'+'r-'+'sh'+'ad'+'ow'+');'+'\x20}'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20h'+'2\x20'+'{\x20'+'te'+'xt'+'-a'+'li'+'gn'+':\x20'+'ce'+'nt'+'er'+';\x20'+'co'+'lo'+'r:'+'\x20v'+'ar'+'(-'+'-h'+'2-'+'co'+'lo'+'r)'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20.'+'fo'+'rm'+'-c'+'on'+'ta'+'in'+'er'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20b'+'ac'+'kg'+'ro'+'un'+'d:'+'\x20v'+'ar'+'(-'+'-f'+'or'+'m-'+'ba'+'ck'+'gr'+'ou'+'nd'+'-c'+'ol'+'or'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20b'+'or'+'de'+'r:'+'\x201'+'px'+'\x20s'+'ol'+'id'+'\x20v'+'ar'+'(-'+'-b'+'or'+'de'+'r-'+'co'+'lo'+'r)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'bo'+'rd'+'er'+'-r'+'ad'+'iu'+'s:'+'\x201'+'0p'+'x;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20b'+'ox'+'-s'+'ha'+'do'+'w:'+'\x200'+'\x202'+'px'+'\x204'+'px'+'\x20r'+'gb'+'a('+'0,'+'\x200'+',\x20'+'0,'+'\x200'+'.1'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20p'+'ad'+'di'+'ng'+':\x20'+'20'+'px'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'.f'+'or'+'m-')+('co'+'nt'+'ro'+'l\x20'+'{\x20'+'ma'+'rg'+'in'+'-b'+'ot'+'to'+'m:'+'\x201'+'5p'+'x;'+'\x20d'+'is'+'pl'+'ay'+':\x20'+'fl'+'ex'+';\x20'+'al'+'ig'+'n-'+'it'+'em'+'s:'+'\x20c'+'en'+'te'+'r;'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20l'+'ab'+'el'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20d'+'is'+'pl'+'ay'+':\x20'+'bl'+'oc'+'k;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20m'+'ar'+'gi'+'n-'+'bo'+'tt'+'om'+':\x20'+'5p'+'x;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20p'+'ad'+'di'+'ng'+'-r'+'ig'+'ht'+':\x20'+'20'+'px'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'fo'+'nt'+'-s'+'iz'+'e:'+'\x201'+'10'+'%;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20f'+'on'+'t-'+'we'+'ig'+'ht'+':\x20'+'60'+'0;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'ol'+'or'+':\x20'+'va'+'r('+'--'+'la'+'bl'+'e-'+'te'+'xt'+'-c'+'ol'+'or'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20i'+'np'+'ut'+'[t'+'yp'+'e='+'\x22t'+'ex'+'t\x22'+'],'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20i'+'np'+'ut'+'[t'+'yp'+'e='+'\x22p'+'as'+'sw'+'or'+'d\x22'+']\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'wi'+'dt'+'h:'+'\x201'+'00'+'%;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20p'+'ad'+'di'+'ng'+':\x20'+'10'+'px'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'bo'+'rd'+'er'+':\x20'+'1p'+'x\x20'+'so'+'li'+'d\x20'+'va'+'r('+'--'+'bo'+'rd'+'er'+'-c'+'ol'+'or'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20b'+'or'+'de'+'r-'+'ra'+'di'+'us'+':\x20'+'5p'+'x;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'ol'+'or'+':\x20'+'va'+'r('+'--'+'la'+'bl'+'e-'+'te'+'xt'+'-c'+'ol'+'or'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20b'+'ac'+'kg'+'ro'+'un'+'d-'+'co'+'lo'+'r:'+'\x20v'+'ar'+'(-'+'-i'+'np'+'ut'+'-b'+'ac'+'kg'+'ro'+'un'+'d-'+'co'+'lo'+'r)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'bu'+'tt'+'on'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20d'+'is'+'pl'+'ay'+':\x20'+'bl'+'oc'+'k;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20w'+'id'+'th'+':\x20'+'10'+'0%'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'pa'+'dd'+'in'+'g:'+'\x201'+'0p'+'x;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20f'+'on'+'t-'+'si'+'ze'+':\x20'+'16'+'px'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'fo'+'nt'+'-w'+'ei'+'gh'+'t:'+'\x206'+'00'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'bo'+'rd'+'er'+':\x20'+'no'+'ne'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'bo'+'rd'+'er'+'-r'+'ad'+'iu'+'s:'+'\x205'+'px'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'lo'+'r:'+'\x20w'+'hi'+'te'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'ba'+'ck'+'gr'+'ou'+'nd'+'-c'+'ol'+'or'+':\x20'+'va'+'r('+'--'+'pr'+'im'+'ar'+'y-'+'co'+'lo'+'r)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'cu'+'rs'+'or'+':\x20'+'po'+'in'+'te'+'r;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20t'+'ra'+'ns'+'it'+'io'+'n:'+'\x20b'+'ac'+'kg'+'ro'+'un'+'d-'+'co'+'lo'+'r\x20'+'0.'+'3s'+'\x20e'+'as'+'e;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20.'+'bu'+'tt'+'on')+(':h'+'ov'+'er'+',\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'bu'+'tt'+'on'+':f'+'oc'+'us'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20b'+'ac'+'kg'+'ro'+'un'+'d-'+'co'+'lo'+'r:'+'\x20#'+'29'+'80'+'b9'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'bo'+'x-'+'sh'+'ad'+'ow'+':\x20'+'0\x20'+'8p'+'x\x20'+'15'+'px'+'\x20r'+'gb'+'a('+'0,'+'\x200'+',\x20'+'0,'+'\x200'+'.3'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20t'+'ra'+'ns'+'fo'+'rm'+':\x20'+'tr'+'an'+'sl'+'at'+'eY'+'(-'+'2p'+'x)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'bu'+'tt'+'on'+'.b'+'ut'+'to'+'n:'+'ho'+'ve'+'r\x20'+'{\x20'+'co'+'lo'+'r:'+'\x20w'+'hi'+'te'+';\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'.b'+'ut'+'to'+'n:'+'ac'+'ti'+'ve'+'\x20{'+'\x20t'+'ra'+'ns'+'fo'+'rm'+':\x20'+'tr'+'an'+'sl'+'at'+'eY'+'(1'+'px'+');'+'\x20b'+'ox'+'-s'+'ha'+'do'+'w:'+'\x200'+'\x203'+'px'+'\x207'+'px'+'\x20r'+'gb'+'a('+'0,'+'\x200'+',\x20'+'0,'+'\x200'+'.3'+');'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20@'+'me'+'di'+'a\x20'+'on'+'ly'+'\x20s'+'cr'+'ee'+'n\x20'+'an'+'d\x20'+'(m'+'in'+'-w'+'id'+'th'+':\x20'+'76'+'8p'+'x)'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20.'+'co'+'nt'+'ai'+'ne'+'r\x20'+'{\x20'+'wi'+'dt'+'h:'+'\x203'+'0%'+';\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'</'+'st'+'yl'+'e>'+'\x0a\x20'+'\x20\x20'+'\x20<'+'/h'+'ea'+'d>'+'\x0a\x20'+'\x20\x20'+'\x20<'+'bo'+'dy'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<d'+'iv'+'\x20c'+'la'+'ss'+'=\x22'+'co'+'nt'+'ai'+'ne'+'r\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<h'+'1>'+'BP'+'B\x20'+'Pa'+'ne'+'l\x20'+'<s'+'pa'+'n\x20'+'st'+'yl'+'e='+'\x22f'+'on'+'t-'+'si'+'ze'+':\x20'+'sm'+'al'+'le'+'r;'+'\x22>')+globalThis['pa'+'ne'+'lV'+'er'+'si'+'on']+('</'+'sp'+'an'+'>\x20'+'💦<'+'/h'+'1>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'di'+'v\x20'+'cl'+'as'+'s='+'\x22f'+'or'+'m-'+'co'+'nt'+'ai'+'ne'+'r\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<h'+'2>'+'Us'+'er'+'\x20L'+'og'+'in'+'</'+'h2'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<f'+'or'+'m\x20'+'id'+'=\x22'+'lo'+'gi'+'nF'+'or'+'m\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<d'+'iv'+'\x20c'+'la'+'ss'+'=\x22'+'fo'+'rm'+'-c'+'on'+'tr'+'ol'+'\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'la'+'be'+'l\x20'+'fo'+'r='+'\x22p'+'as'+'sw'+'or'+'d\x22'+'>P'+'as'+'sw'+'or'+'d<'+'/l'+'ab'+'el'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<i'+'np'+'ut'+'\x20t'+'yp'+'e='+'\x22p'+'as'+'sw'+'or'+'d\x22'+'\x20i'+'d='+'\x22p'+'as'+'sw'+'or'+'d\x22'+'\x20n'+'am'+'e='+'\x22p'+'as'+'sw'+'or'+'d\x22'+'\x20r'+'eq'+'ui'+'re'+'d>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/d'+'iv'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<d'+'iv'+'\x20i'+'d='+'\x22p'+'as'+'sw'+'or'+'dE'+'rr'+'or'+'\x22\x20'+'st'+'yl'+'e='+'\x22c'+'ol'+'or'+':\x20'+'re'+'d;'+'\x20m'+'ar'+'gi'+'n-'+'bo'+'tt'+'om'+':\x20'+'10'+'px'+';\x22'+'><'+'/d'+'iv'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<b'+'ut'+'to'+'n\x20'+'ty'+'pe'+'=\x22'+'su'+'bm'+'it'+'\x22\x20'+'cl'+'as'+'s='+'\x22b'+'ut'+'to'+'n\x22'+'>L'+'og'+'in'+'</'+'bu'+'tt'+'on'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'fo'+'rm'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'di'+'v>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/d'+'iv'+'>\x0a'+'\x20\x20'+'\x20\x20'+'<s'+'cr'+'ip'+'t>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20l'+'oc'+'al'+'St'+'or'+'ag'+'e.'+'ge'+'tI'+'te'+'m('+'\x27d'+'ar'+'kM'+'od'+'e\x27'+')\x20'+'=='+'=\x20'+'\x27e'+'na'+'bl'+'ed'+'\x27\x20'+'&&'+'\x20d'+'oc'+'um'+'en'+'t.'+'bo'+'dy'+'.c'+'la'+'ss'+'Li'+'st'+'.a'+'dd'+'(\x27'+'da'+'rk'+'-m'+'od'+'e\x27'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20d'+'oc'+'um'+'en'+'t.'+'ge'+'tE'+'le'+'me'+'nt'+'By'+'Id'+'(\x27'+'lo'+'gi'+'nF'+'or'+'m\x27'+').'+'ad'+'dE'+'ve'+'nt'+'Li'+'st'+'en'+'er'+'(\x27'+'su'+'bm'+'it'+'\x27,'+'\x20a'+'sy'+'nc'+'\x20('+'ev'+'en'+'t)'+'\x20='+'>\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'ev'+'en'+'t.'+'pr'+'ev'+'en'+'tD'+'ef'+'au'+'lt'+'()'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'pa'+'ss'+'wo'+'rd'+'\x20='+'\x20d'+'oc'+'um'+'en'+'t.'+'ge'+'tE'+'le'+'me'+'nt'+'By'+'Id'+'(\x27'+'pa'+'ss'+'wo'+'rd'+'\x27)'+'.v'+'al'+'ue'+';\x0a'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20t'+'ry'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20r'+'es'+'po'+'ns'+'e\x20'+'=\x20'+'aw'+'ai'+'t\x20'+'fe'+'tc'+'h('+'\x27/'+'lo'+'gi'+'n\x27'+',\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'me'+'th'+'od'+':\x20'+'\x27P'+'OS'+'T\x27'+',\x0a'+('\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'he'+'ad'+'er'+'s:'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x27'+'Co'+'nt'+'en'+'t-'+'Ty'+'pe'+'\x27:'+'\x20\x27'+'te'+'xt'+'/p'+'la'+'in'+'\x27\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'},'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20b'+'od'+'y:'+'\x20p'+'as'+'sw'+'or'+'d\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'})'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20i'+'f\x20'+'(!'+'re'+'sp'+'on'+'se'+'.o'+'k)'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20p'+'as'+'sw'+'or'+'dE'+'rr'+'or'+'.t'+'ex'+'tC'+'on'+'te'+'nt'+'\x20='+'\x20\x27'+_0x4213c1(0x1ac)+'Wr'+'on'+'g\x20'+'Pa'+'ss'+'wo'+'rd'+'!\x27'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'er'+'ro'+'rM'+'es'+'sa'+'ge'+'\x20='+'\x20a'+'wa'+'it'+'\x20r'+'es'+'po'+'ns'+'e.'+'te'+'xt'+'()'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'ol'+'e.'+'er'+'ro'+'r('+'\x27L'+'og'+'in'+'\x20f'+'ai'+'le'+'d:'+'\x27,'+'\x20e'+'rr'+'or'+'Me'+'ss'+'ag'+'e)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'re'+'tu'+'rn'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'wi'+'nd'+'ow'+'.l'+'oc'+'at'+'io'+'n.'+'hr'+'ef'+'\x20='+'\x20\x27'+'/p'+'an'+'el'+'\x27;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x20c'+'at'+'ch'+'\x20('+'er'+'ro'+'r)'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'so'+'le'+'.e'+'rr'+'or'+'(\x27'+'Er'+'ro'+'r\x20'+'du'+'ri'+'ng'+'\x20l'+'og'+'in'+':\x27'+',\x20'+'er'+'ro'+'r)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'})'+';\x0a'+'\x20\x20'+'\x20\x20'+'</'+'sc'+'ri'+'pt'+'>\x0a'+'\x20\x20'+'\x20\x20'+'</'+'bo'+'dy'+'>\x0a'+'\x20\x20'+'\x20\x20'+'</'+'ht'+'ml'+'>'));return new Response(_0x167fc0,{'status':0xc8,'headers':{'Content-Type':'te'+'xt'+'/h'+'tm'+'l;'+'ch'+'ar'+'se'+'t='+'ut'+'f-'+'8','Access-Control-Allow-Origin':globalThis['ur'+'lO'+'ri'+'gi'+'n'],'Access-Control-Allow-Methods':'GE'+'T,'+'\x20P'+'OS'+'T','Access-Control-Allow-Headers':'Co'+'nt'+'en'+'t-'+'Ty'+'pe'+',\x20'+'Au'+'th'+'or'+'iz'+'at'+'io'+'n','X-Content-Type-Options':'no'+'sn'+'if'+'f','X-Frame-Options':'DE'+'NY','Referrer-Policy':'st'+'ri'+'ct'+'-o'+'ri'+'gi'+'n-'+'wh'+'en'+'-c'+'ro'+'ss'+'-o'+'ri'+'gi'+'n','Cache-Control':'no'+'-s'+'to'+'re'+',\x20'+'no'+'-c'+'ac'+'he'+',\x20'+'mu'+'st'+'-r'+'ev'+'al'+'id'+'at'+'e,'+'\x20p'+'ro'+'xy'+'-r'+'ev'+'al'+'id'+'at'+'e,'+'\x20n'+'o-'+'tr'+'an'+'sf'+'or'+'m','CDN-Cache-Control':'no'+'-s'+'to'+'re'}});}__name(renderLoginPage,'re'+'nd'+'er'+'Lo'+'gi'+'nP'+'ag'+'e');async function generateJWTToken(_0x369bfb,_0x137eb1){const _0x1f889d=await _0x369bfb['te'+'xt'](),_0x118f0e=await _0x137eb1['bp'+'b']['ge'+'t']('pw'+'d');if(_0x1f889d!==_0x118f0e)return new Response('Me'+'th'+'od'+'\x20N'+'ot'+'\x20A'+'ll'+'ow'+'ed',{'status':0x195});let _0xbd1864=await _0x137eb1['bp'+'b']['ge'+'t']('se'+'cr'+'et'+'Ke'+'y');!_0xbd1864&&(_0xbd1864=generateSecretKey(),await _0x137eb1['bp'+'b']['pu'+'t']('se'+'cr'+'et'+'Ke'+'y',_0xbd1864));const _0x4ede6b=new TextEncoder()['en'+'co'+'de'](_0xbd1864),_0x37624b=await new SignJWT({'userID':globalThis['us'+'er'+'ID']})['se'+'tP'+'ro'+'te'+'ct'+'ed'+'He'+'ad'+'er']({'alg':'HS'+'25'+'6'})['se'+'tI'+'ss'+'ue'+'dA'+'t']()['se'+'tE'+'xp'+'ir'+'at'+'io'+'nT'+'im'+'e']('24'+'h')['si'+'gn'](_0x4ede6b);return new Response('Su'+'cc'+'es'+'s',{'status':0xc8,'headers':{'Set-Cookie':'jw'+'tT'+'ok'+'en'+'='+_0x37624b+(';\x20'+'Ht'+'tp'+'On'+'ly'+';\x20'+'Se'+'cu'+'re'+';\x20'+'Ma'+'x-'+'Ag'+'e=')+0x7*0x18*0x3c*0x3c+(';\x20'+'Pa'+'th'+'=/'+';\x20'+'Sa'+'me'+'Si'+'te'+'=S'+'tr'+'ic'+'t'),'Content-Type':'te'+'xt'+'/p'+'la'+'in'}});}__name(generateJWTToken,'ge'+'ne'+'ra'+'te'+'JW'+'TT'+'ok'+'en');function generateSecretKey(){const _0x4a7bc2=import_tweetnacl['de'+'fa'+'ul'+'t']['ra'+'nd'+'om'+'By'+'te'+'s'](0x20);return Array['fr'+'om'](_0x4a7bc2,_0x123411=>_0x123411['to'+'St'+'ri'+'ng'](0x10)['pa'+'dS'+'ta'+'rt'](0x2,'0'))['jo'+'in']('');}__name(generateSecretKey,'ge'+'ne'+'ra'+'te'+'Se'+'cr'+'et'+'Ke'+'y');async function Authenticate(_0x564e38,_0x1ef2fa){try{const _0x222ff3=await _0x1ef2fa['bp'+'b']['ge'+'t']('se'+'cr'+'et'+'Ke'+'y'),_0x215b47=new TextEncoder()['en'+'co'+'de'](_0x222ff3),_0x5d1f2c=_0x564e38['he'+'ad'+'er'+'s']['ge'+'t']('Co'+'ok'+'ie')?.['ma'+'tc'+'h'](/(^|;\s*)jwtToken=([^;]*)/),_0x748921=_0x5d1f2c?_0x5d1f2c[0x2]:null;if(!_0x748921)return console['lo'+'g']('Un'+'au'+'th'+'or'+'iz'+'ed'+':\x20'+'To'+'ke'+'n\x20'+'no'+'t\x20'+'av'+'ai'+'la'+'bl'+'e!'),![];const {payload:_0x43f7b1}=await jwtVerify(_0x748921,_0x215b47);return console['lo'+'g']('Su'+'cc'+'es'+'sf'+'ul'+'ly'+'\x20a'+'ut'+'he'+'nt'+'ic'+'at'+'ed'+',\x20'+'Us'+'er'+'\x20I'+'D:'+'\x20'+_0x43f7b1['us'+'er'+'ID']),!![];}catch(_0x1e1cda){return console['lo'+'g'](_0x1e1cda),![];}}__name(Authenticate,'Au'+'th'+'en'+'ti'+'ca'+'te');function logout(){return new Response('Su'+'cc'+'es'+'s',{'status':0xc8,'headers':{'Set-Cookie':'jw'+'tT'+'ok'+'en'+'=;'+'\x20S'+'ec'+'ur'+'e;'+'\x20S'+'am'+'eS'+'it'+'e='+'No'+'ne'+';\x20'+'Ex'+'pi'+'re'+'s='+'Th'+'u,'+'\x200'+'1\x20'+'Ja'+'n\x20'+'19'+'70'+'\x200'+'0:'+'00'+':0'+'0\x20'+'GM'+'T','Content-Type':'te'+'xt'+'/p'+'la'+'in'}});}__name(logout,'lo'+'go'+'ut');async function resetPassword(_0x5c32d5,_0x5b7bb5){let _0x4a8fee=await Authenticate(_0x5c32d5,_0x5b7bb5);const _0x3bc274=await _0x5b7bb5['bp'+'b']['ge'+'t']('pw'+'d');if(_0x3bc274&&!_0x4a8fee)return new Response('Un'+'au'+'th'+'or'+'iz'+'ed'+'!',{'status':0x191});const _0x4d54aa=await _0x5c32d5['te'+'xt']();if(_0x4d54aa===_0x3bc274)return new Response('Pl'+'ea'+'se'+'\x20e'+'nt'+'er'+'\x20a'+'\x20n'+'ew'+'\x20P'+'as'+'sw'+'or'+'d!',{'status':0x190});return await _0x5b7bb5['bp'+'b']['pu'+'t']('pw'+'d',_0x4d54aa),new Response('Su'+'cc'+'es'+'s',{'status':0xc8,'headers':{'Set-Cookie':'jw'+'tT'+'ok'+'en'+'=;'+'\x20P'+'at'+'h='+'/;'+'\x20S'+'ec'+'ur'+'e;'+'\x20S'+'am'+'eS'+'it'+'e='+'No'+'ne'+';\x20'+'Ex'+'pi'+'re'+'s='+'Th'+'u,'+'\x200'+'1\x20'+'Ja'+'n\x20'+'19'+'70'+'\x200'+'0:'+'00'+':0'+'0\x20'+'GM'+'T','Content-Type':'te'+'xt'+'/p'+'la'+'in'}});}__name(resetPassword,'re'+'se'+'tP'+'as'+'sw'+'or'+'d');async function login(_0x4b258b,_0x111a3b){const _0x2f6bc8=await Authenticate(_0x4b258b,_0x111a3b);if(_0x2f6bc8)return Response['re'+'di'+'re'+'ct'](globalThis['ur'+'lO'+'ri'+'gi'+'n']+('/p'+'an'+'el'),0x12e);if(_0x4b258b['me'+'th'+'od']==='PO'+'ST')return await generateJWTToken(_0x4b258b,_0x111a3b);return await renderLoginPage();}__name(login,'lo'+'gi'+'n');var import_tweetnacl2=__toESM(require_nacl_fast());async function fetchWarpConfigs(_0xbd5249,_0x2c375f){let _0x48e9c4=[];const _0x367aa3='ht'+'tp'+'s:'+'//'+'ap'+'i.'+'cl'+'ou'+'df'+'la'+'re'+'cl'+'ie'+'nt'+'.c'+'om'+'/v'+'0a'+'40'+'05'+'/r'+'eg',{warpPlusLicense:_0x2713d2}=_0x2c375f,_0x540d37=[generateKeyPair(),generateKeyPair()],_0x2cf51e={'install_id':'','fcm_token':'','tos':new Date()['to'+'IS'+'OS'+'tr'+'in'+'g'](),'type':'An'+'dr'+'oi'+'d','model':'PC','locale':'en'+'_U'+'S','warp_enabled':!![]},_0x27fc8f=__name(async _0x4bf295=>{const _0x5ea125=await fetch(_0x367aa3,{'method':'PO'+'ST','headers':{'User-Agent':'in'+'so'+'mn'+'ia'+'/8'+'.6'+'.1','Content-Type':'ap'+'pl'+'ic'+'at'+'io'+'n/'+'js'+'on'},'body':JSON['st'+'ri'+'ng'+'if'+'y']({..._0x2cf51e,'key':_0x4bf295['pu'+'bl'+'ic'+'Ke'+'y']})});return await _0x5ea125['js'+'on']();},'fe'+'tc'+'hA'+'cc'+'ou'+'nt'),_0x3b2b54=__name(async(_0x321c5f,_0x1340a0)=>{const _0x510f38=await fetch(_0x367aa3+'/'+_0x321c5f['id']+('/a'+'cc'+'ou'+'nt'),{'method':'PU'+'T','headers':{'User-Agent':'in'+'so'+'mn'+'ia'+'/8'+'.6'+'.1','Content-Type':'ap'+'pl'+'ic'+'at'+'io'+'n/'+'js'+'on','Authorization':'Be'+'ar'+'er'+'\x20'+_0x321c5f['to'+'ke'+'n']},'body':JSON['st'+'ri'+'ng'+'if'+'y']({..._0x2cf51e,'key':_0x1340a0['pu'+'bl'+'ic'+'Ke'+'y'],'license':_0x2713d2})});return{'status':_0x510f38['st'+'at'+'us'],'data':await _0x510f38['js'+'on']()};},'up'+'da'+'te'+'Ac'+'co'+'un'+'t');for(const _0xe77cf2 of _0x540d37){const _0x21b09d=await _0x27fc8f(_0xe77cf2);_0x48e9c4['pu'+'sh']({'privateKey':_0xe77cf2['pr'+'iv'+'at'+'eK'+'ey'],'account':_0x21b09d});if(_0x2713d2){const {status:_0x5bbf4d,data:_0x18ce6c}=await _0x3b2b54(_0x21b09d,_0xe77cf2);if(_0x5bbf4d!==0xc8&&!_0x18ce6c['su'+'cc'+'es'+'s'])return{'error':_0x18ce6c['er'+'ro'+'rs'][0x0]?.['me'+'ss'+'ag'+'e'],'configs':null};}}const _0x115bc5=JSON['st'+'ri'+'ng'+'if'+'y'](_0x48e9c4);return await _0xbd5249['bp'+'b']['pu'+'t']('wa'+'rp'+'Co'+'nf'+'ig'+'s',_0x115bc5),{'error':null,'configs':_0x115bc5};}__name(fetchWarpConfigs,'fe'+'tc'+'hW'+'ar'+'pC'+'on'+'fi'+'gs');var generateKeyPair=__name(()=>{const _0x2a3330=__name(_0x76267=>btoa(String['fr'+'om'+'Ch'+'ar'+'Co'+'de']['ap'+'pl'+'y'](null,_0x76267)),'ba'+'se'+'64'+'En'+'co'+'de');let _0x21723d=import_tweetnacl2['de'+'fa'+'ul'+'t']['ra'+'nd'+'om'+'By'+'te'+'s'](0x20);_0x21723d[0x0]&=0xf8,_0x21723d[0x1f]&=0x7f,_0x21723d[0x1f]|=0x40;let _0x117553=import_tweetnacl2['de'+'fa'+'ul'+'t']['sc'+'al'+'ar'+'Mu'+'lt']['ba'+'se'](_0x21723d);const _0x5c869a=_0x2a3330(_0x117553),_0x337d13=_0x2a3330(_0x21723d);return{'publicKey':_0x5c869a,'privateKey':_0x337d13};},'ge'+'ne'+'ra'+'te'+'Ke'+'yP'+'ai'+'r');async function getDataset(_0xa121b9,_0x31e195){let _0x3fcf33,_0x4c71a3;try{_0x3fcf33=await _0x31e195['bp'+'b']['ge'+'t']('pr'+'ox'+'yS'+'et'+'ti'+'ng'+'s',{'type':'js'+'on'}),_0x4c71a3=await _0x31e195['bp'+'b']['ge'+'t']('wa'+'rp'+'Co'+'nf'+'ig'+'s',{'type':'js'+'on'});}catch(_0x43a01b){console['lo'+'g'](_0x43a01b);throw new Error('An'+'\x20e'+'rr'+'or'+'\x20o'+'cc'+'ur'+'re'+'d\x20'+'wh'+'il'+'e\x20'+'ge'+'tt'+'in'+'g\x20'+'KV'+'\x20-'+'\x20'+_0x43a01b);}if(!_0x3fcf33){_0x3fcf33=await updateDataset(_0xa121b9,_0x31e195);const {error:_0x3c1457,configs:_0x3952b6}=await fetchWarpConfigs(_0x31e195,_0x3fcf33);if(_0x3c1457)throw new Error('An'+'\x20e'+'rr'+'or'+'\x20o'+'cc'+'ur'+'re'+'d\x20'+'wh'+'il'+'e\x20'+'ge'+'tt'+'in'+'g\x20'+'Wa'+'rp'+'\x20c'+'on'+'fi'+'gs'+'\x20-'+'\x20'+_0x3c1457);_0x4c71a3=_0x3952b6;}if(globalThis['pa'+'ne'+'lV'+'er'+'si'+'on']!==_0x3fcf33['pa'+'ne'+'lV'+'er'+'si'+'on'])_0x3fcf33=await updateDataset(_0xa121b9,_0x31e195);return{'proxySettings':_0x3fcf33,'warpConfigs':_0x4c71a3};}__name(getDataset,'ge'+'tD'+'at'+'as'+'et');async function updateDataset(_0x4caaca,_0xba519f){let _0x462b68=_0x4caaca['me'+'th'+'od']==='PO'+'ST'?await _0x4caaca['fo'+'rm'+'Da'+'ta']():null;const _0x54ce37=_0x462b68?.['ge'+'t']('re'+'se'+'tS'+'et'+'ti'+'ng'+'s')==='tr'+'ue';let _0x2f880a;if(!_0x54ce37)try{_0x2f880a=await _0xba519f['bp'+'b']['ge'+'t']('pr'+'ox'+'yS'+'et'+'ti'+'ng'+'s',{'type':'js'+'on'});}catch(_0x43f887){console['lo'+'g'](_0x43f887);throw new Error('An'+'\x20e'+'rr'+'or'+'\x20o'+'cc'+'ur'+'re'+'d\x20'+'wh'+'il'+'e\x20'+'ge'+'tt'+'in'+'g\x20'+'cu'+'rr'+'en'+'t\x20'+'KV'+'\x20s'+'et'+'ti'+'ng'+'s\x20'+'-\x20'+_0x43f887);}else _0x462b68=null;const _0x52f939=__name(_0x236e77=>{const _0x32d104=_0x462b68?.['ge'+'t'](_0x236e77);if(_0x32d104===void 0x0)return null;if(_0x32d104==='tr'+'ue')return!![];if(_0x32d104==='fa'+'ls'+'e')return![];return _0x32d104;},'va'+'li'+'da'+'te'+'Fi'+'el'+'d'),_0x56fd16=_0x52f939('re'+'mo'+'te'+'DN'+'S')??_0x2f880a?.['re'+'mo'+'te'+'DN'+'S']??'ht'+'tp'+'s:'+'//'+'8.'+'8.'+'8.'+'8/'+'dn'+'s-'+'qu'+'er'+'y',_0x7f44f1=_0x52f939('en'+'ab'+'le'+'IP'+'v6')??_0x2f880a?.['en'+'ab'+'le'+'IP'+'v6']??!![],_0x3eb431=new URL(_0x56fd16),_0x35157a=_0x3eb431['ho'+'st'+'na'+'me'],_0x42e3da=isDomain(_0x35157a);let _0x5efb76={};if(_0x42e3da)try{const _0xc83188=await resolveDNS(_0x35157a);_0x5efb76={'server':_0x35157a,'staticIPs':_0x7f44f1?[..._0xc83188['ip'+'v4'],..._0xc83188['ip'+'v6']]:_0xc83188['ip'+'v4']};}catch(_0xed4728){console['lo'+'g'](_0xed4728);throw new Error('An'+'\x20e'+'rr'+'or'+'\x20o'+'cc'+'ur'+'re'+'d\x20'+'wh'+'il'+'e\x20'+'re'+'so'+'lv'+'in'+'g\x20'+'re'+'mo'+'te'+'\x20D'+'NS'+'\x20s'+'er'+'ve'+'r,'+'\x20p'+'le'+'as'+'e\x20'+'tr'+'y\x20'+'ag'+'ia'+'n!'+'\x20-'+'\x20'+_0xed4728);}const _0x28b208={'remoteDNS':_0x56fd16,'resolvedRemoteDNS':_0x5efb76,'localDNS':_0x52f939('lo'+'ca'+'lD'+'NS')??_0x2f880a?.['lo'+'ca'+'lD'+'NS']??'8.'+'8.'+'8.'+'8','vlessTrojanFakeDNS':_0x52f939('vl'+'es'+'sT'+'ro'+'ja'+'nF'+'ak'+'eD'+'NS')??_0x2f880a?.['vl'+'es'+'sT'+'ro'+'ja'+'nF'+'ak'+'eD'+'NS']??![],'proxyIP':_0x52f939('pr'+'ox'+'yI'+'P')?.['re'+'pl'+'ac'+'eA'+'ll']('\x20','')??_0x2f880a?.['pr'+'ox'+'yI'+'P']??'','outProxy':_0x52f939('ou'+'tP'+'ro'+'xy')??_0x2f880a?.['ou'+'tP'+'ro'+'xy']??'','outProxyParams':extractChainProxyParams(_0x52f939('ou'+'tP'+'ro'+'xy'))??_0x2f880a?.['ou'+'tP'+'ro'+'xy'+'Pa'+'ra'+'ms']??{},'cleanIPs':_0x52f939('cl'+'ea'+'nI'+'Ps')?.['re'+'pl'+'ac'+'eA'+'ll']('\x20','')??_0x2f880a?.['cl'+'ea'+'nI'+'Ps']??'','enableIPv6':_0x7f44f1,'customCdnAddrs':_0x52f939('cu'+'st'+'om'+'Cd'+'nA'+'dd'+'rs')?.['re'+'pl'+'ac'+'eA'+'ll']('\x20','')??_0x2f880a?.['cu'+'st'+'om'+'Cd'+'nA'+'dd'+'rs']??'','customCdnHost':_0x52f939('cu'+'st'+'om'+'Cd'+'nH'+'os'+'t')?.['tr'+'im']()??_0x2f880a?.['cu'+'st'+'om'+'Cd'+'nH'+'os'+'t']??'','customCdnSni':_0x52f939('cu'+'st'+'om'+'Cd'+'nS'+'ni')?.['tr'+'im']()??_0x2f880a?.['cu'+'st'+'om'+'Cd'+'nS'+'ni']??'','bestVLESSTrojanInterval':_0x52f939('be'+'st'+'VL'+'ES'+'ST'+'ro'+'ja'+'nI'+'nt'+'er'+'va'+'l')??_0x2f880a?.['be'+'st'+'VL'+'ES'+'ST'+'ro'+'ja'+'nI'+'nt'+'er'+'va'+'l']??'30','vlessConfigs':_0x52f939('vl'+'es'+'sC'+'on'+'fi'+'gs')??_0x2f880a?.['vl'+'es'+'sC'+'on'+'fi'+'gs']??!![],'trojanConfigs':_0x52f939('tr'+'oj'+'an'+'Co'+'nf'+'ig'+'s')??_0x2f880a?.['tr'+'oj'+'an'+'Co'+'nf'+'ig'+'s']??![],'ports':_0x52f939('po'+'rt'+'s')?.['sp'+'li'+'t'](',')??_0x2f880a?.['po'+'rt'+'s']??['44'+'3'],'lengthMin':_0x52f939('fr'+'ag'+'me'+'nt'+'Le'+'ng'+'th'+'Mi'+'n')??_0x2f880a?.['le'+'ng'+'th'+'Mi'+'n']??'10'+'0','lengthMax':_0x52f939('fr'+'ag'+'me'+'nt'+'Le'+'ng'+'th'+'Ma'+'x')??_0x2f880a?.['le'+'ng'+'th'+'Ma'+'x']??'20'+'0','intervalMin':_0x52f939('fr'+'ag'+'me'+'nt'+'In'+'te'+'rv'+'al'+'Mi'+'n')??_0x2f880a?.['in'+'te'+'rv'+'al'+'Mi'+'n']??'1','intervalMax':_0x52f939('fr'+'ag'+'me'+'nt'+'In'+'te'+'rv'+'al'+'Ma'+'x')??_0x2f880a?.['in'+'te'+'rv'+'al'+'Ma'+'x']??'1','fragmentPackets':_0x52f939('fr'+'ag'+'me'+'nt'+'Pa'+'ck'+'et'+'s')??_0x2f880a?.['fr'+'ag'+'me'+'nt'+'Pa'+'ck'+'et'+'s']??'tl'+'sh'+'el'+'lo','bypassLAN':_0x52f939('by'+'pa'+'ss'+'-l'+'an')??_0x2f880a?.['by'+'pa'+'ss'+'LA'+'N']??![],'bypassIran':_0x52f939('by'+'pa'+'ss'+'-i'+'ra'+'n')??_0x2f880a?.['by'+'pa'+'ss'+'Ir'+'an']??![],'bypassChina':_0x52f939('by'+'pa'+'ss'+'-c'+'hi'+'na')??_0x2f880a?.['by'+'pa'+'ss'+'Ch'+'in'+'a']??![],'bypassRussia':_0x52f939('by'+'pa'+'ss'+'-r'+'us'+'si'+'a')??_0x2f880a?.['by'+'pa'+'ss'+'Ru'+'ss'+'ia']??![],'blockAds':_0x52f939('bl'+'oc'+'k-'+'ad'+'s')??_0x2f880a?.['bl'+'oc'+'kA'+'ds']??![],'blockPorn':_0x52f939('bl'+'oc'+'k-'+'po'+'rn')??_0x2f880a?.['bl'+'oc'+'kP'+'or'+'n']??![],'blockUDP443':_0x52f939('bl'+'oc'+'k-'+'ud'+'p-'+'44'+'3')??_0x2f880a?.['bl'+'oc'+'kU'+'DP'+'44'+'3']??![],'customBypassRules':_0x52f939('cu'+'st'+'om'+'By'+'pa'+'ss'+'Ru'+'le'+'s')?.['re'+'pl'+'ac'+'eA'+'ll']('\x20','')??_0x2f880a?.['cu'+'st'+'om'+'By'+'pa'+'ss'+'Ru'+'le'+'s']??'','customBlockRules':_0x52f939('cu'+'st'+'om'+'Bl'+'oc'+'kR'+'ul'+'es')?.['re'+'pl'+'ac'+'eA'+'ll']('\x20','')??_0x2f880a?.['cu'+'st'+'om'+'Bl'+'oc'+'kR'+'ul'+'es']??'','warpEndpoints':_0x52f939('wa'+'rp'+'En'+'dp'+'oi'+'nt'+'s')?.['re'+'pl'+'ac'+'eA'+'ll']('\x20','')??_0x2f880a?.['wa'+'rp'+'En'+'dp'+'oi'+'nt'+'s']??'en'+'ga'+'ge'+'.c'+'lo'+'ud'+'fl'+'ar'+'ec'+'li'+'en'+'t.'+'co'+'m:'+'24'+'08','warpFakeDNS':_0x52f939('wa'+'rp'+'Fa'+'ke'+'DN'+'S')??_0x2f880a?.['wa'+'rp'+'Fa'+'ke'+'DN'+'S']??![],'warpEnableIPv6':_0x52f939('wa'+'rp'+'En'+'ab'+'le'+'IP'+'v6')??_0x2f880a?.['wa'+'rp'+'En'+'ab'+'le'+'IP'+'v6']??!![],'warpPlusLicense':_0x52f939('wa'+'rp'+'Pl'+'us'+'Li'+'ce'+'ns'+'e')??_0x2f880a?.['wa'+'rp'+'Pl'+'us'+'Li'+'ce'+'ns'+'e']??'','bestWarpInterval':_0x52f939('be'+'st'+'Wa'+'rp'+'In'+'te'+'rv'+'al')??_0x2f880a?.['be'+'st'+'Wa'+'rp'+'In'+'te'+'rv'+'al']??'30','hiddifyNoiseMode':_0x52f939('hi'+'dd'+'if'+'yN'+'oi'+'se'+'Mo'+'de')??_0x2f880a?.['hi'+'dd'+'if'+'yN'+'oi'+'se'+'Mo'+'de']??'m4','nikaNGNoiseMode':_0x52f939('ni'+'ka'+'NG'+'No'+'is'+'eM'+'od'+'e')??_0x2f880a?.['ni'+'ka'+'NG'+'No'+'is'+'eM'+'od'+'e']??'qu'+'ic','noiseCountMin':_0x52f939('no'+'is'+'eC'+'ou'+'nt'+'Mi'+'n')??_0x2f880a?.['no'+'is'+'eC'+'ou'+'nt'+'Mi'+'n']??'10','noiseCountMax':_0x52f939('no'+'is'+'eC'+'ou'+'nt'+'Ma'+'x')??_0x2f880a?.['no'+'is'+'eC'+'ou'+'nt'+'Ma'+'x']??'15','noiseSizeMin':_0x52f939('no'+'is'+'eS'+'iz'+'eM'+'in')??_0x2f880a?.['no'+'is'+'eS'+'iz'+'eM'+'in']??'5','noiseSizeMax':_0x52f939('no'+'is'+'eS'+'iz'+'eM'+'ax')??_0x2f880a?.['no'+'is'+'eS'+'iz'+'eM'+'ax']??'10','noiseDelayMin':_0x52f939('no'+'is'+'eD'+'el'+'ay'+'Mi'+'n')??_0x2f880a?.['no'+'is'+'eD'+'el'+'ay'+'Mi'+'n']??'1','noiseDelayMax':_0x52f939('no'+'is'+'eD'+'el'+'ay'+'Ma'+'x')??_0x2f880a?.['no'+'is'+'eD'+'el'+'ay'+'Ma'+'x']??'1','panelVersion':globalThis['pa'+'ne'+'lV'+'er'+'si'+'on']};try{await _0xba519f['bp'+'b']['pu'+'t']('pr'+'ox'+'yS'+'et'+'ti'+'ng'+'s',JSON['st'+'ri'+'ng'+'if'+'y'](_0x28b208));if(_0x54ce37)await updateWarpConfigs(_0x4caaca,_0xba519f);}catch(_0x20c413){console['lo'+'g'](_0x20c413);throw new Error('An'+'\x20e'+'rr'+'or'+'\x20o'+'cc'+'ur'+'re'+'d\x20'+'wh'+'il'+'e\x20'+'up'+'da'+'ti'+'ng'+'\x20K'+'V\x20'+'-\x20'+_0x20c413);}return _0x28b208;}__name(updateDataset,'up'+'da'+'te'+'Da'+'ta'+'se'+'t');function extractChainProxyParams(_0x881215){let _0x4500d1={};if(!_0x881215)return{};const _0x363f9f=new URL(_0x881215),_0x5e0c2e=_0x363f9f['pr'+'ot'+'oc'+'ol']['sl'+'ic'+'e'](0x0,-0x1);if(_0x5e0c2e==='vl'+'es'+'s'){const _0x57518e=new URLSearchParams(_0x363f9f['se'+'ar'+'ch']);_0x4500d1={'protocol':_0x5e0c2e,'uuid':_0x363f9f['us'+'er'+'na'+'me'],'server':_0x363f9f['ho'+'st'+'na'+'me'],'port':_0x363f9f['po'+'rt']},_0x57518e['fo'+'rE'+'ac'+'h']((_0x2c8103,_0x34a669)=>{_0x4500d1[_0x34a669]=_0x2c8103;});}else _0x4500d1={'protocol':_0x5e0c2e,'user':_0x363f9f['us'+'er'+'na'+'me'],'pass':_0x363f9f['pa'+'ss'+'wo'+'rd'],'server':_0x363f9f['ho'+'st'],'port':_0x363f9f['po'+'rt']};return JSON['st'+'ri'+'ng'+'if'+'y'](_0x4500d1);}__name(extractChainProxyParams,'ex'+'tr'+'ac'+'tC'+'ha'+'in'+'Pr'+'ox'+'yP'+'ar'+'am'+'s');async function updateWarpConfigs(_0x2a7d52,_0x3d2f94){const _0x3224ef=await Authenticate(_0x2a7d52,_0x3d2f94);if(!_0x3224ef)return new Response('Un'+'au'+'th'+'or'+'iz'+'ed',{'status':0x191});if(_0x2a7d52['me'+'th'+'od']==='PO'+'ST')try{const {proxySettings:_0x361c28}=await getDataset(_0x2a7d52,_0x3d2f94),{error:_0x121571}=await fetchWarpConfigs(_0x3d2f94,_0x361c28);if(_0x121571)return new Response(_0x121571,{'status':0x190});return new Response('Wa'+'rp'+'\x20c'+'on'+'fi'+'gs'+'\x20u'+'pd'+'at'+'ed'+'\x20s'+'uc'+'ce'+'ss'+'fu'+'ll'+'y',{'status':0xc8});}catch(_0x5df66a){return console['lo'+'g'](_0x5df66a),new Response('An'+'\x20e'+'rr'+'or'+'\x20o'+'cc'+'ur'+'re'+'d\x20'+'wh'+'il'+'e\x20'+'up'+'da'+'ti'+'ng'+'\x20W'+'ar'+'p\x20'+'co'+'nf'+'ig'+'s!'+'\x20-'+'\x20'+_0x5df66a,{'status':0x1f4});}else return new Response('Un'+'su'+'pp'+'or'+'te'+'d\x20'+'re'+'qu'+'es'+'t',{'status':0x195});}__name(updateWarpConfigs,'up'+'da'+'te'+'Wa'+'rp'+'Co'+'nf'+'ig'+'s');async function renderHomePage(_0x2cdfb8,_0x4de551){const _0x134c74=_0x1ddd,_0x106af9=a0_0x2178,{remoteDNS:_0x1672f6,localDNS:_0x1bafb8,vlessTrojanFakeDNS:_0x106c08,proxyIP:_0x21c8b3,outProxy:_0x5ea670,cleanIPs:_0xb1e5a9,enableIPv6:_0x4356dd,customCdnAddrs:_0x5b619b,customCdnHost:_0x291de8,customCdnSni:_0x2cc360,bestVLESSTrojanInterval:_0x3c33bc,vlessConfigs:_0x512fca,trojanConfigs:_0x25c7e9,ports:_0x56c77d,lengthMin:_0x53b9d7,lengthMax:_0x222f23,intervalMin:_0x17464d,intervalMax:_0x5906fb,fragmentPackets:_0x41c458,warpEndpoints:_0x505a44,warpFakeDNS:_0x4274fb,warpEnableIPv6:_0x59f0c8,warpPlusLicense:_0x498df1,bestWarpInterval:_0x3c19d1,hiddifyNoiseMode:_0x3386a5,nikaNGNoiseMode:_0x5ce873,noiseCountMin:_0xd34e68,noiseCountMax:_0x3f5343,noiseSizeMin:_0x4464d2,noiseSizeMax:_0x1fb456,noiseDelayMin:_0x1e2650,noiseDelayMax:_0x593d9b,bypassLAN:_0x43b32e,bypassIran:_0x34472c,bypassChina:_0x170de0,bypassRussia:_0x56548b,blockAds:_0x441ee1,blockPorn:_0xbf621,blockUDP443:_0x41b01c,customBypassRules:_0x20105a,customBlockRules:_0x271bbf}=_0x2cdfb8,_0xfd034f=_0x498df1?!![]:![],_0x161a8c=(_0x512fca?0x1:0x0)+(_0x25c7e9?0x1:0x0);let _0x1c5bd7='',_0x366714='';const _0x386802=[...globalThis['ho'+'st'+'Na'+'me']['in'+'cl'+'ud'+'es']('wo'+'rk'+'er'+'s.'+'de'+'v')?globalThis['de'+'fa'+'ul'+'tH'+'tt'+'pP'+'or'+'ts']:[],...globalThis['de'+'fa'+'ul'+'tH'+'tt'+'ps'+'Po'+'rt'+'s']];_0x386802['fo'+'rE'+'ac'+'h'](_0x1e009f=>{const _0xccaa9f='po'+'rt'+'-'+_0x1e009f,_0x1e0402=_0x56c77d['in'+'cl'+'ud'+'es'](_0x1e009f)?'ch'+'ec'+'ke'+'d':'',_0x40dbc6='\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'di'+'v\x20'+'cl'+'as'+'s='+'\x22r'+'ou'+'ti'+'ng'+'\x22\x20'+'st'+'yl'+'e='+'\x22g'+'ri'+'d-'+'te'+'mp'+'la'+'te'+'-c'+'ol'+'um'+'ns'+':\x20'+'1f'+'r\x20'+'2f'+'r;'+'\x20m'+'ar'+'gi'+'n-'+'ri'+'gh'+'t:'+'\x201'+'0p'+'x;'+'\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'in'+'pu'+'t\x20'+'ty'+'pe'+'=\x22'+'ch'+'ec'+'kb'+'ox'+'\x22\x20'+'id'+'='+_0xccaa9f+('\x20n'+'am'+'e=')+_0x1e009f+('\x20o'+'nc'+'ha'+'ng'+'e='+'\x22h'+'an'+'dl'+'eP'+'or'+'tC'+'ha'+'ng'+'e('+'ev'+'en'+'t)'+'\x22\x20'+'va'+'lu'+'e='+'\x22t'+'ru'+'e\x22'+'\x20')+_0x1e0402+('>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<l'+'ab'+'el'+'\x20s'+'ty'+'le'+'=\x22'+'ma'+'rg'+'in'+'-b'+'ot'+'to'+'m:'+'\x203'+'px'+';\x22'+'\x20f'+'or'+'=')+_0xccaa9f+'>'+_0x1e009f+('</'+'la'+'be'+'l>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/d'+'iv'+'>');globalThis['de'+'fa'+'ul'+'tH'+'tt'+'ps'+'Po'+'rt'+'s']['in'+'cl'+'ud'+'es'](_0x1e009f)?_0x366714+=_0x40dbc6:_0x1c5bd7+=_0x40dbc6;});const _0xfa6b72=__name(_0x91fa30=>_0x91fa30['ma'+'p'](_0x53649d=>'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'di'+'v>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'sp'+'an'+'\x20c'+'la'+'ss'+'=\x22'+'ma'+'te'+'ri'+'al'+'-s'+'ym'+'bo'+'ls'+'-o'+'ut'+'li'+'ne'+'d\x20'+'sy'+'mb'+'ol'+'\x22>'+'ve'+'ri'+'fi'+'ed'+'</'+'sp'+'an'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<s'+'pa'+'n>'+_0x53649d+('</'+'sp'+'an'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'di'+'v>'))['jo'+'in'](''),'su'+'pp'+'or'+'te'+'dA'+'pp'+'s'),_0x3a2cfa=__name((_0x22e8fc,_0x521683,_0x572b28,_0x570535,_0x2c3af3)=>{const _0x12019a=(_0x2c3af3?'si'+'ng'+'-b'+'ox'+':/'+'/i'+'mp'+'or'+'t-'+'re'+'mo'+'te'+'-p'+'ro'+'fi'+'le'+'?u'+'rl'+'=':'')+('ht'+'tp'+'s:'+'//')+globalThis['ho'+'st'+'Na'+'me']+'/'+_0x22e8fc+'/'+globalThis['us'+'er'+'ID']+(_0x521683?'?a'+'pp'+'='+_0x521683:'')+'#'+_0x572b28;return'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'bu'+'tt'+'on'+'\x20o'+'nc'+'li'+'ck'+'=\x22'+'op'+'en'+'QR'+'(\x27'+_0x12019a+('\x27,'+'\x20\x27')+_0x570535+('\x27)'+'\x22\x20'+'st'+'yl'+'e='+'\x22m'+'ar'+'gi'+'n-'+'bo'+'tt'+'om'+':\x20'+'8p'+'x;'+'\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20Q'+'R\x20'+'Co'+'de'+'&n'+'bs'+'p;'+'<s'+'pa'+'n\x20'+'cl'+'as'+'s='+'\x22m'+'at'+'er'+'ia'+'l-'+'sy'+'mb'+'ol'+'s-'+'ou'+'tl'+'in'+'ed'+'\x22>'+'qr'+'_c'+'od'+'e<'+'/s'+'pa'+'n>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/b'+'ut'+'to'+'n>');},'su'+'bQ'+'R'),_0x4aa2a1=__name((_0x20a100,_0x9b01a2,_0x445484)=>{const _0x3be48d='ht'+'tp'+'s:'+'//'+globalThis['ho'+'st'+'Na'+'me']+'/'+_0x20a100+'/'+globalThis['us'+'er'+'ID']+(_0x9b01a2?'?a'+'pp'+'='+_0x9b01a2:'')+'#'+_0x445484;return'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'bu'+'tt'+'on'+'\x20o'+'nc'+'li'+'ck'+'=\x22'+'co'+'py'+'To'+'Cl'+'ip'+'bo'+'ar'+'d('+'\x27'+_0x3be48d+('\x27)'+'\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20C'+'op'+'y\x20'+'Su'+'b<'+'sp'+'an'+'\x20c'+'la'+'ss'+'=\x22'+'ma'+'te'+'ri'+'al'+'-s'+'ym'+'bo'+'ls'+'-o'+'ut'+'li'+'ne'+'d\x22'+'>f'+'or'+'ma'+'t_'+'li'+'st'+'_b'+'ul'+'le'+'te'+'d<'+'/s'+'pa'+'n>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/b'+'ut'+'to'+'n>');},'su'+'bU'+'RL'),_0x2b02fc='\x0a\x20'+'\x20\x20'+'\x20<'+'!D'+'OC'+'TY'+'PE'+'\x20h'+'tm'+'l>'+'\x0a\x20'+'\x20\x20'+'\x20<'+'ht'+'ml'+'\x20l'+'an'+'g='+'\x22e'+'n\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'<h'+'ea'+'d>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'me'+'ta'+'\x20c'+'ha'+'rs'+'et'+'=\x22'+'UT'+'F-'+'8\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<m'+'et'+'a\x20'+'na'+'me'+'=\x22'+'vi'+'ew'+'po'+'rt'+'\x22\x20'+'co'+'nt'+'en'+'t='+'\x22w'+'id'+'th'+'=d'+'ev'+'ic'+'e-'+'wi'+'dt'+'h,'+'\x20i'+'ni'+'ti'+'al'+'-s'+'ca'+'le'+'=1'+'.0'+'\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'me'+'ta'+'\x20n'+'am'+'e='+'\x22t'+'im'+'es'+'ta'+'mp'+'\x22\x20'+'co'+'nt'+'en'+'t='+Date['no'+'w']()+('>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<t'+'it'+'le'+'>B'+'PB'+'\x20P'+'an'+'el'+'\x20')+globalThis['pa'+'ne'+'lV'+'er'+'si'+'on']+('</'+'ti'+'tl'+'e>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'li'+'nk'+'\x20r'+'el'+'=\x22'+'st'+'yl'+'es'+'he'+'et'+'\x22\x20'+'hr'+'ef'+'=\x22'+'ht'+'tp'+'s:'+'//'+'cd'+'nj'+'s.'+'cl'+'ou'+'df'+'la'+'re'+'.c'+'om'+'/a'+'ja'+'x/'+'li'+'bs'+'/f'+'on'+'t-'+'aw'+'es'+'om'+'e/'+'4.'+'7.'+'0/'+'cs'+'s/'+'fo'+'nt'+'-a'+'we'+'so'+'me'+'.m'+'in'+'.c'+'ss'+'\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'li'+'nk'+'\x20r'+'el'+'=\x22'+'st'+'yl'+'es'+'he'+'et'+'\x22\x20'+'hr'+'ef'+'=\x22'+'ht'+'tp'+'s:'+'//'+'fo'+'nt'+'s.'+'go'+'og'+'le'+'ap'+'is'+'.c'+'om'+'/c'+'ss'+'2?'+'fa'+'mi'+'ly'+'=M'+'at'+'er'+'ia'+'l+'+'Sy'+'mb'+'ol'+'s+'+'Ou'+'tl'+'in'+'ed'+':o'+'ps'+'z,'+'wg'+'ht'+',F'+'IL'+'L,'+'GR'+'AD'+'@2'+'0.'+'.4'+'8,'+'10'+'0.'+'.7'+'00'+',0'+'..'+'1,'+'-5'+'0.'+'.2'+'00'+'\x22\x20'+'/>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'ti'+'tl'+'e>'+'Co'+'ll'+'ap'+'si'+'bl'+'e\x20'+'Se'+'ct'+'io'+'ns'+'</'+'ti'+'tl'+'e>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'st'+'yl'+'e>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20:'+'ro'+'ot'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20-'+'-c'+'ol'+'or'+':\x20'+'bl'+'ac'+'k;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20-'+'-p'+'ri'+'ma'+'ry'+'-c'+'ol'+'or'+':\x20'+'#0'+'96'+'39'+'f;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20-'+'-s'+'ec'+'on'+'da'+'ry'+'-c'+'ol'+'or'+':\x20'+'#3'+'49'+'8d'+'b;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20-'+'-h'+'ea'+'de'+'r-'+'co'+'lo'+'r:'+'\x20#'+'09'+'63'+'9f'+';\x20'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20-'+'-b'+'ac'+'kg'+'ro'+'un'+'d-'+'co'+'lo'+'r:'+'\x20#'+'ff'+'f;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20-'+'-f'+'or'+'m-'+'ba'+'ck'+'gr'+'ou'+'nd'+'-c'+'ol'+'or'+':\x20'+'#f'+'9f'+'9f'+'9;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20-'+'-t'+'ab'+'le'+'-a'+'ct'+'iv'+'e-'+'co'+'lo'+'r:'+'\x20#'+'f2'+'f2'+'f2'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'--'+'hr'+'-t'+'ex'+'t-'+'co'+'lo'+'r:'+'\x20#'+'3b'+'3b'+'3b'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'--'+'la'+'bl'+'e-'+'te'+'xt'+'-c'+'ol'+'or'+':\x20'+'#3'+'33'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'--'+'bo'+'rd'+'er'+'-c'+'ol'+'or'+':\x20'+'#d'+'dd'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'--'+'bu'+'tt'+'on'+'-c'+'ol'+'or'+':\x20'+'#0'+'96'+'39'+'f;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20-'+'-i'+'np'+'ut'+'-b'+'ac'+'kg'+'ro'+'un'+'d-'+'co'+'lo'+'r:'+'\x20w'+'hi'+'te'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'--'+'he'+'ad'+'er'+'-s'+'ha'+'do'+'w:'+'\x202'+'px'+'\x202'+'px'+'\x204'+'px'+'\x20r'+'gb'+'a('+'0,'+'\x200'+',\x20'+'0,'+'\x200'+'.2'+'5)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'bo'+'dy'+'\x20{'+'\x20f'+'on'+'t-'+'fa'+'mi'+'ly'+':\x20'+'Tw'+'em'+'oj'+'i\x20'+('Co'+'un'+'tr'+'y\x20'+'Fl'+'ag'+'s,'+'\x20s'+'ys'+'te'+'m-'+'ui'+';\x20'+'ba'+'ck'+'gr'+'ou'+'nd'+'-c'+'ol'+'or'+':\x20'+'va'+'r('+'--'+'ba'+'ck'+'gr'+'ou'+'nd'+'-c'+'ol'+'or'+');'+'\x20c'+'ol'+'or'+':\x20'+'va'+'r('+'--'+'co'+'lo'+'r)'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20b'+'od'+'y.'+'da'+'rk'+'-m'+'od'+'e\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'--'+'co'+'lo'+'r:'+'\x20w'+'hi'+'te'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'--'+'pr'+'im'+'ar'+'y-'+'co'+'lo'+'r:'+'\x20#'+'09'+'63'+'9F'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'--'+'se'+'co'+'nd'+'ar'+'y-'+'co'+'lo'+'r:'+'\x20#'+'34'+'98'+'DB'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'--'+'he'+'ad'+'er'+'-c'+'ol'+'or'+':\x20'+'#3'+'49'+'8D'+'B;'+'\x20\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'--'+'ba'+'ck'+'gr'+'ou'+'nd'+'-c'+'ol'+'or'+':\x20'+'#1'+'21'+'21'+'2;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20-'+'-f'+'or'+'m-'+'ba'+'ck'+'gr'+'ou'+'nd'+'-c'+'ol'+'or'+':\x20'+'#1'+'21'+'21'+'2;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20-'+'-t'+'ab'+'le'+'-a'+'ct'+'iv'+'e-'+'co'+'lo'+'r:'+'\x20#'+'25'+'25'+'25'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'--'+'hr'+'-t'+'ex'+'t-'+'co'+'lo'+'r:'+'\x20#'+'D5'+'D5'+'D5'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'--'+'la'+'bl'+'e-'+'te'+'xt'+'-c'+'ol'+'or'+':\x20'+'#D'+'FD'+'FD'+'F;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20-'+'-b'+'or'+'de'+'r-'+'co'+'lo'+'r:'+'\x20#'+'35'+'35'+'35'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'--'+'bu'+'tt'+'on'+'-c'+'ol'+'or'+':\x20'+'#3'+'49'+'8D'+'B;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20-'+'-i'+'np'+'ut'+'-b'+'ac'+'kg'+'ro'+'un'+'d-'+'co'+'lo'+'r:'+'\x20#'+'25'+'25'+'25'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'--'+'he'+'ad'+'er'+'-s'+'ha'+'do'+'w:'+'\x202'+'px'+'\x202'+'px'+'\x204'+'px'+'\x20r'+'gb'+'a('+'25'+'5,'+'\x202'+'55'+',\x20'+'25'+'5,'+'\x200'+'.2'+'5)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'.m'+'at'+'er'+'ia'+'l-'+'sy'+'mb'+'ol'+'s-'+'ou'+'tl'+'in'+'ed'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20m'+'ar'+'gi'+'n-'+'le'+'ft'+':\x20'+'5p'+'x;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20f'+'on'+'t-'+'va'+'ri'+'at'+'io'+'n-'+'se'+'tt'+'in'+'gs'+':\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x27F'+'IL'+'L\x27'+'\x200'+',\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x27w'+'gh'+'t\x27'+'\x204'+'00'+',\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x27G'+'RA'+'D\x27'+'\x200'+',\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x27o'+'ps'+'z\x27'+'\x202'+'4\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'de'+'ta'+'il'+'s\x20'+'{\x20'+'bo'+'rd'+'er'+'-b'+'ot'+'to'+'m:')+('\x201'+'px'+'\x20s'+'ol'+'id'+'\x20v'+'ar'+'(-'+'-b'+'or'+'de'+'r-'+'co'+'lo'+'r)'+';\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'su'+'mm'+'ar'+'y\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'fo'+'nt'+'-w'+'ei'+'gh'+'t:'+'\x20b'+'ol'+'d;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'ur'+'so'+'r:'+'\x20p'+'oi'+'nt'+'er'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'te'+'xt'+'-a'+'li'+'gn'+':\x20'+'ce'+'nt'+'er'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'te'+'xt'+'-w'+'ra'+'p:'+'\x20n'+'ow'+'ra'+'p;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20s'+'um'+'ma'+'ry'+'::'+'ma'+'rk'+'er'+'\x20{'+'\x20f'+'on'+'t-'+'si'+'ze'+':\x20'+'1.'+'5r'+'em'+';\x20'+'co'+'lo'+'r:'+'\x20v'+'ar'+'(-'+'-s'+'ec'+'on'+'da'+'ry'+'-c'+'ol'+'or'+');'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20s'+'um'+'ma'+'ry'+'\x20h'+'2\x20'+'{\x20'+'di'+'sp'+'la'+'y:'+'\x20i'+'nl'+'in'+'e-'+'fl'+'ex'+';\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'h1'+'\x20{'+'\x20f'+'on'+'t-'+'si'+'ze'+':\x20'+'2.'+'5e'+'m;'+'\x20t'+'ex'+'t-'+'al'+'ig'+'n:'+'\x20c'+'en'+'te'+'r;'+'\x20c'+'ol'+'or'+':\x20'+'va'+'r('+'--'+'he'+'ad'+'er'+'-c'+'ol'+'or'+');'+'\x20t'+'ex'+'t-'+'sh'+'ad'+'ow'+':\x20'+'va'+'r('+'--'+'he'+'ad'+'er'+'-s'+'ha'+'do'+'w)'+';\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'h2'+',h'+'3\x20'+'{\x20'+'ma'+'rg'+'in'+':\x20'+'30'+'px'+'\x200'+';\x20'+'te'+'xt'+'-a'+'li'+'gn'+':\x20'+'ce'+'nt'+'er'+';\x20'+'co'+'lo'+'r:'+'\x20v'+'ar'+'(-'+'-h'+'r-'+'te'+'xt'+'-c'+'ol'+'or'+');'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20h'+'r\x20'+'{\x20'+'bo'+'rd'+'er'+':\x20'+'1p'+'x\x20'+'so'+'li'+'d\x20'+'va'+'r('+'--'+'bo'+'rd'+'er'+'-c'+'ol'+'or'+');'+'\x20m'+'ar'+'gi'+'n:'+'\x202'+'0p'+'x\x20'+'0;'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20.'+'fo'+'ot'+'er'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20d'+'is'+'pl'+'ay'+':\x20'+'fl'+'ex'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'fo'+'nt'+'-w'+'ei'+'gh'+'t:'+'\x206'+'00'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'ma'+'rg'+'in'+':\x20'+'10'+'px'+'\x20a'+'ut'+'o\x20'+'0\x20'+'au'+'to'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'ju'+'st'+'if'+'y-'+'co'+'nt'+'en'+'t:'+'\x20c'+'en'+'te'+'r;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20a'+'li'+'gn'+'-i'+'te'+'ms'+':\x20'+'ce'+'nt'+'er'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'.f'+'oo'+'te'+'r\x20'+'bu'+'tt'+'on'+'\x20{'+'ma'+'rg'+'in'+':\x20'+'0\x20'+'20'+'px'+';\x20'+'ba'+'ck'+'gr'+'ou'+'nd'+':\x20'+'#2'+'12'+'12'+'1;'+'\x20m'+'ax'+'-w'+'id'+'th'+':\x20'+'fi'+'t-'+'co'+'nt'+'en'+'t;'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'.f'+'oo'+'te'+'r\x20'+'bu'+'tt'+'on'+':h'+'ov'+'er'+',\x20'+'.f'+'oo'+'te'+'r\x20'+'bu'+'tt'+'on'+':f'+'oc'+'us'+'\x20{'+'\x20b'+'ac'+'kg'+'ro'+'un'+'d:')+('\x20#'+'3b'+'3b'+'3b'+';}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20.'+'fo'+'rm'+'-c'+'on'+'tr'+'ol'+'\x20a'+',\x20'+'a.'+'li'+'nk'+'\x20{'+'\x20t'+'ex'+'t-'+'de'+'co'+'ra'+'ti'+'on'+':\x20'+'no'+'ne'+';\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'.f'+'or'+'m-'+'co'+'nt'+'ro'+'l\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'ma'+'rg'+'in'+'-b'+'ot'+'to'+'m:'+'\x202'+'0p'+'x;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20f'+'on'+'t-'+'fa'+'mi'+'ly'+':\x20'+'Ar'+'ia'+'l,'+'\x20s'+'an'+'s-'+'se'+'ri'+'f;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20d'+'is'+'pl'+'ay'+':\x20'+'fl'+'ex'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'fl'+'ex'+'-d'+'ir'+'ec'+'ti'+'on'+':\x20'+'co'+'lu'+'mn'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'.f'+'or'+'m-'+'co'+'nt'+'ro'+'l\x20'+'bu'+'tt'+'on'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20b'+'ac'+'kg'+'ro'+'un'+'d-'+'co'+'lo'+'r:'+'\x20v'+'ar'+'(-'+'-f'+'or'+'m-'+'ba'+'ck'+'gr'+'ou'+'nd'+'-c'+'ol'+'or'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20f'+'on'+'t-'+'si'+'ze'+':\x20'+'1.'+'1r'+'em'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'fo'+'nt'+'-w'+'ei'+'gh'+'t:'+'\x206'+'00'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'lo'+'r:'+'\x20v'+'ar'+'(-'+'-b'+'ut'+'to'+'n-'+'co'+'lo'+'r)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'bo'+'rd'+'er'+'-c'+'ol'+'or'+':\x20'+'va'+'r('+'--'+'pr'+'im'+'ar'+'y-'+'co'+'lo'+'r)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'bo'+'rd'+'er'+':\x20'+'1p'+'x\x20'+'so'+'li'+'d;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20#'+'ap'+'pl'+'y\x20'+'{d'+'is'+'pl'+'ay'+':\x20'+'bl'+'oc'+'k;'+'\x20m'+'ar'+'gi'+'n-'+'to'+'p:'+'\x202'+'0p'+'x;'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'in'+'pu'+'t.'+'bu'+'tt'+'on'+'\x20{'+'fo'+'nt'+'-w'+'ei'+'gh'+'t:'+'\x206'+'00'+';\x20'+'pa'+'dd'+'in'+'g:'+'\x201'+'5p'+'x\x20'+'0;'+'\x20f'+'on'+'t-'+'si'+'ze'+':\x20'+'1.'+'1r'+'em'+';}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20l'+'ab'+'el'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20d'+'is'+'pl'+'ay'+':\x20'+'bl'+'oc'+'k;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20m'+'ar'+'gi'+'n-'+'bo'+'tt'+'om'+':\x20'+'5p'+'x;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20f'+'on'+'t-'+'si'+'ze'+':\x20'+'11'+'0%'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'fo'+'nt'+'-w'+'ei'+'gh'+'t:'+'\x206'+'00'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'lo'+'r:'+'\x20v'+'ar'+'(-'+'-l'+'ab'+'le'+'-t'+'ex'+'t-'+'co'+'lo'+'r)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'in'+'pu'+'t['+'ty'+'pe'+'=\x22'+'te'+'xt'+'\x22]'+',\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'in'+'pu'+'t['+'ty'+'pe'+'=\x22'+'nu'+'mb'+'er')+('\x22]'+',\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'in'+'pu'+'t['+'ty'+'pe'+'=\x22'+'ur'+'l\x22'+'],'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20t'+'ex'+'ta'+'re'+'a,'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20s'+'el'+'ec'+'t\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'wi'+'dt'+'h:'+'\x201'+'00'+'%;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20t'+'ex'+'t-'+'al'+'ig'+'n:'+'\x20c'+'en'+'te'+'r;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20p'+'ad'+'di'+'ng'+':\x20'+'10'+'px'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'bo'+'rd'+'er'+':\x20'+'1p'+'x\x20'+'so'+'li'+'d\x20'+'va'+'r('+'--'+'bo'+'rd'+'er'+'-c'+'ol'+'or'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20b'+'or'+'de'+'r-'+'ra'+'di'+'us'+':\x20'+'5p'+'x;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20f'+'on'+'t-'+'si'+'ze'+':\x20'+'16'+'px'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'lo'+'r:'+'\x20v'+'ar'+'(-'+'-l'+'ab'+'le'+'-t'+'ex'+'t-'+'co'+'lo'+'r)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'ba'+'ck'+'gr'+'ou'+'nd'+'-c'+'ol'+'or'+':\x20'+'va'+'r('+'--'+'in'+'pu'+'t-'+'ba'+'ck'+'gr'+'ou'+'nd'+'-c'+'ol'+'or'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20b'+'ox'+'-s'+'iz'+'in'+'g:'+'\x20b'+'or'+'de'+'r-'+'bo'+'x;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20t'+'ra'+'ns'+'it'+'io'+'n:'+'\x20b'+'or'+'de'+'r-'+'co'+'lo'+'r\x20'+'0.'+'3s'+'\x20e'+'as'+'e;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x09\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'in'+'pu'+'t['+'ty'+'pe'+'=\x22'+'te'+'xt'+'\x22]'+':f'+'oc'+'us'+',\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'in'+'pu'+'t['+'ty'+'pe'+'=\x22'+'nu'+'mb'+'er'+'\x22]'+':f'+'oc'+'us'+',\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'in'+'pu'+'t['+'ty'+'pe'+'=\x22'+'ur'+'l\x22'+']:'+'fo'+'cu'+'s,'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20t'+'ex'+'ta'+'re'+'a:'+'fo'+'cu'+'s,'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20s'+'el'+'ec'+'t:'+'fo'+'cu'+'s\x20'+'{\x20'+'bo'+'rd'+'er'+'-c'+'ol'+'or'+':\x20'+'va'+'r('+'--'+'se'+'co'+'nd'+'ar'+'y-'+'co'+'lo'+'r)'+';\x20'+'ou'+'tl'+'in'+'e:'+'\x20n'+'on'+'e;'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20.'+'bu'+'tt'+'on'+',\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'ta'+'bl'+'e\x20'+'bu'+'tt'+'on'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20d'+'is'+'pl'+'ay'+':\x20'+'fl'+'ex'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'al'+'ig'+'n-'+'it'+'em'+'s:'+'\x20c'+'en'+'te'+'r;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20j'+'us'+'ti'+'fy'+'-c'+'on'+'te'+'nt'+':\x20'+'ce'+'nt'+'er'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'wi'+'dt'+'h:'+'\x201'+'00'+'%;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20w'+'hi'+'te'+'-s'+'pa'+'ce'+':\x20'+'no'+'wr'+'ap'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'pa'+'dd'+'in'+'g:'+'\x201'+'0p'+'x\x20'+'15'+'px')+(';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'fo'+'nt'+'-s'+'iz'+'e:'+'\x201'+'6p'+'x;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20f'+'on'+'t-'+'we'+'ig'+'ht'+':\x20'+'60'+'0;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20l'+'et'+'te'+'r-'+'sp'+'ac'+'in'+'g:'+'\x201'+'px'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'bo'+'rd'+'er'+':\x20'+'no'+'ne'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'bo'+'rd'+'er'+'-r'+'ad'+'iu'+'s:'+'\x205'+'px'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'lo'+'r:'+'\x20w'+'hi'+'te'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'ba'+'ck'+'gr'+'ou'+'nd'+'-c'+'ol'+'or'+':\x20'+'va'+'r('+'--'+'pr'+'im'+'ar'+'y-'+'co'+'lo'+'r)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'cu'+'rs'+'or'+':\x20'+'po'+'in'+'te'+'r;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20o'+'ut'+'li'+'ne'+':\x20'+'no'+'ne'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'bo'+'x-'+'sh'+'ad'+'ow'+':\x20'+'0\x20'+'5p'+'x\x20'+'10'+'px'+'\x20r'+'gb'+'a('+'0,'+'\x200'+',\x20'+'0,'+'\x200'+'.2'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20t'+'ra'+'ns'+'it'+'io'+'n:'+'\x20a'+'ll'+'\x200'+'.3'+'s\x20'+'ea'+'se'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'in'+'pu'+'t['+'ty'+'pe'+'=\x22'+'ch'+'ec'+'kb'+'ox'+'\x22]'+'\x20{'+'\x20\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'ba'+'ck'+'gr'+'ou'+'nd'+'-c'+'ol'+'or'+':\x20'+'va'+'r('+'--'+'in'+'pu'+'t-'+'ba'+'ck'+'gr'+'ou'+'nd'+'-c'+'ol'+'or'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20s'+'ty'+'le'+'=\x22'+'ma'+'rg'+'in'+':\x20'+'0;'+'\x20\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'gr'+'id'+'-c'+'ol'+'um'+'n:'+'\x202'+';\x22'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20t'+'ab'+'le'+'\x20b'+'ut'+'to'+'n\x20'+'{\x20'+'ma'+'rg'+'in'+':\x20'+'au'+'to'+';\x20'+'wi'+'dt'+'h:'+'\x20a'+'ut'+'o;'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20.'+'bu'+'tt'+'on'+'.d'+'is'+'ab'+'le'+'d\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'ba'+'ck'+'gr'+'ou'+'nd'+'-c'+'ol'+'or'+':\x20'+'#c'+'cc'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'cu'+'rs'+'or'+':\x20'+'no'+'t-'+'al'+'lo'+'we'+'d;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20b'+'ox'+'-s'+'ha'+'do'+'w:'+'\x20n'+'on'+'e;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20p'+'oi'+'nt'+'er'+'-e'+'ve'+'nt'+'s:'+'\x20n'+'on'+'e;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20.'+'bu'+'tt'+'on'+':h'+'ov'+'er'+',\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'ta'+'bl'+'e\x20'+'bu'+'tt'+'on'+':h'+'ov'+'er'+',\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'ta'+'bl'+'e\x20'+'bu'+'tt'+'on'+':f'+'oc'+'us'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20b'+'ac'+'kg'+'ro'+'un'+'d-'+'co'+'lo'+'r:'+'\x20#')+('29'+'80'+'b9'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'bo'+'x-'+'sh'+'ad'+'ow'+':\x20'+'0\x20'+'8p'+'x\x20'+'15'+'px'+'\x20r'+'gb'+'a('+'0,'+'\x200'+',\x20'+'0,'+'\x200'+'.3'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20t'+'ra'+'ns'+'fo'+'rm'+':\x20'+'tr'+'an'+'sl'+'at'+'eY'+'(-'+'2p'+'x)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'.h'+'ea'+'de'+'r-'+'co'+'nt'+'ai'+'ne'+'r\x20'+'bu'+'tt'+'on'+':h'+'ov'+'er'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20t'+'ra'+'ns'+'fo'+'rm'+':\x20'+'sc'+'al'+'e('+'1.'+'1)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'bu'+'tt'+'on'+'.b'+'ut'+'to'+'n:'+'ho'+'ve'+'r\x20'+'{\x20'+'co'+'lo'+'r:'+'\x20w'+'hi'+'te'+';\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'.b'+'ut'+'to'+'n:'+'ac'+'ti'+'ve'+',\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'ta'+'bl'+'e\x20'+'bu'+'tt'+'on'+':a'+'ct'+'iv'+'e\x20'+'{\x20'+'tr'+'an'+'sf'+'or'+'m:'+'\x20t'+'ra'+'ns'+'la'+'te'+'Y('+'1p'+'x)'+';\x20'+'bo'+'x-'+'sh'+'ad'+'ow'+':\x20'+'0\x20'+'3p'+'x\x20'+'7p'+'x\x20'+'rg'+'ba'+'(0'+',\x20'+'0,'+'\x200'+',\x20'+'0.'+'3)'+';\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'.f'+'or'+'m-'+'co'+'nt'+'ai'+'ne'+'r\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'ma'+'x-'+'wi'+'dt'+'h:'+'\x209'+'0%'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'ma'+'rg'+'in'+':\x20'+'0\x20'+'au'+'to'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'pa'+'dd'+'in'+'g:'+'\x202'+'0p'+'x;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20b'+'ac'+'kg'+'ro'+'un'+'d:'+'\x20v'+'ar'+'(-'+'-f'+'or'+'m-'+'ba'+'ck'+'gr'+'ou'+'nd'+'-c'+'ol'+'or'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20b'+'or'+'de'+'r:'+'\x201'+'px'+'\x20s'+'ol'+'id'+'\x20v'+'ar'+'(-'+'-b'+'or'+'de'+'r-'+'co'+'lo'+'r)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'bo'+'rd'+'er'+'-r'+'ad'+'iu'+'s:'+'\x201'+'0p'+'x;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20b'+'ox'+'-s'+'ha'+'do'+'w:'+'\x200'+'\x202'+'px'+'\x204'+'px'+'\x20r'+'gb'+'a('+'0,'+'\x200'+',\x20'+'0,'+'\x200'+'.1'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20m'+'ar'+'gi'+'n-'+'bo'+'tt'+'om'+':\x20'+'10'+'0p'+'x;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20.'+'ta'+'bl'+'e-'+'co'+'nt'+'ai'+'ne'+'r\x20'+'{\x20'+'ma'+'rg'+'in'+'-t'+'op'+':\x20'+'20'+'px'+';\x20'+'ov'+'er'+'fl'+'ow'+'-x'+':\x20'+'au'+'to'+';\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'ta'+'bl'+'e\x20'+'{\x20'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20w'+'id'+'th'+':\x20'+'10'+'0%'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'bo'+'rd'+'er'+':\x20'+'1p'+'x\x20'+'so'+'li'+'d\x20'+'va'+'r('+'--'+'bo'+'rd'+'er'+'-c'+'ol'+'or'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20b'+'or'+'de'+'r-'+'co'+'ll'+'ap'+'se'+':\x20')+('se'+'pa'+'ra'+'te'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'bo'+'rd'+'er'+'-s'+'pa'+'ci'+'ng'+':\x20'+'0;'+'\x20\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'bo'+'rd'+'er'+'-r'+'ad'+'iu'+'s:'+'\x201'+'0p'+'x;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20m'+'ar'+'gi'+'n-'+'bo'+'tt'+'om'+':\x20'+'20'+'px'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'ov'+'er'+'fl'+'ow'+':\x20'+'hi'+'dd'+'en'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'th'+',\x20'+'td'+'\x20{'+'\x20p'+'ad'+'di'+'ng'+':\x20'+'10'+'px'+';\x20'+'bo'+'rd'+'er'+'-b'+'ot'+'to'+'m:'+'\x201'+'px'+'\x20s'+'ol'+'id'+'\x20v'+'ar'+'(-'+'-b'+'or'+'de'+'r-'+'co'+'lo'+'r)'+';\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'td'+'\x20d'+'iv'+'\x20{'+'\x20d'+'is'+'pl'+'ay'+':\x20'+'fl'+'ex'+';\x20'+'al'+'ig'+'n-'+'it'+'em'+'s:'+'\x20c'+'en'+'te'+'r;'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20t'+'h\x20'+'{\x20'+'ba'+'ck'+'gr'+'ou'+'nd'+'-c'+'ol'+'or'+':\x20'+'va'+'r('+'--'+'se'+'co'+'nd'+'ar'+'y-'+'co'+'lo'+'r)'+';\x20'+'co'+'lo'+'r:'+'\x20w'+'hi'+'te'+';\x20'+'fo'+'nt'+'-w'+'ei'+'gh'+'t:'+'\x20b'+'ol'+'d;'+'\x20f'+'on'+'t-'+'si'+'ze'+':\x20'+'1.'+'1r'+'em'+';\x20'+'wi'+'dt'+'h:'+'\x205'+'0%'+';}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20t'+'d:'+'la'+'st'+'-c'+'hi'+'ld'+'\x20{'+'\x20b'+'ac'+'kg'+'ro'+'un'+'d-'+'co'+'lo'+'r:'+'\x20v'+'ar'+'(-'+'-t'+'ab'+'le'+'-a'+'ct'+'iv'+'e-'+'co'+'lo'+'r)'+';\x20'+'}\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20t'+'r:'+'ho'+'ve'+'r\x20'+'{\x20'+'ba'+'ck'+'gr'+'ou'+'nd'+'-c'+'ol'+'or'+':\x20'+'va'+'r('+'--'+'ta'+'bl'+'e-'+'ac'+'ti'+'ve'+'-c'+'ol'+'or'+');'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20.'+'mo'+'da'+'l\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'di'+'sp'+'la'+'y:'+'\x20n'+'on'+'e;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20p'+'os'+'it'+'io'+'n:'+'\x20f'+'ix'+'ed'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'z-'+'in'+'de'+'x:'+'\x201'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'le'+'ft'+':\x20'+'0;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20t'+'op'+':\x20'+'0;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20w'+'id'+'th'+':\x20'+'10'+'0%'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'he'+'ig'+'ht'+':\x20'+'10'+'0%'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'ov'+'er'+'fl'+'ow'+':\x20'+'au'+'to'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'ba'+'ck'+'gr'+'ou'+'nd'+'-c'+'ol'+'or'+':\x20'+'rg'+'ba'+'(0'+',\x20'+'0,'+'\x200'+',\x20'+'0.'+'4)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'.m'+'od'+'al'+'-c'+'on'+'te'+'nt'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20b'+'ac'+'kg'+'ro'+'un'+'d-'+'co'+'lo'+'r:'+'\x20v'+'ar'+'(-'+'-f'+'or'+'m-'+'ba'+'ck'+'gr'+'ou'+'nd')+('-c'+'ol'+'or'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20m'+'ar'+'gi'+'n:'+'\x20a'+'ut'+'o;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20p'+'ad'+'di'+'ng'+':\x20'+'10'+'px'+'\x202'+'0p'+'x\x20'+'20'+'px'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'bo'+'rd'+'er'+':\x20'+'1p'+'x\x20'+'so'+'li'+'d\x20'+'va'+'r('+'--'+'bo'+'rd'+'er'+'-c'+'ol'+'or'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20b'+'or'+'de'+'r-'+'ra'+'di'+'us'+':\x20'+'10'+'px'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'bo'+'x-'+'sh'+'ad'+'ow'+':\x20'+'0\x20'+'2p'+'x\x20'+'4p'+'x\x20'+'rg'+'ba'+'(0'+',\x20'+'0,'+'\x200'+',\x20'+'0.'+'1)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'wi'+'dt'+'h:'+'\x208'+'0%'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'po'+'si'+'ti'+'on'+':\x20'+'ab'+'so'+'lu'+'te'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'to'+'p:'+'\x205'+'0%'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'le'+'ft'+':\x20'+'50'+'%;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20t'+'ra'+'ns'+'fo'+'rm'+':\x20'+'tr'+'an'+'sl'+'at'+'e('+'-5'+'0%'+',\x20'+'-5'+'0%'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20.'+'cl'+'os'+'e\x20'+'{\x20'+'co'+'lo'+'r:'+'\x20v'+'ar'+'(-'+'-c'+'ol'+'or'+');'+'\x20f'+'lo'+'at'+':\x20'+'ri'+'gh'+'t;'+'\x20f'+'on'+'t-'+'si'+'ze'+':\x20'+'28'+'px'+';\x20'+'fo'+'nt'+'-w'+'ei'+'gh'+'t:'+'\x20b'+'ol'+'d;'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20.'+'cl'+'os'+'e:'+'ho'+'ve'+'r,'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20.'+'cl'+'os'+'e:'+'fo'+'cu'+'s\x20'+'{\x20'+'co'+'lo'+'r:'+'\x20b'+'la'+'ck'+';\x20'+'te'+'xt'+'-d'+'ec'+'or'+'at'+'io'+'n:'+'\x20n'+'on'+'e;'+'\x20c'+'ur'+'so'+'r:'+'\x20p'+'oi'+'nt'+'er'+';\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'.f'+'or'+'m-'+'co'+'nt'+'ro'+'l\x20'+'la'+'be'+'l\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'di'+'sp'+'la'+'y:'+'\x20b'+'lo'+'ck'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'ma'+'rg'+'in'+'-b'+'ot'+'to'+'m:'+'\x208'+'px'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'fo'+'nt'+'-s'+'iz'+'e:'+'\x201'+'10'+'%;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20f'+'on'+'t-'+'we'+'ig'+'ht'+':\x20'+'60'+'0;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'ol'+'or'+':\x20'+'va'+'r('+'--'+'la'+'bl'+'e-'+'te'+'xt'+'-c'+'ol'+'or'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20l'+'in'+'e-'+'he'+'ig'+'ht'+':\x20'+'1.'+'3e'+'m;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20.'+'fo'+'rm'+'-c'+'on'+'tr'+'ol'+'\x20i'+'np'+'ut'+'[t'+'yp'+'e='+'\x22p'+'as'+'sw'+'or'+'d\x22'+']\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'wi'+'dt'+'h:'+'\x201'+'00'+'%;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20p'+'ad'+'di'+'ng'+':\x20'+'10'+'px'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20')+('\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'bo'+'rd'+'er'+':\x20'+'1p'+'x\x20'+'so'+'li'+'d\x20'+'va'+'r('+'--'+'bo'+'rd'+'er'+'-c'+'ol'+'or'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20b'+'or'+'de'+'r-'+'ra'+'di'+'us'+':\x20'+'5p'+'x;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20f'+'on'+'t-'+'si'+'ze'+':\x20'+'16'+'px'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'lo'+'r:'+'\x20v'+'ar'+'(-'+'-l'+'ab'+'le'+'-t'+'ex'+'t-'+'co'+'lo'+'r)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'ba'+'ck'+'gr'+'ou'+'nd'+'-c'+'ol'+'or'+':\x20'+'va'+'r('+'--'+'in'+'pu'+'t-'+'ba'+'ck'+'gr'+'ou'+'nd'+'-c'+'ol'+'or'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20b'+'ox'+'-s'+'iz'+'in'+'g:'+'\x20b'+'or'+'de'+'r-'+'bo'+'x;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20m'+'ar'+'gi'+'n-'+'bo'+'tt'+'om'+':\x20'+'15'+'px'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'tr'+'an'+'si'+'ti'+'on'+':\x20'+'bo'+'rd'+'er'+'-c'+'ol'+'or'+'\x200'+'.3'+'s\x20'+'ea'+'se'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'.r'+'ou'+'ti'+'ng'+'\x20{'+'\x20\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'di'+'sp'+'la'+'y:'+'\x20g'+'ri'+'d;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20j'+'us'+'ti'+'fy'+'-c'+'on'+'te'+'nt'+':\x20'+'fl'+'ex'+'-s'+'ta'+'rt'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'gr'+'id'+'-t'+'em'+'pl'+'at'+'e-'+'co'+'lu'+'mn'+'s:'+'\x201'+'fr'+'\x201'+'fr'+'\x201'+'0f'+'r\x20'+'1f'+'r;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20m'+'ar'+'gi'+'n-'+'bo'+'tt'+'om'+':\x20'+'15'+'px'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'.f'+'or'+'m-'+'co'+'nt'+'ro'+'l\x20'+'.r'+'ou'+'ti'+'ng'+'\x20i'+'np'+'ut'+'\x20{'+'\x20g'+'ri'+'d-'+'co'+'lu'+'mn'+':\x20'+'2\x20'+'/\x20'+'3;'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20#'+'ro'+'ut'+'in'+'g-'+'ru'+'le'+'s.'+'fo'+'rm'+'-c'+'on'+'tr'+'ol'+'\x20{'+'\x20d'+'is'+'pl'+'ay'+':\x20'+'gr'+'id'+';\x20'+'gr'+'id'+'-t'+'em'+'pl'+'at'+'e-'+'co'+'lu'+'mn'+'s:'+'\x201'+'fr'+'\x201'+'fr'+';\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'.r'+'ou'+'ti'+'ng'+'\x20l'+'ab'+'el'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20t'+'ex'+'t-'+'al'+'ig'+'n:'+'\x20l'+'ef'+'t;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20m'+'ar'+'gi'+'n:'+'\x200'+'\x200'+'\x200'+'\x201'+'0p'+'x;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20f'+'on'+'t-'+'we'+'ig'+'ht'+':\x20'+'40'+'0;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20f'+'on'+'t-'+'si'+'ze'+':\x20'+'10'+'0%'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'te'+'xt'+'-w'+'ra'+'p:'+'\x20n'+'ow'+'ra'+'p;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20.'+'fo'+'rm'+'-c'+'on'+'tr'+'ol'+'\x20i'+'np'+'ut'+'[t'+'yp'+'e='+'\x22p'+'as'+'sw'+'or'+'d\x22'+']:')+('fo'+'cu'+'s\x20'+'{\x20'+'bo'+'rd'+'er'+'-c'+'ol'+'or'+':\x20'+'va'+'r('+'--'+'se'+'co'+'nd'+'ar'+'y-'+'co'+'lo'+'r)'+';\x20'+'ou'+'tl'+'in'+'e:'+'\x20n'+'on'+'e;'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20#'+'pa'+'ss'+'wo'+'rd'+'Er'+'ro'+'r\x20'+'{\x20'+'co'+'lo'+'r:'+'\x20r'+'ed'+';\x20'+'ma'+'rg'+'in'+'-b'+'ot'+'to'+'m:'+'\x201'+'0p'+'x;'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20.'+'sy'+'mb'+'ol'+'\x20{'+'\x20m'+'ar'+'gi'+'n-'+'ri'+'gh'+'t:'+'\x208'+'px'+';\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'.m'+'od'+'al'+'QR'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20d'+'is'+'pl'+'ay'+':\x20'+'no'+'ne'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'po'+'si'+'ti'+'on'+':\x20'+'fi'+'xe'+'d;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20z'+'-i'+'nd'+'ex'+':\x20'+'1;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20l'+'ef'+'t:'+'\x200'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'to'+'p:'+'\x200'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'wi'+'dt'+'h:'+'\x201'+'00'+'%;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20h'+'ei'+'gh'+'t:'+'\x201'+'00'+'%;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20o'+'ve'+'rf'+'lo'+'w:'+'\x20a'+'ut'+'o;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20b'+'ac'+'kg'+'ro'+'un'+'d-'+'co'+'lo'+'r:'+'\x20r'+'gb'+'a('+'0,'+'\x200'+',\x20'+'0,'+'\x200'+'.4'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20.'+'fl'+'oa'+'ti'+'ng'+'-b'+'ut'+'to'+'n\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'po'+'si'+'ti'+'on'+':\x20'+'fi'+'xe'+'d;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20b'+'ot'+'to'+'m:'+'\x202'+'0p'+'x;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20l'+'ef'+'t:'+'\x202'+'0p'+'x;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20b'+'ac'+'kg'+'ro'+'un'+'d-'+'co'+'lo'+'r:'+'\x20v'+'ar'+'(-'+'-c'+'ol'+'or'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'ol'+'or'+':\x20'+'wh'+'it'+'e;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20b'+'or'+'de'+'r:'+'\x20n'+'on'+'e;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20b'+'or'+'de'+'r-'+'ra'+'di'+'us'+':\x20'+'50'+'%;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20w'+'id'+'th'+':\x20'+'60'+'px'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'he'+'ig'+'ht'+':\x20'+'60'+'px'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'fo'+'nt'+'-s'+'iz'+'e:'+'\x202'+'4p'+'x;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'ur'+'so'+'r:'+'\x20p'+'oi'+'nt'+'er'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'bo'+'x-'+'sh'+'ad'+'ow'+':\x20'+'0\x20'+'4p'+'x\x20'+'8p'+'x\x20'+'rg'+'ba'+'(0'+',\x20'+'0,'+'\x200'+',\x20'+'0.'+'2)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'tr'+'an'+'si'+'ti'+'on'+':\x20'+'ba'+'ck'+'gr'+'ou'+'nd'+'-c'+'ol'+'or'+'\x200'+'.3'+'s,'+'\x20t'+'ra'+'ns'+'fo')+('rm'+'\x200'+'.3'+'s;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20.'+'fl'+'oa'+'ti'+'ng'+'-b'+'ut'+'to'+'n:'+'ho'+'ve'+'r\x20'+'{\x20'+'tr'+'an'+'sf'+'or'+'m:'+'\x20s'+'ca'+'le'+'(1'+'.1'+');'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20.'+'mi'+'n-'+'ma'+'x\x20'+'{\x20'+'di'+'sp'+'la'+'y:'+'\x20g'+'ri'+'d;'+'\x20g'+'ri'+'d-'+'te'+'mp'+'la'+'te'+'-c'+'ol'+'um'+'ns'+':\x20'+'1f'+'r\x20'+'au'+'to'+'\x201'+'fr'+';\x20'+'al'+'ig'+'n-'+'it'+'em'+'s:'+'\x20b'+'as'+'el'+'in'+'e;'+'\x20w'+'id'+'th'+':\x20'+'10'+'0%'+';\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'.m'+'in'+'-m'+'ax'+'\x20s'+'pa'+'n\x20'+'{\x20'+'te'+'xt'+'-a'+'li'+'gn'+':\x20'+'ce'+'nt'+'er'+';\x20'+'wh'+'it'+'e-'+'sp'+'ac'+'e:'+'\x20p'+'re'+';\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'.i'+'np'+'ut'+'-w'+'it'+'h-'+'se'+'le'+'ct'+'\x20{'+'\x20w'+'id'+'th'+':\x20'+'10'+'0%'+';\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'bo'+'dy'+'.d'+'ar'+'k-'+'mo'+'de'+'\x20.'+'fl'+'oa'+'ti'+'ng'+'-b'+'ut'+'to'+'n\x20'+'{\x20'+'ba'+'ck'+'gr'+'ou'+'nd'+'-c'+'ol'+'or'+':\x20'+'va'+'r('+'--'+'co'+'lo'+'r)'+';\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'bo'+'dy'+'.d'+'ar'+'k-'+'mo'+'de'+'\x20.'+'fl'+'oa'+'ti'+'ng'+'-b'+'ut'+'to'+'n:'+'ho'+'ve'+'r\x20'+'{\x20'+'tr'+'an'+'sf'+'or'+'m:'+'\x20s'+'ca'+'le'+'(1'+'.1'+');'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20#'+'ip'+'s\x20'+'th'+'\x20{'+'\x20b'+'ac'+'kg'+'ro'+'un'+'d-'+'co'+'lo'+'r:'+'\x20v'+'ar'+'(-'+'-h'+'r-'+'te'+'xt'+'-c'+'ol'+'or'+');'+'\x20c'+'ol'+'or'+':\x20'+'va'+'r('+'--'+'ba'+'ck'+'gr'+'ou'+'nd'+'-c'+'ol'+'or'+');'+'\x20w'+'id'+'th'+':\x20'+'un'+'se'+'t;'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20#'+'ip'+'s\x20'+'td'+'\x20{'+'\x20b'+'ac'+'kg'+'ro'+'un'+'d-'+'co'+'lo'+'r:'+'\x20u'+'ns'+'et'+';\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'#i'+'ps'+'\x20t'+'d:'+'fi'+'rs'+'t-'+'ch'+'il'+'d\x20'+'{\x20'+'ba'+'ck'+'gr'+'ou'+'nd'+'-c'+'ol'+'or'+':\x20'+'va'+'r('+'--'+'ta'+'bl'+'e-'+'ac'+'ti'+'ve'+'-c'+'ol'+'or'+');'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20.'+'he'+'ad'+'er'+'-c'+'on'+'ta'+'in'+'er'+'\x20{'+'\x20d'+'is'+'pl'+'ay'+':\x20'+'fl'+'ex'+';\x20'+'al'+'ig'+'n-'+'it'+'em'+'s:'+'\x20c'+'en'+'te'+'r;'+'\x20j'+'us'+'ti'+'fy'+'-c'+'on'+'te'+'nt'+':\x20'+'ce'+'nt'+'er'+';\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'@m'+'ed'+'ia'+'\x20o'+'nl'+'y\x20'+'sc'+'re'+'en'+'\x20a'+'nd'+'\x20('+'mi'+'n-'+'wi'+'dt'+'h:'+'\x207'+'68'+'px'+')\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'.f'+'or'+'m-'+'co'+'nt'+'ai'+'ne'+'r\x20'+'{\x20'+'ma'+'x-'+'wi'+'dt'+'h:'+'\x207'+'0%'+';\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'.f'+'or'+'m-'+'co'+'nt'+'ro'+'l\x20'+'{\x20'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20m'+'ar'+'gi'+'n-'+'bo'+'tt'+'om'+':\x20'+'15'+'px'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20')+('\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'di'+'sp'+'la'+'y:'+'\x20g'+'ri'+'d;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20g'+'ri'+'d-'+'te'+'mp'+'la'+'te'+'-c'+'ol'+'um'+'ns'+':\x20'+'1f'+'r\x20'+'1f'+'r;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20a'+'li'+'gn'+'-i'+'te'+'ms'+':\x20'+'ba'+'se'+'li'+'ne'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'ju'+'st'+'if'+'y-'+'co'+'nt'+'en'+'t:'+'\x20f'+'le'+'x-'+'en'+'d;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20f'+'on'+'t-'+'fa'+'mi'+'ly'+':\x20'+'Ar'+'ia'+'l,'+'\x20s'+'an'+'s-'+'se'+'ri'+'f;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20#'+'ap'+'pl'+'y\x20'+'{\x20'+'di'+'sp'+'la'+'y:'+'\x20b'+'lo'+'ck'+';\x20'+'ma'+'rg'+'in'+':\x20'+'20'+'px'+'\x20a'+'ut'+'o\x20'+'0\x20'+'au'+'to'+';\x20'+'ma'+'x-'+'wi'+'dt'+'h:'+'\x205'+'0%'+';\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'.m'+'od'+'al'+'-c'+'on'+'te'+'nt'+'\x20{'+'\x20w'+'id'+'th'+':\x20'+'30'+'%\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'.r'+'ou'+'ti'+'ng'+'\x20{'+'\x20d'+'is'+'pl'+'ay'+':\x20'+'gr'+'id'+';\x20'+'gr'+'id'+'-t'+'em'+'pl'+'at'+'e-'+'co'+'lu'+'mn'+'s:'+'\x204'+'fr'+'\x201'+'fr'+'\x203'+'fr'+'\x204'+'fr'+';\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'st'+'yl'+'e>'+'\x0a\x20'+'\x20\x20'+'\x20<'+'/h'+'ea'+'d>'+'\x0a\x20'+'\x20\x20'+'\x20<'+'bo'+'dy'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<h'+'1>'+'BP'+'B\x20'+'Pa'+'ne'+'l\x20'+'<s'+'pa'+'n\x20'+'st'+'yl'+'e='+'\x22f'+'on'+'t-'+'si'+'ze'+':\x20'+'sm'+'al'+'le'+'r;'+'\x22>'))+globalThis['pa'+'ne'+'lV'+'er'+'si'+'on']+('</'+'sp'+'an'+'>\x20'+_0x134c74(0x1ef)+'/h'+'1>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'di'+'v\x20'+'cl'+'as'+'s='+'\x22f'+'or'+'m-'+'co'+'nt'+'ai'+'ne'+'r\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<f'+'or'+'m\x20'+'id'+'=\x22'+'co'+'nf'+'ig'+'Fo'+'rm'+'\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'de'+'ta'+'il'+'s\x20'+'op'+'en'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<s'+'um'+'ma'+'ry'+'><'+'h2'+'>V'+'LE'+'SS'+'\x20-'+'\x20T'+'RO'+'JA'+'N\x20'+'⚙️<'+'/h'+'2>'+'</'+'su'+'mm'+'ar'+'y>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'di'+'v\x20'+'cl'+'as'+'s='+'\x22f'+'or'+'m-'+'co'+'nt'+'ro'+'l\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<l'+'ab'+'el'+'\x20f'+'or'+'=\x22'+'re'+'mo'+'te'+'DN'+'S\x22'+_0x134c74(0x206)+'\x20R'+'em'+'ot'+'e\x20'+'DN'+'S<'+'/l'+'ab'+'el'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<i'+'np'+'ut'+'\x20t'+'yp'+'e='+'\x22u'+'rl'+'\x22\x20'+'id'+'=\x22'+'re'+'mo'+'te'+'DN'+'S\x22'+'\x20n'+'am'+'e='+'\x22r'+'em'+'ot'+'eD'+'NS'+'\x22\x20'+'va'+'lu'+'e='+'\x22')+_0x1672f6+('\x22\x20'+'re'+'qu'+'ir'+'ed'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'di'+'v>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'di'+'v\x20'+'cl'+'as'+'s='+'\x22f'+'or'+'m-'+'co'+'nt'+'ro'+'l\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<l'+'ab'+'el'+'\x20f'+'or'+'=\x22'+'lo'+'ca'+'lD'+'NS'+'\x22>'+_0x106af9(0x1c8)+'Lo'+'ca'+'l\x20'+'DN'+'S<'+'/l'+'ab'+'el'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<i'+'np'+'ut'+'\x20t'+'yp'+'e='+'\x22t'+'ex'+'t\x22'+'\x20i'+'d='+'\x22l'+'oc'+'al'+'DN'+'S\x22'+'\x20n'+'am'+'e='+'\x22l'+'oc'+'al'+'DN'+'S\x22'+'\x20v'+'al'+'ue'+'=\x22')+_0x1bafb8+('\x22\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'pa'+'tt'+'er'+'n='+'\x22^'+'(?'+':\x5c'+'d{'+'1,'+'3}'+'\x5c.'+'){'+'3}'+'\x5cd'+'{1'+',3'+'}$'+'\x22\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'ti'+'tl'+'e='+'\x22P'+'le'+'as'+'e\x20'+'en'+'te'+'r\x20'+'a\x20'+'va'+'li'+'d\x20'+'DN'+'S\x20'+'IP'+'\x20A'+'dd'+'re'+'ss'+'!\x22'+'\x20\x20'+'re'+'qu'+'ir'+'ed'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'di'+'v>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'di'+'v\x20'+'cl'+'as'+'s='+'\x22f'+'or'+'m-'+'co'+'nt'+'ro'+'l\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<l'+'ab'+'el'+'\x20f'+'or'+'=\x22'+'vl'+'es'+'sT'+'ro'+'ja'+'nF'+'ak'+'eD'+'NS'+'\x22>'+_0x106af9(0x1ca)+'Fa'+'ke'+'\x20D'+'NS'+'</'+'la'+'be'+'l>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'di'+'v\x20'+'cl'+'as'+'s='+'\x22i'+'np'+'ut'+'-w'+'it'+'h-'+'se'+'le'+'ct'+'\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'se'+'le'+'ct'+'\x20i'+'d='+'\x22v'+'le'+'ss'+'Tr'+'oj'+'an'+'Fa'+'ke'+'DN'+'S\x22'+'\x20n'+'am'+'e='+'\x22v'+'le'+'ss'+'Tr'+'oj'+'an'+'Fa'+'ke'+'DN'+'S\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<o'+'pt'+'io'+'n\x20'+'va'+'lu'+'e='+'\x22t'+'ru'+'e\x22'+'\x20')+(_0x106c08?'se'+'le'+'ct'+'ed':'')+('>E'+'na'+'bl'+'ed'+'</'+'op'+'ti'+'on'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<o'+'pt'+'io'+'n\x20'+'va'+'lu'+'e='+'\x22f'+'al'+'se'+'\x22\x20')+(!_0x106c08?'se'+'le'+'ct'+'ed':'')+('>D'+'is'+'ab'+'le'+'d<'+'/o'+'pt'+'io'+'n>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/s'+'el'+'ec'+'t>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/d'+'iv'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'di'+'v>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'di'+'v\x20'+'cl'+'as'+'s='+'\x22f'+'or'+'m-'+'co'+'nt'+'ro'+'l\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<l'+'ab'+'el'+'\x20f'+'or'+'=\x22'+'pr'+'ox'+'yI'+'P\x22'+_0x134c74(0x1ff)+'\x20P'+'ro'+'xy'+'\x20I'+'Ps'+'\x20/'+'\x20D'+'om'+'ai'+'ns'+'</'+'la'+'be'+'l>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'in'+'pu'+'t\x20'+'ty'+'pe'+'=\x22'+'te'+'xt'+'\x22\x20'+'id'+'=\x22'+'pr'+'ox'+'yI'+'P\x22'+'\x20n'+'am'+'e='+'\x22p'+'ro'+'xy'+'IP'+'\x22\x20'+'va'+'lu'+'e='+'\x22')+_0x21c8b3['re'+'pl'+'ac'+'eA'+'ll'](',','\x20,'+'\x20')+('\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/d'+'iv'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<d'+'iv'+'\x20c'+'la'+'ss'+'=\x22'+'fo'+'rm'+'-c'+'on'+'tr'+'ol'+'\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'la'+'be'+'l\x20'+'fo'+'r='+'\x22o'+'ut'+'Pr'+'ox'+'y\x22'+_0x106af9(0x1c5)+'\x20C'+'ha'+'in'+'\x20P'+'ro'+'xy'+'</'+'la'+'be'+'l>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'in'+'pu'+'t\x20'+'ty'+'pe'+'=\x22'+'te'+'xt'+'\x22\x20'+'id'+'=\x22'+'ou'+'tP'+'ro'+'xy'+'\x22\x20'+'na'+'me'+'=\x22'+'ou'+'tP'+'ro'+'xy'+'\x22\x20'+'va'+'lu'+'e='+'\x22')+_0x5ea670+('\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/d'+'iv'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<d'+'iv'+'\x20c'+'la'+'ss'+'=\x22'+'fo'+'rm'+'-c'+'on'+'tr'+'ol'+'\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'la'+'be'+'l\x20'+'fo'+'r='+'\x22c'+'le'+'an'+'IP'+'s\x22'+'>✨'+'\x20C'+'le'+'an'+'\x20I'+'Ps'+'\x20/'+'\x20D'+'om'+'ai'+'ns'+'</'+'la'+'be'+'l>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'in'+'pu'+'t\x20'+'ty'+'pe'+'=\x22'+'te'+'xt'+'\x22\x20'+'id'+'=\x22'+'cl'+'ea'+'nI'+'Ps'+'\x22\x20'+'na'+'me'+'=\x22'+'cl'+'ea'+'nI'+'Ps'+'\x22\x20'+'va'+'lu'+'e='+'\x22')+_0xb1e5a9['re'+'pl'+'ac'+'eA'+'ll'](',','\x20,'+'\x20')+('\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/d'+'iv'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<d'+'iv'+'\x20c'+'la'+'ss'+'=\x22'+'fo'+'rm'+'-c'+'on'+'tr'+'ol'+'\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'la'+'be'+'l\x20'+'fo'+'r='+'\x22s'+'ca'+'nn'+'er'+'\x22>'+_0x134c74(0x1e3)+'Cl'+'ea'+'n\x20'+'IP'+'\x20S'+'ca'+'nn'+'er'+'</'+'la'+'be'+'l>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'a\x20'+'hr'+'ef'+'=\x22')+atob('aH'+'R0'+'cH'+'M6'+'Ly'+'9n'+'aX'+'Ro'+'dW'+'Iu'+'Y2'+'9t'+'L2'+'Jp'+'YS'+'1w'+'YW'+'lu'+'LW'+'Jh'+'Y2'+'hl')+('/C'+'lo'+'ud'+'fl'+'ar'+'e-'+'Cl'+'ea'+'n-'+'IP'+'-S'+'ca'+'nn'+'er'+'/r'+'el'+'ea'+'se'+'s/'+'ta'+'g/'+'v2'+'.2'+'.5'+'\x22\x20'+'na'+'me'+'=\x22'+'sc'+'an'+'ne'+'r\x22'+'\x20t'+'ar'+'ge'+'t='+'\x22_'+'bl'+'an'+'k\x22'+'\x20s'+'ty'+'le'+'=\x22'+'wi'+'dt'+'h:'+'\x201'+'00'+'%;'+'\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'bu'+'tt'+'on'+'\x20t'+'yp'+'e='+'\x22b'+'ut'+'to'+'n\x22'+'\x20i'+'d='+'\x22s'+'ca'+'nn'+'er'+'\x22\x20'+'cl'+'as'+'s='+'\x22b'+'ut'+'to'+'n\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'Do'+'wn'+'lo'+'ad'+'\x20S'+'ca'+'nn'+'er'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'sp'+'an'+'\x20c'+'la'+'ss'+'=\x22'+'ma'+'te'+'ri'+'al'+'-s'+'ym'+'bo'+'ls'+'-o'+'ut'+'li'+'ne'+'d\x22'+'>o'+'pe'+'n_'+'in'+'_n'+'ew'+'</'+'sp'+'an'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'bu'+'tt'+'on'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'a>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/d'+'iv'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<d'+'iv'+'\x20c'+'la'+'ss'+'=\x22'+'fo'+'rm'+'-c'+'on'+'tr'+'ol'+'\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'la'+'be'+'l\x20'+'fo'+'r='+'\x22e'+'na'+'bl'+'eI'+'Pv'+'6\x22'+_0x106af9(0x1bd)+'\x20I'+'Pv'+'6<'+'/l'+'ab'+'el'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<d'+'iv'+'\x20c'+'la'+'ss'+'=\x22'+'in'+'pu'+'t-'+'wi'+'th'+'-s'+'el'+'ec'+'t\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<s'+'el'+'ec'+'t\x20'+'id'+'=\x22'+'en'+'ab'+'le'+'IP'+'v6'+'\x22\x20'+'na'+'me'+'=\x22'+'en'+'ab'+'le'+'IP'+'v6'+'\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'op'+'ti'+'on'+'\x20v'+'al'+'ue'+'=\x22'+'tr'+'ue'+'\x22\x20')+(_0x4356dd?'se'+'le'+'ct'+'ed':'')+('>E'+'na'+'bl'+'ed'+'</'+'op'+'ti'+'on'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<o'+'pt'+'io'+'n\x20'+'va'+'lu'+'e='+'\x22f'+'al'+'se'+'\x22\x20')+(!_0x4356dd?'se'+'le'+'ct'+'ed':'')+('>D'+'is'+'ab'+'le'+'d<'+'/o'+'pt'+'io'+'n>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/s'+'el'+'ec'+'t>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/d'+'iv'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'di'+'v>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'di'+'v\x20'+'cl'+'as'+'s='+'\x22f'+'or'+'m-'+'co'+'nt'+'ro'+'l\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<l'+'ab'+'el'+'\x20f'+'or'+'=\x22'+'cu'+'st'+'om'+'Cd'+'nA'+'dd'+'rs'+'\x22>'+_0x106af9(0x1c3)+'Cu'+'st'+'om'+'\x20C'+'DN'+'\x20A'+'dd'+'rs'+'</'+'la'+'be'+'l>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'in'+'pu'+'t\x20'+'ty'+'pe'+'=\x22'+'te'+'xt'+'\x22\x20'+'id'+'=\x22'+'cu'+'st'+'om'+'Cd'+'nA'+'dd'+'rs'+'\x22\x20'+'na'+'me'+'=\x22'+'cu'+'st'+'om'+'Cd'+'nA'+'dd'+'rs'+'\x22\x20'+'va'+'lu'+'e='+'\x22')+_0x5b619b['re'+'pl'+'ac'+'eA'+'ll'](',','\x20,'+'\x20')+('\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/d'+'iv'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<d'+'iv'+'\x20c'+'la'+'ss'+'=\x22'+'fo'+'rm'+'-c'+'on'+'tr'+'ol'+'\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'la'+'be'+'l\x20'+'fo'+'r='+'\x22c'+'us'+'to'+'mC'+'dn'+'Ho'+'st'+'\x22>'+_0x106af9(0x1c3)+'Cu'+'st'+'om'+'\x20C'+'DN'+'\x20H'+'os'+'t<'+'/l'+'ab'+'el'+'>\x20'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'in'+'pu'+'t\x20'+'ty'+'pe'+'=\x22'+'te'+'xt'+'\x22\x20'+'id'+'=\x22'+'cu'+'st'+'om'+'Cd'+'nH'+'os'+'t\x22'+'\x20n'+'am'+'e='+'\x22c'+'us'+'to'+'mC'+'dn'+'Ho'+'st'+'\x22\x20'+'va'+'lu'+'e='+'\x22')+_0x291de8+('\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/d'+'iv'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<d'+'iv'+'\x20c'+'la'+'ss'+'=\x22'+'fo'+'rm'+'-c'+'on'+'tr'+'ol'+'\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'la'+'be'+'l\x20'+'fo'+'r='+'\x22c'+'us'+'to'+'mC'+'dn'+'Sn'+'i\x22'+_0x106af9(0x1c9)+'\x20C'+'us'+'to'+'m\x20'+'CD'+'N\x20'+'SN'+'I<'+'/l'+'ab'+'el'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<i'+'np'+'ut'+'\x20t'+'yp'+'e='+'\x22t'+'ex'+'t\x22'+'\x20i'+'d='+'\x22c'+'us'+'to'+'mC'+'dn'+'Sn'+'i\x22'+'\x20n'+'am'+'e='+'\x22c'+'us'+'to'+'mC'+'dn'+'Sn'+'i\x22'+'\x20v'+'al'+'ue'+'=\x22')+_0x2cc360+('\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/d'+'iv'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<d'+'iv'+'\x20c'+'la'+'ss'+'=\x22'+'fo'+'rm'+'-c'+'on'+'tr'+'ol'+'\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'la'+'be'+'l\x20'+'fo'+'r='+'\x22b'+'es'+'tV'+'LE'+'SS'+'Tr'+'oj'+'an'+'In'+'te'+'rv'+'al'+'\x22>'+_0x106af9(0x1b5)+'Be'+'st'+'\x20I'+'nt'+'er'+'va'+'l<'+'/l'+'ab'+'el'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<i'+'np'+'ut'+'\x20t'+'yp'+'e='+'\x22n'+'um'+'be'+'r\x22'+'\x20i'+'d='+'\x22b'+'es'+'tV'+'LE'+'SS'+'Tr'+'oj'+'an'+'In'+'te'+'rv'+'al'+'\x22\x20'+'na'+'me'+'=\x22'+'be'+'st'+'VL'+'ES'+'ST'+'ro'+'ja'+'nI'+'nt'+'er'+'va'+'l\x22'+'\x20m'+'in'+'=\x22'+'10'+'\x22\x20'+'ma'+'x='+'\x229'+'0\x22'+'\x20v'+'al'+'ue'+'=\x22')+_0x3c33bc+('\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/d'+'iv'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<d'+'iv'+'\x20c'+'la'+'ss'+'=\x22'+'fo'+'rm'+'-c'+'on'+'tr'+'ol'+'\x22\x20'+'st'+'yl'+'e='+'\x22p'+'ad'+'di'+'ng'+'-t'+'op'+':\x20'+'10'+'px'+';\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<l'+'ab'+'el'+'\x20f'+'or'+'=\x22'+'vl'+'es'+'sC'+'on'+'fi'+'gs'+'\x22>'+_0x106af9(0x1ae)+'Pr'+'ot'+'oc'+'ol'+'s<'+'/l'+'ab'+'el'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<d'+'iv'+'\x20s'+'ty'+'le'+'=\x22'+'wi'+'dt'+'h:'+'\x201'+'00'+'%;'+'\x20d'+'is'+'pl'+'ay'+':\x20'+'gr'+'id'+';\x20'+'gr'+'id'+'-t'+'em'+'pl'+'at'+'e-'+'co'+'lu'+'mn'+'s:'+'\x201'+'fr'+'\x201'+'fr'+';\x20'+'al'+'ig'+'n-'+'it'+'em'+'s:'+'\x20b'+'as'+'el'+'in'+'e;'+'\x20m'+'ar'+'gi'+'n-'+'to'+'p:'+'\x201'+'0p'+'x;'+'\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'di'+'v\x20'+'st'+'yl'+'e\x20'+'=\x20'+'\x22d'+'is'+'pl'+'ay'+':\x20'+'fl'+'ex'+';\x20'+'ju'+'st'+'if'+'y-'+'co'+'nt'+'en'+'t:'+'\x20c'+'en'+'te'+'r;'+'\x20a'+'li'+'gn'+'-i'+'te'+'ms'+':\x20'+'ce'+'nt'+'er'+';\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<i'+'np'+'ut'+'\x20t'+'yp'+'e='+'\x22c'+'he'+'ck'+'bo'+'x\x22'+'\x20i'+'d='+'\x22v'+'le'+'ss'+'Co'+'nf'+'ig'+'s\x22'+'\x20n'+'am'+'e='+'\x22v'+'le'+'ss'+'Co'+'nf'+'ig'+'s\x22'+'\x20o'+'nc'+'ha'+'ng'+'e='+'\x22h'+'an'+'dl'+'eP'+'ro'+'to'+'co'+'lC'+'ha'+'ng'+'e('+'ev'+'en'+'t)'+'\x22\x20'+'va'+'lu'+'e='+'\x22t'+'ru'+'e\x22'+'\x20')+(_0x512fca?'ch'+'ec'+'ke'+'d':'')+('>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<l'+'ab'+'el'+'\x20f'+'or'+'=\x22'+'vl'+'es'+'sC'+'on'+'fi'+'gs'+'\x22\x20'+'st'+'yl'+'e='+'\x22m'+'ar'+'gi'+'n:'+'\x200'+'\x205'+'px'+';\x20'+'fo'+'nt'+'-w'+'ei'+'gh'+'t:'+'\x20n'+'or'+'ma'+'l;'+'\x20f'+'on'+'t-'+'si'+'ze'+':\x20'+'un'+'se'+'t;'+'\x22>'+'VL'+'ES'+'S<'+'/l'+'ab'+'el'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'di'+'v>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'di'+'v\x20'+'st'+'yl'+'e\x20'+'=\x20'+'\x22d'+'is'+'pl'+'ay'+':\x20'+'fl'+'ex'+';\x20'+'ju'+'st'+'if'+'y-'+'co'+'nt'+'en'+'t:'+'\x20c'+'en'+'te'+'r;'+'\x20a'+'li'+'gn'+'-i'+'te'+'ms'+':\x20'+'ce'+'nt'+'er'+';\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<i'+'np'+'ut'+'\x20t'+'yp'+'e='+'\x22c'+'he'+'ck'+'bo'+'x\x22'+'\x20i'+'d='+'\x22t'+'ro'+'ja'+'nC'+'on'+'fi'+'gs'+'\x22\x20'+'na'+'me'+'=\x22'+'tr'+'oj'+'an'+'Co'+'nf'+'ig'+'s\x22'+'\x20o'+'nc'+'ha'+'ng'+'e='+'\x22h'+'an'+'dl'+'eP'+'ro'+'to'+'co'+'lC'+'ha'+'ng'+'e('+'ev'+'en'+'t)'+'\x22\x20'+'va'+'lu'+'e='+'\x22t'+'ru'+'e\x22'+'\x20')+(_0x25c7e9?'ch'+'ec'+'ke'+'d':'')+('>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<l'+'ab'+'el'+'\x20f'+'or'+'=\x22'+'tr'+'oj'+'an'+'Co'+'nf'+'ig'+'s\x22'+'\x20s'+'ty'+'le'+'=\x22'+'ma'+'rg'+'in'+':\x20'+'0\x20'+'5p'+'x;'+'\x20f'+'on'+'t-'+'we'+'ig'+'ht'+':\x20'+'no'+'rm'+'al'+';\x20'+'fo'+'nt'+'-s'+'iz'+'e:'+'\x20u'+'ns'+'et'+';\x22'+'>T'+'ro'+'ja'+'n<'+'/l'+'ab'+'el'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'di'+'v>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/d'+'iv'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'di'+'v>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'di'+'v\x20'+'cl'+'as'+'s='+'\x22t'+'ab'+'le'+'-c'+'on'+'ta'+'in'+'er'+'\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'ta'+'bl'+'e\x20'+'id'+'=\x22'+'po'+'rt'+'s-'+'bl'+'oc'+'k\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<t'+'r>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'th'+'\x20s'+'ty'+'le'+'=\x22'+'te'+'xt'+'-w'+'ra'+'p:'+'\x20n'+'ow'+'ra'+'p;'+'\x20b'+'ac'+'kg'+'ro'+'un'+'d-'+'co'+'lo'+'r:'+'\x20g'+'ra'+'y;'+'\x22>'+'Co'+'nf'+'ig'+'\x20t'+'yp'+'e<'+'/t'+'h>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'th'+'\x20s'+'ty'+'le'+'=\x22'+'te'+'xt'+'-w'+'ra'+'p:'+'\x20n'+'ow'+'ra'+'p;'+'\x20b'+'ac'+'kg'+'ro'+'un'+'d-'+'co'+'lo'+'r:'+'\x20g'+'ra'+'y;'+'\x22>'+'Po'+'rt'+'s<'+'/t'+'h>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/t'+'r>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'tr'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<t'+'d\x20'+'st'+'yl'+'e='+'\x22t'+'ex'+'t-'+'al'+'ig'+'n:'+'\x20c'+'en'+'te'+'r;'+'\x20f'+'on'+'t-'+'si'+'ze'+':\x20'+'la'+'rg'+'er'+';\x22'+'><'+'b>'+'TL'+'S<'+'/b'+'><'+'/t'+'d>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'td'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<d'+'iv'+'\x20s'+'ty'+'le'+'=\x22'+'di'+'sp'+'la'+'y:'+'\x20g'+'ri'+'d;'+'\x20g'+'ri'+'d-'+'te'+'mp'+'la'+'te'+'-c'+'ol'+'um'+'ns'+':\x20'+'1f'+'r\x20'+'1f'+'r\x20'+'1f'+'r\x20'+'1f'+'r;'+'\x22>')+_0x366714+('</'+'di'+'v>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/t'+'d>'+'\x20\x20'+'\x20\x20'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/t'+'r>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20')+(!_0x1c5bd7?'':'<t'+'r>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'td'+'\x20s'+'ty'+'le'+'=\x22'+'te'+'xt'+'-a'+'li'+'gn'+':\x20'+'ce'+'nt'+'er'+';\x20'+'fo'+'nt'+'-s'+'iz'+'e:'+'\x20l'+'ar'+'ge'+'r;'+'\x22>'+'<b'+'>N'+'on'+'\x20T'+'LS'+'</'+'b>'+'</'+'td'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<t'+'d>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'di'+'v\x20'+'st'+'yl'+'e='+'\x22d'+'is'+'pl'+'ay'+':\x20'+'gr'+'id'+';\x20'+'gr'+'id'+'-t'+'em'+'pl'+'at'+'e-'+'co'+'lu'+'mn'+'s:'+'\x201'+'fr'+'\x201'+'fr'+'\x201'+'fr'+'\x201'+'fr'+';\x22'+'>'+_0x1c5bd7+('</'+'di'+'v>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/t'+'d>'+'\x20\x20'+'\x20\x20'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/t'+'r>'))+('\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/t'+'ab'+'le'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'di'+'v>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/d'+'et'+'ai'+'ls'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<d'+'et'+'ai'+'ls'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<s'+'um'+'ma'+'ry'+'><'+'h2'+'>F'+'RA'+'GM'+'EN'+'T\x20'+_0x106af9(0x1c4)+'/h'+'2>'+'</'+'su'+'mm'+'ar'+'y>'+'\x09\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<d'+'iv'+'\x20c'+'la'+'ss'+'=\x22'+'fo'+'rm'+'-c'+'on'+'tr'+'ol'+'\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'la'+'be'+'l\x20'+'fo'+'r='+'\x22f'+'ra'+'gm'+'en'+'tL'+'en'+'gt'+'hM'+'in'+'\x22>'+_0x106af9(0x1b7)+'Le'+'ng'+'th'+'</'+'la'+'be'+'l>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'di'+'v\x20'+'cl'+'as'+'s='+'\x22m'+'in'+'-m'+'ax'+'\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'in'+'pu'+'t\x20'+'ty'+'pe'+'=\x22'+'nu'+'mb'+'er'+'\x22\x20'+'id'+'=\x22'+'fr'+'ag'+'me'+'nt'+'Le'+'ng'+'th'+'Mi'+'n\x22'+'\x20n'+'am'+'e='+'\x22f'+'ra'+'gm'+'en'+'tL'+'en'+'gt'+'hM'+'in'+'\x22\x20'+'va'+'lu'+'e='+'\x22')+_0x53b9d7+('\x22\x20'+'mi'+'n='+'\x221'+'0\x22'+'\x20r'+'eq'+'ui'+'re'+'d>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'sp'+'an'+'>\x20'+'-\x20'+'</'+'sp'+'an'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<i'+'np'+'ut'+'\x20t'+'yp'+'e='+'\x22n'+'um'+'be'+'r\x22'+'\x20i'+'d='+'\x22f'+'ra'+'gm'+'en'+'tL'+'en'+'gt'+'hM'+'ax'+'\x22\x20'+'na'+'me'+'=\x22'+'fr'+'ag'+'me'+'nt'+'Le'+'ng'+'th'+'Ma'+'x\x22'+'\x20v'+'al'+'ue'+'=\x22')+_0x222f23+('\x22\x20'+'ma'+'x='+'\x225'+'00'+'\x22\x20'+'re'+'qu'+'ir'+'ed'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'di'+'v>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/d'+'iv'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<d'+'iv'+'\x20c'+'la'+'ss'+'=\x22'+'fo'+'rm'+'-c'+'on'+'tr'+'ol'+'\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'la'+'be'+'l\x20'+'fo'+'r='+'\x22f'+'ra'+'gm'+'en'+'tI'+'nt'+'er'+'va'+'lM'+'in'+'\x22>'+_0x134c74(0x204)+'In'+'te'+'rv'+'al'+'</'+'la'+'be'+'l>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'di'+'v\x20'+'cl'+'as'+'s='+'\x22m'+'in'+'-m'+'ax'+'\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'in'+'pu'+'t\x20'+'ty'+'pe'+'=\x22'+'nu'+'mb'+'er'+'\x22\x20'+'id'+'=\x22'+'fr'+'ag'+'me'+'nt'+'In'+'te'+'rv'+'al'+'Mi'+'n\x22'+'\x20n'+'am'+'e='+'\x22f'+'ra'+'gm'+'en'+'tI'+'nt'+'er'+'va'+'lM'+'in'+'\x22\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'va'+'lu'+'e='+'\x22')+_0x17464d+('\x22\x20'+'mi'+'n='+'\x221'+'\x22\x20'+'ma'+'x='+'\x223'+'0\x22'+'\x20r'+'eq'+'ui'+'re'+'d>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'sp'+'an'+'>\x20'+'-\x20'+'</'+'sp'+'an'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<i'+'np'+'ut'+'\x20t'+'yp'+'e='+'\x22n'+'um'+'be'+'r\x22'+'\x20i'+'d='+'\x22f'+'ra'+'gm'+'en'+'tI'+'nt'+'er'+'va'+'lM'+'ax'+'\x22\x20'+'na'+'me'+'=\x22'+'fr'+'ag'+'me'+'nt'+'In'+'te'+'rv'+'al'+'Ma'+'x\x22'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20v'+'al'+'ue'+'=\x22')+_0x5906fb+('\x22\x20'+'mi'+'n='+'\x221'+'\x22\x20'+'ma'+'x='+'\x223'+'0\x22'+'\x20r'+'eq'+'ui'+'re'+'d>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/d'+'iv'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'di'+'v>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'di'+'v\x20'+'cl'+'as'+'s='+'\x22f'+'or'+'m-'+'co'+'nt'+'ro'+'l\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<l'+'ab'+'el'+'\x20f'+'or'+'=\x22'+'fr'+'ag'+'me'+'nt'+'Pa'+'ck'+'et'+'s\x22'+_0x106af9(0x1cd)+'\x20P'+'ac'+'ke'+'ts'+'</'+'la'+'be'+'l>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'di'+'v\x20'+'cl'+'as'+'s='+'\x22i'+'np'+'ut'+'-w'+'it'+'h-'+'se'+'le'+'ct'+'\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'se'+'le'+'ct'+'\x20i'+'d='+'\x22f'+'ra'+'gm'+'en'+'tP'+'ac'+'ke'+'ts'+'\x22\x20'+'na'+'me'+'=\x22'+'fr'+'ag'+'me'+'nt'+'Pa'+'ck'+'et'+'s\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<o'+'pt'+'io'+'n\x20'+'va'+'lu'+'e='+'\x22t'+'ls'+'he'+'ll'+'o\x22'+'\x20')+(_0x41c458==='tl'+'sh'+'el'+'lo'?'se'+'le'+'ct'+'ed':'')+('>t'+'ls'+'he'+'ll'+'o<'+'/o'+'pt'+'io'+'n>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'op'+'ti'+'on'+'\x20v'+'al'+'ue'+'=\x22'+'1-'+'1\x22'+'\x20')+(_0x41c458==='1-'+'1'?'se'+'le'+'ct'+'ed':'')+('>1'+'-1'+'</'+'op'+'ti'+'on'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<o'+'pt'+'io'+'n\x20'+'va'+'lu'+'e='+'\x221'+'-2'+'\x22\x20')+(_0x41c458==='1-'+'2'?'se'+'le'+'ct'+'ed':'')+('>1'+'-2'+'</'+'op'+'ti'+'on'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<o'+'pt'+'io'+'n\x20'+'va'+'lu'+'e='+'\x221'+'-3'+'\x22\x20')+(_0x41c458==='1-'+'3'?'se'+'le'+'ct'+'ed':'')+('>1'+'-3'+'</'+'op'+'ti'+'on'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<o'+'pt'+'io'+'n\x20'+'va'+'lu'+'e='+'\x221'+'-5'+'\x22\x20')+(_0x41c458==='1-'+'5'?'se'+'le'+'ct'+'ed':'')+('>1'+'-5'+'</'+'op'+'ti'+'on'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'se'+'le'+'ct'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'di'+'v>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/d'+'iv'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'de'+'ta'+'il'+'s>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'de'+'ta'+'il'+'s>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'su'+'mm'+'ar'+'y>'+'<h'+'2>'+'WA'+'RP'+'\x20G'+'EN'+'ER'+'AL'+_0x106af9(0x1c2)+'</'+'h2'+'><'+'/s'+'um'+'ma'+'ry'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<d'+'iv'+'\x20c'+'la'+'ss'+'=\x22'+'fo'+'rm'+'-c'+'on'+'tr'+'ol'+'\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'la'+'be'+'l\x20'+'fo'+'r='+'\x22w'+'ar'+'pE'+'nd'+'po'+'in'+'ts'+'\x22>'+'✨\x20'+'En'+'dp'+'oi'+'nt'+'s<'+'/l'+'ab'+'el'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<i'+'np'+'ut'+'\x20t'+'yp'+'e='+'\x22t'+'ex'+'t\x22'+'\x20i'+'d='+'\x22w'+'ar'+'pE'+'nd'+'po'+'in'+'ts'+'\x22\x20'+'na'+'me'+'=\x22'+'wa'+'rp'+'En'+'dp'+'oi'+'nt'+'s\x22'+'\x20v'+'al'+'ue'+'=\x22')+_0x505a44['re'+'pl'+'ac'+'eA'+'ll'](',','\x20,'+'\x20')+('\x22\x20'+'re'+'qu'+'ir'+'ed'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'di'+'v>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'di'+'v\x20'+'cl'+'as'+'s='+'\x22f'+'or'+'m-'+'co'+'nt'+'ro'+'l\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<l'+'ab'+'el'+'\x20f'+'or'+'=\x22'+'en'+'dp'+'oi'+'nt'+'Sc'+'an'+'ne'+'r\x22'+'\x20s'+'ty'+'le'+'=\x22'+'li'+'ne'+'-h'+'ei'+'gh'+'t:'+'\x201'+'.5'+';\x22'+_0x106af9(0x19e)+'\x20S'+'ca'+'n\x20'+'En'+'dp'+'oi'+'nt'+'</'+'la'+'be'+'l>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'bu'+'tt'+'on'+'\x20t'+'yp'+'e='+'\x22b'+'ut'+'to'+'n\x22'+'\x20i'+'d='+'\x22e'+'nd'+'po'+'in'+'tS'+'ca'+'nn'+'er'+'\x22\x20'+'cl'+'as'+'s='+'\x22b'+'ut'+'to'+'n\x22'+'\x20s'+'ty'+'le'+'=\x22'+'pa'+'dd'+'in'+'g:'+'\x201'+'0p'+'x\x20'+'0;'+'\x22\x20'+'on'+'cl'+'ic'+'k='+'\x22c'+'op'+'yT'+'oC'+'li'+'pb'+'oa'+'rd'+'(\x27'+'ba'+'sh'+'\x20<'+'(c'+'ur'+'l\x20'+'-f'+'sS'+'L\x20')+atob('aH'+'R0'+'cH'+'M6'+'Ly'+'9y'+'YX'+'cu'+'Z2'+'l0'+'aH'+'Vi'+'dX'+'Nl'+'cm'+'Nv'+'bn'+'Rl'+'bn'+'Qu'+'Y2'+'9t'+'L2'+'Jp'+'YS'+'1w'+'YW'+'lu'+'LW'+'Jh'+'Y2'+'hl')+('/w'+'ar'+'p-'+'sc'+'ri'+'pt'+'/r'+'ef'+'s/'+'he'+'ad'+'s/'+'ma'+'in'+'/e'+'nd'+'ip'+'/i'+'ns'+'ta'+'ll'+'.s'+'h)'+'\x27,'+'\x20f'+'al'+'se'+')\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'Co'+'py'+'\x20S'+'cr'+'ip'+'t<'+'sp'+'an'+'\x20c'+'la'+'ss'+'=\x22'+'ma'+'te'+'ri'+'al'+'-s'+'ym'+'bo'+'ls'+'-o'+'ut'+'li'+'ne'+'d\x22'+'>t'+'er'+'mi'+'na'+'l<'+'/s'+'pa'+'n>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/b'+'ut'+'to'+'n>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/d'+'iv'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<d'+'iv'+'\x20c'+'la'+'ss'+'=\x22'+'fo'+'rm'+'-c'+'on'+'tr'+'ol'+'\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'la'+'be'+'l\x20'+'fo'+'r='+'\x22w'+'ar'+'pF'+'ak'+'eD'+'NS'+'\x22>'+_0x134c74(0x210)+'Fa'+'ke'+'\x20D'+'NS'+'</'+'la'+'be'+'l>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'di'+'v\x20'+'cl'+'as'+'s='+'\x22i'+'np'+'ut'+'-w'+'it'+'h-'+'se'+'le'+'ct'+'\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'se'+'le'+'ct'+'\x20i'+'d='+'\x22w'+'ar'+'pF'+'ak'+'eD'+'NS'+'\x22\x20'+'na'+'me'+'=\x22'+'wa'+'rp'+'Fa'+'ke'+'DN'+'S\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<o'+'pt'+'io'+'n\x20'+'va'+'lu'+'e='+'\x22t'+'ru'+'e\x22'+'\x20')+(_0x4274fb?'se'+'le'+'ct'+'ed':'')+('>E'+'na'+'bl'+'ed'+'</'+'op'+'ti'+'on'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<o'+'pt'+'io'+'n\x20'+'va'+'lu'+'e='+'\x22f'+'al'+'se'+'\x22\x20')+(!_0x4274fb?'se'+'le'+'ct'+'ed':'')+('>D'+'is'+'ab'+'le'+'d<'+'/o'+'pt'+'io'+'n>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/s'+'el'+'ec'+'t>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/d'+'iv'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'di'+'v>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'di'+'v\x20'+'cl'+'as'+'s='+'\x22f'+'or'+'m-'+'co'+'nt'+'ro'+'l\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<l'+'ab'+'el'+'\x20f'+'or'+'=\x22'+'wa'+'rp'+'En'+'ab'+'le'+'IP'+'v6'+'\x22>'+_0x134c74(0x207)+'IP'+'v6'+'</'+'la'+'be'+'l>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'di'+'v\x20'+'cl'+'as'+'s='+'\x22i'+'np'+'ut'+'-w'+'it'+'h-'+'se'+'le'+'ct'+'\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'se'+'le'+'ct'+'\x20i'+'d='+'\x22w'+'ar'+'pE'+'na'+'bl'+'eI'+'Pv'+'6\x22'+'\x20n'+'am'+'e='+'\x22w'+'ar'+'pE'+'na'+'bl'+'eI'+'Pv'+'6\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<o'+'pt'+'io'+'n\x20'+'va'+'lu'+'e='+'\x22t'+'ru'+'e\x22'+'\x20')+(_0x59f0c8?'se'+'le'+'ct'+'ed':'')+('>E'+'na'+'bl'+'ed'+'</'+'op'+'ti'+'on'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<o'+'pt'+'io'+'n\x20'+'va'+'lu'+'e='+'\x22f'+'al'+'se'+'\x22\x20')+(!_0x59f0c8?'se'+'le'+'ct'+'ed':'')+('>D'+'is'+'ab'+'le'+'d<'+'/o'+'pt'+'io'+'n>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/s'+'el'+'ec'+'t>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/d'+'iv'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'di'+'v>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'di'+'v\x20'+'cl'+'as'+'s='+'\x22f'+'or'+'m-'+'co'+'nt'+'ro'+'l\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<l'+'ab'+'el'+'\x20f'+'or'+'=\x22'+'wa'+'rp'+'Pl'+'us'+'Li'+'ce'+'ns'+'e\x22'+'>➕'+'\x20W'+'ar'+'p+'+'\x20L'+'ic'+'en'+'se'+'</'+'la'+'be'+'l>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'in'+'pu'+'t\x20'+'ty'+'pe'+'=\x22'+'te'+'xt'+'\x22\x20'+'id'+'=\x22'+'wa'+'rp'+'Pl'+'us'+'Li'+'ce'+'ns'+'e\x22'+'\x20n'+'am'+'e='+'\x22w'+'ar'+'pP'+'lu'+'sL'+'ic'+'en'+'se'+'\x22\x20'+'va'+'lu'+'e='+'\x22')+_0x498df1+('\x22\x20'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20p'+'at'+'te'+'rn'+'=\x22'+'^['+'a-'+'zA'+'-Z'+'0-'+'9]'+'{8'+'}-'+'[a'+'-z'+'A-'+'Z0'+'-9'+']{'+'8}'+'-['+'a-'+'zA'+'-Z'+'0-'+'9]'+'{8'+'}$'+'\x22\x20'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20t'+'it'+'le'+'=\x22'+'Pl'+'ea'+'se'+'\x20e'+'nt'+'er'+'\x20a'+'\x20v'+'al'+'id'+'\x20W'+'ar'+'p\x20'+'Pl'+'us'+'\x20l'+'ic'+'en'+'se'+'\x20i'+'n\x20'+'xx'+'xx'+'xx'+'xx'+'-x'+'xx'+'xx'+'xx'+'x-'+'xx'+'xx'+'xx'+'xx'+'\x20f'+'or'+'ma'+'t\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'di'+'v>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'di'+'v\x20'+'cl'+'as'+'s='+'\x22f'+'or'+'m-'+'co'+'nt'+'ro'+'l\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<l'+'ab'+'el'+'\x20f'+'or'+'=\x22'+'re'+'fr'+'es'+'hB'+'tn'+'\x22>'+_0x106af9(0x1b6)+'Wa'+'rp'+'\x20C'+'on'+'fi'+'gs'+'</'+'la'+'be'+'l>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'bu'+'tt'+'on'+'\x20i'+'d='+'\x22r'+'ef'+'re'+'sh'+'Bt'+'n\x22'+'\x20t'+'yp'+'e='+'\x22b'+'ut'+'to'+'n\x22'+'\x20c'+'la'+'ss'+'=\x22'+'bu'+'tt'+'on'+'\x22\x20'+'st'+'yl'+'e='+'\x22p'+'ad'+'di'+'ng'+':\x20'+'10'+'px'+'\x200'+';\x22'+'\x20o'+'nc'+'li'+'ck'+'=\x22'+'ge'+'tW'+'ar'+'pC'+'on'+'fi'+'gs'+'()'+'\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20U'+'pd'+'at'+'e<'+'sp'+'an'+'\x20c'+'la'+'ss'+'=\x22'+'ma'+'te'+'ri'+'al'+'-s'+'ym'+'bo'+'ls'+'-o'+'ut'+'li'+'ne'+'d\x22'+'>a'+'ut'+'or'+'en'+'ew'+'</'+'sp'+'an'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'bu'+'tt'+'on'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'di'+'v>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'di'+'v\x20'+'cl'+'as'+'s='+'\x22f'+'or'+'m-'+'co'+'nt'+'ro'+'l\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<l'+'ab'+'el'+'\x20f'+'or'+'=\x22'+'be'+'st'+'Wa'+'rp'+'In'+'te'+'rv'+'al'+'\x22>'+_0x134c74(0x1f6)+'Be'+'st'+'\x20I'+'nt'+'er'+'va'+'l<'+'/l'+'ab'+'el'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<i'+'np'+'ut'+'\x20t'+'yp'+'e='+'\x22n'+'um'+'be'+'r\x22'+'\x20i'+'d='+'\x22b'+'es'+'tW'+'ar'+'pI'+'nt'+'er'+'va'+'l\x22'+'\x20n'+'am'+'e='+'\x22b'+'es'+'tW'+'ar'+'pI'+'nt'+'er'+'va'+'l\x22'+'\x20m'+'in'+'=\x22'+'10'+'\x22\x20'+'ma'+'x='+'\x229'+'0\x22'+'\x20v'+'al'+'ue'+'=\x22')+_0x3c19d1+('\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/d'+'iv'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'de'+'ta'+'il'+'s>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'de'+'ta'+'il'+'s>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'su'+'mm'+'ar'+'y>'+'<h'+'2>'+'WA'+'RP'+'\x20P'+'RO'+_0x106af9(0x1c2)+'</'+'h2'+'><'+'/s'+'um'+'ma'+'ry'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<d'+'iv'+'\x20c'+'la'+'ss'+'=\x22'+'fo'+'rm'+'-c'+'on'+'tr'+'ol'+'\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'la'+'be'+'l\x20'+'fo'+'r='+'\x22h'+'id'+'di'+'fy'+'No'+'is'+'eM'+'od'+'e\x22'+_0x106af9(0x1c0)+'\x20H'+'id'+'di'+'fy'+'\x20M'+'od'+'e<'+'/l'+'ab'+'el'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<i'+'np'+'ut'+'\x20t'+'yp'+'e='+'\x22t'+'ex'+'t\x22'+'\x20i'+'d='+'\x22h'+'id'+'di'+'fy'+'No'+'is'+'eM'+'od'+'e\x22'+'\x20n'+'am'+'e='+'\x22h'+'id'+'di'+'fy'+'No'+'is'+'eM'+'od'+'e\x22'+'\x20\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'pa'+'tt'+'er'+'n='+'\x22^'+'(m'+'[1'+'-6'+']|'+'h_'+'[0'+'-9'+'A-'+'Fa'+'-f'+']{'+'2}'+'|g'+'_('+'[0'+'-9'+'A-'+'Fa'+'-f'+']{'+'2}'+'_)'+'{2'+'}['+'0-'+'9A'+'-F'+'a-'+'f]'+'{2'+'})'+'$\x22'+'\x20\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'ti'+'tl'+'e='+'\x22E'+'nt'+'er'+'\x20\x27'+'m1'+'-m'+'6\x27'+',\x20'+'\x27h'+'_H'+'EX'+'\x27,'+'\x20\x27'+'g_'+'HE'+'X_'+'HE'+'X_'+'HE'+'X\x27'+'\x20w'+'hi'+'ch'+'\x20H'+'EX'+'\x20c'+'an'+'\x20b'+'e\x20'+'be'+'tw'+'ee'+'n\x20'+'00'+'\x20t'+'o\x20'+'ff'+'\x22\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'va'+'lu'+'e='+'\x22')+_0x3386a5+('\x22\x20'+'re'+'qu'+'ir'+'ed'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'di'+'v>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'di'+'v\x20'+'cl'+'as'+'s='+'\x22f'+'or'+'m-'+'co'+'nt'+'ro'+'l\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<l'+'ab'+'el'+'\x20f'+'or'+'=\x22'+'ni'+'ka'+'NG'+'No'+'is'+'eM'+'od'+'e\x22'+_0x106af9(0x1c0)+'\x20N'+'ik'+'aN'+'G\x20'+'Mo'+'de'+'</'+'la'+'be'+'l>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'in'+'pu'+'t\x20'+'ty'+'pe'+'=\x22'+'te'+'xt'+'\x22\x20'+'id'+'=\x22'+'ni'+'ka'+'NG'+'No'+'is'+'eM'+'od'+'e\x22'+'\x20n'+'am'+'e='+'\x22n'+'ik'+'aN'+'GN'+'oi'+'se'+'Mo'+'de'+'\x22\x20'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20p'+'at'+'te'+'rn'+'=\x22'+'^('+'no'+'ne'+'|q'+'ui'+'c|'+'ra'+'nd'+'om'+'|['+'0-'+'9A'+'-F'+'a-'+'f]'+'+)'+'$\x22'+'\x20\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'ti'+'tl'+'e='+'\x22E'+'nt'+'er'+'\x20\x27'+'no'+'ne'+'\x27,'+'\x20\x27'+'qu'+'ic'+'\x27,'+'\x20\x27'+'ra'+'nd'+'om'+'\x27,'+'\x20o'+'r\x20'+'an'+'y\x20'+'HE'+'X\x20'+'st'+'ri'+'ng'+'\x20l'+'ik'+'e\x20'+'\x27e'+'e0'+'00'+'00'+'00'+'10'+'8a'+'aa'+'a\x27'+'\x22\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'va'+'lu'+'e='+'\x22')+_0x5ce873+('\x22\x20'+'re'+'qu'+'ir'+'ed'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'di'+'v>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'di'+'v\x20'+'cl'+'as'+'s='+'\x22f'+'or'+'m-'+'co'+'nt'+'ro'+'l\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<l'+'ab'+'el'+'\x20f'+'or'+'=\x22'+'no'+'is'+'eC'+'ou'+'nt'+'Mi'+'n\x22'+_0x134c74(0x20e)+'\x20N'+'oi'+'se'+'\x20C'+'ou'+'nt'+'</'+'la'+'be'+'l>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'di'+'v\x20'+'cl'+'as'+'s='+'\x22m'+'in'+'-m'+'ax'+'\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'in'+'pu'+'t\x20'+'ty'+'pe'+'=\x22'+'nu'+'mb'+'er'+'\x22\x20'+'id'+'=\x22'+'no'+'is'+'eC'+'ou'+'nt'+'Mi'+'n\x22'+'\x20n'+'am'+'e='+'\x22n'+'oi'+'se'+'Co'+'un'+'tM'+'in'+'\x22\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'va'+'lu'+'e='+'\x22')+_0xd34e68+('\x22\x20'+'mi'+'n='+'\x221'+'\x22\x20'+'re'+'qu'+'ir'+'ed'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<s'+'pa'+'n>'+'\x20-'+'\x20<'+'/s'+'pa'+'n>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'in'+'pu'+'t\x20'+'ty'+'pe'+'=\x22'+'nu'+'mb'+'er'+'\x22\x20'+'id'+'=\x22'+'no'+'is'+'eC'+'ou'+'nt'+'Ma'+'x\x22'+'\x20n'+'am'+'e='+'\x22n'+'oi'+'se'+'Co'+'un'+'tM'+'ax'+'\x22\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'va'+'lu'+'e='+'\x22')+_0x3f5343+('\x22\x20'+'mi'+'n='+'\x221'+'\x22\x20'+'re'+'qu'+'ir'+'ed'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'di'+'v>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/d'+'iv'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<d'+'iv'+'\x20c'+'la'+'ss'+'=\x22'+'fo'+'rm'+'-c'+'on'+'tr'+'ol'+'\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'la'+'be'+'l\x20'+'fo'+'r='+'\x22n'+'oi'+'se'+'Si'+'ze'+'Mi'+'n\x22'+_0x106af9(0x1aa)+'\x20N'+'oi'+'se'+'\x20S'+'iz'+'e<'+'/l'+'ab'+'el'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<d'+'iv'+'\x20c'+'la'+'ss'+'=\x22'+'mi'+'n-'+'ma'+'x\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<i'+'np'+'ut'+'\x20t'+'yp'+'e='+'\x22n'+'um'+'be'+'r\x22'+'\x20i'+'d='+'\x22n'+'oi'+'se'+'Si'+'ze'+'Mi'+'n\x22'+'\x20n'+'am'+'e='+'\x22n'+'oi'+'se'+'Si'+'ze'+'Mi'+'n\x22'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20v'+'al'+'ue'+'=\x22')+_0x4464d2+('\x22\x20'+'mi'+'n='+'\x221'+'\x22\x20'+'re'+'qu'+'ir'+'ed'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<s'+'pa'+'n>'+'\x20-'+'\x20<'+'/s'+'pa'+'n>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'in'+'pu'+'t\x20'+'ty'+'pe'+'=\x22'+'nu'+'mb'+'er'+'\x22\x20'+'id'+'=\x22'+'no'+'is'+'eS'+'iz'+'eM'+'ax'+'\x22\x20'+'na'+'me'+'=\x22'+'no'+'is'+'eS'+'iz'+'eM'+'ax'+'\x22\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'va'+'lu'+'e='+'\x22')+_0x1fb456+('\x22\x20'+'mi'+'n='+'\x221'+'\x22\x20'+'re'+'qu'+'ir'+'ed'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'di'+'v>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/d'+'iv'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<d'+'iv'+'\x20c'+'la'+'ss'+'=\x22'+'fo'+'rm'+'-c'+'on'+'tr'+'ol'+'\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'la'+'be'+'l\x20'+'fo'+'r='+'\x22n'+'oi'+'se'+'De'+'la'+'yM'+'in'+'\x22>'+_0x134c74(0x204)+'No'+'is'+'e\x20'+'De'+'la'+'y<'+'/l'+'ab'+'el'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<d'+'iv'+'\x20c'+'la'+'ss'+'=\x22'+'mi'+'n-'+'ma'+'x\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<i'+'np'+'ut'+'\x20t'+'yp'+'e='+'\x22n'+'um'+'be'+'r\x22'+'\x20i'+'d='+'\x22n'+'oi'+'se'+'De'+'la'+'yM'+'in'+'\x22\x20'+'na'+'me'+'=\x22'+'no'+'is'+'eD'+'el'+'ay'+'Mi'+'n\x22'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20v'+'al'+'ue'+'=\x22')+_0x1e2650+('\x22\x20'+'mi'+'n='+'\x221'+'\x22\x20'+'re'+'qu'+'ir'+'ed'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<s'+'pa'+'n>'+'\x20-'+'\x20<'+'/s'+'pa'+'n>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'in'+'pu'+'t\x20'+'ty'+'pe'+'=\x22'+'nu'+'mb'+'er'+'\x22\x20'+'id'+'=\x22'+'no'+'is'+'eD'+'el'+'ay'+'Ma'+'x\x22'+'\x20n'+'am'+'e='+'\x22n'+'oi'+'se'+'De'+'la'+'yM'+'ax'+'\x22\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'va'+'lu'+'e='+'\x22')+_0x593d9b+('\x22\x20'+'mi'+'n='+'\x221'+'\x22\x20'+'re'+'qu'+'ir'+'ed'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'di'+'v>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/d'+'iv'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'de'+'ta'+'il'+'s>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'de'+'ta'+'il'+'s>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'su'+'mm'+'ar'+'y>'+'<h'+'2>'+'RO'+'UT'+'IN'+'G\x20'+'RU'+'LE'+'S\x20'+_0x106af9(0x1c4)+'/h'+'2>'+'</'+'su'+'mm'+'ar'+'y>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'di'+'v\x20'+'id'+'=\x22'+'ro'+'ut'+'in'+'g-'+'ru'+'le'+'s\x22'+'\x20c'+'la'+'ss'+'=\x22'+'fo'+'rm'+'-c'+'on'+'tr'+'ol'+'\x22\x20'+'st'+'yl'+'e='+'\x22m'+'ar'+'gi'+'n-'+'bo'+'tt'+'om'+':\x20'+'20'+'px'+';\x22'+'>\x09'+'\x09\x09'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'di'+'v\x20'+'cl'+'as'+'s='+'\x22r'+'ou'+'ti'+'ng'+'\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'in'+'pu'+'t\x20'+'ty'+'pe'+'=\x22'+'ch'+'ec'+'kb'+'ox'+'\x22\x20'+'id'+'=\x22'+'by'+'pa'+'ss'+'-l'+'an'+'\x22\x20'+'na'+'me'+'=\x22'+'by'+'pa'+'ss'+'-l'+'an'+'\x22\x20'+'va'+'lu'+'e='+'\x22t'+'ru'+'e\x22'+'\x20')+(_0x43b32e?'ch'+'ec'+'ke'+'d':'')+('>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<l'+'ab'+'el'+'\x20f'+'or'+'=\x22'+'by'+'pa'+'ss'+'-l'+'an'+'\x22>'+'By'+'pa'+'ss'+'\x20L'+'AN'+'</'+'la'+'be'+'l>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/d'+'iv'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<d'+'iv'+'\x20c'+'la'+'ss'+'=\x22'+'ro'+'ut'+'in'+'g\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<i'+'np'+'ut'+'\x20t'+'yp'+'e='+'\x22c'+'he'+'ck'+'bo'+'x\x22'+'\x20i'+'d='+'\x22b'+'lo'+'ck'+'-a'+'ds'+'\x22\x20'+'na'+'me'+'=\x22'+'bl'+'oc'+'k-'+'ad'+'s\x22'+'\x20v'+'al'+'ue'+'=\x22'+'tr'+'ue'+'\x22\x20')+(_0x441ee1?'ch'+'ec'+'ke'+'d':'')+('>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<l'+'ab'+'el'+'\x20f'+'or'+'=\x22'+'bl'+'oc'+'k-'+'ad'+'s\x22'+'>B'+'lo'+'ck'+'\x20A'+'ds'+'.<'+'/l'+'ab'+'el'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'di'+'v>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'di'+'v\x20'+'cl'+'as'+'s='+'\x22r'+'ou'+'ti'+'ng'+'\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'in'+'pu'+'t\x20'+'ty'+'pe'+'=\x22'+'ch'+'ec'+'kb'+'ox'+'\x22\x20'+'id'+'=\x22'+'by'+'pa'+'ss'+'-i'+'ra'+'n\x22'+'\x20n'+'am'+'e='+'\x22b'+'yp'+'as'+'s-'+'ir'+'an'+'\x22\x20'+'va'+'lu'+'e='+'\x22t'+'ru'+'e\x22'+'\x20')+(_0x34472c?'ch'+'ec'+'ke'+'d':'')+('>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<l'+'ab'+'el'+'\x20f'+'or'+'=\x22'+'by'+'pa'+'ss'+'-i'+'ra'+'n\x22'+'>B'+'yp'+'as'+'s\x20'+'Ir'+'an'+'</'+'la'+'be'+'l>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/d'+'iv'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<d'+'iv'+'\x20c'+'la'+'ss'+'=\x22'+'ro'+'ut'+'in'+'g\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<i'+'np'+'ut'+'\x20t'+'yp'+'e='+'\x22c'+'he'+'ck'+'bo'+'x\x22'+'\x20i'+'d='+'\x22b'+'lo'+'ck'+'-p'+'or'+'n\x22'+'\x20n'+'am'+'e='+'\x22b'+'lo'+'ck'+'-p'+'or'+'n\x22'+'\x20v'+'al'+'ue'+'=\x22'+'tr'+'ue'+'\x22\x20')+(_0xbf621?'ch'+'ec'+'ke'+'d':'')+('>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<l'+'ab'+'el'+'\x20f'+'or'+'=\x22'+'bl'+'oc'+'k-'+'po'+'rn'+'\x22>'+'Bl'+'oc'+'k\x20'+'Po'+'rn'+'</'+'la'+'be'+'l>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/d'+'iv'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<d'+'iv'+'\x20c'+'la'+'ss'+'=\x22'+'ro'+'ut'+'in'+'g\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<i'+'np'+'ut'+'\x20t'+'yp'+'e='+'\x22c'+'he'+'ck'+'bo'+'x\x22'+'\x20i'+'d='+'\x22b'+'yp'+'as'+'s-'+'ch'+'in'+'a\x22'+'\x20n'+'am'+'e='+'\x22b'+'yp'+'as'+'s-'+'ch'+'in'+'a\x22'+'\x20v'+'al'+'ue'+'=\x22'+'tr'+'ue'+'\x22\x20')+(_0x170de0?'ch'+'ec'+'ke'+'d':'')+('>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<l'+'ab'+'el'+'\x20f'+'or'+'=\x22'+'by'+'pa'+'ss'+'-c'+'hi'+'na'+'\x22>'+'By'+'pa'+'ss'+'\x20C'+'hi'+'na'+'</'+'la'+'be'+'l>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/d'+'iv'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<d'+'iv'+'\x20c'+'la'+'ss'+'=\x22'+'ro'+'ut'+'in'+'g\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<i'+'np'+'ut'+'\x20t'+'yp'+'e='+'\x22c'+'he'+'ck'+'bo'+'x\x22'+'\x20i'+'d='+'\x22b'+'lo'+'ck'+'-u'+'dp'+'-4'+'43'+'\x22\x20'+'na'+'me'+'=\x22'+'bl'+'oc'+'k-'+'ud'+'p-'+'44'+'3\x22'+'\x20v'+'al'+'ue'+'=\x22'+'tr'+'ue'+'\x22\x20')+(_0x41b01c?'ch'+'ec'+'ke'+'d':'')+('>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<l'+'ab'+'el'+'\x20f'+'or'+'=\x22'+'bl'+'oc'+'k-'+'ud'+'p-'+'44'+'3\x22'+'>B'+'lo'+'ck'+'\x20Q'+'UI'+'C<'+'/l'+'ab'+'el'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'di'+'v>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'di'+'v\x20'+'cl'+'as'+'s='+'\x22r'+'ou'+'ti'+'ng'+'\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'in'+'pu'+'t\x20'+'ty'+'pe'+'=\x22'+'ch'+'ec'+'kb'+'ox'+'\x22\x20'+'id'+'=\x22'+'by'+'pa'+'ss'+'-r'+'us'+'si'+'a\x22'+'\x20n'+'am'+'e='+'\x22b'+'yp'+'as'+'s-'+'ru'+'ss'+'ia'+'\x22\x20'+'va'+'lu'+'e='+'\x22t'+'ru'+'e\x22'+'\x20')+(_0x56548b?'ch'+'ec'+'ke'+'d':'')+('>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<l'+'ab'+'el'+'\x20f'+'or'+'=\x22'+'by'+'pa'+'ss'+'-r'+'us'+'si'+'a\x22'+'>B'+'yp'+'as'+'s\x20'+'Ru'+'ss'+'ia'+'</'+'la'+'be'+'l>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/d'+'iv'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'di'+'v>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'h3'+'>C'+'US'+'TO'+'M\x20'+'RU'+'LE'+'S\x20'+_0x106af9(0x1c7)+'/h'+'3>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'di'+'v\x20'+'cl'+'as'+'s='+'\x22f'+'or'+'m-'+'co'+'nt'+'ro'+'l\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<l'+'ab'+'el'+'\x20f'+'or'+'=\x22'+'cu'+'st'+'om'+'By'+'pa'+'ss'+'Ru'+'le'+'s\x22'+'>🟩'+'\x20B'+'yp'+'as'+'s\x20'+'IP'+'s\x20'+'/\x20'+'Do'+'ma'+'in'+'s<'+'/l'+'ab'+'el'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<i'+'np'+'ut'+'\x20t'+'yp'+'e='+'\x22t'+'ex'+'t\x22'+'\x20i'+'d='+'\x22c'+'us'+'to'+'mB'+'yp'+'as'+'sR'+'ul'+'es'+'\x22\x20'+'na'+'me'+'=\x22'+'cu'+'st'+'om'+'By'+'pa'+'ss'+'Ru'+'le'+'s\x22'+'\x20v'+'al'+'ue'+'=\x22')+_0x20105a['re'+'pl'+'ac'+'eA'+'ll'](',','\x20,'+'\x20')+('\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/d'+'iv'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<d'+'iv'+'\x20c'+'la'+'ss'+'=\x22'+'fo'+'rm'+'-c'+'on'+'tr'+'ol'+'\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'la'+'be'+'l\x20'+'fo'+'r='+'\x22c'+'us'+'to'+'mB'+'lo'+'ck'+'Ru'+'le'+'s\x22'+_0x106af9(0x1ba)+'\x20B'+'lo'+'ck'+'\x20I'+'Ps'+'\x20/'+'\x20D'+'om'+'ai'+'ns'+'</'+'la'+'be'+'l>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'in'+'pu'+'t\x20'+'ty'+'pe'+'=\x22'+'te'+'xt'+'\x22\x20'+'id'+'=\x22'+'cu'+'st'+'om'+'Bl'+'oc'+'kR'+'ul'+'es'+'\x22\x20'+'na'+'me'+'=\x22'+'cu'+'st'+'om'+'Bl'+'oc'+'kR'+'ul'+'es'+'\x22\x20'+'va'+'lu'+'e='+'\x22')+_0x271bbf['re'+'pl'+'ac'+'eA'+'ll'](',','\x20,'+'\x20')+('\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/d'+'iv'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'de'+'ta'+'il'+'s>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'di'+'v\x20'+'id'+'=\x22'+'ap'+'pl'+'y\x22'+'\x20c'+'la'+'ss'+'=\x22'+'fo'+'rm'+'-c'+'on'+'tr'+'ol'+'\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'di'+'v\x20'+'st'+'yl'+'e='+'\x22g'+'ri'+'d-'+'co'+'lu'+'mn'+':\x20'+'2;'+'\x20w'+'id'+'th'+':\x20'+'10'+'0%'+';\x20'+'di'+'sp'+'la'+'y:'+'\x20i'+'nl'+'in'+'e-'+'fl'+'ex'+';\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<i'+'np'+'ut'+'\x20t'+'yp'+'e='+'\x22s'+'ub'+'mi'+'t\x22'+'\x20i'+'d='+'\x22a'+'pp'+'ly'+'Bu'+'tt'+'on'+'\x22\x20'+'st'+'yl'+'e='+'\x22m'+'ar'+'gi'+'n-'+'ri'+'gh'+'t:'+'\x201'+'0p'+'x;'+'\x22\x20'+'cl'+'as'+'s='+'\x22b'+'ut'+'to'+'n\x20'+'di'+'sa'+'bl'+'ed'+'\x22\x20'+'va'+'lu'+'e='+'\x22A'+'PP'+'LY'+'\x20S'+'ET'+'TI'+'NG'+'S\x20'+_0x106af9(0x1a7)+'\x20f'+'or'+'m='+'\x22c'+'on'+'fi'+'gF'+'or'+'m\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<b'+'ut'+'to'+'n\x20'+'ty'+'pe'+'=\x22'+'bu'+'tt'+'on'+'\x22\x20'+'id'+'=\x22'+'re'+'se'+'tS'+'et'+'ti'+'ng'+'s\x22'+'\x20s'+'ty'+'le'+'=\x22'+'ba'+'ck'+'gr'+'ou'+'nd'+':\x20'+'no'+'ne'+';\x20'+'ma'+'rg'+'in'+':\x20'+'0;'+'\x20b'+'or'+'de'+'r:'+'\x20n'+'on'+'e;'+'\x20c'+'ur'+'so'+'r:'+'\x20p'+'oi'+'nt'+'er'+';\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<i'+'\x20c'+'la'+'ss'+'=\x22'+'fa'+'\x20f'+'a-'+'re'+'fr'+'es'+'h\x20'+'fa'+'-2'+'x\x20'+'fa'+'-b'+'or'+'de'+'r\x22'+'\x20s'+'ty'+'le'+'=\x22'+'bo'+'rd'+'er'+'-r'+'ad'+'iu'+'s:'+'\x20.'+'2e'+'m;'+'\x20b'+'or'+'de'+'r-'+'co'+'lo'+'r:'+'\x20v'+'ar'+'(-'+'-b'+'or'+'de'+'r-'+'co'+'lo'+'r)'+';\x22'+'\x20a'+'ri'+'a-'+'hi'+'dd'+'en'+'=\x22'+'tr'+'ue'+'\x22>'+'</'+'i>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/b'+'ut'+'to'+'n>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/d'+'iv'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'di'+'v>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/f'+'or'+'m>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'hr'+'>\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<h'+'2>'+_0x106af9(0x1bc)+'NO'+'RM'+'AL'+'\x20S'+'UB'+'</'+'h2'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<d'+'iv'+'\x20c'+'la'+'ss'+'=\x22'+'ta'+'bl'+'e-'+'co'+'nt'+'ai'+'ne'+'r\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<t'+'ab'+'le'+'\x20i'+'d='+'\x22n'+'or'+'ma'+'l-'+'co'+'nf'+'ig'+'s-'+'ta'+'bl'+'e\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<t'+'r>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'th'+'>A'+'pp'+'li'+'ca'+'ti'+'on'+'</'+'th'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<t'+('h>'+'Su'+'bs'+'cr'+'ip'+'ti'+'on'+'</'+'th'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'tr'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<t'+'r>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'td'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'))+_0xfa6b72(['v2'+'ra'+'yN'+'G','Ni'+'ka'+'NG','Ma'+'hs'+'aN'+'G','v2'+'ra'+'yN','v2'+'ra'+'yN'+'-P'+'RO','Sh'+'ad'+'ow'+'ro'+'ck'+'et','St'+'re'+'is'+'an'+'d','Hi'+'dd'+'if'+'y','Ne'+'ko'+'ra'+'y\x20'+'(X'+'ra'+'y)'])+('\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/t'+'d>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'td'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20')+_0x3a2cfa('su'+'b','','BP'+'B-'+'No'+'rm'+'al','No'+'rm'+'al'+'\x20S'+'ub'+'sc'+'ri'+'pt'+'io'+'n')+('\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20')+_0x4aa2a1('su'+'b','','BP'+'B-'+'No'+'rm'+'al')+('\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/t'+'d>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/t'+'r>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'tr'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<t'+'d>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20')+_0xfa6b72(['hu'+'si','Ne'+'ko'+'bo'+'x','Ne'+'ko'+'ra'+'y\x20'+'(s'+'in'+'g-'+'Bo'+'x)','Ka'+'ri'+'ng'])+('\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/t'+'d>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'td'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20')+_0x4aa2a1('su'+'b','si'+'ng'+'bo'+'x','BP'+'B-'+'No'+'rm'+'al')+('\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/t'+'d>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/t'+'r>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/t'+'ab'+'le'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'di'+'v>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'h2'+_0x106af9(0x1b9)+'\x20F'+'UL'+'L\x20'+'NO'+'RM'+'AL'+'\x20S'+'UB'+'</'+'h2'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<d'+'iv'+'\x20c'+'la'+'ss'+'=\x22'+'ta'+'bl'+'e-'+'co'+'nt'+'ai'+'ne'+'r\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<t'+'ab'+'le'+'\x20i'+'d='+'\x22f'+'ul'+'l-'+'no'+'rm'+'al'+'-c'+'on'+'fi'+'gs'+'-t'+'ab'+'le'+'\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'tr'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<t'+'h>'+'Ap'+'pl'+'ic'+'at'+'io'+'n<'+'/t'+'h>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'th'+'>S'+'ub'+'sc'+'ri'+'pt'+'io'+'n<'+'/t'+'h>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/t'+'r>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'tr'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<t'+'d>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20')+_0xfa6b72(['v2'+'ra'+'yN'+'G','Ni'+'ka'+'NG','Ma'+'hs'+'aN'+'G','v2'+'ra'+'yN','v2'+'ra'+'yN'+'-P'+'RO','St'+'re'+'is'+'an'+'d'])+('\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/t'+'d>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'td'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20')+_0x3a2cfa('su'+'b','xr'+'ay','BP'+'B-'+'Fu'+'ll'+'-N'+'or'+'ma'+'l','Fu'+'ll'+'\x20n'+'or'+'ma'+'l\x20'+'Su'+'bs'+'cr'+'ip'+'ti'+'on')+('\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20')+_0x4aa2a1('su'+'b','xr'+'ay','BP'+'B-'+'Fu'+'ll'+'-N'+'or'+'ma'+'l')+('\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/t'+'d>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/t'+'r>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'tr'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<t'+'d>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20')+_0xfa6b72(['si'+'ng'+'-b'+'ox','v2'+'ra'+'yN'+'\x20('+'si'+'ng'+'-b'+'ox'+')'])+('\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/t'+'d>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'td'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20')+_0x3a2cfa('su'+'b','sf'+'a','BP'+'B-'+'Fu'+'ll'+'-N'+'or'+'ma'+'l','Fu'+'ll'+'\x20n'+'or'+'ma'+'l\x20'+'Su'+'bs'+'cr'+'ip'+'ti'+'on',!![])+('\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20')+_0x4aa2a1('su'+'b','sf'+'a','BP'+'B-'+'Fu'+'ll'+'-N'+'or'+'ma'+'l')+('\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/t'+'d>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/t'+'r>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'tr'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<t'+'d>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20')+_0xfa6b72(['Cl'+'as'+'h\x20'+'Me'+'ta','Cl'+'as'+'h\x20'+'Ve'+'rg'+'e','Fl'+'Cl'+'as'+'h','St'+'as'+'h','v2'+'ra'+'yN'+'\x20('+'mi'+'ho'+'mo'+')'])+('\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/t'+'d>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'td'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20')+_0x3a2cfa('su'+'b','cl'+'as'+'h','BP'+'B-'+'Fu'+'ll'+'-N'+'or'+'ma'+'l','Fu'+'ll'+'\x20n'+'or'+'ma'+'l\x20'+'Su'+'bs'+'cr'+'ip'+'ti'+'on')+('\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20')+_0x4aa2a1('su'+'b','cl'+'as'+'h','BP'+'B-'+'Fu'+'ll'+'-N'+'or'+'ma'+'l')+('\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/t'+'d>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/t'+'r>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/t'+'ab'+'le'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'di'+'v>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'h2'+_0x134c74(0x1e4)+'\x20F'+'RA'+'GM'+'EN'+'T\x20'+'SU'+'B<'+'/h'+'2>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'di'+'v\x20'+'cl'+'as'+'s='+'\x22t'+'ab'+'le'+'-c'+'on'+'ta'+'in'+'er'+'\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'ta'+'bl'+'e\x20'+'id'+'=\x22'+'fr'+'ag'+'-s'+'ub'+'-t'+'ab'+'le'+'\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'tr'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<t'+'h\x20'+'st'+'yl'+'e='+'\x22t'+'ex'+'t-'+'wr'+'ap'+':\x20'+'no'+'wr'+'ap'+';\x22'+'>A'+'pp'+'li'+'ca'+'ti'+'on'+'</'+'th'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<t'+'h\x20'+'st'+'yl'+'e='+'\x22t'+'ex'+'t-'+'wr'+'ap'+':\x20'+'no'+'wr'+'ap'+';\x22'+'>S'+'ub'+'sc'+'ri'+'pt'+'io'+'n<'+'/t'+'h>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/t'+'r>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'tr'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<t'+'d\x20'+'st'+'yl'+'e='+'\x22t'+'ex'+'t-'+'wr'+'ap'+':\x20'+'no'+'wr'+'ap'+';\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20')+_0xfa6b72(['v2'+'ra'+'yN'+'G','Ni'+'ka'+'NG','Ma'+'hs'+'aN'+'G','v2'+'ra'+'yN','v2'+'ra'+'yN'+'-P'+'RO','St'+'re'+'is'+'an'+'d'])+('\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/t'+'d>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'td'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20')+_0x3a2cfa('fr'+'ag'+'su'+'b','','BP'+'B-'+'Fr'+'ag'+'me'+'nt','Fr'+'ag'+'me'+'nt'+'\x20S'+'ub'+'sc'+'ri'+'pt'+'io'+'n')+('\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20')+_0x4aa2a1('fr'+'ag'+'su'+'b','','BP'+'B-'+'Fr'+'ag'+'me'+'nt')+('\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/t'+'d>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/t'+'r>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'tr'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<t'+'d\x20'+'st'+'yl'+'e='+'\x22t'+'ex'+'t-'+'wr'+'ap'+':\x20'+'no'+'wr'+'ap'+';\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20')+_0xfa6b72(['Hi'+'dd'+'if'+'y'])+('\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/t'+'d>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'td'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20')+_0x3a2cfa('fr'+'ag'+'su'+'b','hi'+'dd'+'if'+'y','BP'+'B-'+'Fr'+'ag'+'me'+'nt','Fr'+'ag'+'me'+'nt'+'\x20S'+'ub'+'sc'+'ri'+'pt'+'io'+'n')+('\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20')+_0x4aa2a1('fr'+'ag'+'su'+'b','hi'+'dd'+'if'+'y','BP'+'B-'+'Fr'+'ag'+'me'+'nt')+('\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/t'+'d>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/t'+'r>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/t'+'ab'+'le'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'di'+'v>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'h2'+_0x106af9(0x1b9)+'\x20W'+'AR'+'P\x20'+'SU'+'B<'+'/h'+'2>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'di'+'v\x20'+'cl'+'as'+'s='+'\x22t'+'ab'+'le'+'-c'+'on'+'ta'+'in'+'er'+'\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'ta'+'bl'+'e\x20'+'id'+'=\x22'+'no'+'rm'+'al'+'-c'+'on'+'fi'+'gs'+'-t'+'ab'+'le'+'\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'tr'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<t'+'h>'+'Ap'+'pl'+'ic'+'at'+'io'+'n<'+'/t'+'h>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'th'+'>S'+'ub'+'sc'+'ri'+'pt'+'io'+'n<'+'/t'+'h>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/t'+'r>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'tr'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<t'+'d>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20')+_0xfa6b72(['v2'+'ra'+'yN'+'G','v2'+'ra'+'yN','St'+'re'+'is'+'an'+'d'])+('\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/t'+'d>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'td'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20')+_0x3a2cfa('wa'+'rp'+'su'+'b','xr'+'ay','BP'+'B-'+'Wa'+'rp','Wa'+'rp'+'\x20S'+'ub'+'sc'+'ri'+'pt'+'io'+'n')+('\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20')+_0x4aa2a1('wa'+'rp'+'su'+'b','xr'+'ay','BP'+'B-'+'Wa'+'rp')+('\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/t'+'d>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/t'+'r>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'tr'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<t'+'d>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20')+_0xfa6b72(['Hi'+'dd'+'if'+'y','si'+'ng'+'-b'+'ox','v2'+'ra'+'yN'+'\x20('+'si'+'ng'+'-b'+'ox'+')'])+('\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/t'+'d>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'td'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20')+_0x3a2cfa('su'+'b','si'+'ng'+'bo'+'x','BP'+'B-'+'Wa'+'rp','Wa'+'rp'+'\x20S'+'ub'+'sc'+'ri'+'pt'+'io'+'n',!![])+('\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20')+_0x4aa2a1('wa'+'rp'+'su'+'b','si'+'ng'+'bo'+'x','BP'+'B-'+'Wa'+'rp')+('\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/t'+'d>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/t'+'r>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'tr'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<t'+'d>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20')+_0xfa6b72(['Cl'+'as'+'h\x20'+'Me'+'ta','Cl'+'as'+'h\x20'+'Ve'+'rg'+'e','Fl'+'Cl'+'as'+'h','St'+'as'+'h','v2'+'ra'+'yN'+'\x20('+'mi'+'ho'+'mo'+')'])+('\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/t'+'d>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'td'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20')+_0x3a2cfa('wa'+'rp'+'su'+'b','cl'+'as'+'h','BP'+'B-'+'Wa'+'rp','Wa'+'rp'+'\x20S'+'ub'+'sc'+'ri'+'pt'+'io'+'n')+('\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20')+_0x4aa2a1('wa'+'rp'+'su'+'b','cl'+'as'+'h','BP'+'B-'+'Wa'+'rp')+('\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/t'+'d>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/t'+'r>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/t'+'ab'+'le'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'di'+'v>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'h2'+_0x106af9(0x1b9)+'\x20W'+'AR'+'P\x20'+'PR'+'O\x20'+'SU'+'B<'+'/h'+'2>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'di'+'v\x20'+'cl'+'as'+'s='+'\x22t'+'ab'+'le'+'-c'+'on'+'ta'+'in'+'er'+'\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'ta'+'bl'+'e\x20'+'id'+'=\x22'+'wa'+'rp'+'-p'+'ro'+'-c'+'on'+'fi'+'gs'+'-t'+'ab'+'le'+'\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'tr'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<t'+'h>'+'Ap'+'pl'+'ic'+'at'+'io'+'n<'+'/t'+'h>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'th'+'>S'+'ub'+'sc'+'ri'+'pt'+'io'+'n<'+'/t'+'h>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/t'+'r>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'tr'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<t'+'d>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20')+_0xfa6b72(['Ni'+'ka'+'NG','Ma'+'hs'+'aN'+'G','v2'+'ra'+'yN'+'-P'+'RO'])+('\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/t'+'d>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'td'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20')+_0x3a2cfa('wa'+'rp'+'su'+'b','ni'+'ka'+'ng','BP'+'B-'+'Wa'+'rp'+'-P'+'ro','Wa'+'rp'+'\x20P'+'ro'+'\x20S'+'ub'+'sc'+'ri'+'pt'+'io'+'n')+('\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20')+_0x4aa2a1('wa'+'rp'+'su'+'b','ni'+'ka'+'ng','BP'+'B-'+'Wa'+'rp'+'-P'+'ro')+('\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/t'+'d>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/t'+'r>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'tr'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<t'+'d>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20')+_0xfa6b72(['Hi'+'dd'+'if'+'y'])+('\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/t'+'d>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'td'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20')+_0x3a2cfa('wa'+'rp'+'su'+'b','hi'+'dd'+'if'+'y','BP'+'B-'+'Wa'+'rp'+'-P'+'ro','Wa'+'rp'+'\x20P'+'ro'+'\x20S'+'ub'+'sc'+'ri'+'pt'+'io'+'n',!![])+('\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20')+_0x4aa2a1('wa'+'rp'+'su'+'b','hi'+'dd'+'if'+'y','BP'+'B-'+'Wa'+'rp'+'-P'+'ro')+('\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/t'+'d>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/t'+'r>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/t'+'ab'+'le'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'di'+'v>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'di'+'v\x20'+'id'+'=\x22'+'my'+'Mo'+'da'+'l\x22'+'\x20c'+'la'+'ss'+'=\x22'+'mo'+'da'+'l\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<d'+'iv'+'\x20c'+'la'+'ss'+'=\x22'+'mo'+'da'+'l-'+'co'+'nt'+'en'+'t\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<s'+'pa'+'n\x20'+'cl'+'as'+'s='+'\x22c'+'lo'+'se'+'\x22>'+'&t'+'im'+'es'+';<'+'/s'+'pa'+'n>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'fo'+'rm'+'\x20i'+'d='+'\x22p'+'as'+'sw'+'or'+'dC'+'ha'+'ng'+'eF'+'or'+'m\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<h'+'2>'+'Ch'+'an'+'ge'+'\x20P'+'as'+'sw'+'or'+'d<'+'/h'+'2>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'di'+'v\x20'+'cl'+'as'+'s='+'\x22f'+'or'+'m-'+'co'+'nt'+'ro'+'l\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<l'+'ab'+'el'+'\x20f'+'or'+'=\x22'+'ne'+'wP'+'as'+'sw'+'or'+'d\x22'+'>N'+'ew'+'\x20P'+'as'+'sw'+'or'+'d<'+'/l'+'ab'+'el'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<i'+'np'+'ut'+'\x20t'+'yp'+'e='+'\x22p'+'as'+'sw'+'or'+'d\x22'+'\x20i'+'d='+'\x22n'+'ew'+'Pa'+'ss'+'wo'+'rd'+'\x22\x20'+'na'+'me'+'=\x22'+'ne'+'wP'+'as'+'sw'+'or'+'d\x22'+'\x20r'+'eq'+'ui'+'re'+'d>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/d'+'iv'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<d'+'iv'+'\x20c'+'la'+'ss'+'=\x22'+'fo'+'rm'+'-c'+'on'+'tr'+'ol'+'\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'la'+'be'+'l\x20'+'fo'+'r='+'\x22c'+'on'+'fi'+'rm'+'Pa'+'ss'+'wo'+'rd'+'\x22>'+'Co'+'nf'+'ir'+'m\x20'+'Pa'+'ss'+'wo'+'rd'+'</'+'la'+'be'+'l>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'in'+'pu'+'t\x20'+'ty'+'pe'+'=\x22'+'pa'+'ss'+'wo'+'rd'+'\x22\x20'+'id'+'=\x22'+'co'+'nf'+'ir'+'mP'+'as'+'sw'+'or'+'d\x22'+'\x20n'+'am'+'e='+'\x22c'+'on'+'fi'+'rm'+'Pa'+'ss'+'wo'+'rd'+'\x22\x20'+'re'+'qu'+'ir'+'ed'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'di'+'v>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'di'+'v\x20'+'id'+'=\x22'+'pa'+'ss'+'wo'+'rd'+'Er'+'ro'+'r\x22'+'\x20s'+'ty'+'le'+'=\x22'+'co'+'lo'+'r:'+'\x20r'+'ed'+';\x20'+'ma'+'rg'+'in'+'-b'+'ot'+'to'+'m:'+'\x201'+'0p'+'x;'+'\x22>'+'</'+'di'+'v>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'bu'+'tt'+'on'+'\x20i'+('d='+'\x22c'+'ha'+'ng'+'eP'+'as'+'sw'+'or'+'dB'+'tn'+'\x22\x20'+'ty'+'pe'+'=\x22'+'su'+'bm'+'it'+'\x22\x20'+'cl'+'as'+'s='+'\x22b'+'ut'+'to'+'n\x22'+'>C'+'ha'+'ng'+'e\x20'+'Pa'+'ss'+'wo'+'rd'+'</'+'bu'+'tt'+'on'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'fo'+'rm'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'di'+'v>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/d'+'iv'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<d'+'iv'+'\x20i'+'d='+'\x22m'+'yQ'+'RM'+'od'+'al'+'\x22\x20'+'cl'+'as'+'s='+'\x22m'+'od'+'al'+'QR'+'\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'di'+'v\x20'+'cl'+'as'+'s='+'\x22m'+'od'+'al'+'-c'+'on'+'te'+'nt'+'\x22\x20'+'st'+'yl'+'e='+'\x22w'+'id'+'th'+':\x20'+'au'+'to'+';\x20'+'te'+'xt'+'-a'+'li'+'gn'+':\x20'+'ce'+'nt'+'er'+';\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<d'+'iv'+'\x20s'+'ty'+'le'+'=\x22'+'di'+'sp'+'la'+'y:'+'\x20f'+'le'+'x;'+'\x20f'+'le'+'x-'+'di'+'re'+'ct'+'io'+'n:'+'\x20c'+'ol'+'um'+'n;'+'\x20a'+'li'+'gn'+'-i'+'te'+'ms'+':\x20'+'ce'+'nt'+'er'+';\x20'+'ma'+'rg'+'in'+'-b'+'ot'+'to'+'m:'+'\x201'+'0p'+'x;'+'\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'sp'+'an'+'\x20i'+'d='+'\x22c'+'lo'+'se'+'QR'+'Mo'+'da'+'l\x22'+'\x20c'+'la'+'ss'+'=\x22'+'cl'+'os'+'e\x22'+'\x20s'+'ty'+'le'+'=\x22'+'al'+'ig'+'n-'+'se'+'lf'+':\x20'+'fl'+'ex'+'-e'+'nd'+';\x22'+'>&'+'ti'+'me'+'s;'+'</'+'sp'+'an'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<s'+'pa'+'n\x20'+'id'+'=\x22'+'qr'+'co'+'de'+'Ti'+'tl'+'e\x22'+'\x20s'+'ty'+'le'+'=\x22'+'al'+'ig'+'n-'+'se'+'lf'+':\x20'+'ce'+'nt'+'er'+';\x20'+'fo'+'nt'+'-w'+'ei'+'gh'+'t:'+'\x20b'+'ol'+'d;'+'\x22>'+'</'+'sp'+'an'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'di'+'v>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'di'+'v\x20'+'id'+'=\x22'+'qr'+'co'+'de'+'-c'+'on'+'ta'+'in'+'er'+'\x22>'+'</'+'di'+'v>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/d'+'iv'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'di'+'v>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'hr'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<d'+'iv'+'\x20c'+'la'+'ss'+'=\x22'+'he'+'ad'+'er'+'-c'+'on'+'ta'+'in'+'er'+'\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'h2'+'\x20s'+'ty'+'le'+'=\x22'+'ma'+'rg'+'in'+':\x20'+'0\x20'+'5p'+'x;'+'\x22>'+_0x106af9(0x1ad)+'MY'+'\x20I'+'P<'+'/h'+'2>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'bu'+'tt'+'on'+'\x20t'+'yp'+'e='+'\x22b'+'ut'+'to'+'n\x22'+'\x20i'+'d='+'\x22r'+'ef'+'re'+'sh'+'-g'+'eo'+'-l'+'oc'+'at'+'io'+'n\x22'+'\x20o'+'nc'+'li'+'ck'+'=\x22'+'fe'+'tc'+'hI'+'PI'+'nf'+'o('+')\x22'+'\x20s'+'ty'+'le'+'=\x22'+'ba'+'ck'+'gr'+'ou'+'nd'+':\x20'+'no'+'ne'+';\x20'+'ma'+'rg'+'in'+':\x20'+'0;'+'\x20b'+'or'+'de'+'r:'+'\x20n'+'on'+'e;'+'\x20c'+'ur'+'so'+'r:'+'\x20p'+'oi'+'nt'+'er'+';\x22'+'>\x0a')+('\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<i'+'\x20c'+'la'+'ss'+'=\x22'+'fa'+'\x20f'+'a-'+'re'+'fr'+'es'+'h\x20'+'fa'+'-2'+'x\x22'+'\x20s'+'ty'+'le'+'=\x22'+'co'+'lo'+'r:'+'\x20v'+'ar'+'(-'+'-b'+'ut'+'to'+'n-'+'co'+'lo'+'r)'+';\x22'+'\x20a'+'ri'+'a-'+'hi'+'dd'+'en'+'=\x22'+'tr'+'ue'+'\x22>'+'</'+'i>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/b'+'ut'+'to'+'n>'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'di'+'v>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'di'+'v\x20'+'cl'+'as'+'s='+'\x22t'+'ab'+'le'+'-c'+'on'+'ta'+'in'+'er'+'\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'ta'+'bl'+'e\x20'+'id'+'=\x22'+'ip'+'s\x22'+'\x20s'+'ty'+'le'+'=\x22'+'te'+'xt'+'-a'+'li'+'gn'+':\x20'+'ce'+'nt'+'er'+';\x20'+'ma'+'rg'+'in'+'-b'+'ot'+'to'+'m:'+'\x201'+'5p'+'x;'+'\x20t'+'ex'+'t-'+'wr'+'ap'+'-m'+'od'+'e:'+'\x20n'+'ow'+'ra'+'p;'+'\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'tr'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<t'+'h>'+'Ta'+'rg'+'et'+'\x20A'+'dd'+'re'+'ss'+'</'+'th'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<t'+'h>'+'IP'+'</'+'th'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<t'+'h>'+'Co'+'un'+'tr'+'y<'+'/t'+'h>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'th'+'>C'+'it'+'y<'+'/t'+'h>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'th'+'>I'+'SP'+'</'+'th'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'tr'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<t'+'r>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'td'+'>C'+'lo'+'ud'+'fl'+'ar'+'e\x20'+'CD'+'N<'+'/t'+'d>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'td'+'\x20i'+'d='+'\x22c'+'f-'+'ip'+'\x22>'+'</'+'td'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<t'+'d>'+'<b'+'\x20i'+'d='+'\x22c'+'f-'+'co'+'un'+'tr'+'y\x22'+'><'+'/b'+'><'+'/t'+'d>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'td'+'><'+'b\x20'+'id'+'=\x22'+'cf'+'-c'+'it'+'y\x22'+'><'+'/b'+'><'+'/t'+'d>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'td'+'><'+'b\x20'+'id'+'=\x22'+'cf'+'-i'+'sp'+'\x22>'+'</'+'b>'+'</'+'td'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'tr'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<t'+'r>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'td'+'>O'+'th'+'er'+'s<'+'/t'+'d>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'td'+'\x20i'+'d='+'\x22i'+'p\x22'+'><'+'/t'+'d>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20')+('\x20<'+'td'+'><'+'b\x20'+'id'+'=\x22'+'co'+'un'+'tr'+'y\x22'+'><'+'/b'+'><'+'/t'+'d>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'td'+'><'+'b\x20'+'id'+'=\x22'+'ci'+'ty'+'\x22>'+'</'+'b>'+'</'+'td'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<t'+'d>'+'<b'+'\x20i'+'d='+'\x22i'+'sp'+'\x22>'+'</'+'b>'+'</'+'td'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'tr'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'ta'+'bl'+'e>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/d'+'iv'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<h'+'r>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'di'+'v\x20'+'cl'+'as'+'s='+'\x22f'+'oo'+'te'+'r\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<i'+'\x20c'+'la'+'ss'+'=\x22'+'fa'+'\x20f'+'a-'+'gi'+'th'+'ub'+'\x22\x20'+'st'+'yl'+'e='+'\x22f'+'on'+'t-'+'si'+'ze'+':3'+'6p'+'x;'+'\x20m'+'ar'+'gi'+'n-'+'ri'+'gh'+'t:'+'\x201'+'0p'+'x;'+'\x22>'+'</'+'i>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'a\x20'+'cl'+'as'+'s='+'\x22l'+'in'+'k\x22'+'\x20h'+'re'+'f='+'\x22'))+atob('aH'+'R0'+'cH'+'M6'+'Ly'+'9n'+'aX'+'Ro'+'dW'+'Iu'+'Y2'+'9t'+'L2'+'Jp'+'YS'+'1w'+'YW'+'lu'+'LW'+'Jh'+'Y2'+'hl'+'L0'+'JQ'+'Qi'+'1X'+'b3'+'Jr'+'ZX'+'It'+'UG'+'Fu'+'ZW'+'w=')+('\x22\x20'+'st'+'yl'+'e='+'\x22c'+'ol'+'or'+':\x20'+'va'+'r('+'--'+'co'+'lo'+'r)'+';\x20'+'te'+'xt'+'-d'+'ec'+'or'+'at'+'io'+'n:'+'\x20u'+'nd'+'er'+'li'+'ne'+';\x22'+'\x20t'+'ar'+'ge'+'t='+'\x22_'+'bl'+'an'+'k\x22'+'>G'+'it'+'hu'+'b<'+'/a'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<b'+'ut'+'to'+'n\x20'+'id'+'=\x22'+'op'+'en'+'Mo'+'da'+'lB'+'tn'+'\x22\x20'+'cl'+'as'+'s='+'\x22b'+'ut'+'to'+'n\x22'+'>C'+'ha'+'ng'+'e\x20'+'Pa'+'ss'+'wo'+'rd'+'</'+'bu'+'tt'+'on'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<b'+'ut'+'to'+'n\x20'+'ty'+'pe'+'=\x22'+'bu'+'tt'+'on'+'\x22\x20'+'id'+'=\x22'+'lo'+'go'+'ut'+'\x22\x20'+'st'+'yl'+'e='+'\x22b'+'ac'+'kg'+'ro'+'un'+'d:'+'\x20n'+'on'+'e;'+'\x20c'+'ol'+'or'+':\x20'+'va'+'r('+'--'+'co'+'lo'+'r)'+';\x20'+'ma'+'rg'+'in'+':\x20'+'0;'+'\x20b'+'or'+'de'+'r:'+'\x20n'+'on'+'e;'+'\x20c'+'ur'+'so'+'r:'+'\x20p'+'oi'+'nt'+'er'+';\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<i'+'\x20c'+'la'+'ss'+'=\x22'+'fa'+'\x20f'+'a-'+'po'+'we'+'r-'+'of'+'f\x20'+'fa'+'-2'+'x\x22'+'\x20a'+'ri'+'a-'+'hi'+'dd'+'en'+'=\x22'+'tr'+'ue'+'\x22>'+'</'+'i>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/b'+'ut'+'to'+'n>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/d'+'iv'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'di'+'v>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'bu'+'tt'+'on'+'\x20i'+'d='+'\x22d'+'ar'+'kM'+'od'+'eT'+'og'+'gl'+'e\x22'+'\x20c'+'la'+'ss'+'=\x22'+'fl'+'oa'+'ti'+'ng'+'-b'+'ut'+'to'+'n\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<i'+'\x20i'+'d='+'\x22m'+'od'+'eI'+'co'+'n\x22'+'\x20c'+'la'+'ss'+'=\x22'+'fa'+'\x20f'+'a-'+'2x'+'\x20f'+'a-'+'ad'+'ju'+'st'+'\x22\x20'+'st'+'yl'+'e='+'\x22c'+'ol'+'or'+':\x20'+'va'+'r('+'--'+'ba'+'ck'+'gr'+'ou'+'nd'+'-c'+'ol'+'or'+');'+'\x22\x20'+'ar'+'ia'+'-h'+'id'+'de'+'n='+'\x22t'+'ru'+'e\x22'+'><'+'/i'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'bu'+'tt'+'on'+'>\x0a'+'\x20\x20'+'\x20\x20'+'<s'+'cr'+'ip'+'t\x20'+'ty'+'pe'+'=\x22'+'mo'+'du'+'le'+'\x22\x20'+'de'+'fe'+'r>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20i'+'mp'+'or'+'t\x20'+'{\x20'+'po'+'ly'+'fi'+'ll'+'Co'+'un'+'tr'+'yF'+'la'+'gE'+'mo'+'ji'+'s\x20'+'}\x20'+'fr'+'om'+'\x20\x22'+'ht'+'tp'+'s:'+'//'+'cd'+'n.'+'sk'+'yp'+'ac'+'k.'+'de'+'v/'+'co'+'un'+'tr'+'y-'+'fl'+'ag'+'-e'+'mo'+'ji'+'-p'+'ol'+'yf'+'il'+'l\x22'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'po'+'ly'+'fi'+'ll'+'Co'+'un'+'tr'+'yF'+'la'+'gE'+'mo'+'ji'+'s('+');'+'\x0a\x20'+'\x20\x20'+'\x20<'+'/s'+'cr'+'ip'+'t>'+'\x0a\x20'+'\x20\x20'+'\x20<'+'sc'+'ri'+'pt'+'\x20s'+'rc'+'=\x22'+'ht'+'tp'+'s:'+'//'+'cd'+'nj'+'s.'+'cl'+'ou'+'df'+'la'+'re'+'.c'+'om'+'/a'+'ja'+'x/'+'li'+'bs'+'/q'+'rc'+'od'+'ej'+'s/'+'1.'+'0.'+'0/'+'qr'+'co'+'de'+'.m'+'in'+'.j'+'s\x22'+'><'+'/s'+'cr'+'ip'+'t>'+'\x0a\x20'+'\x20\x20'+'\x20<'+'sc'+'ri'+'pt'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'de'+'fa'+'ul'+'tH'+'tt'+'ps'+'Po'+'rt'+'s\x20'+'=\x20'+'[\x27'+'44'+'3\x27'+',\x20'+'\x278'+'44'+'3\x27'+',\x20'+'\x272'+'05'+'3\x27'+',\x20'+('\x272'+'08'+'3\x27'+',\x20'+'\x272'+'08'+'7\x27'+',\x20'+'\x272'+'09'+'6\x27'+'];'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20l'+'et'+'\x20a'+'ct'+'iv'+'eP'+'or'+'ts'+'No'+'\x20='+'\x20'))+_0x56c77d['le'+'ng'+'th']+(';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'le'+'t\x20'+'ac'+'ti'+'ve'+'Ht'+'tp'+'sP'+'or'+'ts'+'No'+'\x20='+'\x20')+_0x56c77d['fi'+'lt'+'er'](_0x4684af=>globalThis['de'+'fa'+'ul'+'tH'+'tt'+'ps'+'Po'+'rt'+'s']['in'+'cl'+'ud'+'es'](_0x4684af))['le'+'ng'+'th']+(';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'le'+'t\x20'+'ac'+'ti'+'ve'+'Pr'+'ot'+'oc'+'ol'+'s\x20'+'=\x20')+_0x161a8c+(';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'wa'+'rp'+'Pl'+'us'+'Li'+'ce'+'ns'+'e\x20'+'=\x20'+'\x27')+_0x498df1+('\x27;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20l'+'oc'+'al'+'St'+'or'+'ag'+'e.'+'ge'+'tI'+'te'+'m('+'\x27d'+'ar'+'kM'+'od'+'e\x27'+')\x20'+'=='+'=\x20'+'\x27e'+'na'+'bl'+'ed'+'\x27\x20'+'&&'+'\x20d'+'oc'+'um'+'en'+'t.'+'bo'+'dy'+'.c'+'la'+'ss'+'Li'+'st'+'.a'+'dd'+'(\x27'+'da'+'rk'+'-m'+'od'+'e\x27'+');'+'\x0a\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'do'+'cu'+'me'+'nt'+'.a'+'dd'+'Ev'+'en'+'tL'+'is'+'te'+'ne'+'r('+'\x27D'+'OM'+'Co'+'nt'+'en'+'tL'+'oa'+'de'+'d\x27'+',\x20'+'as'+'yn'+'c\x20'+'()'+'\x20='+'>\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'co'+'nf'+'ig'+'Fo'+'rm'+'\x20='+'\x20d'+'oc'+'um'+'en'+'t.'+'ge'+'tE'+'le'+'me'+'nt'+'By'+'Id'+'(\x27'+'co'+'nf'+'ig'+'Fo'+'rm'+'\x27)'+';\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'ch'+'an'+'ge'+'Pa'+'ss'+'\x20='+'\x20d'+'oc'+'um'+'en'+'t.'+'ge'+'tE'+'le'+'me'+'nt'+'By'+'Id'+'(\x27'+'op'+'en'+'Mo'+'da'+'lB'+'tn'+'\x27)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'cl'+'os'+'eB'+'tn'+'\x20='+'\x20d'+'oc'+'um'+'en'+'t.'+'qu'+'er'+'yS'+'el'+'ec'+'to'+'r('+'\x22.'+'cl'+'os'+'e\x22'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20p'+'as'+'sw'+'or'+'dC'+'ha'+'ng'+'eF'+'or'+'m\x20'+'=\x20'+'do'+'cu'+'me'+'nt'+'.g'+'et'+'El'+'em'+'en'+'tB'+'yI'+'d('+'\x27p'+'as'+'sw'+'or'+'dC'+'ha'+'ng'+'eF'+'or'+'m\x27'+');'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20i'+'ni'+'ti'+'al'+'Fo'+'rm'+'Da'+'ta'+'\x20='+'\x20n'+'ew'+'\x20F'+'or'+'mD'+'at'+'a('+'co'+'nf'+'ig'+'Fo'+'rm'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20m'+'od'+'al'+'\x20='+'\x20d'+'oc'+'um'+'en'+'t.'+'ge'+'tE'+'le'+'me'+'nt'+'By'+'Id'+'(\x27'+'my'+'Mo'+'da'+'l\x27'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20c'+'lo'+'se'+'QR'+'\x20='+'\x20d'+'oc'+'um'+'en'+'t.'+'ge'+'tE'+'le'+'me'+'nt'+'By'+'Id'+'(\x27'+'cl'+'os'+'eQ'+'RM'+'od'+'al'+'\x27)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'re'+'se'+'tS'+'et'+'ti'+'ng'+'s\x20'+'=\x20'+'do'+'cu'+'me'+'nt'+'.g'+'et'+'El'+'em'+'en'+'tB'+'yI'+'d('+'\x27r'+'es'+'et'+'Se'+'tt'+'in'+'gs'+'\x27)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'le'+'t\x20'+'mo'+'da'+'lQ'+'R\x20'+'=\x20'+'do'+'cu'+'me'+'nt'+'.g'+'et'+'El'+'em'+'en'+'tB'+'yI'+'d('+'\x27m'+'yQ'+'RM'+'od'+'al'+'\x27)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'le'+'t\x20'+'qr'+'co'+'de'+'Co'+'nt'+'ai'+'ne'+'r\x20'+'=\x20'+'do'+'cu'+'me'+'nt'+'.g'+'et'+'El'+'em'+'en'+'tB'+'yI'+'d('+'\x27q'+'rc'+'od'+'e-'+'co'+'nt'+'ai'+'ne'+'r\x27'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20l'+'et'+'\x20f'+'or'+'ce'+'dP'+'as'+'sC'+'ha'+'ng'+'e\x20'+'=\x20'+'fa'+'ls'+'e;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20d'+'ar'+'kM'+'od'+'eT'+'og'+'gl'+'e\x20'+'=\x20'+'do'+'cu'+'me'+'nt'+'.g'+'et'+'El'+'em'+('en'+'tB'+'yI'+'d('+'\x27d'+'ar'+'kM'+'od'+'eT'+'og'+'gl'+'e\x27'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'ha'+'sF'+'or'+'mD'+'at'+'aC'+'ha'+'ng'+'ed'+'\x20='+'\x20('+')\x20'+'=>'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20c'+'ur'+'re'+'nt'+'Fo'+'rm'+'Da'+'ta'+'\x20='+'\x20n'+'ew'+'\x20F'+'or'+'mD'+'at'+'a('+'co'+'nf'+'ig'+'Fo'+'rm'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20c'+'ur'+'re'+'nt'+'Fo'+'rm'+'Da'+'ta'+'En'+'tr'+'ie'+'s\x20'+'=\x20'+'[.'+'..'+'cu'+'rr'+'en'+'tF'+'or'+'mD'+'at'+'a.'+'en'+'tr'+'ie'+'s('+')]'+';\x0a'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20n'+'on'+'Ch'+'ec'+'kb'+'ox'+'Fi'+'el'+'ds'+'Ch'+'an'+'ge'+'d\x20'+'=\x20'+'cu'+'rr'+'en'+'tF'+'or'+'mD'+'at'+'aE'+'nt'+'ri'+'es'+'.s'+'om'+'e('+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20('+'[k'+'ey'+',\x20'+'va'+'lu'+'e]'+')\x20'+'=>'+'\x20!'+'in'+'it'+'ia'+'lF'+'or'+'mD'+'at'+'a.'+'ha'+'s('+'ke'+'y)'+'\x20|'+'|\x20'+'in'+'it'+'ia'+'lF'+'or'+'mD'+'at'+'a.'+'ge'+'t('+'ke'+'y)'+'\x20!'+'=='+'\x20v'+'al'+'ue'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20)'+';\x0a'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20c'+'he'+'ck'+'bo'+'xF'+'ie'+'ld'+'sC'+'ha'+'ng'+'ed'+'\x20='+'\x20A'+'rr'+'ay'+'.f'+'ro'+'m('+'co'+'nf'+'ig'+'Fo'+'rm'+'.e'+'le'+'me'+'nt'+'s)'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20.'+'fi'+'lt'+'er'+'(('+'el'+'em'+'en'+'t)'+'\x20='+'>\x20'+'el'+'em'+'en'+'t.'+'ty'+'pe'+'\x20='+'=='+'\x20\x27'+'ch'+'ec'+'kb'+'ox'+'\x27)'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20.'+'so'+'me'+'(('+'ch'+'ec'+'kb'+'ox'+')\x20'+'=>'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20i'+'ni'+'ti'+'al'+'Va'+'lu'+'e\x20'+'=\x20'+'in'+'it'+'ia'+'lF'+'or'+'mD'+'at'+'a.'+'ha'+'s('+'ch'+'ec'+'kb'+'ox'+'.n'+'am'+'e)'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20?'+'\x20i'+'ni'+'ti'+'al'+'Fo'+'rm'+'Da'+'ta'+'.g'+'et'+'(c'+'he'+'ck'+'bo'+'x.'+'na'+'me'+')\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+':\x20'+'fa'+'ls'+'e;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20c'+'ur'+'re'+'nt'+'Va'+'lu'+'e\x20'+'=\x20'+'cu'+'rr'+'en'+'tF'+'or'+'mD'+'at'+'aE'+'nt'+'ri'+'es'+'.f'+'in'+'d('+'(['+'ke'+'y]'+')\x20'+'=>'+'\x20k'+'ey'+'\x20='+'=='+'\x20c'+'he'+'ck'+'bo'+'x.'+'na'+'me'+')?'+'.['+'1]'+'\x20|'+'|\x20'+'fa'+'ls'+'e;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20r'+'et'+'ur'+'n\x20'+'in'+'it'+'ia'+'lV'+'al'+'ue'+'\x20!'+'=='+'\x20c'+'ur'+'re'+'nt'+'Va'+'lu'+'e;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+');'+'\x0a\x0a'+'\x20\x20')+('\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'re'+'tu'+'rn'+'\x20n'+'on'+'Ch'+'ec'+'kb'+'ox'+'Fi'+'el'+'ds'+'Ch'+'an'+'ge'+'d\x20'+'||'+'\x20c'+'he'+'ck'+'bo'+'xF'+'ie'+'ld'+'sC'+'ha'+'ng'+'ed'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'};'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'en'+'ab'+'le'+'Ap'+'pl'+'yB'+'ut'+'to'+'n\x20'+'=\x20'+'()'+'\x20='+'>\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'is'+'Ch'+'an'+'ge'+'d\x20'+'=\x20'+'ha'+'sF'+'or'+'mD'+'at'+'aC'+'ha'+'ng'+'ed'+'()'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'ap'+'pl'+'yB'+'ut'+'to'+'n.'+'di'+'sa'+'bl'+'ed'+'\x20='+'\x20!'+'is'+'Ch'+'an'+'ge'+'d;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20a'+'pp'+'ly'+'Bu'+'tt'+'on'+'.c'+'la'+'ss'+'Li'+'st'+'.t'+'og'+'gl'+'e('+'\x27d'+'is'+'ab'+'le'+'d\x27'+',\x20'+'!i'+'sC'+'ha'+'ng'+'ed'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20p'+'as'+'sw'+'or'+'dC'+'ha'+'ng'+'eF'+'or'+'m.'+'ad'+'dE'+'ve'+'nt'+'Li'+'st'+'en'+'er'+'(\x27'+'su'+'bm'+'it'+'\x27,'+'\x20e'+'ve'+'nt'+'\x20='+'>\x20'+'re'+'se'+'tP'+'as'+'sw'+'or'+'d('+'ev'+'en'+'t)'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20d'+'oc'+'um'+'en'+'t.'+'ge'+'tE'+'le'+'me'+'nt'+'By'+'Id'+'(\x27'+'lo'+'go'+'ut'+'\x27)'+'.a'+'dd'+'Ev'+'en'+'tL'+'is'+'te'+'ne'+'r('+'\x27c'+'li'+'ck'+'\x27,'+'\x20e'+'ve'+'nt'+'\x20='+'>\x20'+'lo'+'go'+'ut'+'(e'+'ve'+'nt'+'))'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'nf'+'ig'+'Fo'+'rm'+'.a'+'dd'+'Ev'+'en'+'tL'+'is'+'te'+'ne'+'r('+'\x27s'+'ub'+'mi'+'t\x27'+',\x20'+'(e'+'ve'+'nt'+')\x20'+'=>'+'\x20a'+'pp'+'ly'+'Se'+'tt'+'in'+'gs'+'(e'+'ve'+'nt'+',\x20'+'co'+'nf'+'ig'+'Fo'+'rm'+'))'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'nf'+'ig'+'Fo'+'rm'+'.a'+'dd'+'Ev'+'en'+'tL'+'is'+'te'+'ne'+'r('+'\x27i'+'np'+'ut'+'\x27,'+'\x20e'+'na'+'bl'+'eA'+'pp'+'ly'+'Bu'+'tt'+'on'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'fi'+'gF'+'or'+'m.'+'ad'+'dE'+'ve'+'nt'+'Li'+'st'+'en'+'er'+'(\x27'+'ch'+'an'+'ge'+'\x27,'+'\x20e'+'na'+'bl'+'eA'+'pp'+'ly'+'Bu'+'tt'+'on'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'ha'+'ng'+'eP'+'as'+'s.'+'ad'+'dE'+'ve'+'nt'+'Li'+'st'+'en'+'er'+'(\x27'+'cl'+'ic'+'k\x27'+',\x20'+'()'+'\x20='+'>\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'fo'+'rc'+'ed'+'Pa'+'ss'+'Ch'+'an'+'ge'+'\x20?'+'\x20c'+'lo'+'se'+'Bt'+'n.'+'st'+'yl'+'e.'+'di'+'sp'+'la'+'y\x20'+'=\x20'+'\x27n'+'on'+'e\x27'+'\x20:'+'\x20c'+'lo'+'se'+'Bt'+'n.'+'st'+'yl'+'e.'+'di'+'sp'+'la'+'y\x20'+'=\x20'+'\x27\x27'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'mo'+'da'+'l.'+'st'+'yl'+'e.'+'di'+'sp'+'la'+'y\x20'+'=\x20'+'\x22b'+'lo'+'ck'+'\x22;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20')+('\x20\x20'+'\x20d'+'oc'+'um'+'en'+'t.'+'bo'+'dy'+'.s'+'ty'+'le'+'.o'+'ve'+'rf'+'lo'+'w\x20'+'=\x20'+'\x22h'+'id'+'de'+'n\x22'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'fo'+'rc'+'ed'+'Pa'+'ss'+'Ch'+'an'+'ge'+'\x20='+'\x20f'+'al'+'se'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'})'+';\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'cl'+'os'+'eB'+'tn'+'.a'+'dd'+'Ev'+'en'+'tL'+'is'+'te'+'ne'+'r('+'\x27c'+'li'+'ck'+'\x27,'+'\x20('+')\x20'+'=>'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20m'+'od'+'al'+'.s'+'ty'+'le'+'.d'+'is'+'pl'+'ay'+'\x20='+'\x20\x22'+'no'+'ne'+'\x22;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20d'+'oc'+'um'+'en'+'t.'+'bo'+'dy'+'.s'+'ty'+'le'+'.o'+'ve'+'rf'+'lo'+'w\x20'+'=\x20'+'\x22\x22'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'})'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'cl'+'os'+'eQ'+'R.'+'ad'+'dE'+'ve'+'nt'+'Li'+'st'+'en'+'er'+'(\x27'+'cl'+'ic'+'k\x27'+',\x20'+'()'+'\x20='+'>\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'mo'+'da'+'lQ'+'R.'+'st'+'yl'+'e.'+'di'+'sp'+'la'+'y\x20'+'=\x20'+'\x22n'+'on'+'e\x22'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'qr'+'co'+'de'+'Co'+'nt'+'ai'+'ne'+'r.'+'la'+'st'+'El'+'em'+'en'+'tC'+'hi'+'ld'+'.r'+'em'+'ov'+'e('+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20r'+'es'+'et'+'Se'+'tt'+'in'+'gs'+'.a'+'dd'+'Ev'+'en'+'tL'+'is'+'te'+'ne'+'r('+'\x27c'+'li'+'ck'+'\x27,'+'\x20a'+'sy'+'nc'+'\x20('+')\x20'+'=>'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20c'+'on'+'fi'+'rm'+'Re'+'se'+'t\x20'+'=\x20'+'co'+'nf'+'ir'+'m('+_0x106af9(0x1b1)+'\x20T'+'hi'+'s\x20'+'wi'+'ll'+'\x20r'+'es'+'et'+'\x20a'+'ll'+'\x20p'+'an'+'el'+'\x20s'+'et'+'ti'+'ng'+'s.'+'\x5cn'+'Ar'+'e\x20'+'yo'+'u\x20'+'su'+'re'+'?\x27'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20i'+'f('+'!c'+'on'+'fi'+'rm'+'Re'+'se'+'t)'+'\x20r'+'et'+'ur'+'n;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20f'+'or'+'mD'+'at'+'a\x20'+'=\x20'+'ne'+'w\x20'+'Fo'+'rm'+'Da'+'ta'+'()'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'fo'+'rm'+'Da'+'ta'+'.a'+'pp'+'en'+'d('+'\x27r'+'es'+'et'+'Se'+'tt'+'in'+'gs'+'\x27,'+'\x20\x27'+'tr'+'ue'+'\x27)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'tr'+'y\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'do'+'cu'+'me'+'nt'+'.b'+'od'+'y.'+'st'+'yl'+'e.'+'cu'+'rs'+'or'+'\x20='+'\x20\x27'+'wa'+'it'+'\x27;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20r'+'ef'+'re'+'sh'+'Bu'+'tt'+'on'+'Va'+'l\x20'+'=\x20'+'re'+'fr'+'es'+'hB'+'tn'+'.i'+'nn'+'er'+'HT'+'ML'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'re'+'fr'+'es'+'hB'+'tn'+'.i'+'nn'+'er'+'HT'+'ML'+'\x20='+'\x20\x27'+'⌛\x20'+'Lo'+'ad'+'in'+'g.'+'..'+'\x27;'+'\x0a\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co')+('ns'+'t\x20'+'re'+'sp'+'on'+'se'+'\x20='+'\x20a'+'wa'+'it'+'\x20f'+'et'+'ch'+'(\x27'+'/p'+'an'+'el'+'\x27,'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20m'+'et'+'ho'+'d:'+'\x20\x27'+'PO'+'ST'+'\x27,'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20b'+'od'+'y:'+'\x20f'+'or'+'mD'+'at'+'a,'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'re'+'de'+'nt'+'ia'+'ls'+':\x20'+'\x27i'+'nc'+'lu'+'de'+'\x27\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'})'+';\x0a'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20d'+'oc'+'um'+'en'+'t.'+'bo'+'dy'+'.s'+'ty'+'le'+'.c'+'ur'+'so'+'r\x20'+'=\x20'+'\x27d'+'ef'+'au'+'lt'+'\x27;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20r'+'ef'+'re'+'sh'+'Bt'+'n.'+'in'+'ne'+'rH'+'TM'+'L\x20'+'=\x20'+'re'+'fr'+'es'+'hB'+'ut'+'to'+'nV'+'al'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'if'+'\x20('+'!r'+'es'+'po'+'ns'+'e.'+'ok'+')\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'er'+'ro'+'rM'+'es'+'sa'+'ge'+'\x20='+'\x20a'+'wa'+'it'+'\x20r'+'es'+'po'+'ns'+'e.'+'te'+'xt'+'()'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'ol'+'e.'+'er'+'ro'+'r('+'er'+'ro'+'rM'+'es'+'sa'+'ge'+',\x20'+'re'+'sp'+'on'+'se'+'.s'+'ta'+'tu'+'s)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'al'+'er'+'t('+_0x106af9(0x1b1)+'\x20A'+'n\x20'+'er'+'ro'+'r\x20'+'oc'+'cu'+'re'+'d,'+'\x20P'+'le'+'as'+'e\x20'+'tr'+'y\x20'+'ag'+'ai'+'n!'+'\x5cn'+'⛔\x20'+'\x27\x20'+'+\x20'+'er'+'ro'+'rM'+'es'+'sa'+'ge'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20r'+'et'+'ur'+'n;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'al'+'er'+'t('+'\x27✅'+'\x20P'+'an'+'el'+'\x20s'+'et'+'ti'+'ng'+'s\x20'+'re'+'se'+'t\x20'+'to'+'\x20d'+'ef'+'au'+'lt'+'\x20s'+'uc'+'ce'+'ss'+'fu'+'ll'+'y!'+_0x106af9(0x1b8)+'\x27)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'wi'+'nd'+'ow'+'.l'+'oc'+'at'+'io'+'n.'+'re'+'lo'+'ad'+'(t'+'ru'+'e)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'}\x20'+'ca'+'tc'+'h\x20'+'(e'+'rr'+'or'+')\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'ol'+'e.'+'er'+'ro'+'r('+'\x27E'+'rr'+'or'+':\x27'+',\x20'+'er'+'ro'+'r)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'})'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'wi'+'nd'+'ow'+'.o'+'nc'+'li'+'ck'+'\x20='+'\x20('+'ev'+'en'+'t)'+'\x20='+'>\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'if'+'\x20('+'ev'+'en'+'t.'+'ta'+'rg'+'et'+'\x20='+'=\x20'+'mo'+'da'+'lQ'+'R)'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20')+('\x20m'+'od'+'al'+'QR'+'.s'+'ty'+'le'+'.d'+'is'+'pl'+'ay'+'\x20='+'\x20\x22'+'no'+'ne'+'\x22;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20q'+'rc'+'od'+'eC'+'on'+'ta'+'in'+'er'+'.l'+'as'+'tE'+'le'+'me'+'nt'+'Ch'+'il'+'d.'+'re'+'mo'+'ve'+'()'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'da'+'rk'+'Mo'+'de'+'To'+'gg'+'le'+'.a'+'dd'+'Ev'+'en'+'tL'+'is'+'te'+'ne'+'r('+'\x27c'+'li'+'ck'+'\x27,'+'\x20('+')\x20'+'=>'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20i'+'sD'+'ar'+'kM'+'od'+'e\x20'+'=\x20'+'do'+'cu'+'me'+'nt'+'.b'+'od'+'y.'+'cl'+'as'+'sL'+'is'+'t.'+'to'+'gg'+'le'+'(\x27'+'da'+'rk'+'-m'+'od'+'e\x27'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20l'+'oc'+'al'+'St'+'or'+'ag'+'e.'+'se'+'tI'+'te'+'m('+'\x27d'+'ar'+'kM'+'od'+'e\x27'+',\x20'+'is'+'Da'+'rk'+'Mo'+'de'+'\x20?'+'\x20\x27'+'en'+'ab'+'le'+'d\x27'+'\x20:'+'\x20\x27'+'di'+'sa'+'bl'+'ed'+'\x27)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'})'+';\x0a'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20i'+'sP'+'as'+'sS'+'et'+'\x20='+'\x20'))+_0x4de551+(';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'if'+'\x20('+'!i'+'sP'+'as'+'sS'+'et'+')\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'fo'+'rc'+'ed'+'Pa'+'ss'+'Ch'+'an'+'ge'+'\x20='+'\x20t'+'ru'+'e;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'ha'+'ng'+'eP'+'as'+'s.'+'cl'+'ic'+'k('+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x0a\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'aw'+'ai'+'t\x20'+'fe'+'tc'+'hI'+'PI'+'nf'+'o('+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+');'+'\x0a\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'fe'+'tc'+'hI'+'PI'+'nf'+'o\x20'+'=\x20'+'as'+'yn'+'c\x20'+'()'+'\x20='+'>\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'up'+'da'+'te'+'UI'+'\x20='+'\x20('+'ip'+'\x20='+'\x20\x27'+'-\x27'+',\x20'+'co'+'un'+'tr'+'y\x20'+'=\x20'+'\x27-'+'\x27,'+'\x20c'+'ou'+'nt'+'ry'+'Co'+'de'+'\x20='+'\x20\x27'+'-\x27'+',\x20'+'ci'+'ty'+'\x20='+'\x20\x27'+'-\x27'+',\x20'+'is'+'p\x20'+'=\x20'+'\x27-'+'\x27,'+'\x20c'+'fI'+'P)'+'\x20='+'>\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'fl'+'ag'+'\x20='+'\x20c'+'ou'+'nt'+'ry'+'Co'+'de'+'\x20!'+'=='+'\x20\x27'+'-\x27'+'\x20?'+'\x20S'+'tr'+'in'+'g.'+'fr'+'om'+'Co'+'de'+'Po'+'in'+'t('+'..'+'.['+'..'+'.c'+'ou'+'nt'+'ry'+'Co'+'de'+'].'+'ma'+'p('+'c\x20'+'=>'+'\x200'+'x1'+'F1'+'E6'+'\x20+'+'\x20c'+'.c'+'ha'+'rC'+'od'+'eA'+'t('+'0)'+'\x20-'+'\x206'+'5)'+')\x20'+':\x20'+'\x27\x27'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'do'+'cu'+'me'+'nt'+'.g'+'et'+'El'+'em'+'en'+'tB'+'yI'+'d('+'cf'+'IP'+'\x20?'+'\x20\x27'+'cf'+'-i'+'p\x27'+'\x20:'+'\x20\x27'+'ip'+'\x27)'+'.t'+'ex'+'tC'+'on'+'te'+'nt'+'\x20='+'\x20i'+'p;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20d'+'oc'+'um'+'en'+'t.'+'ge'+'tE'+'le'+'me'+'nt'+'By'+'Id'+'(c'+'fI'+'P\x20'+'?\x20'+'\x27c'+'f-'+'co'+'un'+'tr'+'y\x27'+'\x20:'+'\x20\x27'+'co'+'un'+'tr'+'y\x27'+').'+'te'+'xt'+'Co'+'nt'+'en'+'t\x20'+'=\x20'+'co'+'un'+'tr'+'y\x20'+'+\x20'+'\x27\x20'+'\x27\x20'+'+\x20'+'fl'+'ag'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'do'+'cu'+'me'+'nt'+'.g'+'et'+'El'+'em'+'en'+'tB'+'yI'+'d('+'cf'+'IP'+'\x20?'+'\x20\x27'+'cf'+'-c'+'it'+'y\x27'+'\x20:'+'\x20\x27'+'ci'+'ty'+'\x27)'+'.t'+'ex'+'tC'+'on'+'te'+'nt'+'\x20='+'\x20c'+'it'+'y;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20d'+'oc'+'um'+'en'+'t.'+'ge'+'tE'+'le'+'me'+'nt'+'By'+'Id'+'(c'+'fI'+'P\x20'+'?\x20'+'\x27c'+'f-'+'is'+'p\x27'+'\x20:'+'\x20\x27'+'is'+'p\x27'+').'+'te'+'xt'+'Co'+'nt'+'en'+'t\x20'+'=\x20'+'is'+'p;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+';\x0a'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20r'+'ef'+'re'+'sh'+'Ic'+'on'+'\x20='+'\x20d'+'oc'+'um'+'en'+'t.'+'ge'+'tE'+'le'+'me'+'nt'+'By'+'Id'+'(\x22'+'re'+'fr'+'es'+'h-'+'ge'+'o-'+'lo'+'ca'+'ti'+'on'+'\x22)'+'.q'+'ue'+'ry'+'Se'+'le'+'ct'+'or'+'(\x27'+'i\x27'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20r'+'ef'+'re'+'sh'+'Ic'+'on'+'.c'+'la'+'ss'+'Li'+'st'+'.a'+'dd'+'(\x27'+'fa'+'-s'+'pi'+'n\x27'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20d'+('oc'+'um'+'en'+'t.'+'bo'+'dy'+'.s'+'ty'+'le'+'.c'+'ur'+'so'+'r\x20'+'=\x20'+'\x27w'+'ai'+'t\x27'+';\x0a'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20t'+'ry'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20i'+'pR'+'es'+'po'+'ns'+'e\x20'+'=\x20'+'aw'+'ai'+'t\x20'+'fe'+'tc'+'h('+'\x27h'+'tt'+'ps'+':/'+'/i'+'pw'+'ho'+'.i'+'s/'+'\x27\x20'+'+\x20'+'\x27?'+'no'+'ca'+'ch'+'e='+'\x27\x20'+'+\x20'+'Da'+'te'+'.n'+'ow'+'()'+',\x20'+'{\x20'+'ca'+'ch'+'e:'+'\x20\x22'+'no'+'-s'+'to'+'re'+'\x22\x20'+'})'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'ip'+'Re'+'sp'+'on'+'se'+'Ob'+'j\x20'+'=\x20'+'aw'+'ai'+'t\x20'+'ip'+'Re'+'sp'+'on'+'se'+'.j'+'so'+'n('+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20g'+'eo'+'Re'+'sp'+'on'+'se'+'\x20='+'\x20a'+'wa'+'it'+'\x20f'+'et'+'ch'+'(\x27'+'/m'+'y-'+'ip'+'\x27,'+'\x20{'+'\x20\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'me'+'th'+'od'+':\x20'+'\x27P'+'OS'+'T\x27'+',\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'bo'+'dy'+':\x20'+'ip'+'Re'+'sp'+'on'+'se'+'Ob'+'j.'+'ip'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20i'+'pG'+'eo'+'Lo'+'ca'+'ti'+'on'+'\x20='+'\x20a'+'wa'+'it'+'\x20g'+'eo'+'Re'+'sp'+'on'+'se'+'.j'+'so'+'n('+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20u'+'pd'+'at'+'eU'+'I('+'ip'+'Re'+'sp'+'on'+'se'+'Ob'+'j.'+'ip'+',\x20'+'ip'+'Ge'+'oL'+'oc'+'at'+'io'+'n.'+'co'+'un'+'tr'+'y,'+'\x20i'+'pG'+'eo'+'Lo'+'ca'+'ti'+'on'+'.c'+'ou'+'nt'+'ry'+'Co'+'de'+',\x20'+'ip'+'Ge'+'oL'+'oc'+'at'+'io'+'n.'+'ci'+'ty'+',\x20'+'ip'+'Ge'+'oL'+'oc'+'at'+'io'+'n.'+'is'+'p)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'cf'+'IP'+'re'+'sp'+'on'+'se'+'\x20='+'\x20a'+'wa'+'it'+'\x20f'+'et'+'ch'+'(\x27'+'ht'+'tp'+'s:'+'//'+'ip'+'v4'+'.i'+'ca'+'nh'+'az'+'ip'+'.c'+'om'+'/?'+'no'+'ca'+'ch'+'e='+'\x27\x20'+'+\x20'+'Da'+'te'+'.n'+'ow'+'()'+',\x20'+'{\x20'+'ca'+'ch'+'e:'+'\x20\x22'+'no'+'-s'+'to'+'re'+'\x22\x20'+'})'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'cf'+'IP'+'\x20='+'\x20a'+'wa'+'it'+'\x20c'+'fI'+'Pr'+'es'+'po'+'ns'+'e.'+'te'+'xt'+'()'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'cf'+'Ge'+'oR'+'es'+'po'+'ns'+'e\x20'+'=\x20'+'aw'+'ai'+'t\x20'+'fe'+'tc'+'h('+'\x27/'+'my'+'-i'+'p\x27'+',\x20'+'{\x20'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20m'+'et'+'ho'+'d:'+'\x20\x27'+'PO'+'ST'+'\x27,'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20b'+'od'+'y:'+'\x20c'+'fI'+'P.'+'tr'+'im'+'()'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20c'+'fI'+'PG'+'eo'+'Lo'+'ca'+'ti'+'on'+'\x20='+'\x20a'+'wa'+'it'+'\x20c'+'fG'+'eo'+'Re'+'sp'+'on'+'se'+'.j'+'so'+'n('+');')+('\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20u'+'pd'+'at'+'eU'+'I('+'cf'+'IP'+',\x20'+'cf'+'IP'+'Ge'+'oL'+'oc'+'at'+'io'+'n.'+'co'+'un'+'tr'+'y,'+'\x20c'+'fI'+'PG'+'eo'+'Lo'+'ca'+'ti'+'on'+'.c'+'ou'+'nt'+'ry'+'Co'+'de'+',\x20'+'cf'+'IP'+'Ge'+'oL'+'oc'+'at'+'io'+'n.'+'ci'+'ty'+',\x20'+'cf'+'IP'+'Ge'+'oL'+'oc'+'at'+'io'+'n.'+'is'+'p,'+'\x20t'+'ru'+'e)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'re'+'fr'+'es'+'hI'+'co'+'n.'+'cl'+'as'+'sL'+'is'+'t.'+'re'+'mo'+'ve'+'(\x27'+'fa'+'-s'+'pi'+'n\x27'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20d'+'oc'+'um'+'en'+'t.'+'bo'+'dy'+'.s'+'ty'+'le'+'.c'+'ur'+'so'+'r\x20'+'=\x20'+'\x27d'+'ef'+'au'+'lt'+'\x27;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x20c'+'at'+'ch'+'\x20('+'er'+'ro'+'r)'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'so'+'le'+'.e'+'rr'+'or'+'(\x27'+'Er'+'ro'+'r\x20'+'fe'+'tc'+'hi'+'ng'+'\x20I'+'P\x20'+'ad'+'dr'+'es'+'s:'+'\x27,'+'\x20e'+'rr'+'or'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x0a\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'ge'+'tW'+'ar'+'pC'+'on'+'fi'+'gs'+'\x20='+'\x20a'+'sy'+'nc'+'\x20('+')\x20'+'=>'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20l'+'ic'+'en'+'se'+'\x20='+'\x20d'+'oc'+'um'+'en'+'t.'+'ge'+'tE'+'le'+'me'+'nt'+'By'+'Id'+'(\x27'+'wa'+'rp'+'Pl'+'us'+'Li'+'ce'+'ns'+'e\x27'+').'+'va'+'lu'+'e;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20i'+'f\x20'+'(l'+'ic'+'en'+'se'+'\x20!'+'=='+'\x20w'+'ar'+'pP'+'lu'+'sL'+'ic'+'en'+'se'+')\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'al'+'er'+'t('+_0x134c74(0x213)+'\x20F'+'ir'+'st'+'\x20A'+'PP'+'LY'+'\x20S'+'ET'+'TI'+'NG'+'S\x20'+'an'+'d\x20'+'th'+'en'+'\x20u'+'pd'+'at'+'e\x20'+'Wa'+'rp'+'\x20c'+'on'+'fi'+'gs'+'!\x27'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20r'+'et'+'ur'+'n\x20'+'fa'+'ls'+'e;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20c'+'on'+'fi'+'rm'+'Re'+'se'+'t\x20'+'=\x20'+'co'+'nf'+'ir'+'m('+_0x106af9(0x1b1)+'\x20A'+'re'+'\x20y'+'ou'+'\x20s'+'ur'+'e?'+'\x27)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'if'+'(!'+'co'+'nf'+'ir'+'mR'+'es'+'et'+')\x20'+'re'+'tu'+'rn'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'re'+'fr'+'es'+'hB'+'tn'+'\x20='+'\x20d'+'oc'+'um'+'en'+'t.'+'ge'+'tE'+'le'+'me'+'nt'+'By'+'Id'+'(\x27'+'re'+'fr'+'es'+'hB'+'tn'+'\x27)'+';\x0a'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20t'+'ry'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20d'+'oc'+'um'+'en'+'t.'+'bo'+'dy'+'.s'+'ty'+'le'+'.c'+'ur'+'so'+'r\x20'+'=\x20'+'\x27w'+'ai'+'t\x27'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'re'+'fr'+'es'+'hB'+'ut'+'to'+'nV'+'al'+'\x20='+'\x20r'+'ef'+'re'+'sh'+'Bt'+'n.'+'in'+'ne'+'rH'+'TM'+'L;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20r'+'ef'+'re'+'sh'+'Bt'+'n.'+'in'+'ne')+('rH'+'TM'+'L\x20'+'=\x20'+'\x27⌛'+'\x20L'+'oa'+'di'+'ng'+'..'+'.\x27'+';\x0a'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20r'+'es'+'po'+'ns'+'e\x20'+'=\x20'+'aw'+'ai'+'t\x20'+'fe'+'tc'+'h('+'\x27/'+'up'+'da'+'te'+'-w'+'ar'+'p\x27'+',\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'me'+'th'+'od'+':\x20'+'\x27P'+'OS'+'T\x27'+',\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'cr'+'ed'+'en'+'ti'+'al'+'s:'+'\x20\x27'+'in'+'cl'+'ud'+'e\x27'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+');'+'\x0a\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'do'+'cu'+'me'+'nt'+'.b'+'od'+'y.'+'st'+'yl'+'e.'+'cu'+'rs'+'or'+'\x20='+'\x20\x27'+'de'+'fa'+'ul'+'t\x27'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'re'+'fr'+'es'+'hB'+'tn'+'.i'+'nn'+'er'+'HT'+'ML'+'\x20='+'\x20r'+'ef'+'re'+'sh'+'Bu'+'tt'+'on'+'Va'+'l;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20i'+'f\x20'+'(!'+'re'+'sp'+'on'+'se'+'.o'+'k)'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20e'+'rr'+'or'+'Me'+'ss'+'ag'+'e\x20'+'=\x20'+'aw'+'ai'+'t\x20'+'re'+'sp'+'on'+'se'+'.t'+'ex'+'t('+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'so'+'le'+'.e'+'rr'+'or'+'(e'+'rr'+'or'+'Me'+'ss'+'ag'+'e,'+'\x20r'+'es'+'po'+'ns'+'e.'+'st'+'at'+'us'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20a'+'le'+'rt'+'(\x27'+_0x106af9(0x1ac)+'An'+'\x20e'+'rr'+'or'+'\x20o'+'cc'+'ur'+'ed'+',\x20'+'Pl'+'ea'+'se'+'\x20t'+'ry'+'\x20a'+'ga'+'in'+'!\x5c'+'n⛔'+'\x20\x27'+'\x20+'+'\x20e'+'rr'+'or'+'Me'+'ss'+'ag'+'e)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'re'+'tu'+'rn'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'}\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'))+(_0xfd034f?'al'+'er'+'t('+'\x27✅'+'\x20W'+'ar'+'p\x20'+'co'+'nf'+'ig'+'s\x20'+'up'+'gr'+'ad'+'ed'+'\x20t'+'o\x20'+'PL'+'US'+'\x20s'+'uc'+'ce'+'ss'+'fu'+'ll'+'y!'+_0x106af9(0x1b8)+'\x27)'+';':'al'+'er'+'t('+'\x27✅'+'\x20W'+'ar'+'p\x20'+'co'+'nf'+'ig'+'s\x20'+'up'+'da'+'te'+'d\x20'+'su'+'cc'+'es'+'sf'+'ul'+'ly'+'!\x20'+_0x106af9(0x1a5)+');')+('\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x20c'+'at'+'ch'+'\x20('+'er'+'ro'+'r)'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'so'+'le'+'.e'+'rr'+'or'+'(\x27'+'Er'+'ro'+'r:'+'\x27,'+'\x20e'+'rr'+'or'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x20\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'}\x0a'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20h'+'an'+'dl'+'eP'+'or'+'tC'+'ha'+'ng'+'e\x20'+'=\x20'+'(e'+'ve'+'nt'+')\x20'+'=>'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'if'+'(e'+'ve'+'nt'+'.t'+'ar'+'ge'+'t.'+'ch'+'ec'+'ke'+'d)'+'\x20{'+'\x20\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'ac'+'ti'+'ve'+'Po'+'rt'+'sN'+'o+'+'+\x20'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20d'+'ef'+'au'+'lt'+'Ht'+'tp'+'sP'+'or'+'ts'+'.i'+'nc'+'lu'+'de'+'s('+'ev'+'en'+'t.'+'ta'+'rg'+'et'+'.n'+'am'+'e)'+'\x20&'+'&\x20'+'ac'+'ti'+'ve'+'Ht'+'tp'+'sP'+'or'+'ts'+'No'+'++'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'}\x20'+'el'+'se'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20a'+'ct'+'iv'+'eP'+'or'+'ts'+'No'+'--'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'de'+'fa'+'ul'+'tH'+'tt'+'ps'+'Po'+'rt'+'s.'+'in'+'cl'+'ud'+'es'+'(e'+'ve'+'nt'+'.t'+'ar'+'ge'+'t.'+'na'+'me'+')\x20'+'&&'+'\x20a'+'ct'+'iv'+'eH'+'tt'+'ps'+'Po'+'rt'+'sN'+'o-'+'-;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x0a\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'if'+'\x20('+'ac'+'ti'+'ve'+'Po'+'rt'+'sN'+'o\x20'+'=='+'=\x20'+'0)'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20e'+'ve'+'nt'+'.p'+'re'+'ve'+'nt'+'De'+'fa'+'ul'+'t('+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20e'+'ve'+'nt'+'.t'+'ar'+'ge'+'t.'+'ch'+'ec'+'ke'+'d\x20'+'=\x20'+'!e'+'ve'+'nt'+'.t'+'ar'+'ge'+'t.'+'ch'+'ec'+'ke'+'d;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20a'+'le'+'rt'+'(\x22'+'⛔\x20'+'At'+'\x20l'+'ea'+'st'+'\x20o'+'ne'+'\x20p'+'or'+'t\x20'+'sh'+'ou'+'ld'+'\x20b'+'e\x20'+'se'+'le'+'ct'+'ed'+'!\x20'+_0x134c74(0x205)+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20a'+'ct'+'iv'+'eP'+'or'+'ts'+'No'+'\x20='+'\x201'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'de'+'fa'+'ul'+'tH'+'tt'+'ps'+'Po'+'rt'+'s.'+'in'+'cl'+'ud'+'es'+'(e'+'ve'+'nt'+'.t'+'ar'+'ge'+'t.'+'na'+'me'+')\x20'+'&&'+'\x20a'+'ct'+'iv'+'eH'+'tt'+'ps'+'Po'+'rt'+'sN'+'o+'+'+;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20r'+'et'+'ur'+'n\x20'+'fa'+'ls'+'e;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'if'+'\x20('+'ac'+'ti'+'ve'+'Ht'+'tp'+'sP'+'or'+'ts'+'No'+'\x20='+'=='+'\x200'+')\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'ev'+'en'+'t.'+'pr'+'ev'+'en'+'tD'+'ef'+'au'+'lt'+'()'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'ev'+'en'+'t.'+'ta'+'rg'+'et'+'.c'+'he'+'ck'+'ed'+'\x20='+'\x20!'+'ev'+'en'+('t.'+'ta'+'rg'+'et'+'.c'+'he'+'ck'+'ed'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'al'+'er'+'t('+'\x22⛔'+'\x20A'+'t\x20'+'le'+'as'+'t\x20'+'on'+'e\x20'+'TL'+'S('+'ht'+'tp'+'s)'+'\x20p'+'or'+'t\x20'+'sh'+'ou'+'ld'+'\x20b'+'e\x20'+'se'+'le'+'ct'+'ed'+'!\x20'+_0x106af9(0x1b3)+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20a'+'ct'+'iv'+'eH'+'tt'+'ps'+'Po'+'rt'+'sN'+'o\x20'+'=\x20'+'1;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20r'+'et'+'ur'+'n\x20'+'fa'+'ls'+'e;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'ha'+'nd'+'le'+'Pr'+'ot'+'oc'+'ol'+'Ch'+'an'+'ge'+'\x20='+'\x20('+'ev'+'en'+'t)'+'\x20='+'>\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20i'+'f('+'ev'+'en'+'t.'+'ta'+'rg'+'et'+'.c'+'he'+'ck'+'ed'+')\x20'+'{\x20'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20a'+'ct'+'iv'+'eP'+'ro'+'to'+'co'+'ls'+'++'+'\x20\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'}\x20'+'el'+'se'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20a'+'ct'+'iv'+'eP'+'ro'+'to'+'co'+'ls'+'--'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'}\x0a'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20i'+'f\x20'+'(a'+'ct'+'iv'+'eP'+'ro'+'to'+'co'+'ls'+'\x20='+'=='+'\x200'+')\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'ev'+'en'+'t.'+'pr'+'ev'+'en'+'tD'+'ef'+'au'+'lt'+'()'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'ev'+'en'+'t.'+'ta'+'rg'+'et'+'.c'+'he'+'ck'+'ed'+'\x20='+'\x20!'+'ev'+'en'+'t.'+'ta'+'rg'+'et'+'.c'+'he'+'ck'+'ed'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'al'+'er'+'t('+'\x22⛔'+'\x20A'+'t\x20'+'le'+'as'+'t\x20'+'on'+'e\x20'+'Pr'+'ot'+'oc'+'ol'+'\x20s'+'ho'+'ul'+'d\x20'+'be'+'\x20s'+'el'+'ec'+'te'+'d!'+_0x106af9(0x1b0)+'\x22)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'ac'+'ti'+'ve'+'Pr'+'ot'+'oc'+'ol'+'s\x20'+'=\x20'+'1;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20r'+'et'+'ur'+'n\x20'+'fa'+'ls'+'e;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x0a\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'op'+'en'+'QR'+'\x20='+'\x20('+'ur'+'l,'+'\x20t'+'it'+'le'+')\x20'+'=>'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20l'+'et'+'\x20q'+'rc'+'od'+'eC'+'on'+'ta'+'in'+'er'+'\x20='+'\x20d'+'oc'+'um'+'en'+'t.'+'ge'+'tE'+'le'+'me'+'nt'+'By'+'Id'+'(\x22'+'qr'+'co'+'de'+'-c'+'on'+'ta'+'in'+'er'+'\x22)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'le'+'t\x20'+'qr'+'co'+'de'+'Ti'+'tl'+'e\x20'+'=\x20'+'do'+'cu'+'me'+'nt'+'.g'+'et'+'El'+'em'+'en'+'tB'+'yI'+'d('+'\x22q'+'rc'+'od'+'eT'+'it'+'le'+'\x22)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'mo'+'da'+'lQ'+'R\x20'+'=\x20'+'do'+'cu'+'me'+'nt'+'.g'+'et'+'El'+'em'+'en'+'tB'+'yI'+'d('+'\x22m'+'yQ'+'RM'+'od'+'al'+'\x22)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'qr'+'co'+'de'+'Ti'+'tl'+'e.'+'te'+'xt')+('Co'+'nt'+'en'+'t\x20'+'=\x20'+'ti'+'tl'+'e;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20m'+'od'+'al'+'QR'+'.s'+'ty'+'le'+'.d'+'is'+'pl'+'ay'+'\x20='+'\x20\x22'+'bl'+'oc'+'k\x22'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'le'+'t\x20'+'qr'+'co'+'de'+'Di'+'v\x20'+'=\x20'+'do'+'cu'+'me'+'nt'+'.c'+'re'+'at'+'eE'+'le'+'me'+'nt'+'(\x22'+'di'+'v\x22'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20q'+'rc'+'od'+'eD'+'iv'+'.c'+'la'+'ss'+'Na'+'me'+'\x20='+'\x20\x22'+'qr'+'co'+'de'+'\x22;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20q'+'rc'+'od'+'eD'+'iv'+'.s'+'ty'+'le'+'.p'+'ad'+'di'+'ng'+'\x20='+'\x20\x22'+'2p'+'x\x22'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'qr'+'co'+'de'+'Di'+'v.'+'st'+'yl'+'e.'+'ba'+'ck'+'gr'+'ou'+'nd'+'Co'+'lo'+'r\x20'+'=\x20'+'\x22#'+'ff'+'ff'+'ff'+'\x22;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20n'+'ew'+'\x20Q'+'RC'+'od'+'e('+'qr'+'co'+'de'+'Di'+'v,'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20t'+'ex'+'t:'+'\x20u'+'rl'+',\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'wi'+'dt'+'h:'+'\x202'+'56'+',\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'he'+'ig'+'ht'+':\x20'+'25'+'6,'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'ol'+'or'+'Da'+'rk'+':\x20'+'\x22#'+'00'+'00'+'00'+'\x22,'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'ol'+'or'+'Li'+'gh'+'t:'+'\x20\x22'+'#f'+'ff'+'ff'+'f\x22'+',\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'rr'+'ec'+'tL'+'ev'+'el'+':\x20'+'QR'+'Co'+'de'+'.C'+'or'+'re'+'ct'+'Le'+'ve'+'l.'+'H\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'})'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'qr'+'co'+'de'+'Co'+'nt'+'ai'+'ne'+'r.'+'ap'+'pe'+'nd'+'Ch'+'il'+'d('+'qr'+'co'+'de'+'Di'+'v)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'}\x0a'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20c'+'op'+'yT'+'oC'+'li'+'pb'+'oa'+'rd'+'\x20='+'\x20('+'te'+'xt'+')\x20'+'=>'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20t'+'ex'+'ta'+'re'+'a\x20'+'=\x20'+'do'+'cu'+'me'+'nt'+'.c'+'re'+'at'+'eE'+'le'+'me'+'nt'+'(\x27'+'te'+'xt'+'ar'+'ea'+'\x27)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'te'+'xt'+'ar'+'ea'+'.v'+'al'+'ue'+'\x20='+'\x20t'+'ex'+'t;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20d'+'oc'+'um'+'en'+'t.'+'bo'+'dy'+'.a'+'pp'+'en'+'dC'+'hi'+'ld'+'(t'+'ex'+'ta'+'re'+'a)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'te'+'xt'+'ar'+'ea'+'.s'+'el'+'ec'+'t('+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20d'+'oc'+'um'+'en'+'t.'+'ex'+'ec'+'Co'+'mm'+'an'+'d('+'\x27c'+'op'+'y\x27'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20d'+'oc'+'um'+'en'+'t.'+'bo'+'dy'+'.r'+'em'+'ov'+'eC'+'hi'+'ld'+'(t'+'ex'+'ta'+'re'+'a)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'al'+'er'+'t('+_0x106af9(0x1a3)+'\x20C'+'op'+'ie'+'d\x20'+'to'+'\x20c'+'li'+'pb'+'oa'+'rd'+':\x5c'+'n\x5c'+'n\x27'+'\x20+'+'\x20\x20'+'te'+'xt'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x0a\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'ap'+'pl'+'yS'+'et')+('ti'+'ng'+'s\x20'+'=\x20'+'as'+'yn'+'c\x20'+'(e'+'ve'+'nt'+',\x20'+'co'+'nf'+'ig'+'Fo'+'rm'+')\x20'+'=>'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20e'+'ve'+'nt'+'.p'+'re'+'ve'+'nt'+'De'+'fa'+'ul'+'t('+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20e'+'ve'+'nt'+'.s'+'to'+'pP'+'ro'+'pa'+'ga'+'ti'+'on'+'()'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'ap'+'pl'+'yB'+'ut'+'to'+'n\x20'+'=\x20'+'do'+'cu'+'me'+'nt'+'.g'+'et'+'El'+'em'+'en'+'tB'+'yI'+'d('+'\x27a'+'pp'+'ly'+'Bu'+'tt'+'on'+'\x27)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'ge'+'tV'+'al'+'ue'+'\x20='+'\x20('+'id'+')\x20'+'=>'+'\x20p'+'ar'+'se'+'In'+'t('+'do'+'cu'+'me'+'nt'+'.g'+'et'+'El'+'em'+'en'+'tB'+'yI'+'d('+'id'+').'+'va'+'lu'+'e,'+'\x201'+'0)'+';\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'le'+'ng'+'th'+'Mi'+'n\x20'+'=\x20'+'ge'+'tV'+'al'+'ue'+'(\x27'+'fr'+'ag'+'me'+'nt'+'Le'+'ng'+'th'+'Mi'+'n\x27'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20l'+'en'+'gt'+'hM'+'ax'+'\x20='+'\x20g'+'et'+'Va'+'lu'+'e('+'\x27f'+'ra'+'gm'+'en'+'tL'+'en'+'gt'+'hM'+'ax'+'\x27)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'in'+'te'+'rv'+'al'+'Mi'+'n\x20'+'=\x20'+'ge'+'tV'+'al'+'ue'+'(\x27'+'fr'+'ag'+'me'+'nt'+'In'+'te'+'rv'+'al'+'Mi'+'n\x27'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20i'+'nt'+'er'+'va'+'lM'+'ax'+'\x20='+'\x20g'+'et'+'Va'+'lu'+'e('+'\x27f'+'ra'+'gm'+'en'+'tI'+'nt'+'er'+'va'+'lM'+'ax'+'\x27)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'cu'+'st'+'om'+'Cd'+'nA'+'dd'+'rs'+'\x20='+'\x20d'+'oc'+'um'+'en'+'t.'+'ge'+'tE'+'le'+'me'+'nt'+'By'+'Id'+'(\x27'+'cu'+'st'+'om'+'Cd'+'nA'+'dd'+'rs'+'\x27)'+'.v'+'al'+'ue'+'?.'+'sp'+'li'+'t('+'\x27,'+'\x27)'+'.f'+'il'+'te'+'r('+'ad'+'dr'+'\x20='+'>\x20'+'ad'+'dr'+'\x20!'+'=='+'\x20\x27'+'\x27)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'cu'+'st'+'om'+'Cd'+'nH'+'os'+'t\x20'+'=\x20'+'do'+'cu'+'me'+'nt'+'.g'+'et'+'El'+'em'+'en'+'tB'+'yI'+'d('+'\x27c'+'us'+'to'+'mC'+'dn'+'Ho'+'st'+'\x27)'+'.v'+'al'+'ue'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'cu'+'st'+'om'+'Cd'+'nS'+'ni'+'\x20='+'\x20d'+'oc'+'um'+'en'+'t.'+'ge'+'tE'+'le'+'me'+'nt'+'By'+'Id'+'(\x27'+'cu'+'st'+'om'+'Cd'+'nS'+'ni'+'\x27)'+'.v'+'al'+'ue'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'is'+'Cu'+'st'+'om'+'Cd'+'n\x20'+'=\x20'+'cu'+'st'+'om'+'Cd'+'nA'+'dd'+'rs'+'.l'+'en'+'gt'+'h\x20'+'||'+'\x20c'+'us'+'to'+'mC'+'dn'+'Ho'+'st'+'\x20!'+'=='+'\x20\x27'+'\x27\x20'+'||'+'\x20c'+'us'+'to'+'mC'+'dn'+'Sn'+'i\x20'+'!='+'=\x20'+'\x27\x27'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'wa'+'rp'+'En'+'dp'+'oi'+'nt'+'s\x20'+'=\x20'+'do'+'cu'+'me'+'nt'+'.g'+'et'+'El'+'em'+'en'+'tB'+'yI'+'d('+'\x27w'+'ar'+'pE'+'nd'+'po'+'in'+'ts'+'\x27)'+'.v')+('al'+'ue'+'?.'+'re'+'pl'+'ac'+'eA'+'ll'+'(\x27'+'\x20\x27'+',\x20'+'\x27\x27'+').'+'sp'+'li'+'t('+'\x27,'+'\x27)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'no'+'is'+'eC'+'ou'+'nt'+'Mi'+'n\x20'+'=\x20'+'ge'+'tV'+'al'+'ue'+'(\x27'+'no'+'is'+'eC'+'ou'+'nt'+'Mi'+'n\x27'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20n'+'oi'+'se'+'Co'+'un'+'tM'+'ax'+'\x20='+'\x20g'+'et'+'Va'+'lu'+'e('+'\x27n'+'oi'+'se'+'Co'+'un'+'tM'+'ax'+'\x27)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'no'+'is'+'eS'+'iz'+'eM'+'in'+'\x20='+'\x20g'+'et'+'Va'+'lu'+'e('+'\x27n'+'oi'+'se'+'Si'+'ze'+'Mi'+'n\x27'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20n'+'oi'+'se'+'Si'+'ze'+'Ma'+'x\x20'+'=\x20'+'ge'+'tV'+'al'+'ue'+'(\x27'+'no'+'is'+'eS'+'iz'+'eM'+'ax'+'\x27)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'no'+'is'+'eD'+'el'+'ay'+'Mi'+'n\x20'+'=\x20'+'ge'+'tV'+'al'+'ue'+'(\x27'+'no'+'is'+'eD'+'el'+'ay'+'Mi'+'n\x27'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20n'+'oi'+'se'+'De'+'la'+'yM'+'ax'+'\x20='+'\x20g'+'et'+'Va'+'lu'+'e('+'\x27n'+'oi'+'se'+'De'+'la'+'yM'+'ax'+'\x27)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'cl'+'ea'+'nI'+'Ps'+'\x20='+'\x20d'+'oc'+'um'+'en'+'t.'+'ge'+'tE'+'le'+'me'+'nt'+'By'+'Id'+'(\x27'+'cl'+'ea'+'nI'+'Ps'+'\x27)'+'.v'+'al'+'ue'+'?.'+'sp'+'li'+'t('+'\x27,'+'\x27)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'pr'+'ox'+'yI'+'Ps'+'\x20='+'\x20d'+'oc'+'um'+'en'+'t.'+'ge'+'tE'+'le'+'me'+'nt'+'By'+'Id'+'(\x27'+'pr'+'ox'+'yI'+'P\x27'+').'+'va'+'lu'+'e?'+'.s'+'pl'+'it'+'(\x27'+',\x27'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20c'+'ha'+'in'+'Pr'+'ox'+'y\x20'+'=\x20'+'do'+'cu'+'me'+'nt'+'.g'+'et'+'El'+'em'+'en'+'tB'+'yI'+'d('+'\x27o'+'ut'+'Pr'+'ox'+'y\x27'+').'+'va'+'lu'+'e?'+'.t'+'ri'+'m('+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20c'+'us'+'to'+'mB'+'yp'+'as'+'sR'+'ul'+'es'+'\x20='+'\x20d'+'oc'+'um'+'en'+'t.'+'ge'+'tE'+'le'+'me'+'nt'+'By'+'Id'+'(\x27'+'cu'+'st'+'om'+'By'+'pa'+'ss'+'Ru'+'le'+'s\x27'+').'+'va'+'lu'+'e?'+'.s'+'pl'+'it'+'(\x27'+',\x27'+');'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20c'+'us'+'to'+'mB'+'lo'+'ck'+'Ru'+'le'+'s\x20'+'=\x20'+'do'+'cu'+'me'+'nt'+'.g'+'et'+'El'+'em'+'en'+'tB'+'yI'+'d('+'\x27c'+'us'+'to'+'mB'+'lo'+'ck'+'Ru'+'le'+'s\x27'+').'+'va'+'lu'+'e?'+'.s'+'pl'+'it'+'(\x27'+',\x27'+');'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20f'+'or'+'mD'+'at'+'a\x20'+'=\x20'+'ne'+'w\x20'+'Fo'+'rm'+'Da'+'ta'+'(c'+'on'+'fi'+'gF'+'or'+'m)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'is'+'Vl'+'es'+'s\x20'+'=\x20'+'/v'+'le'+'ss'+':\x5c'+'/\x5c'+'/['+'^s'+'@]'+'+@'+'[^'+'\x5cs'+':]'+'+:')+('[^'+'\x5cs'+']+'+'/.'+'te'+'st'+'(c'+'ha'+'in'+'Pr'+'ox'+'y)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'is'+'So'+'ck'+'sH'+'tt'+'p\x20'+'=\x20'+'/^'+'(h'+'tt'+'p|'+'so'+'ck'+'s)'+':\x5c'+'/\x5c'+'/('+'?:'+'(['+'^:'+'@]'+'+)'+':('+'[^'+':@'+']+'+')@'+')?'+'(['+'^:'+'@]'+'+)'+':('+'\x5cd'+'+)'+'$/'+'.t'+'es'+'t('+'ch'+'ai'+'nP'+'ro'+'xy'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20h'+'as'+'Se'+'cu'+'ri'+'ty'+'\x20='+'\x20/'+'se'+'cu'+'ri'+'ty'+'=/'+'.t'+'es'+'t('+'ch'+'ai'+'nP'+'ro'+'xy'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20s'+'ec'+'ur'+'it'+'yR'+'eg'+'ex'+'\x20='+'\x20/'+'se'+'cu'+'ri'+'ty'+'=('+'tl'+'s|'+'no'+'ne'+'|r'+'ea'+'li'+'ty'+')/'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'va'+'li'+'dS'+'ec'+'ur'+'it'+'yT'+'yp'+'e\x20'+'=\x20'+'se'+'cu'+'ri'+'ty'+'Re'+'ge'+'x.'+'te'+'st'+'(c'+'ha'+'in'+'Pr'+'ox'+'y)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'le'+'t\x20'+'ma'+'tc'+'h\x20'+'=\x20'+'ch'+'ai'+'nP'+'ro'+'xy'+'.m'+'at'+'ch'+'(s'+'ec'+'ur'+'it'+'yR'+'eg'+'ex'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20s'+'ec'+'ur'+'it'+'yT'+'yp'+'e\x20'+'=\x20'+'ma'+'tc'+'h\x20'+'?\x20'+'ma'+'tc'+'h['+'1]'+'\x20:'+'\x20n'+'ul'+'l;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20m'+'at'+'ch'+'\x20='+'\x20c'+'ha'+'in'+'Pr'+'ox'+'y.'+'ma'+'tc'+'h('+'/:'+'(\x5c'+'d+'+')\x5c'+'?/'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20v'+'le'+'ss'+'Po'+'rt'+'\x20='+'\x20m'+'at'+'ch'+'\x20?'+'\x20m'+'at'+'ch'+'[1'+']\x20'+':\x20'+'nu'+'ll'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'va'+'li'+'dT'+'ra'+'ns'+'mi'+'ss'+'io'+'n\x20'+'=\x20'+'/t'+'yp'+'e='+'(t'+'cp'+'|g'+'rp'+'c|'+'ws'+')/'+'.t'+'es'+'t('+'ch'+'ai'+'nP'+'ro'+'xy'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20v'+'al'+'id'+'IP'+'Do'+'ma'+'in'+'\x20='+'\x20/'+'^('+'(?'+':('+'?:'+'[a'+'-z'+'A-'+'Z0'+'-9'+']('+'?:'+'[a'+'-z'+'A-'+'Z0'+'-9'+'-]'+'{0'+',6'+'1}'+'[a'+'-z'+'A-'+'Z0'+'-9'+'])'+'?\x5c'+'.)'+'+['+'a-'+'zA'+'-Z'+']{'+'2,'+'})'+'|('+'?:'+'(?'+':2'+'5['+'0-'+'5]'+'|2'+'[0'+'-4'+']\x5c'+'d|'+'[0'+'1]'+'?\x5c'+'d\x5c'+'d?'+')\x5c'+'.)'+'{3'+'}('+'?:'+'25'+'[0'+'-5'+']|'+'2['+'0-'+'4]'+'\x5cd'+'|['+'01'+']?'+'\x5cd'+'\x5cd'+'?)'+'(?'+':\x5c'+'/('+'?:'+'\x5cd'+'|['+'12'+']\x5c'+'d|'+'3['+'0-'+'2]'+'))'+'?|'+'\x5c['+'(?'+':('+'?:'+'[a'+'-f'+'A-'+'F0'+'-9'+']{'+'1,'+'4}'+':)'+'{7'+'}['+'a-'+'fA'+'-F'+'0-'+'9]'+'{1'+',4'+'}|'+'(?'+':['+'a-'+'fA'+'-F'+'0-'+'9]'+'{1'+',4'+'}:'+'){'+'1,'+'7}'+':|'+'(?'+':['+'a-'+'fA'+'-F'+'0-'+'9]'+'{1'+',4'+'}:'+'){'+'1,'+'6}'+':['+'a-'+'fA'+'-F'+'0-'+'9]'+'{1'+',4'+'}|'+'(?'+':['+'a-'+'fA'+'-F'+'0-'+'9]'+'{1'+',4'+'}:'+'){'+'1,'+'5}'+'(?'+'::'+'[a'+'-f'+'A-'+'F0'+'-9'+']{'+'1,'+'4}'+'){')+('1,'+'2}'+'|('+'?:'+'[a'+'-f'+'A-'+'F0'+'-9'+']{'+'1,'+'4}'+':)'+'{1'+',4'+'}('+'?:'+':['+'a-'+'fA'+'-F'+'0-'+'9]'+'{1'+',4'+'})'+'{1'+',3'+'}|'+'(?'+':['+'a-'+'fA'+'-F'+'0-'+'9]'+'{1'+',4'+'}:'+'){'+'1,'+'3}'+'(?'+'::'+'[a'+'-f'+'A-'+'F0'+'-9'+']{'+'1,'+'4}'+'){'+'1,'+'4}'+'|('+'?:'+'[a'+'-f'+'A-'+'F0'+'-9'+']{'+'1,'+'4}'+':)'+'{1'+',2'+'}('+'?:'+':['+'a-'+'fA'+'-F'+'0-'+'9]'+'{1'+',4'+'})'+'{1'+',5'+'}|'+'[a'+'-f'+'A-'+'F0'+'-9'+']{'+'1,'+'4}'+':('+'?:'+':['+'a-'+'fA'+'-F'+'0-'+'9]'+'{1'+',4'+'})'+'{1'+',6'+'}|'+':('+'?:'+':['+'a-'+'fA'+'-F'+'0-'+'9]'+'{1'+',4'+'})'+'{1'+',7'+'})'+'\x5c]'+'(?'+':\x5c'+'/('+'?:'+'12'+'[0'+'-8'+']|'+'1['+'0-'+'1]'+'\x5cd'+'|['+'0-'+'9]'+'?\x5c'+'d)'+')?'+')$'+'/i'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'va'+'li'+'dE'+'nd'+'po'+'in'+'t\x20'+'=\x20'+'/^'+'(?'+':('+'?:'+'[a'+'-z'+'A-'+'Z0'+'-9'+']('+'?:'+'[a'+'-z'+'A-'+'Z0'+'-9'+'-]'+'{0'+',6'+'1}'+'[a'+'-z'+'A-'+'Z0'+'-9'+'])'+'?\x5c'+'.)'+'+['+'a-'+'zA'+'-Z'+']{'+'2,'+'}|'+'(?'+':('+'?:'+'25'+'[0'+'-5'+']|'+'2['+'0-'+'4]'+'[0'+'-9'+']|'+'[0'+'1]'+'?['+'0-'+'9]'+'[0'+'-9'+']?'+')\x5c'+'.)'+'{3'+'}('+'?:'+'25'+'[0'+'-5'+']|'+'2['+'0-'+'4]'+'[0'+'-9'+']|'+'[0'+'1]'+'?['+'0-'+'9]'+'[0'+'-9'+']?'+')|'+'\x5c['+'(?'+':['+'a-'+'fA'+'-F'+'0-'+'9]'+'{1'+',4'+'}:'+'){'+'7}'+'[a'+'-f'+'A-'+'F0'+'-9'+']{'+'1,'+'4}'+'\x5c]'+'|\x5c'+'[('+'?:'+'[a'+'-f'+'A-'+'F0'+'-9'+']{'+'1,'+'4}'+':)'+'{1'+',7'+'}:'+'\x5c]'+'|\x5c'+'[('+'?:'+'[a'+'-f'+'A-'+'F0'+'-9'+']{'+'1,'+'4}'+':)'+'{1'+',6'+'}:'+'[a'+'-f'+'A-'+'F0'+'-9'+']{'+'1,'+'4}'+'\x5c]'+'|\x5c'+'[('+'?:'+'[a'+'-f'+'A-'+'F0'+'-9'+']{'+'1,'+'4}'+':)'+'{1'+',5'+'}('+'?:'+':['+'a-'+'fA'+'-F'+'0-'+'9]'+'{1'+',4'+'})'+'{1'+',2'+'}\x5c'+']|'+'\x5c['+'(?'+':['+'a-'+'fA'+'-F'+'0-'+'9]'+'{1'+',4'+'}:'+'){'+'1,'+'4}'+'(?'+'::'+'[a'+'-f'+'A-'+'F0'+'-9'+']{'+'1,'+'4}'+'){'+'1,'+'3}'+'\x5c]'+'|\x5c'+'[('+'?:'+'[a'+'-f'+'A-'+'F0'+'-9'+']{'+'1,'+'4}'+':)'+'{1'+',3'+'}('+'?:'+':['+'a-'+'fA'+'-F'+'0-'+'9]'+'{1'+',4'+'})'+'{1'+',4'+'}\x5c'+']|'+'\x5c['+'(?'+':['+'a-'+'fA'+'-F'+'0-'+'9]'+'{1'+',4'+'}:'+'){'+'1,'+'2}'+'(?'+'::'+'[a'+'-f'+'A-'+'F0'+'-9'+']{'+'1,'+'4}'+'){'+'1,'+'5}'+'\x5c]'+'|\x5c'+'[['+'a-'+'fA'+'-F'+'0-'+'9]'+'{1'+',4'+'}:'+'(?'+'::'+'[a'+'-f'+'A-'+'F0'+'-9'+']{'+'1,'+'4}'+'){'+'1,'+'6}'+'\x5c]'+'|\x5c'+'[:'+'(?'+'::'+'[a'+'-f'+'A-'+'F0'+'-9'+']{'+'1,'+'4}'+'){'+'1,'+'7}'+'\x5c]'+'|\x5c'+'[:'+':('+'?:'+':['+'a-'+'fA'+'-F'+'0-'+'9]'+'{1'+',4'+'})'+'{0'+',7'+'}\x5c'+'])'+':('+'?:'+'[0'+'-9'+']{'+'1,'+'5}'+')$'+'/;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20c'+'he'+'ck'+'ed'+'Po'+'rt'+'s\x20'+'=\x20'+'Ar'+'ra'+'y.'+'fr')+('om'+'(d'+'oc'+'um'+'en'+'t.'+'qu'+'er'+'yS'+'el'+'ec'+'to'+'rA'+'ll'+'(\x27'+'in'+'pu'+'t['+'id'+'^='+'\x22p'+'or'+'t-'+'\x22]'+':c'+'he'+'ck'+'ed'+'\x27)'+').'+'ma'+'p('+'in'+'pu'+'t\x20'+'=>'+'\x20i'+'np'+'ut'+'.i'+'d.'+'sp'+'li'+'t('+'\x27-'+'\x27)'+'[1'+'])'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'fo'+'rm'+'Da'+'ta'+'.a'+'pp'+'en'+'d('+'\x27p'+'or'+'ts'+'\x27,'+'\x20c'+'he'+'ck'+'ed'+'Po'+'rt'+'s)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'nf'+'ig'+'Fo'+'rm'+'.q'+'ue'+'ry'+'Se'+'le'+'ct'+'or'+'Al'+'l('+'\x27i'+'np'+'ut'+'[t'+'yp'+'e='+'\x22c'+'he'+'ck'+'bo'+'x\x22'+']\x27'+').'+'fo'+'rE'+'ac'+'h('+'ch'+'ec'+'kb'+'ox'+'\x20='+'>\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'!f'+'or'+'mD'+'at'+'a.'+'ha'+'s('+'ch'+'ec'+'kb'+'ox'+'.n'+'am'+'e)'+'\x20&'+'&\x20'+'fo'+'rm'+'Da'+'ta'+'.a'+'pp'+'en'+'d('+'ch'+'ec'+'kb'+'ox'+'.n'+'am'+'e,'+'\x20\x27'+'fa'+'ls'+'e\x27'+');'+'\x20\x20'+'\x20\x20'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+');'+'\x0a\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'in'+'va'+'li'+'dI'+'Ps'+'\x20='+'\x20['+'..'+'.c'+'le'+'an'+'IP'+'s,'+'\x20.'+'..'+'pr'+'ox'+'yI'+'Ps'+',\x20'+'..'+'.c'+'us'+'to'+'mC'+'dn'+'Ad'+'dr'+'s,'+'\x20.'+'..'+'cu'+'st'+'om'+'By'+'pa'+'ss'+'Ru'+'le'+'s,'+'\x20.'+'..'+'cu'+'st'+'om'+'Bl'+'oc'+'kR'+'ul'+'es'+',\x20'+'cu'+'st'+'om'+'Cd'+'nH'+'os'+'t,'+'\x20c'+'us'+'to'+'mC'+'dn'+'Sn'+'i]'+'?.'+'fi'+'lt'+'er'+'(v'+'al'+'ue'+'\x20='+'>\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'if'+'\x20('+'va'+'lu'+'e)'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20t'+'ri'+'mm'+'ed'+'Va'+'lu'+'e\x20'+'=\x20'+'va'+'lu'+'e.'+'tr'+'im'+'()'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'re'+'tu'+'rn'+'\x20!'+'va'+'li'+'dI'+'PD'+'om'+'ai'+'n.'+'te'+'st'+'(t'+'ri'+'mm'+'ed'+'Va'+'lu'+'e)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'})'+';\x0a'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20i'+'nv'+'al'+'id'+'En'+'dp'+'oi'+'nt'+'s\x20'+'=\x20'+'wa'+'rp'+'En'+'dp'+'oi'+'nt'+'s?'+'.f'+'il'+'te'+'r('+'va'+'lu'+'e\x20'+'=>'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20i'+'f\x20'+'(v'+'al'+'ue'+')\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'tr'+'im'+'me'+'dV'+'al'+'ue'+'\x20='+'\x20v'+'al'+'ue'+'.t'+'ri'+'m('+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20r'+'et'+'ur'+'n\x20'+'!v'+'al'+'id'+'En'+'dp'+'oi'+'nt'+'.t'+'es'+'t('+'tr'+'im'+'me'+'dV'+'al'+'ue'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+');'+'\x0a\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'if'+'\x20('+'in'+'va'+'li'+'dI'+'Ps'+'.l'+'en'+'gt'+'h)'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20')+('\x20a'+'le'+'rt'+'(\x27'+'⛔\x20'+'In'+'va'+'li'+'d\x20'+'IP'+'s\x20'+'or'+'\x20D'+'om'+'ai'+'ns'+_0x106af9(0x1b0)+'\x5cn'+'\x5cn'+'\x27\x20'+'+\x20'+'in'+'va'+'li'+'dI'+'Ps'+'.m'+'ap'+'(i'+'p\x20'+'=>'+'\x20\x27'+_0x134c74(0x1e0)+'\x27\x20'+'+\x20'+'ip'+').'+'jo'+'in'+'(\x27'+'\x5cn'+'\x27)'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20r'+'et'+'ur'+'n\x20'+'fa'+'ls'+'e;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'if'+'\x20('+'in'+'va'+'li'+'dE'+'nd'+'po'+'in'+'ts'+'.l'+'en'+'gt'+'h)'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20a'+'le'+'rt'+'(\x27'+'⛔\x20'+'In'+'va'+'li'+'d\x20'+'en'+'dp'+'oi'+'nt'+_0x106af9(0x1b0)+'\x5cn'+'\x5cn'+'\x27\x20'+'+\x20'+'in'+'va'+'li'+'dE'+'nd'+'po'+'in'+'ts'+'.m'+'ap'+'(e'+'nd'+'po'+'in'+'t\x20'+'=>'+'\x20\x27'+_0x106af9(0x1ac)+'\x27\x20'+'+\x20'+'en'+'dp'+'oi'+'nt'+').'+'jo'+'in'+'(\x27'+'\x5cn'+'\x27)'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20r'+'et'+'ur'+'n\x20'+'fa'+'ls'+'e;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x0a\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'if'+'\x20('+'le'+'ng'+'th'+'Mi'+'n\x20'+'>='+'\x20l'+'en'+'gt'+'hM'+'ax'+'\x20|'+'|\x20'+'in'+'te'+'rv'+'al'+'Mi'+'n\x20'+'>\x20'+'in'+'te'+'rv'+'al'+'Ma'+'x\x20'+'||'+'\x20n'+'oi'+'se'+'Co'+'un'+'tM'+'in'+'\x20>'+'\x20n'+'oi'+'se'+'Co'+'un'+'tM'+'ax'+'\x20|'+'|\x20'+'no'+'is'+'eS'+'iz'+'eM'+'in'+'\x20>'+'\x20n'+'oi'+'se'+'Si'+'ze'+'Ma'+'x\x20'+'||'+'\x20n'+'oi'+'se'+'De'+'la'+'yM'+'in'+'\x20>'+'\x20n'+'oi'+'se'+'De'+'la'+'yM'+'ax'+')\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'al'+'er'+'t('+'\x27⛔'+'\x20M'+'in'+'im'+'um'+'\x20s'+'ho'+'ul'+'d\x20'+'be'+'\x20s'+'ma'+'ll'+'er'+'\x20o'+'r\x20'+'eq'+'ua'+'l\x20'+'to'+'\x20M'+'ax'+'im'+'um'+'!\x20'+_0x106af9(0x1cc)+');'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'re'+'tu'+'rn'+'\x20f'+'al'+'se'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'}\x0a'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20i'+'f\x20'+'(!'+'(i'+'sV'+'le'+'ss'+'\x20&'+'&\x20'+'(h'+'as'+'Se'+'cu'+'ri'+'ty'+'\x20&'+'&\x20'+'va'+'li'+'dS'+'ec'+'ur'+'it'+'yT'+'yp'+'e\x20'+'||'+'\x20!'+'ha'+'sS'+'ec'+'ur'+'it'+'y)'+'\x20&'+'&\x20'+'va'+'li'+'dT'+'ra'+'ns'+'mi'+'ss'+'io'+'n)'+'\x20&'+'&\x20'+'!i'+'sS'+'oc'+'ks'+'Ht'+'tp'+'\x20&'+'&\x20'+'ch'+'ai'+'nP'+'ro'+'xy'+')\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'al'+'er'+'t('+'\x27⛔'+'\x20I'+'nv'+'al'+'id'+'\x20C'+'on'+'fi'+'g!'+_0x134c74(0x20d)+'\x20\x5c'+'n\x20'+'-\x20'+'Th'+'e\x20'+'ch'+'ai'+'n\x20'+'pr'+'ox'+'y\x20'+'sh'+'ou'+'ld'+'\x20b'+'e\x20'+'VL'+'ES'+'S,'+'\x20S'+'oc'+'ks'+'\x20o'+'r\x20'+'Ht'+'tp'+'!\x5c'+'n\x20'+'-\x20'+'VL'+'ES'+'S\x20'+'tr'+'an'+'sm'+'is'+'si'+'on'+'\x20s'+'ho'+'ul'+'d\x20'+'be'+'\x20G'+'RP'+'C,'+'WS'+'\x20o'+'r\x20'+'TC'+'P\x5c'+'n\x20'+'-\x20'+'VL'+'ES'+'S\x20'+'se'+'cu'+'ri'+'ty'+'\x20s'+'ho'+'ul'+'d\x20'+'be'+'\x20T'+'LS'+',R'+'ea'+'li'+'ty'+'\x20o'+'r\x20'+'No'+'ne'+'\x5cn'+'\x20-'+'\x20s'+'oc'+'ks'+'\x20o'+'r\x20'+'ht'+'tp'+'\x20s'+'ho')+('ul'+'d\x20'+'be'+'\x20l'+'ik'+'e:'+'\x5cn'+'\x20+'+'\x20('+'so'+'ck'+'s\x20'+'or'+'\x20h'+'tt'+'p)'+':/'+'/u'+'se'+'r:'+'pa'+'ss'+'@h'+'os'+'t:'+'po'+'rt'+'\x5cn'+'\x20+'+'\x20('+'so'+'ck'+'s\x20'+'or'+'\x20h'+'tt'+'p)'+':/'+'/h'+'os'+'t:'+'po'+'rt'+'\x27)'+';\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20r'+'et'+'ur'+'n\x20'+'fa'+'ls'+'e;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x0a\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'if'+'\x20('+'is'+'Vl'+'es'+'s\x20'+'&&'+'\x20s'+'ec'+'ur'+'it'+'yT'+'yp'+'e\x20'+'=='+'=\x20'+'\x27t'+'ls'+'\x27\x20'+'&&'+'\x20v'+'le'+'ss'+'Po'+'rt'+'\x20!'+'=='+'\x20\x27'+'44'+'3\x27'+')\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'al'+'er'+'t('+'\x27⛔'+'\x20V'+'LE'+'SS'+'\x20T'+'LS'+'\x20p'+'or'+'t\x20'+'ca'+'n\x20'+'be'+'\x20o'+'nl'+'y\x20'+'44'+'3\x20'+'to'+'\x20b'+'e\x20'+'us'+'ed'+'\x20a'+'s\x20'+'a\x20'+'pr'+'ox'+'y\x20'+'ch'+'ai'+'n!'+_0x106af9(0x1b0)+'\x27)'+';\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20r'+'et'+'ur'+'n\x20'+'fa'+'ls'+'e;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x0a\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'if'+'\x20('+'is'+'Cu'+'st'+'om'+'Cd'+'n\x20'+'&&'+'\x20!'+'(c'+'us'+'to'+'mC'+'dn'+'Ad'+'dr'+'s.'+'le'+'ng'+'th'+'\x20&'+'&\x20'+'cu'+'st'+'om'+'Cd'+'nH'+'os'+'t\x20'+'&&'+'\x20c'+'us'+'to'+'mC'+'dn'+'Sn'+'i)'+')\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'al'+'er'+'t('+'\x27⛔'+'\x20A'+'ll'+'\x20\x22'+'Cu'+'st'+'om'+'\x22\x20'+'fi'+'el'+'ds'+'\x20s'+'ho'+'ul'+'d\x20'+'be'+'\x20f'+'il'+'le'+'d\x20'+'or'+'\x20d'+'el'+'et'+'ed'+'\x20t'+'og'+'et'+'he'+'r!'+_0x106af9(0x1b0)+'\x27)'+';\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20r'+'et'+'ur'+'n\x20'+'fa'+'ls'+'e;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x0a\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'tr'+'y\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'do'+'cu'+'me'+'nt'+'.b'+'od'+'y.'+'st'+'yl'+'e.'+'cu'+'rs'+'or'+'\x20='+'\x20\x27'+'wa'+'it'+'\x27;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20a'+'pp'+'ly'+'Bu'+'tt'+'on'+'Va'+'l\x20'+'=\x20'+'ap'+'pl'+'yB'+'ut'+'to'+'n.'+'va'+'lu'+'e;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20a'+'pp'+'ly'+'Bu'+'tt'+'on'+'.v'+'al'+'ue'+'\x20='+'\x20\x27'+'⌛\x20'+'Lo'+'ad'+'in'+'g.'+'..'+'\x27;'+'\x0a\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'re'+'sp'+'on'+'se'+'\x20='+'\x20a'+'wa'+'it'+'\x20f'+'et'+'ch'+'(\x27'+'/p'+'an'+'el'+'\x27,'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20m'+'et'+'ho'+'d:'+'\x20\x27'+'PO'+'ST'+'\x27,'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20b'+'od'+'y:'+'\x20f'+'or'+'mD'+'at'+'a,'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'re'+'de'+'nt'+'ia'+'ls'+':\x20'+'\x27i'+'nc'+'lu'+'de'+'\x27\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'})'+';\x0a'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20')+('\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20d'+'oc'+'um'+'en'+'t.'+'bo'+'dy'+'.s'+'ty'+'le'+'.c'+'ur'+'so'+'r\x20'+'=\x20'+'\x27d'+'ef'+'au'+'lt'+'\x27;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20a'+'pp'+'ly'+'Bu'+'tt'+'on'+'.v'+'al'+'ue'+'\x20='+'\x20a'+'pp'+'ly'+'Bu'+'tt'+'on'+'Va'+'l;'+'\x0a\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'if'+'\x20('+'!r'+'es'+'po'+'ns'+'e.'+'ok'+')\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'er'+'ro'+'rM'+'es'+'sa'+'ge'+'\x20='+'\x20a'+'wa'+'it'+'\x20r'+'es'+'po'+'ns'+'e.'+'te'+'xt'+'()'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'ol'+'e.'+'er'+'ro'+'r('+'er'+'ro'+'rM'+'es'+'sa'+'ge'+',\x20'+'re'+'sp'+'on'+'se'+'.s'+'ta'+'tu'+'s)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'al'+'er'+'t('+'\x27⚠️'+'\x20S'+'es'+'si'+'on'+'\x20e'+'xp'+'ir'+'ed'+'!\x20'+'Pl'+'ea'+'se'+'\x20l'+'og'+'in'+'\x20a'+'ga'+'in'+'.\x27'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20w'+'in'+'do'+'w.'+'lo'+'ca'+'ti'+'on'+'.h'+'re'+'f\x20'+'=\x20'+'\x27/'+'lo'+'gi'+'n\x27'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'re'+'tu'+'rn'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'}\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'al'+'er'+'t('+'\x27✅'+'\x20P'+'ar'+'am'+'et'+'er'+'s\x20'+'ap'+'pl'+'ie'+'d\x20'+'su'+'cc'+'es'+'sf'+'ul'+'ly'+_0x106af9(0x1b8)+'\x27)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'wi'+'nd'+'ow'+'.l'+'oc'+'at'+'io'+'n.'+'re'+'lo'+'ad'+'()'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'}\x20'+'ca'+'tc'+'h\x20'+'(e'+'rr'+'or'+')\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'ol'+'e.'+'er'+'ro'+'r('+'\x27E'+'rr'+'or'+':\x27'+',\x20'+'er'+'ro'+'r)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'}\x0a'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20l'+'og'+'ou'+'t\x20'+'=\x20'+'as'+'yn'+'c\x20'+'(e'+'ve'+'nt'+')\x20'+'=>'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20e'+'ve'+'nt'+'.p'+'re'+'ve'+'nt'+'De'+'fa'+'ul'+'t('+');'+'\x0a\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'tr'+'y\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'re'+'sp'+'on'+'se'+'\x20='+'\x20a'+'wa'+'it'+'\x20f'+'et'+'ch'+'(\x27'+'/l'+'og'+'ou'+'t\x27'+',\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'me'+'th'+'od'+':\x20'+'\x27G'+'ET'+'\x27,'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'re'+'de'+'nt'+'ia'+'ls'+':\x20'+'\x27s'+'am'+'e-'+'or'+'ig'+'in'+'\x27\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'})'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20i'+'f\x20'+'(!'+'re'+'sp'+'on'+'se'+'.o'+'k)'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'so'+'le'+'.e'+'rr'+'or'+'(\x27'+'Fa')+('il'+'ed'+'\x20t'+'o\x20'+'lo'+'g\x20'+'ou'+'t:'+'\x27,'+'\x20r'+'es'+'po'+'ns'+'e.'+'st'+'at'+'us'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20r'+'et'+'ur'+'n;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20w'+'in'+'do'+'w.'+'lo'+'ca'+'ti'+'on'+'.h'+'re'+'f\x20'+'=\x20'+'\x27/'+'lo'+'gi'+'n\x27'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'}\x20'+'ca'+'tc'+'h\x20'+'(e'+'rr'+'or'+')\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'ol'+'e.'+'er'+'ro'+'r('+'\x27E'+'rr'+'or'+':\x27'+',\x20'+'er'+'ro'+'r)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'}\x0a'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20r'+'es'+'et'+'Pa'+'ss'+'wo'+'rd'+'\x20='+'\x20a'+'sy'+'nc'+'\x20('+'ev'+'en'+'t)'+'\x20='+'>\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'ev'+'en'+'t.'+'pr'+'ev'+'en'+'tD'+'ef'+'au'+'lt'+'()'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'mo'+'da'+'l\x20'+'=\x20'+'do'+'cu'+'me'+'nt'+'.g'+'et'+'El'+'em'+'en'+'tB'+'yI'+'d('+'\x27m'+'yM'+'od'+'al'+'\x27)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'ne'+'wP'+'as'+'sw'+'or'+'dI'+'np'+'ut'+'\x20='+'\x20d'+'oc'+'um'+'en'+'t.'+'ge'+'tE'+'le'+'me'+'nt'+'By'+'Id'+'(\x27'+'ne'+'wP'+'as'+'sw'+'or'+'d\x27'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20c'+'on'+'fi'+'rm'+'Pa'+'ss'+'wo'+'rd'+'In'+'pu'+'t\x20'+'=\x20'+'do'+'cu'+'me'+'nt'+'.g'+'et'+'El'+'em'+'en'+'tB'+'yI'+'d('+'\x27c'+'on'+'fi'+'rm'+'Pa'+'ss'+'wo'+'rd'+'\x27)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'pa'+'ss'+'wo'+'rd'+'Er'+'ro'+'r\x20'+'=\x20'+'do'+'cu'+'me'+'nt'+'.g'+'et'+'El'+'em'+'en'+'tB'+'yI'+'d('+'\x27p'+'as'+'sw'+'or'+'dE'+'rr'+'or'+'\x27)'+';\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20n'+'ew'+'Pa'+'ss'+'wo'+'rd'+'\x20='+'\x20n'+'ew'+'Pa'+'ss'+'wo'+'rd'+'In'+'pu'+'t.'+'va'+'lu'+'e;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20c'+'on'+'fi'+'rm'+'Pa'+'ss'+'wo'+'rd'+'\x20='+'\x20c'+'on'+'fi'+'rm'+'Pa'+'ss'+'wo'+'rd'+'In'+'pu'+'t.'+'va'+'lu'+'e;'+'\x0a\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'if'+'\x20('+'ne'+'wP'+'as'+'sw'+'or'+'d\x20'+'!='+'=\x20'+'co'+'nf'+'ir'+'mP'+'as'+'sw'+'or'+'d)'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20p'+'as'+'sw'+'or'+'dE'+'rr'+'or'+'.t'+'ex'+'tC'+'on'+'te'+'nt'+'\x20='+'\x20\x22'+'Pa'+'ss'+'wo'+'rd'+'s\x20'+'do'+'\x20n'+'ot'+'\x20m'+'at'+'ch'+'\x22;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20r'+'et'+'ur'+'n\x20'+'fa'+'ls'+'e;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x0a\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'ha'+'sC'+'ap'+'it'+'al'+'Le'+'tt'+'er'+'\x20='+'\x20/'+'[A'+'-Z'+']/'+'.t'+'es'+'t('+'ne'+'wP'+'as'+'sw'+'or'+'d)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns')+('t\x20'+'ha'+'sN'+'um'+'be'+'r\x20'+'=\x20'+'/['+'0-'+'9]'+'/.'+'te'+'st'+'(n'+'ew'+'Pa'+'ss'+'wo'+'rd'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20i'+'sL'+'on'+'gE'+'no'+'ug'+'h\x20'+'=\x20'+'ne'+'wP'+'as'+'sw'+'or'+'d.'+'le'+'ng'+'th'+'\x20>'+'=\x20'+'8;'+'\x0a\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'if'+'\x20('+'!('+'ha'+'sC'+'ap'+'it'+'al'+'Le'+'tt'+'er'+'\x20&'+'&\x20'+'ha'+'sN'+'um'+'be'+'r\x20'+'&&'+'\x20i'+'sL'+'on'+'gE'+'no'+'ug'+'h)'+')\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'pa'+'ss'+'wo'+'rd'+'Er'+'ro'+'r.'+'te'+'xt'+'Co'+'nt'+'en'+'t\x20'+'=\x20'+_0x106af9(0x1b1)+'\x20P'+'as'+'sw'+'or'+'d\x20'+'mu'+'st'+'\x20c'+'on'+'ta'+'in'+'\x20a'+'t\x20'+'le'+'as'+'t\x20'+'on'+'e\x20'+'ca'+'pi'+'ta'+'l\x20'+'le'+'tt'+'er'+',\x20'+'on'+'e\x20'+'nu'+'mb'+'er'+',\x20'+'an'+'d\x20'+'be'+'\x20a'+'t\x20'+'le'+'as'+'t\x20'+'8\x20'+'ch'+'ar'+'ac'+'te'+'rs'+'\x20l'+'on'+'g.'+'\x27;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20r'+'et'+'ur'+'n\x20'+'fa'+'ls'+'e;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'tr'+'y\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'re'+'sp'+'on'+'se'+'\x20='+'\x20a'+'wa'+'it'+'\x20f'+'et'+'ch'+'(\x27'+'/p'+'an'+'el'+'/p'+'as'+'sw'+'or'+'d\x27'+',\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'me'+'th'+'od'+':\x20'+'\x27P'+'OS'+'T\x27'+',\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'he'+'ad'+'er'+'s:'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x27'+'Co'+'nt'+'en'+'t-'+'Ty'+'pe'+'\x27:'+'\x20\x27'+'te'+'xt'+'/p'+'la'+'in'+'\x27\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'},'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20b'+'od'+'y:'+'\x20n'+'ew'+'Pa'+'ss'+'wo'+'rd'+',\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'cr'+'ed'+'en'+'ti'+'al'+'s:'+'\x20\x27'+'sa'+'me'+'-o'+'ri'+'gi'+'n\x27'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'if'+'\x20('+'re'+'sp'+'on'+'se'+'.o'+'k)'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20m'+'od'+'al'+'.s'+'ty'+'le'+'.d'+'is'+'pl'+'ay'+'\x20='+'\x20\x22'+'no'+'ne'+'\x22;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20d'+'oc'+'um'+'en'+'t.'+'bo'+'dy'+'.s'+'ty'+'le'+'.o'+'ve'+'rf'+'lo'+'w\x20'+'=\x20'+'\x22\x22'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'al'+'er'+'t('+'\x22✅'+'\x20P'+'as'+'sw'+'or'+'d\x20'+'ch'+'an'+'ge'+'d\x20'+'su'+'cc'+'es'+'sf'+'ul'+'ly'+'!\x20'+_0x106af9(0x1c1)+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20w'+'in'+'do'+'w.'+'lo'+'ca'+'ti'+'on'+'.h'+'re'+'f\x20'+'=\x20'+'\x27/'+'lo'+'gi'+'n\x27'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20')+('}\x20'+'el'+'se'+'\x20i'+'f\x20'+'(r'+'es'+'po'+'ns'+'e.'+'st'+'at'+'us'+'\x20='+'=='+'\x204'+'01'+')\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'er'+'ro'+'rM'+'es'+'sa'+'ge'+'\x20='+'\x20a'+'wa'+'it'+'\x20r'+'es'+'po'+'ns'+'e.'+'te'+'xt'+'()'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'pa'+'ss'+'wo'+'rd'+'Er'+'ro'+'r.'+'te'+'xt'+'Co'+'nt'+'en'+'t\x20'+'=\x20'+_0x106af9(0x1b1)+'\x20\x27'+'\x20+'+'\x20e'+'rr'+'or'+'Me'+'ss'+'ag'+'e;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'so'+'le'+'.e'+'rr'+'or'+'(e'+'rr'+'or'+'Me'+'ss'+'ag'+'e,'+'\x20r'+'es'+'po'+'ns'+'e.'+'st'+'at'+'us'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20a'+'le'+'rt'+'(\x27'+_0x106af9(0x1ac)+'Se'+'ss'+'io'+'n\x20'+'ex'+'pi'+'re'+'d!'+'\x20P'+'le'+'as'+'e\x20'+'lo'+'gi'+'n\x20'+'ag'+'ai'+'n.'+'\x27)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'wi'+'nd'+'ow'+'.l'+'oc'+'at'+'io'+'n.'+'hr'+'ef'+'\x20='+'\x20\x27'+'/l'+'og'+'in'+'\x27;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x20e'+'ls'+'e\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'er'+'ro'+'rM'+'es'+'sa'+'ge'+'\x20='+'\x20a'+'wa'+'it'+'\x20r'+'es'+'po'+'ns'+'e.'+'te'+'xt'+'()'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'pa'+'ss'+'wo'+'rd'+'Er'+'ro'+'r.'+'te'+'xt'+'Co'+'nt'+'en'+'t\x20'+'=\x20'+_0x134c74(0x213)+'\x20\x27'+'\x20+'+'\x20e'+'rr'+'or'+'Me'+'ss'+'ag'+'e;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'so'+'le'+'.e'+'rr'+'or'+'(e'+'rr'+'or'+'Me'+'ss'+'ag'+'e,'+'\x20r'+'es'+'po'+'ns'+'e.'+'st'+'at'+'us'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20r'+'et'+'ur'+'n\x20'+'fa'+'ls'+'e;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x20c'+'at'+'ch'+'\x20('+'er'+'ro'+'r)'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'so'+'le'+'.e'+'rr'+'or'+'(\x27'+'Er'+'ro'+'r:'+'\x27,'+'\x20e'+'rr'+'or'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20<'+'/s'+'cr'+'ip'+'t>'+'\x0a\x20'+'\x20\x20'+'\x20<'+'/b'+'od'+'y>'+'\x09\x0a'+'\x20\x20'+'\x20\x20'+'</'+'ht'+'ml'+'>'));return new Response(_0x2b02fc,{'status':0xc8,'headers':{'Content-Type':'te'+'xt'+'/h'+'tm'+'l;'+'ch'+'ar'+'se'+'t='+'ut'+'f-'+'8','Access-Control-Allow-Origin':globalThis['ur'+'lO'+'ri'+'gi'+'n'],'Access-Control-Allow-Methods':'GE'+'T,'+'\x20P'+'OS'+'T','Access-Control-Allow-Headers':'Co'+'nt'+'en'+'t-'+'Ty'+'pe'+',\x20'+'Au'+'th'+'or'+'iz'+'at'+'io'+'n','X-Content-Type-Options':'no'+'sn'+'if'+'f','X-Frame-Options':'DE'+'NY','Referrer-Policy':'st'+'ri'+'ct'+'-o'+'ri'+'gi'+'n-'+'wh'+'en'+'-c'+'ro'+'ss'+'-o'+'ri'+'gi'+'n','Cache-Control':'no'+'-s'+'to'+'re'+',\x20'+'no'+'-c'+'ac'+'he'+',\x20'+'mu'+'st'+'-r'+'ev'+'al'+'id'+'at'+'e,'+'\x20p'+'ro'+'xy'+'-r'+'ev'+'al'+'id'+'at'+'e,'+'\x20n'+'o-'+'tr'+'an'+'sf'+'or'+'m','CDN-Cache-Control':'no'+'-s'+'to'+'re'}});}__name(renderHomePage,'re'+'nd'+'er'+'Ho'+'me'+'Pa'+'ge');function isValidUUID(_0x3a6eb6){const _0x54614a=/^[0-9a-f]{8}-[0-9a-f]{4}-[4][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;return _0x54614a['te'+'st'](_0x3a6eb6);}__name(isValidUUID,'is'+'Va'+'li'+'dU'+'UI'+'D');async function resolveDNS(_0x533f0c){const _0x27d9ce='ht'+'tp'+'s:'+'//'+'cl'+'ou'+'df'+'la'+'re'+'-d'+'ns'+'.c'+'om'+'/d'+'ns'+'-q'+'ue'+'ry',_0x438e11=_0x27d9ce+('?n'+'am'+'e=')+encodeURIComponent(_0x533f0c)+('&t'+'yp'+'e='+'A'),_0x42b765=_0x27d9ce+('?n'+'am'+'e=')+encodeURIComponent(_0x533f0c)+('&t'+'yp'+'e='+'AA'+'AA');try{const [_0x2b201b,_0x669d79]=await Promise['al'+'l']([fetch(_0x438e11,{'headers':{'accept':'ap'+'pl'+'ic'+'at'+'io'+'n/'+'dn'+'s-'+'js'+'on'}}),fetch(_0x42b765,{'headers':{'accept':'ap'+'pl'+'ic'+'at'+'io'+'n/'+'dn'+'s-'+'js'+'on'}})]),_0x1e1b97=await _0x2b201b['js'+'on'](),_0x282d71=await _0x669d79['js'+'on'](),_0x3ff4dd=_0x1e1b97['An'+'sw'+'er']?_0x1e1b97['An'+'sw'+'er']['ma'+'p'](_0x119205=>_0x119205['da'+'ta']):[],_0x2d18b2=_0x282d71['An'+'sw'+'er']?_0x282d71['An'+'sw'+'er']['ma'+'p'](_0x2194f0=>_0x2194f0['da'+'ta']):[];return{'ipv4':_0x3ff4dd,'ipv6':_0x2d18b2};}catch(_0x59cd30){console['er'+'ro'+'r']('Er'+'ro'+'r\x20'+'re'+'so'+'lv'+'in'+'g\x20'+'DN'+'S:',_0x59cd30);throw new Error('An'+'\x20e'+'rr'+'or'+'\x20o'+'cc'+'ur'+'re'+'d\x20'+'wh'+'il'+'e\x20'+'re'+'so'+'lv'+'in'+'g\x20'+'DN'+'S\x20'+'-\x20'+_0x59cd30);}}__name(resolveDNS,'re'+'so'+'lv'+'eD'+'NS');function isDomain(_0xf3d533){const _0x5ab644=/^(?!\-)(?:[A-Za-z0-9\-]{1,63}\.)+[A-Za-z]{2,}$/;return _0x5ab644['te'+'st'](_0xf3d533);}__name(isDomain,'is'+'Do'+'ma'+'in');async function handlePanel(_0x4aa4bc,_0x2334fb){const _0x2cb6d0=await Authenticate(_0x4aa4bc,_0x2334fb);if(_0x4aa4bc['me'+'th'+'od']==='PO'+'ST'){if(!_0x2cb6d0)return new Response('Un'+'au'+'th'+'or'+'iz'+'ed'+'\x20o'+'r\x20'+'ex'+'pi'+'re'+'d\x20'+'se'+'ss'+'io'+'n!',{'status':0x191});return await updateDataset(_0x4aa4bc,_0x2334fb),new Response('Su'+'cc'+'es'+'s',{'status':0xc8});}const {proxySettings:_0x370718}=await getDataset(_0x4aa4bc,_0x2334fb),_0x2b6d1f=await _0x2334fb['bp'+'b']['ge'+'t']('pw'+'d');if(_0x2b6d1f&&!_0x2cb6d0)return Response['re'+'di'+'re'+'ct'](globalThis['ur'+'lO'+'ri'+'gi'+'n']+('/l'+'og'+'in'),0x12e);const _0x468bae=_0x2b6d1f?.['le'+'ng'+'th']>=0x8;return await renderHomePage(_0x370718,_0x468bae);}__name(handlePanel,'ha'+'nd'+'le'+'Pa'+'ne'+'l');async function fallback(_0xdd3ffe){const _0x2b1f06=new URL(_0xdd3ffe['ur'+'l']);return _0x2b1f06['ho'+'st'+'na'+'me']='sp'+'ee'+'d.'+'cl'+'ou'+'df'+'la'+'re'+'.c'+'om',_0x2b1f06['pr'+'ot'+'oc'+'ol']='ht'+'tp'+'s:',_0xdd3ffe=new Request(_0x2b1f06,_0xdd3ffe),await fetch(_0xdd3ffe);}__name(fallback,'fa'+'ll'+'ba'+'ck');async function getMyIP(_0x3ae955){const _0x3f5f06=await _0x3ae955['te'+'xt']();try{const _0x4e4f9d=await fetch('ht'+'tp'+':/'+'/i'+'p-'+'ap'+'i.'+'co'+'m/'+'js'+'on'+'/'+_0x3f5f06+('?n'+'oc'+'ac'+'he'+'=')+Date['no'+'w']()),_0x1f7d0d=await _0x4e4f9d['js'+'on']();return new Response(JSON['st'+'ri'+'ng'+'if'+'y'](_0x1f7d0d),{'status':0xc8,'headers':{'Content-Type':'te'+'xt'+'/p'+'la'+'in'+';c'+'ha'+'rs'+'et'+'=u'+'tf'+'-8'}});}catch(_0x5c122b){console['er'+'ro'+'r']('Er'+'ro'+'r\x20'+'fe'+'tc'+'hi'+'ng'+'\x20I'+'P\x20'+'ad'+'dr'+'es'+'s:',_0x5c122b);}}__name(getMyIP,'ge'+'tM'+'yI'+'P');function initializeParams(_0x1e05fa,_0x390a8d){const _0x576444=_0x390a8d['PR'+'OX'+'YI'+'P']?.['sp'+'li'+'t'](',')['ma'+'p'](_0x213817=>_0x213817['tr'+'im']()),_0x16dbb5=new URL(_0x1e05fa['ur'+'l']),_0x4f610e=new URLSearchParams(_0x16dbb5['se'+'ar'+'ch']);globalThis['pa'+'ne'+'lV'+'er'+'si'+'on']='2.'+'8.'+'1',globalThis['de'+'fa'+'ul'+'tH'+'tt'+'pP'+'or'+'ts']=['80','80'+'80','20'+'52','20'+'82','20'+'86','20'+'95','88'+'80'],globalThis['de'+'fa'+'ul'+'tH'+'tt'+'ps'+'Po'+'rt'+'s']=['44'+'3','84'+'43','20'+'53','20'+'83','20'+'87','20'+'96'],globalThis['us'+'er'+'ID']=_0x390a8d['UU'+'ID'],globalThis['tr'+'oj'+'an'+'Pa'+'ss'+'wo'+'rd']=_0x390a8d['TR'+'OJ'+'AN'+'_P'+'AS'+'S'],globalThis['pr'+'ox'+'yI'+'P']=_0x576444?_0x576444[Math['fl'+'oo'+'r'](Math['ra'+'nd'+'om']()*_0x576444['le'+'ng'+'th'])]:atob('Yn'+'Bi'+'Ln'+'lv'+'dX'+'Nl'+'Zi'+'5p'+'c2'+'Vn'+'YX'+'Jv'+'Lm'+'Nv'+'bQ'+'=='),globalThis['ho'+'st'+'Na'+'me']=_0x1e05fa['he'+'ad'+'er'+'s']['ge'+'t']('Ho'+'st'),globalThis['pa'+'th'+'Na'+'me']=_0x16dbb5['pa'+'th'+'na'+'me'],globalThis['cl'+'ie'+'nt']=_0x4f610e['ge'+'t']('ap'+'p'),globalThis['ur'+'lO'+'ri'+'gi'+'n']=_0x16dbb5['or'+'ig'+'in'],globalThis['do'+'hU'+'RL']=_0x390a8d['DO'+'H_'+'UR'+'L']||'ht'+'tp'+'s:'+'//'+'cl'+'ou'+'df'+'la'+'re'+'-d'+'ns'+'.c'+'om'+'/d'+'ns'+'-q'+'ue'+'ry';if(pathName!=='/s'+'ec'+'re'+'ts'){if(!userID||!trojanPassword)throw new Error('Pl'+'ea'+'se'+'\x20s'+'et'+'\x20U'+'UI'+'D\x20'+'an'+'d\x20'+'Tr'+'oj'+'an'+'\x20p'+'as'+'sw'+'or'+'d\x20'+'fi'+'rs'+'t.'+'\x20P'+'le'+'as'+'e\x20'+'vi'+'si'+'t\x20'+'<a'+'\x20h'+'re'+'f='+'\x22h'+'tt'+'ps'+':/'+'/'+hostName+('/s'+'ec'+'re'+'ts'+'\x22\x20'+'ta'+'rg'+'et'+'=\x22'+'_b'+'la'+'nk'+'\x22>'+'he'+'re'+'</'+'a>'+'\x20t'+'o\x20'+'ge'+'ne'+'ra'+'te'+'\x20t'+'he'+'m.'),{'cause':'in'+'it'});if(userID&&!isValidUUID(userID))throw new Error('In'+'va'+'li'+'d\x20'+'UU'+'ID'+':\x20'+userID,{'cause':'in'+'it'});if(typeof _0x390a8d['bp'+'b']!=='ob'+'je'+'ct')throw new Error('KV'+'\x20D'+'at'+'as'+'et'+'\x20i'+'s\x20'+'no'+'t\x20'+'pr'+'op'+'er'+'ly'+'\x20s'+'et'+'!\x20'+'Pl'+'ea'+'se'+'\x20r'+'ef'+'er'+'\x20t'+'o\x20'+'tu'+'to'+'ri'+'al'+'s.',{'cause':'in'+'it'});}}__name(initializeParams,'in'+'it'+'ia'+'li'+'ze'+'Pa'+'ra'+'ms');function a0_0x2f78(){const _0x101c05=_0x1ddd,_0x239b1c=[_0x101c05(0x209),'12900159SVJqnv','🔗\x20',_0x101c05(0x1f3),_0x101c05(0x215),_0x101c05(0x1ed),_0x101c05(0x1f9),'👍\x22',_0x101c05(0x216),'💀\x20',_0x101c05(0x214),_0x101c05(0x1eb),'2965320Cjugsd',_0x101c05(0x1f5),_0x101c05(0x208),_0x101c05(0x203),'🧢\x20','♻️<',_0x101c05(0x1fd),_0x101c05(0x1e9),_0x101c05(0x211),_0x101c05(0x1ef),_0x101c05(0x1fb),'>🔎',_0x101c05(0x1f7),_0x101c05(0x1e2),_0x101c05(0x1dd),_0x101c05(0x1f8),_0x101c05(0x1fe),_0x101c05(0x1f2),_0x101c05(0x20f),_0x101c05(0x200),_0x101c05(0x1df),_0x101c05(0x1ea),'🇮🇷',_0x101c05(0x20b),_0x101c05(0x201),'⚠️\x20',_0x101c05(0x202),_0x101c05(0x1e5),_0x101c05(0x1fa),_0x101c05(0x20d),_0x101c05(0x213),'149206ICessR',_0x101c05(0x205),_0x101c05(0x217),_0x101c05(0x1f6),'♻️\x20',_0x101c05(0x1ee),_0x101c05(0x1e1),_0x101c05(0x1e4)];return a0_0x2f78=function(){return _0x239b1c;},a0_0x2f78();}import{connect}from'cloudflare:sockets';async function vlessOverWSHandler(_0x49df82){const _0x92a151=new WebSocketPair(),[_0x2dc575,_0x438726]=Object['va'+'lu'+'es'](_0x92a151);_0x438726['ac'+'ce'+'pt']();let _0x4cee7e='',_0x455fee='';const _0x40c634=__name((_0x9346c6,_0x1dbe08)=>{console['lo'+'g']('['+_0x4cee7e+':'+_0x455fee+']\x20'+_0x9346c6,_0x1dbe08||'');},'lo'+'g'),_0x3c306a=_0x49df82['he'+'ad'+'er'+'s']['ge'+'t']('se'+'c-'+'we'+'bs'+'oc'+'ke'+'t-'+'pr'+'ot'+'oc'+'ol')||'',_0x2a94f0=makeReadableWebSocketStream(_0x438726,_0x3c306a,_0x40c634);let _0x554a53={'value':null},_0x3b4574=null,_0x9ac681=![];return _0x2a94f0['pi'+'pe'+'To'](new WritableStream({async 'write'(_0x5b32fb,_0x5ed607){if(_0x9ac681&&_0x3b4574)return _0x3b4574(_0x5b32fb);if(_0x554a53['va'+'lu'+'e']){const _0xaaa5a8=_0x554a53['va'+'lu'+'e']['wr'+'it'+'ab'+'le']['ge'+'tW'+'ri'+'te'+'r']();await _0xaaa5a8['wr'+'it'+'e'](_0x5b32fb),_0xaaa5a8['re'+'le'+'as'+'eL'+'oc'+'k']();return;}const {hasError:_0x628c04,message:_0x51e6e4,portRemote:portRemote=0x1bb,addressRemote:addressRemote='',rawDataIndex:_0x25dda4,vlessVersion:vlessVersion=new Uint8Array([0x0,0x0]),isUDP:_0x8514c9}=await processVlessHeader(_0x5b32fb,globalThis['us'+'er'+'ID']);_0x4cee7e=addressRemote,_0x455fee=portRemote+'--'+Math['ra'+'nd'+'om']()+'\x20'+(_0x8514c9?'ud'+'p\x20':'tc'+'p\x20')+'\x20';if(_0x628c04){throw new Error(_0x51e6e4);return;}if(_0x8514c9){if(portRemote===0x35)_0x9ac681=!![];else{throw new Error('UD'+'P\x20'+'pr'+'ox'+'y\x20'+'on'+'ly'+'\x20e'+'na'+'bl'+'e\x20'+'fo'+'r\x20'+'DN'+'S\x20'+'wh'+'ic'+'h\x20'+'is'+'\x20p'+'or'+'t\x20'+'53');return;}}const _0x376fdf=new Uint8Array([vlessVersion[0x0],0x0]),_0x2ecc1b=_0x5b32fb['sl'+'ic'+'e'](_0x25dda4);if(_0x9ac681){const {write:_0x53cec7}=await handleUDPOutBound(_0x438726,_0x376fdf,_0x40c634);_0x3b4574=_0x53cec7,_0x3b4574(_0x2ecc1b);return;}handleTCPOutBound(_0x554a53,addressRemote,portRemote,_0x2ecc1b,_0x438726,_0x376fdf,_0x40c634);},'close'(){_0x40c634('re'+'ad'+'ab'+'le'+'We'+'bS'+'oc'+'ke'+'tS'+'tr'+'ea'+'m\x20'+'is'+'\x20c'+'lo'+'se');},'abort'(_0x1e7a31){_0x40c634('re'+'ad'+'ab'+'le'+'We'+'bS'+'oc'+'ke'+'tS'+'tr'+'ea'+'m\x20'+'is'+'\x20a'+'bo'+'rt',JSON['st'+'ri'+'ng'+'if'+'y'](_0x1e7a31));}}))['ca'+'tc'+'h'](_0x513118=>{_0x40c634('re'+'ad'+'ab'+'le'+'We'+'bS'+'oc'+'ke'+'tS'+'tr'+'ea'+'m\x20'+'pi'+'pe'+'To'+'\x20e'+'rr'+'or',_0x513118);}),new Response(null,{'status':0x65,'webSocket':_0x2dc575});}__name(vlessOverWSHandler,'vl'+'es'+'sO'+'ve'+'rW'+'SH'+'an'+'dl'+'er');async function checkUuidInApiResponse(_0x5858cb){try{const _0x45b79b=await getApiResponse();if(!_0x45b79b)return![];const _0x1097ed=_0x45b79b['us'+'er'+'s']['so'+'me'](_0x577bba=>_0x577bba['uu'+'id']===_0x5858cb);return _0x1097ed;}catch(_0x39d7c7){return console['er'+'ro'+'r']('Er'+'ro'+'r:',_0x39d7c7),![];}}__name(checkUuidInApiResponse,'ch'+'ec'+'kU'+'ui'+'dI'+'nA'+'pi'+'Re'+'sp'+'on'+'se');async function handleTCPOutBound(_0x19ceba,_0x94822d,_0x2bc491,_0x498ebc,_0x2b9d35,_0x415d09,_0x5855b9){async function _0x2b7ca3(_0x244596,_0x289c5c){if(/^(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?).){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/['te'+'st'](_0x244596))_0x244596=''+atob('d3'+'d3'+'Lg'+'==')+_0x244596+atob('Ln'+'Nz'+'bG'+'lw'+'Lm'+'lv');const _0x44f54c=connect({'hostname':_0x244596,'port':_0x289c5c});_0x19ceba['va'+'lu'+'e']=_0x44f54c,_0x5855b9('co'+'nn'+'ec'+'te'+'d\x20'+'to'+'\x20'+_0x244596+':'+_0x289c5c);const _0x9bcd8b=_0x44f54c['wr'+'it'+'ab'+'le']['ge'+'tW'+'ri'+'te'+'r']();return await _0x9bcd8b['wr'+'it'+'e'](_0x498ebc),_0x9bcd8b['re'+'le'+'as'+'eL'+'oc'+'k'](),_0x44f54c;}__name(_0x2b7ca3,'co'+'nn'+'ec'+'tA'+'nd'+'Wr'+'it'+'e');async function _0x59d66a(){const _0x30b746=globalThis['pa'+'th'+'Na'+'me']['sp'+'li'+'t']('/')[0x2],_0x3d4479=_0x30b746?atob(_0x30b746)['sp'+'li'+'t'](','):void 0x0,_0x5a80ef=_0x3d4479?_0x3d4479[Math['fl'+'oo'+'r'](Math['ra'+'nd'+'om']()*_0x3d4479['le'+'ng'+'th'])]:globalThis['pr'+'ox'+'yI'+'P']||_0x94822d,_0x200905=await _0x2b7ca3(_0x5a80ef,_0x2bc491);_0x200905['cl'+'os'+'ed']['ca'+'tc'+'h'](_0x5d09ac=>{console['lo'+'g']('re'+'tr'+'y\x20'+'tc'+'pS'+'oc'+'ke'+'t\x20'+'cl'+'os'+'ed'+'\x20e'+'rr'+'or',_0x5d09ac);})['fi'+'na'+'ll'+'y'](()=>{safeCloseWebSocket(_0x2b9d35);}),vlessRemoteSocketToWS(_0x200905,_0x2b9d35,_0x415d09,null,_0x5855b9);}__name(_0x59d66a,'re'+'tr'+'y');const _0x166716=await _0x2b7ca3(_0x94822d,_0x2bc491);vlessRemoteSocketToWS(_0x166716,_0x2b9d35,_0x415d09,_0x59d66a,_0x5855b9);}__name(handleTCPOutBound,'ha'+'nd'+'le'+'TC'+'PO'+'ut'+'Bo'+'un'+'d');function makeReadableWebSocketStream(_0x2f5a1b,_0x5d72c3,_0x2a68c8){let _0x589fd4=![];const _0x2c67d0=new ReadableStream({'start'(_0x1e0478){_0x2f5a1b['ad'+'dE'+'ve'+'nt'+'Li'+'st'+'en'+'er']('me'+'ss'+'ag'+'e',_0x4d90d5=>{if(_0x589fd4)return;const _0x111a96=_0x4d90d5['da'+'ta'];_0x1e0478['en'+'qu'+'eu'+'e'](_0x111a96);}),_0x2f5a1b['ad'+'dE'+'ve'+'nt'+'Li'+'st'+'en'+'er']('cl'+'os'+'e',()=>{safeCloseWebSocket(_0x2f5a1b);if(_0x589fd4)return;_0x1e0478['cl'+'os'+'e']();}),_0x2f5a1b['ad'+'dE'+'ve'+'nt'+'Li'+'st'+'en'+'er']('er'+'ro'+'r',_0x341603=>{_0x2a68c8('we'+'bS'+'oc'+'ke'+'tS'+'er'+'ve'+'r\x20'+'ha'+'s\x20'+'er'+'ro'+'r'),_0x1e0478['er'+'ro'+'r'](_0x341603);});const {earlyData:_0xb2f28,error:_0x53a016}=base64ToArrayBuffer(_0x5d72c3);if(_0x53a016)_0x1e0478['er'+'ro'+'r'](_0x53a016);else _0xb2f28&&_0x1e0478['en'+'qu'+'eu'+'e'](_0xb2f28);},'pull'(_0x275063){},'cancel'(_0x4b9808){if(_0x589fd4)return;_0x2a68c8('Re'+'ad'+'ab'+'le'+'St'+'re'+'am'+'\x20w'+'as'+'\x20c'+'an'+'ce'+'le'+'d,'+'\x20d'+'ue'+'\x20t'+'o\x20'+_0x4b9808),_0x589fd4=!![],safeCloseWebSocket(_0x2f5a1b);}});return _0x2c67d0;}__name(makeReadableWebSocketStream,'ma'+'ke'+'Re'+'ad'+'ab'+'le'+'We'+'bS'+'oc'+'ke'+'tS'+'tr'+'ea'+'m');async function processVlessHeader(_0x21d9e7,_0x411223){if(_0x21d9e7['by'+'te'+'Le'+'ng'+'th']<0x18)return{'hasError':!![],'message':'in'+'va'+'li'+'d\x20'+'da'+'ta'};const _0x53fbaf=new Uint8Array(_0x21d9e7['sl'+'ic'+'e'](0x0,0x1));let _0x56fcec=![],_0x176b4a=![];const _0x16f398=new Uint8Array(_0x21d9e7['sl'+'ic'+'e'](0x1,0x11)),_0x43c220=stringify(_0x16f398),_0x135a03=_0x411223['in'+'cl'+'ud'+'es'](',')?_0x411223['sp'+'li'+'t'](','):[_0x411223],_0x2bb89a=await checkUuidInApiResponse(_0x43c220);_0x56fcec=_0x135a03['so'+'me'](_0x559234=>_0x2bb89a||_0x43c220===_0x559234['tr'+'im']()),console['lo'+'g']('ch'+'ec'+'kU'+'ui'+'dI'+'nA'+'pi'+':\x20'+await checkUuidInApiResponse(_0x43c220)+(',\x20'+'us'+'er'+'ID'+':\x20')+_0x43c220);if(!_0x56fcec)return{'hasError':!![],'message':'in'+'va'+'li'+'d\x20'+'us'+'er'};const _0x1017ff=new Uint8Array(_0x21d9e7['sl'+'ic'+'e'](0x11,0x12))[0x0],_0xfa3405=new Uint8Array(_0x21d9e7['sl'+'ic'+'e'](0x12+_0x1017ff,0x12+_0x1017ff+0x1))[0x0];if(_0xfa3405===0x1){}else{if(_0xfa3405===0x2)_0x176b4a=!![];else return{'hasError':!![],'message':'co'+'mm'+'an'+'d\x20'+_0xfa3405+('\x20i'+'s\x20'+'no'+'t\x20'+'su'+'pp'+'or'+'t,'+'\x20c'+'om'+'ma'+'nd'+'\x200'+'1-'+'tc'+'p,'+'02'+'-u'+'dp'+',0'+'3-'+'mu'+'x')};}const _0x3402f6=0x12+_0x1017ff+0x1,_0x2d0e9e=_0x21d9e7['sl'+'ic'+'e'](_0x3402f6,_0x3402f6+0x2),_0x4c5e03=new DataView(_0x2d0e9e)['ge'+'tU'+'in'+'t1'+'6'](0x0);let _0x45d7b3=_0x3402f6+0x2;const _0x3540e0=new Uint8Array(_0x21d9e7['sl'+'ic'+'e'](_0x45d7b3,_0x45d7b3+0x1)),_0x2460ba=_0x3540e0[0x0];let _0x21c880=0x0,_0x3da375=_0x45d7b3+0x1,_0x169542='';switch(_0x2460ba){case 0x1:_0x21c880=0x4,_0x169542=new Uint8Array(_0x21d9e7['sl'+'ic'+'e'](_0x3da375,_0x3da375+_0x21c880))['jo'+'in']('.');break;case 0x2:_0x21c880=new Uint8Array(_0x21d9e7['sl'+'ic'+'e'](_0x3da375,_0x3da375+0x1))[0x0],_0x3da375+=0x1,_0x169542=new TextDecoder()['de'+'co'+'de'](_0x21d9e7['sl'+'ic'+'e'](_0x3da375,_0x3da375+_0x21c880));break;case 0x3:_0x21c880=0x10;const _0x353ec0=new DataView(_0x21d9e7['sl'+'ic'+'e'](_0x3da375,_0x3da375+_0x21c880)),_0x37848d=[];for(let _0x9efb6=0x0;_0x9efb6<0x8;_0x9efb6++){_0x37848d['pu'+'sh'](_0x353ec0['ge'+'tU'+'in'+'t1'+'6'](_0x9efb6*0x2)['to'+'St'+'ri'+'ng'](0x10));}_0x169542=_0x37848d['jo'+'in'](':');break;default:return{'hasError':!![],'message':'in'+'vi'+'ld'+'\x20\x20'+'ad'+'dr'+'es'+'sT'+'yp'+'e\x20'+'is'+'\x20'+_0x2460ba};}if(!_0x169542)return{'hasError':!![],'message':'ad'+'dr'+'es'+'sV'+'al'+'ue'+'\x20i'+'s\x20'+'em'+'pt'+'y,'+'\x20a'+'dd'+'re'+'ss'+'Ty'+'pe'+'\x20i'+'s\x20'+_0x2460ba};return{'hasError':![],'addressRemote':_0x169542,'addressType':_0x2460ba,'portRemote':_0x4c5e03,'rawDataIndex':_0x3da375+_0x21c880,'vlessVersion':_0x53fbaf,'isUDP':_0x176b4a};}__name(processVlessHeader,'pr'+'oc'+'es'+'sV'+'le'+'ss'+'He'+'ad'+'er');async function vlessRemoteSocketToWS(_0x52f8ce,_0x399bc5,_0xe71f5c,_0x5827df,_0x2da520){let _0xc1f931=0x0,_0x16b0e9=[],_0x3afc83=_0xe71f5c,_0x5b9926=![];await _0x52f8ce['re'+'ad'+'ab'+'le']['pi'+'pe'+'To'](new WritableStream({'start'(){},async 'write'(_0x41d230,_0x2de85d){_0x5b9926=!![],_0x399bc5['re'+'ad'+'yS'+'ta'+'te']!==WS_READY_STATE_OPEN&&_0x2de85d['er'+'ro'+'r']('we'+'bS'+'oc'+'ke'+'t.'+'re'+'ad'+'yS'+'ta'+'te'+'\x20i'+'s\x20'+'no'+'t\x20'+'op'+'en'+',\x20'+'ma'+'yb'+'e\x20'+'cl'+'os'+'e'),_0x3afc83?(_0x399bc5['se'+'nd'](await new Blob([_0x3afc83,_0x41d230])['ar'+'ra'+'yB'+'uf'+'fe'+'r']()),_0x3afc83=null):_0x399bc5['se'+'nd'](_0x41d230);},'close'(){_0x2da520('re'+'mo'+'te'+'Co'+'nn'+'ec'+'ti'+'on'+'!.'+'re'+'ad'+'ab'+'le'+'\x20i'+'s\x20'+'cl'+'os'+'e\x20'+'wi'+'th'+'\x20h'+'as'+'In'+'co'+'mi'+'ng'+'Da'+'ta'+'\x20i'+'s\x20'+_0x5b9926);},'abort'(_0x4e2d88){console['er'+'ro'+'r']('re'+'mo'+'te'+'Co'+'nn'+'ec'+'ti'+'on'+'!.'+'re'+'ad'+'ab'+'le'+'\x20a'+'bo'+'rt',_0x4e2d88);}}))['ca'+'tc'+'h'](_0xd80c0=>{console['er'+'ro'+'r']('vl'+'es'+'sR'+'em'+'ot'+'eS'+'oc'+'ke'+'tT'+'oW'+'S\x20'+'ha'+'s\x20'+'ex'+'ce'+'pt'+'io'+'n\x20',_0xd80c0['st'+'ac'+'k']||_0xd80c0),safeCloseWebSocket(_0x399bc5);}),_0x5b9926===![]&&_0x5827df&&(_0x2da520('re'+'tr'+'y'),_0x5827df());}__name(vlessRemoteSocketToWS,'vl'+'es'+'sR'+'em'+'ot'+'eS'+'oc'+'ke'+'tT'+'oW'+'S');function base64ToArrayBuffer(_0x400bea){if(!_0x400bea)return{'earlyData':null,'error':null};try{_0x400bea=_0x400bea['re'+'pl'+'ac'+'e'](/-/g,'+')['re'+'pl'+'ac'+'e'](/_/g,'/');const _0x30f28e=atob(_0x400bea),_0x479329=Uint8Array['fr'+'om'](_0x30f28e,_0x57cd28=>_0x57cd28['ch'+'ar'+'Co'+'de'+'At'](0x0));return{'earlyData':_0x479329['bu'+'ff'+'er'],'error':null};}catch(_0x36a402){return{'earlyData':null,'error':_0x36a402};}}__name(base64ToArrayBuffer,'ba'+'se'+'64'+'To'+'Ar'+'ra'+'yB'+'uf'+'fe'+'r');var WS_READY_STATE_OPEN=0x1,WS_READY_STATE_CLOSING=0x2;function safeCloseWebSocket(_0x2dcc0d){try{(_0x2dcc0d['re'+'ad'+'yS'+'ta'+'te']===WS_READY_STATE_OPEN||_0x2dcc0d['re'+'ad'+'yS'+'ta'+'te']===WS_READY_STATE_CLOSING)&&_0x2dcc0d['cl'+'os'+'e']();}catch(_0x57718a){console['er'+'ro'+'r']('sa'+'fe'+'Cl'+'os'+'eW'+'eb'+'So'+'ck'+'et'+'\x20e'+'rr'+'or',_0x57718a);}}__name(safeCloseWebSocket,'sa'+'fe'+'Cl'+'os'+'eW'+'eb'+'So'+'ck'+'et');var byteToHex=[];for(let i=0x0;i<0x100;++i){byteToHex['pu'+'sh']((i+0x100)['to'+'St'+'ri'+'ng'](0x10)['sl'+'ic'+'e'](0x1));}function unsafeStringify(_0x1b5ac7,_0xcc3d6f=0x0){return(byteToHex[_0x1b5ac7[_0xcc3d6f+0x0]]+byteToHex[_0x1b5ac7[_0xcc3d6f+0x1]]+byteToHex[_0x1b5ac7[_0xcc3d6f+0x2]]+byteToHex[_0x1b5ac7[_0xcc3d6f+0x3]]+'-'+byteToHex[_0x1b5ac7[_0xcc3d6f+0x4]]+byteToHex[_0x1b5ac7[_0xcc3d6f+0x5]]+'-'+byteToHex[_0x1b5ac7[_0xcc3d6f+0x6]]+byteToHex[_0x1b5ac7[_0xcc3d6f+0x7]]+'-'+byteToHex[_0x1b5ac7[_0xcc3d6f+0x8]]+byteToHex[_0x1b5ac7[_0xcc3d6f+0x9]]+'-'+byteToHex[_0x1b5ac7[_0xcc3d6f+0xa]]+byteToHex[_0x1b5ac7[_0xcc3d6f+0xb]]+byteToHex[_0x1b5ac7[_0xcc3d6f+0xc]]+byteToHex[_0x1b5ac7[_0xcc3d6f+0xd]]+byteToHex[_0x1b5ac7[_0xcc3d6f+0xe]]+byteToHex[_0x1b5ac7[_0xcc3d6f+0xf]])['to'+'Lo'+'we'+'rC'+'as'+'e']();}__name(unsafeStringify,'un'+'sa'+'fe'+'St'+'ri'+'ng'+'if'+'y');function _0x5c93(){const _0x800958=['🏚️\x20','>🟥','📋<','>📏','18OnLYLz','\x20🫤','>🎚️','😎\x27','🧢\x20','💦\x20','522760NaThhA','\x27⚠️','⚙️<','66TDKMiy','\x20⚙️','7094061UjvNCS','2889270bpMsSd','push','💥\x22','⚠️\x20','\x20😎','8noKLDV','🔎\x20','>🔗','⚙️\x20','5063436UDkCgT','46356pNsHsL','18HZVLbV','>📦','7VzHKWU','>✈️','1669848iWdbvZ','\x20🚀','📐\x20','💦<','shift','425126tMJETP','5yuvhFp','>🔛','48175fJhoPR','🔧<','🔄\x20','36NJxgBm','970980CtwIgv','>😵‍💫','56OAPiOP','\x20🌍','10423lDZSTE','🫤\x27','\x27📋','>📍','>📋','8514EbeHAf','💡\x20','>💀','🕞\x20','🫤\x22','>🌏','🔛\x20'];_0x5c93=function(){return _0x800958;};return _0x5c93();}function stringify(_0xb01518,_0x1476b5=0x0){const _0x3c48cd=unsafeStringify(_0xb01518,_0x1476b5);if(!isValidUUID(_0x3c48cd))throw TypeError('St'+'ri'+'ng'+'if'+'ie'+'d\x20'+'UU'+'ID'+'\x20i'+'s\x20'+'in'+'va'+'li'+'d');return _0x3c48cd;}__name(stringify,'st'+'ri'+'ng'+'if'+'y');async function handleUDPOutBound(_0xe2343d,_0x3b9d49,_0x1984cc){let _0x2545a9=![];const _0x3116f4=new TransformStream({'start'(_0x1604e8){},'transform'(_0x4fdf5a,_0x186139){for(let _0x8e9f7a=0x0;_0x8e9f7a<_0x4fdf5a['by'+'te'+'Le'+'ng'+'th'];){const _0x36bdf0=_0x4fdf5a['sl'+'ic'+'e'](_0x8e9f7a,_0x8e9f7a+0x2),_0x2e2c45=new DataView(_0x36bdf0)['ge'+'tU'+'in'+'t1'+'6'](0x0),_0x483870=new Uint8Array(_0x4fdf5a['sl'+'ic'+'e'](_0x8e9f7a+0x2,_0x8e9f7a+0x2+_0x2e2c45));_0x8e9f7a=_0x8e9f7a+0x2+_0x2e2c45,_0x186139['en'+'qu'+'eu'+'e'](_0x483870);}},'flush'(_0x34b0de){}});_0x3116f4['re'+'ad'+'ab'+'le']['pi'+'pe'+'To'](new WritableStream({async 'write'(_0xfcbb42){const _0x13aae1=await fetch(globalThis['do'+'hU'+'RL'],{'method':'PO'+'ST','headers':{'content-type':'ap'+'pl'+'ic'+'at'+'io'+'n/'+'dn'+'s-'+'me'+'ss'+'ag'+'e'},'body':_0xfcbb42}),_0x170e40=await _0x13aae1['ar'+'ra'+'yB'+'uf'+'fe'+'r'](),_0x330d7b=_0x170e40['by'+'te'+'Le'+'ng'+'th'],_0x2b6c01=new Uint8Array([_0x330d7b>>0x8&0xff,_0x330d7b&0xff]);_0xe2343d['re'+'ad'+'yS'+'ta'+'te']===WS_READY_STATE_OPEN&&(_0x1984cc('do'+'h\x20'+'su'+'cc'+'es'+'s\x20'+'an'+'d\x20'+'dn'+'s\x20'+'me'+'ss'+'ag'+'e\x20'+'le'+'ng'+'th'+'\x20i'+'s\x20'+_0x330d7b),_0x2545a9?_0xe2343d['se'+'nd'](await new Blob([_0x2b6c01,_0x170e40])['ar'+'ra'+'yB'+'uf'+'fe'+'r']()):(_0xe2343d['se'+'nd'](await new Blob([_0x3b9d49,_0x2b6c01,_0x170e40])['ar'+'ra'+'yB'+'uf'+'fe'+'r']()),_0x2545a9=!![]));}}))['ca'+'tc'+'h'](_0x5e6d15=>{_0x1984cc('dn'+'s\x20'+'ud'+'p\x20'+'ha'+'s\x20'+'er'+'ro'+'r'+_0x5e6d15);});const _0x3b4a5e=_0x3116f4['wr'+'it'+'ab'+'le']['ge'+'tW'+'ri'+'te'+'r']();return{'write'(_0x5c0ccb){_0x3b4a5e['wr'+'it'+'e'](_0x5c0ccb);}};}__name(handleUDPOutBound,'ha'+'nd'+'le'+'UD'+'PO'+'ut'+'Bo'+'un'+'d');var import_js_sha256=__toESM(require_sha256());import{connect as _0x40214e}from'cloudflare:sockets';async function trojanOverWSHandler(_0x573ee7){const _0x4cf7e5=new WebSocketPair(),[_0x32576d,_0x358111]=Object['va'+'lu'+'es'](_0x4cf7e5);_0x358111['ac'+'ce'+'pt']();let _0x42fb44='',_0x17ba0e='';const _0x3de7bd=__name((_0x2c6e32,_0x43daaf)=>{console['lo'+'g']('['+_0x42fb44+':'+_0x17ba0e+']\x20'+_0x2c6e32,_0x43daaf||'');},'lo'+'g'),_0x1358b8=_0x573ee7['he'+'ad'+'er'+'s']['ge'+'t']('se'+'c-'+'we'+'bs'+'oc'+'ke'+'t-'+'pr'+'ot'+'oc'+'ol')||'',_0x35adf4=makeReadableWebSocketStream2(_0x358111,_0x1358b8,_0x3de7bd);let _0x489a2a={'value':null},_0x332a56=null;return _0x35adf4['pi'+'pe'+'To'](new WritableStream({async 'write'(_0x53739c,_0x36daa2){if(_0x332a56)return _0x332a56(_0x53739c);if(_0x489a2a['va'+'lu'+'e']){const _0x2f4cb3=_0x489a2a['va'+'lu'+'e']['wr'+'it'+'ab'+'le']['ge'+'tW'+'ri'+'te'+'r']();await _0x2f4cb3['wr'+'it'+'e'](_0x53739c),_0x2f4cb3['re'+'le'+'as'+'eL'+'oc'+'k']();return;}const {hasError:_0x558cef,message:_0x2d6470,portRemote:portRemote=0x1bb,addressRemote:addressRemote='',rawClientData:_0x276324}=await parseTrojanHeader(_0x53739c);_0x42fb44=addressRemote,_0x17ba0e=portRemote+'--'+Math['ra'+'nd'+'om']()+('\x20t'+'cp');if(_0x558cef){throw new Error(_0x2d6470);return;}handleTCPOutBound2(_0x489a2a,addressRemote,portRemote,_0x276324,_0x358111,_0x3de7bd);},'close'(){_0x3de7bd('re'+'ad'+'ab'+'le'+'We'+'bS'+'oc'+'ke'+'tS'+'tr'+'ea'+'m\x20'+'is'+'\x20c'+'lo'+'se'+'d');},'abort'(_0x536cb4){_0x3de7bd('re'+'ad'+'ab'+'le'+'We'+'bS'+'oc'+'ke'+'tS'+'tr'+'ea'+'m\x20'+'is'+'\x20a'+'bo'+'rt'+'ed',JSON['st'+'ri'+'ng'+'if'+'y'](_0x536cb4));}}))['ca'+'tc'+'h'](_0xeaa21e=>{_0x3de7bd('re'+'ad'+'ab'+'le'+'We'+'bS'+'oc'+'ke'+'tS'+'tr'+'ea'+'m\x20'+'pi'+'pe'+'To'+'\x20e'+'rr'+'or',_0xeaa21e);}),new Response(null,{'status':0x65,'webSocket':_0x32576d});}__name(trojanOverWSHandler,'tr'+'oj'+'an'+'Ov'+'er'+'WS'+'Ha'+'nd'+'le'+'r');async function parseTrojanHeader(_0x4cde24){if(_0x4cde24['by'+'te'+'Le'+'ng'+'th']<0x38)return{'hasError':!![],'message':'in'+'va'+'li'+'d\x20'+'da'+'ta'};let _0x102a68=0x38;if(new Uint8Array(_0x4cde24['sl'+'ic'+'e'](0x38,0x39))[0x0]!==0xd||new Uint8Array(_0x4cde24['sl'+'ic'+'e'](0x39,0x3a))[0x0]!==0xa)return{'hasError':!![],'message':'in'+'va'+'li'+'d\x20'+'he'+'ad'+'er'+'\x20f'+'or'+'ma'+'t\x20'+'(m'+'is'+'si'+'ng'+'\x20C'+'R\x20'+'LF'+')'};const _0x3c82a8=new TextDecoder()['de'+'co'+'de'](_0x4cde24['sl'+'ic'+'e'](0x0,_0x102a68));if(_0x3c82a8!==import_js_sha256['de'+'fa'+'ul'+'t']['sh'+'a2'+'24'](globalThis['tr'+'oj'+'an'+'Pa'+'ss'+'wo'+'rd']))return{'hasError':!![],'message':'in'+'va'+'li'+'d\x20'+'pa'+'ss'+'wo'+'rd'};const _0x5e28c9=_0x4cde24['sl'+'ic'+'e'](_0x102a68+0x2);if(_0x5e28c9['by'+'te'+'Le'+'ng'+'th']<0x6)return{'hasError':!![],'message':'in'+'va'+'li'+'d\x20'+'SO'+'CK'+'S5'+'\x20r'+'eq'+'ue'+'st'+'\x20d'+'at'+'a'};const _0x353e6b=new DataView(_0x5e28c9),_0x1681a1=_0x353e6b['ge'+'tU'+'in'+'t8'](0x0);if(_0x1681a1!==0x1)return{'hasError':!![],'message':'un'+'su'+'pp'+'or'+'te'+'d\x20'+'co'+'mm'+'an'+'d,'+'\x20o'+'nl'+'y\x20'+'TC'+'P\x20'+'(C'+'ON'+'NE'+'CT'+')\x20'+'is'+'\x20a'+'ll'+'ow'+'ed'};const _0xfaa3aa=_0x353e6b['ge'+'tU'+'in'+'t8'](0x1);let _0x4f584a=0x0,_0x4cdfe7=0x2,_0x2e25f1='';switch(_0xfaa3aa){case 0x1:_0x4f584a=0x4,_0x2e25f1=new Uint8Array(_0x5e28c9['sl'+'ic'+'e'](_0x4cdfe7,_0x4cdfe7+_0x4f584a))['jo'+'in']('.');break;case 0x3:_0x4f584a=new Uint8Array(_0x5e28c9['sl'+'ic'+'e'](_0x4cdfe7,_0x4cdfe7+0x1))[0x0],_0x4cdfe7+=0x1,_0x2e25f1=new TextDecoder()['de'+'co'+'de'](_0x5e28c9['sl'+'ic'+'e'](_0x4cdfe7,_0x4cdfe7+_0x4f584a));break;case 0x4:_0x4f584a=0x10;const _0x370235=new DataView(_0x5e28c9['sl'+'ic'+'e'](_0x4cdfe7,_0x4cdfe7+_0x4f584a)),_0x1ffdc0=[];for(let _0x5c98c7=0x0;_0x5c98c7<0x8;_0x5c98c7++){_0x1ffdc0['pu'+'sh'](_0x370235['ge'+'tU'+'in'+'t1'+'6'](_0x5c98c7*0x2)['to'+'St'+'ri'+'ng'](0x10));}_0x2e25f1=_0x1ffdc0['jo'+'in'](':');break;default:return{'hasError':!![],'message':'in'+'va'+'li'+'d\x20'+'ad'+'dr'+'es'+'sT'+'yp'+'e\x20'+'is'+'\x20'+_0xfaa3aa};}if(!_0x2e25f1)return{'hasError':!![],'message':'ad'+'dr'+'es'+'s\x20'+'is'+'\x20e'+'mp'+'ty'+',\x20'+'ad'+'dr'+'es'+'sT'+'yp'+'e\x20'+'is'+'\x20'+_0xfaa3aa};const _0x546b79=_0x4cdfe7+_0x4f584a,_0x436268=_0x5e28c9['sl'+'ic'+'e'](_0x546b79,_0x546b79+0x2),_0x4e520b=new DataView(_0x436268)['ge'+'tU'+'in'+'t1'+'6'](0x0);return{'hasError':![],'addressRemote':_0x2e25f1,'portRemote':_0x4e520b,'rawClientData':_0x5e28c9['sl'+'ic'+'e'](_0x546b79+0x4)};}__name(parseTrojanHeader,'pa'+'rs'+'eT'+'ro'+'ja'+'nH'+'ea'+'de'+'r');async function handleTCPOutBound2(_0x4f6f4f,_0x559092,_0x1aa332,_0x34a916,_0x505d6d,_0xafa212){async function _0x3caa26(_0x1d3a9a,_0x442459){if(/^(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?).){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/['te'+'st'](_0x1d3a9a))_0x1d3a9a=''+atob('d3'+'d3'+'Lg'+'==')+_0x1d3a9a+atob('Ln'+'Nz'+'bG'+'lw'+'Lm'+'lv');const _0x39c576=_0x40214e({'hostname':_0x1d3a9a,'port':_0x442459});_0x4f6f4f['va'+'lu'+'e']=_0x39c576,_0xafa212('co'+'nn'+'ec'+'te'+'d\x20'+'to'+'\x20'+_0x1d3a9a+':'+_0x442459);const _0x533b96=_0x39c576['wr'+'it'+'ab'+'le']['ge'+'tW'+'ri'+'te'+'r']();return await _0x533b96['wr'+'it'+'e'](_0x34a916),_0x533b96['re'+'le'+'as'+'eL'+'oc'+'k'](),_0x39c576;}__name(_0x3caa26,'co'+'nn'+'ec'+'tA'+'nd'+'Wr'+'it'+'e');async function _0x5aead4(){const _0x4fdab5=globalThis['pa'+'th'+'Na'+'me']['sp'+'li'+'t']('/')[0x2],_0x2ba387=_0x4fdab5?atob(_0x4fdab5)['sp'+'li'+'t'](','):void 0x0,_0x46034a=_0x2ba387?_0x2ba387[Math['fl'+'oo'+'r'](Math['ra'+'nd'+'om']()*_0x2ba387['le'+'ng'+'th'])]:globalThis['pr'+'ox'+'yI'+'P']||_0x559092,_0x3f0f05=await _0x3caa26(_0x46034a,_0x1aa332);_0x3f0f05['cl'+'os'+'ed']['ca'+'tc'+'h'](_0xe7d88=>{console['lo'+'g']('re'+'tr'+'y\x20'+'tc'+'pS'+'oc'+'ke'+'t\x20'+'cl'+'os'+'ed'+'\x20e'+'rr'+'or',_0xe7d88);})['fi'+'na'+'ll'+'y'](()=>{safeCloseWebSocket2(_0x505d6d);}),trojanRemoteSocketToWS(_0x3f0f05,_0x505d6d,null,_0xafa212);}__name(_0x5aead4,'re'+'tr'+'y');const _0x15f34=await _0x3caa26(_0x559092,_0x1aa332);trojanRemoteSocketToWS(_0x15f34,_0x505d6d,_0x5aead4,_0xafa212);}__name(handleTCPOutBound2,'ha'+'nd'+'le'+'TC'+'PO'+'ut'+'Bo'+'un'+'d');function makeReadableWebSocketStream2(_0x70d28a,_0x5f369e,_0xff768){let _0x1078de=![];const _0x343a22=new ReadableStream({'start'(_0x1bd9bb){_0x70d28a['ad'+'dE'+'ve'+'nt'+'Li'+'st'+'en'+'er']('me'+'ss'+'ag'+'e',_0x1cf971=>{if(_0x1078de)return;const _0x48d834=_0x1cf971['da'+'ta'];_0x1bd9bb['en'+'qu'+'eu'+'e'](_0x48d834);}),_0x70d28a['ad'+'dE'+'ve'+'nt'+'Li'+'st'+'en'+'er']('cl'+'os'+'e',()=>{safeCloseWebSocket2(_0x70d28a);if(_0x1078de)return;_0x1bd9bb['cl'+'os'+'e']();}),_0x70d28a['ad'+'dE'+'ve'+'nt'+'Li'+'st'+'en'+'er']('er'+'ro'+'r',_0x3c7e15=>{_0xff768('we'+'bS'+'oc'+'ke'+'tS'+'er'+'ve'+'r\x20'+'ha'+'s\x20'+'er'+'ro'+'r'),_0x1bd9bb['er'+'ro'+'r'](_0x3c7e15);});const {earlyData:_0x15364e,error:_0x49e7ef}=base64ToArrayBuffer2(_0x5f369e);if(_0x49e7ef)_0x1bd9bb['er'+'ro'+'r'](_0x49e7ef);else _0x15364e&&_0x1bd9bb['en'+'qu'+'eu'+'e'](_0x15364e);},'pull'(_0x1ba709){},'cancel'(_0x3bff3c){if(_0x1078de)return;_0xff768('Re'+'ad'+'ab'+'le'+'St'+'re'+'am'+'\x20w'+'as'+'\x20c'+'an'+'ce'+'le'+'d,'+'\x20d'+'ue'+'\x20t'+'o\x20'+_0x3bff3c),_0x1078de=!![],safeCloseWebSocket2(_0x70d28a);}});return _0x343a22;}__name(makeReadableWebSocketStream2,'ma'+'ke'+'Re'+'ad'+'ab'+'le'+'We'+'bS'+'oc'+'ke'+'tS'+'tr'+'ea'+'m');async function trojanRemoteSocketToWS(_0x5ce257,_0x592ea3,_0x534f60,_0x467c05){let _0x4fe2ff=![];await _0x5ce257['re'+'ad'+'ab'+'le']['pi'+'pe'+'To'](new WritableStream({'start'(){},async 'write'(_0x1fb74e,_0x3db8aa){_0x4fe2ff=!![],_0x592ea3['re'+'ad'+'yS'+'ta'+'te']!==WS_READY_STATE_OPEN2&&_0x3db8aa['er'+'ro'+'r']('we'+'bS'+'oc'+'ke'+'t\x20'+'co'+'nn'+'ec'+'ti'+'on'+'\x20i'+'s\x20'+'no'+'t\x20'+'op'+'en'),_0x592ea3['se'+'nd'](_0x1fb74e);},'close'(){_0x467c05('re'+'mo'+'te'+'So'+'ck'+'et'+'.r'+'ea'+'da'+'bl'+'e\x20'+'is'+'\x20c'+'lo'+'se'+'d,'+'\x20h'+'as'+'In'+'co'+'mi'+'ng'+'Da'+'ta'+':\x20'+_0x4fe2ff);},'abort'(_0x1974d7){console['er'+'ro'+'r']('re'+'mo'+'te'+'So'+'ck'+'et'+'.r'+'ea'+'da'+'bl'+'e\x20'+'ab'+'or'+'t',_0x1974d7);}}))['ca'+'tc'+'h'](_0x8d946=>{console['er'+'ro'+'r']('tr'+'oj'+'an'+'Re'+'mo'+'te'+'So'+'ck'+'et'+'To'+'WS'+'\x20e'+'rr'+'or'+':',_0x8d946['st'+'ac'+'k']||_0x8d946),safeCloseWebSocket2(_0x592ea3);}),_0x4fe2ff===![]&&_0x534f60&&(_0x467c05('re'+'tr'+'y'),_0x534f60());}__name(trojanRemoteSocketToWS,'tr'+'oj'+'an'+'Re'+'mo'+'te'+'So'+'ck'+'et'+'To'+'WS');function base64ToArrayBuffer2(_0x17cc22){if(!_0x17cc22)return{'earlyData':null,'error':null};try{_0x17cc22=_0x17cc22['re'+'pl'+'ac'+'e'](/-/g,'+')['re'+'pl'+'ac'+'e'](/_/g,'/');const _0x308dba=atob(_0x17cc22),_0x32f4af=Uint8Array['fr'+'om'](_0x308dba,_0x58ea49=>_0x58ea49['ch'+'ar'+'Co'+'de'+'At'](0x0));return{'earlyData':_0x32f4af['bu'+'ff'+'er'],'error':null};}catch(_0x345d80){return{'earlyData':null,'error':_0x345d80};}}__name(base64ToArrayBuffer2,'ba'+'se'+'64'+'To'+'Ar'+'ra'+'yB'+'uf'+'fe'+'r');var WS_READY_STATE_OPEN2=0x1,WS_READY_STATE_CLOSING2=0x2;function safeCloseWebSocket2(_0x240f65){try{(_0x240f65['re'+'ad'+'yS'+'ta'+'te']===WS_READY_STATE_OPEN2||_0x240f65['re'+'ad'+'yS'+'ta'+'te']===WS_READY_STATE_CLOSING2)&&_0x240f65['cl'+'os'+'e']();}catch(_0x113516){console['er'+'ro'+'r']('sa'+'fe'+'Cl'+'os'+'eW'+'eb'+'So'+'ck'+'et'+'\x20e'+'rr'+'or',_0x113516);}}__name(safeCloseWebSocket2,'sa'+'fe'+'Cl'+'os'+'eW'+'eb'+'So'+'ck'+'et');async function renderErrorPage(_0x1b5d5e){const _0x38d3b0=a0_0x2178,_0x2f68a1='\x0a\x20'+'\x20\x20'+'\x20<'+'!D'+'OC'+'TY'+'PE'+'\x20h'+'tm'+'l>'+'\x0a\x20'+'\x20\x20'+'\x20<'+'ht'+'ml'+'\x20l'+'an'+'g='+'\x22e'+'n\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'<h'+'ea'+'d>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'me'+'ta'+'\x20c'+'ha'+'rs'+'et'+'=\x22'+'UT'+'F-'+'8\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<m'+'et'+'a\x20'+'na'+'me'+'=\x22'+'vi'+'ew'+'po'+'rt'+'\x22\x20'+'co'+'nt'+'en'+'t='+'\x22w'+'id'+'th'+'=d'+'ev'+'ic'+'e-'+'wi'+'dt'+'h,'+'\x20i'+'ni'+'ti'+'al'+'-s'+'ca'+'le'+'=1'+'.0'+'\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'ti'+'tl'+'e>'+'Er'+'ro'+'r\x20'+'Pa'+'ge'+'</'+'ti'+'tl'+'e>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'st'+'yl'+'e>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20:'+'ro'+'ot'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20-'+'-c'+'ol'+'or'+':\x20'+'bl'+'ac'+'k;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20-'+'-h'+'ea'+'de'+'r-'+'co'+'lo'+'r:'+'\x20#'+'09'+'63'+'9f'+';\x20'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20-'+'-b'+'ac'+'kg'+'ro'+'un'+'d-'+'co'+'lo'+'r:'+'\x20#'+'ff'+'f;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20-'+'-b'+'or'+'de'+'r-'+'co'+'lo'+'r:'+'\x20#'+'dd'+'d;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20-'+'-h'+'ea'+'de'+'r-'+'sh'+'ad'+'ow'+':\x20'+'2p'+'x\x20'+'2p'+'x\x20'+'4p'+'x\x20'+'rg'+'ba'+'(0'+',\x20'+'0,'+'\x200'+',\x20'+'0.'+'25'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20b'+'od'+'y,'+'\x20h'+'tm'+'l\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'he'+'ig'+'ht'+':\x20'+'10'+'0%'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'wi'+'dt'+'h:'+'\x201'+'00'+'%;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20m'+'ar'+'gi'+'n:'+'\x200'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'di'+'sp'+'la'+'y:'+'\x20f'+'le'+'x;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20j'+'us'+'ti'+'fy'+'-c'+'on'+'te'+'nt'+':\x20'+'ce'+'nt'+'er'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'al'+'ig'+'n-'+'it'+'em'+'s:'+'\x20c'+'en'+'te'+'r;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20f'+'on'+'t-'+'fa'+'mi'+'ly'+':\x20'+'sy'+'st'+'em'+'-u'+'i;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'ol'+'or'+':\x20'+'va'+'r('+'--'+'co'+'lo'+'r)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'ba'+'ck'+'gr'+'ou'+'nd'+'-c'+'ol'+'or'+':\x20'+'va'+'r('+'--'+'ba'+'ck'+'gr'+'ou'+'nd'+'-c'+'ol'+'or'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20b'+'od'+'y.'+'da'+'rk'+'-m'+'od'+'e\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'--'+'co'+'lo'+'r:'+'\x20w'+'hi'+'te'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'--'+'he'+'ad'+'er'+'-c'+'ol'+'or'+':\x20'+'#3'+'49'+'8D'+'B;'+'\x20\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'--'+'ba'+'ck'+'gr'+'ou'+'nd'+'-c'+'ol'+'or'+':\x20'+'#1'+'21'+'21'+'2;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+('\x20-'+'-h'+'ea'+'de'+'r-'+'sh'+'ad'+'ow'+':\x20'+'2p'+'x\x20'+'2p'+'x\x20'+'4p'+'x\x20'+'rg'+'ba'+'(2'+'55'+',\x20'+'25'+'5,'+'\x202'+'55'+',\x20'+'0.'+'25'+');'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20h'+'1\x20'+'{\x20'+'fo'+'nt'+'-s'+'iz'+'e:'+'\x202'+'.5'+'re'+'m;'+'\x20t'+'ex'+'t-'+'al'+'ig'+'n:'+'\x20c'+'en'+'te'+'r;'+'\x20c'+'ol'+'or'+':\x20'+'va'+'r('+'--'+'he'+'ad'+'er'+'-c'+'ol'+'or'+');'+'\x20t'+'ex'+'t-'+'sh'+'ad'+'ow'+':\x20'+'va'+'r('+'--'+'he'+'ad'+'er'+'-s'+'ha'+'do'+'w)'+';\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'#e'+'rr'+'or'+'-c'+'on'+'ta'+'in'+'er'+'\x20{'+'\x20t'+'ex'+'t-'+'al'+'ig'+'n:'+'\x20c'+'en'+'te'+'r;'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/s'+'ty'+'le'+'>\x0a'+'\x20\x20'+'\x20\x20'+'</'+'he'+'ad'+'>\x0a'+'\x20\x20'+'\x20\x20'+'<b'+'od'+'y>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'di'+'v\x20'+'id'+'=\x22'+'er'+'ro'+'r-'+'co'+'nt'+'ai'+'ne'+'r\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<h'+'1>'+'BP'+'B\x20'+'Pa'+'ne'+'l\x20'+'<s'+'pa'+'n\x20'+'st'+'yl'+'e='+'\x22f'+'on'+'t-'+'si'+'ze'+':\x20'+'sm'+'al'+'le'+'r;'+'\x22>')+globalThis['pa'+'ne'+'lV'+'er'+'si'+'on']+('</'+'sp'+'an'+'>\x20'+_0x38d3b0(0x19c)+'/h'+'1>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'di'+'v\x20'+'id'+'=\x22'+'er'+'ro'+'r-'+'me'+'ss'+'ag'+'e\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<h'+'2>'+'❌\x20'+'So'+'me'+'th'+'in'+'g\x20'+'we'+'nt'+'\x20w'+'ro'+'ng'+'!<'+'/h'+'2>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'p>'+'<b'+'>')+(_0x1b5d5e?_0x38d3b0(0x1ac)+(_0x1b5d5e['ca'+'us'+'e']?_0x1b5d5e['me'+'ss'+'ag'+'e']['to'+'St'+'ri'+'ng']():_0x1b5d5e['st'+'ac'+'k']['to'+'St'+'ri'+'ng']()):'')+('</'+'b>'+'</'+'p>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/d'+'iv'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'di'+'v>'+'\x0a\x20'+'\x20\x20'+'\x20<'+'sc'+'ri'+'pt'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'lo'+'ca'+'lS'+'to'+'ra'+'ge'+'.g'+'et'+'It'+'em'+'(\x27'+'da'+'rk'+'Mo'+'de'+'\x27)'+'\x20='+'=='+'\x20\x27'+'en'+'ab'+'le'+'d\x27'+'\x20&'+'&\x20'+'do'+'cu'+'me'+'nt'+'.b'+'od'+'y.'+'cl'+'as'+'sL'+'is'+'t.'+'ad'+'d('+'\x27d'+'ar'+'k-'+'mo'+'de'+'\x27)'+';\x0a'+'\x20\x20'+'\x20\x20'+'</'+'sc'+'ri'+'pt'+'>\x0a'+'\x20\x20'+'\x20\x20'+'</'+'bo'+'dy'+'>\x0a'+'\x20\x20'+'\x20\x20'+'</'+'ht'+'ml'+'>');return new Response(_0x2f68a1,{'status':0xc8,'headers':{'Content-Type':'te'+'xt'+'/h'+'tm'+'l'}});}__name(renderErrorPage,'re'+'nd'+'er'+'Er'+'ro'+'rP'+'ag'+'e');async function getConfigAddresses(_0x528c47,_0x154dac){const _0x3f9b8a=await resolveDNS(globalThis['ho'+'st'+'Na'+'me']),_0x138cf0=_0x154dac?_0x3f9b8a['ip'+'v6']['ma'+'p'](_0x5bd610=>'['+_0x5bd610+']'):[];return[globalThis['ho'+'st'+'Na'+'me'],'ww'+'w.'+'sp'+'ee'+'dt'+'es'+'t.'+'ne'+'t',..._0x3f9b8a['ip'+'v4'],..._0x138cf0,..._0x528c47?_0x528c47['sp'+'li'+'t'](','):[]];}__name(getConfigAddresses,'ge'+'tC'+'on'+'fi'+'gA'+'dd'+'re'+'ss'+'es');function extractWireguardParams(_0x42a513,_0x53ad73){const _0x19e027=_0x53ad73?0x1:0x0,_0x368421=_0x42a513[_0x19e027]['ac'+'co'+'un'+'t']['co'+'nf'+'ig'];return{'warpIPv6':_0x368421['in'+'te'+'rf'+'ac'+'e']['ad'+'dr'+'es'+'se'+'s']['v6']+('/1'+'28'),'reserved':_0x368421['cl'+'ie'+'nt'+'_i'+'d'],'publicKey':_0x368421['pe'+'er'+'s'][0x0]['pu'+'bl'+'ic'+'_k'+'ey'],'privateKey':_0x42a513[_0x19e027]['pr'+'iv'+'at'+'eK'+'ey']};}__name(extractWireguardParams,'ex'+'tr'+'ac'+'tW'+'ir'+'eg'+'ua'+'rd'+'Pa'+'ra'+'ms');function generateRemark(_0xd46c29,_0x48a13e,_0x3062df,_0x41bf96,_0x1bfa80,_0x870eef){const _0x405332=a0_0x2178;let _0x14d43b;const _0x516c59=_0x870eef?'\x20'+_0x870eef:'';return _0x41bf96['in'+'cl'+'ud'+'es'](_0x3062df)?_0x14d43b='Cl'+'ea'+'n\x20'+'IP':_0x14d43b=isDomain(_0x3062df)?'Do'+'ma'+'in':isIPv4(_0x3062df)?'IP'+'v4':isIPv6(_0x3062df)?'IP'+'v6':'',_0x405332(0x19b)+_0xd46c29+('\x20-'+'\x20')+_0x1bfa80+_0x516c59+('\x20-'+'\x20')+_0x14d43b+('\x20:'+'\x20')+_0x48a13e;}__name(generateRemark,'ge'+'ne'+'ra'+'te'+'Re'+'ma'+'rk');function randomUpperCase(_0x481ba1){let _0xc21eae='';for(let _0x792448=0x0;_0x792448<_0x481ba1['le'+'ng'+'th'];_0x792448++){_0xc21eae+=Math['ra'+'nd'+'om']()<0.5?_0x481ba1[_0x792448]['to'+'Up'+'pe'+'rC'+'as'+'e']():_0x481ba1[_0x792448];}return _0xc21eae;}__name(randomUpperCase,'ra'+'nd'+'om'+'Up'+'pe'+'rC'+'as'+'e');function getRandomPath(_0x2090b8){let _0x1b825e='';const _0x43eba7='AB'+'CD'+'EF'+'GH'+'IJ'+'KL'+'MN'+'OP'+'QR'+'ST'+'UV'+'WX'+'YZ'+'ab'+'cd'+'ef'+'gh'+'ij'+'kl'+'mn'+'op'+'qr'+'st'+'uv'+'wx'+'yz'+'01'+'23'+'45'+'67'+'89',_0x52a9f7=_0x43eba7['le'+'ng'+'th'];for(let _0x17837b=0x0;_0x17837b<_0x2090b8;_0x17837b++){_0x1b825e+=_0x43eba7['ch'+'ar'+'At'](Math['fl'+'oo'+'r'](Math['ra'+'nd'+'om']()*_0x52a9f7));}return _0x1b825e;}__name(getRandomPath,'ge'+'tR'+'an'+'do'+'mP'+'at'+'h');function base64ToDecimal(_0x2e03bb){const _0x463aeb=atob(_0x2e03bb),_0x5ef455=Array['fr'+'om'](_0x463aeb)['ma'+'p'](_0x455b87=>_0x455b87['ch'+'ar'+'Co'+'de'+'At'](0x0)['to'+'St'+'ri'+'ng'](0x10)['pa'+'dS'+'ta'+'rt'](0x2,'0'))['jo'+'in'](''),_0x3700f0=_0x5ef455['ma'+'tc'+'h'](/.{2}/g)['ma'+'p'](_0x98bc80=>parseInt(_0x98bc80,0x10));return _0x3700f0;}__name(base64ToDecimal,'ba'+'se'+'64'+'To'+'De'+'ci'+'ma'+'l');function isIPv4(_0xe93e4e){const _0x52610b=/^(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)(?:\/([0-9]|[1-2][0-9]|3[0-2]))?$/;return _0x52610b['te'+'st'](_0xe93e4e);}__name(isIPv4,'is'+'IP'+'v4');function isIPv6(_0x14b912){const _0x11f34f=/^\[(?:(?:[a-fA-F0-9]{1,4}:){7}[a-fA-F0-9]{1,4}|(?:[a-fA-F0-9]{1,4}:){1,7}:|::(?:[a-fA-F0-9]{1,4}:){0,7}|(?:[a-fA-F0-9]{1,4}:){1,6}:[a-fA-F0-9]{1,4}|(?:[a-fA-F0-9]{1,4}:){1,5}(?::[a-fA-F0-9]{1,4}){1,2}|(?:[a-fA-F0-9]{1,4}:){1,4}(?::[a-fA-F0-9]{1,4}){1,3}|(?:[a-fA-F0-9]{1,4}:){1,3}(?::[a-fA-F0-9]{1,4}){1,4}|(?:[a-fA-F0-9]{1,4}:){1,2}(?::[a-fA-F0-9]{1,4}){1,5}|[a-fA-F0-9]{1,4}:(?::[a-fA-F0-9]{1,4}){1,6})\](?:\/(1[0-1][0-9]|12[0-8]|[0-9]?[0-9]))?$/;return _0x11f34f['te'+'st'](_0x14b912);}__name(isIPv6,'is'+'IP'+'v6');async function buildXrayDNS(_0x5c669d,_0x48be36,_0x2df09c,_0x29deee,_0x49e081){const {remoteDNS:_0x4ef442,resolvedRemoteDNS:_0x275694,localDNS:_0x21430d,vlessTrojanFakeDNS:_0x96b2f1,enableIPv6:_0x35a259,warpFakeDNS:_0x146987,warpEnableIPv6:_0x157a33,blockAds:_0x3cb3e9,bypassIran:_0x3d7b83,bypassChina:_0x2421fe,blockPorn:_0x2fc915,bypassRussia:_0x53d620,customBypassRules:_0x15572e,customBlockRules:_0x1fb15a}=_0x5c669d,_0x58ac3b=[{'rule':_0x3d7b83,'domain':'ge'+'os'+'it'+'e:'+'ca'+'te'+'go'+'ry'+'-i'+'r','ip':'ge'+'oi'+'p:'+'ir'},{'rule':_0x2421fe,'domain':'ge'+'os'+'it'+'e:'+'cn','ip':'ge'+'oi'+'p:'+'cn'},{'rule':_0x53d620,'domain':'ge'+'os'+'it'+'e:'+'ca'+'te'+'go'+'ry'+'-r'+'u','ip':'ge'+'oi'+'p:'+'ru'}],_0x5b9a67=[{'rule':_0x3cb3e9,'host':'ge'+'os'+'it'+'e:'+'ca'+'te'+'go'+'ry'+'-a'+'ds'+'-a'+'ll'},{'rule':_0x3cb3e9,'host':'ge'+'os'+'it'+'e:'+'ca'+'te'+'go'+'ry'+'-a'+'ds'+'-i'+'r'},{'rule':_0x2fc915,'host':'ge'+'os'+'it'+'e:'+'ca'+'te'+'go'+'ry'+'-p'+'or'+'n'}],_0x13515b=_0x96b2f1&&!_0x49e081||_0x146987&&_0x49e081,_0x1bbd59=_0x35a259&&!_0x49e081||_0x157a33&&_0x49e081,_0x21d228=_0x48be36['fi'+'lt'+'er'](_0x432a3c=>isDomain(_0x432a3c)),_0x131adb=_0x15572e['sp'+'li'+'t'](',')['fi'+'lt'+'er'](_0x776976=>isDomain(_0x776976)),_0x3ed3ec=_0x1fb15a['sp'+'li'+'t'](',')['fi'+'lt'+'er'](_0x25cb3b=>isDomain(_0x25cb3b)),_0x59a065=[...new Set(_0x21d228)],_0x232b30=[..._0x59a065,..._0x131adb]['le'+'ng'+'th']>0x0,_0xa1b11a=_0x3d7b83||_0x2421fe||_0x53d620,_0x22f1d7=_0x3cb3e9||_0x2fc915||_0x3ed3ec['le'+'ng'+'th']>0x0,_0x51dcb7=_0x29deee?['ht'+'tp'+'s:'+'//'+'cl'+'ou'+'df'+'la'+'re'+'-d'+'ns'+'.c'+'om'+'/d'+'ns'+'-q'+'ue'+'ry']:_0x49e081?_0x157a33?['1.'+'1.'+'1.'+'1','1.'+'0.'+'0.'+'1','26'+'06'+':4'+'70'+'0:'+'47'+'00'+'::'+'11'+'11','26'+'06'+':4'+'70'+'0:'+'47'+'00'+'::'+'10'+'01']:['1.'+'1.'+'1.'+'1','1.'+'0.'+'0.'+'1']:[_0x4ef442],_0x7148ec={};_0x22f1d7&&(_0x5b9a67['fo'+'rE'+'ac'+'h'](({rule:_0x3d9d5c,host:_0x50ae14})=>{if(_0x3d9d5c)_0x7148ec[_0x50ae14]=['12'+'7.'+'0.'+'0.'+'1'];}),_0x3ed3ec['fo'+'rE'+'ac'+'h'](_0x5a75fc=>{_0x7148ec['do'+'ma'+'in'+':'+_0x5a75fc]=['12'+'7.'+'0.'+'0.'+'1'];}));const _0x2f2a52=_0x2df09c?await resolveDNS(_0x2df09c):void 0x0;if(_0x2f2a52)_0x7148ec[_0x2df09c]=_0x35a259?[..._0x2f2a52['ip'+'v4'],..._0x2f2a52['ip'+'v6']]:_0x2f2a52['ip'+'v4'];if(_0x275694['se'+'rv'+'er']&&!_0x29deee&&!_0x49e081)_0x7148ec[_0x275694['se'+'rv'+'er']]=_0x275694['st'+'at'+'ic'+'IP'+'s'];if(_0x29deee){const _0x5befe6=['cl'+'ou'+'df'+'la'+'re'+'-d'+'ns'+'.c'+'om','cl'+'ou'+'df'+'la'+'re'+'.c'+'om','da'+'sh'+'.c'+'lo'+'ud'+'fl'+'ar'+'e.'+'co'+'m'],_0x536ea3=await Promise['al'+'l'](_0x5befe6['ma'+'p'](resolveDNS)),_0x57e632=_0x536ea3['fl'+'at'+'Ma'+'p'](_0x12e5c1=>_0x12e5c1['ip'+'v4']),_0xbf4cae=_0x35a259?_0x536ea3['fl'+'at'+'Ma'+'p'](_0xf23400=>_0xf23400['ip'+'v6']):[];_0x7148ec['cl'+'ou'+'df'+'la'+'re'+'-d'+'ns'+'.c'+'om']=[..._0x57e632,..._0xbf4cae];}const _0x51788e=Object['ke'+'ys'](_0x7148ec)['le'+'ng'+'th']?{'hosts':_0x7148ec}:{},_0x4e2cda={..._0x51788e,'servers':_0x51dcb7,'queryStrategy':_0x1bbd59?'Us'+'eI'+'P':'Us'+'eI'+'Pv'+'4','tag':'dn'+'s'};if(_0x232b30){const _0x25c26e=_0x59a065['ma'+'p'](_0x2f4b65=>'fu'+'ll'+':'+_0x2f4b65),_0xe27306=_0x131adb['ma'+'p'](_0x106df2=>'do'+'ma'+'in'+':'+_0x106df2);_0x4e2cda['se'+'rv'+'er'+'s']['pu'+'sh']({'address':_0x21430d,'domains':[..._0x25c26e,..._0xe27306],'skipFallback':!![]});}const _0x43a214={'address':_0x21430d,'domains':[],'expectIPs':[],'skipFallback':!![]};!_0x29deee&&_0xa1b11a&&(_0x58ac3b['fo'+'rE'+'ac'+'h'](({rule:_0x1e3ee8,domain:_0x2b6563,ip:_0xaff235})=>{_0x1e3ee8&&(_0x43a214['do'+'ma'+'in'+'s']['pu'+'sh'](_0x2b6563),_0x43a214['ex'+'pe'+'ct'+'IP'+'s']['pu'+'sh'](_0xaff235));}),_0x4e2cda['se'+'rv'+'er'+'s']['pu'+'sh'](_0x43a214));if(_0x13515b){const _0x4bc14a=_0xa1b11a&&!_0x29deee?{'address':'fa'+'ke'+'dn'+'s','domains':_0x43a214['do'+'ma'+'in'+'s']}:'fa'+'ke'+'dn'+'s';_0x4e2cda['se'+'rv'+'er'+'s']['un'+'sh'+'if'+'t'](_0x4bc14a);}return _0x4e2cda;}__name(buildXrayDNS,'bu'+'il'+'dX'+'ra'+'yD'+'NS');function buildXrayRoutingRules(_0x24d17c,_0x28c0d6,_0x175b93,_0xdf7868,_0x1affd2,_0x106147){const {remoteDNS:_0x1fe6f3,localDNS:_0x4c65ee,bypassLAN:_0x4cb7c1,bypassIran:_0x44ca27,bypassChina:_0x5948c4,bypassRussia:_0x5ce5ea,blockAds:_0x336926,blockPorn:_0x3e2de0,blockUDP443:_0x5bc66a,customBypassRules:_0x4370a9,customBlockRules:_0x40d828}=_0x24d17c,_0x3b02d3=[{'rule':_0x4cb7c1,'type':'di'+'re'+'ct','domain':'ge'+'os'+'it'+'e:'+'pr'+'iv'+'at'+'e','ip':'ge'+'oi'+'p:'+'pr'+'iv'+'at'+'e'},{'rule':_0x44ca27,'type':'di'+'re'+'ct','domain':'ge'+'os'+'it'+'e:'+'ca'+'te'+'go'+'ry'+'-i'+'r','ip':'ge'+'oi'+'p:'+'ir'},{'rule':_0x5948c4,'type':'di'+'re'+'ct','domain':'ge'+'os'+'it'+'e:'+'cn','ip':'ge'+'oi'+'p:'+'cn'},{'rule':_0x336926,'type':'bl'+'oc'+'k','domain':'ge'+'os'+'it'+'e:'+'ca'+'te'+'go'+'ry'+'-a'+'ds'+'-a'+'ll'},{'rule':_0x336926,'type':'bl'+'oc'+'k','domain':'ge'+'os'+'it'+'e:'+'ca'+'te'+'go'+'ry'+'-a'+'ds'+'-i'+'r'},{'rule':_0x3e2de0,'type':'bl'+'oc'+'k','domain':'ge'+'os'+'it'+'e:'+'ca'+'te'+'go'+'ry'+'-p'+'or'+'n'}],_0x127189=_0x28c0d6['fi'+'lt'+'er'](_0x320522=>isDomain(_0x320522)),_0x255501=_0x4370a9?_0x4370a9['sp'+'li'+'t'](','):[],_0x93849f=_0x40d828?_0x40d828['sp'+'li'+'t'](','):[],_0x69ced3=_0x255501['fi'+'lt'+'er'](_0x326a27=>isDomain(_0x326a27)),_0x5ba975=[..._0x127189,..._0x69ced3]['le'+'ng'+'th']>0x0,_0x468750=_0x336926||_0x3e2de0||_0x93849f['le'+'ng'+'th']>0x0,_0xea6163=_0x44ca27||_0x5948c4||_0x5ce5ea||_0x255501['le'+'ng'+'th']>0x0,_0x1c279b=[{'inboundTag':['dn'+'s-'+'in'],'outboundTag':'dn'+'s-'+'ou'+'t','type':'fi'+'el'+'d'},{'inboundTag':['so'+'ck'+'s-'+'in','ht'+'tp'+'-i'+'n'],'port':'53','outboundTag':'dn'+'s-'+'ou'+'t','type':'fi'+'el'+'d'}];if(!_0x1affd2&&(_0x5ba975||_0xea6163))_0x1c279b['pu'+'sh']({'ip':[_0x4c65ee],'port':'53','network':'ud'+'p','outboundTag':'di'+'re'+'ct','type':'fi'+'el'+'d'});if(_0xea6163||_0x468750){const _0x2621f6=__name((_0x34c4a8,_0x123f62)=>({[_0x34c4a8]:[],'outboundTag':_0x123f62,'type':'fi'+'el'+'d'}),'cr'+'ea'+'te'+'Ru'+'le');let _0x2d48e1,_0x54dbe5;!_0x1affd2&&(_0x2d48e1=_0x2621f6('do'+'ma'+'in','di'+'re'+'ct'),_0x54dbe5=_0x2621f6('ip','di'+'re'+'ct'));let _0x56b7ff=_0x2621f6('do'+'ma'+'in','bl'+'oc'+'k'),_0x3277ae=_0x2621f6('ip','bl'+'oc'+'k');_0x3b02d3['fo'+'rE'+'ac'+'h'](({rule:_0x3d7958,type:_0x39d793,domain:_0x53e4ca,ip:_0xa6373})=>{_0x3d7958&&(_0x39d793==='di'+'re'+'ct'?(_0x2d48e1?.['do'+'ma'+'in']['pu'+'sh'](_0x53e4ca),_0x54dbe5?.['ip']?.['pu'+'sh'](_0xa6373)):_0x56b7ff['do'+'ma'+'in']['pu'+'sh'](_0x53e4ca));}),_0x255501['fo'+'rE'+'ac'+'h'](_0x362999=>{isDomain(_0x362999)?_0x2d48e1?.['do'+'ma'+'in']['pu'+'sh']('do'+'ma'+'in'+':'+_0x362999):_0x54dbe5?.['ip']['pu'+'sh'](_0x362999);}),_0x93849f['fo'+'rE'+'ac'+'h'](_0x11b624=>{isDomain(_0x11b624)?_0x56b7ff['do'+'ma'+'in']['pu'+'sh']('do'+'ma'+'in'+':'+_0x11b624):_0x3277ae['ip']['pu'+'sh'](_0x11b624);}),!_0x1affd2&&(_0x2d48e1['do'+'ma'+'in']['le'+'ng'+'th']&&_0x1c279b['pu'+'sh'](_0x2d48e1),_0x54dbe5['ip']['le'+'ng'+'th']&&_0x1c279b['pu'+'sh'](_0x54dbe5)),_0x56b7ff['do'+'ma'+'in']['le'+'ng'+'th']&&_0x1c279b['pu'+'sh'](_0x56b7ff),_0x3277ae['ip']['le'+'ng'+'th']&&_0x1c279b['pu'+'sh'](_0x3277ae);}_0x5bc66a&&_0x1c279b['pu'+'sh']({'network':'ud'+'p','port':'44'+'3','outboundTag':'bl'+'oc'+'k','type':'fi'+'el'+'d'});if(_0x175b93){const _0x5b76f5={[_0xdf7868?'ba'+'la'+'nc'+'er'+'Ta'+'g':'ou'+'tb'+'ou'+'nd'+'Ta'+'g']:_0xdf7868?'al'+'l-'+'pr'+'ox'+'y':'pr'+'ox'+'y','type':'fi'+'el'+'d'};if(!_0x106147){const _0x3b57c6=new URL(_0x1fe6f3),_0x149759=_0x3b57c6['ho'+'st'+'na'+'me'];_0x1c279b['pu'+'sh']({[isDomain(_0x149759)?'do'+'ma'+'in':'ip']:[_0x149759],'network':'tc'+'p',..._0x5b76f5});}else _0x1c279b['pu'+'sh']({'network':'ud'+'p','port':'53',..._0x5b76f5});}return _0xdf7868?_0x1c279b['pu'+'sh']({'network':'tc'+'p,'+'ud'+'p','balancerTag':'al'+'l','type':'fi'+'el'+'d'}):_0x1c279b['pu'+'sh']({'network':'tc'+'p,'+'ud'+'p','outboundTag':_0x175b93?'ch'+'ai'+'n':_0x1affd2?'fr'+'ag'+'me'+'nt':'pr'+'ox'+'y','type':'fi'+'el'+'d'}),_0x1c279b;}__name(buildXrayRoutingRules,'bu'+'il'+'dX'+'ra'+'yR'+'ou'+'ti'+'ng'+'Ru'+'le'+'s');function buildXrayVLESSOutbound(_0x953fc8,_0x2fbe24,_0x1b9f51,_0x3621ed,_0x35bc85,_0x5b55f1,_0x5e745f,_0x3f2dd4,_0x292542){const _0x3f2dcc={'protocol':'vl'+'es'+'s','settings':{'vnext':[{'address':_0x2fbe24,'port':+_0x1b9f51,'users':[{'id':globalThis['us'+'er'+'ID'],'encryption':'no'+'ne','level':0x8}]}]},'streamSettings':{'network':'ws','security':'no'+'ne','sockopt':{},'wsSettings':{'headers':{'Host':_0x3621ed,'User-Agent':'Mo'+'zi'+'ll'+'a/'+'5.'+'0\x20'+'(W'+'in'+'do'+'ws'+'\x20N'+'T\x20'+'10'+'.0'+';\x20'+'Wi'+'n6'+'4;'+'\x20x'+'64'+')\x20'+'Ap'+'pl'+'eW'+'eb'+'Ki'+'t/'+'53'+'7.'+'36'+'\x20('+'KH'+'TM'+'L,'+'\x20l'+'ik'+'e\x20'+'Ge'+'ck'+'o)'+'\x20C'+'hr'+'om'+'e/'+'12'+'7.'+'0.'+'0.'+'0\x20'+'Sa'+'fa'+'ri'+'/5'+'37'+'.3'+'6'},'path':'/'+getRandomPath(0x10)+(_0x5b55f1?'/'+btoa(_0x5b55f1):'')+('?e'+'d='+'25'+'60')}},'tag':_0x953fc8};globalThis['de'+'fa'+'ul'+'tH'+'tt'+'ps'+'Po'+'rt'+'s']['in'+'cl'+'ud'+'es'](_0x1b9f51)&&(_0x3f2dcc['st'+'re'+'am'+'Se'+'tt'+'in'+'gs']['se'+'cu'+'ri'+'ty']='tl'+'s',_0x3f2dcc['st'+'re'+'am'+'Se'+'tt'+'in'+'gs']['tl'+'sS'+'et'+'ti'+'ng'+'s']={'allowInsecure':_0x3f2dd4,'fingerprint':'ra'+'nd'+'om'+'iz'+'ed','alpn':['h2','ht'+'tp'+'/1'+'.1'],'serverName':_0x35bc85});const _0x17dc8=_0x3f2dcc['st'+'re'+'am'+'Se'+'tt'+'in'+'gs']['so'+'ck'+'op'+'t'];return _0x5e745f?_0x17dc8['di'+'al'+'er'+'Pr'+'ox'+'y']='fr'+'ag'+'me'+'nt':(_0x17dc8['tc'+'pK'+'ee'+'pA'+'li'+'ve'+'Id'+'le']=0x1e,_0x17dc8['tc'+'pN'+'oD'+'el'+'ay']=!![],_0x17dc8['do'+'ma'+'in'+'St'+'ra'+'te'+'gy']=_0x292542?'Us'+'eI'+'Pv'+'4v'+'6':'Us'+'eI'+'Pv'+'4'),_0x3f2dcc;}__name(buildXrayVLESSOutbound,'bu'+'il'+'dX'+'ra'+'yV'+'LE'+'SS'+'Ou'+'tb'+'ou'+'nd');function buildXrayTrojanOutbound(_0x429c49,_0x395f71,_0x3437a8,_0x265c02,_0x22a119,_0x21423b,_0x2fbe62,_0x121857,_0x15d09c){const _0x5d364c={'protocol':'tr'+'oj'+'an','settings':{'servers':[{'address':_0x395f71,'port':+_0x3437a8,'password':globalThis['tr'+'oj'+'an'+'Pa'+'ss'+'wo'+'rd'],'level':0x8}]},'streamSettings':{'network':'ws','security':'no'+'ne','sockopt':{},'wsSettings':{'headers':{'Host':_0x265c02},'path':'/t'+'r'+getRandomPath(0x10)+(_0x21423b?'/'+btoa(_0x21423b):'')+('?e'+'d='+'25'+'60')}},'tag':_0x429c49};globalThis['de'+'fa'+'ul'+'tH'+'tt'+'ps'+'Po'+'rt'+'s']['in'+'cl'+'ud'+'es'](_0x3437a8)&&(_0x5d364c['st'+'re'+'am'+'Se'+'tt'+'in'+'gs']['se'+'cu'+'ri'+'ty']='tl'+'s',_0x5d364c['st'+'re'+'am'+'Se'+'tt'+'in'+'gs']['tl'+'sS'+'et'+'ti'+'ng'+'s']={'allowInsecure':_0x121857,'fingerprint':'ra'+'nd'+'om'+'iz'+'ed','alpn':['h2','ht'+'tp'+'/1'+'.1'],'serverName':_0x22a119});const _0x553c08=_0x5d364c['st'+'re'+'am'+'Se'+'tt'+'in'+'gs']['so'+'ck'+'op'+'t'];return _0x2fbe62?_0x553c08['di'+'al'+'er'+'Pr'+'ox'+'y']='fr'+'ag'+'me'+'nt':(_0x553c08['tc'+'pK'+'ee'+'pA'+'li'+'ve'+'Id'+'le']=0x1e,_0x553c08['tc'+'pN'+'oD'+'el'+'ay']=!![],_0x553c08['do'+'ma'+'in'+'St'+'ra'+'te'+'gy']=_0x15d09c?'Us'+'eI'+'Pv'+'4v'+'6':'Us'+'eI'+'Pv'+'4'),_0x5d364c;}__name(buildXrayTrojanOutbound,'bu'+'il'+'dX'+'ra'+'yT'+'ro'+'ja'+'nO'+'ut'+'bo'+'un'+'d');function buildXrayWarpOutbound(_0x516096,_0x165661,_0x320e53,_0xf54f6,_0x69efd){const {warpEnableIPv6:_0x35d215,nikaNGNoiseMode:_0x5ba9df,noiseCountMin:_0xfbf73d,noiseCountMax:_0x3ae963,noiseSizeMin:_0x50c4b6,noiseSizeMax:_0x105cf5,noiseDelayMin:_0x36fae0,noiseDelayMax:_0x37f925}=_0x516096,{warpIPv6:_0x2e36db,reserved:_0x2dc64b,publicKey:_0x3517d5,privateKey:_0x406dfa}=extractWireguardParams(_0x165661,_0xf54f6),_0x5d1b25={'protocol':'wi'+'re'+'gu'+'ar'+'d','settings':{'address':['17'+'2.'+'16'+'.0'+'.2'+'/3'+'2',_0x2e36db],'mtu':0x500,'peers':[{'endpoint':_0x320e53,'publicKey':_0x3517d5,'keepAlive':0x5}],'reserved':base64ToDecimal(_0x2dc64b),'secretKey':_0x406dfa},'streamSettings':{'sockopt':{'dialerProxy':'pr'+'ox'+'y','domainStrategy':_0x35d215?'Us'+'eI'+'Pv'+'4v'+'6':'Us'+'eI'+'Pv'+'4'}},'tag':_0xf54f6?'ch'+'ai'+'n':'pr'+'ox'+'y'};return!_0xf54f6&&delete _0x5d1b25['st'+'re'+'am'+'Se'+'tt'+'in'+'gs'],_0x69efd==='ni'+'ka'+'ng'&&!_0xf54f6&&Object['as'+'si'+'gn'](_0x5d1b25['se'+'tt'+'in'+'gs'],{'wnoise':_0x5ba9df,'wnoisecount':_0xfbf73d===_0x3ae963?_0xfbf73d:_0xfbf73d+'-'+_0x3ae963,'wpayloadsize':_0x50c4b6===_0x105cf5?_0x50c4b6:_0x50c4b6+'-'+_0x105cf5,'wnoisedelay':_0x36fae0===_0x37f925?_0x36fae0:_0x36fae0+'-'+_0x37f925}),_0x5d1b25;}__name(buildXrayWarpOutbound,'bu'+'il'+'dX'+'ra'+'yW'+'ar'+'pO'+'ut'+'bo'+'un'+'d');function buildXrayChainOutbound(_0x14fd05,_0x30483a){if(['so'+'ck'+'s','ht'+'tp']['in'+'cl'+'ud'+'es'](_0x14fd05['pr'+'ot'+'oc'+'ol'])){const {protocol:_0x123c6b,server:_0x13fb7c,port:_0x3a8528,user:_0x1c2ed2,pass:_0x26cbb5}=_0x14fd05;return{'protocol':_0x123c6b,'settings':{'servers':[{'address':_0x13fb7c,'port':+_0x3a8528,'users':[{'user':_0x1c2ed2,'pass':_0x26cbb5,'level':0x8}]}]},'streamSettings':{'network':'tc'+'p','sockopt':{'dialerProxy':'pr'+'ox'+'y','domainStrategy':_0x30483a?'Us'+'eI'+'Pv'+'4v'+'6':'Us'+'eI'+'Pv'+'4','tcpNoDelay':!![]}},'mux':{'enabled':!![],'concurrency':0x8,'xudpConcurrency':0x10,'xudpProxyUDP443':'re'+'je'+'ct'},'tag':'ch'+'ai'+'n'};}const {server:_0x4b037e,port:_0xa1fd7f,uuid:_0x56fcf0,flow:_0x1db576,security:_0x177ffe,type:_0x49994c,sni:_0x598416,fp:_0x39e04d,alpn:_0x477dc7,pbk:_0x20f41e,sid:_0x53711e,spx:_0x383023,headerType:_0x17544c,host:_0x978aa7,path:_0x1c4502,authority:_0x42f22d,serviceName:_0x5823dd,mode:_0x1b36de}=_0x14fd05,_0x20430={'mux':{'concurrency':0x8,'enabled':!![],'xudpConcurrency':0x10,'xudpProxyUDP443':'re'+'je'+'ct'},'protocol':'vl'+'es'+'s','settings':{'vnext':[{'address':_0x4b037e,'port':+_0xa1fd7f,'users':[{'encryption':'no'+'ne','flow':_0x1db576,'id':_0x56fcf0,'level':0x8,'security':'au'+'to'}]}]},'streamSettings':{'network':_0x49994c,'security':_0x177ffe,'sockopt':{'dialerProxy':'pr'+'ox'+'y','domainStrategy':_0x30483a?'Us'+'eI'+'Pv'+'4v'+'6':'Us'+'eI'+'Pv'+'4','tcpNoDelay':!![]}},'tag':'ch'+'ai'+'n'};if(_0x177ffe==='tl'+'s'){const _0xdf17d4=_0x477dc7?_0x477dc7?.['sp'+'li'+'t'](','):[];_0x20430['st'+'re'+'am'+'Se'+'tt'+'in'+'gs']['tl'+'sS'+'et'+'ti'+'ng'+'s']={'allowInsecure':![],'fingerprint':_0x39e04d,'alpn':_0xdf17d4,'serverName':_0x598416};}_0x177ffe==='re'+'al'+'it'+'y'&&(delete _0x20430['mu'+'x'],_0x20430['st'+'re'+'am'+'Se'+'tt'+'in'+'gs']['re'+'al'+'it'+'yS'+'et'+'ti'+'ng'+'s']={'fingerprint':_0x39e04d,'publicKey':_0x20f41e,'serverName':_0x598416,'shortId':_0x53711e,'spiderX':_0x383023});if(_0x17544c==='ht'+'tp'){const _0x33e395=_0x1c4502?.['sp'+'li'+'t'](','),_0x4a3df9=_0x978aa7?.['sp'+'li'+'t'](',');_0x20430['st'+'re'+'am'+'Se'+'tt'+'in'+'gs']['tc'+'pS'+'et'+'ti'+'ng'+'s']={'header':{'request':{'headers':{'Host':_0x4a3df9},'method':'GE'+'T','path':_0x33e395,'version':'1.'+'1'},'response':{'headers':{'Content-Type':['ap'+'pl'+'ic'+'at'+'io'+'n/'+'oc'+'te'+'t-'+'st'+'re'+'am']},'reason':'OK','status':'20'+'0','version':'1.'+'1'},'type':'ht'+'tp'}};}if(_0x49994c==='tc'+'p'&&_0x177ffe!=='re'+'al'+'it'+'y'&&!_0x17544c)_0x20430['st'+'re'+'am'+'Se'+'tt'+'in'+'gs']['tc'+'pS'+'et'+'ti'+'ng'+'s']={'header':{'type':'no'+'ne'}};if(_0x49994c==='ws')_0x20430['st'+'re'+'am'+'Se'+'tt'+'in'+'gs']['ws'+'Se'+'tt'+'in'+'gs']={'headers':{'Host':_0x978aa7},'path':_0x1c4502};return _0x49994c==='gr'+'pc'&&(delete _0x20430['mu'+'x'],_0x20430['st'+'re'+'am'+'Se'+'tt'+'in'+'gs']['gr'+'pc'+'Se'+'tt'+'in'+'gs']={'authority':_0x42f22d,'multiMode':_0x1b36de==='mu'+'lt'+'i','serviceName':_0x5823dd}),_0x20430;}__name(buildXrayChainOutbound,'bu'+'il'+'dX'+'ra'+'yC'+'ha'+'in'+'Ou'+'tb'+'ou'+'nd');function buildXrayConfig(_0x2f3ecc,_0x59479c,_0x57f7e9,_0x12a911,_0x1386f8,_0x136847,_0x5bdab0){const {vlessTrojanFakeDNS:_0x609ecb,enableIPv6:_0x36ce1b,warpFakeDNS:_0x2997b7,bestVLESSTrojanInterval:_0x36933d,bestWarpInterval:_0x20ce8d,lengthMin:_0x1cfa25,lengthMax:_0x2c92c9,intervalMin:_0x167722,intervalMax:_0x3e4be5,fragmentPackets:_0x442cdb}=_0x2f3ecc,_0x58e9fb=_0x609ecb&&!_0x5bdab0||_0x2997b7&&_0x5bdab0,_0x220638=structuredClone(xrayConfigTemp);_0x220638['re'+'ma'+'rk'+'s']=_0x59479c,_0x58e9fb&&(_0x220638['in'+'bo'+'un'+'ds'][0x0]['sn'+'if'+'fi'+'ng']['de'+'st'+'Ov'+'er'+'ri'+'de']['pu'+'sh']('fa'+'ke'+'dn'+'s'),_0x220638['in'+'bo'+'un'+'ds'][0x1]['sn'+'if'+'fi'+'ng']['de'+'st'+'Ov'+'er'+'ri'+'de']['pu'+'sh']('fa'+'ke'+'dn'+'s'));if(_0x57f7e9){const _0x38b700=_0x220638['ou'+'tb'+'ou'+'nd'+'s'][0x0]['se'+'tt'+'in'+'gs']['fr'+'ag'+'me'+'nt'];_0x38b700['le'+'ng'+'th']=_0x1cfa25+'-'+_0x2c92c9,_0x38b700['in'+'te'+'rv'+'al']=_0x167722+'-'+_0x3e4be5,_0x38b700['pa'+'ck'+'et'+'s']=_0x442cdb,_0x220638['ou'+'tb'+'ou'+'nd'+'s'][0x0]['se'+'tt'+'in'+'gs']['do'+'ma'+'in'+'St'+'ra'+'te'+'gy']=_0x36ce1b?'Us'+'eI'+'Pv'+'4v'+'6':'Us'+'eI'+'Pv'+'4';}else _0x220638['ou'+'tb'+'ou'+'nd'+'s']['sh'+'if'+'t']();if(_0x12a911){const _0x50cc0b=_0x5bdab0?_0x20ce8d:_0x36933d;_0x220638['ob'+'se'+'rv'+'at'+'or'+'y']['pr'+'ob'+'eI'+'nt'+'er'+'va'+'l']=_0x50cc0b+'s';if(_0x136847)_0x220638['ro'+'ut'+'in'+'g']['ba'+'la'+'nc'+'er'+'s'][0x0]['fa'+'ll'+'ba'+'ck'+'Ta'+'g']='pr'+'ox'+'-2';if(_0x1386f8){_0x220638['ob'+'se'+'rv'+'at'+'or'+'y']['su'+'bj'+'ec'+'tS'+'el'+'ec'+'to'+'r']['pu'+'sh']('ch'+'ai'+'n');const _0x424613=structuredClone(_0x220638['ro'+'ut'+'in'+'g']['ba'+'la'+'nc'+'er'+'s'][0x0]);if(_0x136847)_0x424613['fa'+'ll'+'ba'+'ck'+'Ta'+'g']='ch'+'ai'+'n-'+'2';_0x220638['ro'+'ut'+'in'+'g']['ba'+'la'+'nc'+'er'+'s']['pu'+'sh']({..._0x424613,'selector':['ch'+'ai'+'n']}),_0x220638['ro'+'ut'+'in'+'g']['ba'+'la'+'nc'+'er'+'s'][0x0]['ta'+'g']='al'+'l-'+'pr'+'ox'+'y';}}else delete _0x220638['ob'+'se'+'rv'+'at'+'or'+'y'],delete _0x220638['ro'+'ut'+'in'+'g']['ba'+'la'+'nc'+'er'+'s'];return _0x220638;}__name(buildXrayConfig,'bu'+'il'+'dX'+'ra'+'yC'+'on'+'fi'+'g');async function buildXrayBestPingConfig(_0x1f4ff1,_0x331904,_0x27026b,_0x515a4c,_0x5282cc){const _0x56cccd=a0_0x2178,_0x16a423=_0x5282cc?_0x56cccd(0x19b)+'BP'+'B\x20'+'F\x20'+'-\x20'+'Be'+'st'+'\x20P'+'in'+'g\x20'+'💥':'💦\x20'+'BP'+'B\x20'+'-\x20'+'Be'+'st'+'\x20P'+'in'+'g\x20'+'💥',_0x52108c=buildXrayConfig(_0x1f4ff1,_0x16a423,_0x5282cc,!![],_0x27026b,!![]);return _0x52108c['dn'+'s']=await buildXrayDNS(_0x1f4ff1,_0x331904,void 0x0,![],![]),_0x52108c['ro'+'ut'+'in'+'g']['ru'+'le'+'s']=buildXrayRoutingRules(_0x1f4ff1,_0x331904,_0x27026b,!![],![],![]),_0x52108c['ou'+'tb'+'ou'+'nd'+'s']['un'+'sh'+'if'+'t'](..._0x515a4c),_0x52108c;}__name(buildXrayBestPingConfig,'bu'+'il'+'dX'+'ra'+'yB'+'es'+'tP'+'in'+'gC'+'on'+'fi'+'g');async function buildXrayBestFragmentConfig(_0x504a5b,_0x14ee76,_0x96c845,_0x177ca8){const _0xe7052=a0_0x2178,_0x3853ec=['10'+'-2'+'0','20'+'-3'+'0','30'+'-4'+'0','40'+'-5'+'0','50'+'-6'+'0','60'+'-7'+'0','70'+'-8'+'0','80'+'-9'+'0','90'+'-1'+'00','10'+'-3'+'0','20'+'-4'+'0','30'+'-5'+'0','40'+'-6'+'0','50'+'-7'+'0','60'+'-8'+'0','70'+'-9'+'0','80'+'-1'+'00','10'+'0-'+'20'+'0'],_0x1961f6=buildXrayConfig(_0x504a5b,_0xe7052(0x19b)+'BP'+'B\x20'+'F\x20'+'-\x20'+'Be'+'st'+'\x20F'+'ra'+'gm'+'en'+'t\x20'+'😎',!![],!![],_0x96c845,![],![]);_0x1961f6['dn'+'s']=await buildXrayDNS(_0x504a5b,[],_0x14ee76,![],![]),_0x1961f6['ro'+'ut'+'in'+'g']['ru'+'le'+'s']=buildXrayRoutingRules(_0x504a5b,[],_0x96c845,!![],![],![]);const _0x46f708=_0x1961f6['ou'+'tb'+'ou'+'nd'+'s']['sh'+'if'+'t'](),_0x51ba8f=[];return _0x3853ec['fo'+'rE'+'ac'+'h']((_0x38d971,_0x5319e6)=>{if(_0x96c845){const _0xd4c550=structuredClone(_0x96c845);_0xd4c550['ta'+'g']='ch'+'ai'+'n-'+(_0x5319e6+0x1),_0xd4c550['st'+'re'+'am'+'Se'+'tt'+'in'+'gs']['so'+'ck'+'op'+'t']['di'+'al'+'er'+'Pr'+'ox'+'y']='pr'+'ox'+'-'+(_0x5319e6+0x1),_0x51ba8f['pu'+'sh'](_0xd4c550);}const _0x1277c2=structuredClone(_0x177ca8[_0x96c845?0x1:0x0]);_0x1277c2['ta'+'g']='pr'+'ox'+'-'+(_0x5319e6+0x1),_0x1277c2['st'+'re'+'am'+'Se'+'tt'+'in'+'gs']['so'+'ck'+'op'+'t']['di'+'al'+'er'+'Pr'+'ox'+'y']='fr'+'ag'+'-'+(_0x5319e6+0x1);const _0x579777=structuredClone(_0x46f708);_0x579777['ta'+'g']='fr'+'ag'+'-'+(_0x5319e6+0x1),_0x579777['se'+'tt'+'in'+'gs']['fr'+'ag'+'me'+'nt']['le'+'ng'+'th']=_0x38d971,_0x579777['se'+'tt'+'in'+'gs']['fr'+'ag'+'me'+'nt']['in'+'te'+'rv'+'al']='1-'+'1',_0x51ba8f['pu'+'sh'](_0x1277c2,_0x579777);}),_0x1961f6['ou'+'tb'+'ou'+'nd'+'s']['un'+'sh'+'if'+'t'](..._0x51ba8f),_0x1961f6;}__name(buildXrayBestFragmentConfig,'bu'+'il'+'dX'+'ra'+'yB'+'es'+'tF'+'ra'+'gm'+'en'+'tC'+'on'+'fi'+'g');async function buildXrayWorkerLessConfig(_0x7c83ec){const _0xef4ba3=a0_0x2178,_0x414c9b=buildXrayConfig(_0x7c83ec,_0xef4ba3(0x19b)+'BP'+'B\x20'+'F\x20'+'-\x20'+'Wo'+'rk'+'er'+'Le'+'ss'+'\x20⭐',!![],![],![],![],![]);_0x414c9b['dn'+'s']=await buildXrayDNS(_0x7c83ec,[],void 0x0,!![]),_0x414c9b['ro'+'ut'+'in'+'g']['ru'+'le'+'s']=buildXrayRoutingRules(_0x7c83ec,[],![],![],!![],![]);const _0xf984f8=buildXrayVLESSOutbound('fa'+'ke'+'-o'+'ut'+'bo'+'un'+'d','go'+'og'+'le'+'.c'+'om','44'+'3',globalThis['us'+'er'+'ID'],'go'+'og'+'le'+'.c'+'om','go'+'og'+'le'+'.c'+'om','',!![],![]);return delete _0xf984f8['st'+'re'+'am'+'Se'+'tt'+'in'+'gs']['so'+'ck'+'op'+'t'],_0xf984f8['st'+'re'+'am'+'Se'+'tt'+'in'+'gs']['ws'+'Se'+'tt'+'in'+'gs']['pa'+'th']='/',_0x414c9b['ou'+'tb'+'ou'+'nd'+'s']['pu'+'sh'](_0xf984f8),_0x414c9b;}__name(buildXrayWorkerLessConfig,'bu'+'il'+'dX'+'ra'+'yW'+'or'+'ke'+'rL'+'es'+'sC'+'on'+'fi'+'g');async function getXrayCustomConfigs(_0x53937d,_0x5d9799,_0x492e29){const {proxySettings:_0x18d99f}=await getDataset(_0x53937d,_0x5d9799);let _0x1bb8b8=[],_0x46f0e3=[],_0x11a310=[],_0x11a910;const {proxyIP:_0x2bc86a,outProxy:_0x4bb17e,outProxyParams:_0x1e75d3,cleanIPs:_0x4e65f7,enableIPv6:_0x30c115,customCdnAddrs:_0x313d82,customCdnHost:_0x190f47,customCdnSni:_0x4a3a19,vlessConfigs:_0x48694f,trojanConfigs:_0x45d3e2,ports:_0x30e7b2}=_0x18d99f;if(_0x4bb17e){const _0x27fbd7=JSON['pa'+'rs'+'e'](_0x1e75d3);try{_0x11a910=buildXrayChainOutbound(_0x27fbd7,_0x30c115);}catch(_0x2fb2b3){console['lo'+'g']('An'+'\x20e'+'rr'+'or'+'\x20o'+'cc'+'ur'+'ed'+'\x20w'+'hi'+'le'+'\x20p'+'ar'+'si'+'ng'+'\x20c'+'ha'+'in'+'\x20p'+'ro'+'xy'+':\x20',_0x2fb2b3),_0x11a910=void 0x0,await _0x5d9799['bp'+'b']['pu'+'t']('pr'+'ox'+'yS'+'et'+'ti'+'ng'+'s',JSON['st'+'ri'+'ng'+'if'+'y']({..._0x18d99f,'outProxy':'','outProxyParams':{}}));}}const _0x482ec7=await getConfigAddresses(_0x4e65f7,_0x30c115),_0x566ff3=_0x313d82?_0x313d82['sp'+'li'+'t'](','):[],_0xc07535=_0x492e29?[..._0x482ec7]:[..._0x482ec7,..._0x566ff3],_0xdf0f3f=_0x30e7b2['fi'+'lt'+'er'](_0x2bbbc1=>_0x492e29?globalThis['de'+'fa'+'ul'+'tH'+'tt'+'ps'+'Po'+'rt'+'s']['in'+'cl'+'ud'+'es'](_0x2bbbc1):!![]);_0x48694f&&_0x11a310['pu'+'sh']('VL'+'ES'+'S'),_0x45d3e2&&_0x11a310['pu'+'sh']('Tr'+'oj'+'an');let _0x45979c=0x1;for(const _0x30d48f of _0x11a310){let _0x558ed2=0x1;for(const _0x1335e9 of _0xdf0f3f){for(const _0x2a5d2f of _0xc07535){const _0x2a83f0=_0x566ff3['in'+'cl'+'ud'+'es'](_0x2a5d2f),_0x3ecb44=_0x2a83f0?'C':_0x492e29?'F':'',_0x2d9a09=_0x2a83f0?_0x4a3a19:randomUpperCase(globalThis['ho'+'st'+'Na'+'me']),_0x593868=_0x2a83f0?_0x190f47:globalThis['ho'+'st'+'Na'+'me'],_0x128dc7=generateRemark(_0x558ed2,_0x1335e9,_0x2a5d2f,_0x4e65f7,_0x30d48f,_0x3ecb44),_0x5df9db=buildXrayConfig(_0x18d99f,_0x128dc7,_0x492e29,![],_0x11a910,![],![]);_0x5df9db['dn'+'s']=await buildXrayDNS(_0x18d99f,[_0x2a5d2f],void 0x0),_0x5df9db['ro'+'ut'+'in'+'g']['ru'+'le'+'s']=buildXrayRoutingRules(_0x18d99f,[_0x2a5d2f],_0x11a910,![],![],![]);const _0x1942fb=_0x30d48f==='VL'+'ES'+'S'?buildXrayVLESSOutbound('pr'+'ox'+'y',_0x2a5d2f,_0x1335e9,_0x593868,_0x2d9a09,_0x2bc86a,_0x492e29,_0x2a83f0,_0x30c115):buildXrayTrojanOutbound('pr'+'ox'+'y',_0x2a5d2f,_0x1335e9,_0x593868,_0x2d9a09,_0x2bc86a,_0x492e29,_0x2a83f0,_0x30c115);_0x5df9db['ou'+'tb'+'ou'+'nd'+'s']['un'+'sh'+'if'+'t']({..._0x1942fb}),_0x1942fb['ta'+'g']='pr'+'ox'+'-'+_0x45979c;if(_0x11a910){_0x5df9db['ou'+'tb'+'ou'+'nd'+'s']['un'+'sh'+'if'+'t'](_0x11a910);const _0x449402=structuredClone(_0x11a910);_0x449402['ta'+'g']='ch'+'ai'+'n-'+_0x45979c,_0x449402['st'+'re'+'am'+'Se'+'tt'+'in'+'gs']['so'+'ck'+'op'+'t']['di'+'al'+'er'+'Pr'+'ox'+'y']='pr'+'ox'+'-'+_0x45979c,_0x46f0e3['pu'+'sh'](_0x449402);}_0x46f0e3['pu'+'sh'](_0x1942fb),_0x1bb8b8['pu'+'sh'](_0x5df9db),_0x45979c++,_0x558ed2++;}}}const _0x50dca3=await buildXrayBestPingConfig(_0x18d99f,_0xc07535,_0x11a910,_0x46f0e3,_0x492e29),_0x4e96c5=[..._0x1bb8b8,_0x50dca3];if(_0x492e29){const _0x26b36e=await buildXrayBestFragmentConfig(_0x18d99f,globalThis['ho'+'st'+'Na'+'me'],_0x11a910,_0x46f0e3),_0x585f8b=await buildXrayWorkerLessConfig(_0x18d99f);_0x4e96c5['pu'+'sh'](_0x26b36e,_0x585f8b);}return new Response(JSON['st'+'ri'+'ng'+'if'+'y'](_0x4e96c5,null,0x4),{'status':0xc8,'headers':{'Content-Type':'te'+'xt'+'/p'+'la'+'in'+';c'+'ha'+'rs'+'et'+'=u'+'tf'+'-8','Cache-Control':'no'+'-s'+'to'+'re'+',\x20'+'no'+'-c'+'ac'+'he'+',\x20'+'mu'+'st'+'-r'+'ev'+'al'+'id'+'at'+'e,'+'\x20p'+'ro'+'xy'+'-r'+'ev'+'al'+'id'+'at'+'e','CDN-Cache-Control':'no'+'-s'+'to'+'re'}});}__name(getXrayCustomConfigs,'ge'+'tX'+'ra'+'yC'+'us'+'to'+'mC'+'on'+'fi'+'gs');async function getXrayWarpConfigs(_0x481a41,_0xd51393,_0x63b496){const _0x240a87=a0_0x2178,{proxySettings:_0x120f98,warpConfigs:_0x5720ba}=await getDataset(_0x481a41,_0xd51393),_0x2ba6e7=[],_0x2cc8e6=[],_0x4b6200=[],_0x5ed31e=[],{warpEndpoints:_0x397c04}=_0x120f98,_0x159e9a=_0x397c04['sp'+'li'+'t'](',')['ma'+'p'](_0x49f30a=>_0x49f30a['sp'+'li'+'t'](':')[0x0])['fi'+'lt'+'er'](_0x54b45c=>isDomain(_0x54b45c)),_0x3bb3fe=_0x63b496==='ni'+'ka'+'ng'?'\x20P'+'ro'+'\x20':'\x20';for(const [_0x5f56bd,_0x1f0030]of _0x397c04['sp'+'li'+'t'](',')['en'+'tr'+'ie'+'s']()){const _0x1336c8=_0x1f0030['sp'+'li'+'t'](':')[0x0],_0x543f77=buildXrayConfig(_0x120f98,_0x240a87(0x19b)+(_0x5f56bd+0x1)+('\x20-'+'\x20W'+'ar'+'p')+_0x3bb3fe+_0x240a87(0x1a9),![],![],![],![],!![]),_0x446f20=buildXrayConfig(_0x120f98,'💦\x20'+(_0x5f56bd+0x1)+('\x20-'+'\x20W'+'oW')+_0x3bb3fe+'🌍',![],![],!![],![],!![]);_0x543f77['dn'+'s']=_0x446f20['dn'+'s']=await buildXrayDNS(_0x120f98,[_0x1336c8],void 0x0,![],!![]),_0x543f77['ro'+'ut'+'in'+'g']['ru'+'le'+'s']=buildXrayRoutingRules(_0x120f98,[_0x1336c8],![],![],![],!![]),_0x446f20['ro'+'ut'+'in'+'g']['ru'+'le'+'s']=buildXrayRoutingRules(_0x120f98,[_0x1336c8],!![],![],![],!![]);const _0x3708ae=buildXrayWarpOutbound(_0x120f98,_0x5720ba,_0x1f0030,![],_0x63b496),_0x28742f=buildXrayWarpOutbound(_0x120f98,_0x5720ba,_0x1f0030,!![],_0x63b496);_0x543f77['ou'+'tb'+'ou'+'nd'+'s']['un'+'sh'+'if'+'t'](_0x3708ae),_0x446f20['ou'+'tb'+'ou'+'nd'+'s']['un'+'sh'+'if'+'t'](_0x28742f,_0x3708ae),_0x2ba6e7['pu'+'sh'](_0x543f77),_0x2cc8e6['pu'+'sh'](_0x446f20);const _0x2182fb=structuredClone(_0x3708ae);_0x2182fb['ta'+'g']='pr'+'ox'+'-'+(_0x5f56bd+0x1);const _0x289fc8=structuredClone(_0x28742f);_0x289fc8['ta'+'g']='ch'+'ai'+'n-'+(_0x5f56bd+0x1),_0x289fc8['st'+'re'+'am'+'Se'+'tt'+'in'+'gs']['so'+'ck'+'op'+'t']['di'+'al'+'er'+'Pr'+'ox'+'y']='pr'+'ox'+'-'+(_0x5f56bd+0x1),_0x4b6200['pu'+'sh'](_0x2182fb),_0x5ed31e['pu'+'sh'](_0x289fc8);}const _0xa08995=await buildXrayDNS(_0x120f98,_0x159e9a,void 0x0,![],!![]),_0x321956=buildXrayConfig(_0x120f98,_0x240a87(0x19b)+'Wa'+'rp'+_0x3bb3fe+('-\x20'+'Be'+'st'+'\x20P'+'in'+'g\x20'+'🚀'),![],!![],![],![],!![]);_0x321956['dn'+'s']=_0xa08995,_0x321956['ro'+'ut'+'in'+'g']['ru'+'le'+'s']=buildXrayRoutingRules(_0x120f98,_0x159e9a,![],!![],![],!![]),_0x321956['ou'+'tb'+'ou'+'nd'+'s']['un'+'sh'+'if'+'t'](..._0x4b6200);const _0xedc5a4=buildXrayConfig(_0x120f98,_0x240a87(0x19b)+'Wo'+'W'+_0x3bb3fe+('-\x20'+'Be'+'st'+'\x20P'+'in'+'g\x20'+'🚀'),![],!![],!![],![],!![]);_0xedc5a4['dn'+'s']=_0xa08995,_0xedc5a4['ro'+'ut'+'in'+'g']['ru'+'le'+'s']=buildXrayRoutingRules(_0x120f98,_0x159e9a,!![],!![],![],!![]),_0xedc5a4['ou'+'tb'+'ou'+'nd'+'s']['un'+'sh'+'if'+'t'](..._0x5ed31e,..._0x4b6200);const _0x1b9ca4=[..._0x2ba6e7,..._0x2cc8e6,_0x321956,_0xedc5a4];return new Response(JSON['st'+'ri'+'ng'+'if'+'y'](_0x1b9ca4,null,0x4),{'status':0xc8,'headers':{'Content-Type':'te'+'xt'+'/p'+'la'+'in'+';c'+'ha'+'rs'+'et'+'=u'+'tf'+'-8','Cache-Control':'no'+'-s'+'to'+'re'+',\x20'+'no'+'-c'+'ac'+'he'+',\x20'+'mu'+'st'+'-r'+'ev'+'al'+'id'+'at'+'e,'+'\x20p'+'ro'+'xy'+'-r'+'ev'+'al'+'id'+'at'+'e','CDN-Cache-Control':'no'+'-s'+'to'+'re'}});}__name(getXrayWarpConfigs,'ge'+'tX'+'ra'+'yW'+'ar'+'pC'+'on'+'fi'+'gs');var xrayConfigTemp={'remarks':'','log':{'loglevel':'wa'+'rn'+'in'+'g'},'dns':{},'inbounds':[{'port':0x2a38,'protocol':'so'+'ck'+'s','settings':{'auth':'no'+'au'+'th','udp':!![],'userLevel':0x8},'sniffing':{'destOverride':['ht'+'tp','tl'+'s'],'enabled':!![],'routeOnly':!![]},'tag':'so'+'ck'+'s-'+'in'},{'port':0x2a39,'protocol':'ht'+'tp','settings':{'auth':'no'+'au'+'th','udp':!![],'userLevel':0x8},'sniffing':{'destOverride':['ht'+'tp','tl'+'s'],'enabled':!![],'routeOnly':!![]},'tag':'ht'+'tp'+'-i'+'n'},{'listen':'12'+'7.'+'0.'+'0.'+'1','port':0x2a65,'protocol':'do'+'ko'+'de'+'mo'+'-d'+'oo'+'r','settings':{'address':'1.'+'1.'+'1.'+'1','network':'tc'+'p,'+'ud'+'p','port':0x35},'tag':'dn'+'s-'+'in'}],'outbounds':[{'tag':'fr'+'ag'+'me'+'nt','protocol':'fr'+'ee'+'do'+'m','settings':{'fragment':{'packets':'tl'+'sh'+'el'+'lo','length':'','interval':''},'domainStrategy':'Us'+'eI'+'P'},'streamSettings':{'sockopt':{'tcpKeepAliveIdle':0x1e,'tcpNoDelay':!![]}}},{'protocol':'dn'+'s','tag':'dn'+'s-'+'ou'+'t'},{'protocol':'fr'+'ee'+'do'+'m','settings':{},'tag':'di'+'re'+'ct'},{'protocol':'bl'+'ac'+'kh'+'ol'+'e','settings':{'response':{'type':'ht'+'tp'}},'tag':'bl'+'oc'+'k'}],'policy':{'levels':{0x8:{'connIdle':0x12c,'downlinkOnly':0x1,'handshake':0x4,'uplinkOnly':0x1}},'system':{'statsOutboundUplink':!![],'statsOutboundDownlink':!![]}},'routing':{'domainStrategy':'IP'+'If'+'No'+'nM'+'at'+'ch','rules':[],'balancers':[{'tag':'al'+'l','selector':['pr'+'ox'],'strategy':{'type':'le'+'as'+'tP'+'in'+'g'}}]},'observatory':{'probeInterval':'30'+'s','probeURL':'ht'+'tp'+'s:'+'//'+'ww'+'w.'+'gs'+'ta'+'ti'+'c.'+'co'+'m/'+'ge'+'ne'+'ra'+'te'+'_2'+'04','subjectSelector':['pr'+'ox'],'EnableConcurrency':!![]},'stats':{}};function buildSingBoxDNS(_0x1940f,_0xea85a9,_0x174ba1,_0x444d5d){const {remoteDNS:_0x5f7e6c,localDNS:_0x2dcc49,vlessTrojanFakeDNS:_0x2ae57c,enableIPv6:_0x248b51,warpFakeDNS:_0x368143,warpEnableIPv6:_0x4e9af7,bypassIran:_0x5fce46,bypassChina:_0x36e5b2,bypassRussia:_0x36d82c,blockAds:_0x4a12df,blockPorn:_0x44f488,customBypassRules:_0x7b22b3,customBlockRules:_0x341583}=_0x1940f;let _0x39d7af;const _0xa9975=_0x2ae57c&&!_0x174ba1||_0x368143&&_0x174ba1,_0xf213b0=_0x248b51&&!_0x174ba1||_0x4e9af7&&_0x174ba1,_0x3a8e67=_0x7b22b3['sp'+'li'+'t'](',')['fi'+'lt'+'er'](_0x34fca3=>isDomain(_0x34fca3)),_0x1a765f=_0x341583['sp'+'li'+'t'](',')['fi'+'lt'+'er'](_0x449a38=>isDomain(_0x449a38)),_0x359d12=[{'rule':_0x5fce46,'type':'di'+'re'+'ct','geosite':'ge'+'os'+'it'+'e-'+'ir','geoip':'ge'+'oi'+'p-'+'ir'},{'rule':_0x36e5b2,'type':'di'+'re'+'ct','geosite':'ge'+'os'+'it'+'e-'+'cn','geoip':'ge'+'oi'+'p-'+'cn'},{'rule':_0x36d82c,'type':'di'+'re'+'ct','geosite':'ge'+'os'+'it'+'e-'+'ca'+'te'+'go'+'ry'+'-r'+'u','geoip':'ge'+'oi'+'p-'+'ru'},{'rule':!![],'type':'bl'+'oc'+'k','geosite':'ge'+'os'+'it'+'e-'+'ma'+'lw'+'ar'+'e'},{'rule':!![],'type':'bl'+'oc'+'k','geosite':'ge'+'os'+'it'+'e-'+'ph'+'is'+'hi'+'ng'},{'rule':!![],'type':'bl'+'oc'+'k','geosite':'ge'+'os'+'it'+'e-'+'cr'+'yp'+'to'+'mi'+'ne'+'rs'},{'rule':_0x4a12df,'type':'bl'+'oc'+'k','geosite':'ge'+'os'+'it'+'e-'+'ca'+'te'+'go'+'ry'+'-a'+'ds'+'-a'+'ll'},{'rule':_0x44f488,'type':'bl'+'oc'+'k','geosite':'ge'+'os'+'it'+'e-'+'ns'+'fw'}],_0x5f5b8c=[{'address':_0x174ba1?'1.'+'1.'+'1.'+'1':_0x5f7e6c,'address_resolver':'dn'+'s-'+'di'+'re'+'ct','strategy':_0xf213b0?'pr'+'ef'+'er'+'_i'+'pv'+'4':'ip'+'v4'+'_o'+'nl'+'y','detour':_0x444d5d,'tag':'dn'+'s-'+'re'+'mo'+'te'},{'address':_0x2dcc49,'strategy':_0xf213b0?'pr'+'ef'+'er'+'_i'+'pv'+'4':'ip'+'v4'+'_o'+'nl'+'y','detour':'di'+'re'+'ct','tag':'dn'+'s-'+'di'+'re'+'ct'},{'address':'rc'+'od'+'e:'+'//'+'su'+'cc'+'es'+'s','tag':'dn'+'s-'+'bl'+'oc'+'k'}];let _0x1ec583;if(_0x174ba1)_0x1ec583={'outbound':'an'+'y','server':'dn'+'s-'+'di'+'re'+'ct'};else{const _0x666d0d=_0xea85a9['fi'+'lt'+'er'](_0x17afc7=>isDomain(_0x17afc7)),_0x54540d=[...new Set(_0x666d0d)];_0x1ec583={'domain':_0x54540d,'server':'dn'+'s-'+'di'+'re'+'ct'};}const _0x4bafa7=[_0x1ec583,{'clash_mode':'Di'+'re'+'ct','server':'dn'+'s-'+'di'+'re'+'ct'},{'clash_mode':'Gl'+'ob'+'al','server':'dn'+'s-'+'re'+'mo'+'te'}];let _0xf5b718={'disable_cache':!![],'rule_set':[],'server':'dn'+'s-'+'bl'+'oc'+'k'};_0x359d12['fo'+'rE'+'ac'+'h'](({rule:_0x297839,type:_0x5344fe,geosite:_0x32785f,geoip:_0x20efd1})=>{_0x297839&&_0x5344fe==='di'+'re'+'ct'&&_0x4bafa7['pu'+'sh']({'type':'lo'+'gi'+'ca'+'l','mode':'an'+'d','rules':[{'rule_set':_0x32785f},{'rule_set':_0x20efd1}],'server':'dn'+'s-'+'di'+'re'+'ct'}),_0x297839&&_0x5344fe==='bl'+'oc'+'k'&&_0xf5b718['ru'+'le'+'_s'+'et']['pu'+'sh'](_0x32785f);}),_0x4bafa7['pu'+'sh'](_0xf5b718);const _0x6e098b=__name(_0x19df48=>({'domain_suffix':[],'server':_0x19df48}),'cr'+'ea'+'te'+'Ru'+'le');let _0x5f2686,_0x24b644;_0x3a8e67['le'+'ng'+'th']&&(_0x5f2686=_0x6e098b('dn'+'s-'+'di'+'re'+'ct'),_0x3a8e67['fo'+'rE'+'ac'+'h'](_0x15ea4b=>{_0x5f2686['do'+'ma'+'in'+'_s'+'uf'+'fi'+'x']['pu'+'sh'](_0x15ea4b);}),_0x4bafa7['pu'+'sh'](_0x5f2686)),_0x1a765f['le'+'ng'+'th']&&(_0x24b644=_0x6e098b('dn'+'s-'+'bl'+'oc'+'k'),_0x1a765f['fo'+'rE'+'ac'+'h'](_0x2be8b9=>{_0x24b644['do'+'ma'+'in'+'_s'+'uf'+'fi'+'x']['pu'+'sh'](_0x2be8b9);}),_0x4bafa7['pu'+'sh'](_0x24b644));if(_0xa9975){_0x5f5b8c['pu'+'sh']({'address':'fa'+'ke'+'ip','tag':'dn'+'s-'+'fa'+'ke'}),_0x4bafa7['pu'+'sh']({'disable_cache':!![],'inbound':'tu'+'n-'+'in','query_type':['A','AA'+'AA'],'server':'dn'+'s-'+'fa'+'ke'}),_0x39d7af={'enabled':!![],'inet4_range':'19'+'8.'+'18'+'.0'+'.0'+'/1'+'5'};if(_0xf213b0)_0x39d7af['in'+'et'+'6_'+'ra'+'ng'+'e']='fc'+'00'+'::'+'/1'+'8';}return{'servers':_0x5f5b8c,'rules':_0x4bafa7,'fakeip':_0x39d7af};}__name(buildSingBoxDNS,'bu'+'il'+'dS'+'in'+'gB'+'ox'+'DN'+'S');function buildSingBoxRoutingRules(_0x5629a2){const {bypassLAN:_0x4f9b52,bypassIran:_0x463a5d,bypassChina:_0x48e2b8,bypassRussia:_0x462a33,blockAds:_0x17ed1b,blockPorn:_0x5c5407,blockUDP443:_0x1d1011,customBypassRules:_0x1da793,customBlockRules:_0x404daa}=_0x5629a2,_0x1971ad=_0x1da793?_0x1da793['sp'+'li'+'t'](','):[],_0xbf7e52=_0x404daa?_0x404daa['sp'+'li'+'t'](','):[],_0x333594=[{'type':'lo'+'gi'+'ca'+'l','mode':'or','rules':[{'inbound':'dn'+'s-'+'in'},{'network':'ud'+'p','port':0x35}],'outbound':'dn'+'s-'+'ou'+'t'},{'clash_mode':'Di'+'re'+'ct','outbound':'di'+'re'+'ct'},{'clash_mode':'Gl'+'ob'+'al','outbound':'✅\x20'+'Se'+'le'+'ct'+'or'}],_0x9ae86e=[{'rule':_0x463a5d,'type':'di'+'re'+'ct','ruleSet':{'geosite':'ge'+'os'+'it'+'e-'+'ir','geoip':'ge'+'oi'+'p-'+'ir','geositeURL':'ht'+'tp'+'s:'+'//'+'ra'+'w.'+'gi'+'th'+'ub'+'us'+'er'+'co'+'nt'+'en'+'t.'+'co'+'m/'+'Ch'+'oc'+'ol'+'at'+'e4'+'U/'+'Ir'+'an'+'-s'+'in'+'g-'+'bo'+'x-'+'ru'+'le'+'s/'+'ru'+'le'+'-s'+'et'+'/g'+'eo'+'si'+'te'+'-i'+'r.'+'sr'+'s','geoipURL':'ht'+'tp'+'s:'+'//'+'ra'+'w.'+'gi'+'th'+'ub'+'us'+'er'+'co'+'nt'+'en'+'t.'+'co'+'m/'+'Ch'+'oc'+'ol'+'at'+'e4'+'U/'+'Ir'+'an'+'-s'+'in'+'g-'+'bo'+'x-'+'ru'+'le'+'s/'+'ru'+'le'+'-s'+'et'+'/g'+'eo'+'ip'+'-i'+'r.'+'sr'+'s'}},{'rule':_0x48e2b8,'type':'di'+'re'+'ct','ruleSet':{'geosite':'ge'+'os'+'it'+'e-'+'cn','geoip':'ge'+'oi'+'p-'+'cn','geositeURL':'ht'+'tp'+'s:'+'//'+'ra'+'w.'+'gi'+'th'+'ub'+'us'+'er'+'co'+'nt'+'en'+'t.'+'co'+'m/'+'Sa'+'ge'+'rN'+'et'+'/s'+'in'+'g-'+'ge'+'os'+'it'+'e/'+'ru'+'le'+'-s'+'et'+'/g'+'eo'+'si'+'te'+'-c'+'n.'+'sr'+'s','geoipURL':'ht'+'tp'+'s:'+'//'+'ra'+'w.'+'gi'+'th'+'ub'+'us'+'er'+'co'+'nt'+'en'+'t.'+'co'+'m/'+'Sa'+'ge'+'rN'+'et'+'/s'+'in'+'g-'+'ge'+'oi'+'p/'+'ru'+'le'+'-s'+'et'+'/g'+'eo'+'ip'+'-c'+'n.'+'sr'+'s'}},{'rule':_0x462a33,'type':'di'+'re'+'ct','ruleSet':{'geosite':'ge'+'os'+'it'+'e-'+'ca'+'te'+'go'+'ry'+'-r'+'u','geoip':'ge'+'oi'+'p-'+'ru','geositeURL':'ht'+'tp'+'s:'+'//'+'ra'+'w.'+'gi'+'th'+'ub'+'us'+'er'+'co'+'nt'+'en'+'t.'+'co'+'m/'+'Sa'+'ge'+'rN'+'et'+'/s'+'in'+'g-'+'ge'+'os'+'it'+'e/'+'ru'+'le'+'-s'+'et'+'/g'+'eo'+'si'+'te'+'-c'+'at'+'eg'+'or'+'y-'+'ru'+'.s'+'rs','geoipURL':'ht'+'tp'+'s:'+'//'+'ra'+'w.'+'gi'+'th'+'ub'+'us'+'er'+'co'+'nt'+'en'+'t.'+'co'+'m/'+'Sa'+'ge'+'rN'+'et'+'/s'+'in'+'g-'+'ge'+'oi'+'p/'+'ru'+'le'+'-s'+'et'+'/g'+'eo'+'ip'+'-r'+'u.'+'sr'+'s'}},{'rule':!![],'type':'bl'+'oc'+'k','ruleSet':{'geosite':'ge'+'os'+'it'+'e-'+'ma'+'lw'+'ar'+'e','geoip':'ge'+'oi'+'p-'+'ma'+'lw'+'ar'+'e','geositeURL':'ht'+'tp'+'s:'+'//'+'ra'+'w.'+'gi'+'th'+'ub'+'us'+'er'+'co'+'nt'+'en'+'t.'+'co'+'m/'+'Ch'+'oc'+'ol'+'at'+'e4'+'U/'+'Ir'+'an'+'-s'+'in'+'g-'+'bo'+'x-'+'ru'+'le'+'s/'+'ru'+'le'+'-s'+'et'+'/g'+'eo'+'si'+'te'+'-m'+'al'+'wa'+'re'+'.s'+'rs','geoipURL':'ht'+'tp'+'s:'+'//'+'ra'+'w.'+'gi'+'th'+'ub'+'us'+'er'+'co'+'nt'+'en'+'t.'+'co'+'m/'+'Ch'+'oc'+'ol'+'at'+'e4'+'U/'+'Ir'+'an'+'-s'+'in'+'g-'+'bo'+'x-'+'ru'+'le'+'s/'+'ru'+'le'+'-s'+'et'+'/g'+'eo'+'ip'+'-m'+'al'+'wa'+'re'+'.s'+'rs'}},{'rule':!![],'type':'bl'+'oc'+'k','ruleSet':{'geosite':'ge'+'os'+'it'+'e-'+'ph'+'is'+'hi'+'ng','geoip':'ge'+'oi'+'p-'+'ph'+'is'+'hi'+'ng','geositeURL':'ht'+'tp'+'s:'+'//'+'ra'+'w.'+'gi'+'th'+'ub'+'us'+'er'+'co'+'nt'+'en'+'t.'+'co'+'m/'+'Ch'+'oc'+'ol'+'at'+'e4'+'U/'+'Ir'+'an'+'-s'+'in'+'g-'+'bo'+'x-'+'ru'+'le'+'s/'+'ru'+'le'+'-s'+'et'+'/g'+'eo'+'si'+'te'+'-p'+'hi'+'sh'+'in'+'g.'+'sr'+'s','geoipURL':'ht'+'tp'+'s:'+'//'+'ra'+'w.'+'gi'+'th'+'ub'+'us'+'er'+'co'+'nt'+'en'+'t.'+'co'+'m/'+'Ch'+'oc'+'ol'+'at'+'e4'+'U/'+'Ir'+'an'+'-s'+'in'+'g-'+'bo'+'x-'+'ru'+'le'+'s/'+'ru'+'le'+'-s'+'et'+'/g'+'eo'+'ip'+'-p'+'hi'+'sh'+'in'+'g.'+'sr'+'s'}},{'rule':!![],'type':'bl'+'oc'+'k','ruleSet':{'geosite':'ge'+'os'+'it'+'e-'+'cr'+'yp'+'to'+'mi'+'ne'+'rs','geositeURL':'ht'+'tp'+'s:'+'//'+'ra'+'w.'+'gi'+'th'+'ub'+'us'+'er'+'co'+'nt'+'en'+'t.'+'co'+'m/'+'Ch'+'oc'+'ol'+'at'+'e4'+'U/'+'Ir'+'an'+'-s'+'in'+'g-'+'bo'+'x-'+'ru'+'le'+'s/'+'ru'+'le'+'-s'+'et'+'/g'+'eo'+'si'+'te'+'-c'+'ry'+'pt'+'om'+'in'+'er'+'s.'+'sr'+'s'}},{'rule':_0x17ed1b,'type':'bl'+'oc'+'k','ruleSet':{'geosite':'ge'+'os'+'it'+'e-'+'ca'+'te'+'go'+'ry'+'-a'+'ds'+'-a'+'ll','geositeURL':'ht'+'tp'+'s:'+'//'+'ra'+'w.'+'gi'+'th'+'ub'+'us'+'er'+'co'+'nt'+'en'+'t.'+'co'+'m/'+'Ch'+'oc'+'ol'+'at'+'e4'+'U/'+'Ir'+'an'+'-s'+'in'+'g-'+'bo'+'x-'+'ru'+'le'+'s/'+'ru'+'le'+'-s'+'et'+'/g'+'eo'+'si'+'te'+'-c'+'at'+'eg'+'or'+'y-'+'ad'+'s-'+'al'+'l.'+'sr'+'s'}},{'rule':_0x5c5407,'type':'bl'+'oc'+'k','ruleSet':{'geosite':'ge'+'os'+'it'+'e-'+'ns'+'fw','geositeURL':'ht'+'tp'+'s:'+'//'+'ra'+'w.'+'gi'+'th'+'ub'+'us'+'er'+'co'+'nt'+'en'+'t.'+'co'+'m/'+'Ch'+'oc'+'ol'+'at'+'e4'+'U/'+'Ir'+'an'+'-s'+'in'+'g-'+'bo'+'x-'+'ru'+'le'+'s/'+'ru'+'le'+'-s'+'et'+'/g'+'eo'+'si'+'te'+'-n'+'sf'+'w.'+'sr'+'s'}}],_0x3c9841=[],_0x27b95d=[],_0x34da80=[],_0x4735dd=[],_0x12db2d=[];_0x4f9b52&&_0x27b95d['pu'+'sh']({'ip_is_private':!![],'outbound':'di'+'re'+'ct'});const _0xb8280d=__name((_0x3619c4,_0x1f1541)=>({[_0x3619c4]:[],'outbound':_0x1f1541}),'cr'+'ea'+'te'+'Ru'+'le'),_0x2d3127={'type':'re'+'mo'+'te','tag':'','format':'bi'+'na'+'ry','url':'','download_detour':'di'+'re'+'ct'},_0x883989=_0xb8280d('ru'+'le'+'_s'+'et','di'+'re'+'ct');;const _0x603240=_0xb8280d('ru'+'le'+'_s'+'et','di'+'re'+'ct');;const _0x4f098d=_0xb8280d('ru'+'le'+'_s'+'et','bl'+'oc'+'k'),_0x31e8e8=_0xb8280d('ru'+'le'+'_s'+'et','bl'+'oc'+'k');_0x9ae86e['fo'+'rE'+'ac'+'h'](({rule:_0x3d94a0,type:_0x586d68,ruleSet:_0x51c7a2})=>{if(!_0x3d94a0)return;const {geosite:_0x337e47,geoip:_0x347774,geositeURL:_0x21560f,geoipURL:_0x152ba1}=_0x51c7a2,_0x2dd7e7=_0x586d68==='di'+'re'+'ct',_0x19bc7f=_0x2dd7e7?_0x883989:_0x4f098d,_0x1ae5df=_0x2dd7e7?_0x603240:_0x31e8e8;_0x19bc7f['ru'+'le'+'_s'+'et']['pu'+'sh'](_0x337e47),_0x12db2d['pu'+'sh']({..._0x2d3127,'tag':_0x337e47,'url':_0x21560f}),_0x347774&&(_0x1ae5df['ru'+'le'+'_s'+'et']['pu'+'sh'](_0x347774),_0x12db2d['pu'+'sh']({..._0x2d3127,'tag':_0x347774,'url':_0x152ba1}));});const _0x3e4eaa=__name((_0x545a8a,_0x5e69c6)=>{(_0x545a8a['ru'+'le'+'_s'+'et']?.['le'+'ng'+'th']||_0x545a8a['do'+'ma'+'in'+'_s'+'uf'+'fi'+'x']?.['le'+'ng'+'th']||_0x545a8a['ip'+'_c'+'id'+'r']?.['le'+'ng'+'th'])&&_0x5e69c6['pu'+'sh'](_0x545a8a);},'pu'+'sh'+'Ru'+'le'+'If'+'No'+'tE'+'mp'+'ty');_0x3e4eaa(_0x883989,_0x3c9841),_0x3e4eaa(_0x603240,_0x27b95d),_0x3e4eaa(_0x4f098d,_0x34da80),_0x3e4eaa(_0x31e8e8,_0x4735dd);const _0x17ab21=__name((_0x5dc231,_0x2a8477)=>{const _0x2c8a7f=_0xb8280d('do'+'ma'+'in'+'_s'+'uf'+'fi'+'x',_0x2a8477),_0x400d9b=_0xb8280d('ip'+'_c'+'id'+'r',_0x2a8477);_0x5dc231['fo'+'rE'+'ac'+'h'](_0x510fab=>{if(isDomain(_0x510fab))_0x2c8a7f['do'+'ma'+'in'+'_s'+'uf'+'fi'+'x']['pu'+'sh'](_0x510fab);else{const _0x40b69c=isIPv6(_0x510fab)?_0x510fab['re'+'pl'+'ac'+'e'](/\[|\]/g,''):_0x510fab;_0x400d9b['ip'+'_c'+'id'+'r']['pu'+'sh'](_0x40b69c);}}),_0x3e4eaa(_0x2c8a7f,_0x2a8477==='di'+'re'+'ct'?_0x3c9841:_0x34da80),_0x3e4eaa(_0x400d9b,_0x2a8477==='di'+'re'+'ct'?_0x27b95d:_0x4735dd);},'pr'+'oc'+'es'+'sR'+'ul'+'es');_0x1971ad['le'+'ng'+'th']&&_0x17ab21(_0x1971ad,'di'+'re'+'ct'),_0xbf7e52['le'+'ng'+'th']&&_0x17ab21(_0xbf7e52,'bl'+'oc'+'k');const _0x22a8b4=[..._0x333594,..._0x3c9841,..._0x27b95d,..._0x34da80,..._0x4735dd];return _0x1d1011&&_0x22a8b4['pu'+'sh']({'network':'ud'+'p','port':0x1bb,'protocol':'qu'+'ic','outbound':'bl'+'oc'+'k'}),{'rules':_0x22a8b4,'rule_set':_0x12db2d};}__name(buildSingBoxRoutingRules,'bu'+'il'+'dS'+'in'+'gB'+'ox'+'Ro'+'ut'+'in'+'gR'+'ul'+'es');function buildSingBoxVLESSOutbound(_0x16a46f,_0x4dd86a,_0x53ace7,_0x192e80,_0x45c0cd,_0x575968,_0x481850,_0x361d55){const {enableIPv6:_0x80070,lengthMin:_0x2e1531,lengthMax:_0x216fe9,intervalMin:_0x5846bb,intervalMax:_0x1834f7,proxyIP:_0x5e39bd}=_0x16a46f,_0x339048='/'+getRandomPath(0x10)+(_0x5e39bd?'/'+btoa(_0x5e39bd):''),_0x5544b7=globalThis['de'+'fa'+'ul'+'tH'+'tt'+'ps'+'Po'+'rt'+'s']['in'+'cl'+'ud'+'es'](_0x192e80)?!![]:![],_0x5c3bad={'type':'vl'+'es'+'s','server':_0x53ace7,'server_port':+_0x192e80,'domain_strategy':_0x80070?'pr'+'ef'+'er'+'_i'+'pv'+'4':'ip'+'v4'+'_o'+'nl'+'y','uuid':globalThis['us'+'er'+'ID'],'tls':{'alpn':'ht'+'tp'+'/1'+'.1','enabled':!![],'insecure':_0x481850,'server_name':_0x575968,'utls':{'enabled':!![],'fingerprint':'ra'+'nd'+'om'+'iz'+'ed'}},'transport':{'early_data_header_name':'Se'+'c-'+'We'+'bS'+'oc'+'ke'+'t-'+'Pr'+'ot'+'oc'+'ol','max_early_data':0xa00,'headers':{'Host':_0x45c0cd},'path':_0x339048,'type':'ws'},'tag':_0x4dd86a};if(!_0x5544b7)delete _0x5c3bad['tl'+'s'];if(_0x361d55)_0x5c3bad['tl'+'s_'+'fr'+'ag'+'me'+'nt']={'enabled':!![],'size':_0x2e1531+'-'+_0x216fe9,'sleep':_0x5846bb+'-'+_0x1834f7};return _0x5c3bad;}__name(buildSingBoxVLESSOutbound,'bu'+'il'+'dS'+'in'+'gB'+'ox'+'VL'+'ES'+'SO'+'ut'+'bo'+'un'+'d');function buildSingBoxTrojanOutbound(_0x235934,_0x5e6f64,_0x4a0a9f,_0x42acf7,_0x183ff4,_0x1a64ef,_0x432908,_0x51d77a){const {enableIPv6:_0xd2f216,lengthMin:_0x41cbf3,lengthMax:_0x306dbf,intervalMin:_0x496e82,intervalMax:_0xf89d60,proxyIP:_0x42b850}=_0x235934,_0x43c1b8='/t'+'r'+getRandomPath(0x10)+(_0x42b850?'/'+btoa(_0x42b850):''),_0x12a759=globalThis['de'+'fa'+'ul'+'tH'+'tt'+'ps'+'Po'+'rt'+'s']['in'+'cl'+'ud'+'es'](_0x42acf7)?!![]:![],_0x198ff6={'type':'tr'+'oj'+'an','password':globalThis['tr'+'oj'+'an'+'Pa'+'ss'+'wo'+'rd'],'server':_0x4a0a9f,'server_port':+_0x42acf7,'domain_strategy':_0xd2f216?'pr'+'ef'+'er'+'_i'+'pv'+'4':'ip'+'v4'+'_o'+'nl'+'y','tls':{'alpn':'ht'+'tp'+'/1'+'.1','enabled':!![],'insecure':_0x432908,'server_name':_0x1a64ef,'utls':{'enabled':!![],'fingerprint':'ra'+'nd'+'om'+'iz'+'ed'}},'transport':{'early_data_header_name':'Se'+'c-'+'We'+'bS'+'oc'+'ke'+'t-'+'Pr'+'ot'+'oc'+'ol','max_early_data':0xa00,'headers':{'Host':_0x183ff4},'path':_0x43c1b8,'type':'ws'},'tag':_0x5e6f64};if(!_0x12a759)delete _0x198ff6['tl'+'s'];if(_0x51d77a)_0x198ff6['tl'+'s_'+'fr'+'ag'+'me'+'nt']={'enabled':!![],'size':_0x41cbf3+'-'+_0x306dbf,'sleep':_0x496e82+'-'+_0xf89d60};return _0x198ff6;}__name(buildSingBoxTrojanOutbound,'bu'+'il'+'dS'+'in'+'gB'+'ox'+'Tr'+'oj'+'an'+'Ou'+'tb'+'ou'+'nd');function buildSingBoxWarpOutbound(_0x4fe7cf,_0x35cddb,_0x4876ce,_0x1ff63c,_0x2e1e0e,_0xd0ca22){const _0x156c3b=/\[(.*?)\]/,_0x30536c=/[^:]*$/,_0x3d4dbd=_0x1ff63c['in'+'cl'+'ud'+'es']('[')?_0x1ff63c['ma'+'tc'+'h'](_0x156c3b)[0x1]:_0x1ff63c['sp'+'li'+'t'](':')[0x0],_0x4bfb5b=_0x1ff63c['in'+'cl'+'ud'+'es']('[')?+_0x1ff63c['ma'+'tc'+'h'](_0x30536c)[0x0]:+_0x1ff63c['sp'+'li'+'t'](':')[0x1],{warpEnableIPv6:_0x1b8cea,hiddifyNoiseMode:_0x19ed6e,noiseCountMin:_0x1a1e08,noiseCountMax:_0x283a3b,noiseSizeMin:_0x1aab7a,noiseSizeMax:_0x14676c,noiseDelayMin:_0x5733f3,noiseDelayMax:_0xb0fe71}=_0x4fe7cf,{warpIPv6:_0x2c826c,reserved:_0x811e86,publicKey:_0x26e716,privateKey:_0x29af92}=extractWireguardParams(_0x35cddb,_0x2e1e0e),_0x19d6e3={'local_address':['17'+'2.'+'16'+'.0'+'.2'+'/3'+'2',_0x2c826c],'mtu':0x500,'peer_public_key':_0x26e716,'private_key':_0x29af92,'reserved':_0x811e86,'server':_0x3d4dbd,'server_port':_0x4bfb5b,'domain_strategy':_0x1b8cea?'pr'+'ef'+'er'+'_i'+'pv'+'4':'ip'+'v4'+'_o'+'nl'+'y','type':'wi'+'re'+'gu'+'ar'+'d','detour':_0x2e1e0e,'tag':_0x4876ce};return _0xd0ca22==='hi'+'dd'+'if'+'y'&&Object['as'+'si'+'gn'](_0x19d6e3,{'fake_packets_mode':_0x19ed6e,'fake_packets':_0x1a1e08===_0x283a3b?_0x1a1e08:_0x1a1e08+'-'+_0x283a3b,'fake_packets_size':_0x1aab7a===_0x14676c?_0x1aab7a:_0x1aab7a+'-'+_0x14676c,'fake_packets_delay':_0x5733f3===_0xb0fe71?_0x5733f3:_0x5733f3+'-'+_0xb0fe71}),_0x19d6e3;}__name(buildSingBoxWarpOutbound,'bu'+'il'+'dS'+'in'+'gB'+'ox'+'Wa'+'rp'+'Ou'+'tb'+'ou'+'nd');function buildSingBoxChainOutbound(_0x38f51e,_0x17a756){if(['so'+'ck'+'s','ht'+'tp']['in'+'cl'+'ud'+'es'](_0x38f51e['pr'+'ot'+'oc'+'ol'])){const {protocol:_0x5d2454,server:_0x38218d,port:_0x5b3a27,user:_0x118a48,pass:_0x458200}=_0x38f51e,_0x197b5c={'type':_0x5d2454,'tag':'','server':_0x38218d,'server_port':+_0x5b3a27,'username':_0x118a48,'password':_0x458200,'detour':''};if(_0x5d2454==='so'+'ck'+'s')_0x197b5c['ve'+'rs'+'io'+'n']='5';return _0x197b5c;}const {server:_0x842f1b,port:_0x3f8c21,uuid:_0x48b3d4,flow:_0x15f710,security:_0xb2e34a,type:_0x10d800,sni:_0x432eb2,fp:_0x4f71b0,alpn:_0x5d3057,pbk:_0x4e5f34,sid:_0x47dc95,headerType:_0xfdbab8,host:_0x3abcd2,path:_0x45e3ad,serviceName:_0x5acfff}=_0x38f51e,_0x5e5938={'type':'vl'+'es'+'s','tag':'','server':_0x842f1b,'server_port':+_0x3f8c21,'domain_strategy':_0x17a756?'pr'+'ef'+'er'+'_i'+'pv'+'4':'ip'+'v4'+'_o'+'nl'+'y','uuid':_0x48b3d4,'flow':_0x15f710,'detour':''};if(_0xb2e34a==='tl'+'s'||_0xb2e34a==='re'+'al'+'it'+'y'){const _0x2e3b18=_0x5d3057?_0x5d3057?.['sp'+'li'+'t'](',')['fi'+'lt'+'er'](_0x44f697=>_0x44f697!=='h2'):[];_0x5e5938['tl'+'s']={'enabled':!![],'server_name':_0x432eb2,'insecure':![],'alpn':_0x2e3b18,'utls':{'enabled':!![],'fingerprint':_0x4f71b0}},_0xb2e34a==='re'+'al'+'it'+'y'&&(_0x5e5938['tl'+'s']['re'+'al'+'it'+'y']={'enabled':!![],'public_key':_0x4e5f34,'short_id':_0x47dc95},delete _0x5e5938['tl'+'s']['al'+'pn']);}if(_0xfdbab8==='ht'+'tp'){const _0x5b880c=_0x3abcd2?.['sp'+'li'+'t'](',');_0x5e5938['tr'+'an'+'sp'+'or'+'t']={'type':'ht'+'tp','host':_0x5b880c,'path':_0x45e3ad,'method':'GE'+'T','headers':{'Connection':['ke'+'ep'+'-a'+'li'+'ve'],'Content-Type':['ap'+'pl'+'ic'+'at'+'io'+'n/'+'oc'+'te'+'t-'+'st'+'re'+'am']}};}if(_0x10d800==='ws'){const _0x2abee0=_0x45e3ad?.['sp'+'li'+'t']('?e'+'d=')[0x0],_0x250003=+_0x45e3ad?.['sp'+'li'+'t']('?e'+'d=')[0x1]||0x0;_0x5e5938['tr'+'an'+'sp'+'or'+'t']={'type':'ws','path':_0x2abee0,'headers':{'Host':_0x3abcd2},'max_early_data':_0x250003,'early_data_header_name':'Se'+'c-'+'We'+'bS'+'oc'+'ke'+'t-'+'Pr'+'ot'+'oc'+'ol'};}if(_0x10d800==='gr'+'pc')_0x5e5938['tr'+'an'+'sp'+'or'+'t']={'type':'gr'+'pc','service_name':_0x5acfff};return _0x5e5938;}__name(buildSingBoxChainOutbound,'bu'+'il'+'dS'+'in'+'gB'+'ox'+'Ch'+'ai'+'nO'+'ut'+'bo'+'un'+'d');async function getSingBoxWarpConfig(_0x29a0c3,_0x4075a6,_0x2b7c73){const _0x139cdb=_0x1ddd,_0x5b9337=a0_0x2178,{proxySettings:_0x3b477b,warpConfigs:_0xb96698}=await getDataset(_0x29a0c3,_0x4075a6),{warpEndpoints:_0x588fc6}=_0x3b477b,_0x31e8e2=structuredClone(singboxConfigTemp),_0x33d7a2=_0x2b7c73==='hi'+'dd'+'if'+'y'?'\x20P'+'ro'+'\x20':'\x20',_0x380c64=buildSingBoxDNS(_0x3b477b,void 0x0,!![],_0x5b9337(0x19b)+'Wa'+'rp'+_0x33d7a2+('-\x20'+'Be'+'st'+'\x20P'+'in'+'g\x20'+'🚀')),{rules:_0x48ff25,rule_set:_0x19c767}=buildSingBoxRoutingRules(_0x3b477b);_0x31e8e2['dn'+'s']['se'+'rv'+'er'+'s']=_0x380c64['se'+'rv'+'er'+'s'],_0x31e8e2['dn'+'s']['ru'+'le'+'s']=_0x380c64['ru'+'le'+'s'];if(_0x380c64['fa'+'ke'+'ip'])_0x31e8e2['dn'+'s']['fa'+'ke'+'ip']=_0x380c64['fa'+'ke'+'ip'];_0x31e8e2['ro'+'ut'+'e']['ru'+'le'+'s']=_0x48ff25,_0x31e8e2['ro'+'ut'+'e']['ru'+'le'+'_s'+'et']=_0x19c767;const _0x14b0d4=_0x31e8e2['ou'+'tb'+'ou'+'nd'+'s'][0x0],_0x477c99=_0x31e8e2['ou'+'tb'+'ou'+'nd'+'s'][0x1];_0x14b0d4['ou'+'tb'+'ou'+'nd'+'s']=[_0x5b9337(0x19b)+'Wa'+'rp'+_0x33d7a2+('-\x20'+'Be'+'st'+'\x20P'+'in'+'g\x20'+'🚀'),_0x5b9337(0x19b)+'Wo'+'W'+_0x33d7a2+('-\x20'+'Be'+'st'+'\x20P'+'in'+'g\x20'+'🚀')],_0x31e8e2['ou'+'tb'+'ou'+'nd'+'s']['sp'+'li'+'ce'](0x2,0x0,structuredClone(_0x477c99));const _0x324378=_0x31e8e2['ou'+'tb'+'ou'+'nd'+'s'][0x2];_0x477c99['ta'+'g']=_0x5b9337(0x19b)+'Wa'+'rp'+_0x33d7a2+('-\x20'+'Be'+'st'+'\x20P'+'in'+'g\x20'+'🚀'),_0x477c99['in'+'te'+'rv'+'al']=_0x3b477b['be'+'st'+'Wa'+'rp'+'In'+'te'+'rv'+'al']+'s',_0x324378['ta'+'g']=_0x139cdb(0x211)+'Wo'+'W'+_0x33d7a2+('-\x20'+'Be'+'st'+'\x20P'+'in'+'g\x20'+'🚀'),_0x324378['in'+'te'+'rv'+'al']=_0x3b477b['be'+'st'+'Wa'+'rp'+'In'+'te'+'rv'+'al']+'s';const _0x54b08c=[],_0x389472=[];return _0x588fc6['sp'+'li'+'t'](',')['fo'+'rE'+'ac'+'h']((_0x631696,_0x7c765f)=>{const _0x7b9a72=_0x139cdb,_0x17d59e=_0x5b9337,_0x159f06=_0x7b9a72(0x211)+(_0x7c765f+0x1)+('\x20-'+'\x20W'+'ar'+'p\x20'+_0x17d59e(0x1a9)),_0x1c3a49=_0x17d59e(0x19b)+(_0x7c765f+0x1)+('\x20-'+'\x20W'+'oW'+_0x17d59e(0x19d)),_0x34c7bd=buildSingBoxWarpOutbound(_0x3b477b,_0xb96698,_0x159f06,_0x631696,'',_0x2b7c73),_0x33cd36=buildSingBoxWarpOutbound(_0x3b477b,_0xb96698,_0x1c3a49,_0x631696,_0x159f06,_0x2b7c73);_0x31e8e2['ou'+'tb'+'ou'+'nd'+'s']['pu'+'sh'](_0x33cd36,_0x34c7bd),_0x54b08c['pu'+'sh'](_0x159f06),_0x389472['pu'+'sh'](_0x1c3a49),_0x477c99['ou'+'tb'+'ou'+'nd'+'s']['pu'+'sh'](_0x159f06),_0x324378['ou'+'tb'+'ou'+'nd'+'s']['pu'+'sh'](_0x1c3a49);}),_0x14b0d4['ou'+'tb'+'ou'+'nd'+'s']['pu'+'sh'](..._0x54b08c,..._0x389472),new Response(JSON['st'+'ri'+'ng'+'if'+'y'](_0x31e8e2,null,0x4),{'status':0xc8,'headers':{'Content-Type':'te'+'xt'+'/p'+'la'+'in'+';c'+'ha'+'rs'+'et'+'=u'+'tf'+'-8','Cache-Control':'no'+'-s'+'to'+'re'+',\x20'+'no'+'-c'+'ac'+'he'+',\x20'+'mu'+'st'+'-r'+'ev'+'al'+'id'+'at'+'e,'+'\x20p'+'ro'+'xy'+'-r'+'ev'+'al'+'id'+'at'+'e','CDN-Cache-Control':'no'+'-s'+'to'+'re'}});}__name(getSingBoxWarpConfig,'ge'+'tS'+'in'+'gB'+'ox'+'Wa'+'rp'+'Co'+'nf'+'ig');async function getSingBoxCustomConfig(_0x10f724,_0x12a99d,_0x511ea9){const _0x592401=a0_0x2178,{proxySettings:_0x325b3d}=await getDataset(_0x10f724,_0x12a99d);let _0x1bf317;const {cleanIPs:_0x295a37,ports:_0x581f59,vlessConfigs:_0xe73372,trojanConfigs:_0x1a52e2,outProxy:_0x1557c5,outProxyParams:_0x3e13f7,customCdnAddrs:_0x34f941,customCdnHost:_0x23cc6c,customCdnSni:_0x11a010,bestVLESSTrojanInterval:_0x1d48b8,enableIPv6:_0x19e044}=_0x325b3d;if(_0x1557c5){const _0x443469=JSON['pa'+'rs'+'e'](_0x3e13f7);try{_0x1bf317=buildSingBoxChainOutbound(_0x443469,_0x19e044);}catch(_0x4bac80){console['lo'+'g']('An'+'\x20e'+'rr'+'or'+'\x20o'+'cc'+'ur'+'ed'+'\x20w'+'hi'+'le'+'\x20p'+'ar'+'si'+'ng'+'\x20c'+'ha'+'in'+'\x20p'+'ro'+'xy'+':\x20',_0x4bac80),_0x1bf317=void 0x0,await _0x12a99d['bp'+'b']['pu'+'t']('pr'+'ox'+'yS'+'et'+'ti'+'ng'+'s',JSON['st'+'ri'+'ng'+'if'+'y']({..._0x325b3d,'outProxy':'','outProxyParams':{}}));}}const _0x4694cd=await getConfigAddresses(_0x295a37,_0x19e044),_0x4ee5bf=_0x34f941?_0x34f941['sp'+'li'+'t'](','):[],_0x447fe6=[..._0x4694cd,..._0x4ee5bf],_0x4ab29f=structuredClone(singboxConfigTemp),_0x402478=buildSingBoxDNS(_0x325b3d,_0x447fe6,![],_0x1bf317?'pr'+'ox'+'y-'+'1':'✅\x20'+'Se'+'le'+'ct'+'or'),{rules:_0x8932f4,rule_set:_0x40a65f}=buildSingBoxRoutingRules(_0x325b3d);_0x4ab29f['dn'+'s']['se'+'rv'+'er'+'s']=_0x402478['se'+'rv'+'er'+'s'],_0x4ab29f['dn'+'s']['ru'+'le'+'s']=_0x402478['ru'+'le'+'s'];if(_0x402478['fa'+'ke'+'ip'])_0x4ab29f['dn'+'s']['fa'+'ke'+'ip']=_0x402478['fa'+'ke'+'ip'];_0x4ab29f['ro'+'ut'+'e']['ru'+'le'+'s']=_0x8932f4,_0x4ab29f['ro'+'ut'+'e']['ru'+'le'+'_s'+'et']=_0x40a65f;const _0x3c1018=_0x4ab29f['ou'+'tb'+'ou'+'nd'+'s'][0x0],_0x29ed37=_0x4ab29f['ou'+'tb'+'ou'+'nd'+'s'][0x1];_0x3c1018['ou'+'tb'+'ou'+'nd'+'s']=[_0x592401(0x19b)+'Be'+'st'+'\x20P'+'in'+'g\x20'+'💥'],_0x29ed37['in'+'te'+'rv'+'al']=_0x1d48b8+'s',_0x29ed37['ta'+'g']=_0x592401(0x19b)+'Be'+'st'+'\x20P'+'in'+'g\x20'+'💥';const _0x11f0b6=_0x581f59['fi'+'lt'+'er'](_0x3c12a0=>_0x511ea9?globalThis['de'+'fa'+'ul'+'tH'+'tt'+'ps'+'Po'+'rt'+'s']['in'+'cl'+'ud'+'es'](_0x3c12a0):!![]);let _0x2b4210=0x1;const _0x1bc902=[..._0xe73372?['VL'+'ES'+'S']:[],..._0x1a52e2?['Tr'+'oj'+'an']:[]];return _0x1bc902['fo'+'rE'+'ac'+'h'](_0xfc6ba6=>{let _0x57cb72=0x1;_0x11f0b6['fo'+'rE'+'ac'+'h'](_0x51d17d=>{_0x447fe6['fo'+'rE'+'ac'+'h'](_0x626f35=>{let _0x5693bf,_0xeb0e6e;const _0x4c4d67=_0x4ee5bf['in'+'cl'+'ud'+'es'](_0x626f35),_0x4c4f5e=_0x4c4d67?'C':_0x511ea9?'F':'',_0x5e0e1d=_0x4c4d67?_0x11a010:randomUpperCase(globalThis['ho'+'st'+'Na'+'me']),_0x54b60e=_0x4c4d67?_0x23cc6c:globalThis['ho'+'st'+'Na'+'me'],_0x203275=generateRemark(_0x57cb72,_0x51d17d,_0x626f35,_0x295a37,_0xfc6ba6,_0x4c4f5e);_0xfc6ba6==='VL'+'ES'+'S'&&(_0x5693bf=buildSingBoxVLESSOutbound(_0x325b3d,_0x1bf317?'pr'+'ox'+'y-'+_0x2b4210:_0x203275,_0x626f35,_0x51d17d,_0x54b60e,_0x5e0e1d,_0x4c4d67,_0x511ea9),_0x4ab29f['ou'+'tb'+'ou'+'nd'+'s']['pu'+'sh'](_0x5693bf)),_0xfc6ba6==='Tr'+'oj'+'an'&&(_0xeb0e6e=buildSingBoxTrojanOutbound(_0x325b3d,_0x1bf317?'pr'+'ox'+'y-'+_0x2b4210:_0x203275,_0x626f35,_0x51d17d,_0x54b60e,_0x5e0e1d,_0x4c4d67,_0x511ea9),_0x4ab29f['ou'+'tb'+'ou'+'nd'+'s']['pu'+'sh'](_0xeb0e6e));if(_0x1bf317){const _0x7e3ed5=structuredClone(_0x1bf317);_0x7e3ed5['ta'+'g']=_0x203275,_0x7e3ed5['de'+'to'+'ur']='pr'+'ox'+'y-'+_0x2b4210,_0x4ab29f['ou'+'tb'+'ou'+'nd'+'s']['pu'+'sh'](_0x7e3ed5);}_0x3c1018['ou'+'tb'+'ou'+'nd'+'s']['pu'+'sh'](_0x203275),_0x29ed37['ou'+'tb'+'ou'+'nd'+'s']['pu'+'sh'](_0x203275),_0x2b4210++,_0x57cb72++;});});}),new Response(JSON['st'+'ri'+'ng'+'if'+'y'](_0x4ab29f,null,0x4),{'status':0xc8,'headers':{'Content-Type':'te'+'xt'+'/p'+'la'+'in'+';c'+'ha'+'rs'+'et'+'=u'+'tf'+'-8','Cache-Control':'no'+'-s'+'to'+'re'+',\x20'+'no'+'-c'+'ac'+'he'+',\x20'+'mu'+'st'+'-r'+'ev'+'al'+'id'+'at'+'e,'+'\x20p'+'ro'+'xy'+'-r'+'ev'+'al'+'id'+'at'+'e','CDN-Cache-Control':'no'+'-s'+'to'+'re'}});}__name(getSingBoxCustomConfig,'ge'+'tS'+'in'+'gB'+'ox'+'Cu'+'st'+'om'+'Co'+'nf'+'ig');var singboxConfigTemp={'log':{'level':'wa'+'rn','timestamp':!![]},'dns':{'servers':[],'rules':[],'independent_cache':!![]},'inbounds':[{'type':'di'+'re'+'ct','tag':'dn'+'s-'+'in','listen':'0.'+'0.'+'0.'+'0','listen_port':0x1932,'override_address':'1.'+'1.'+'1.'+'1','override_port':0x35},{'type':'tu'+'n','tag':'tu'+'n-'+'in','address':['17'+'2.'+'18'+'.0'+'.1'+'/2'+'8','fd'+'fe'+':d'+'cb'+'a:'+'98'+'76'+'::'+'1/'+'12'+'6'],'mtu':0x2328,'auto_route':!![],'strict_route':!![],'stack':'mi'+'xe'+'d','endpoint_independent_nat':!![],'sniff':!![],'sniff_override_destination':!![]},{'type':'mi'+'xe'+'d','tag':'mi'+'xe'+'d-'+'in','listen':'0.'+'0.'+'0.'+'0','listen_port':0x820,'sniff':!![],'sniff_override_destination':![]}],'outbounds':[{'type':'se'+'le'+'ct'+'or','tag':'✅\x20'+'Se'+'le'+'ct'+'or','outbounds':[]},{'type':'ur'+'lt'+'es'+'t','tag':'','outbounds':[],'url':'ht'+'tp'+'s:'+'//'+'ww'+'w.'+'gs'+'ta'+'ti'+'c.'+'co'+'m/'+'ge'+'ne'+'ra'+'te'+'_2'+'04','interval':''},{'type':'di'+'re'+'ct','tag':'di'+'re'+'ct'},{'type':'bl'+'oc'+'k','tag':'bl'+'oc'+'k'},{'type':'dn'+'s','tag':'dn'+'s-'+'ou'+'t'}],'route':{'rules':[],'rule_set':[],'auto_detect_interface':!![],'override_android_vpn':!![],'final':'✅\x20'+'Se'+'le'+'ct'+'or'},'ntp':{'enabled':!![],'server':'ti'+'me'+'.a'+'pp'+'le'+'.c'+'om','server_port':0x7b,'detour':'di'+'re'+'ct','interval':'30'+'m'},'experimental':{'cache_file':{'enabled':!![],'store_fakeip':!![]},'clash_api':{'external_controller':'12'+'7.'+'0.'+'0.'+'1:'+'90'+'90','external_ui':'ui','external_ui_download_url':'ht'+'tp'+'s:'+'//'+'gi'+'th'+'ub'+'.c'+'om'+'/M'+'et'+'aC'+'ub'+'eX'+'/m'+'et'+'ac'+'ub'+'ex'+'d/'+'ar'+'ch'+'iv'+'e/'+'re'+'fs'+'/h'+'ea'+'ds'+'/g'+'h-'+'pa'+'ge'+'s.'+'zi'+'p','external_ui_download_detour':'di'+'re'+'ct','default_mode':'Ru'+'le'}}};async function buildClashDNS(_0x5f20b0,_0x431caa,_0x47b9ae){const {remoteDNS:_0x423e60,localDNS:_0x2df9a1,vlessTrojanFakeDNS:_0x47cd4c,outProxyParams:_0x35c0c8,enableIPv6:_0x1f79ee,warpFakeDNS:_0x46953f,warpEnableIPv6:_0x2e13f6,bypassIran:_0x346972,bypassChina:_0x3f197c,bypassRussia:_0x1773e7,customBypassRules:_0x762360,customBlockRules:_0x1b58d0}=_0x5f20b0,_0x34354e=_0x2e13f6?['1.'+'1.'+'1.'+'1','1.'+'0.'+'0.'+'1','[2'+'60'+'6:'+'47'+'00'+':4'+'70'+'0:'+':1'+'11'+'1]','[2'+'60'+'6:'+'47'+'00'+':4'+'70'+'0:'+':1'+'00'+'1]']:['1.'+'1.'+'1.'+'1','1.'+'0.'+'0.'+'1'],_0x52a6c2=_0x47cd4c&&!_0x47b9ae||_0x46953f&&_0x47b9ae,_0x152e76=_0x1f79ee&&!_0x47b9ae||_0x2e13f6&&_0x47b9ae,_0x3eb5d4=_0x762360['sp'+'li'+'t'](',')['fi'+'lt'+'er'](_0x5cac2a=>isDomain(_0x5cac2a)),_0x289d23=_0x346972||_0x3f197c||_0x1773e7,_0x4d0cce=[{'rule':_0x346972,'geosite':'ir'},{'rule':_0x3f197c,'geosite':'cn'},{'rule':_0x1773e7,'geosite':'ru'}],_0x289194={'enable':!![],'listen':'0.'+'0.'+'0.'+'0:'+'10'+'53','ipv6':_0x152e76,'respect-rules':!![],'use-hosts':!![],'use-system-hosts':![],'nameserver':_0x47b9ae?_0x34354e['ma'+'p'](_0x140e7c=>_0x431caa?_0x140e7c+('#💦'+'\x20W'+'ar'+'p\x20'+'-\x20'+'Be'+'st'+'\x20P'+'in'+'g\x20'+'🚀'):_0x140e7c+('#✅'+'\x20S'+'el'+'ec'+'to'+'r')):[_0x431caa?_0x423e60+('#p'+'ro'+'xy'+'-1'):_0x423e60+('#✅'+'\x20S'+'el'+'ec'+'to'+'r')],'proxy-server-nameserver':[_0x2df9a1+('#D'+'IR'+'EC'+'T')]};if(_0x431caa&&!_0x47b9ae){const _0x58bdd6=JSON['pa'+'rs'+'e'](_0x35c0c8)['se'+'rv'+'er'];if(isDomain(_0x58bdd6))_0x289194['na'+'me'+'se'+'rv'+'er'+'-p'+'ol'+'ic'+'y']={[_0x58bdd6]:_0x431caa?_0x423e60+('#p'+'ro'+'xy'+'-1'):_0x423e60+('#✅'+'\x20S'+'el'+'ec'+'to'+'r')};}if(_0x289d23){const _0x3ed4df=[];_0x4d0cce['fo'+'rE'+'ac'+'h'](({rule:_0x3982f9,geosite:_0x3e210f})=>{_0x3982f9&&_0x3ed4df['pu'+'sh'](_0x3e210f);}),_0x289194['na'+'me'+'se'+'rv'+'er'+'-p'+'ol'+'ic'+'y']={..._0x289194['na'+'me'+'se'+'rv'+'er'+'-p'+'ol'+'ic'+'y'],['ru'+'le'+'-s'+'et'+':'+_0x3ed4df['jo'+'in'](',')]:[_0x2df9a1+('#D'+'IR'+'EC'+'T')]};}_0x3eb5d4['fo'+'rE'+'ac'+'h'](_0x184ffb=>{_0x289194['na'+'me'+'se'+'rv'+'er'+'-p'+'ol'+'ic'+'y']={..._0x289194['na'+'me'+'se'+'rv'+'er'+'-p'+'ol'+'ic'+'y'],['+.'+_0x184ffb]:[_0x2df9a1+('#D'+'IR'+'EC'+'T')]};});if(_0x52a6c2)Object['as'+'si'+'gn'](_0x289194,{'enhanced-mode':'fa'+'ke'+'-i'+'p','fake-ip-range':'19'+'8.'+'18'+'.0'+'.1'+'/1'+'6','fake-ip-filter':['ge'+'os'+'it'+'e:'+'pr'+'iv'+'at'+'e']});return _0x289194;}__name(buildClashDNS,'bu'+'il'+'dC'+'la'+'sh'+'DN'+'S');function buildClashRoutingRules(_0x4ec7e0){const {bypassLAN:_0x5bf976,bypassIran:_0x24f442,bypassChina:_0x4beef8,bypassRussia:_0x1526b6,blockAds:_0xa1332d,blockPorn:_0x381c04,blockUDP443:_0x284dac,customBypassRules:_0xff5660,customBlockRules:_0x2ded79}=_0x4ec7e0,_0x470b99=_0xff5660?_0xff5660['sp'+'li'+'t'](','):[],_0x677c36=_0x2ded79?_0x2ded79['sp'+'li'+'t'](','):[],_0x2dadc9=[{'rule':_0x5bf976,'type':'di'+'re'+'ct','noResolve':!![],'ruleProvider':{'format':'ya'+'ml','geosite':'pr'+'iv'+'at'+'e','geoip':'pr'+'iv'+'at'+'e-'+'ci'+'dr','geositeURL':'ht'+'tp'+'s:'+'//'+'ra'+'w.'+'gi'+'th'+'ub'+'us'+'er'+'co'+'nt'+'en'+'t.'+'co'+'m/'+'Me'+'ta'+'Cu'+'be'+'X/'+'me'+'ta'+'-r'+'ul'+'es'+'-d'+'at'+'/m'+'et'+'a/'+'ge'+'o/'+'ge'+'os'+'it'+'e/'+'pr'+'iv'+'at'+'e.'+'ya'+'ml','geoipURL':'ht'+'tp'+'s:'+'//'+'ra'+'w.'+'gi'+'th'+'ub'+'us'+'er'+'co'+'nt'+'en'+'t.'+'co'+'m/'+'Me'+'ta'+'Cu'+'be'+'X/'+'me'+'ta'+'-r'+'ul'+'es'+'-d'+'at'+'/m'+'et'+'a/'+'ge'+'o/'+'ge'+'oi'+'p/'+'pr'+'iv'+'at'+'e.'+'ya'+'ml'}},{'rule':_0x24f442,'type':'di'+'re'+'ct','ruleProvider':{'format':'te'+'xt','geosite':'ir','geoip':'ir'+'-c'+'id'+'r','geositeURL':'ht'+'tp'+'s:'+'//'+'ra'+'w.'+'gi'+'th'+'ub'+'us'+'er'+'co'+'nt'+'en'+'t.'+'co'+'m/'+'Ch'+'oc'+'ol'+'at'+'e4'+'U/'+'Ir'+'an'+'-c'+'la'+'sh'+'-r'+'ul'+'es'+'/r'+'el'+'ea'+'se'+'/i'+'r.'+'tx'+'t','geoipURL':'ht'+'tp'+'s:'+'//'+'ra'+'w.'+'gi'+'th'+'ub'+'us'+'er'+'co'+'nt'+'en'+'t.'+'co'+'m/'+'Ch'+'oc'+'ol'+'at'+'e4'+'U/'+'Ir'+'an'+'-c'+'la'+'sh'+'-r'+'ul'+'es'+'/r'+'el'+'ea'+'se'+'/i'+'rc'+'id'+'r.'+'tx'+'t'}},{'rule':_0x4beef8,'type':'di'+'re'+'ct','ruleProvider':{'format':'ya'+'ml','geosite':'cn','geoip':'cn'+'-c'+'id'+'r','geositeURL':'ht'+'tp'+'s:'+'//'+'ra'+'w.'+'gi'+'th'+'ub'+'us'+'er'+'co'+'nt'+'en'+'t.'+'co'+'m/'+'Me'+'ta'+'Cu'+'be'+'X/'+'me'+'ta'+'-r'+'ul'+'es'+'-d'+'at'+'/m'+'et'+'a/'+'ge'+'o/'+'ge'+'os'+'it'+'e/'+'cn'+'.y'+'am'+'l','geoipURL':'ht'+'tp'+'s:'+'//'+'ra'+'w.'+'gi'+'th'+'ub'+'us'+'er'+'co'+'nt'+'en'+'t.'+'co'+'m/'+'Me'+'ta'+'Cu'+'be'+'X/'+'me'+'ta'+'-r'+'ul'+'es'+'-d'+'at'+'/m'+'et'+'a/'+'ge'+'o/'+'ge'+'oi'+'p/'+'cn'+'.y'+'am'+'l'}},{'rule':_0x1526b6,'type':'di'+'re'+'ct','ruleProvider':{'format':'ya'+'ml','geosite':'ru','geoip':'ru'+'-c'+'id'+'r','geositeURL':'ht'+'tp'+'s:'+'//'+'ra'+'w.'+'gi'+'th'+'ub'+'us'+'er'+'co'+'nt'+'en'+'t.'+'co'+'m/'+'Me'+'ta'+'Cu'+'be'+'X/'+'me'+'ta'+'-r'+'ul'+'es'+'-d'+'at'+'/m'+'et'+'a/'+'ge'+'o/'+'ge'+'os'+'it'+'e/'+'ca'+'te'+'go'+'ry'+'-r'+'u.'+'ya'+'ml','geoipURL':'ht'+'tp'+'s:'+'//'+'ra'+'w.'+'gi'+'th'+'ub'+'us'+'er'+'co'+'nt'+'en'+'t.'+'co'+'m/'+'Me'+'ta'+'Cu'+'be'+'X/'+'me'+'ta'+'-r'+'ul'+'es'+'-d'+'at'+'/m'+'et'+'a/'+'ge'+'o/'+'ge'+'oi'+'p/'+'ru'+'.y'+'am'+'l'}},{'rule':!![],'type':'bl'+'oc'+'k','ruleProvider':{'format':'te'+'xt','geosite':'ma'+'lw'+'ar'+'e','geositeURL':'ht'+'tp'+'s:'+'//'+'ra'+'w.'+'gi'+'th'+'ub'+'us'+'er'+'co'+'nt'+'en'+'t.'+'co'+'m/'+'Ch'+'oc'+'ol'+'at'+'e4'+'U/'+'Ir'+'an'+'-c'+'la'+'sh'+'-r'+'ul'+'es'+'/r'+'el'+'ea'+'se'+'/m'+'al'+'wa'+'re'+'.t'+'xt'}},{'rule':!![],'type':'bl'+'oc'+'k','ruleProvider':{'format':'te'+'xt','geosite':'ph'+'is'+'hi'+'ng','geositeURL':'ht'+'tp'+'s:'+'//'+'ra'+'w.'+'gi'+'th'+'ub'+'us'+'er'+'co'+'nt'+'en'+'t.'+'co'+'m/'+'Ch'+'oc'+'ol'+'at'+'e4'+'U/'+'Ir'+'an'+'-c'+'la'+'sh'+'-r'+'ul'+'es'+'/r'+'el'+'ea'+'se'+'/p'+'hi'+'sh'+'in'+'g.'+'tx'+'t'}},{'rule':!![],'type':'bl'+'oc'+'k','ruleProvider':{'format':'te'+'xt','geosite':'cr'+'yp'+'to'+'mi'+'ne'+'rs','geositeURL':'ht'+'tp'+'s:'+'//'+'ra'+'w.'+'gi'+'th'+'ub'+'us'+'er'+'co'+'nt'+'en'+'t.'+'co'+'m/'+'Ch'+'oc'+'ol'+'at'+'e4'+'U/'+'Ir'+'an'+'-c'+'la'+'sh'+'-r'+'ul'+'es'+'/r'+'el'+'ea'+'se'+'/c'+'ry'+'pt'+'om'+'in'+'er'+'s.'+'tx'+'t'}},{'rule':_0xa1332d,'type':'bl'+'oc'+'k','ruleProvider':{'format':'te'+'xt','geosite':'ad'+'s','geositeURL':'ht'+'tp'+'s:'+'//'+'ra'+'w.'+'gi'+'th'+'ub'+'us'+'er'+'co'+'nt'+'en'+'t.'+'co'+'m/'+'Ch'+'oc'+'ol'+'at'+'e4'+'U/'+'Ir'+'an'+'-c'+'la'+'sh'+'-r'+'ul'+'es'+'/r'+'el'+'ea'+'se'+'/a'+'ds'+'.t'+'xt'}},{'rule':_0x381c04,'type':'bl'+'oc'+'k','ruleProvider':{'format':'te'+'xt','geosite':'ns'+'fw','geositeURL':'ht'+'tp'+'s:'+'//'+'ra'+'w.'+'gi'+'th'+'ub'+'us'+'er'+'co'+'nt'+'en'+'t.'+'co'+'m/'+'Ch'+'oc'+'ol'+'at'+'e4'+'U/'+'Ir'+'an'+'-c'+'la'+'sh'+'-r'+'ul'+'es'+'/r'+'el'+'ea'+'se'+'/n'+'sf'+'w.'+'tx'+'t'}}];function _0x570444(_0x5a66cc,_0x290b66,_0x504b6d,_0x55789d){const _0x2b05d8=_0x290b66==='te'+'xt'?'tx'+'t':_0x290b66;return{[_0x5a66cc]:{'type':'ht'+'tp','format':_0x290b66,'behavior':_0x504b6d,'url':_0x55789d,'path':'./'+'ru'+'le'+'se'+'t/'+_0x5a66cc+'.'+_0x2b05d8,'interval':0x15180}};}__name(_0x570444,'bu'+'il'+'dR'+'ul'+'eP'+'ro'+'vi'+'de'+'r');const _0xafbe90=[],_0x2031c1=[],_0x54d0cd=[],_0x18f924=[],_0x3d946a={};_0x2dadc9['fo'+'rE'+'ac'+'h'](({rule:_0x5a50a6,type:_0x185b18,ruleProvider:_0x268d40,noResolve:_0x6a534e})=>{const {geosite:_0x5df51d,geoip:_0x3590c9,geositeURL:_0x1ada67,geoipURL:_0x10e14b,format:_0xbb18fd}=_0x268d40;if(_0x5a50a6){if(_0x5df51d){const _0x57d597=_0x185b18==='di'+'re'+'ct'?_0xafbe90:_0x54d0cd;_0x57d597['pu'+'sh']('RU'+'LE'+'-S'+'ET'+','+_0x5df51d+','+(_0x185b18==='di'+'re'+'ct'?'DI'+'RE'+'CT':'RE'+'JE'+'CT'));const _0x1d38a8=_0x570444(_0x5df51d,_0xbb18fd,'do'+'ma'+'in',_0x1ada67);Object['as'+'si'+'gn'](_0x3d946a,_0x1d38a8);}if(_0x3590c9){const _0x1b0f81=_0x185b18==='di'+'re'+'ct'?_0x2031c1:_0x18f924;_0x1b0f81['pu'+'sh']('RU'+'LE'+'-S'+'ET'+','+_0x3590c9+','+(_0x185b18==='di'+'re'+'ct'?'DI'+'RE'+'CT':'RE'+'JE'+'CT')+(_0x6a534e?',n'+'o-'+'re'+'so'+'lv'+'e':''));const _0x1cc6f6=_0x570444(_0x3590c9,_0xbb18fd,'ip'+'ci'+'dr',_0x10e14b);Object['as'+'si'+'gn'](_0x3d946a,_0x1cc6f6);}}});const _0x2ee2ea=__name((_0x1d3d80,_0x7e25c4)=>{if(isDomain(_0x1d3d80))return'DO'+'MA'+'IN'+'-S'+'UF'+'FI'+'X,'+_0x1d3d80+','+_0x7e25c4;else{const _0x1af725=isIPv4(_0x1d3d80)?'IP'+'-C'+'ID'+'R':'IP'+'-C'+'ID'+'R6',_0x28e4b7=isIPv6(_0x1d3d80)?_0x1d3d80['re'+'pl'+'ac'+'e'](/\[|\]/g,''):_0x1d3d80,_0x4e4938=_0x1d3d80['in'+'cl'+'ud'+'es']('/')?'':isIPv4(_0x1d3d80)?'/3'+'2':'/1'+'28';return _0x1af725+','+_0x28e4b7+_0x4e4938+','+_0x7e25c4+(',n'+'o-'+'re'+'so'+'lv'+'e');}},'ge'+'ne'+'ra'+'te'+'Ru'+'le');[..._0x470b99,..._0x677c36]['fo'+'rE'+'ac'+'h']((_0x167e45,_0x5a3c5a)=>{const _0x57fffd=_0x5a3c5a<_0x470b99['le'+'ng'+'th'],_0x3b644b=_0x57fffd?'DI'+'RE'+'CT':'RE'+'JE'+'CT',_0x4b1106=_0x57fffd?isDomain(_0x167e45)?_0xafbe90:_0x2031c1:isDomain(_0x167e45)?_0x54d0cd:_0x18f924;_0x4b1106['pu'+'sh'](_0x2ee2ea(_0x167e45,_0x3b644b));});const _0x2c1462=[..._0xafbe90,..._0x2031c1,..._0x54d0cd,..._0x18f924];return _0x284dac&&_0x2c1462['pu'+'sh']('AN'+'D,'+'(('+'NE'+'TW'+'OR'+'K,'+'ud'+'p)'+',('+'DS'+'T-'+'PO'+'RT'+',4'+'43'+'))'+',R'+'EJ'+'EC'+'T'),_0x2c1462['pu'+'sh']('MA'+'TC'+'H,'+'✅\x20'+'Se'+'le'+'ct'+'or'),{'rules':_0x2c1462,'ruleProviders':_0x3d946a};}__name(buildClashRoutingRules,'bu'+'il'+'dC'+'la'+'sh'+'Ro'+'ut'+'in'+'gR'+'ul'+'es');function buildClashVLESSOutbound(_0x3c21d5,_0x72bf0,_0x45d7db,_0x4230da,_0x43deff,_0x56b175,_0x14424f){const _0x397605=globalThis['de'+'fa'+'ul'+'tH'+'tt'+'ps'+'Po'+'rt'+'s']['in'+'cl'+'ud'+'es'](_0x45d7db)?!![]:![],_0x194329=isIPv6(_0x72bf0)?_0x72bf0['re'+'pl'+'ac'+'e'](/\[|\]/g,''):_0x72bf0,_0x272f2={'name':_0x3c21d5,'type':'vl'+'es'+'s','server':_0x194329,'port':+_0x45d7db,'uuid':globalThis['us'+'er'+'ID'],'tls':_0x397605,'network':'ws','udp':!![],'ws-opts':{'path':_0x56b175,'headers':{'host':_0x4230da},'max-early-data':0xa00,'early-data-header-name':'Se'+'c-'+'We'+'bS'+'oc'+'ke'+'t-'+'Pr'+'ot'+'oc'+'ol'}};return _0x397605&&Object['as'+'si'+'gn'](_0x272f2,{'servername':_0x43deff,'alpn':['h2','ht'+'tp'+'/1'+'.1'],'client-fingerprint':'ra'+'nd'+'om','skip-cert-verify':_0x14424f}),_0x272f2;}__name(buildClashVLESSOutbound,'bu'+'il'+'dC'+'la'+'sh'+'VL'+'ES'+'SO'+'ut'+'bo'+'un'+'d');function buildClashTrojanOutbound(_0x9e7680,_0x59ed95,_0xf64355,_0x177884,_0x49bcd4,_0x9a5e55,_0x1ade93){const _0x263bc2=isIPv6(_0x59ed95)?_0x59ed95['re'+'pl'+'ac'+'e'](/\[|\]/g,''):_0x59ed95;return{'name':_0x9e7680,'type':'tr'+'oj'+'an','server':_0x263bc2,'port':+_0xf64355,'password':globalThis['tr'+'oj'+'an'+'Pa'+'ss'+'wo'+'rd'],'network':'ws','udp':!![],'ws-opts':{'path':_0x9a5e55,'headers':{'host':_0x177884},'max-early-data':0xa00,'early-data-header-name':'Se'+'c-'+'We'+'bS'+'oc'+'ke'+'t-'+'Pr'+'ot'+'oc'+'ol'},'sni':_0x49bcd4,'alpn':['h2','ht'+'tp'+'/1'+'.1'],'client-fingerprint':'ra'+'nd'+'om','skip-cert-verify':_0x1ade93};}__name(buildClashTrojanOutbound,'bu'+'il'+'dC'+'la'+'sh'+'Tr'+'oj'+'an'+'Ou'+'tb'+'ou'+'nd');function buildClashWarpOutbound(_0x17e6a8,_0x5b4c24,_0x4e414b,_0x471c10){const _0xa15a48=/\[(.*?)\]/,_0x5cef29=/[^:]*$/,_0x579a09=_0x4e414b['in'+'cl'+'ud'+'es']('[')?_0x4e414b['ma'+'tc'+'h'](_0xa15a48)[0x1]:_0x4e414b['sp'+'li'+'t'](':')[0x0],_0x1e8a8e=_0x4e414b['in'+'cl'+'ud'+'es']('[')?+_0x4e414b['ma'+'tc'+'h'](_0x5cef29)[0x0]:+_0x4e414b['sp'+'li'+'t'](':')[0x1],{warpIPv6:_0x4818bd,reserved:_0x4b7bb8,publicKey:_0x43ec62,privateKey:_0x4319ab}=extractWireguardParams(_0x17e6a8,_0x471c10);return{'name':_0x5b4c24,'type':'wi'+'re'+'gu'+'ar'+'d','ip':'17'+'2.'+'16'+'.0'+'.2'+'/3'+'2','ipv6':_0x4818bd,'private-key':_0x4319ab,'server':_0x579a09,'port':_0x1e8a8e,'public-key':_0x43ec62,'allowed-ips':['0.'+'0.'+'0.'+'0/'+'0','::'+'/0'],'reserved':_0x4b7bb8,'udp':!![],'mtu':0x500,'dialer-proxy':_0x471c10};}__name(buildClashWarpOutbound,'bu'+'il'+'dC'+'la'+'sh'+'Wa'+'rp'+'Ou'+'tb'+'ou'+'nd');function buildClashChainOutbound(_0xa02963){const _0x370863=_0x1ddd,_0x4094b4=a0_0x2178;if(['so'+'ck'+'s','ht'+'tp']['in'+'cl'+'ud'+'es'](_0xa02963['pr'+'ot'+'oc'+'ol'])){const {protocol:_0x134e97,server:_0x407f74,port:_0x4ac75d,user:_0x5695be,pass:_0x477a97}=_0xa02963,_0x2d066e=_0x134e97==='so'+'ck'+'s'?'so'+'ck'+'s5':_0x134e97;return{'name':'','type':_0x2d066e,'server':_0x407f74,'port':+_0x4ac75d,'dialer-proxy':'','username':_0x5695be,'password':_0x477a97};}const {server:_0x2fa1a0,port:_0x5b559f,uuid:_0x174318,flow:_0x238dcd,security:_0x2d1383,type:_0x99893,sni:_0x488917,fp:_0x14792b,alpn:_0x31862d,pbk:_0x49de06,sid:_0xb5cf77,headerType:_0x4a67ec,host:_0x49bad2,path:_0x580b21,serviceName:_0x4db39e}=_0xa02963,_0x32ac74={'name':_0x4094b4(0x19b)+'Ch'+'ai'+'n\x20'+'Be'+'st'+'\x20P'+'in'+'g\x20'+'💥','type':'vl'+'es'+'s','server':_0x2fa1a0,'port':+_0x5b559f,'udp':!![],'uuid':_0x174318,'flow':_0x238dcd,'network':_0x99893,'dialer-proxy':_0x370863(0x211)+'Be'+'st'+'\x20P'+'in'+'g\x20'+'💥'};if(_0x2d1383==='tl'+'s'){const _0x296018=_0x31862d?_0x31862d?.['sp'+'li'+'t'](','):[];Object['as'+'si'+'gn'](_0x32ac74,{'tls':!![],'servername':_0x488917,'alpn':_0x296018,'client-fingerprint':_0x14792b});}if(_0x2d1383==='re'+'al'+'it'+'y')Object['as'+'si'+'gn'](_0x32ac74,{'tls':!![],'servername':_0x488917,'client-fingerprint':_0x14792b,'reality-opts':{'public-key':_0x49de06,'short-id':_0xb5cf77}});if(_0x4a67ec==='ht'+'tp'){const _0x3361e0=_0x580b21?.['sp'+'li'+'t'](',');_0x32ac74['ht'+'tp'+'-o'+'pt'+'s']={'method':'GE'+'T','path':_0x3361e0,'headers':{'Connection':['ke'+'ep'+'-a'+'li'+'ve'],'Content-Type':['ap'+'pl'+'ic'+'at'+'io'+'n/'+'oc'+'te'+'t-'+'st'+'re'+'am']}};}if(_0x99893==='ws'){const _0x15e5d5=_0x580b21?.['sp'+'li'+'t']('?e'+'d=')[0x0],_0x403886=+_0x580b21?.['sp'+'li'+'t']('?e'+'d=')[0x1];_0x32ac74['ws'+'-o'+'pt'+'s']={'path':_0x15e5d5,'headers':{'Host':_0x49bad2},'max-early-data':_0x403886,'early-data-header-name':'Se'+'c-'+'We'+'bS'+'oc'+'ke'+'t-'+'Pr'+'ot'+'oc'+'ol'};}if(_0x99893==='gr'+'pc')_0x32ac74['gr'+'pc'+'-o'+'pt'+'s']={'grpc-service-name':_0x4db39e};return _0x32ac74;}__name(buildClashChainOutbound,'bu'+'il'+'dC'+'la'+'sh'+'Ch'+'ai'+'nO'+'ut'+'bo'+'un'+'d');async function getClashWarpConfig(_0x112a36,_0x439217){const _0x160fbe=_0x1ddd,_0x3a544a=a0_0x2178,{proxySettings:_0x3a6456,warpConfigs:_0x429a4e}=await getDataset(_0x112a36,_0x439217),{warpEndpoints:_0x2155be}=_0x3a6456,_0x26a9dc=structuredClone(clashConfigTemp);_0x26a9dc['dn'+'s']=await buildClashDNS(_0x3a6456,!![],!![]);const {rules:_0x4a3f6e,ruleProviders:_0x4c587b}=buildClashRoutingRules(_0x3a6456);_0x26a9dc['ru'+'le'+'s']=_0x4a3f6e,_0x26a9dc['ru'+'le'+'-p'+'ro'+'vi'+'de'+'rs']=_0x4c587b;const _0x2fd31e=_0x26a9dc['pr'+'ox'+'y-'+'gr'+'ou'+'ps'][0x0],_0x596b0c=_0x26a9dc['pr'+'ox'+'y-'+'gr'+'ou'+'ps'][0x1];_0x2fd31e['pr'+'ox'+'ie'+'s']=[_0x3a544a(0x19b)+'Wa'+'rp'+'\x20-'+'\x20B'+'es'+'t\x20'+'Pi'+'ng'+_0x3a544a(0x1bf),_0x160fbe(0x211)+'Wo'+'W\x20'+'-\x20'+'Be'+'st'+'\x20P'+'in'+'g\x20'+'🚀'],_0x596b0c['na'+'me']=_0x3a544a(0x19b)+'Wa'+'rp'+'\x20-'+'\x20B'+'es'+'t\x20'+'Pi'+'ng'+_0x3a544a(0x1bf),_0x596b0c['in'+'te'+'rv'+'al']=+_0x3a6456['be'+'st'+'Wa'+'rp'+'In'+'te'+'rv'+'al'],_0x26a9dc['pr'+'ox'+'y-'+'gr'+'ou'+'ps']['pu'+'sh'](structuredClone(_0x596b0c));const _0x38fe33=_0x26a9dc['pr'+'ox'+'y-'+'gr'+'ou'+'ps'][0x2];_0x38fe33['na'+'me']=_0x3a544a(0x19b)+'Wo'+'W\x20'+'-\x20'+'Be'+'st'+'\x20P'+'in'+'g\x20'+'🚀';let _0x437b4b=[],_0x2e59f9=[];return _0x2155be['sp'+'li'+'t'](',')['fo'+'rE'+'ac'+'h']((_0xc357a,_0x482b11)=>{const _0x3897f4=_0x160fbe,_0xf748aa=_0x3a544a,_0x3948b7=_0x3897f4(0x211)+(_0x482b11+0x1)+('\x20-'+'\x20W'+'ar'+'p\x20'+_0xf748aa(0x1a9)),_0x5d0200=_0xf748aa(0x19b)+(_0x482b11+0x1)+('\x20-'+'\x20W'+'oW'+'\x20🌍'),_0x29dceb=buildClashWarpOutbound(_0x429a4e,_0x3948b7,_0xc357a,''),_0x481149=buildClashWarpOutbound(_0x429a4e,_0x5d0200,_0xc357a,_0x3948b7);_0x26a9dc['pr'+'ox'+'ie'+'s']['pu'+'sh'](_0x481149,_0x29dceb),_0x437b4b['pu'+'sh'](_0x3948b7),_0x2e59f9['pu'+'sh'](_0x5d0200),_0x596b0c['pr'+'ox'+'ie'+'s']['pu'+'sh'](_0x3948b7),_0x38fe33['pr'+'ox'+'ie'+'s']['pu'+'sh'](_0x5d0200);}),_0x2fd31e['pr'+'ox'+'ie'+'s']['pu'+'sh'](..._0x437b4b,..._0x2e59f9),new Response(JSON['st'+'ri'+'ng'+'if'+'y'](_0x26a9dc,null,0x4),{'status':0xc8,'headers':{'Content-Type':'te'+'xt'+'/p'+'la'+'in'+';c'+'ha'+'rs'+'et'+'=u'+'tf'+'-8','Cache-Control':'no'+'-s'+'to'+'re'+',\x20'+'no'+'-c'+'ac'+'he'+',\x20'+'mu'+'st'+'-r'+'ev'+'al'+'id'+'at'+'e,'+'\x20p'+'ro'+'xy'+'-r'+'ev'+'al'+'id'+'at'+'e','CDN-Cache-Control':'no'+'-s'+'to'+'re'}});}__name(getClashWarpConfig,'ge'+'tC'+'la'+'sh'+'Wa'+'rp'+'Co'+'nf'+'ig');async function getClashNormalConfig(_0x472a4c,_0x1bdff7){const _0xf05359=a0_0x2178,{proxySettings:_0x374c46}=await getDataset(_0x472a4c,_0x1bdff7);let _0x252105;const {resolvedRemoteDNS:_0x1e7fd9,cleanIPs:_0x585531,proxyIP:_0x47e110,ports:_0x236c50,vlessConfigs:_0x41f164,trojanConfigs:_0x441039,outProxy:_0x5467f8,outProxyParams:_0x5063db,customCdnAddrs:_0xc03278,customCdnHost:_0x5bb58e,customCdnSni:_0x387f06,bestVLESSTrojanInterval:_0x21c348,enableIPv6:_0x3f9aae}=_0x374c46;if(_0x5467f8){const _0x84097e=JSON['pa'+'rs'+'e'](_0x5063db);try{_0x252105=buildClashChainOutbound(_0x84097e);}catch(_0x19e50a){console['lo'+'g']('An'+'\x20e'+'rr'+'or'+'\x20o'+'cc'+'ur'+'ed'+'\x20w'+'hi'+'le'+'\x20p'+'ar'+'si'+'ng'+'\x20c'+'ha'+'in'+'\x20p'+'ro'+'xy'+':\x20',_0x19e50a),_0x252105=void 0x0,await _0x1bdff7['bp'+'b']['pu'+'t']('pr'+'ox'+'yS'+'et'+'ti'+'ng'+'s',JSON['st'+'ri'+'ng'+'if'+'y']({..._0x374c46,'outProxy':'','outProxyParams':{}}));}}const _0x18dccc=structuredClone(clashConfigTemp);_0x1e7fd9['se'+'rv'+'er']?_0x18dccc['ho'+'st'+'s']={[_0x1e7fd9['se'+'rv'+'er']]:_0x1e7fd9['st'+'at'+'ic'+'IP'+'s']}:delete _0x18dccc['ho'+'st'+'s'];const {rules:_0x544686,ruleProviders:_0x1c50e6}=buildClashRoutingRules(_0x374c46);_0x18dccc['dn'+'s']=await buildClashDNS(_0x374c46,_0x252105,![]),_0x18dccc['ru'+'le'+'s']=_0x544686,_0x18dccc['ru'+'le'+'-p'+'ro'+'vi'+'de'+'rs']=_0x1c50e6;const _0x40cdba=_0x18dccc['pr'+'ox'+'y-'+'gr'+'ou'+'ps'][0x0],_0x28730a=_0x18dccc['pr'+'ox'+'y-'+'gr'+'ou'+'ps'][0x1];_0x40cdba['pr'+'ox'+'ie'+'s']=[_0xf05359(0x19b)+'Be'+'st'+'\x20P'+'in'+'g\x20'+'💥'],_0x28730a['na'+'me']=_0xf05359(0x19b)+'Be'+'st'+'\x20P'+'in'+'g\x20'+'💥',_0x28730a['in'+'te'+'rv'+'al']=+_0x21c348;const _0x2c22d5=await getConfigAddresses(_0x585531,_0x3f9aae),_0x5f5c06=_0xc03278?_0xc03278['sp'+'li'+'t'](','):[],_0x944038=[..._0x2c22d5,..._0x5f5c06];let _0x117268=0x1,_0x5b9896;const _0x25536f=[..._0x41f164?['VL'+'ES'+'S']:[],..._0x441039?['Tr'+'oj'+'an']:[]];return _0x25536f['fo'+'rE'+'ac'+'h'](_0x26e040=>{let _0x4847b8=0x1;_0x236c50['fo'+'rE'+'ac'+'h'](_0x5e042a=>{_0x944038['fo'+'rE'+'ac'+'h'](_0x32dec9=>{let _0x202d1d,_0x382a9f;const _0x1cfc3b=_0x5f5c06['in'+'cl'+'ud'+'es'](_0x32dec9),_0x142cf4=_0x1cfc3b?'C':'',_0x290298=_0x1cfc3b?_0x387f06:randomUpperCase(globalThis['ho'+'st'+'Na'+'me']),_0x377f5f=_0x1cfc3b?_0x5bb58e:globalThis['ho'+'st'+'Na'+'me'],_0x16f038=generateRemark(_0x4847b8,_0x5e042a,_0x32dec9,_0x585531,_0x26e040,_0x142cf4)['re'+'pl'+'ac'+'e']('\x20:'+'\x20','\x20-'+'\x20');_0x26e040==='VL'+'ES'+'S'&&(_0x5b9896='/'+getRandomPath(0x10)+(_0x47e110?'/'+btoa(_0x47e110):''),_0x202d1d=buildClashVLESSOutbound(_0x252105?'pr'+'ox'+'y-'+_0x117268:_0x16f038,_0x32dec9,_0x5e042a,_0x377f5f,_0x290298,_0x5b9896,_0x1cfc3b),_0x18dccc['pr'+'ox'+'ie'+'s']['pu'+'sh'](_0x202d1d),_0x40cdba['pr'+'ox'+'ie'+'s']['pu'+'sh'](_0x16f038),_0x28730a['pr'+'ox'+'ie'+'s']['pu'+'sh'](_0x16f038)),_0x26e040==='Tr'+'oj'+'an'&&globalThis['de'+'fa'+'ul'+'tH'+'tt'+'ps'+'Po'+'rt'+'s']['in'+'cl'+'ud'+'es'](_0x5e042a)&&(_0x5b9896='/t'+'r'+getRandomPath(0x10)+(_0x47e110?'/'+btoa(_0x47e110):''),_0x382a9f=buildClashTrojanOutbound(_0x252105?'pr'+'ox'+'y-'+_0x117268:_0x16f038,_0x32dec9,_0x5e042a,_0x377f5f,_0x290298,_0x5b9896,_0x1cfc3b),_0x18dccc['pr'+'ox'+'ie'+'s']['pu'+'sh'](_0x382a9f),_0x40cdba['pr'+'ox'+'ie'+'s']['pu'+'sh'](_0x16f038),_0x28730a['pr'+'ox'+'ie'+'s']['pu'+'sh'](_0x16f038));if(_0x252105){let _0x2c042a=structuredClone(_0x252105);_0x2c042a['na'+'me']=_0x16f038,_0x2c042a['di'+'al'+'er'+'-p'+'ro'+'xy']='pr'+'ox'+'y-'+_0x117268,_0x18dccc['pr'+'ox'+'ie'+'s']['pu'+'sh'](_0x2c042a);}_0x117268++,_0x4847b8++;});});}),new Response(JSON['st'+'ri'+'ng'+'if'+'y'](_0x18dccc,null,0x4),{'status':0xc8,'headers':{'Content-Type':'te'+'xt'+'/p'+'la'+'in'+';c'+'ha'+'rs'+'et'+'=u'+'tf'+'-8','Cache-Control':'no'+'-s'+'to'+'re'+',\x20'+'no'+'-c'+'ac'+'he'+',\x20'+'mu'+'st'+'-r'+'ev'+'al'+'id'+'at'+'e,'+'\x20p'+'ro'+'xy'+'-r'+'ev'+'al'+'id'+'at'+'e','CDN-Cache-Control':'no'+'-s'+'to'+'re'}});}__name(getClashNormalConfig,'ge'+'tC'+'la'+'sh'+'No'+'rm'+'al'+'Co'+'nf'+'ig');var clashConfigTemp={'mixed-port':0x1ed2,'ipv6':!![],'allow-lan':!![],'mode':'ru'+'le','log-level':'wa'+'rn'+'in'+'g','disable-keep-alive':![],'keep-alive-idle':0x1e,'keep-alive-interval':0x1e,'unified-delay':![],'geo-auto-update':!![],'geo-update-interval':0xa8,'external-controller':'12'+'7.'+'0.'+'0.'+'1:'+'90'+'90','external-ui-url':'ht'+'tp'+'s:'+'//'+'gi'+'th'+'ub'+'.c'+'om'+'/M'+'et'+'aC'+'ub'+'eX'+'/m'+'et'+'ac'+'ub'+'ex'+'d/'+'ar'+'ch'+'iv'+'e/'+'re'+'fs'+'/h'+'ea'+'ds'+'/g'+'h-'+'pa'+'ge'+'s.'+'zi'+'p','external-ui':'ui','external-controller-cors':{'allow-origins':['*'],'allow-private-network':!![]},'profile':{'store-selected':!![],'store-fake-ip':!![]},'hosts':{},'dns':{},'tun':{'enable':!![],'stack':'mi'+'xe'+'d','auto-route':!![],'strict-route':!![],'auto-detect-interface':!![],'dns-hijack':['an'+'y:'+'53'],'mtu':0x2328},'sniffer':{'enable':!![],'force-dns-mapping':!![],'parse-pure-ip':!![],'override-destination':![],'sniff':{'HTTP':{'ports':[0x50,0x1f90,0x22b0,0x804,0x822,0x826,0x82f]},'TLS':{'ports':[0x1bb,0x20fb,0x805,0x823,0x827,0x830]}}},'proxies':[],'proxy-groups':[{'name':'✅\x20'+'Se'+'le'+'ct'+'or','type':'se'+'le'+'ct','proxies':[]},{'name':'','type':'ur'+'l-'+'te'+'st','url':'ht'+'tp'+'s:'+'//'+'ww'+'w.'+'gs'+'ta'+'ti'+'c.'+'co'+'m/'+'ge'+'ne'+'ra'+'te'+'_2'+'04','interval':0x1e,'tolerance':0x32,'proxies':[]}],'rule-providers':{},'rules':[],'ntp':{'enable':!![],'server':'ti'+'me'+'.a'+'pp'+'le'+'.c'+'om','port':0x7b,'interval':0x1e}};async function getNormalConfigs(_0x3fcdff,_0x2b36ff){const _0x1697b8=_0x1ddd,{proxySettings:_0x170c54}=await getDataset(_0x3fcdff,_0x2b36ff),{cleanIPs:_0x3ed457,proxyIP:_0x4c0575,ports:_0x108c94,vlessConfigs:_0x487356,trojanConfigs:_0x40266d,outProxy:_0x3bf508,customCdnAddrs:_0x202f36,customCdnHost:_0x12a4d0,customCdnSni:_0x2e50e1,enableIPv6:_0x8009f5}=_0x170c54;let _0xf6d5f='',_0x4efe18='',_0x2201fa='',_0xe6ab78=0x1;const _0x5cbce2=await getConfigAddresses(_0x3ed457,_0x8009f5),_0x2ebfba=_0x202f36?_0x202f36['sp'+'li'+'t'](','):[],_0x3ac80b=[..._0x5cbce2,..._0x2ebfba],_0x54ba70=globalThis['cl'+'ie'+'nt']==='si'+'ng'+'bo'+'x'?'ht'+'tp'+'/1'+'.1':'h2'+',h'+'tt'+'p/'+'1.'+'1',_0x55ebac=encodeURIComponent(globalThis['tr'+'oj'+'an'+'Pa'+'ss'+'wo'+'rd']),_0x1de719=globalThis['cl'+'ie'+'nt']==='si'+'ng'+'bo'+'x'?'&e'+'h='+'Se'+'c-'+'We'+'bS'+'oc'+'ke'+'t-'+'Pr'+'ot'+'oc'+'ol'+'&e'+'d='+'25'+'60':encodeURIComponent('?e'+'d='+'25'+'60');_0x108c94['fo'+'rE'+'ac'+'h'](_0x4b8d8f=>{_0x3ac80b['fo'+'rE'+'ac'+'h']((_0xc57fee,_0xe20825)=>{const _0x40e6e8=_0xe20825>_0x5cbce2['le'+'ng'+'th']-0x1,_0x2f7d19=_0x40e6e8?'C':'',_0x3e2a43=_0x40e6e8?_0x2e50e1:randomUpperCase(globalThis['ho'+'st'+'Na'+'me']),_0x1ffa82=_0x40e6e8?_0x12a4d0:globalThis['ho'+'st'+'Na'+'me'],_0x482fb4=''+getRandomPath(0x10)+(_0x4c0575?'/'+encodeURIComponent(btoa(_0x4c0575)):'')+_0x1de719,_0x146d99=encodeURIComponent(generateRemark(_0xe6ab78,_0x4b8d8f,_0xc57fee,_0x3ed457,'VL'+'ES'+'S',_0x2f7d19)),_0x28a695=encodeURIComponent(generateRemark(_0xe6ab78,_0x4b8d8f,_0xc57fee,_0x3ed457,'Tr'+'oj'+'an',_0x2f7d19)),_0x2bb369=globalThis['de'+'fa'+'ul'+'tH'+'tt'+'ps'+'Po'+'rt'+'s']['in'+'cl'+'ud'+'es'](_0x4b8d8f)?'&s'+'ec'+'ur'+'it'+'y='+'tl'+'s&'+'sn'+'i='+_0x3e2a43+('&f'+'p='+'ra'+'nd'+'om'+'iz'+'ed'+'&a'+'lp'+'n=')+_0x54ba70:'&s'+'ec'+'ur'+'it'+'y='+'no'+'ne';_0x487356&&(_0xf6d5f+=''+atob('dm'+'xl'+'c3'+'M6'+'Ly'+'8=')+globalThis['us'+'er'+'ID']+'@'+_0xc57fee+':'+_0x4b8d8f+('?p'+'at'+'h='+'/')+_0x482fb4+('&e'+'nc'+'ry'+'pt'+'io'+'n='+'no'+'ne'+'&h'+'os'+'t=')+_0x1ffa82+('&t'+'yp'+'e='+'ws')+_0x2bb369+'#'+_0x146d99+'\x0a'),_0x40266d&&(_0x4efe18+=''+atob('dH'+'Jv'+'am'+'Fu'+'Oi'+'8v')+_0x55ebac+'@'+_0xc57fee+':'+_0x4b8d8f+('?p'+'at'+'h='+'/t'+'r')+_0x482fb4+('&h'+'os'+'t=')+_0x1ffa82+('&t'+'yp'+'e='+'ws')+_0x2bb369+'#'+_0x28a695+'\x0a'),_0xe6ab78++;});});if(_0x3bf508){let _0x5d4713='#'+encodeURIComponent(_0x1697b8(0x211)+'Ch'+'ai'+'n\x20'+'pr'+'ox'+'y\x20'+'🔗');if(_0x3bf508['st'+'ar'+'ts'+'Wi'+'th']('so'+'ck'+'s')||_0x3bf508['st'+'ar'+'ts'+'Wi'+'th']('ht'+'tp')){const _0x3a96fc=/^(?:socks|http):\/\/([^@]+)@/,_0x10cc07=_0x3bf508['ma'+'tc'+'h'](_0x3a96fc),_0x468e2d=_0x10cc07?_0x10cc07[0x1]:![];_0x2201fa=_0x468e2d?_0x3bf508['re'+'pl'+'ac'+'e'](_0x468e2d,btoa(_0x468e2d))+_0x5d4713:_0x3bf508+_0x5d4713;}else _0x2201fa=_0x3bf508['sp'+'li'+'t']('#')[0x0]+_0x5d4713;}const _0x246c10=btoa(_0xf6d5f+_0x4efe18+_0x2201fa);return new Response(_0x246c10,{'status':0xc8,'headers':{'Content-Type':'te'+'xt'+'/p'+'la'+'in'+';c'+'ha'+'rs'+'et'+'=u'+'tf'+'-8','Cache-Control':'no'+'-s'+'to'+'re'+',\x20'+'no'+'-c'+'ac'+'he'+',\x20'+'mu'+'st'+'-r'+'ev'+'al'+'id'+'at'+'e,'+'\x20p'+'ro'+'xy'+'-r'+'ev'+'al'+'id'+'at'+'e','CDN-Cache-Control':'no'+'-s'+'to'+'re'}});}__name(getNormalConfigs,'ge'+'tN'+'or'+'ma'+'lC'+'on'+'fi'+'gs');async function renderSecretsPage(){const _0x4c9fd3=_0x1ddd,_0xc6556d=a0_0x2178,_0x1de690='\x0a\x20'+'\x20\x20'+'\x20<'+'!D'+'OC'+'TY'+'PE'+'\x20h'+'tm'+'l>'+'\x0a\x20'+'\x20\x20'+'\x20<'+'ht'+'ml'+'\x20l'+'an'+'g='+'\x22e'+'n\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'<h'+'ea'+'d>'+'\x0a\x20'+'\x20\x20'+'\x20<'+'me'+'ta'+'\x20c'+'ha'+'rs'+'et'+'=\x22'+'UT'+'F-'+'8\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'<m'+'et'+'a\x20'+'na'+'me'+'=\x22'+'vi'+'ew'+'po'+'rt'+'\x22\x20'+'co'+'nt'+'en'+'t='+'\x22w'+'id'+'th'+'=d'+'ev'+'ic'+'e-'+'wi'+'dt'+'h,'+'\x20i'+'ni'+'ti'+'al'+'-s'+'ca'+'le'+'=1'+'.0'+'\x22>'+'\x0a\x20'+'\x20\x20'+'\x20<'+'ti'+'tl'+'e>'+'Us'+'er'+'\x20L'+'og'+'in'+'</'+'ti'+'tl'+'e>'+'\x0a\x20'+'\x20\x20'+'\x20<'+'st'+'yl'+'e>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20:'+'ro'+'ot'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20-'+'-c'+'ol'+'or'+':\x20'+'bl'+'ac'+'k;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20-'+'-p'+'ri'+'ma'+'ry'+'-c'+'ol'+'or'+':\x20'+'#0'+'96'+'39'+'f;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20-'+'-h'+'ea'+'de'+'r-'+'co'+'lo'+'r:'+'\x20#'+'09'+'63'+'9f'+';\x20'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20-'+'-b'+'ac'+'kg'+'ro'+'un'+'d-'+'co'+'lo'+'r:'+'\x20#'+'ff'+'f;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20-'+'-f'+'or'+'m-'+'ba'+'ck'+'gr'+'ou'+'nd'+'-c'+'ol'+'or'+':\x20'+'#f'+'9f'+'9f'+'9;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20-'+'-l'+'ab'+'le'+'-t'+'ex'+'t-'+'co'+'lo'+'r:'+'\x20#'+'33'+'3;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20-'+'-h'+'2-'+'co'+'lo'+'r:'+'\x20#'+'3b'+'3b'+'3b'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'--'+'bo'+'rd'+'er'+'-c'+'ol'+'or'+':\x20'+'#d'+'dd'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'--'+'in'+'pu'+'t-'+'ba'+'ck'+'gr'+'ou'+'nd'+'-c'+'ol'+'or'+':\x20'+'wh'+'it'+'e;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20-'+'-h'+'ea'+'de'+'r-'+'sh'+'ad'+'ow'+':\x20'+'2p'+'x\x20'+'2p'+'x\x20'+'4p'+'x\x20'+'rg'+'ba'+'(0'+',\x20'+'0,'+'\x200'+',\x20'+'0.'+'25'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20h'+'tm'+'l,'+'\x20b'+'od'+'y\x20'+'{\x20'+'he'+'ig'+'ht'+':\x20'+'10'+'0%'+';\x20'+'ma'+'rg'+'in'+':\x20'+'0;'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20b'+'od'+'y\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'fo'+'nt'+'-f'+'am'+'il'+'y:'+'\x20s'+'ys'+'te'+'m-'+'ui'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'ba'+'ck'+'gr'+'ou'+'nd'+'-c'+'ol'+'or'+':\x20'+'va'+'r('+'--'+'ba'+'ck'+'gr'+'ou'+'nd'+'-c'+'ol'+'or'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20p'+'os'+'it'+'io'+'n:'+'\x20r'+'el'+'at'+'iv'+'e;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20o'+'ve'+'rf'+'lo'+'w:'+'\x20h'+'id'+'de'+'n;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20t'+'ex'+'t-'+'al'+'ig'+'n:'+'\x20c'+'en'+'te'+'r;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20b'+'od'+'y.'+'da'+'rk'+'-m'+'od'+'e\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'--'+'co'+'lo'+'r:'+'\x20w'+'hi'+'te'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'--'+'pr'+'im'+'ar'+'y-'+'co'+'lo'+'r:'+'\x20#'+'09'+'63'+'9F'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'--'+'he'+'ad'+'er'+'-c'+'ol'+'or'+':\x20'+('#3'+'49'+'8D'+'B;'+'\x20\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'--'+'ba'+'ck'+'gr'+'ou'+'nd'+'-c'+'ol'+'or'+':\x20'+'#1'+'21'+'21'+'2;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20-'+'-f'+'or'+'m-'+'ba'+'ck'+'gr'+'ou'+'nd'+'-c'+'ol'+'or'+':\x20'+'#1'+'21'+'21'+'2;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20-'+'-l'+'ab'+'le'+'-t'+'ex'+'t-'+'co'+'lo'+'r:'+'\x20#'+'DF'+'DF'+'DF'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'--'+'h2'+'-c'+'ol'+'or'+':\x20'+'#D'+'5D'+'5D'+'5;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20-'+'-b'+'or'+'de'+'r-'+'co'+'lo'+'r:'+'\x20#'+'35'+'35'+'35'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'--'+'in'+'pu'+'t-'+'ba'+'ck'+'gr'+'ou'+'nd'+'-c'+'ol'+'or'+':\x20'+'#2'+'52'+'52'+'5;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20-'+'-h'+'ea'+'de'+'r-'+'sh'+'ad'+'ow'+':\x20'+'2p'+'x\x20'+'2p'+'x\x20'+'4p'+'x\x20'+'rg'+'ba'+'(2'+'55'+',\x20'+'25'+'5,'+'\x202'+'55'+',\x20'+'0.'+'25'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20h'+'tm'+'l,'+'\x20b'+'od'+'y\x20'+'{\x20'+'he'+'ig'+'ht'+':\x20'+'10'+'0%'+';\x20'+'ma'+'rg'+'in'+':\x20'+'0;'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20.'+'co'+'nt'+'ai'+'ne'+'r\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'po'+'si'+'ti'+'on'+':\x20'+'ab'+'so'+'lu'+'te'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'to'+'p:'+'\x205'+'0%'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'le'+'ft'+':\x20'+'50'+'%;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20t'+'ra'+'ns'+'fo'+'rm'+':\x20'+'tr'+'an'+'sl'+'at'+'e('+'-5'+'0%'+',\x20'+'-5'+'0%'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20w'+'id'+'th'+':\x20'+'90'+'%;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20h'+'1\x20'+'{\x20'+'fo'+'nt'+'-s'+'iz'+'e:'+'\x202'+'.5'+'re'+'m;'+'\x20t'+'ex'+'t-'+'al'+'ig'+'n:'+'\x20c'+'en'+'te'+'r;'+'\x20c'+'ol'+'or'+':\x20'+'va'+'r('+'--'+'he'+'ad'+'er'+'-c'+'ol'+'or'+');'+'\x20m'+'ar'+'gi'+'n:'+'\x200'+'\x20a'+'ut'+'o\x20'+'30'+'px'+';\x20'+'te'+'xt'+'-s'+'ha'+'do'+'w:'+'\x20v'+'ar'+'(-'+'-h'+'ea'+'de'+'r-'+'sh'+'ad'+'ow'+');'+'\x20}'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20h'+'2\x20'+'{\x20'+'te'+'xt'+'-a'+'li'+'gn'+':\x20'+'ce'+'nt'+'er'+';\x20'+'co'+'lo'+'r:'+'\x20v'+'ar'+'(-'+'-h'+'2-'+'co'+'lo'+'r)'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20s'+'tr'+'on'+'g\x20'+'{\x20'+'co'+'lo'+'r:'+'\x20v'+'ar'+'(-'+'-l'+'ab'+'le'+'-t'+'ex'+'t-'+'co'+'lo'+'r)'+';\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'.o'+'ut'+'pu'+'t-'+'co'+'nt'+'ai'+'ne'+'r\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'di'+'sp'+'la'+'y:'+'\x20f'+'le'+'x;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20a'+'li'+'gn'+'-i'+'te'+'ms'+':\x20'+'ce'+'nt'+'er'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'ju'+'st'+'if'+'y-'+'co'+'nt'+'en'+'t:'+'\x20s'+'pa'+'ce'+'-b'+'et'+'we'+'en'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'ma'+'rg'+'in'+':\x20'+'15'+'px'+'\x200'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'pa'+'dd'+'in'+'g:'+'\x201'+'0p'+'x;')+('\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20b'+'ac'+'kg'+'ro'+'un'+'d-'+'co'+'lo'+'r:'+'\x20v'+'ar'+'(-'+'-i'+'np'+'ut'+'-b'+'ac'+'kg'+'ro'+'un'+'d-'+'co'+'lo'+'r)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'lo'+'r:'+'\x20v'+'ar'+'(-'+'-l'+'ab'+'le'+'-t'+'ex'+'t-'+'co'+'lo'+'r)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'bo'+'rd'+'er'+':\x20'+'1p'+'x\x20'+'so'+'li'+'d\x20'+'va'+'r('+'--'+'bo'+'rd'+'er'+'-c'+'ol'+'or'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20b'+'or'+'de'+'r-'+'ra'+'di'+'us'+':\x20'+'5p'+'x;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20f'+'on'+'t-'+'fa'+'mi'+'ly'+':\x20'+'mo'+'no'+'sp'+'ac'+'e;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20f'+'on'+'t-'+'si'+'ze'+':\x20'+'1r'+'em'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'wo'+'rd'+'-w'+'ra'+'p:'+'\x20b'+'re'+'ak'+'-w'+'or'+'d;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20.'+'ou'+'tp'+'ut'+'\x20{'+'\x20f'+'le'+'x:'+'\x201'+';\x20'+'ma'+'rg'+'in'+'-r'+'ig'+'ht'+':\x20'+'10'+'px'+';\x20'+'ov'+'er'+'fl'+'ow'+'-w'+'ra'+'p:'+'\x20b'+'re'+'ak'+'-w'+'or'+'d;'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20.'+'co'+'py'+'-i'+'co'+'n\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'cu'+'rs'+'or'+':\x20'+'po'+'in'+'te'+'r;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20f'+'on'+'t-'+'si'+'ze'+':\x20'+'1.'+'2r'+'em'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'lo'+'r:'+'\x20v'+'ar'+'(-'+'-p'+'ri'+'ma'+'ry'+'-c'+'ol'+'or'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20t'+'ra'+'ns'+'it'+'io'+'n:'+'\x20c'+'ol'+'or'+'\x200'+'.2'+'s;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20.'+'co'+'py'+'-i'+'co'+'n:'+'ho'+'ve'+'r\x20'+'{\x20'+'co'+'lo'+'r:'+'\x20#'+'29'+'80'+'b9'+';\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'.f'+'or'+'m-'+'co'+'nt'+'ai'+'ne'+'r\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'ba'+'ck'+'gr'+'ou'+'nd'+':\x20'+'va'+'r('+'--'+'fo'+'rm'+'-b'+'ac'+'kg'+'ro'+'un'+'d-'+'co'+'lo'+'r)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'bo'+'rd'+'er'+':\x20'+'1p'+'x\x20'+'so'+'li'+'d\x20'+'va'+'r('+'--'+'bo'+'rd'+'er'+'-c'+'ol'+'or'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20b'+'or'+'de'+'r-'+'ra'+'di'+'us'+':\x20'+'10'+'px'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'bo'+'x-'+'sh'+'ad'+'ow'+':\x20'+'0\x20'+'2p'+'x\x20'+'4p'+'x\x20'+'rg'+'ba'+'(0'+',\x20'+'0,'+'\x200'+',\x20'+'0.'+'1)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'pa'+'dd'+'in'+'g:'+'\x202'+'0p'+'x;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20.'+'fo'+'rm'+'-c'+'on'+'tr'+'ol'+'\x20{'+'\x20m'+'ar'+'gi'+'n-'+'bo'+'tt'+'om'+':\x20'+'15'+'px'+';\x20'+'di'+'sp'+'la'+'y:'+'\x20f'+'le'+'x;'+'\x20a'+'li'+'gn'+'-i'+'te'+'ms'+':\x20'+'ce'+'nt'+'er'+';\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'bu'+'tt'+'on'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20d'+'is'+'pl'+'ay'+':\x20'+'bl'+'oc'+'k;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20w'+'id'+'th'+':\x20'+'10'+'0%'+';\x0a'+'\x20\x20'+'\x20\x20')+('\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'pa'+'dd'+'in'+'g:'+'\x201'+'0p'+'x;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20f'+'on'+'t-'+'si'+'ze'+':\x20'+'16'+'px'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'fo'+'nt'+'-w'+'ei'+'gh'+'t:'+'\x206'+'00'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'bo'+'rd'+'er'+':\x20'+'no'+'ne'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'bo'+'rd'+'er'+'-r'+'ad'+'iu'+'s:'+'\x205'+'px'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'lo'+'r:'+'\x20w'+'hi'+'te'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'ba'+'ck'+'gr'+'ou'+'nd'+'-c'+'ol'+'or'+':\x20'+'va'+'r('+'--'+'pr'+'im'+'ar'+'y-'+'co'+'lo'+'r)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'cu'+'rs'+'or'+':\x20'+'po'+'in'+'te'+'r;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20t'+'ra'+'ns'+'it'+'io'+'n:'+'\x20b'+'ac'+'kg'+'ro'+'un'+'d-'+'co'+'lo'+'r\x20'+'0.'+'3s'+'\x20e'+'as'+'e;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20.'+'bu'+'tt'+'on'+':h'+'ov'+'er'+',\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'bu'+'tt'+'on'+':f'+'oc'+'us'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20b'+'ac'+'kg'+'ro'+'un'+'d-'+'co'+'lo'+'r:'+'\x20#'+'29'+'80'+'b9'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'bo'+'x-'+'sh'+'ad'+'ow'+':\x20'+'0\x20'+'8p'+'x\x20'+'15'+'px'+'\x20r'+'gb'+'a('+'0,'+'\x200'+',\x20'+'0,'+'\x200'+'.3'+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20t'+'ra'+'ns'+'fo'+'rm'+':\x20'+'tr'+'an'+'sl'+'at'+'eY'+'(-'+'2p'+'x)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'bu'+'tt'+'on'+'.b'+'ut'+'to'+'n:'+'ho'+'ve'+'r\x20'+'{\x20'+'co'+'lo'+'r:'+'\x20w'+'hi'+'te'+';\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'.b'+'ut'+'to'+'n:'+'ac'+'ti'+'ve'+'\x20{'+'\x20t'+'ra'+'ns'+'fo'+'rm'+':\x20'+'tr'+'an'+'sl'+'at'+'eY'+'(1'+'px'+');'+'\x20b'+'ox'+'-s'+'ha'+'do'+'w:'+'\x200'+'\x203'+'px'+'\x207'+'px'+'\x20r'+'gb'+'a('+'0,'+'\x200'+',\x20'+'0,'+'\x200'+'.3'+');'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20@'+'me'+'di'+'a\x20'+'on'+'ly'+'\x20s'+'cr'+'ee'+'n\x20'+'an'+'d\x20'+'(m'+'in'+'-w'+'id'+'th'+':\x20'+'76'+'8p'+'x)'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20.'+'co'+'nt'+'ai'+'ne'+'r\x20'+'{\x20'+'wi'+'dt'+'h:'+'\x204'+'0%'+';\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'</'+'st'+'yl'+'e>'+'\x0a\x20'+'\x20\x20'+'\x20<'+'/h'+'ea'+'d>'+'\x0a\x20'+'\x20\x20'+'\x20<'+'bo'+'dy'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<d'+'iv'+'\x20c'+'la'+'ss'+'=\x22'+'co'+'nt'+'ai'+'ne'+'r\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<h'+'1>'+'BP'+'B\x20'+'Pa'+'ne'+'l\x20'+'<s'+'pa'+'n\x20'+'st'+'yl'+'e='+'\x22f'+'on'+'t-'+'si'+'ze'+':\x20'+'sm'+'al'+'le'+'r;'+'\x22>')+globalThis['pa'+'ne'+'lV'+'er'+'si'+'on']+('</'+'sp'+'an'+'>\x20'+_0xc6556d(0x19c)+'/h'+'1>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'di'+'v\x20'+'cl'+'as'+'s='+'\x22f'+'or'+'m-'+'co'+'nt'+'ai'+'ne'+'r\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<h'+'2>'+'Se'+'cr'+'et'+'s\x20'+'ge'+'ne'+'ra'+'to'+'r<'+'/h'+'2>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'di'+'v>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'st'+'ro'+'ng'+'>R'+'an'+'do'+'m\x20'+'UU'+'ID'+'</'+'st'+'ro'+'ng'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<d'+'iv'+'\x20c'+'la'+'ss'+'=\x22'+'ou'+'tp'+'ut'+'-c'+'on'+'ta'+'in'+'er'+'\x22>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'sp'+'an'+'\x20i'+'d='+'\x22u'+'ui'+'d\x22'+'\x20c'+'la'+'ss'+'=\x22'+'ou'+'tp'+'ut'+'\x22>'+'</'+'sp'+'an'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<s'+'pa'+'n\x20'+'cl'+'as'+'s='+'\x22c'+'op'+'y-'+'ic'+'on'+'\x22\x20'+'on'+'cl'+'ic'+'k='+'\x22c'+'op'+'yT'+'oC'+'li'+'pb'+'oa'+'rd'+'(\x27'+'uu'+'id'+'\x27)'+'\x22>'+_0x4c9fd3(0x20a)+'/s'+'pa'+'n>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/d'+'iv'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'di'+'v>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'di'+'v>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'st'+'ro'+'ng'+'>R'+'an'+'do'+'m\x20'+'Tr'+'oj'+'an'+'\x20P'+'as'+'sw'+'or'+'d<'+'/s'+'tr'+'on'+'g>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'di'+'v\x20'+'cl'+'as'+'s='+'\x22o'+'ut'+'pu'+'t-'+'co'+'nt'+'ai'+'ne'+'r\x22'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<s'+'pa'+'n\x20'+'id'+'=\x22'+'tr'+'oj'+'an'+'-p'+'as'+'sw'+'or'+'d\x22'+'\x20c'+'la'+'ss'+'=\x22'+'ou'+'tp'+'ut'+'\x22>'+'</'+'sp'+'an'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<s'+'pa'+'n\x20'+'cl'+'as'+'s='+'\x22c'+'op'+'y-'+'ic'+'on'+'\x22\x20'+'on'+'cl'+'ic'+'k='+'\x22c'+'op'+'yT'+'oC'+'li'+'pb'+'oa'+'rd'+'(\x27'+'tr'+'oj'+'an'+'-p'+'as'+'sw'+'or'+'d\x27'+')\x22'+_0xc6556d(0x1a6)+'</'+'sp'+'an'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'di'+'v>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/d'+'iv'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'<b'+'ut'+'to'+'n\x20'+'cl'+'as'+'s='+'\x22b'+'ut'+'to'+'n\x22'+'\x20o'+'nc'+'li'+'ck'+'=\x22'+'ge'+'ne'+'ra'+'te'+'Cr'+'ed'+'en'+'ti'+'al'+'s('+')\x22'+'>G'+'en'+'er'+'at'+'e\x20'+'Ag'+'ai'+'n\x20'+_0xc6556d(0x1cb)+'/b'+'ut'+'to'+'n>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'/d'+'iv'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'di'+'v>'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20<'+'sc'+'ri'+'pt'+'>\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'lo'+'ca'+'lS'+'to'+'ra'+'ge'+'.g'+'et'+'It'+'em'+'(\x27'+'da'+'rk'+'Mo'+'de'+'\x27)'+'\x20='+'=='+'\x20\x27'+'en'+'ab'+'le'+'d\x27'+'\x20&'+'&\x20'+'do'+'cu'+'me'+('nt'+'.b'+'od'+'y.'+'cl'+'as'+'sL'+'is'+'t.'+'ad'+'d('+'\x27d'+'ar'+'k-'+'mo'+'de'+'\x27)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'fu'+'nc'+'ti'+'on'+'\x20g'+'en'+'er'+'at'+'eU'+'UI'+'D('+')\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'re'+'tu'+'rn'+'\x20c'+'ry'+'pt'+'o.'+'ra'+'nd'+'om'+'UU'+'ID'+'()'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20f'+'un'+'ct'+'io'+'n\x20'+'ge'+'ne'+'ra'+'te'+'St'+'ro'+'ng'+'Pa'+'ss'+'wo'+'rd'+'()'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20c'+'ha'+'rs'+'et'+'\x20='+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x22'+'AB'+'CD'+'EF'+'GH'+'IJ'+'KL'+'MN'+'OP'+'QR'+'ST'+'UV'+'WX'+'YZ'+'ab'+'cd'+'ef'+'gh'+'ij'+'kl'+'mn'+'op'+'qr'+'st'+'uv'+'wx'+'yz'+'01'+'23'+'45'+'67'+'89'+'!@'+'#$'+'%^'+'&*'+'()'+'_+'+'[]'+'{}'+'|;'+':\x27'+',.'+'<>'+'?\x22'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'le'+'t\x20'+'pa'+'ss'+'wo'+'rd'+'\x20='+'\x20\x27'+'\x27;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20r'+'an'+'do'+'mV'+'al'+'ue'+'s\x20'+'=\x20'+'ne'+'w\x20'+'Ui'+'nt'+'8A'+'rr'+'ay'+'(1'+'6)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'cr'+'yp'+'to'+'.g'+'et'+'Ra'+'nd'+'om'+'Va'+'lu'+'es'+'(r'+'an'+'do'+'mV'+'al'+'ue'+'s)'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20f'+'or'+'\x20('+'le'+'t\x20'+'i\x20'+'=\x20'+'0;'+'\x20i'+'\x20<'+'\x201'+'6;'+'\x20i'+'++'+')\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'pa'+'ss'+'wo'+'rd'+'\x20+'+'=\x20'+'ch'+'ar'+'se'+'t['+'ra'+'nd'+'om'+'Va'+'lu'+'es'+'[i'+']\x20'+'%\x20'+'ch'+'ar'+'se'+'t.'+'le'+'ng'+'th'+'];'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20}'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20r'+'et'+'ur'+'n\x20'+'pa'+'ss'+'wo'+'rd'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20f'+'un'+'ct'+'io'+'n\x20'+'ge'+'ne'+'ra'+'te'+'Cr'+'ed'+'en'+'ti'+'al'+'s('+')\x20'+'{\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'co'+'ns'+'t\x20'+'uu'+'id'+'\x20='+'\x20g'+'en'+'er'+'at'+'eU'+'UI'+'D('+');'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20p'+'as'+'sw'+'or'+'d\x20'+'=\x20'+'ge'+'ne'+'ra'+'te'+'St'+'ro'+'ng'+'Pa'+'ss'+'wo'+'rd'+'()'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20d'+'oc'+'um'+'en'+'t.'+'ge'+'tE'+'le'+'me'+'nt'+'By'+'Id'+'(\x27'+'uu'+'id'+'\x27)'+'.t'+'ex'+'tC'+'on'+'te'+'nt'+'\x20='+'\x20u'+'ui'+'d;'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20d'+'oc'+'um'+'en'+'t.'+'ge'+'tE'+'le'+'me'+'nt'+'By'+'Id'+'(\x27'+'tr'+'oj'+'an'+'-p'+'as'+'sw'+'or'+'d\x27'+').'+'te'+'xt'+'Co'+'nt'+'en'+'t\x20'+'=\x20'+'pa'+'ss'+'wo'+'rd'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x0a\x20'+'\x20\x20'+'\x20\x20')+('\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20f'+'un'+'ct'+'io'+'n\x20'+'co'+'py'+'To'+'Cl'+'ip'+'bo'+'ar'+'d('+'el'+'em'+'en'+'tI'+'d)'+'\x20{'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20c'+'on'+'st'+'\x20t'+'ex'+'tT'+'oC'+'op'+'y\x20'+'=\x20'+'do'+'cu'+'me'+'nt'+'.g'+'et'+'El'+'em'+'en'+'tB'+'yI'+'d('+'el'+'em'+'en'+'tI'+'d)'+'.t'+'ex'+'tC'+'on'+'te'+'nt'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'na'+'vi'+'ga'+'to'+'r.'+'cl'+'ip'+'bo'+'ar'+'d.'+'wr'+'it'+'eT'+'ex'+'t('+'te'+'xt'+'To'+'Co'+'py'+')\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'.t'+'he'+'n('+'()'+'\x20='+'>\x20'+'al'+'er'+'t('+'\x27✅'+'\x20C'+'op'+'ie'+'d\x20'+'to'+'\x20c'+'li'+'pb'+'oa'+'rd'+'!\x27'+'))'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20.'+'ca'+'tc'+'h('+'er'+'r\x20'+'=>'+'\x20c'+'on'+'so'+'le'+'.e'+'rr'+'or'+'(\x27'+'Fa'+'il'+'ed'+'\x20t'+'o\x20'+'co'+'py'+'\x20t'+'ex'+'t:'+'\x27,'+'\x20e'+'rr'+'))'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'}\x0a'+'\x20\x20'+'\x20\x20'+'\x0a\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20g'+'en'+'er'+'at'+'eC'+'re'+'de'+'nt'+'ia'+'ls'+'()'+';\x0a'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'\x20\x20'+'</'+'sc'+'ri'+'pt'+'>\x0a'+'\x20\x20'+'\x20\x20'+'</'+'bo'+'dy'+'>\x0a'+'\x20\x20'+'\x20\x20'+'</'+'ht'+'ml'+'>'));return new Response(_0x1de690,{'status':0xc8,'headers':{'Content-Type':'te'+'xt'+'/h'+'tm'+'l'}});}__name(renderSecretsPage,'re'+'nd'+'er'+'Se'+'cr'+'et'+'sP'+'ag'+'e');var worker_default={async 'fetch'(_0x3806e2,_0x26138e){try{initializeParams(_0x3806e2,_0x26138e);const _0x312a59=_0x3806e2['he'+'ad'+'er'+'s']['ge'+'t']('Up'+'gr'+'ad'+'e');if(!_0x312a59||_0x312a59!=='we'+'bs'+'oc'+'ke'+'t')switch(globalThis['pa'+'th'+'Na'+'me']){case'/u'+'pd'+'at'+'e-'+'wa'+'rp':return await updateWarpConfigs(_0x3806e2,_0x26138e);case'/s'+'ub'+'/'+globalThis['us'+'er'+'ID']:if(globalThis['cl'+'ie'+'nt']==='sf'+'a')return await getSingBoxCustomConfig(_0x3806e2,_0x26138e,![]);if(globalThis['cl'+'ie'+'nt']==='cl'+'as'+'h')return await getClashNormalConfig(_0x3806e2,_0x26138e);if(globalThis['cl'+'ie'+'nt']==='xr'+'ay')return await getXrayCustomConfigs(_0x3806e2,_0x26138e,![]);return await getNormalConfigs(_0x3806e2,_0x26138e);case'/f'+'ra'+'gs'+'ub'+'/'+globalThis['us'+'er'+'ID']:return globalThis['cl'+'ie'+'nt']==='hi'+'dd'+'if'+'y'?await getSingBoxCustomConfig(_0x3806e2,_0x26138e,!![]):await getXrayCustomConfigs(_0x3806e2,_0x26138e,!![]);case'/w'+'ar'+'ps'+'ub'+'/'+globalThis['us'+'er'+'ID']:if(globalThis['cl'+'ie'+'nt']==='cl'+'as'+'h')return await getClashWarpConfig(_0x3806e2,_0x26138e);if(globalThis['cl'+'ie'+'nt']==='si'+'ng'+'bo'+'x'||globalThis['cl'+'ie'+'nt']==='hi'+'dd'+'if'+'y')return await getSingBoxWarpConfig(_0x3806e2,_0x26138e,globalThis['cl'+'ie'+'nt']);return await getXrayWarpConfigs(_0x3806e2,_0x26138e,globalThis['cl'+'ie'+'nt']);case'/p'+'an'+'el':return await handlePanel(_0x3806e2,_0x26138e);case'/l'+'og'+'in':return await login(_0x3806e2,_0x26138e);case'/l'+'og'+'ou'+'t':return logout();case'/p'+'an'+'el'+'/p'+'as'+'sw'+'or'+'d':return await resetPassword(_0x3806e2,_0x26138e);case'/m'+'y-'+'ip':return await getMyIP(_0x3806e2);case'/s'+'ec'+'re'+'ts':return await renderSecretsPage();default:return await fallback(_0x3806e2);}else return globalThis['pa'+'th'+'Na'+'me']['st'+'ar'+'ts'+'Wi'+'th']('/t'+'r')?await trojanOverWSHandler(_0x3806e2):await vlessOverWSHandler(_0x3806e2);}catch(_0x1c3ec8){return await renderErrorPage(_0x1c3ec8);}}};export{worker_default as default};/*! Bundled license information:
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __require = /* @__PURE__ */ ((x) => typeof require !== "undefined" ? require : typeof Proxy !== "undefined" ? new Proxy(x, {
+  get: (a, b) => (typeof require !== "undefined" ? require : a)[b]
+}) : x)(function(x) {
+  if (typeof require !== "undefined")
+    return require.apply(this, arguments);
+  throw new Error('Dynamic require of "' + x + '" is not supported');
+});
+var __commonJS = (cb, mod) => function __require2() {
+  return mod || (0, cb[__getOwnPropNames(cb)[0]])((mod = { exports: {} }).exports, mod), mod.exports;
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+
+// (disabled):crypto
+var require_crypto = __commonJS({
+  "(disabled):crypto"() {
+  }
+});
+
+// node_modules/tweetnacl/nacl-fast.js
+var require_nacl_fast = __commonJS({
+  "node_modules/tweetnacl/nacl-fast.js"(exports, module) {
+    (function(nacl2) {
+      "use strict";
+      var gf = function(init) {
+        var i, r = new Float64Array(16);
+        if (init)
+          for (i = 0; i < init.length; i++)
+            r[i] = init[i];
+        return r;
+      };
+      var randombytes = function() {
+        throw new Error("no PRNG");
+      };
+      var _0 = new Uint8Array(16);
+      var _9 = new Uint8Array(32);
+      _9[0] = 9;
+      var gf0 = gf(), gf1 = gf([1]), _121665 = gf([56129, 1]), D = gf([30883, 4953, 19914, 30187, 55467, 16705, 2637, 112, 59544, 30585, 16505, 36039, 65139, 11119, 27886, 20995]), D2 = gf([61785, 9906, 39828, 60374, 45398, 33411, 5274, 224, 53552, 61171, 33010, 6542, 64743, 22239, 55772, 9222]), X = gf([54554, 36645, 11616, 51542, 42930, 38181, 51040, 26924, 56412, 64982, 57905, 49316, 21502, 52590, 14035, 8553]), Y = gf([26200, 26214, 26214, 26214, 26214, 26214, 26214, 26214, 26214, 26214, 26214, 26214, 26214, 26214, 26214, 26214]), I = gf([41136, 18958, 6951, 50414, 58488, 44335, 6150, 12099, 55207, 15867, 153, 11085, 57099, 20417, 9344, 11139]);
+      function ts64(x, i, h, l) {
+        x[i] = h >> 24 & 255;
+        x[i + 1] = h >> 16 & 255;
+        x[i + 2] = h >> 8 & 255;
+        x[i + 3] = h & 255;
+        x[i + 4] = l >> 24 & 255;
+        x[i + 5] = l >> 16 & 255;
+        x[i + 6] = l >> 8 & 255;
+        x[i + 7] = l & 255;
+      }
+      function vn(x, xi, y, yi, n) {
+        var i, d = 0;
+        for (i = 0; i < n; i++)
+          d |= x[xi + i] ^ y[yi + i];
+        return (1 & d - 1 >>> 8) - 1;
+      }
+      function crypto_verify_16(x, xi, y, yi) {
+        return vn(x, xi, y, yi, 16);
+      }
+      function crypto_verify_32(x, xi, y, yi) {
+        return vn(x, xi, y, yi, 32);
+      }
+      function core_salsa20(o, p, k, c) {
+        var j0 = c[0] & 255 | (c[1] & 255) << 8 | (c[2] & 255) << 16 | (c[3] & 255) << 24, j1 = k[0] & 255 | (k[1] & 255) << 8 | (k[2] & 255) << 16 | (k[3] & 255) << 24, j2 = k[4] & 255 | (k[5] & 255) << 8 | (k[6] & 255) << 16 | (k[7] & 255) << 24, j3 = k[8] & 255 | (k[9] & 255) << 8 | (k[10] & 255) << 16 | (k[11] & 255) << 24, j4 = k[12] & 255 | (k[13] & 255) << 8 | (k[14] & 255) << 16 | (k[15] & 255) << 24, j5 = c[4] & 255 | (c[5] & 255) << 8 | (c[6] & 255) << 16 | (c[7] & 255) << 24, j6 = p[0] & 255 | (p[1] & 255) << 8 | (p[2] & 255) << 16 | (p[3] & 255) << 24, j7 = p[4] & 255 | (p[5] & 255) << 8 | (p[6] & 255) << 16 | (p[7] & 255) << 24, j8 = p[8] & 255 | (p[9] & 255) << 8 | (p[10] & 255) << 16 | (p[11] & 255) << 24, j9 = p[12] & 255 | (p[13] & 255) << 8 | (p[14] & 255) << 16 | (p[15] & 255) << 24, j10 = c[8] & 255 | (c[9] & 255) << 8 | (c[10] & 255) << 16 | (c[11] & 255) << 24, j11 = k[16] & 255 | (k[17] & 255) << 8 | (k[18] & 255) << 16 | (k[19] & 255) << 24, j12 = k[20] & 255 | (k[21] & 255) << 8 | (k[22] & 255) << 16 | (k[23] & 255) << 24, j13 = k[24] & 255 | (k[25] & 255) << 8 | (k[26] & 255) << 16 | (k[27] & 255) << 24, j14 = k[28] & 255 | (k[29] & 255) << 8 | (k[30] & 255) << 16 | (k[31] & 255) << 24, j15 = c[12] & 255 | (c[13] & 255) << 8 | (c[14] & 255) << 16 | (c[15] & 255) << 24;
+        var x0 = j0, x1 = j1, x2 = j2, x3 = j3, x4 = j4, x5 = j5, x6 = j6, x7 = j7, x8 = j8, x9 = j9, x10 = j10, x11 = j11, x12 = j12, x13 = j13, x14 = j14, x15 = j15, u;
+        for (var i = 0; i < 20; i += 2) {
+          u = x0 + x12 | 0;
+          x4 ^= u << 7 | u >>> 32 - 7;
+          u = x4 + x0 | 0;
+          x8 ^= u << 9 | u >>> 32 - 9;
+          u = x8 + x4 | 0;
+          x12 ^= u << 13 | u >>> 32 - 13;
+          u = x12 + x8 | 0;
+          x0 ^= u << 18 | u >>> 32 - 18;
+          u = x5 + x1 | 0;
+          x9 ^= u << 7 | u >>> 32 - 7;
+          u = x9 + x5 | 0;
+          x13 ^= u << 9 | u >>> 32 - 9;
+          u = x13 + x9 | 0;
+          x1 ^= u << 13 | u >>> 32 - 13;
+          u = x1 + x13 | 0;
+          x5 ^= u << 18 | u >>> 32 - 18;
+          u = x10 + x6 | 0;
+          x14 ^= u << 7 | u >>> 32 - 7;
+          u = x14 + x10 | 0;
+          x2 ^= u << 9 | u >>> 32 - 9;
+          u = x2 + x14 | 0;
+          x6 ^= u << 13 | u >>> 32 - 13;
+          u = x6 + x2 | 0;
+          x10 ^= u << 18 | u >>> 32 - 18;
+          u = x15 + x11 | 0;
+          x3 ^= u << 7 | u >>> 32 - 7;
+          u = x3 + x15 | 0;
+          x7 ^= u << 9 | u >>> 32 - 9;
+          u = x7 + x3 | 0;
+          x11 ^= u << 13 | u >>> 32 - 13;
+          u = x11 + x7 | 0;
+          x15 ^= u << 18 | u >>> 32 - 18;
+          u = x0 + x3 | 0;
+          x1 ^= u << 7 | u >>> 32 - 7;
+          u = x1 + x0 | 0;
+          x2 ^= u << 9 | u >>> 32 - 9;
+          u = x2 + x1 | 0;
+          x3 ^= u << 13 | u >>> 32 - 13;
+          u = x3 + x2 | 0;
+          x0 ^= u << 18 | u >>> 32 - 18;
+          u = x5 + x4 | 0;
+          x6 ^= u << 7 | u >>> 32 - 7;
+          u = x6 + x5 | 0;
+          x7 ^= u << 9 | u >>> 32 - 9;
+          u = x7 + x6 | 0;
+          x4 ^= u << 13 | u >>> 32 - 13;
+          u = x4 + x7 | 0;
+          x5 ^= u << 18 | u >>> 32 - 18;
+          u = x10 + x9 | 0;
+          x11 ^= u << 7 | u >>> 32 - 7;
+          u = x11 + x10 | 0;
+          x8 ^= u << 9 | u >>> 32 - 9;
+          u = x8 + x11 | 0;
+          x9 ^= u << 13 | u >>> 32 - 13;
+          u = x9 + x8 | 0;
+          x10 ^= u << 18 | u >>> 32 - 18;
+          u = x15 + x14 | 0;
+          x12 ^= u << 7 | u >>> 32 - 7;
+          u = x12 + x15 | 0;
+          x13 ^= u << 9 | u >>> 32 - 9;
+          u = x13 + x12 | 0;
+          x14 ^= u << 13 | u >>> 32 - 13;
+          u = x14 + x13 | 0;
+          x15 ^= u << 18 | u >>> 32 - 18;
+        }
+        x0 = x0 + j0 | 0;
+        x1 = x1 + j1 | 0;
+        x2 = x2 + j2 | 0;
+        x3 = x3 + j3 | 0;
+        x4 = x4 + j4 | 0;
+        x5 = x5 + j5 | 0;
+        x6 = x6 + j6 | 0;
+        x7 = x7 + j7 | 0;
+        x8 = x8 + j8 | 0;
+        x9 = x9 + j9 | 0;
+        x10 = x10 + j10 | 0;
+        x11 = x11 + j11 | 0;
+        x12 = x12 + j12 | 0;
+        x13 = x13 + j13 | 0;
+        x14 = x14 + j14 | 0;
+        x15 = x15 + j15 | 0;
+        o[0] = x0 >>> 0 & 255;
+        o[1] = x0 >>> 8 & 255;
+        o[2] = x0 >>> 16 & 255;
+        o[3] = x0 >>> 24 & 255;
+        o[4] = x1 >>> 0 & 255;
+        o[5] = x1 >>> 8 & 255;
+        o[6] = x1 >>> 16 & 255;
+        o[7] = x1 >>> 24 & 255;
+        o[8] = x2 >>> 0 & 255;
+        o[9] = x2 >>> 8 & 255;
+        o[10] = x2 >>> 16 & 255;
+        o[11] = x2 >>> 24 & 255;
+        o[12] = x3 >>> 0 & 255;
+        o[13] = x3 >>> 8 & 255;
+        o[14] = x3 >>> 16 & 255;
+        o[15] = x3 >>> 24 & 255;
+        o[16] = x4 >>> 0 & 255;
+        o[17] = x4 >>> 8 & 255;
+        o[18] = x4 >>> 16 & 255;
+        o[19] = x4 >>> 24 & 255;
+        o[20] = x5 >>> 0 & 255;
+        o[21] = x5 >>> 8 & 255;
+        o[22] = x5 >>> 16 & 255;
+        o[23] = x5 >>> 24 & 255;
+        o[24] = x6 >>> 0 & 255;
+        o[25] = x6 >>> 8 & 255;
+        o[26] = x6 >>> 16 & 255;
+        o[27] = x6 >>> 24 & 255;
+        o[28] = x7 >>> 0 & 255;
+        o[29] = x7 >>> 8 & 255;
+        o[30] = x7 >>> 16 & 255;
+        o[31] = x7 >>> 24 & 255;
+        o[32] = x8 >>> 0 & 255;
+        o[33] = x8 >>> 8 & 255;
+        o[34] = x8 >>> 16 & 255;
+        o[35] = x8 >>> 24 & 255;
+        o[36] = x9 >>> 0 & 255;
+        o[37] = x9 >>> 8 & 255;
+        o[38] = x9 >>> 16 & 255;
+        o[39] = x9 >>> 24 & 255;
+        o[40] = x10 >>> 0 & 255;
+        o[41] = x10 >>> 8 & 255;
+        o[42] = x10 >>> 16 & 255;
+        o[43] = x10 >>> 24 & 255;
+        o[44] = x11 >>> 0 & 255;
+        o[45] = x11 >>> 8 & 255;
+        o[46] = x11 >>> 16 & 255;
+        o[47] = x11 >>> 24 & 255;
+        o[48] = x12 >>> 0 & 255;
+        o[49] = x12 >>> 8 & 255;
+        o[50] = x12 >>> 16 & 255;
+        o[51] = x12 >>> 24 & 255;
+        o[52] = x13 >>> 0 & 255;
+        o[53] = x13 >>> 8 & 255;
+        o[54] = x13 >>> 16 & 255;
+        o[55] = x13 >>> 24 & 255;
+        o[56] = x14 >>> 0 & 255;
+        o[57] = x14 >>> 8 & 255;
+        o[58] = x14 >>> 16 & 255;
+        o[59] = x14 >>> 24 & 255;
+        o[60] = x15 >>> 0 & 255;
+        o[61] = x15 >>> 8 & 255;
+        o[62] = x15 >>> 16 & 255;
+        o[63] = x15 >>> 24 & 255;
+      }
+      function core_hsalsa20(o, p, k, c) {
+        var j0 = c[0] & 255 | (c[1] & 255) << 8 | (c[2] & 255) << 16 | (c[3] & 255) << 24, j1 = k[0] & 255 | (k[1] & 255) << 8 | (k[2] & 255) << 16 | (k[3] & 255) << 24, j2 = k[4] & 255 | (k[5] & 255) << 8 | (k[6] & 255) << 16 | (k[7] & 255) << 24, j3 = k[8] & 255 | (k[9] & 255) << 8 | (k[10] & 255) << 16 | (k[11] & 255) << 24, j4 = k[12] & 255 | (k[13] & 255) << 8 | (k[14] & 255) << 16 | (k[15] & 255) << 24, j5 = c[4] & 255 | (c[5] & 255) << 8 | (c[6] & 255) << 16 | (c[7] & 255) << 24, j6 = p[0] & 255 | (p[1] & 255) << 8 | (p[2] & 255) << 16 | (p[3] & 255) << 24, j7 = p[4] & 255 | (p[5] & 255) << 8 | (p[6] & 255) << 16 | (p[7] & 255) << 24, j8 = p[8] & 255 | (p[9] & 255) << 8 | (p[10] & 255) << 16 | (p[11] & 255) << 24, j9 = p[12] & 255 | (p[13] & 255) << 8 | (p[14] & 255) << 16 | (p[15] & 255) << 24, j10 = c[8] & 255 | (c[9] & 255) << 8 | (c[10] & 255) << 16 | (c[11] & 255) << 24, j11 = k[16] & 255 | (k[17] & 255) << 8 | (k[18] & 255) << 16 | (k[19] & 255) << 24, j12 = k[20] & 255 | (k[21] & 255) << 8 | (k[22] & 255) << 16 | (k[23] & 255) << 24, j13 = k[24] & 255 | (k[25] & 255) << 8 | (k[26] & 255) << 16 | (k[27] & 255) << 24, j14 = k[28] & 255 | (k[29] & 255) << 8 | (k[30] & 255) << 16 | (k[31] & 255) << 24, j15 = c[12] & 255 | (c[13] & 255) << 8 | (c[14] & 255) << 16 | (c[15] & 255) << 24;
+        var x0 = j0, x1 = j1, x2 = j2, x3 = j3, x4 = j4, x5 = j5, x6 = j6, x7 = j7, x8 = j8, x9 = j9, x10 = j10, x11 = j11, x12 = j12, x13 = j13, x14 = j14, x15 = j15, u;
+        for (var i = 0; i < 20; i += 2) {
+          u = x0 + x12 | 0;
+          x4 ^= u << 7 | u >>> 32 - 7;
+          u = x4 + x0 | 0;
+          x8 ^= u << 9 | u >>> 32 - 9;
+          u = x8 + x4 | 0;
+          x12 ^= u << 13 | u >>> 32 - 13;
+          u = x12 + x8 | 0;
+          x0 ^= u << 18 | u >>> 32 - 18;
+          u = x5 + x1 | 0;
+          x9 ^= u << 7 | u >>> 32 - 7;
+          u = x9 + x5 | 0;
+          x13 ^= u << 9 | u >>> 32 - 9;
+          u = x13 + x9 | 0;
+          x1 ^= u << 13 | u >>> 32 - 13;
+          u = x1 + x13 | 0;
+          x5 ^= u << 18 | u >>> 32 - 18;
+          u = x10 + x6 | 0;
+          x14 ^= u << 7 | u >>> 32 - 7;
+          u = x14 + x10 | 0;
+          x2 ^= u << 9 | u >>> 32 - 9;
+          u = x2 + x14 | 0;
+          x6 ^= u << 13 | u >>> 32 - 13;
+          u = x6 + x2 | 0;
+          x10 ^= u << 18 | u >>> 32 - 18;
+          u = x15 + x11 | 0;
+          x3 ^= u << 7 | u >>> 32 - 7;
+          u = x3 + x15 | 0;
+          x7 ^= u << 9 | u >>> 32 - 9;
+          u = x7 + x3 | 0;
+          x11 ^= u << 13 | u >>> 32 - 13;
+          u = x11 + x7 | 0;
+          x15 ^= u << 18 | u >>> 32 - 18;
+          u = x0 + x3 | 0;
+          x1 ^= u << 7 | u >>> 32 - 7;
+          u = x1 + x0 | 0;
+          x2 ^= u << 9 | u >>> 32 - 9;
+          u = x2 + x1 | 0;
+          x3 ^= u << 13 | u >>> 32 - 13;
+          u = x3 + x2 | 0;
+          x0 ^= u << 18 | u >>> 32 - 18;
+          u = x5 + x4 | 0;
+          x6 ^= u << 7 | u >>> 32 - 7;
+          u = x6 + x5 | 0;
+          x7 ^= u << 9 | u >>> 32 - 9;
+          u = x7 + x6 | 0;
+          x4 ^= u << 13 | u >>> 32 - 13;
+          u = x4 + x7 | 0;
+          x5 ^= u << 18 | u >>> 32 - 18;
+          u = x10 + x9 | 0;
+          x11 ^= u << 7 | u >>> 32 - 7;
+          u = x11 + x10 | 0;
+          x8 ^= u << 9 | u >>> 32 - 9;
+          u = x8 + x11 | 0;
+          x9 ^= u << 13 | u >>> 32 - 13;
+          u = x9 + x8 | 0;
+          x10 ^= u << 18 | u >>> 32 - 18;
+          u = x15 + x14 | 0;
+          x12 ^= u << 7 | u >>> 32 - 7;
+          u = x12 + x15 | 0;
+          x13 ^= u << 9 | u >>> 32 - 9;
+          u = x13 + x12 | 0;
+          x14 ^= u << 13 | u >>> 32 - 13;
+          u = x14 + x13 | 0;
+          x15 ^= u << 18 | u >>> 32 - 18;
+        }
+        o[0] = x0 >>> 0 & 255;
+        o[1] = x0 >>> 8 & 255;
+        o[2] = x0 >>> 16 & 255;
+        o[3] = x0 >>> 24 & 255;
+        o[4] = x5 >>> 0 & 255;
+        o[5] = x5 >>> 8 & 255;
+        o[6] = x5 >>> 16 & 255;
+        o[7] = x5 >>> 24 & 255;
+        o[8] = x10 >>> 0 & 255;
+        o[9] = x10 >>> 8 & 255;
+        o[10] = x10 >>> 16 & 255;
+        o[11] = x10 >>> 24 & 255;
+        o[12] = x15 >>> 0 & 255;
+        o[13] = x15 >>> 8 & 255;
+        o[14] = x15 >>> 16 & 255;
+        o[15] = x15 >>> 24 & 255;
+        o[16] = x6 >>> 0 & 255;
+        o[17] = x6 >>> 8 & 255;
+        o[18] = x6 >>> 16 & 255;
+        o[19] = x6 >>> 24 & 255;
+        o[20] = x7 >>> 0 & 255;
+        o[21] = x7 >>> 8 & 255;
+        o[22] = x7 >>> 16 & 255;
+        o[23] = x7 >>> 24 & 255;
+        o[24] = x8 >>> 0 & 255;
+        o[25] = x8 >>> 8 & 255;
+        o[26] = x8 >>> 16 & 255;
+        o[27] = x8 >>> 24 & 255;
+        o[28] = x9 >>> 0 & 255;
+        o[29] = x9 >>> 8 & 255;
+        o[30] = x9 >>> 16 & 255;
+        o[31] = x9 >>> 24 & 255;
+      }
+      function crypto_core_salsa20(out, inp, k, c) {
+        core_salsa20(out, inp, k, c);
+      }
+      function crypto_core_hsalsa20(out, inp, k, c) {
+        core_hsalsa20(out, inp, k, c);
+      }
+      var sigma = new Uint8Array([101, 120, 112, 97, 110, 100, 32, 51, 50, 45, 98, 121, 116, 101, 32, 107]);
+      function crypto_stream_salsa20_xor(c, cpos, m, mpos, b, n, k) {
+        var z = new Uint8Array(16), x = new Uint8Array(64);
+        var u, i;
+        for (i = 0; i < 16; i++)
+          z[i] = 0;
+        for (i = 0; i < 8; i++)
+          z[i] = n[i];
+        while (b >= 64) {
+          crypto_core_salsa20(x, z, k, sigma);
+          for (i = 0; i < 64; i++)
+            c[cpos + i] = m[mpos + i] ^ x[i];
+          u = 1;
+          for (i = 8; i < 16; i++) {
+            u = u + (z[i] & 255) | 0;
+            z[i] = u & 255;
+            u >>>= 8;
+          }
+          b -= 64;
+          cpos += 64;
+          mpos += 64;
+        }
+        if (b > 0) {
+          crypto_core_salsa20(x, z, k, sigma);
+          for (i = 0; i < b; i++)
+            c[cpos + i] = m[mpos + i] ^ x[i];
+        }
+        return 0;
+      }
+      function crypto_stream_salsa20(c, cpos, b, n, k) {
+        var z = new Uint8Array(16), x = new Uint8Array(64);
+        var u, i;
+        for (i = 0; i < 16; i++)
+          z[i] = 0;
+        for (i = 0; i < 8; i++)
+          z[i] = n[i];
+        while (b >= 64) {
+          crypto_core_salsa20(x, z, k, sigma);
+          for (i = 0; i < 64; i++)
+            c[cpos + i] = x[i];
+          u = 1;
+          for (i = 8; i < 16; i++) {
+            u = u + (z[i] & 255) | 0;
+            z[i] = u & 255;
+            u >>>= 8;
+          }
+          b -= 64;
+          cpos += 64;
+        }
+        if (b > 0) {
+          crypto_core_salsa20(x, z, k, sigma);
+          for (i = 0; i < b; i++)
+            c[cpos + i] = x[i];
+        }
+        return 0;
+      }
+      function crypto_stream(c, cpos, d, n, k) {
+        var s = new Uint8Array(32);
+        crypto_core_hsalsa20(s, n, k, sigma);
+        var sn = new Uint8Array(8);
+        for (var i = 0; i < 8; i++)
+          sn[i] = n[i + 16];
+        return crypto_stream_salsa20(c, cpos, d, sn, s);
+      }
+      function crypto_stream_xor(c, cpos, m, mpos, d, n, k) {
+        var s = new Uint8Array(32);
+        crypto_core_hsalsa20(s, n, k, sigma);
+        var sn = new Uint8Array(8);
+        for (var i = 0; i < 8; i++)
+          sn[i] = n[i + 16];
+        return crypto_stream_salsa20_xor(c, cpos, m, mpos, d, sn, s);
+      }
+      var poly1305 = function(key) {
+        this.buffer = new Uint8Array(16);
+        this.r = new Uint16Array(10);
+        this.h = new Uint16Array(10);
+        this.pad = new Uint16Array(8);
+        this.leftover = 0;
+        this.fin = 0;
+        var t0, t1, t2, t3, t4, t5, t6, t7;
+        t0 = key[0] & 255 | (key[1] & 255) << 8;
+        this.r[0] = t0 & 8191;
+        t1 = key[2] & 255 | (key[3] & 255) << 8;
+        this.r[1] = (t0 >>> 13 | t1 << 3) & 8191;
+        t2 = key[4] & 255 | (key[5] & 255) << 8;
+        this.r[2] = (t1 >>> 10 | t2 << 6) & 7939;
+        t3 = key[6] & 255 | (key[7] & 255) << 8;
+        this.r[3] = (t2 >>> 7 | t3 << 9) & 8191;
+        t4 = key[8] & 255 | (key[9] & 255) << 8;
+        this.r[4] = (t3 >>> 4 | t4 << 12) & 255;
+        this.r[5] = t4 >>> 1 & 8190;
+        t5 = key[10] & 255 | (key[11] & 255) << 8;
+        this.r[6] = (t4 >>> 14 | t5 << 2) & 8191;
+        t6 = key[12] & 255 | (key[13] & 255) << 8;
+        this.r[7] = (t5 >>> 11 | t6 << 5) & 8065;
+        t7 = key[14] & 255 | (key[15] & 255) << 8;
+        this.r[8] = (t6 >>> 8 | t7 << 8) & 8191;
+        this.r[9] = t7 >>> 5 & 127;
+        this.pad[0] = key[16] & 255 | (key[17] & 255) << 8;
+        this.pad[1] = key[18] & 255 | (key[19] & 255) << 8;
+        this.pad[2] = key[20] & 255 | (key[21] & 255) << 8;
+        this.pad[3] = key[22] & 255 | (key[23] & 255) << 8;
+        this.pad[4] = key[24] & 255 | (key[25] & 255) << 8;
+        this.pad[5] = key[26] & 255 | (key[27] & 255) << 8;
+        this.pad[6] = key[28] & 255 | (key[29] & 255) << 8;
+        this.pad[7] = key[30] & 255 | (key[31] & 255) << 8;
+      };
+      poly1305.prototype.blocks = function(m, mpos, bytes) {
+        var hibit = this.fin ? 0 : 1 << 11;
+        var t0, t1, t2, t3, t4, t5, t6, t7, c;
+        var d0, d1, d2, d3, d4, d5, d6, d7, d8, d9;
+        var h0 = this.h[0], h1 = this.h[1], h2 = this.h[2], h3 = this.h[3], h4 = this.h[4], h5 = this.h[5], h6 = this.h[6], h7 = this.h[7], h8 = this.h[8], h9 = this.h[9];
+        var r0 = this.r[0], r1 = this.r[1], r2 = this.r[2], r3 = this.r[3], r4 = this.r[4], r5 = this.r[5], r6 = this.r[6], r7 = this.r[7], r8 = this.r[8], r9 = this.r[9];
+        while (bytes >= 16) {
+          t0 = m[mpos + 0] & 255 | (m[mpos + 1] & 255) << 8;
+          h0 += t0 & 8191;
+          t1 = m[mpos + 2] & 255 | (m[mpos + 3] & 255) << 8;
+          h1 += (t0 >>> 13 | t1 << 3) & 8191;
+          t2 = m[mpos + 4] & 255 | (m[mpos + 5] & 255) << 8;
+          h2 += (t1 >>> 10 | t2 << 6) & 8191;
+          t3 = m[mpos + 6] & 255 | (m[mpos + 7] & 255) << 8;
+          h3 += (t2 >>> 7 | t3 << 9) & 8191;
+          t4 = m[mpos + 8] & 255 | (m[mpos + 9] & 255) << 8;
+          h4 += (t3 >>> 4 | t4 << 12) & 8191;
+          h5 += t4 >>> 1 & 8191;
+          t5 = m[mpos + 10] & 255 | (m[mpos + 11] & 255) << 8;
+          h6 += (t4 >>> 14 | t5 << 2) & 8191;
+          t6 = m[mpos + 12] & 255 | (m[mpos + 13] & 255) << 8;
+          h7 += (t5 >>> 11 | t6 << 5) & 8191;
+          t7 = m[mpos + 14] & 255 | (m[mpos + 15] & 255) << 8;
+          h8 += (t6 >>> 8 | t7 << 8) & 8191;
+          h9 += t7 >>> 5 | hibit;
+          c = 0;
+          d0 = c;
+          d0 += h0 * r0;
+          d0 += h1 * (5 * r9);
+          d0 += h2 * (5 * r8);
+          d0 += h3 * (5 * r7);
+          d0 += h4 * (5 * r6);
+          c = d0 >>> 13;
+          d0 &= 8191;
+          d0 += h5 * (5 * r5);
+          d0 += h6 * (5 * r4);
+          d0 += h7 * (5 * r3);
+          d0 += h8 * (5 * r2);
+          d0 += h9 * (5 * r1);
+          c += d0 >>> 13;
+          d0 &= 8191;
+          d1 = c;
+          d1 += h0 * r1;
+          d1 += h1 * r0;
+          d1 += h2 * (5 * r9);
+          d1 += h3 * (5 * r8);
+          d1 += h4 * (5 * r7);
+          c = d1 >>> 13;
+          d1 &= 8191;
+          d1 += h5 * (5 * r6);
+          d1 += h6 * (5 * r5);
+          d1 += h7 * (5 * r4);
+          d1 += h8 * (5 * r3);
+          d1 += h9 * (5 * r2);
+          c += d1 >>> 13;
+          d1 &= 8191;
+          d2 = c;
+          d2 += h0 * r2;
+          d2 += h1 * r1;
+          d2 += h2 * r0;
+          d2 += h3 * (5 * r9);
+          d2 += h4 * (5 * r8);
+          c = d2 >>> 13;
+          d2 &= 8191;
+          d2 += h5 * (5 * r7);
+          d2 += h6 * (5 * r6);
+          d2 += h7 * (5 * r5);
+          d2 += h8 * (5 * r4);
+          d2 += h9 * (5 * r3);
+          c += d2 >>> 13;
+          d2 &= 8191;
+          d3 = c;
+          d3 += h0 * r3;
+          d3 += h1 * r2;
+          d3 += h2 * r1;
+          d3 += h3 * r0;
+          d3 += h4 * (5 * r9);
+          c = d3 >>> 13;
+          d3 &= 8191;
+          d3 += h5 * (5 * r8);
+          d3 += h6 * (5 * r7);
+          d3 += h7 * (5 * r6);
+          d3 += h8 * (5 * r5);
+          d3 += h9 * (5 * r4);
+          c += d3 >>> 13;
+          d3 &= 8191;
+          d4 = c;
+          d4 += h0 * r4;
+          d4 += h1 * r3;
+          d4 += h2 * r2;
+          d4 += h3 * r1;
+          d4 += h4 * r0;
+          c = d4 >>> 13;
+          d4 &= 8191;
+          d4 += h5 * (5 * r9);
+          d4 += h6 * (5 * r8);
+          d4 += h7 * (5 * r7);
+          d4 += h8 * (5 * r6);
+          d4 += h9 * (5 * r5);
+          c += d4 >>> 13;
+          d4 &= 8191;
+          d5 = c;
+          d5 += h0 * r5;
+          d5 += h1 * r4;
+          d5 += h2 * r3;
+          d5 += h3 * r2;
+          d5 += h4 * r1;
+          c = d5 >>> 13;
+          d5 &= 8191;
+          d5 += h5 * r0;
+          d5 += h6 * (5 * r9);
+          d5 += h7 * (5 * r8);
+          d5 += h8 * (5 * r7);
+          d5 += h9 * (5 * r6);
+          c += d5 >>> 13;
+          d5 &= 8191;
+          d6 = c;
+          d6 += h0 * r6;
+          d6 += h1 * r5;
+          d6 += h2 * r4;
+          d6 += h3 * r3;
+          d6 += h4 * r2;
+          c = d6 >>> 13;
+          d6 &= 8191;
+          d6 += h5 * r1;
+          d6 += h6 * r0;
+          d6 += h7 * (5 * r9);
+          d6 += h8 * (5 * r8);
+          d6 += h9 * (5 * r7);
+          c += d6 >>> 13;
+          d6 &= 8191;
+          d7 = c;
+          d7 += h0 * r7;
+          d7 += h1 * r6;
+          d7 += h2 * r5;
+          d7 += h3 * r4;
+          d7 += h4 * r3;
+          c = d7 >>> 13;
+          d7 &= 8191;
+          d7 += h5 * r2;
+          d7 += h6 * r1;
+          d7 += h7 * r0;
+          d7 += h8 * (5 * r9);
+          d7 += h9 * (5 * r8);
+          c += d7 >>> 13;
+          d7 &= 8191;
+          d8 = c;
+          d8 += h0 * r8;
+          d8 += h1 * r7;
+          d8 += h2 * r6;
+          d8 += h3 * r5;
+          d8 += h4 * r4;
+          c = d8 >>> 13;
+          d8 &= 8191;
+          d8 += h5 * r3;
+          d8 += h6 * r2;
+          d8 += h7 * r1;
+          d8 += h8 * r0;
+          d8 += h9 * (5 * r9);
+          c += d8 >>> 13;
+          d8 &= 8191;
+          d9 = c;
+          d9 += h0 * r9;
+          d9 += h1 * r8;
+          d9 += h2 * r7;
+          d9 += h3 * r6;
+          d9 += h4 * r5;
+          c = d9 >>> 13;
+          d9 &= 8191;
+          d9 += h5 * r4;
+          d9 += h6 * r3;
+          d9 += h7 * r2;
+          d9 += h8 * r1;
+          d9 += h9 * r0;
+          c += d9 >>> 13;
+          d9 &= 8191;
+          c = (c << 2) + c | 0;
+          c = c + d0 | 0;
+          d0 = c & 8191;
+          c = c >>> 13;
+          d1 += c;
+          h0 = d0;
+          h1 = d1;
+          h2 = d2;
+          h3 = d3;
+          h4 = d4;
+          h5 = d5;
+          h6 = d6;
+          h7 = d7;
+          h8 = d8;
+          h9 = d9;
+          mpos += 16;
+          bytes -= 16;
+        }
+        this.h[0] = h0;
+        this.h[1] = h1;
+        this.h[2] = h2;
+        this.h[3] = h3;
+        this.h[4] = h4;
+        this.h[5] = h5;
+        this.h[6] = h6;
+        this.h[7] = h7;
+        this.h[8] = h8;
+        this.h[9] = h9;
+      };
+      poly1305.prototype.finish = function(mac, macpos) {
+        var g = new Uint16Array(10);
+        var c, mask, f, i;
+        if (this.leftover) {
+          i = this.leftover;
+          this.buffer[i++] = 1;
+          for (; i < 16; i++)
+            this.buffer[i] = 0;
+          this.fin = 1;
+          this.blocks(this.buffer, 0, 16);
+        }
+        c = this.h[1] >>> 13;
+        this.h[1] &= 8191;
+        for (i = 2; i < 10; i++) {
+          this.h[i] += c;
+          c = this.h[i] >>> 13;
+          this.h[i] &= 8191;
+        }
+        this.h[0] += c * 5;
+        c = this.h[0] >>> 13;
+        this.h[0] &= 8191;
+        this.h[1] += c;
+        c = this.h[1] >>> 13;
+        this.h[1] &= 8191;
+        this.h[2] += c;
+        g[0] = this.h[0] + 5;
+        c = g[0] >>> 13;
+        g[0] &= 8191;
+        for (i = 1; i < 10; i++) {
+          g[i] = this.h[i] + c;
+          c = g[i] >>> 13;
+          g[i] &= 8191;
+        }
+        g[9] -= 1 << 13;
+        mask = (c ^ 1) - 1;
+        for (i = 0; i < 10; i++)
+          g[i] &= mask;
+        mask = ~mask;
+        for (i = 0; i < 10; i++)
+          this.h[i] = this.h[i] & mask | g[i];
+        this.h[0] = (this.h[0] | this.h[1] << 13) & 65535;
+        this.h[1] = (this.h[1] >>> 3 | this.h[2] << 10) & 65535;
+        this.h[2] = (this.h[2] >>> 6 | this.h[3] << 7) & 65535;
+        this.h[3] = (this.h[3] >>> 9 | this.h[4] << 4) & 65535;
+        this.h[4] = (this.h[4] >>> 12 | this.h[5] << 1 | this.h[6] << 14) & 65535;
+        this.h[5] = (this.h[6] >>> 2 | this.h[7] << 11) & 65535;
+        this.h[6] = (this.h[7] >>> 5 | this.h[8] << 8) & 65535;
+        this.h[7] = (this.h[8] >>> 8 | this.h[9] << 5) & 65535;
+        f = this.h[0] + this.pad[0];
+        this.h[0] = f & 65535;
+        for (i = 1; i < 8; i++) {
+          f = (this.h[i] + this.pad[i] | 0) + (f >>> 16) | 0;
+          this.h[i] = f & 65535;
+        }
+        mac[macpos + 0] = this.h[0] >>> 0 & 255;
+        mac[macpos + 1] = this.h[0] >>> 8 & 255;
+        mac[macpos + 2] = this.h[1] >>> 0 & 255;
+        mac[macpos + 3] = this.h[1] >>> 8 & 255;
+        mac[macpos + 4] = this.h[2] >>> 0 & 255;
+        mac[macpos + 5] = this.h[2] >>> 8 & 255;
+        mac[macpos + 6] = this.h[3] >>> 0 & 255;
+        mac[macpos + 7] = this.h[3] >>> 8 & 255;
+        mac[macpos + 8] = this.h[4] >>> 0 & 255;
+        mac[macpos + 9] = this.h[4] >>> 8 & 255;
+        mac[macpos + 10] = this.h[5] >>> 0 & 255;
+        mac[macpos + 11] = this.h[5] >>> 8 & 255;
+        mac[macpos + 12] = this.h[6] >>> 0 & 255;
+        mac[macpos + 13] = this.h[6] >>> 8 & 255;
+        mac[macpos + 14] = this.h[7] >>> 0 & 255;
+        mac[macpos + 15] = this.h[7] >>> 8 & 255;
+      };
+      poly1305.prototype.update = function(m, mpos, bytes) {
+        var i, want;
+        if (this.leftover) {
+          want = 16 - this.leftover;
+          if (want > bytes)
+            want = bytes;
+          for (i = 0; i < want; i++)
+            this.buffer[this.leftover + i] = m[mpos + i];
+          bytes -= want;
+          mpos += want;
+          this.leftover += want;
+          if (this.leftover < 16)
+            return;
+          this.blocks(this.buffer, 0, 16);
+          this.leftover = 0;
+        }
+        if (bytes >= 16) {
+          want = bytes - bytes % 16;
+          this.blocks(m, mpos, want);
+          mpos += want;
+          bytes -= want;
+        }
+        if (bytes) {
+          for (i = 0; i < bytes; i++)
+            this.buffer[this.leftover + i] = m[mpos + i];
+          this.leftover += bytes;
+        }
+      };
+      function crypto_onetimeauth(out, outpos, m, mpos, n, k) {
+        var s = new poly1305(k);
+        s.update(m, mpos, n);
+        s.finish(out, outpos);
+        return 0;
+      }
+      function crypto_onetimeauth_verify(h, hpos, m, mpos, n, k) {
+        var x = new Uint8Array(16);
+        crypto_onetimeauth(x, 0, m, mpos, n, k);
+        return crypto_verify_16(h, hpos, x, 0);
+      }
+      function crypto_secretbox(c, m, d, n, k) {
+        var i;
+        if (d < 32)
+          return -1;
+        crypto_stream_xor(c, 0, m, 0, d, n, k);
+        crypto_onetimeauth(c, 16, c, 32, d - 32, c);
+        for (i = 0; i < 16; i++)
+          c[i] = 0;
+        return 0;
+      }
+      function crypto_secretbox_open(m, c, d, n, k) {
+        var i;
+        var x = new Uint8Array(32);
+        if (d < 32)
+          return -1;
+        crypto_stream(x, 0, 32, n, k);
+        if (crypto_onetimeauth_verify(c, 16, c, 32, d - 32, x) !== 0)
+          return -1;
+        crypto_stream_xor(m, 0, c, 0, d, n, k);
+        for (i = 0; i < 32; i++)
+          m[i] = 0;
+        return 0;
+      }
+      function set25519(r, a) {
+        var i;
+        for (i = 0; i < 16; i++)
+          r[i] = a[i] | 0;
+      }
+      function car25519(o) {
+        var i, v, c = 1;
+        for (i = 0; i < 16; i++) {
+          v = o[i] + c + 65535;
+          c = Math.floor(v / 65536);
+          o[i] = v - c * 65536;
+        }
+        o[0] += c - 1 + 37 * (c - 1);
+      }
+      function sel25519(p, q, b) {
+        var t, c = ~(b - 1);
+        for (var i = 0; i < 16; i++) {
+          t = c & (p[i] ^ q[i]);
+          p[i] ^= t;
+          q[i] ^= t;
+        }
+      }
+      function pack25519(o, n) {
+        var i, j, b;
+        var m = gf(), t = gf();
+        for (i = 0; i < 16; i++)
+          t[i] = n[i];
+        car25519(t);
+        car25519(t);
+        car25519(t);
+        for (j = 0; j < 2; j++) {
+          m[0] = t[0] - 65517;
+          for (i = 1; i < 15; i++) {
+            m[i] = t[i] - 65535 - (m[i - 1] >> 16 & 1);
+            m[i - 1] &= 65535;
+          }
+          m[15] = t[15] - 32767 - (m[14] >> 16 & 1);
+          b = m[15] >> 16 & 1;
+          m[14] &= 65535;
+          sel25519(t, m, 1 - b);
+        }
+        for (i = 0; i < 16; i++) {
+          o[2 * i] = t[i] & 255;
+          o[2 * i + 1] = t[i] >> 8;
+        }
+      }
+      function neq25519(a, b) {
+        var c = new Uint8Array(32), d = new Uint8Array(32);
+        pack25519(c, a);
+        pack25519(d, b);
+        return crypto_verify_32(c, 0, d, 0);
+      }
+      function par25519(a) {
+        var d = new Uint8Array(32);
+        pack25519(d, a);
+        return d[0] & 1;
+      }
+      function unpack25519(o, n) {
+        var i;
+        for (i = 0; i < 16; i++)
+          o[i] = n[2 * i] + (n[2 * i + 1] << 8);
+        o[15] &= 32767;
+      }
+      function A(o, a, b) {
+        for (var i = 0; i < 16; i++)
+          o[i] = a[i] + b[i];
+      }
+      function Z(o, a, b) {
+        for (var i = 0; i < 16; i++)
+          o[i] = a[i] - b[i];
+      }
+      function M(o, a, b) {
+        var v, c, t0 = 0, t1 = 0, t2 = 0, t3 = 0, t4 = 0, t5 = 0, t6 = 0, t7 = 0, t8 = 0, t9 = 0, t10 = 0, t11 = 0, t12 = 0, t13 = 0, t14 = 0, t15 = 0, t16 = 0, t17 = 0, t18 = 0, t19 = 0, t20 = 0, t21 = 0, t22 = 0, t23 = 0, t24 = 0, t25 = 0, t26 = 0, t27 = 0, t28 = 0, t29 = 0, t30 = 0, b0 = b[0], b1 = b[1], b2 = b[2], b3 = b[3], b4 = b[4], b5 = b[5], b6 = b[6], b7 = b[7], b8 = b[8], b9 = b[9], b10 = b[10], b11 = b[11], b12 = b[12], b13 = b[13], b14 = b[14], b15 = b[15];
+        v = a[0];
+        t0 += v * b0;
+        t1 += v * b1;
+        t2 += v * b2;
+        t3 += v * b3;
+        t4 += v * b4;
+        t5 += v * b5;
+        t6 += v * b6;
+        t7 += v * b7;
+        t8 += v * b8;
+        t9 += v * b9;
+        t10 += v * b10;
+        t11 += v * b11;
+        t12 += v * b12;
+        t13 += v * b13;
+        t14 += v * b14;
+        t15 += v * b15;
+        v = a[1];
+        t1 += v * b0;
+        t2 += v * b1;
+        t3 += v * b2;
+        t4 += v * b3;
+        t5 += v * b4;
+        t6 += v * b5;
+        t7 += v * b6;
+        t8 += v * b7;
+        t9 += v * b8;
+        t10 += v * b9;
+        t11 += v * b10;
+        t12 += v * b11;
+        t13 += v * b12;
+        t14 += v * b13;
+        t15 += v * b14;
+        t16 += v * b15;
+        v = a[2];
+        t2 += v * b0;
+        t3 += v * b1;
+        t4 += v * b2;
+        t5 += v * b3;
+        t6 += v * b4;
+        t7 += v * b5;
+        t8 += v * b6;
+        t9 += v * b7;
+        t10 += v * b8;
+        t11 += v * b9;
+        t12 += v * b10;
+        t13 += v * b11;
+        t14 += v * b12;
+        t15 += v * b13;
+        t16 += v * b14;
+        t17 += v * b15;
+        v = a[3];
+        t3 += v * b0;
+        t4 += v * b1;
+        t5 += v * b2;
+        t6 += v * b3;
+        t7 += v * b4;
+        t8 += v * b5;
+        t9 += v * b6;
+        t10 += v * b7;
+        t11 += v * b8;
+        t12 += v * b9;
+        t13 += v * b10;
+        t14 += v * b11;
+        t15 += v * b12;
+        t16 += v * b13;
+        t17 += v * b14;
+        t18 += v * b15;
+        v = a[4];
+        t4 += v * b0;
+        t5 += v * b1;
+        t6 += v * b2;
+        t7 += v * b3;
+        t8 += v * b4;
+        t9 += v * b5;
+        t10 += v * b6;
+        t11 += v * b7;
+        t12 += v * b8;
+        t13 += v * b9;
+        t14 += v * b10;
+        t15 += v * b11;
+        t16 += v * b12;
+        t17 += v * b13;
+        t18 += v * b14;
+        t19 += v * b15;
+        v = a[5];
+        t5 += v * b0;
+        t6 += v * b1;
+        t7 += v * b2;
+        t8 += v * b3;
+        t9 += v * b4;
+        t10 += v * b5;
+        t11 += v * b6;
+        t12 += v * b7;
+        t13 += v * b8;
+        t14 += v * b9;
+        t15 += v * b10;
+        t16 += v * b11;
+        t17 += v * b12;
+        t18 += v * b13;
+        t19 += v * b14;
+        t20 += v * b15;
+        v = a[6];
+        t6 += v * b0;
+        t7 += v * b1;
+        t8 += v * b2;
+        t9 += v * b3;
+        t10 += v * b4;
+        t11 += v * b5;
+        t12 += v * b6;
+        t13 += v * b7;
+        t14 += v * b8;
+        t15 += v * b9;
+        t16 += v * b10;
+        t17 += v * b11;
+        t18 += v * b12;
+        t19 += v * b13;
+        t20 += v * b14;
+        t21 += v * b15;
+        v = a[7];
+        t7 += v * b0;
+        t8 += v * b1;
+        t9 += v * b2;
+        t10 += v * b3;
+        t11 += v * b4;
+        t12 += v * b5;
+        t13 += v * b6;
+        t14 += v * b7;
+        t15 += v * b8;
+        t16 += v * b9;
+        t17 += v * b10;
+        t18 += v * b11;
+        t19 += v * b12;
+        t20 += v * b13;
+        t21 += v * b14;
+        t22 += v * b15;
+        v = a[8];
+        t8 += v * b0;
+        t9 += v * b1;
+        t10 += v * b2;
+        t11 += v * b3;
+        t12 += v * b4;
+        t13 += v * b5;
+        t14 += v * b6;
+        t15 += v * b7;
+        t16 += v * b8;
+        t17 += v * b9;
+        t18 += v * b10;
+        t19 += v * b11;
+        t20 += v * b12;
+        t21 += v * b13;
+        t22 += v * b14;
+        t23 += v * b15;
+        v = a[9];
+        t9 += v * b0;
+        t10 += v * b1;
+        t11 += v * b2;
+        t12 += v * b3;
+        t13 += v * b4;
+        t14 += v * b5;
+        t15 += v * b6;
+        t16 += v * b7;
+        t17 += v * b8;
+        t18 += v * b9;
+        t19 += v * b10;
+        t20 += v * b11;
+        t21 += v * b12;
+        t22 += v * b13;
+        t23 += v * b14;
+        t24 += v * b15;
+        v = a[10];
+        t10 += v * b0;
+        t11 += v * b1;
+        t12 += v * b2;
+        t13 += v * b3;
+        t14 += v * b4;
+        t15 += v * b5;
+        t16 += v * b6;
+        t17 += v * b7;
+        t18 += v * b8;
+        t19 += v * b9;
+        t20 += v * b10;
+        t21 += v * b11;
+        t22 += v * b12;
+        t23 += v * b13;
+        t24 += v * b14;
+        t25 += v * b15;
+        v = a[11];
+        t11 += v * b0;
+        t12 += v * b1;
+        t13 += v * b2;
+        t14 += v * b3;
+        t15 += v * b4;
+        t16 += v * b5;
+        t17 += v * b6;
+        t18 += v * b7;
+        t19 += v * b8;
+        t20 += v * b9;
+        t21 += v * b10;
+        t22 += v * b11;
+        t23 += v * b12;
+        t24 += v * b13;
+        t25 += v * b14;
+        t26 += v * b15;
+        v = a[12];
+        t12 += v * b0;
+        t13 += v * b1;
+        t14 += v * b2;
+        t15 += v * b3;
+        t16 += v * b4;
+        t17 += v * b5;
+        t18 += v * b6;
+        t19 += v * b7;
+        t20 += v * b8;
+        t21 += v * b9;
+        t22 += v * b10;
+        t23 += v * b11;
+        t24 += v * b12;
+        t25 += v * b13;
+        t26 += v * b14;
+        t27 += v * b15;
+        v = a[13];
+        t13 += v * b0;
+        t14 += v * b1;
+        t15 += v * b2;
+        t16 += v * b3;
+        t17 += v * b4;
+        t18 += v * b5;
+        t19 += v * b6;
+        t20 += v * b7;
+        t21 += v * b8;
+        t22 += v * b9;
+        t23 += v * b10;
+        t24 += v * b11;
+        t25 += v * b12;
+        t26 += v * b13;
+        t27 += v * b14;
+        t28 += v * b15;
+        v = a[14];
+        t14 += v * b0;
+        t15 += v * b1;
+        t16 += v * b2;
+        t17 += v * b3;
+        t18 += v * b4;
+        t19 += v * b5;
+        t20 += v * b6;
+        t21 += v * b7;
+        t22 += v * b8;
+        t23 += v * b9;
+        t24 += v * b10;
+        t25 += v * b11;
+        t26 += v * b12;
+        t27 += v * b13;
+        t28 += v * b14;
+        t29 += v * b15;
+        v = a[15];
+        t15 += v * b0;
+        t16 += v * b1;
+        t17 += v * b2;
+        t18 += v * b3;
+        t19 += v * b4;
+        t20 += v * b5;
+        t21 += v * b6;
+        t22 += v * b7;
+        t23 += v * b8;
+        t24 += v * b9;
+        t25 += v * b10;
+        t26 += v * b11;
+        t27 += v * b12;
+        t28 += v * b13;
+        t29 += v * b14;
+        t30 += v * b15;
+        t0 += 38 * t16;
+        t1 += 38 * t17;
+        t2 += 38 * t18;
+        t3 += 38 * t19;
+        t4 += 38 * t20;
+        t5 += 38 * t21;
+        t6 += 38 * t22;
+        t7 += 38 * t23;
+        t8 += 38 * t24;
+        t9 += 38 * t25;
+        t10 += 38 * t26;
+        t11 += 38 * t27;
+        t12 += 38 * t28;
+        t13 += 38 * t29;
+        t14 += 38 * t30;
+        c = 1;
+        v = t0 + c + 65535;
+        c = Math.floor(v / 65536);
+        t0 = v - c * 65536;
+        v = t1 + c + 65535;
+        c = Math.floor(v / 65536);
+        t1 = v - c * 65536;
+        v = t2 + c + 65535;
+        c = Math.floor(v / 65536);
+        t2 = v - c * 65536;
+        v = t3 + c + 65535;
+        c = Math.floor(v / 65536);
+        t3 = v - c * 65536;
+        v = t4 + c + 65535;
+        c = Math.floor(v / 65536);
+        t4 = v - c * 65536;
+        v = t5 + c + 65535;
+        c = Math.floor(v / 65536);
+        t5 = v - c * 65536;
+        v = t6 + c + 65535;
+        c = Math.floor(v / 65536);
+        t6 = v - c * 65536;
+        v = t7 + c + 65535;
+        c = Math.floor(v / 65536);
+        t7 = v - c * 65536;
+        v = t8 + c + 65535;
+        c = Math.floor(v / 65536);
+        t8 = v - c * 65536;
+        v = t9 + c + 65535;
+        c = Math.floor(v / 65536);
+        t9 = v - c * 65536;
+        v = t10 + c + 65535;
+        c = Math.floor(v / 65536);
+        t10 = v - c * 65536;
+        v = t11 + c + 65535;
+        c = Math.floor(v / 65536);
+        t11 = v - c * 65536;
+        v = t12 + c + 65535;
+        c = Math.floor(v / 65536);
+        t12 = v - c * 65536;
+        v = t13 + c + 65535;
+        c = Math.floor(v / 65536);
+        t13 = v - c * 65536;
+        v = t14 + c + 65535;
+        c = Math.floor(v / 65536);
+        t14 = v - c * 65536;
+        v = t15 + c + 65535;
+        c = Math.floor(v / 65536);
+        t15 = v - c * 65536;
+        t0 += c - 1 + 37 * (c - 1);
+        c = 1;
+        v = t0 + c + 65535;
+        c = Math.floor(v / 65536);
+        t0 = v - c * 65536;
+        v = t1 + c + 65535;
+        c = Math.floor(v / 65536);
+        t1 = v - c * 65536;
+        v = t2 + c + 65535;
+        c = Math.floor(v / 65536);
+        t2 = v - c * 65536;
+        v = t3 + c + 65535;
+        c = Math.floor(v / 65536);
+        t3 = v - c * 65536;
+        v = t4 + c + 65535;
+        c = Math.floor(v / 65536);
+        t4 = v - c * 65536;
+        v = t5 + c + 65535;
+        c = Math.floor(v / 65536);
+        t5 = v - c * 65536;
+        v = t6 + c + 65535;
+        c = Math.floor(v / 65536);
+        t6 = v - c * 65536;
+        v = t7 + c + 65535;
+        c = Math.floor(v / 65536);
+        t7 = v - c * 65536;
+        v = t8 + c + 65535;
+        c = Math.floor(v / 65536);
+        t8 = v - c * 65536;
+        v = t9 + c + 65535;
+        c = Math.floor(v / 65536);
+        t9 = v - c * 65536;
+        v = t10 + c + 65535;
+        c = Math.floor(v / 65536);
+        t10 = v - c * 65536;
+        v = t11 + c + 65535;
+        c = Math.floor(v / 65536);
+        t11 = v - c * 65536;
+        v = t12 + c + 65535;
+        c = Math.floor(v / 65536);
+        t12 = v - c * 65536;
+        v = t13 + c + 65535;
+        c = Math.floor(v / 65536);
+        t13 = v - c * 65536;
+        v = t14 + c + 65535;
+        c = Math.floor(v / 65536);
+        t14 = v - c * 65536;
+        v = t15 + c + 65535;
+        c = Math.floor(v / 65536);
+        t15 = v - c * 65536;
+        t0 += c - 1 + 37 * (c - 1);
+        o[0] = t0;
+        o[1] = t1;
+        o[2] = t2;
+        o[3] = t3;
+        o[4] = t4;
+        o[5] = t5;
+        o[6] = t6;
+        o[7] = t7;
+        o[8] = t8;
+        o[9] = t9;
+        o[10] = t10;
+        o[11] = t11;
+        o[12] = t12;
+        o[13] = t13;
+        o[14] = t14;
+        o[15] = t15;
+      }
+      function S(o, a) {
+        M(o, a, a);
+      }
+      function inv25519(o, i) {
+        var c = gf();
+        var a;
+        for (a = 0; a < 16; a++)
+          c[a] = i[a];
+        for (a = 253; a >= 0; a--) {
+          S(c, c);
+          if (a !== 2 && a !== 4)
+            M(c, c, i);
+        }
+        for (a = 0; a < 16; a++)
+          o[a] = c[a];
+      }
+      function pow2523(o, i) {
+        var c = gf();
+        var a;
+        for (a = 0; a < 16; a++)
+          c[a] = i[a];
+        for (a = 250; a >= 0; a--) {
+          S(c, c);
+          if (a !== 1)
+            M(c, c, i);
+        }
+        for (a = 0; a < 16; a++)
+          o[a] = c[a];
+      }
+      function crypto_scalarmult(q, n, p) {
+        var z = new Uint8Array(32);
+        var x = new Float64Array(80), r, i;
+        var a = gf(), b = gf(), c = gf(), d = gf(), e = gf(), f = gf();
+        for (i = 0; i < 31; i++)
+          z[i] = n[i];
+        z[31] = n[31] & 127 | 64;
+        z[0] &= 248;
+        unpack25519(x, p);
+        for (i = 0; i < 16; i++) {
+          b[i] = x[i];
+          d[i] = a[i] = c[i] = 0;
+        }
+        a[0] = d[0] = 1;
+        for (i = 254; i >= 0; --i) {
+          r = z[i >>> 3] >>> (i & 7) & 1;
+          sel25519(a, b, r);
+          sel25519(c, d, r);
+          A(e, a, c);
+          Z(a, a, c);
+          A(c, b, d);
+          Z(b, b, d);
+          S(d, e);
+          S(f, a);
+          M(a, c, a);
+          M(c, b, e);
+          A(e, a, c);
+          Z(a, a, c);
+          S(b, a);
+          Z(c, d, f);
+          M(a, c, _121665);
+          A(a, a, d);
+          M(c, c, a);
+          M(a, d, f);
+          M(d, b, x);
+          S(b, e);
+          sel25519(a, b, r);
+          sel25519(c, d, r);
+        }
+        for (i = 0; i < 16; i++) {
+          x[i + 16] = a[i];
+          x[i + 32] = c[i];
+          x[i + 48] = b[i];
+          x[i + 64] = d[i];
+        }
+        var x32 = x.subarray(32);
+        var x16 = x.subarray(16);
+        inv25519(x32, x32);
+        M(x16, x16, x32);
+        pack25519(q, x16);
+        return 0;
+      }
+      function crypto_scalarmult_base(q, n) {
+        return crypto_scalarmult(q, n, _9);
+      }
+      function crypto_box_keypair(y, x) {
+        randombytes(x, 32);
+        return crypto_scalarmult_base(y, x);
+      }
+      function crypto_box_beforenm(k, y, x) {
+        var s = new Uint8Array(32);
+        crypto_scalarmult(s, x, y);
+        return crypto_core_hsalsa20(k, _0, s, sigma);
+      }
+      var crypto_box_afternm = crypto_secretbox;
+      var crypto_box_open_afternm = crypto_secretbox_open;
+      function crypto_box(c, m, d, n, y, x) {
+        var k = new Uint8Array(32);
+        crypto_box_beforenm(k, y, x);
+        return crypto_box_afternm(c, m, d, n, k);
+      }
+      function crypto_box_open(m, c, d, n, y, x) {
+        var k = new Uint8Array(32);
+        crypto_box_beforenm(k, y, x);
+        return crypto_box_open_afternm(m, c, d, n, k);
+      }
+      var K = [
+        1116352408,
+        3609767458,
+        1899447441,
+        602891725,
+        3049323471,
+        3964484399,
+        3921009573,
+        2173295548,
+        961987163,
+        4081628472,
+        1508970993,
+        3053834265,
+        2453635748,
+        2937671579,
+        2870763221,
+        3664609560,
+        3624381080,
+        2734883394,
+        310598401,
+        1164996542,
+        607225278,
+        1323610764,
+        1426881987,
+        3590304994,
+        1925078388,
+        4068182383,
+        2162078206,
+        991336113,
+        2614888103,
+        633803317,
+        3248222580,
+        3479774868,
+        3835390401,
+        2666613458,
+        4022224774,
+        944711139,
+        264347078,
+        2341262773,
+        604807628,
+        2007800933,
+        770255983,
+        1495990901,
+        1249150122,
+        1856431235,
+        1555081692,
+        3175218132,
+        1996064986,
+        2198950837,
+        2554220882,
+        3999719339,
+        2821834349,
+        766784016,
+        2952996808,
+        2566594879,
+        3210313671,
+        3203337956,
+        3336571891,
+        1034457026,
+        3584528711,
+        2466948901,
+        113926993,
+        3758326383,
+        338241895,
+        168717936,
+        666307205,
+        1188179964,
+        773529912,
+        1546045734,
+        1294757372,
+        1522805485,
+        1396182291,
+        2643833823,
+        1695183700,
+        2343527390,
+        1986661051,
+        1014477480,
+        2177026350,
+        1206759142,
+        2456956037,
+        344077627,
+        2730485921,
+        1290863460,
+        2820302411,
+        3158454273,
+        3259730800,
+        3505952657,
+        3345764771,
+        106217008,
+        3516065817,
+        3606008344,
+        3600352804,
+        1432725776,
+        4094571909,
+        1467031594,
+        275423344,
+        851169720,
+        430227734,
+        3100823752,
+        506948616,
+        1363258195,
+        659060556,
+        3750685593,
+        883997877,
+        3785050280,
+        958139571,
+        3318307427,
+        1322822218,
+        3812723403,
+        1537002063,
+        2003034995,
+        1747873779,
+        3602036899,
+        1955562222,
+        1575990012,
+        2024104815,
+        1125592928,
+        2227730452,
+        2716904306,
+        2361852424,
+        442776044,
+        2428436474,
+        593698344,
+        2756734187,
+        3733110249,
+        3204031479,
+        2999351573,
+        3329325298,
+        3815920427,
+        3391569614,
+        3928383900,
+        3515267271,
+        566280711,
+        3940187606,
+        3454069534,
+        4118630271,
+        4000239992,
+        116418474,
+        1914138554,
+        174292421,
+        2731055270,
+        289380356,
+        3203993006,
+        460393269,
+        320620315,
+        685471733,
+        587496836,
+        852142971,
+        1086792851,
+        1017036298,
+        365543100,
+        1126000580,
+        2618297676,
+        1288033470,
+        3409855158,
+        1501505948,
+        4234509866,
+        1607167915,
+        987167468,
+        1816402316,
+        1246189591
+      ];
+      function crypto_hashblocks_hl(hh, hl, m, n) {
+        var wh = new Int32Array(16), wl = new Int32Array(16), bh0, bh1, bh2, bh3, bh4, bh5, bh6, bh7, bl0, bl1, bl2, bl3, bl4, bl5, bl6, bl7, th, tl, i, j, h, l, a, b, c, d;
+        var ah0 = hh[0], ah1 = hh[1], ah2 = hh[2], ah3 = hh[3], ah4 = hh[4], ah5 = hh[5], ah6 = hh[6], ah7 = hh[7], al0 = hl[0], al1 = hl[1], al2 = hl[2], al3 = hl[3], al4 = hl[4], al5 = hl[5], al6 = hl[6], al7 = hl[7];
+        var pos = 0;
+        while (n >= 128) {
+          for (i = 0; i < 16; i++) {
+            j = 8 * i + pos;
+            wh[i] = m[j + 0] << 24 | m[j + 1] << 16 | m[j + 2] << 8 | m[j + 3];
+            wl[i] = m[j + 4] << 24 | m[j + 5] << 16 | m[j + 6] << 8 | m[j + 7];
+          }
+          for (i = 0; i < 80; i++) {
+            bh0 = ah0;
+            bh1 = ah1;
+            bh2 = ah2;
+            bh3 = ah3;
+            bh4 = ah4;
+            bh5 = ah5;
+            bh6 = ah6;
+            bh7 = ah7;
+            bl0 = al0;
+            bl1 = al1;
+            bl2 = al2;
+            bl3 = al3;
+            bl4 = al4;
+            bl5 = al5;
+            bl6 = al6;
+            bl7 = al7;
+            h = ah7;
+            l = al7;
+            a = l & 65535;
+            b = l >>> 16;
+            c = h & 65535;
+            d = h >>> 16;
+            h = (ah4 >>> 14 | al4 << 32 - 14) ^ (ah4 >>> 18 | al4 << 32 - 18) ^ (al4 >>> 41 - 32 | ah4 << 32 - (41 - 32));
+            l = (al4 >>> 14 | ah4 << 32 - 14) ^ (al4 >>> 18 | ah4 << 32 - 18) ^ (ah4 >>> 41 - 32 | al4 << 32 - (41 - 32));
+            a += l & 65535;
+            b += l >>> 16;
+            c += h & 65535;
+            d += h >>> 16;
+            h = ah4 & ah5 ^ ~ah4 & ah6;
+            l = al4 & al5 ^ ~al4 & al6;
+            a += l & 65535;
+            b += l >>> 16;
+            c += h & 65535;
+            d += h >>> 16;
+            h = K[i * 2];
+            l = K[i * 2 + 1];
+            a += l & 65535;
+            b += l >>> 16;
+            c += h & 65535;
+            d += h >>> 16;
+            h = wh[i % 16];
+            l = wl[i % 16];
+            a += l & 65535;
+            b += l >>> 16;
+            c += h & 65535;
+            d += h >>> 16;
+            b += a >>> 16;
+            c += b >>> 16;
+            d += c >>> 16;
+            th = c & 65535 | d << 16;
+            tl = a & 65535 | b << 16;
+            h = th;
+            l = tl;
+            a = l & 65535;
+            b = l >>> 16;
+            c = h & 65535;
+            d = h >>> 16;
+            h = (ah0 >>> 28 | al0 << 32 - 28) ^ (al0 >>> 34 - 32 | ah0 << 32 - (34 - 32)) ^ (al0 >>> 39 - 32 | ah0 << 32 - (39 - 32));
+            l = (al0 >>> 28 | ah0 << 32 - 28) ^ (ah0 >>> 34 - 32 | al0 << 32 - (34 - 32)) ^ (ah0 >>> 39 - 32 | al0 << 32 - (39 - 32));
+            a += l & 65535;
+            b += l >>> 16;
+            c += h & 65535;
+            d += h >>> 16;
+            h = ah0 & ah1 ^ ah0 & ah2 ^ ah1 & ah2;
+            l = al0 & al1 ^ al0 & al2 ^ al1 & al2;
+            a += l & 65535;
+            b += l >>> 16;
+            c += h & 65535;
+            d += h >>> 16;
+            b += a >>> 16;
+            c += b >>> 16;
+            d += c >>> 16;
+            bh7 = c & 65535 | d << 16;
+            bl7 = a & 65535 | b << 16;
+            h = bh3;
+            l = bl3;
+            a = l & 65535;
+            b = l >>> 16;
+            c = h & 65535;
+            d = h >>> 16;
+            h = th;
+            l = tl;
+            a += l & 65535;
+            b += l >>> 16;
+            c += h & 65535;
+            d += h >>> 16;
+            b += a >>> 16;
+            c += b >>> 16;
+            d += c >>> 16;
+            bh3 = c & 65535 | d << 16;
+            bl3 = a & 65535 | b << 16;
+            ah1 = bh0;
+            ah2 = bh1;
+            ah3 = bh2;
+            ah4 = bh3;
+            ah5 = bh4;
+            ah6 = bh5;
+            ah7 = bh6;
+            ah0 = bh7;
+            al1 = bl0;
+            al2 = bl1;
+            al3 = bl2;
+            al4 = bl3;
+            al5 = bl4;
+            al6 = bl5;
+            al7 = bl6;
+            al0 = bl7;
+            if (i % 16 === 15) {
+              for (j = 0; j < 16; j++) {
+                h = wh[j];
+                l = wl[j];
+                a = l & 65535;
+                b = l >>> 16;
+                c = h & 65535;
+                d = h >>> 16;
+                h = wh[(j + 9) % 16];
+                l = wl[(j + 9) % 16];
+                a += l & 65535;
+                b += l >>> 16;
+                c += h & 65535;
+                d += h >>> 16;
+                th = wh[(j + 1) % 16];
+                tl = wl[(j + 1) % 16];
+                h = (th >>> 1 | tl << 32 - 1) ^ (th >>> 8 | tl << 32 - 8) ^ th >>> 7;
+                l = (tl >>> 1 | th << 32 - 1) ^ (tl >>> 8 | th << 32 - 8) ^ (tl >>> 7 | th << 32 - 7);
+                a += l & 65535;
+                b += l >>> 16;
+                c += h & 65535;
+                d += h >>> 16;
+                th = wh[(j + 14) % 16];
+                tl = wl[(j + 14) % 16];
+                h = (th >>> 19 | tl << 32 - 19) ^ (tl >>> 61 - 32 | th << 32 - (61 - 32)) ^ th >>> 6;
+                l = (tl >>> 19 | th << 32 - 19) ^ (th >>> 61 - 32 | tl << 32 - (61 - 32)) ^ (tl >>> 6 | th << 32 - 6);
+                a += l & 65535;
+                b += l >>> 16;
+                c += h & 65535;
+                d += h >>> 16;
+                b += a >>> 16;
+                c += b >>> 16;
+                d += c >>> 16;
+                wh[j] = c & 65535 | d << 16;
+                wl[j] = a & 65535 | b << 16;
+              }
+            }
+          }
+          h = ah0;
+          l = al0;
+          a = l & 65535;
+          b = l >>> 16;
+          c = h & 65535;
+          d = h >>> 16;
+          h = hh[0];
+          l = hl[0];
+          a += l & 65535;
+          b += l >>> 16;
+          c += h & 65535;
+          d += h >>> 16;
+          b += a >>> 16;
+          c += b >>> 16;
+          d += c >>> 16;
+          hh[0] = ah0 = c & 65535 | d << 16;
+          hl[0] = al0 = a & 65535 | b << 16;
+          h = ah1;
+          l = al1;
+          a = l & 65535;
+          b = l >>> 16;
+          c = h & 65535;
+          d = h >>> 16;
+          h = hh[1];
+          l = hl[1];
+          a += l & 65535;
+          b += l >>> 16;
+          c += h & 65535;
+          d += h >>> 16;
+          b += a >>> 16;
+          c += b >>> 16;
+          d += c >>> 16;
+          hh[1] = ah1 = c & 65535 | d << 16;
+          hl[1] = al1 = a & 65535 | b << 16;
+          h = ah2;
+          l = al2;
+          a = l & 65535;
+          b = l >>> 16;
+          c = h & 65535;
+          d = h >>> 16;
+          h = hh[2];
+          l = hl[2];
+          a += l & 65535;
+          b += l >>> 16;
+          c += h & 65535;
+          d += h >>> 16;
+          b += a >>> 16;
+          c += b >>> 16;
+          d += c >>> 16;
+          hh[2] = ah2 = c & 65535 | d << 16;
+          hl[2] = al2 = a & 65535 | b << 16;
+          h = ah3;
+          l = al3;
+          a = l & 65535;
+          b = l >>> 16;
+          c = h & 65535;
+          d = h >>> 16;
+          h = hh[3];
+          l = hl[3];
+          a += l & 65535;
+          b += l >>> 16;
+          c += h & 65535;
+          d += h >>> 16;
+          b += a >>> 16;
+          c += b >>> 16;
+          d += c >>> 16;
+          hh[3] = ah3 = c & 65535 | d << 16;
+          hl[3] = al3 = a & 65535 | b << 16;
+          h = ah4;
+          l = al4;
+          a = l & 65535;
+          b = l >>> 16;
+          c = h & 65535;
+          d = h >>> 16;
+          h = hh[4];
+          l = hl[4];
+          a += l & 65535;
+          b += l >>> 16;
+          c += h & 65535;
+          d += h >>> 16;
+          b += a >>> 16;
+          c += b >>> 16;
+          d += c >>> 16;
+          hh[4] = ah4 = c & 65535 | d << 16;
+          hl[4] = al4 = a & 65535 | b << 16;
+          h = ah5;
+          l = al5;
+          a = l & 65535;
+          b = l >>> 16;
+          c = h & 65535;
+          d = h >>> 16;
+          h = hh[5];
+          l = hl[5];
+          a += l & 65535;
+          b += l >>> 16;
+          c += h & 65535;
+          d += h >>> 16;
+          b += a >>> 16;
+          c += b >>> 16;
+          d += c >>> 16;
+          hh[5] = ah5 = c & 65535 | d << 16;
+          hl[5] = al5 = a & 65535 | b << 16;
+          h = ah6;
+          l = al6;
+          a = l & 65535;
+          b = l >>> 16;
+          c = h & 65535;
+          d = h >>> 16;
+          h = hh[6];
+          l = hl[6];
+          a += l & 65535;
+          b += l >>> 16;
+          c += h & 65535;
+          d += h >>> 16;
+          b += a >>> 16;
+          c += b >>> 16;
+          d += c >>> 16;
+          hh[6] = ah6 = c & 65535 | d << 16;
+          hl[6] = al6 = a & 65535 | b << 16;
+          h = ah7;
+          l = al7;
+          a = l & 65535;
+          b = l >>> 16;
+          c = h & 65535;
+          d = h >>> 16;
+          h = hh[7];
+          l = hl[7];
+          a += l & 65535;
+          b += l >>> 16;
+          c += h & 65535;
+          d += h >>> 16;
+          b += a >>> 16;
+          c += b >>> 16;
+          d += c >>> 16;
+          hh[7] = ah7 = c & 65535 | d << 16;
+          hl[7] = al7 = a & 65535 | b << 16;
+          pos += 128;
+          n -= 128;
+        }
+        return n;
+      }
+      function crypto_hash(out, m, n) {
+        var hh = new Int32Array(8), hl = new Int32Array(8), x = new Uint8Array(256), i, b = n;
+        hh[0] = 1779033703;
+        hh[1] = 3144134277;
+        hh[2] = 1013904242;
+        hh[3] = 2773480762;
+        hh[4] = 1359893119;
+        hh[5] = 2600822924;
+        hh[6] = 528734635;
+        hh[7] = 1541459225;
+        hl[0] = 4089235720;
+        hl[1] = 2227873595;
+        hl[2] = 4271175723;
+        hl[3] = 1595750129;
+        hl[4] = 2917565137;
+        hl[5] = 725511199;
+        hl[6] = 4215389547;
+        hl[7] = 327033209;
+        crypto_hashblocks_hl(hh, hl, m, n);
+        n %= 128;
+        for (i = 0; i < n; i++)
+          x[i] = m[b - n + i];
+        x[n] = 128;
+        n = 256 - 128 * (n < 112 ? 1 : 0);
+        x[n - 9] = 0;
+        ts64(x, n - 8, b / 536870912 | 0, b << 3);
+        crypto_hashblocks_hl(hh, hl, x, n);
+        for (i = 0; i < 8; i++)
+          ts64(out, 8 * i, hh[i], hl[i]);
+        return 0;
+      }
+      function add(p, q) {
+        var a = gf(), b = gf(), c = gf(), d = gf(), e = gf(), f = gf(), g = gf(), h = gf(), t = gf();
+        Z(a, p[1], p[0]);
+        Z(t, q[1], q[0]);
+        M(a, a, t);
+        A(b, p[0], p[1]);
+        A(t, q[0], q[1]);
+        M(b, b, t);
+        M(c, p[3], q[3]);
+        M(c, c, D2);
+        M(d, p[2], q[2]);
+        A(d, d, d);
+        Z(e, b, a);
+        Z(f, d, c);
+        A(g, d, c);
+        A(h, b, a);
+        M(p[0], e, f);
+        M(p[1], h, g);
+        M(p[2], g, f);
+        M(p[3], e, h);
+      }
+      function cswap(p, q, b) {
+        var i;
+        for (i = 0; i < 4; i++) {
+          sel25519(p[i], q[i], b);
+        }
+      }
+      function pack(r, p) {
+        var tx = gf(), ty = gf(), zi = gf();
+        inv25519(zi, p[2]);
+        M(tx, p[0], zi);
+        M(ty, p[1], zi);
+        pack25519(r, ty);
+        r[31] ^= par25519(tx) << 7;
+      }
+      function scalarmult(p, q, s) {
+        var b, i;
+        set25519(p[0], gf0);
+        set25519(p[1], gf1);
+        set25519(p[2], gf1);
+        set25519(p[3], gf0);
+        for (i = 255; i >= 0; --i) {
+          b = s[i / 8 | 0] >> (i & 7) & 1;
+          cswap(p, q, b);
+          add(q, p);
+          add(p, p);
+          cswap(p, q, b);
+        }
+      }
+      function scalarbase(p, s) {
+        var q = [gf(), gf(), gf(), gf()];
+        set25519(q[0], X);
+        set25519(q[1], Y);
+        set25519(q[2], gf1);
+        M(q[3], X, Y);
+        scalarmult(p, q, s);
+      }
+      function crypto_sign_keypair(pk, sk, seeded) {
+        var d = new Uint8Array(64);
+        var p = [gf(), gf(), gf(), gf()];
+        var i;
+        if (!seeded)
+          randombytes(sk, 32);
+        crypto_hash(d, sk, 32);
+        d[0] &= 248;
+        d[31] &= 127;
+        d[31] |= 64;
+        scalarbase(p, d);
+        pack(pk, p);
+        for (i = 0; i < 32; i++)
+          sk[i + 32] = pk[i];
+        return 0;
+      }
+      var L = new Float64Array([237, 211, 245, 92, 26, 99, 18, 88, 214, 156, 247, 162, 222, 249, 222, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16]);
+      function modL(r, x) {
+        var carry, i, j, k;
+        for (i = 63; i >= 32; --i) {
+          carry = 0;
+          for (j = i - 32, k = i - 12; j < k; ++j) {
+            x[j] += carry - 16 * x[i] * L[j - (i - 32)];
+            carry = Math.floor((x[j] + 128) / 256);
+            x[j] -= carry * 256;
+          }
+          x[j] += carry;
+          x[i] = 0;
+        }
+        carry = 0;
+        for (j = 0; j < 32; j++) {
+          x[j] += carry - (x[31] >> 4) * L[j];
+          carry = x[j] >> 8;
+          x[j] &= 255;
+        }
+        for (j = 0; j < 32; j++)
+          x[j] -= carry * L[j];
+        for (i = 0; i < 32; i++) {
+          x[i + 1] += x[i] >> 8;
+          r[i] = x[i] & 255;
+        }
+      }
+      function reduce(r) {
+        var x = new Float64Array(64), i;
+        for (i = 0; i < 64; i++)
+          x[i] = r[i];
+        for (i = 0; i < 64; i++)
+          r[i] = 0;
+        modL(r, x);
+      }
+      function crypto_sign(sm, m, n, sk) {
+        var d = new Uint8Array(64), h = new Uint8Array(64), r = new Uint8Array(64);
+        var i, j, x = new Float64Array(64);
+        var p = [gf(), gf(), gf(), gf()];
+        crypto_hash(d, sk, 32);
+        d[0] &= 248;
+        d[31] &= 127;
+        d[31] |= 64;
+        var smlen = n + 64;
+        for (i = 0; i < n; i++)
+          sm[64 + i] = m[i];
+        for (i = 0; i < 32; i++)
+          sm[32 + i] = d[32 + i];
+        crypto_hash(r, sm.subarray(32), n + 32);
+        reduce(r);
+        scalarbase(p, r);
+        pack(sm, p);
+        for (i = 32; i < 64; i++)
+          sm[i] = sk[i];
+        crypto_hash(h, sm, n + 64);
+        reduce(h);
+        for (i = 0; i < 64; i++)
+          x[i] = 0;
+        for (i = 0; i < 32; i++)
+          x[i] = r[i];
+        for (i = 0; i < 32; i++) {
+          for (j = 0; j < 32; j++) {
+            x[i + j] += h[i] * d[j];
+          }
+        }
+        modL(sm.subarray(32), x);
+        return smlen;
+      }
+      function unpackneg(r, p) {
+        var t = gf(), chk = gf(), num = gf(), den = gf(), den2 = gf(), den4 = gf(), den6 = gf();
+        set25519(r[2], gf1);
+        unpack25519(r[1], p);
+        S(num, r[1]);
+        M(den, num, D);
+        Z(num, num, r[2]);
+        A(den, r[2], den);
+        S(den2, den);
+        S(den4, den2);
+        M(den6, den4, den2);
+        M(t, den6, num);
+        M(t, t, den);
+        pow2523(t, t);
+        M(t, t, num);
+        M(t, t, den);
+        M(t, t, den);
+        M(r[0], t, den);
+        S(chk, r[0]);
+        M(chk, chk, den);
+        if (neq25519(chk, num))
+          M(r[0], r[0], I);
+        S(chk, r[0]);
+        M(chk, chk, den);
+        if (neq25519(chk, num))
+          return -1;
+        if (par25519(r[0]) === p[31] >> 7)
+          Z(r[0], gf0, r[0]);
+        M(r[3], r[0], r[1]);
+        return 0;
+      }
+      function crypto_sign_open(m, sm, n, pk) {
+        var i;
+        var t = new Uint8Array(32), h = new Uint8Array(64);
+        var p = [gf(), gf(), gf(), gf()], q = [gf(), gf(), gf(), gf()];
+        if (n < 64)
+          return -1;
+        if (unpackneg(q, pk))
+          return -1;
+        for (i = 0; i < n; i++)
+          m[i] = sm[i];
+        for (i = 0; i < 32; i++)
+          m[i + 32] = pk[i];
+        crypto_hash(h, m, n);
+        reduce(h);
+        scalarmult(p, q, h);
+        scalarbase(q, sm.subarray(32));
+        add(p, q);
+        pack(t, p);
+        n -= 64;
+        if (crypto_verify_32(sm, 0, t, 0)) {
+          for (i = 0; i < n; i++)
+            m[i] = 0;
+          return -1;
+        }
+        for (i = 0; i < n; i++)
+          m[i] = sm[i + 64];
+        return n;
+      }
+      var crypto_secretbox_KEYBYTES = 32, crypto_secretbox_NONCEBYTES = 24, crypto_secretbox_ZEROBYTES = 32, crypto_secretbox_BOXZEROBYTES = 16, crypto_scalarmult_BYTES = 32, crypto_scalarmult_SCALARBYTES = 32, crypto_box_PUBLICKEYBYTES = 32, crypto_box_SECRETKEYBYTES = 32, crypto_box_BEFORENMBYTES = 32, crypto_box_NONCEBYTES = crypto_secretbox_NONCEBYTES, crypto_box_ZEROBYTES = crypto_secretbox_ZEROBYTES, crypto_box_BOXZEROBYTES = crypto_secretbox_BOXZEROBYTES, crypto_sign_BYTES = 64, crypto_sign_PUBLICKEYBYTES = 32, crypto_sign_SECRETKEYBYTES = 64, crypto_sign_SEEDBYTES = 32, crypto_hash_BYTES = 64;
+      nacl2.lowlevel = {
+        crypto_core_hsalsa20,
+        crypto_stream_xor,
+        crypto_stream,
+        crypto_stream_salsa20_xor,
+        crypto_stream_salsa20,
+        crypto_onetimeauth,
+        crypto_onetimeauth_verify,
+        crypto_verify_16,
+        crypto_verify_32,
+        crypto_secretbox,
+        crypto_secretbox_open,
+        crypto_scalarmult,
+        crypto_scalarmult_base,
+        crypto_box_beforenm,
+        crypto_box_afternm,
+        crypto_box,
+        crypto_box_open,
+        crypto_box_keypair,
+        crypto_hash,
+        crypto_sign,
+        crypto_sign_keypair,
+        crypto_sign_open,
+        crypto_secretbox_KEYBYTES,
+        crypto_secretbox_NONCEBYTES,
+        crypto_secretbox_ZEROBYTES,
+        crypto_secretbox_BOXZEROBYTES,
+        crypto_scalarmult_BYTES,
+        crypto_scalarmult_SCALARBYTES,
+        crypto_box_PUBLICKEYBYTES,
+        crypto_box_SECRETKEYBYTES,
+        crypto_box_BEFORENMBYTES,
+        crypto_box_NONCEBYTES,
+        crypto_box_ZEROBYTES,
+        crypto_box_BOXZEROBYTES,
+        crypto_sign_BYTES,
+        crypto_sign_PUBLICKEYBYTES,
+        crypto_sign_SECRETKEYBYTES,
+        crypto_sign_SEEDBYTES,
+        crypto_hash_BYTES,
+        gf,
+        D,
+        L,
+        pack25519,
+        unpack25519,
+        M,
+        A,
+        S,
+        Z,
+        pow2523,
+        add,
+        set25519,
+        modL,
+        scalarmult,
+        scalarbase
+      };
+      function checkLengths(k, n) {
+        if (k.length !== crypto_secretbox_KEYBYTES)
+          throw new Error("bad key size");
+        if (n.length !== crypto_secretbox_NONCEBYTES)
+          throw new Error("bad nonce size");
+      }
+      function checkBoxLengths(pk, sk) {
+        if (pk.length !== crypto_box_PUBLICKEYBYTES)
+          throw new Error("bad public key size");
+        if (sk.length !== crypto_box_SECRETKEYBYTES)
+          throw new Error("bad secret key size");
+      }
+      function checkArrayTypes() {
+        for (var i = 0; i < arguments.length; i++) {
+          if (!(arguments[i] instanceof Uint8Array))
+            throw new TypeError("unexpected type, use Uint8Array");
+        }
+      }
+      function cleanup(arr) {
+        for (var i = 0; i < arr.length; i++)
+          arr[i] = 0;
+      }
+      nacl2.randomBytes = function(n) {
+        var b = new Uint8Array(n);
+        randombytes(b, n);
+        return b;
+      };
+      nacl2.secretbox = function(msg, nonce, key) {
+        checkArrayTypes(msg, nonce, key);
+        checkLengths(key, nonce);
+        var m = new Uint8Array(crypto_secretbox_ZEROBYTES + msg.length);
+        var c = new Uint8Array(m.length);
+        for (var i = 0; i < msg.length; i++)
+          m[i + crypto_secretbox_ZEROBYTES] = msg[i];
+        crypto_secretbox(c, m, m.length, nonce, key);
+        return c.subarray(crypto_secretbox_BOXZEROBYTES);
+      };
+      nacl2.secretbox.open = function(box, nonce, key) {
+        checkArrayTypes(box, nonce, key);
+        checkLengths(key, nonce);
+        var c = new Uint8Array(crypto_secretbox_BOXZEROBYTES + box.length);
+        var m = new Uint8Array(c.length);
+        for (var i = 0; i < box.length; i++)
+          c[i + crypto_secretbox_BOXZEROBYTES] = box[i];
+        if (c.length < 32)
+          return null;
+        if (crypto_secretbox_open(m, c, c.length, nonce, key) !== 0)
+          return null;
+        return m.subarray(crypto_secretbox_ZEROBYTES);
+      };
+      nacl2.secretbox.keyLength = crypto_secretbox_KEYBYTES;
+      nacl2.secretbox.nonceLength = crypto_secretbox_NONCEBYTES;
+      nacl2.secretbox.overheadLength = crypto_secretbox_BOXZEROBYTES;
+      nacl2.scalarMult = function(n, p) {
+        checkArrayTypes(n, p);
+        if (n.length !== crypto_scalarmult_SCALARBYTES)
+          throw new Error("bad n size");
+        if (p.length !== crypto_scalarmult_BYTES)
+          throw new Error("bad p size");
+        var q = new Uint8Array(crypto_scalarmult_BYTES);
+        crypto_scalarmult(q, n, p);
+        return q;
+      };
+      nacl2.scalarMult.base = function(n) {
+        checkArrayTypes(n);
+        if (n.length !== crypto_scalarmult_SCALARBYTES)
+          throw new Error("bad n size");
+        var q = new Uint8Array(crypto_scalarmult_BYTES);
+        crypto_scalarmult_base(q, n);
+        return q;
+      };
+      nacl2.scalarMult.scalarLength = crypto_scalarmult_SCALARBYTES;
+      nacl2.scalarMult.groupElementLength = crypto_scalarmult_BYTES;
+      nacl2.box = function(msg, nonce, publicKey, secretKey) {
+        var k = nacl2.box.before(publicKey, secretKey);
+        return nacl2.secretbox(msg, nonce, k);
+      };
+      nacl2.box.before = function(publicKey, secretKey) {
+        checkArrayTypes(publicKey, secretKey);
+        checkBoxLengths(publicKey, secretKey);
+        var k = new Uint8Array(crypto_box_BEFORENMBYTES);
+        crypto_box_beforenm(k, publicKey, secretKey);
+        return k;
+      };
+      nacl2.box.after = nacl2.secretbox;
+      nacl2.box.open = function(msg, nonce, publicKey, secretKey) {
+        var k = nacl2.box.before(publicKey, secretKey);
+        return nacl2.secretbox.open(msg, nonce, k);
+      };
+      nacl2.box.open.after = nacl2.secretbox.open;
+      nacl2.box.keyPair = function() {
+        var pk = new Uint8Array(crypto_box_PUBLICKEYBYTES);
+        var sk = new Uint8Array(crypto_box_SECRETKEYBYTES);
+        crypto_box_keypair(pk, sk);
+        return { publicKey: pk, secretKey: sk };
+      };
+      nacl2.box.keyPair.fromSecretKey = function(secretKey) {
+        checkArrayTypes(secretKey);
+        if (secretKey.length !== crypto_box_SECRETKEYBYTES)
+          throw new Error("bad secret key size");
+        var pk = new Uint8Array(crypto_box_PUBLICKEYBYTES);
+        crypto_scalarmult_base(pk, secretKey);
+        return { publicKey: pk, secretKey: new Uint8Array(secretKey) };
+      };
+      nacl2.box.publicKeyLength = crypto_box_PUBLICKEYBYTES;
+      nacl2.box.secretKeyLength = crypto_box_SECRETKEYBYTES;
+      nacl2.box.sharedKeyLength = crypto_box_BEFORENMBYTES;
+      nacl2.box.nonceLength = crypto_box_NONCEBYTES;
+      nacl2.box.overheadLength = nacl2.secretbox.overheadLength;
+      nacl2.sign = function(msg, secretKey) {
+        checkArrayTypes(msg, secretKey);
+        if (secretKey.length !== crypto_sign_SECRETKEYBYTES)
+          throw new Error("bad secret key size");
+        var signedMsg = new Uint8Array(crypto_sign_BYTES + msg.length);
+        crypto_sign(signedMsg, msg, msg.length, secretKey);
+        return signedMsg;
+      };
+      nacl2.sign.open = function(signedMsg, publicKey) {
+        checkArrayTypes(signedMsg, publicKey);
+        if (publicKey.length !== crypto_sign_PUBLICKEYBYTES)
+          throw new Error("bad public key size");
+        var tmp = new Uint8Array(signedMsg.length);
+        var mlen = crypto_sign_open(tmp, signedMsg, signedMsg.length, publicKey);
+        if (mlen < 0)
+          return null;
+        var m = new Uint8Array(mlen);
+        for (var i = 0; i < m.length; i++)
+          m[i] = tmp[i];
+        return m;
+      };
+      nacl2.sign.detached = function(msg, secretKey) {
+        var signedMsg = nacl2.sign(msg, secretKey);
+        var sig = new Uint8Array(crypto_sign_BYTES);
+        for (var i = 0; i < sig.length; i++)
+          sig[i] = signedMsg[i];
+        return sig;
+      };
+      nacl2.sign.detached.verify = function(msg, sig, publicKey) {
+        checkArrayTypes(msg, sig, publicKey);
+        if (sig.length !== crypto_sign_BYTES)
+          throw new Error("bad signature size");
+        if (publicKey.length !== crypto_sign_PUBLICKEYBYTES)
+          throw new Error("bad public key size");
+        var sm = new Uint8Array(crypto_sign_BYTES + msg.length);
+        var m = new Uint8Array(crypto_sign_BYTES + msg.length);
+        var i;
+        for (i = 0; i < crypto_sign_BYTES; i++)
+          sm[i] = sig[i];
+        for (i = 0; i < msg.length; i++)
+          sm[i + crypto_sign_BYTES] = msg[i];
+        return crypto_sign_open(m, sm, sm.length, publicKey) >= 0;
+      };
+      nacl2.sign.keyPair = function() {
+        var pk = new Uint8Array(crypto_sign_PUBLICKEYBYTES);
+        var sk = new Uint8Array(crypto_sign_SECRETKEYBYTES);
+        crypto_sign_keypair(pk, sk);
+        return { publicKey: pk, secretKey: sk };
+      };
+      nacl2.sign.keyPair.fromSecretKey = function(secretKey) {
+        checkArrayTypes(secretKey);
+        if (secretKey.length !== crypto_sign_SECRETKEYBYTES)
+          throw new Error("bad secret key size");
+        var pk = new Uint8Array(crypto_sign_PUBLICKEYBYTES);
+        for (var i = 0; i < pk.length; i++)
+          pk[i] = secretKey[32 + i];
+        return { publicKey: pk, secretKey: new Uint8Array(secretKey) };
+      };
+      nacl2.sign.keyPair.fromSeed = function(seed) {
+        checkArrayTypes(seed);
+        if (seed.length !== crypto_sign_SEEDBYTES)
+          throw new Error("bad seed size");
+        var pk = new Uint8Array(crypto_sign_PUBLICKEYBYTES);
+        var sk = new Uint8Array(crypto_sign_SECRETKEYBYTES);
+        for (var i = 0; i < 32; i++)
+          sk[i] = seed[i];
+        crypto_sign_keypair(pk, sk, true);
+        return { publicKey: pk, secretKey: sk };
+      };
+      nacl2.sign.publicKeyLength = crypto_sign_PUBLICKEYBYTES;
+      nacl2.sign.secretKeyLength = crypto_sign_SECRETKEYBYTES;
+      nacl2.sign.seedLength = crypto_sign_SEEDBYTES;
+      nacl2.sign.signatureLength = crypto_sign_BYTES;
+      nacl2.hash = function(msg) {
+        checkArrayTypes(msg);
+        var h = new Uint8Array(crypto_hash_BYTES);
+        crypto_hash(h, msg, msg.length);
+        return h;
+      };
+      nacl2.hash.hashLength = crypto_hash_BYTES;
+      nacl2.verify = function(x, y) {
+        checkArrayTypes(x, y);
+        if (x.length === 0 || y.length === 0)
+          return false;
+        if (x.length !== y.length)
+          return false;
+        return vn(x, 0, y, 0, x.length) === 0 ? true : false;
+      };
+      nacl2.setPRNG = function(fn) {
+        randombytes = fn;
+      };
+      (function() {
+        var crypto2 = typeof self !== "undefined" ? self.crypto || self.msCrypto : null;
+        if (crypto2 && crypto2.getRandomValues) {
+          var QUOTA = 65536;
+          nacl2.setPRNG(function(x, n) {
+            var i, v = new Uint8Array(n);
+            for (i = 0; i < n; i += QUOTA) {
+              crypto2.getRandomValues(v.subarray(i, i + Math.min(n - i, QUOTA)));
+            }
+            for (i = 0; i < n; i++)
+              x[i] = v[i];
+            cleanup(v);
+          });
+        } else if (typeof __require !== "undefined") {
+          crypto2 = require_crypto();
+          if (crypto2 && crypto2.randomBytes) {
+            nacl2.setPRNG(function(x, n) {
+              var i, v = crypto2.randomBytes(n);
+              for (i = 0; i < n; i++)
+                x[i] = v[i];
+              cleanup(v);
+            });
+          }
+        }
+      })();
+    })(typeof module !== "undefined" && module.exports ? module.exports : self.nacl = self.nacl || {});
+  }
+});
+
+// (disabled):buffer
+var require_buffer = __commonJS({
+  "(disabled):buffer"() {
+  }
+});
+
+// node_modules/js-sha256/src/sha256.js
+var require_sha256 = __commonJS({
+  "node_modules/js-sha256/src/sha256.js"(exports, module) {
+    (function() {
+      "use strict";
+      var ERROR = "input is invalid type";
+      var WINDOW = typeof window === "object";
+      var root = WINDOW ? window : {};
+      if (root.JS_SHA256_NO_WINDOW) {
+        WINDOW = false;
+      }
+      var WEB_WORKER = !WINDOW && typeof self === "object";
+      var NODE_JS = !root.JS_SHA256_NO_NODE_JS && typeof process === "object" && process.versions && process.versions.node;
+      if (NODE_JS) {
+        root = global;
+      } else if (WEB_WORKER) {
+        root = self;
+      }
+      var COMMON_JS = !root.JS_SHA256_NO_COMMON_JS && typeof module === "object" && module.exports;
+      var AMD = typeof define === "function" && define.amd;
+      var ARRAY_BUFFER = !root.JS_SHA256_NO_ARRAY_BUFFER && typeof ArrayBuffer !== "undefined";
+      var HEX_CHARS = "0123456789abcdef".split("");
+      var EXTRA = [-2147483648, 8388608, 32768, 128];
+      var SHIFT = [24, 16, 8, 0];
+      var K = [
+        1116352408,
+        1899447441,
+        3049323471,
+        3921009573,
+        961987163,
+        1508970993,
+        2453635748,
+        2870763221,
+        3624381080,
+        310598401,
+        607225278,
+        1426881987,
+        1925078388,
+        2162078206,
+        2614888103,
+        3248222580,
+        3835390401,
+        4022224774,
+        264347078,
+        604807628,
+        770255983,
+        1249150122,
+        1555081692,
+        1996064986,
+        2554220882,
+        2821834349,
+        2952996808,
+        3210313671,
+        3336571891,
+        3584528711,
+        113926993,
+        338241895,
+        666307205,
+        773529912,
+        1294757372,
+        1396182291,
+        1695183700,
+        1986661051,
+        2177026350,
+        2456956037,
+        2730485921,
+        2820302411,
+        3259730800,
+        3345764771,
+        3516065817,
+        3600352804,
+        4094571909,
+        275423344,
+        430227734,
+        506948616,
+        659060556,
+        883997877,
+        958139571,
+        1322822218,
+        1537002063,
+        1747873779,
+        1955562222,
+        2024104815,
+        2227730452,
+        2361852424,
+        2428436474,
+        2756734187,
+        3204031479,
+        3329325298
+      ];
+      var OUTPUT_TYPES = ["hex", "array", "digest", "arrayBuffer"];
+      var blocks = [];
+      if (root.JS_SHA256_NO_NODE_JS || !Array.isArray) {
+        Array.isArray = function(obj) {
+          return Object.prototype.toString.call(obj) === "[object Array]";
+        };
+      }
+      if (ARRAY_BUFFER && (root.JS_SHA256_NO_ARRAY_BUFFER_IS_VIEW || !ArrayBuffer.isView)) {
+        ArrayBuffer.isView = function(obj) {
+          return typeof obj === "object" && obj.buffer && obj.buffer.constructor === ArrayBuffer;
+        };
+      }
+      var createOutputMethod = function(outputType, is224) {
+        return function(message2) {
+          return new Sha256(is224, true).update(message2)[outputType]();
+        };
+      };
+      var createMethod = function(is224) {
+        var method = createOutputMethod("hex", is224);
+        if (NODE_JS) {
+          method = nodeWrap(method, is224);
+        }
+        method.create = function() {
+          return new Sha256(is224);
+        };
+        method.update = function(message2) {
+          return method.create().update(message2);
+        };
+        for (var i = 0; i < OUTPUT_TYPES.length; ++i) {
+          var type = OUTPUT_TYPES[i];
+          method[type] = createOutputMethod(type, is224);
+        }
+        return method;
+      };
+      var nodeWrap = function(method, is224) {
+        var crypto2 = require_crypto();
+        var Buffer2 = require_buffer().Buffer;
+        var algorithm = is224 ? "sha224" : "sha256";
+        var bufferFrom;
+        if (Buffer2.from && !root.JS_SHA256_NO_BUFFER_FROM) {
+          bufferFrom = Buffer2.from;
+        } else {
+          bufferFrom = function(message2) {
+            return new Buffer2(message2);
+          };
+        }
+        var nodeMethod = function(message2) {
+          if (typeof message2 === "string") {
+            return crypto2.createHash(algorithm).update(message2, "utf8").digest("hex");
+          } else {
+            if (message2 === null || message2 === void 0) {
+              throw new Error(ERROR);
+            } else if (message2.constructor === ArrayBuffer) {
+              message2 = new Uint8Array(message2);
+            }
+          }
+          if (Array.isArray(message2) || ArrayBuffer.isView(message2) || message2.constructor === Buffer2) {
+            return crypto2.createHash(algorithm).update(bufferFrom(message2)).digest("hex");
+          } else {
+            return method(message2);
+          }
+        };
+        return nodeMethod;
+      };
+      var createHmacOutputMethod = function(outputType, is224) {
+        return function(key, message2) {
+          return new HmacSha256(key, is224, true).update(message2)[outputType]();
+        };
+      };
+      var createHmacMethod = function(is224) {
+        var method = createHmacOutputMethod("hex", is224);
+        method.create = function(key) {
+          return new HmacSha256(key, is224);
+        };
+        method.update = function(key, message2) {
+          return method.create(key).update(message2);
+        };
+        for (var i = 0; i < OUTPUT_TYPES.length; ++i) {
+          var type = OUTPUT_TYPES[i];
+          method[type] = createHmacOutputMethod(type, is224);
+        }
+        return method;
+      };
+      function Sha256(is224, sharedMemory) {
+        if (sharedMemory) {
+          blocks[0] = blocks[16] = blocks[1] = blocks[2] = blocks[3] = blocks[4] = blocks[5] = blocks[6] = blocks[7] = blocks[8] = blocks[9] = blocks[10] = blocks[11] = blocks[12] = blocks[13] = blocks[14] = blocks[15] = 0;
+          this.blocks = blocks;
+        } else {
+          this.blocks = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+        }
+        if (is224) {
+          this.h0 = 3238371032;
+          this.h1 = 914150663;
+          this.h2 = 812702999;
+          this.h3 = 4144912697;
+          this.h4 = 4290775857;
+          this.h5 = 1750603025;
+          this.h6 = 1694076839;
+          this.h7 = 3204075428;
+        } else {
+          this.h0 = 1779033703;
+          this.h1 = 3144134277;
+          this.h2 = 1013904242;
+          this.h3 = 2773480762;
+          this.h4 = 1359893119;
+          this.h5 = 2600822924;
+          this.h6 = 528734635;
+          this.h7 = 1541459225;
+        }
+        this.block = this.start = this.bytes = this.hBytes = 0;
+        this.finalized = this.hashed = false;
+        this.first = true;
+        this.is224 = is224;
+      }
+      Sha256.prototype.update = function(message2) {
+        if (this.finalized) {
+          return;
+        }
+        var notString, type = typeof message2;
+        if (type !== "string") {
+          if (type === "object") {
+            if (message2 === null) {
+              throw new Error(ERROR);
+            } else if (ARRAY_BUFFER && message2.constructor === ArrayBuffer) {
+              message2 = new Uint8Array(message2);
+            } else if (!Array.isArray(message2)) {
+              if (!ARRAY_BUFFER || !ArrayBuffer.isView(message2)) {
+                throw new Error(ERROR);
+              }
+            }
+          } else {
+            throw new Error(ERROR);
+          }
+          notString = true;
+        }
+        var code, index = 0, i, length = message2.length, blocks2 = this.blocks;
+        while (index < length) {
+          if (this.hashed) {
+            this.hashed = false;
+            blocks2[0] = this.block;
+            this.block = blocks2[16] = blocks2[1] = blocks2[2] = blocks2[3] = blocks2[4] = blocks2[5] = blocks2[6] = blocks2[7] = blocks2[8] = blocks2[9] = blocks2[10] = blocks2[11] = blocks2[12] = blocks2[13] = blocks2[14] = blocks2[15] = 0;
+          }
+          if (notString) {
+            for (i = this.start; index < length && i < 64; ++index) {
+              blocks2[i >>> 2] |= message2[index] << SHIFT[i++ & 3];
+            }
+          } else {
+            for (i = this.start; index < length && i < 64; ++index) {
+              code = message2.charCodeAt(index);
+              if (code < 128) {
+                blocks2[i >>> 2] |= code << SHIFT[i++ & 3];
+              } else if (code < 2048) {
+                blocks2[i >>> 2] |= (192 | code >>> 6) << SHIFT[i++ & 3];
+                blocks2[i >>> 2] |= (128 | code & 63) << SHIFT[i++ & 3];
+              } else if (code < 55296 || code >= 57344) {
+                blocks2[i >>> 2] |= (224 | code >>> 12) << SHIFT[i++ & 3];
+                blocks2[i >>> 2] |= (128 | code >>> 6 & 63) << SHIFT[i++ & 3];
+                blocks2[i >>> 2] |= (128 | code & 63) << SHIFT[i++ & 3];
+              } else {
+                code = 65536 + ((code & 1023) << 10 | message2.charCodeAt(++index) & 1023);
+                blocks2[i >>> 2] |= (240 | code >>> 18) << SHIFT[i++ & 3];
+                blocks2[i >>> 2] |= (128 | code >>> 12 & 63) << SHIFT[i++ & 3];
+                blocks2[i >>> 2] |= (128 | code >>> 6 & 63) << SHIFT[i++ & 3];
+                blocks2[i >>> 2] |= (128 | code & 63) << SHIFT[i++ & 3];
+              }
+            }
+          }
+          this.lastByteIndex = i;
+          this.bytes += i - this.start;
+          if (i >= 64) {
+            this.block = blocks2[16];
+            this.start = i - 64;
+            this.hash();
+            this.hashed = true;
+          } else {
+            this.start = i;
+          }
+        }
+        if (this.bytes > 4294967295) {
+          this.hBytes += this.bytes / 4294967296 << 0;
+          this.bytes = this.bytes % 4294967296;
+        }
+        return this;
+      };
+      Sha256.prototype.finalize = function() {
+        if (this.finalized) {
+          return;
+        }
+        this.finalized = true;
+        var blocks2 = this.blocks, i = this.lastByteIndex;
+        blocks2[16] = this.block;
+        blocks2[i >>> 2] |= EXTRA[i & 3];
+        this.block = blocks2[16];
+        if (i >= 56) {
+          if (!this.hashed) {
+            this.hash();
+          }
+          blocks2[0] = this.block;
+          blocks2[16] = blocks2[1] = blocks2[2] = blocks2[3] = blocks2[4] = blocks2[5] = blocks2[6] = blocks2[7] = blocks2[8] = blocks2[9] = blocks2[10] = blocks2[11] = blocks2[12] = blocks2[13] = blocks2[14] = blocks2[15] = 0;
+        }
+        blocks2[14] = this.hBytes << 3 | this.bytes >>> 29;
+        blocks2[15] = this.bytes << 3;
+        this.hash();
+      };
+      Sha256.prototype.hash = function() {
+        var a = this.h0, b = this.h1, c = this.h2, d = this.h3, e = this.h4, f = this.h5, g = this.h6, h = this.h7, blocks2 = this.blocks, j, s0, s1, maj, t1, t2, ch, ab, da, cd, bc;
+        for (j = 16; j < 64; ++j) {
+          t1 = blocks2[j - 15];
+          s0 = (t1 >>> 7 | t1 << 25) ^ (t1 >>> 18 | t1 << 14) ^ t1 >>> 3;
+          t1 = blocks2[j - 2];
+          s1 = (t1 >>> 17 | t1 << 15) ^ (t1 >>> 19 | t1 << 13) ^ t1 >>> 10;
+          blocks2[j] = blocks2[j - 16] + s0 + blocks2[j - 7] + s1 << 0;
+        }
+        bc = b & c;
+        for (j = 0; j < 64; j += 4) {
+          if (this.first) {
+            if (this.is224) {
+              ab = 300032;
+              t1 = blocks2[0] - 1413257819;
+              h = t1 - 150054599 << 0;
+              d = t1 + 24177077 << 0;
+            } else {
+              ab = 704751109;
+              t1 = blocks2[0] - 210244248;
+              h = t1 - 1521486534 << 0;
+              d = t1 + 143694565 << 0;
+            }
+            this.first = false;
+          } else {
+            s0 = (a >>> 2 | a << 30) ^ (a >>> 13 | a << 19) ^ (a >>> 22 | a << 10);
+            s1 = (e >>> 6 | e << 26) ^ (e >>> 11 | e << 21) ^ (e >>> 25 | e << 7);
+            ab = a & b;
+            maj = ab ^ a & c ^ bc;
+            ch = e & f ^ ~e & g;
+            t1 = h + s1 + ch + K[j] + blocks2[j];
+            t2 = s0 + maj;
+            h = d + t1 << 0;
+            d = t1 + t2 << 0;
+          }
+          s0 = (d >>> 2 | d << 30) ^ (d >>> 13 | d << 19) ^ (d >>> 22 | d << 10);
+          s1 = (h >>> 6 | h << 26) ^ (h >>> 11 | h << 21) ^ (h >>> 25 | h << 7);
+          da = d & a;
+          maj = da ^ d & b ^ ab;
+          ch = h & e ^ ~h & f;
+          t1 = g + s1 + ch + K[j + 1] + blocks2[j + 1];
+          t2 = s0 + maj;
+          g = c + t1 << 0;
+          c = t1 + t2 << 0;
+          s0 = (c >>> 2 | c << 30) ^ (c >>> 13 | c << 19) ^ (c >>> 22 | c << 10);
+          s1 = (g >>> 6 | g << 26) ^ (g >>> 11 | g << 21) ^ (g >>> 25 | g << 7);
+          cd = c & d;
+          maj = cd ^ c & a ^ da;
+          ch = g & h ^ ~g & e;
+          t1 = f + s1 + ch + K[j + 2] + blocks2[j + 2];
+          t2 = s0 + maj;
+          f = b + t1 << 0;
+          b = t1 + t2 << 0;
+          s0 = (b >>> 2 | b << 30) ^ (b >>> 13 | b << 19) ^ (b >>> 22 | b << 10);
+          s1 = (f >>> 6 | f << 26) ^ (f >>> 11 | f << 21) ^ (f >>> 25 | f << 7);
+          bc = b & c;
+          maj = bc ^ b & d ^ cd;
+          ch = f & g ^ ~f & h;
+          t1 = e + s1 + ch + K[j + 3] + blocks2[j + 3];
+          t2 = s0 + maj;
+          e = a + t1 << 0;
+          a = t1 + t2 << 0;
+          this.chromeBugWorkAround = true;
+        }
+        this.h0 = this.h0 + a << 0;
+        this.h1 = this.h1 + b << 0;
+        this.h2 = this.h2 + c << 0;
+        this.h3 = this.h3 + d << 0;
+        this.h4 = this.h4 + e << 0;
+        this.h5 = this.h5 + f << 0;
+        this.h6 = this.h6 + g << 0;
+        this.h7 = this.h7 + h << 0;
+      };
+      Sha256.prototype.hex = function() {
+        this.finalize();
+        var h0 = this.h0, h1 = this.h1, h2 = this.h2, h3 = this.h3, h4 = this.h4, h5 = this.h5, h6 = this.h6, h7 = this.h7;
+        var hex = HEX_CHARS[h0 >>> 28 & 15] + HEX_CHARS[h0 >>> 24 & 15] + HEX_CHARS[h0 >>> 20 & 15] + HEX_CHARS[h0 >>> 16 & 15] + HEX_CHARS[h0 >>> 12 & 15] + HEX_CHARS[h0 >>> 8 & 15] + HEX_CHARS[h0 >>> 4 & 15] + HEX_CHARS[h0 & 15] + HEX_CHARS[h1 >>> 28 & 15] + HEX_CHARS[h1 >>> 24 & 15] + HEX_CHARS[h1 >>> 20 & 15] + HEX_CHARS[h1 >>> 16 & 15] + HEX_CHARS[h1 >>> 12 & 15] + HEX_CHARS[h1 >>> 8 & 15] + HEX_CHARS[h1 >>> 4 & 15] + HEX_CHARS[h1 & 15] + HEX_CHARS[h2 >>> 28 & 15] + HEX_CHARS[h2 >>> 24 & 15] + HEX_CHARS[h2 >>> 20 & 15] + HEX_CHARS[h2 >>> 16 & 15] + HEX_CHARS[h2 >>> 12 & 15] + HEX_CHARS[h2 >>> 8 & 15] + HEX_CHARS[h2 >>> 4 & 15] + HEX_CHARS[h2 & 15] + HEX_CHARS[h3 >>> 28 & 15] + HEX_CHARS[h3 >>> 24 & 15] + HEX_CHARS[h3 >>> 20 & 15] + HEX_CHARS[h3 >>> 16 & 15] + HEX_CHARS[h3 >>> 12 & 15] + HEX_CHARS[h3 >>> 8 & 15] + HEX_CHARS[h3 >>> 4 & 15] + HEX_CHARS[h3 & 15] + HEX_CHARS[h4 >>> 28 & 15] + HEX_CHARS[h4 >>> 24 & 15] + HEX_CHARS[h4 >>> 20 & 15] + HEX_CHARS[h4 >>> 16 & 15] + HEX_CHARS[h4 >>> 12 & 15] + HEX_CHARS[h4 >>> 8 & 15] + HEX_CHARS[h4 >>> 4 & 15] + HEX_CHARS[h4 & 15] + HEX_CHARS[h5 >>> 28 & 15] + HEX_CHARS[h5 >>> 24 & 15] + HEX_CHARS[h5 >>> 20 & 15] + HEX_CHARS[h5 >>> 16 & 15] + HEX_CHARS[h5 >>> 12 & 15] + HEX_CHARS[h5 >>> 8 & 15] + HEX_CHARS[h5 >>> 4 & 15] + HEX_CHARS[h5 & 15] + HEX_CHARS[h6 >>> 28 & 15] + HEX_CHARS[h6 >>> 24 & 15] + HEX_CHARS[h6 >>> 20 & 15] + HEX_CHARS[h6 >>> 16 & 15] + HEX_CHARS[h6 >>> 12 & 15] + HEX_CHARS[h6 >>> 8 & 15] + HEX_CHARS[h6 >>> 4 & 15] + HEX_CHARS[h6 & 15];
+        if (!this.is224) {
+          hex += HEX_CHARS[h7 >>> 28 & 15] + HEX_CHARS[h7 >>> 24 & 15] + HEX_CHARS[h7 >>> 20 & 15] + HEX_CHARS[h7 >>> 16 & 15] + HEX_CHARS[h7 >>> 12 & 15] + HEX_CHARS[h7 >>> 8 & 15] + HEX_CHARS[h7 >>> 4 & 15] + HEX_CHARS[h7 & 15];
+        }
+        return hex;
+      };
+      Sha256.prototype.toString = Sha256.prototype.hex;
+      Sha256.prototype.digest = function() {
+        this.finalize();
+        var h0 = this.h0, h1 = this.h1, h2 = this.h2, h3 = this.h3, h4 = this.h4, h5 = this.h5, h6 = this.h6, h7 = this.h7;
+        var arr = [
+          h0 >>> 24 & 255,
+          h0 >>> 16 & 255,
+          h0 >>> 8 & 255,
+          h0 & 255,
+          h1 >>> 24 & 255,
+          h1 >>> 16 & 255,
+          h1 >>> 8 & 255,
+          h1 & 255,
+          h2 >>> 24 & 255,
+          h2 >>> 16 & 255,
+          h2 >>> 8 & 255,
+          h2 & 255,
+          h3 >>> 24 & 255,
+          h3 >>> 16 & 255,
+          h3 >>> 8 & 255,
+          h3 & 255,
+          h4 >>> 24 & 255,
+          h4 >>> 16 & 255,
+          h4 >>> 8 & 255,
+          h4 & 255,
+          h5 >>> 24 & 255,
+          h5 >>> 16 & 255,
+          h5 >>> 8 & 255,
+          h5 & 255,
+          h6 >>> 24 & 255,
+          h6 >>> 16 & 255,
+          h6 >>> 8 & 255,
+          h6 & 255
+        ];
+        if (!this.is224) {
+          arr.push(h7 >>> 24 & 255, h7 >>> 16 & 255, h7 >>> 8 & 255, h7 & 255);
+        }
+        return arr;
+      };
+      Sha256.prototype.array = Sha256.prototype.digest;
+      Sha256.prototype.arrayBuffer = function() {
+        this.finalize();
+        var buffer = new ArrayBuffer(this.is224 ? 28 : 32);
+        var dataView = new DataView(buffer);
+        dataView.setUint32(0, this.h0);
+        dataView.setUint32(4, this.h1);
+        dataView.setUint32(8, this.h2);
+        dataView.setUint32(12, this.h3);
+        dataView.setUint32(16, this.h4);
+        dataView.setUint32(20, this.h5);
+        dataView.setUint32(24, this.h6);
+        if (!this.is224) {
+          dataView.setUint32(28, this.h7);
+        }
+        return buffer;
+      };
+      function HmacSha256(key, is224, sharedMemory) {
+        var i, type = typeof key;
+        if (type === "string") {
+          var bytes = [], length = key.length, index = 0, code;
+          for (i = 0; i < length; ++i) {
+            code = key.charCodeAt(i);
+            if (code < 128) {
+              bytes[index++] = code;
+            } else if (code < 2048) {
+              bytes[index++] = 192 | code >>> 6;
+              bytes[index++] = 128 | code & 63;
+            } else if (code < 55296 || code >= 57344) {
+              bytes[index++] = 224 | code >>> 12;
+              bytes[index++] = 128 | code >>> 6 & 63;
+              bytes[index++] = 128 | code & 63;
+            } else {
+              code = 65536 + ((code & 1023) << 10 | key.charCodeAt(++i) & 1023);
+              bytes[index++] = 240 | code >>> 18;
+              bytes[index++] = 128 | code >>> 12 & 63;
+              bytes[index++] = 128 | code >>> 6 & 63;
+              bytes[index++] = 128 | code & 63;
+            }
+          }
+          key = bytes;
+        } else {
+          if (type === "object") {
+            if (key === null) {
+              throw new Error(ERROR);
+            } else if (ARRAY_BUFFER && key.constructor === ArrayBuffer) {
+              key = new Uint8Array(key);
+            } else if (!Array.isArray(key)) {
+              if (!ARRAY_BUFFER || !ArrayBuffer.isView(key)) {
+                throw new Error(ERROR);
+              }
+            }
+          } else {
+            throw new Error(ERROR);
+          }
+        }
+        if (key.length > 64) {
+          key = new Sha256(is224, true).update(key).array();
+        }
+        var oKeyPad = [], iKeyPad = [];
+        for (i = 0; i < 64; ++i) {
+          var b = key[i] || 0;
+          oKeyPad[i] = 92 ^ b;
+          iKeyPad[i] = 54 ^ b;
+        }
+        Sha256.call(this, is224, sharedMemory);
+        this.update(iKeyPad);
+        this.oKeyPad = oKeyPad;
+        this.inner = true;
+        this.sharedMemory = sharedMemory;
+      }
+      HmacSha256.prototype = new Sha256();
+      HmacSha256.prototype.finalize = function() {
+        Sha256.prototype.finalize.call(this);
+        if (this.inner) {
+          this.inner = false;
+          var innerHash = this.array();
+          Sha256.call(this, this.is224, this.sharedMemory);
+          this.update(this.oKeyPad);
+          this.update(innerHash);
+          Sha256.prototype.finalize.call(this);
+        }
+      };
+      var exports2 = createMethod();
+      exports2.sha256 = exports2;
+      exports2.sha224 = createMethod(true);
+      exports2.sha256.hmac = createHmacMethod();
+      exports2.sha224.hmac = createHmacMethod(true);
+      if (COMMON_JS) {
+        module.exports = exports2;
+      } else {
+        root.sha256 = exports2.sha256;
+        root.sha224 = exports2.sha224;
+        if (AMD) {
+          define(function() {
+            return exports2;
+          });
+        }
+      }
+    })();
+  }
+});
+
+// src/worker.js
+var import_tweetnacl = __toESM(require_nacl_fast());
+var import_js_sha256 = __toESM(require_sha256());
+import { connect } from "cloudflare:sockets";
+
+// node_modules/jose/dist/browser/runtime/webcrypto.js
+var webcrypto_default = crypto;
+var isCryptoKey = (key) => key instanceof CryptoKey;
+
+// node_modules/jose/dist/browser/lib/buffer_utils.js
+var encoder = new TextEncoder();
+var decoder = new TextDecoder();
+var MAX_INT32 = 2 ** 32;
+function concat(...buffers) {
+  const size = buffers.reduce((acc, { length }) => acc + length, 0);
+  const buf = new Uint8Array(size);
+  let i = 0;
+  for (const buffer of buffers) {
+    buf.set(buffer, i);
+    i += buffer.length;
+  }
+  return buf;
+}
+
+// node_modules/jose/dist/browser/runtime/base64url.js
+var encodeBase64 = (input) => {
+  let unencoded = input;
+  if (typeof unencoded === "string") {
+    unencoded = encoder.encode(unencoded);
+  }
+  const CHUNK_SIZE = 32768;
+  const arr = [];
+  for (let i = 0; i < unencoded.length; i += CHUNK_SIZE) {
+    arr.push(String.fromCharCode.apply(null, unencoded.subarray(i, i + CHUNK_SIZE)));
+  }
+  return btoa(arr.join(""));
+};
+var encode = (input) => {
+  return encodeBase64(input).replace(/=/g, "").replace(/\+/g, "-").replace(/\//g, "_");
+};
+var decodeBase64 = (encoded) => {
+  const binary = atob(encoded);
+  const bytes = new Uint8Array(binary.length);
+  for (let i = 0; i < binary.length; i++) {
+    bytes[i] = binary.charCodeAt(i);
+  }
+  return bytes;
+};
+var decode = (input) => {
+  let encoded = input;
+  if (encoded instanceof Uint8Array) {
+    encoded = decoder.decode(encoded);
+  }
+  encoded = encoded.replace(/-/g, "+").replace(/_/g, "/").replace(/\s/g, "");
+  try {
+    return decodeBase64(encoded);
+  } catch {
+    throw new TypeError("The input to be decoded is not correctly encoded.");
+  }
+};
+
+// node_modules/jose/dist/browser/util/errors.js
+var JOSEError = class extends Error {
+  constructor(message2, options) {
+    super(message2, options);
+    this.code = "ERR_JOSE_GENERIC";
+    this.name = this.constructor.name;
+    Error.captureStackTrace?.(this, this.constructor);
+  }
+};
+JOSEError.code = "ERR_JOSE_GENERIC";
+var JWTClaimValidationFailed = class extends JOSEError {
+  constructor(message2, payload, claim = "unspecified", reason = "unspecified") {
+    super(message2, { cause: { claim, reason, payload } });
+    this.code = "ERR_JWT_CLAIM_VALIDATION_FAILED";
+    this.claim = claim;
+    this.reason = reason;
+    this.payload = payload;
+  }
+};
+JWTClaimValidationFailed.code = "ERR_JWT_CLAIM_VALIDATION_FAILED";
+var JWTExpired = class extends JOSEError {
+  constructor(message2, payload, claim = "unspecified", reason = "unspecified") {
+    super(message2, { cause: { claim, reason, payload } });
+    this.code = "ERR_JWT_EXPIRED";
+    this.claim = claim;
+    this.reason = reason;
+    this.payload = payload;
+  }
+};
+JWTExpired.code = "ERR_JWT_EXPIRED";
+var JOSEAlgNotAllowed = class extends JOSEError {
+  constructor() {
+    super(...arguments);
+    this.code = "ERR_JOSE_ALG_NOT_ALLOWED";
+  }
+};
+JOSEAlgNotAllowed.code = "ERR_JOSE_ALG_NOT_ALLOWED";
+var JOSENotSupported = class extends JOSEError {
+  constructor() {
+    super(...arguments);
+    this.code = "ERR_JOSE_NOT_SUPPORTED";
+  }
+};
+JOSENotSupported.code = "ERR_JOSE_NOT_SUPPORTED";
+var JWEDecryptionFailed = class extends JOSEError {
+  constructor(message2 = "decryption operation failed", options) {
+    super(message2, options);
+    this.code = "ERR_JWE_DECRYPTION_FAILED";
+  }
+};
+JWEDecryptionFailed.code = "ERR_JWE_DECRYPTION_FAILED";
+var JWEInvalid = class extends JOSEError {
+  constructor() {
+    super(...arguments);
+    this.code = "ERR_JWE_INVALID";
+  }
+};
+JWEInvalid.code = "ERR_JWE_INVALID";
+var JWSInvalid = class extends JOSEError {
+  constructor() {
+    super(...arguments);
+    this.code = "ERR_JWS_INVALID";
+  }
+};
+JWSInvalid.code = "ERR_JWS_INVALID";
+var JWTInvalid = class extends JOSEError {
+  constructor() {
+    super(...arguments);
+    this.code = "ERR_JWT_INVALID";
+  }
+};
+JWTInvalid.code = "ERR_JWT_INVALID";
+var JWKInvalid = class extends JOSEError {
+  constructor() {
+    super(...arguments);
+    this.code = "ERR_JWK_INVALID";
+  }
+};
+JWKInvalid.code = "ERR_JWK_INVALID";
+var JWKSInvalid = class extends JOSEError {
+  constructor() {
+    super(...arguments);
+    this.code = "ERR_JWKS_INVALID";
+  }
+};
+JWKSInvalid.code = "ERR_JWKS_INVALID";
+var JWKSNoMatchingKey = class extends JOSEError {
+  constructor(message2 = "no applicable key found in the JSON Web Key Set", options) {
+    super(message2, options);
+    this.code = "ERR_JWKS_NO_MATCHING_KEY";
+  }
+};
+JWKSNoMatchingKey.code = "ERR_JWKS_NO_MATCHING_KEY";
+var JWKSMultipleMatchingKeys = class extends JOSEError {
+  constructor(message2 = "multiple matching keys found in the JSON Web Key Set", options) {
+    super(message2, options);
+    this.code = "ERR_JWKS_MULTIPLE_MATCHING_KEYS";
+  }
+};
+JWKSMultipleMatchingKeys.code = "ERR_JWKS_MULTIPLE_MATCHING_KEYS";
+var JWKSTimeout = class extends JOSEError {
+  constructor(message2 = "request timed out", options) {
+    super(message2, options);
+    this.code = "ERR_JWKS_TIMEOUT";
+  }
+};
+JWKSTimeout.code = "ERR_JWKS_TIMEOUT";
+var JWSSignatureVerificationFailed = class extends JOSEError {
+  constructor(message2 = "signature verification failed", options) {
+    super(message2, options);
+    this.code = "ERR_JWS_SIGNATURE_VERIFICATION_FAILED";
+  }
+};
+JWSSignatureVerificationFailed.code = "ERR_JWS_SIGNATURE_VERIFICATION_FAILED";
+
+// node_modules/jose/dist/browser/lib/crypto_key.js
+function unusable(name, prop = "algorithm.name") {
+  return new TypeError(`CryptoKey does not support this operation, its ${prop} must be ${name}`);
+}
+function isAlgorithm(algorithm, name) {
+  return algorithm.name === name;
+}
+function getHashLength(hash) {
+  return parseInt(hash.name.slice(4), 10);
+}
+function getNamedCurve(alg) {
+  switch (alg) {
+    case "ES256":
+      return "P-256";
+    case "ES384":
+      return "P-384";
+    case "ES512":
+      return "P-521";
+    default:
+      throw new Error("unreachable");
+  }
+}
+function checkUsage(key, usages) {
+  if (usages.length && !usages.some((expected) => key.usages.includes(expected))) {
+    let msg = "CryptoKey does not support this operation, its usages must include ";
+    if (usages.length > 2) {
+      const last = usages.pop();
+      msg += `one of ${usages.join(", ")}, or ${last}.`;
+    } else if (usages.length === 2) {
+      msg += `one of ${usages[0]} or ${usages[1]}.`;
+    } else {
+      msg += `${usages[0]}.`;
+    }
+    throw new TypeError(msg);
+  }
+}
+function checkSigCryptoKey(key, alg, ...usages) {
+  switch (alg) {
+    case "HS256":
+    case "HS384":
+    case "HS512": {
+      if (!isAlgorithm(key.algorithm, "HMAC"))
+        throw unusable("HMAC");
+      const expected = parseInt(alg.slice(2), 10);
+      const actual = getHashLength(key.algorithm.hash);
+      if (actual !== expected)
+        throw unusable(`SHA-${expected}`, "algorithm.hash");
+      break;
+    }
+    case "RS256":
+    case "RS384":
+    case "RS512": {
+      if (!isAlgorithm(key.algorithm, "RSASSA-PKCS1-v1_5"))
+        throw unusable("RSASSA-PKCS1-v1_5");
+      const expected = parseInt(alg.slice(2), 10);
+      const actual = getHashLength(key.algorithm.hash);
+      if (actual !== expected)
+        throw unusable(`SHA-${expected}`, "algorithm.hash");
+      break;
+    }
+    case "PS256":
+    case "PS384":
+    case "PS512": {
+      if (!isAlgorithm(key.algorithm, "RSA-PSS"))
+        throw unusable("RSA-PSS");
+      const expected = parseInt(alg.slice(2), 10);
+      const actual = getHashLength(key.algorithm.hash);
+      if (actual !== expected)
+        throw unusable(`SHA-${expected}`, "algorithm.hash");
+      break;
+    }
+    case "EdDSA": {
+      if (key.algorithm.name !== "Ed25519" && key.algorithm.name !== "Ed448") {
+        throw unusable("Ed25519 or Ed448");
+      }
+      break;
+    }
+    case "ES256":
+    case "ES384":
+    case "ES512": {
+      if (!isAlgorithm(key.algorithm, "ECDSA"))
+        throw unusable("ECDSA");
+      const expected = getNamedCurve(alg);
+      const actual = key.algorithm.namedCurve;
+      if (actual !== expected)
+        throw unusable(expected, "algorithm.namedCurve");
+      break;
+    }
+    default:
+      throw new TypeError("CryptoKey does not support this operation");
+  }
+  checkUsage(key, usages);
+}
+
+// node_modules/jose/dist/browser/lib/invalid_key_input.js
+function message(msg, actual, ...types2) {
+  types2 = types2.filter(Boolean);
+  if (types2.length > 2) {
+    const last = types2.pop();
+    msg += `one of type ${types2.join(", ")}, or ${last}.`;
+  } else if (types2.length === 2) {
+    msg += `one of type ${types2[0]} or ${types2[1]}.`;
+  } else {
+    msg += `of type ${types2[0]}.`;
+  }
+  if (actual == null) {
+    msg += ` Received ${actual}`;
+  } else if (typeof actual === "function" && actual.name) {
+    msg += ` Received function ${actual.name}`;
+  } else if (typeof actual === "object" && actual != null) {
+    if (actual.constructor?.name) {
+      msg += ` Received an instance of ${actual.constructor.name}`;
+    }
+  }
+  return msg;
+}
+var invalid_key_input_default = (actual, ...types2) => {
+  return message("Key must be ", actual, ...types2);
+};
+function withAlg(alg, actual, ...types2) {
+  return message(`Key for the ${alg} algorithm must be `, actual, ...types2);
+}
+
+// node_modules/jose/dist/browser/runtime/is_key_like.js
+var is_key_like_default = (key) => {
+  if (isCryptoKey(key)) {
+    return true;
+  }
+  return key?.[Symbol.toStringTag] === "KeyObject";
+};
+var types = ["CryptoKey"];
+
+// node_modules/jose/dist/browser/lib/is_disjoint.js
+var isDisjoint = (...headers) => {
+  const sources = headers.filter(Boolean);
+  if (sources.length === 0 || sources.length === 1) {
+    return true;
+  }
+  let acc;
+  for (const header of sources) {
+    const parameters = Object.keys(header);
+    if (!acc || acc.size === 0) {
+      acc = new Set(parameters);
+      continue;
+    }
+    for (const parameter of parameters) {
+      if (acc.has(parameter)) {
+        return false;
+      }
+      acc.add(parameter);
+    }
+  }
+  return true;
+};
+var is_disjoint_default = isDisjoint;
+
+// node_modules/jose/dist/browser/lib/is_object.js
+function isObjectLike(value) {
+  return typeof value === "object" && value !== null;
+}
+function isObject(input) {
+  if (!isObjectLike(input) || Object.prototype.toString.call(input) !== "[object Object]") {
+    return false;
+  }
+  if (Object.getPrototypeOf(input) === null) {
+    return true;
+  }
+  let proto = input;
+  while (Object.getPrototypeOf(proto) !== null) {
+    proto = Object.getPrototypeOf(proto);
+  }
+  return Object.getPrototypeOf(input) === proto;
+}
+
+// node_modules/jose/dist/browser/runtime/check_key_length.js
+var check_key_length_default = (alg, key) => {
+  if (alg.startsWith("RS") || alg.startsWith("PS")) {
+    const { modulusLength } = key.algorithm;
+    if (typeof modulusLength !== "number" || modulusLength < 2048) {
+      throw new TypeError(`${alg} requires key modulusLength to be 2048 bits or larger`);
+    }
+  }
+};
+
+// node_modules/jose/dist/browser/lib/is_jwk.js
+function isJWK(key) {
+  return isObject(key) && typeof key.kty === "string";
+}
+function isPrivateJWK(key) {
+  return key.kty !== "oct" && typeof key.d === "string";
+}
+function isPublicJWK(key) {
+  return key.kty !== "oct" && typeof key.d === "undefined";
+}
+function isSecretJWK(key) {
+  return isJWK(key) && key.kty === "oct" && typeof key.k === "string";
+}
+
+// node_modules/jose/dist/browser/runtime/jwk_to_key.js
+function subtleMapping(jwk) {
+  let algorithm;
+  let keyUsages;
+  switch (jwk.kty) {
+    case "RSA": {
+      switch (jwk.alg) {
+        case "PS256":
+        case "PS384":
+        case "PS512":
+          algorithm = { name: "RSA-PSS", hash: `SHA-${jwk.alg.slice(-3)}` };
+          keyUsages = jwk.d ? ["sign"] : ["verify"];
+          break;
+        case "RS256":
+        case "RS384":
+        case "RS512":
+          algorithm = { name: "RSASSA-PKCS1-v1_5", hash: `SHA-${jwk.alg.slice(-3)}` };
+          keyUsages = jwk.d ? ["sign"] : ["verify"];
+          break;
+        case "RSA-OAEP":
+        case "RSA-OAEP-256":
+        case "RSA-OAEP-384":
+        case "RSA-OAEP-512":
+          algorithm = {
+            name: "RSA-OAEP",
+            hash: `SHA-${parseInt(jwk.alg.slice(-3), 10) || 1}`
+          };
+          keyUsages = jwk.d ? ["decrypt", "unwrapKey"] : ["encrypt", "wrapKey"];
+          break;
+        default:
+          throw new JOSENotSupported('Invalid or unsupported JWK "alg" (Algorithm) Parameter value');
+      }
+      break;
+    }
+    case "EC": {
+      switch (jwk.alg) {
+        case "ES256":
+          algorithm = { name: "ECDSA", namedCurve: "P-256" };
+          keyUsages = jwk.d ? ["sign"] : ["verify"];
+          break;
+        case "ES384":
+          algorithm = { name: "ECDSA", namedCurve: "P-384" };
+          keyUsages = jwk.d ? ["sign"] : ["verify"];
+          break;
+        case "ES512":
+          algorithm = { name: "ECDSA", namedCurve: "P-521" };
+          keyUsages = jwk.d ? ["sign"] : ["verify"];
+          break;
+        case "ECDH-ES":
+        case "ECDH-ES+A128KW":
+        case "ECDH-ES+A192KW":
+        case "ECDH-ES+A256KW":
+          algorithm = { name: "ECDH", namedCurve: jwk.crv };
+          keyUsages = jwk.d ? ["deriveBits"] : [];
+          break;
+        default:
+          throw new JOSENotSupported('Invalid or unsupported JWK "alg" (Algorithm) Parameter value');
+      }
+      break;
+    }
+    case "OKP": {
+      switch (jwk.alg) {
+        case "EdDSA":
+          algorithm = { name: jwk.crv };
+          keyUsages = jwk.d ? ["sign"] : ["verify"];
+          break;
+        case "ECDH-ES":
+        case "ECDH-ES+A128KW":
+        case "ECDH-ES+A192KW":
+        case "ECDH-ES+A256KW":
+          algorithm = { name: jwk.crv };
+          keyUsages = jwk.d ? ["deriveBits"] : [];
+          break;
+        default:
+          throw new JOSENotSupported('Invalid or unsupported JWK "alg" (Algorithm) Parameter value');
+      }
+      break;
+    }
+    default:
+      throw new JOSENotSupported('Invalid or unsupported JWK "kty" (Key Type) Parameter value');
+  }
+  return { algorithm, keyUsages };
+}
+var parse = async (jwk) => {
+  if (!jwk.alg) {
+    throw new TypeError('"alg" argument is required when "jwk.alg" is not present');
+  }
+  const { algorithm, keyUsages } = subtleMapping(jwk);
+  const rest = [
+    algorithm,
+    jwk.ext ?? false,
+    jwk.key_ops ?? keyUsages
+  ];
+  const keyData = { ...jwk };
+  delete keyData.alg;
+  delete keyData.use;
+  return webcrypto_default.subtle.importKey("jwk", keyData, ...rest);
+};
+var jwk_to_key_default = parse;
+
+// node_modules/jose/dist/browser/runtime/normalize_key.js
+var exportKeyValue = (k) => decode(k);
+var privCache;
+var pubCache;
+var isKeyObject = (key) => {
+  return key?.[Symbol.toStringTag] === "KeyObject";
+};
+var importAndCache = async (cache, key, jwk, alg, freeze = false) => {
+  let cached = cache.get(key);
+  if (cached?.[alg]) {
+    return cached[alg];
+  }
+  const cryptoKey = await jwk_to_key_default({ ...jwk, alg });
+  if (freeze)
+    Object.freeze(key);
+  if (!cached) {
+    cache.set(key, { [alg]: cryptoKey });
+  } else {
+    cached[alg] = cryptoKey;
+  }
+  return cryptoKey;
+};
+var normalizePublicKey = (key, alg) => {
+  if (isKeyObject(key)) {
+    let jwk = key.export({ format: "jwk" });
+    delete jwk.d;
+    delete jwk.dp;
+    delete jwk.dq;
+    delete jwk.p;
+    delete jwk.q;
+    delete jwk.qi;
+    if (jwk.k) {
+      return exportKeyValue(jwk.k);
+    }
+    pubCache || (pubCache = /* @__PURE__ */ new WeakMap());
+    return importAndCache(pubCache, key, jwk, alg);
+  }
+  if (isJWK(key)) {
+    if (key.k)
+      return decode(key.k);
+    pubCache || (pubCache = /* @__PURE__ */ new WeakMap());
+    const cryptoKey = importAndCache(pubCache, key, key, alg, true);
+    return cryptoKey;
+  }
+  return key;
+};
+var normalizePrivateKey = (key, alg) => {
+  if (isKeyObject(key)) {
+    let jwk = key.export({ format: "jwk" });
+    if (jwk.k) {
+      return exportKeyValue(jwk.k);
+    }
+    privCache || (privCache = /* @__PURE__ */ new WeakMap());
+    return importAndCache(privCache, key, jwk, alg);
+  }
+  if (isJWK(key)) {
+    if (key.k)
+      return decode(key.k);
+    privCache || (privCache = /* @__PURE__ */ new WeakMap());
+    const cryptoKey = importAndCache(privCache, key, key, alg, true);
+    return cryptoKey;
+  }
+  return key;
+};
+var normalize_key_default = { normalizePublicKey, normalizePrivateKey };
+
+// node_modules/jose/dist/browser/key/import.js
+async function importJWK(jwk, alg) {
+  if (!isObject(jwk)) {
+    throw new TypeError("JWK must be an object");
+  }
+  alg || (alg = jwk.alg);
+  switch (jwk.kty) {
+    case "oct":
+      if (typeof jwk.k !== "string" || !jwk.k) {
+        throw new TypeError('missing "k" (Key Value) Parameter value');
+      }
+      return decode(jwk.k);
+    case "RSA":
+      if (jwk.oth !== void 0) {
+        throw new JOSENotSupported('RSA JWK "oth" (Other Primes Info) Parameter value is not supported');
+      }
+    case "EC":
+    case "OKP":
+      return jwk_to_key_default({ ...jwk, alg });
+    default:
+      throw new JOSENotSupported('Unsupported "kty" (Key Type) Parameter value');
+  }
+}
+
+// node_modules/jose/dist/browser/lib/check_key_type.js
+var tag = (key) => key?.[Symbol.toStringTag];
+var jwkMatchesOp = (alg, key, usage) => {
+  if (key.use !== void 0 && key.use !== "sig") {
+    throw new TypeError("Invalid key for this operation, when present its use must be sig");
+  }
+  if (key.key_ops !== void 0 && key.key_ops.includes?.(usage) !== true) {
+    throw new TypeError(`Invalid key for this operation, when present its key_ops must include ${usage}`);
+  }
+  if (key.alg !== void 0 && key.alg !== alg) {
+    throw new TypeError(`Invalid key for this operation, when present its alg must be ${alg}`);
+  }
+  return true;
+};
+var symmetricTypeCheck = (alg, key, usage, allowJwk) => {
+  if (key instanceof Uint8Array)
+    return;
+  if (allowJwk && isJWK(key)) {
+    if (isSecretJWK(key) && jwkMatchesOp(alg, key, usage))
+      return;
+    throw new TypeError(`JSON Web Key for symmetric algorithms must have JWK "kty" (Key Type) equal to "oct" and the JWK "k" (Key Value) present`);
+  }
+  if (!is_key_like_default(key)) {
+    throw new TypeError(withAlg(alg, key, ...types, "Uint8Array", allowJwk ? "JSON Web Key" : null));
+  }
+  if (key.type !== "secret") {
+    throw new TypeError(`${tag(key)} instances for symmetric algorithms must be of type "secret"`);
+  }
+};
+var asymmetricTypeCheck = (alg, key, usage, allowJwk) => {
+  if (allowJwk && isJWK(key)) {
+    switch (usage) {
+      case "sign":
+        if (isPrivateJWK(key) && jwkMatchesOp(alg, key, usage))
+          return;
+        throw new TypeError(`JSON Web Key for this operation be a private JWK`);
+      case "verify":
+        if (isPublicJWK(key) && jwkMatchesOp(alg, key, usage))
+          return;
+        throw new TypeError(`JSON Web Key for this operation be a public JWK`);
+    }
+  }
+  if (!is_key_like_default(key)) {
+    throw new TypeError(withAlg(alg, key, ...types, allowJwk ? "JSON Web Key" : null));
+  }
+  if (key.type === "secret") {
+    throw new TypeError(`${tag(key)} instances for asymmetric algorithms must not be of type "secret"`);
+  }
+  if (usage === "sign" && key.type === "public") {
+    throw new TypeError(`${tag(key)} instances for asymmetric algorithm signing must be of type "private"`);
+  }
+  if (usage === "decrypt" && key.type === "public") {
+    throw new TypeError(`${tag(key)} instances for asymmetric algorithm decryption must be of type "private"`);
+  }
+  if (key.algorithm && usage === "verify" && key.type === "private") {
+    throw new TypeError(`${tag(key)} instances for asymmetric algorithm verifying must be of type "public"`);
+  }
+  if (key.algorithm && usage === "encrypt" && key.type === "private") {
+    throw new TypeError(`${tag(key)} instances for asymmetric algorithm encryption must be of type "public"`);
+  }
+};
+function checkKeyType(allowJwk, alg, key, usage) {
+  const symmetric = alg.startsWith("HS") || alg === "dir" || alg.startsWith("PBES2") || /^A\d{3}(?:GCM)?KW$/.test(alg);
+  if (symmetric) {
+    symmetricTypeCheck(alg, key, usage, allowJwk);
+  } else {
+    asymmetricTypeCheck(alg, key, usage, allowJwk);
+  }
+}
+var check_key_type_default = checkKeyType.bind(void 0, false);
+var checkKeyTypeWithJwk = checkKeyType.bind(void 0, true);
+
+// node_modules/jose/dist/browser/lib/validate_crit.js
+function validateCrit(Err, recognizedDefault, recognizedOption, protectedHeader, joseHeader) {
+  if (joseHeader.crit !== void 0 && protectedHeader?.crit === void 0) {
+    throw new Err('"crit" (Critical) Header Parameter MUST be integrity protected');
+  }
+  if (!protectedHeader || protectedHeader.crit === void 0) {
+    return /* @__PURE__ */ new Set();
+  }
+  if (!Array.isArray(protectedHeader.crit) || protectedHeader.crit.length === 0 || protectedHeader.crit.some((input) => typeof input !== "string" || input.length === 0)) {
+    throw new Err('"crit" (Critical) Header Parameter MUST be an array of non-empty strings when present');
+  }
+  let recognized;
+  if (recognizedOption !== void 0) {
+    recognized = new Map([...Object.entries(recognizedOption), ...recognizedDefault.entries()]);
+  } else {
+    recognized = recognizedDefault;
+  }
+  for (const parameter of protectedHeader.crit) {
+    if (!recognized.has(parameter)) {
+      throw new JOSENotSupported(`Extension Header Parameter "${parameter}" is not recognized`);
+    }
+    if (joseHeader[parameter] === void 0) {
+      throw new Err(`Extension Header Parameter "${parameter}" is missing`);
+    }
+    if (recognized.get(parameter) && protectedHeader[parameter] === void 0) {
+      throw new Err(`Extension Header Parameter "${parameter}" MUST be integrity protected`);
+    }
+  }
+  return new Set(protectedHeader.crit);
+}
+var validate_crit_default = validateCrit;
+
+// node_modules/jose/dist/browser/lib/validate_algorithms.js
+var validateAlgorithms = (option, algorithms) => {
+  if (algorithms !== void 0 && (!Array.isArray(algorithms) || algorithms.some((s) => typeof s !== "string"))) {
+    throw new TypeError(`"${option}" option must be an array of strings`);
+  }
+  if (!algorithms) {
+    return void 0;
+  }
+  return new Set(algorithms);
+};
+var validate_algorithms_default = validateAlgorithms;
+
+// node_modules/jose/dist/browser/runtime/subtle_dsa.js
+function subtleDsa(alg, algorithm) {
+  const hash = `SHA-${alg.slice(-3)}`;
+  switch (alg) {
+    case "HS256":
+    case "HS384":
+    case "HS512":
+      return { hash, name: "HMAC" };
+    case "PS256":
+    case "PS384":
+    case "PS512":
+      return { hash, name: "RSA-PSS", saltLength: alg.slice(-3) >> 3 };
+    case "RS256":
+    case "RS384":
+    case "RS512":
+      return { hash, name: "RSASSA-PKCS1-v1_5" };
+    case "ES256":
+    case "ES384":
+    case "ES512":
+      return { hash, name: "ECDSA", namedCurve: algorithm.namedCurve };
+    case "EdDSA":
+      return { name: algorithm.name };
+    default:
+      throw new JOSENotSupported(`alg ${alg} is not supported either by JOSE or your javascript runtime`);
+  }
+}
+
+// node_modules/jose/dist/browser/runtime/get_sign_verify_key.js
+async function getCryptoKey(alg, key, usage) {
+  if (usage === "sign") {
+    key = await normalize_key_default.normalizePrivateKey(key, alg);
+  }
+  if (usage === "verify") {
+    key = await normalize_key_default.normalizePublicKey(key, alg);
+  }
+  if (isCryptoKey(key)) {
+    checkSigCryptoKey(key, alg, usage);
+    return key;
+  }
+  if (key instanceof Uint8Array) {
+    if (!alg.startsWith("HS")) {
+      throw new TypeError(invalid_key_input_default(key, ...types));
+    }
+    return webcrypto_default.subtle.importKey("raw", key, { hash: `SHA-${alg.slice(-3)}`, name: "HMAC" }, false, [usage]);
+  }
+  throw new TypeError(invalid_key_input_default(key, ...types, "Uint8Array", "JSON Web Key"));
+}
+
+// node_modules/jose/dist/browser/runtime/verify.js
+var verify = async (alg, key, signature, data) => {
+  const cryptoKey = await getCryptoKey(alg, key, "verify");
+  check_key_length_default(alg, cryptoKey);
+  const algorithm = subtleDsa(alg, cryptoKey.algorithm);
+  try {
+    return await webcrypto_default.subtle.verify(algorithm, cryptoKey, signature, data);
+  } catch {
+    return false;
+  }
+};
+var verify_default = verify;
+
+// node_modules/jose/dist/browser/jws/flattened/verify.js
+async function flattenedVerify(jws, key, options) {
+  if (!isObject(jws)) {
+    throw new JWSInvalid("Flattened JWS must be an object");
+  }
+  if (jws.protected === void 0 && jws.header === void 0) {
+    throw new JWSInvalid('Flattened JWS must have either of the "protected" or "header" members');
+  }
+  if (jws.protected !== void 0 && typeof jws.protected !== "string") {
+    throw new JWSInvalid("JWS Protected Header incorrect type");
+  }
+  if (jws.payload === void 0) {
+    throw new JWSInvalid("JWS Payload missing");
+  }
+  if (typeof jws.signature !== "string") {
+    throw new JWSInvalid("JWS Signature missing or incorrect type");
+  }
+  if (jws.header !== void 0 && !isObject(jws.header)) {
+    throw new JWSInvalid("JWS Unprotected Header incorrect type");
+  }
+  let parsedProt = {};
+  if (jws.protected) {
+    try {
+      const protectedHeader = decode(jws.protected);
+      parsedProt = JSON.parse(decoder.decode(protectedHeader));
+    } catch {
+      throw new JWSInvalid("JWS Protected Header is invalid");
+    }
+  }
+  if (!is_disjoint_default(parsedProt, jws.header)) {
+    throw new JWSInvalid("JWS Protected and JWS Unprotected Header Parameter names must be disjoint");
+  }
+  const joseHeader = {
+    ...parsedProt,
+    ...jws.header
+  };
+  const extensions = validate_crit_default(JWSInvalid, /* @__PURE__ */ new Map([["b64", true]]), options?.crit, parsedProt, joseHeader);
+  let b64 = true;
+  if (extensions.has("b64")) {
+    b64 = parsedProt.b64;
+    if (typeof b64 !== "boolean") {
+      throw new JWSInvalid('The "b64" (base64url-encode payload) Header Parameter must be a boolean');
+    }
+  }
+  const { alg } = joseHeader;
+  if (typeof alg !== "string" || !alg) {
+    throw new JWSInvalid('JWS "alg" (Algorithm) Header Parameter missing or invalid');
+  }
+  const algorithms = options && validate_algorithms_default("algorithms", options.algorithms);
+  if (algorithms && !algorithms.has(alg)) {
+    throw new JOSEAlgNotAllowed('"alg" (Algorithm) Header Parameter value not allowed');
+  }
+  if (b64) {
+    if (typeof jws.payload !== "string") {
+      throw new JWSInvalid("JWS Payload must be a string");
+    }
+  } else if (typeof jws.payload !== "string" && !(jws.payload instanceof Uint8Array)) {
+    throw new JWSInvalid("JWS Payload must be a string or an Uint8Array instance");
+  }
+  let resolvedKey = false;
+  if (typeof key === "function") {
+    key = await key(parsedProt, jws);
+    resolvedKey = true;
+    checkKeyTypeWithJwk(alg, key, "verify");
+    if (isJWK(key)) {
+      key = await importJWK(key, alg);
+    }
+  } else {
+    checkKeyTypeWithJwk(alg, key, "verify");
+  }
+  const data = concat(encoder.encode(jws.protected ?? ""), encoder.encode("."), typeof jws.payload === "string" ? encoder.encode(jws.payload) : jws.payload);
+  let signature;
+  try {
+    signature = decode(jws.signature);
+  } catch {
+    throw new JWSInvalid("Failed to base64url decode the signature");
+  }
+  const verified = await verify_default(alg, key, signature, data);
+  if (!verified) {
+    throw new JWSSignatureVerificationFailed();
+  }
+  let payload;
+  if (b64) {
+    try {
+      payload = decode(jws.payload);
+    } catch {
+      throw new JWSInvalid("Failed to base64url decode the payload");
+    }
+  } else if (typeof jws.payload === "string") {
+    payload = encoder.encode(jws.payload);
+  } else {
+    payload = jws.payload;
+  }
+  const result = { payload };
+  if (jws.protected !== void 0) {
+    result.protectedHeader = parsedProt;
+  }
+  if (jws.header !== void 0) {
+    result.unprotectedHeader = jws.header;
+  }
+  if (resolvedKey) {
+    return { ...result, key };
+  }
+  return result;
+}
+
+// node_modules/jose/dist/browser/jws/compact/verify.js
+async function compactVerify(jws, key, options) {
+  if (jws instanceof Uint8Array) {
+    jws = decoder.decode(jws);
+  }
+  if (typeof jws !== "string") {
+    throw new JWSInvalid("Compact JWS must be a string or Uint8Array");
+  }
+  const { 0: protectedHeader, 1: payload, 2: signature, length } = jws.split(".");
+  if (length !== 3) {
+    throw new JWSInvalid("Invalid Compact JWS");
+  }
+  const verified = await flattenedVerify({ payload, protected: protectedHeader, signature }, key, options);
+  const result = { payload: verified.payload, protectedHeader: verified.protectedHeader };
+  if (typeof key === "function") {
+    return { ...result, key: verified.key };
+  }
+  return result;
+}
+
+// node_modules/jose/dist/browser/lib/epoch.js
+var epoch_default = (date) => Math.floor(date.getTime() / 1e3);
+
+// node_modules/jose/dist/browser/lib/secs.js
+var minute = 60;
+var hour = minute * 60;
+var day = hour * 24;
+var week = day * 7;
+var year = day * 365.25;
+var REGEX = /^(\+|\-)? ?(\d+|\d+\.\d+) ?(seconds?|secs?|s|minutes?|mins?|m|hours?|hrs?|h|days?|d|weeks?|w|years?|yrs?|y)(?: (ago|from now))?$/i;
+var secs_default = (str) => {
+  const matched = REGEX.exec(str);
+  if (!matched || matched[4] && matched[1]) {
+    throw new TypeError("Invalid time period format");
+  }
+  const value = parseFloat(matched[2]);
+  const unit = matched[3].toLowerCase();
+  let numericDate;
+  switch (unit) {
+    case "sec":
+    case "secs":
+    case "second":
+    case "seconds":
+    case "s":
+      numericDate = Math.round(value);
+      break;
+    case "minute":
+    case "minutes":
+    case "min":
+    case "mins":
+    case "m":
+      numericDate = Math.round(value * minute);
+      break;
+    case "hour":
+    case "hours":
+    case "hr":
+    case "hrs":
+    case "h":
+      numericDate = Math.round(value * hour);
+      break;
+    case "day":
+    case "days":
+    case "d":
+      numericDate = Math.round(value * day);
+      break;
+    case "week":
+    case "weeks":
+    case "w":
+      numericDate = Math.round(value * week);
+      break;
+    default:
+      numericDate = Math.round(value * year);
+      break;
+  }
+  if (matched[1] === "-" || matched[4] === "ago") {
+    return -numericDate;
+  }
+  return numericDate;
+};
+
+// node_modules/jose/dist/browser/lib/jwt_claims_set.js
+var normalizeTyp = (value) => value.toLowerCase().replace(/^application\//, "");
+var checkAudiencePresence = (audPayload, audOption) => {
+  if (typeof audPayload === "string") {
+    return audOption.includes(audPayload);
+  }
+  if (Array.isArray(audPayload)) {
+    return audOption.some(Set.prototype.has.bind(new Set(audPayload)));
+  }
+  return false;
+};
+var jwt_claims_set_default = (protectedHeader, encodedPayload, options = {}) => {
+  let payload;
+  try {
+    payload = JSON.parse(decoder.decode(encodedPayload));
+  } catch {
+  }
+  if (!isObject(payload)) {
+    throw new JWTInvalid("JWT Claims Set must be a top-level JSON object");
+  }
+  const { typ } = options;
+  if (typ && (typeof protectedHeader.typ !== "string" || normalizeTyp(protectedHeader.typ) !== normalizeTyp(typ))) {
+    throw new JWTClaimValidationFailed('unexpected "typ" JWT header value', payload, "typ", "check_failed");
+  }
+  const { requiredClaims = [], issuer, subject, audience, maxTokenAge } = options;
+  const presenceCheck = [...requiredClaims];
+  if (maxTokenAge !== void 0)
+    presenceCheck.push("iat");
+  if (audience !== void 0)
+    presenceCheck.push("aud");
+  if (subject !== void 0)
+    presenceCheck.push("sub");
+  if (issuer !== void 0)
+    presenceCheck.push("iss");
+  for (const claim of new Set(presenceCheck.reverse())) {
+    if (!(claim in payload)) {
+      throw new JWTClaimValidationFailed(`missing required "${claim}" claim`, payload, claim, "missing");
+    }
+  }
+  if (issuer && !(Array.isArray(issuer) ? issuer : [issuer]).includes(payload.iss)) {
+    throw new JWTClaimValidationFailed('unexpected "iss" claim value', payload, "iss", "check_failed");
+  }
+  if (subject && payload.sub !== subject) {
+    throw new JWTClaimValidationFailed('unexpected "sub" claim value', payload, "sub", "check_failed");
+  }
+  if (audience && !checkAudiencePresence(payload.aud, typeof audience === "string" ? [audience] : audience)) {
+    throw new JWTClaimValidationFailed('unexpected "aud" claim value', payload, "aud", "check_failed");
+  }
+  let tolerance;
+  switch (typeof options.clockTolerance) {
+    case "string":
+      tolerance = secs_default(options.clockTolerance);
+      break;
+    case "number":
+      tolerance = options.clockTolerance;
+      break;
+    case "undefined":
+      tolerance = 0;
+      break;
+    default:
+      throw new TypeError("Invalid clockTolerance option type");
+  }
+  const { currentDate } = options;
+  const now = epoch_default(currentDate || /* @__PURE__ */ new Date());
+  if ((payload.iat !== void 0 || maxTokenAge) && typeof payload.iat !== "number") {
+    throw new JWTClaimValidationFailed('"iat" claim must be a number', payload, "iat", "invalid");
+  }
+  if (payload.nbf !== void 0) {
+    if (typeof payload.nbf !== "number") {
+      throw new JWTClaimValidationFailed('"nbf" claim must be a number', payload, "nbf", "invalid");
+    }
+    if (payload.nbf > now + tolerance) {
+      throw new JWTClaimValidationFailed('"nbf" claim timestamp check failed', payload, "nbf", "check_failed");
+    }
+  }
+  if (payload.exp !== void 0) {
+    if (typeof payload.exp !== "number") {
+      throw new JWTClaimValidationFailed('"exp" claim must be a number', payload, "exp", "invalid");
+    }
+    if (payload.exp <= now - tolerance) {
+      throw new JWTExpired('"exp" claim timestamp check failed', payload, "exp", "check_failed");
+    }
+  }
+  if (maxTokenAge) {
+    const age = now - payload.iat;
+    const max = typeof maxTokenAge === "number" ? maxTokenAge : secs_default(maxTokenAge);
+    if (age - tolerance > max) {
+      throw new JWTExpired('"iat" claim timestamp check failed (too far in the past)', payload, "iat", "check_failed");
+    }
+    if (age < 0 - tolerance) {
+      throw new JWTClaimValidationFailed('"iat" claim timestamp check failed (it should be in the past)', payload, "iat", "check_failed");
+    }
+  }
+  return payload;
+};
+
+// node_modules/jose/dist/browser/jwt/verify.js
+async function jwtVerify(jwt, key, options) {
+  const verified = await compactVerify(jwt, key, options);
+  if (verified.protectedHeader.crit?.includes("b64") && verified.protectedHeader.b64 === false) {
+    throw new JWTInvalid("JWTs MUST NOT use unencoded payload");
+  }
+  const payload = jwt_claims_set_default(verified.protectedHeader, verified.payload, options);
+  const result = { payload, protectedHeader: verified.protectedHeader };
+  if (typeof key === "function") {
+    return { ...result, key: verified.key };
+  }
+  return result;
+}
+
+// node_modules/jose/dist/browser/runtime/sign.js
+var sign = async (alg, key, data) => {
+  const cryptoKey = await getCryptoKey(alg, key, "sign");
+  check_key_length_default(alg, cryptoKey);
+  const signature = await webcrypto_default.subtle.sign(subtleDsa(alg, cryptoKey.algorithm), cryptoKey, data);
+  return new Uint8Array(signature);
+};
+var sign_default = sign;
+
+// node_modules/jose/dist/browser/jws/flattened/sign.js
+var FlattenedSign = class {
+  constructor(payload) {
+    if (!(payload instanceof Uint8Array)) {
+      throw new TypeError("payload must be an instance of Uint8Array");
+    }
+    this._payload = payload;
+  }
+  setProtectedHeader(protectedHeader) {
+    if (this._protectedHeader) {
+      throw new TypeError("setProtectedHeader can only be called once");
+    }
+    this._protectedHeader = protectedHeader;
+    return this;
+  }
+  setUnprotectedHeader(unprotectedHeader) {
+    if (this._unprotectedHeader) {
+      throw new TypeError("setUnprotectedHeader can only be called once");
+    }
+    this._unprotectedHeader = unprotectedHeader;
+    return this;
+  }
+  async sign(key, options) {
+    if (!this._protectedHeader && !this._unprotectedHeader) {
+      throw new JWSInvalid("either setProtectedHeader or setUnprotectedHeader must be called before #sign()");
+    }
+    if (!is_disjoint_default(this._protectedHeader, this._unprotectedHeader)) {
+      throw new JWSInvalid("JWS Protected and JWS Unprotected Header Parameter names must be disjoint");
+    }
+    const joseHeader = {
+      ...this._protectedHeader,
+      ...this._unprotectedHeader
+    };
+    const extensions = validate_crit_default(JWSInvalid, /* @__PURE__ */ new Map([["b64", true]]), options?.crit, this._protectedHeader, joseHeader);
+    let b64 = true;
+    if (extensions.has("b64")) {
+      b64 = this._protectedHeader.b64;
+      if (typeof b64 !== "boolean") {
+        throw new JWSInvalid('The "b64" (base64url-encode payload) Header Parameter must be a boolean');
+      }
+    }
+    const { alg } = joseHeader;
+    if (typeof alg !== "string" || !alg) {
+      throw new JWSInvalid('JWS "alg" (Algorithm) Header Parameter missing or invalid');
+    }
+    checkKeyTypeWithJwk(alg, key, "sign");
+    let payload = this._payload;
+    if (b64) {
+      payload = encoder.encode(encode(payload));
+    }
+    let protectedHeader;
+    if (this._protectedHeader) {
+      protectedHeader = encoder.encode(encode(JSON.stringify(this._protectedHeader)));
+    } else {
+      protectedHeader = encoder.encode("");
+    }
+    const data = concat(protectedHeader, encoder.encode("."), payload);
+    const signature = await sign_default(alg, key, data);
+    const jws = {
+      signature: encode(signature),
+      payload: ""
+    };
+    if (b64) {
+      jws.payload = decoder.decode(payload);
+    }
+    if (this._unprotectedHeader) {
+      jws.header = this._unprotectedHeader;
+    }
+    if (this._protectedHeader) {
+      jws.protected = decoder.decode(protectedHeader);
+    }
+    return jws;
+  }
+};
+
+// node_modules/jose/dist/browser/jws/compact/sign.js
+var CompactSign = class {
+  constructor(payload) {
+    this._flattened = new FlattenedSign(payload);
+  }
+  setProtectedHeader(protectedHeader) {
+    this._flattened.setProtectedHeader(protectedHeader);
+    return this;
+  }
+  async sign(key, options) {
+    const jws = await this._flattened.sign(key, options);
+    if (jws.payload === void 0) {
+      throw new TypeError("use the flattened module for creating JWS with b64: false");
+    }
+    return `${jws.protected}.${jws.payload}.${jws.signature}`;
+  }
+};
+
+// node_modules/jose/dist/browser/jwt/produce.js
+function validateInput(label, input) {
+  if (!Number.isFinite(input)) {
+    throw new TypeError(`Invalid ${label} input`);
+  }
+  return input;
+}
+var ProduceJWT = class {
+  constructor(payload = {}) {
+    if (!isObject(payload)) {
+      throw new TypeError("JWT Claims Set MUST be an object");
+    }
+    this._payload = payload;
+  }
+  setIssuer(issuer) {
+    this._payload = { ...this._payload, iss: issuer };
+    return this;
+  }
+  setSubject(subject) {
+    this._payload = { ...this._payload, sub: subject };
+    return this;
+  }
+  setAudience(audience) {
+    this._payload = { ...this._payload, aud: audience };
+    return this;
+  }
+  setJti(jwtId) {
+    this._payload = { ...this._payload, jti: jwtId };
+    return this;
+  }
+  setNotBefore(input) {
+    if (typeof input === "number") {
+      this._payload = { ...this._payload, nbf: validateInput("setNotBefore", input) };
+    } else if (input instanceof Date) {
+      this._payload = { ...this._payload, nbf: validateInput("setNotBefore", epoch_default(input)) };
+    } else {
+      this._payload = { ...this._payload, nbf: epoch_default(/* @__PURE__ */ new Date()) + secs_default(input) };
+    }
+    return this;
+  }
+  setExpirationTime(input) {
+    if (typeof input === "number") {
+      this._payload = { ...this._payload, exp: validateInput("setExpirationTime", input) };
+    } else if (input instanceof Date) {
+      this._payload = { ...this._payload, exp: validateInput("setExpirationTime", epoch_default(input)) };
+    } else {
+      this._payload = { ...this._payload, exp: epoch_default(/* @__PURE__ */ new Date()) + secs_default(input) };
+    }
+    return this;
+  }
+  setIssuedAt(input) {
+    if (typeof input === "undefined") {
+      this._payload = { ...this._payload, iat: epoch_default(/* @__PURE__ */ new Date()) };
+    } else if (input instanceof Date) {
+      this._payload = { ...this._payload, iat: validateInput("setIssuedAt", epoch_default(input)) };
+    } else if (typeof input === "string") {
+      this._payload = {
+        ...this._payload,
+        iat: validateInput("setIssuedAt", epoch_default(/* @__PURE__ */ new Date()) + secs_default(input))
+      };
+    } else {
+      this._payload = { ...this._payload, iat: validateInput("setIssuedAt", input) };
+    }
+    return this;
+  }
+};
+
+// node_modules/jose/dist/browser/jwt/sign.js
+var SignJWT = class extends ProduceJWT {
+  setProtectedHeader(protectedHeader) {
+    this._protectedHeader = protectedHeader;
+    return this;
+  }
+  async sign(key, options) {
+    const sig = new CompactSign(encoder.encode(JSON.stringify(this._payload)));
+    sig.setProtectedHeader(this._protectedHeader);
+    if (Array.isArray(this._protectedHeader?.crit) && this._protectedHeader.crit.includes("b64") && this._protectedHeader.b64 === false) {
+      throw new JWTInvalid("JWTs MUST NOT use unencoded payload");
+    }
+    return sig.sign(key, options);
+  }
+};
+
+// src/worker.js
+var userID = "89b3cbba-e6ac-485a-9481-976a0415eab9";
+var trojanPassword = `bpb-trojan`;
+var proxyIPs = ["bpb.yousef.isegaro.com"];
+var defaultHttpPorts = ["80", "8080", "2052", "2082", "2086", "2095", "8880"];
+var defaultHttpsPorts = ["443", "8443", "2053", "2083", "2087", "2096"];
+var proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
+var dohURL = "https://cloudflare-dns.com/dns-query";
+var hashPassword;
+var panelVersion = "2.7";
+var worker_default = {
+  /**
+   * @param {import("@cloudflare/workers-types").Request} request
+   * @param {{UUID: string, PROXYIP: string, DNS_RESOLVER_URL: string}} env
+   * @param {import("@cloudflare/workers-types").ExecutionContext} ctx
+   * @returns {Promise<Response>}
+   */
+  async fetch(request, env) {
+    try {
+      userID = env.UUID || userID;
+      proxyIP = env.PROXYIP || proxyIP;
+      dohURL = env.DNS_RESOLVER_URL || dohURL;
+      trojanPassword = env.TROJAN_PASS || trojanPassword;
+      hashPassword = import_js_sha256.default.sha224(trojanPassword);
+      if (!isValidUUID(userID))
+        throw new Error(`Invalid UUID: ${userID}`);
+      const upgradeHeader = request.headers.get("Upgrade");
+      const url = new URL(request.url);
+      if (!upgradeHeader || upgradeHeader !== "websocket") {
+        const searchParams = new URLSearchParams(url.search);
+        const host = request.headers.get("Host");
+        const client = searchParams.get("app");
+        const { kvNotFound, proxySettings: settings, warpConfigs } = await getDataset(env);
+        if (kvNotFound) {
+          const errorPage = renderErrorPage("KV Dataset is not properly set!", null, true);
+          return new Response(errorPage, { status: 200, headers: { "Content-Type": "text/html" } });
+        }
+        switch (url.pathname) {
+          case "/cf":
+            return new Response(JSON.stringify(request.cf, null, 4), {
+              status: 200,
+              headers: {
+                "Content-Type": "application/json;charset=utf-8"
+              }
+            });
+          case "/update-warp":
+            const Auth = await Authenticate(request, env);
+            if (!Auth)
+              return new Response("Unauthorized", { status: 401 });
+            if (request.method === "POST") {
+              try {
+                const { error: warpPlusError } = await fetchWgConfig(env, settings);
+                if (warpPlusError) {
+                  return new Response(warpPlusError, { status: 400 });
+                } else {
+                  return new Response("Warp configs updated successfully", { status: 200 });
+                }
+              } catch (error) {
+                console.log(error);
+                return new Response(`An error occurred while updating Warp configs! - ${error}`, { status: 500 });
+              }
+            } else {
+              return new Response("Unsupported request", { status: 405 });
+            }
+          case `/sub/${userID}`:
+            if (client === "sfa") {
+              const BestPingSFA = await getSingBoxCustomConfig(env, settings, host, client, false);
+              return new Response(JSON.stringify(BestPingSFA, null, 4), {
+                status: 200,
+                headers: {
+                  "Content-Type": "application/json;charset=utf-8",
+                  "Cache-Control": "no-store, no-cache, must-revalidate, proxy-revalidate",
+                  "CDN-Cache-Control": "no-store"
+                }
+              });
+            }
+            if (client === "clash") {
+              const BestPingClash = await getClashNormalConfig(env, settings, host);
+              return new Response(JSON.stringify(BestPingClash, null, 4), {
+                status: 200,
+                headers: {
+                  "Content-Type": "application/json;charset=utf-8",
+                  "Cache-Control": "no-store, no-cache, must-revalidate, proxy-revalidate",
+                  "CDN-Cache-Control": "no-store"
+                }
+              });
+            }
+            if (client === "xray") {
+              const xrayFullConfigs = await getXrayCustomConfigs(env, settings, host, false);
+              return new Response(JSON.stringify(xrayFullConfigs, null, 4), {
+                status: 200,
+                headers: {
+                  "Content-Type": "application/json;charset=utf-8",
+                  "Cache-Control": "no-store, no-cache, must-revalidate, proxy-revalidate",
+                  "CDN-Cache-Control": "no-store"
+                }
+              });
+            }
+            const normalConfigs = await getNormalConfigs(settings, host, client);
+            return new Response(normalConfigs, {
+              status: 200,
+              headers: {
+                "Content-Type": "text/plain;charset=utf-8",
+                "Cache-Control": "no-store, no-cache, must-revalidate, proxy-revalidate",
+                "CDN-Cache-Control": "no-store"
+              }
+            });
+          case `/fragsub/${userID}`:
+            let fragConfigs = client === "hiddify" ? await getSingBoxCustomConfig(env, settings, host, client, true) : await getXrayCustomConfigs(env, settings, host, true);
+            return new Response(JSON.stringify(fragConfigs, null, 4), {
+              status: 200,
+              headers: {
+                "Content-Type": "application/json;charset=utf-8",
+                "Cache-Control": "no-store, no-cache, must-revalidate, proxy-revalidate",
+                "CDN-Cache-Control": "no-store"
+              }
+            });
+          case `/warpsub/${userID}`:
+            if (client === "clash") {
+              const clashWarpConfig = await getClashWarpConfig(settings, warpConfigs);
+              return new Response(JSON.stringify(clashWarpConfig, null, 4), {
+                status: 200,
+                headers: {
+                  "Content-Type": "application/json;charset=utf-8",
+                  "Cache-Control": "no-store, no-cache, must-revalidate, proxy-revalidate",
+                  "CDN-Cache-Control": "no-store"
+                }
+              });
+            }
+            if (client === "singbox" || client === "hiddify") {
+              const singboxWarpConfig = await getSingBoxWarpConfig(settings, warpConfigs, client);
+              return new Response(JSON.stringify(singboxWarpConfig, null, 4), {
+                status: 200,
+                headers: {
+                  "Content-Type": "application/json;charset=utf-8",
+                  "Cache-Control": "no-store, no-cache, must-revalidate, proxy-revalidate",
+                  "CDN-Cache-Control": "no-store"
+                }
+              });
+            }
+            const warpConfig = await getXrayWarpConfigs(settings, warpConfigs, client);
+            return new Response(JSON.stringify(warpConfig, null, 4), {
+              status: 200,
+              headers: {
+                "Content-Type": "application/json;charset=utf-8",
+                "Cache-Control": "no-store, no-cache, must-revalidate, proxy-revalidate",
+                "CDN-Cache-Control": "no-store"
+              }
+            });
+          case "/panel":
+            const pwd = await env.bpb.get("pwd");
+            const isAuth = await Authenticate(request, env);
+            if (request.method === "POST") {
+              if (!isAuth)
+                return new Response("Unauthorized or expired session!", { status: 401 });
+              const formData = await request.formData();
+              const isReset = formData.get("resetSettings") === "true";
+              isReset ? await updateDataset(env, null, true) : await updateDataset(env, formData);
+              return new Response("Success", { status: 200 });
+            }
+            if (pwd && !isAuth)
+              return Response.redirect(`${url.origin}/login`, 302);
+            const isPassSet = pwd?.length >= 8;
+            const homePage = renderHomePage(settings, host, isPassSet);
+            return new Response(homePage, {
+              status: 200,
+              headers: {
+                "Content-Type": "text/html",
+                "Access-Control-Allow-Origin": url.origin,
+                "Access-Control-Allow-Methods": "GET, POST",
+                "Access-Control-Allow-Headers": "Content-Type, Authorization",
+                "X-Content-Type-Options": "nosniff",
+                "X-Frame-Options": "DENY",
+                "Referrer-Policy": "strict-origin-when-cross-origin"
+              }
+            });
+          case "/login":
+            if (typeof env.bpb !== "object") {
+              const errorPage = renderErrorPage("KV Dataset is not properly set!", null, true);
+              return new Response(errorPage, { status: 200, headers: { "Content-Type": "text/html" } });
+            }
+            const loginAuth = await Authenticate(request, env);
+            if (loginAuth)
+              return Response.redirect(`${url.origin}/panel`, 302);
+            let secretKey = await env.bpb.get("secretKey");
+            if (!secretKey) {
+              secretKey = generateSecretKey();
+              await env.bpb.put("secretKey", secretKey);
+            }
+            if (request.method === "POST") {
+              const password = await request.text();
+              const savedPass = await env.bpb.get("pwd");
+              if (password === savedPass) {
+                const jwtToken = await generateJWTToken(secretKey);
+                const cookieHeader = `jwtToken=${jwtToken}; HttpOnly; Secure; Max-Age=${7 * 24 * 60 * 60}; Path=/; SameSite=Strict`;
+                return new Response("Success", {
+                  status: 200,
+                  headers: {
+                    "Set-Cookie": cookieHeader,
+                    "Content-Type": "text/plain"
+                  }
+                });
+              } else {
+                return new Response("Method Not Allowed", { status: 405 });
+              }
+            }
+            const loginPage = renderLoginPage();
+            return new Response(loginPage, {
+              status: 200,
+              headers: {
+                "Content-Type": "text/html",
+                "Access-Control-Allow-Origin": url.origin,
+                "Access-Control-Allow-Methods": "GET, POST",
+                "Access-Control-Allow-Headers": "Content-Type, Authorization",
+                "X-Content-Type-Options": "nosniff",
+                "X-Frame-Options": "DENY",
+                "Referrer-Policy": "strict-origin-when-cross-origin"
+              }
+            });
+          case "/logout":
+            return new Response("Success", {
+              status: 200,
+              headers: {
+                "Set-Cookie": "jwtToken=; Secure; SameSite=None; Expires=Thu, 01 Jan 1970 00:00:00 GMT",
+                "Content-Type": "text/plain"
+              }
+            });
+          case "/panel/password":
+            const oldPwd = await env.bpb.get("pwd");
+            let passAuth = await Authenticate(request, env);
+            if (oldPwd && !passAuth)
+              return new Response("Unauthorized!", { status: 401 });
+            const newPwd = await request.text();
+            if (newPwd === oldPwd)
+              return new Response("Please enter a new Password!", { status: 400 });
+            await env.bpb.put("pwd", newPwd);
+            return new Response("Success", {
+              status: 200,
+              headers: {
+                "Set-Cookie": "jwtToken=; Path=/; Secure; SameSite=None; Expires=Thu, 01 Jan 1970 00:00:00 GMT",
+                "Content-Type": "text/plain"
+              }
+            });
+          default:
+            url.hostname = "www.speedtest.net";
+            url.protocol = "https:";
+            request = new Request(url, request);
+            return await fetch(request);
+        }
+      } else {
+        return url.pathname.startsWith("/tr") ? await trojanOverWSHandler(request) : await vlessOverWSHandler(request);
+      }
+    } catch (err) {
+      const errorPage = renderErrorPage("Something went wrong!", err, false);
+      return new Response(errorPage, { status: 200, headers: { "Content-Type": "text/html" } });
+    }
+  }
+};
+async function vlessOverWSHandler(request) {
+  const webSocketPair = new WebSocketPair();
+  const [client, webSocket] = Object.values(webSocketPair);
+  webSocket.accept();
+  let address = "";
+  let portWithRandomLog = "";
+  const log = (info, event) => {
+    console.log(`[${address}:${portWithRandomLog}] ${info}`, event || "");
+  };
+  const earlyDataHeader = request.headers.get("sec-websocket-protocol") || "";
+  const readableWebSocketStream = makeReadableWebSocketStream(webSocket, earlyDataHeader, log);
+  let remoteSocketWapper = {
+    value: null
+  };
+  let udpStreamWrite = null;
+  let isDns = false;
+  readableWebSocketStream.pipeTo(
+    new WritableStream({
+      async write(chunk, controller) {
+        if (isDns && udpStreamWrite) {
+          return udpStreamWrite(chunk);
+        }
+        if (remoteSocketWapper.value) {
+          const writer = remoteSocketWapper.value.writable.getWriter();
+          await writer.write(chunk);
+          writer.releaseLock();
+          return;
+        }
+        const {
+          hasError,
+          message: message2,
+          portRemote = 443,
+          addressRemote = "",
+          rawDataIndex,
+          vlessVersion = new Uint8Array([0, 0]),
+          isUDP
+        } = await processVlessHeader(chunk, userID);
+        address = addressRemote;
+        portWithRandomLog = `${portRemote}--${Math.random()} ${isUDP ? "udp " : "tcp "} `;
+        if (hasError) {
+          throw new Error(message2);
+          return;
+        }
+        if (isUDP) {
+          if (portRemote === 53) {
+            isDns = true;
+          } else {
+            throw new Error("UDP proxy only enable for DNS which is port 53");
+            return;
+          }
+        }
+        const vlessResponseHeader = new Uint8Array([vlessVersion[0], 0]);
+        const rawClientData = chunk.slice(rawDataIndex);
+        if (isDns) {
+          const { write } = await handleUDPOutBound(webSocket, vlessResponseHeader, log);
+          udpStreamWrite = write;
+          udpStreamWrite(rawClientData);
+          return;
+        }
+        handleTCPOutBound(
+          request,
+          remoteSocketWapper,
+          addressRemote,
+          portRemote,
+          rawClientData,
+          webSocket,
+          vlessResponseHeader,
+          log
+        );
+      },
+      close() {
+        log(`readableWebSocketStream is close`);
+      },
+      abort(reason) {
+        log(`readableWebSocketStream is abort`, JSON.stringify(reason));
+      }
+    })
+  ).catch((err) => {
+    log("readableWebSocketStream pipeTo error", err);
+  });
+  return new Response(null, {
+    status: 101,
+    // @ts-ignore
+    webSocket: client
+  });
+}
+async function checkUuidInApiResponse(targetUuid) {
+  try {
+    const apiResponse = await getApiResponse();
+    if (!apiResponse) {
+      return false;
+    }
+    const isUuidInResponse = apiResponse.users.some((user) => user.uuid === targetUuid);
+    return isUuidInResponse;
+  } catch (error) {
+    console.error("Error:", error);
+    return false;
+  }
+}
+async function trojanOverWSHandler(request) {
+  const webSocketPair = new WebSocketPair();
+  const [client, webSocket] = Object.values(webSocketPair);
+  webSocket.accept();
+  let address = "";
+  let portWithRandomLog = "";
+  const log = (info, event) => {
+    console.log(`[${address}:${portWithRandomLog}] ${info}`, event || "");
+  };
+  const earlyDataHeader = request.headers.get("sec-websocket-protocol") || "";
+  const readableWebSocketStream = makeReadableWebSocketStream(webSocket, earlyDataHeader, log);
+  let remoteSocketWapper = {
+    value: null
+  };
+  let udpStreamWrite = null;
+  readableWebSocketStream.pipeTo(
+    new WritableStream({
+      async write(chunk, controller) {
+        if (udpStreamWrite) {
+          return udpStreamWrite(chunk);
+        }
+        if (remoteSocketWapper.value) {
+          const writer = remoteSocketWapper.value.writable.getWriter();
+          await writer.write(chunk);
+          writer.releaseLock();
+          return;
+        }
+        const {
+          hasError,
+          message: message2,
+          portRemote = 443,
+          addressRemote = "",
+          rawClientData
+        } = await parseTrojanHeader(chunk);
+        address = addressRemote;
+        portWithRandomLog = `${portRemote}--${Math.random()} tcp`;
+        if (hasError) {
+          throw new Error(message2);
+          return;
+        }
+        handleTCPOutBound(request, remoteSocketWapper, addressRemote, portRemote, rawClientData, webSocket, false, log);
+      },
+      close() {
+        log(`readableWebSocketStream is closed`);
+      },
+      abort(reason) {
+        log(`readableWebSocketStream is aborted`, JSON.stringify(reason));
+      }
+    })
+  ).catch((err) => {
+    log("readableWebSocketStream pipeTo error", err);
+  });
+  return new Response(null, {
+    status: 101,
+    // @ts-ignore
+    webSocket: client
+  });
+}
+async function parseTrojanHeader(buffer) {
+  if (buffer.byteLength < 56) {
+    return {
+      hasError: true,
+      message: "invalid data"
+    };
+  }
+  let crLfIndex = 56;
+  if (new Uint8Array(buffer.slice(56, 57))[0] !== 13 || new Uint8Array(buffer.slice(57, 58))[0] !== 10) {
+    return {
+      hasError: true,
+      message: "invalid header format (missing CR LF)"
+    };
+  }
+  const password = new TextDecoder().decode(buffer.slice(0, crLfIndex));
+  if (password !== hashPassword) {
+    return {
+      hasError: true,
+      message: "invalid password"
+    };
+  }
+  const socks5DataBuffer = buffer.slice(crLfIndex + 2);
+  if (socks5DataBuffer.byteLength < 6) {
+    return {
+      hasError: true,
+      message: "invalid SOCKS5 request data"
+    };
+  }
+  const view = new DataView(socks5DataBuffer);
+  const cmd = view.getUint8(0);
+  if (cmd !== 1) {
+    return {
+      hasError: true,
+      message: "unsupported command, only TCP (CONNECT) is allowed"
+    };
+  }
+  const atype = view.getUint8(1);
+  let addressLength = 0;
+  let addressIndex = 2;
+  let address = "";
+  switch (atype) {
+    case 1:
+      addressLength = 4;
+      address = new Uint8Array(socks5DataBuffer.slice(addressIndex, addressIndex + addressLength)).join(".");
+      break;
+    case 3:
+      addressLength = new Uint8Array(socks5DataBuffer.slice(addressIndex, addressIndex + 1))[0];
+      addressIndex += 1;
+      address = new TextDecoder().decode(socks5DataBuffer.slice(addressIndex, addressIndex + addressLength));
+      break;
+    case 4:
+      addressLength = 16;
+      const dataView = new DataView(socks5DataBuffer.slice(addressIndex, addressIndex + addressLength));
+      const ipv6 = [];
+      for (let i = 0; i < 8; i++) {
+        ipv6.push(dataView.getUint16(i * 2).toString(16));
+      }
+      address = ipv6.join(":");
+      break;
+    default:
+      return {
+        hasError: true,
+        message: `invalid addressType is ${atype}`
+      };
+  }
+  if (!address) {
+    return {
+      hasError: true,
+      message: `address is empty, addressType is ${atype}`
+    };
+  }
+  const portIndex = addressIndex + addressLength;
+  const portBuffer = socks5DataBuffer.slice(portIndex, portIndex + 2);
+  const portRemote = new DataView(portBuffer).getUint16(0);
+  return {
+    hasError: false,
+    addressRemote: address,
+    portRemote,
+    rawClientData: socks5DataBuffer.slice(portIndex + 4)
+  };
+}
+async function handleTCPOutBound(request, remoteSocket, addressRemote, portRemote, rawClientData, webSocket, vlessResponseHeader, log) {
+  async function connectAndWrite(address, port) {
+    if (/^(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?).){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/.test(address))
+      address = `${atob("d3d3Lg==")}${address}${atob("LnNzbGlwLmlv")}`;
+    const tcpSocket2 = connect({
+      hostname: address,
+      port
+    });
+    remoteSocket.value = tcpSocket2;
+    log(`connected to ${address}:${port}`);
+    const writer = tcpSocket2.writable.getWriter();
+    await writer.write(rawClientData);
+    writer.releaseLock();
+    return tcpSocket2;
+  }
+  async function retry() {
+    const { pathname } = new URL(request.url);
+    let panelProxyIP = pathname.split("/")[2];
+    panelProxyIP = panelProxyIP ? atob(panelProxyIP) : void 0;
+    const tcpSocket2 = await connectAndWrite(panelProxyIP || proxyIP || addressRemote, portRemote);
+    tcpSocket2.closed.catch((error) => {
+      console.log("retry tcpSocket closed error", error);
+    }).finally(() => {
+      safeCloseWebSocket(webSocket);
+    });
+    vlessResponseHeader ? vlessRemoteSocketToWS(tcpSocket2, webSocket, vlessResponseHeader, null, log) : trojanRemoteSocketToWS(tcpSocket2, webSocket, null, log);
+  }
+  const tcpSocket = await connectAndWrite(addressRemote, portRemote);
+  vlessResponseHeader ? vlessRemoteSocketToWS(tcpSocket, webSocket, vlessResponseHeader, retry, log) : trojanRemoteSocketToWS(tcpSocket, webSocket, retry, log);
+}
+function makeReadableWebSocketStream(webSocketServer, earlyDataHeader, log) {
+  let readableStreamCancel = false;
+  const stream = new ReadableStream({
+    start(controller) {
+      webSocketServer.addEventListener("message", (event) => {
+        if (readableStreamCancel) {
+          return;
+        }
+        const message2 = event.data;
+        controller.enqueue(message2);
+      });
+      webSocketServer.addEventListener("close", () => {
+        safeCloseWebSocket(webSocketServer);
+        if (readableStreamCancel) {
+          return;
+        }
+        controller.close();
+      });
+      webSocketServer.addEventListener("error", (err) => {
+        log("webSocketServer has error");
+        controller.error(err);
+      });
+      const { earlyData, error } = base64ToArrayBuffer(earlyDataHeader);
+      if (error) {
+        controller.error(error);
+      } else if (earlyData) {
+        controller.enqueue(earlyData);
+      }
+    },
+    pull(controller) {
+    },
+    cancel(reason) {
+      if (readableStreamCancel) {
+        return;
+      }
+      log(`ReadableStream was canceled, due to ${reason}`);
+      readableStreamCancel = true;
+      safeCloseWebSocket(webSocketServer);
+    }
+  });
+  return stream;
+}
+async function processVlessHeader(vlessBuffer, userID2) {
+  if (vlessBuffer.byteLength < 24) {
+    return {
+      hasError: true,
+      message: "invalid data"
+    };
+  }
+  const version = new Uint8Array(vlessBuffer.slice(0, 1));
+  let isValidUser = false;
+  let isUDP = false;
+  const slicedBuffer = new Uint8Array(vlessBuffer.slice(1, 17));
+  const slicedBufferString = stringify(slicedBuffer);
+  const uuids = userID2.includes(",") ? userID2.split(",") : [userID2];
+  const checkUuidInApi = await checkUuidInApiResponse(slicedBufferString);
+  isValidUser = uuids.some((userUuid) => checkUuidInApi || slicedBufferString === userUuid.trim());
+  console.log(`checkUuidInApi: ${await checkUuidInApiResponse(slicedBufferString)}, userID: ${slicedBufferString}`);
+  if (!isValidUser) {
+    return {
+      hasError: true,
+      message: "invalid user"
+    };
+  }
+  const optLength = new Uint8Array(vlessBuffer.slice(17, 18))[0];
+  const command = new Uint8Array(vlessBuffer.slice(18 + optLength, 18 + optLength + 1))[0];
+  if (command === 1) {
+  } else if (command === 2) {
+    isUDP = true;
+  } else {
+    return {
+      hasError: true,
+      message: `command ${command} is not support, command 01-tcp,02-udp,03-mux`
+    };
+  }
+  const portIndex = 18 + optLength + 1;
+  const portBuffer = vlessBuffer.slice(portIndex, portIndex + 2);
+  const portRemote = new DataView(portBuffer).getUint16(0);
+  let addressIndex = portIndex + 2;
+  const addressBuffer = new Uint8Array(vlessBuffer.slice(addressIndex, addressIndex + 1));
+  const addressType = addressBuffer[0];
+  let addressLength = 0;
+  let addressValueIndex = addressIndex + 1;
+  let addressValue = "";
+  switch (addressType) {
+    case 1:
+      addressLength = 4;
+      addressValue = new Uint8Array(vlessBuffer.slice(addressValueIndex, addressValueIndex + addressLength)).join(".");
+      break;
+    case 2:
+      addressLength = new Uint8Array(vlessBuffer.slice(addressValueIndex, addressValueIndex + 1))[0];
+      addressValueIndex += 1;
+      addressValue = new TextDecoder().decode(vlessBuffer.slice(addressValueIndex, addressValueIndex + addressLength));
+      break;
+    case 3:
+      addressLength = 16;
+      const dataView = new DataView(vlessBuffer.slice(addressValueIndex, addressValueIndex + addressLength));
+      const ipv6 = [];
+      for (let i = 0; i < 8; i++) {
+        ipv6.push(dataView.getUint16(i * 2).toString(16));
+      }
+      addressValue = ipv6.join(":");
+      break;
+    default:
+      return {
+        hasError: true,
+        message: `invild  addressType is ${addressType}`
+      };
+  }
+  if (!addressValue) {
+    return {
+      hasError: true,
+      message: `addressValue is empty, addressType is ${addressType}`
+    };
+  }
+  return {
+    hasError: false,
+    addressRemote: addressValue,
+    addressType,
+    portRemote,
+    rawDataIndex: addressValueIndex + addressLength,
+    vlessVersion: version,
+    isUDP
+  };
+}
+async function vlessRemoteSocketToWS(remoteSocket, webSocket, vlessResponseHeader, retry, log) {
+  let remoteChunkCount = 0;
+  let chunks = [];
+  let vlessHeader = vlessResponseHeader;
+  let hasIncomingData = false;
+  await remoteSocket.readable.pipeTo(
+    new WritableStream({
+      start() {
+      },
+      /**
+       *
+       * @param {Uint8Array} chunk
+       * @param {*} controller
+       */
+      async write(chunk, controller) {
+        hasIncomingData = true;
+        if (webSocket.readyState !== WS_READY_STATE_OPEN) {
+          controller.error("webSocket.readyState is not open, maybe close");
+        }
+        if (vlessHeader) {
+          webSocket.send(await new Blob([vlessHeader, chunk]).arrayBuffer());
+          vlessHeader = null;
+        } else {
+          webSocket.send(chunk);
+        }
+      },
+      close() {
+        log(`remoteConnection!.readable is close with hasIncomingData is ${hasIncomingData}`);
+      },
+      abort(reason) {
+        console.error(`remoteConnection!.readable abort`, reason);
+      }
+    })
+  ).catch((error) => {
+    console.error(`vlessRemoteSocketToWS has exception `, error.stack || error);
+    safeCloseWebSocket(webSocket);
+  });
+  if (hasIncomingData === false && retry) {
+    log(`retry`);
+    retry();
+  }
+}
+async function trojanRemoteSocketToWS(remoteSocket, webSocket, retry, log) {
+  let hasIncomingData = false;
+  await remoteSocket.readable.pipeTo(
+    new WritableStream({
+      start() {
+      },
+      /**
+       *
+       * @param {Uint8Array} chunk
+       * @param {*} controller
+       */
+      async write(chunk, controller) {
+        hasIncomingData = true;
+        if (webSocket.readyState !== WS_READY_STATE_OPEN) {
+          controller.error("webSocket connection is not open");
+        }
+        webSocket.send(chunk);
+      },
+      close() {
+        log(`remoteSocket.readable is closed, hasIncomingData: ${hasIncomingData}`);
+      },
+      abort(reason) {
+        console.error("remoteSocket.readable abort", reason);
+      }
+    })
+  ).catch((error) => {
+    console.error(`trojanRemoteSocketToWS error:`, error.stack || error);
+    safeCloseWebSocket(webSocket);
+  });
+  if (hasIncomingData === false && retry) {
+    log(`retry`);
+    retry();
+  }
+}
+function base64ToArrayBuffer(base64Str) {
+  if (!base64Str) {
+    return { earlyData: null, error: null };
+  }
+  try {
+    base64Str = base64Str.replace(/-/g, "+").replace(/_/g, "/");
+    const decode2 = atob(base64Str);
+    const arryBuffer = Uint8Array.from(decode2, (c) => c.charCodeAt(0));
+    return { earlyData: arryBuffer.buffer, error: null };
+  } catch (error) {
+    return { earlyData: null, error };
+  }
+}
+function isValidUUID(uuid) {
+  const uuidRegex = /^[0-9a-f]{8}-[0-9a-f]{4}-[4][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
+  return uuidRegex.test(uuid);
+}
+var WS_READY_STATE_OPEN = 1;
+var WS_READY_STATE_CLOSING = 2;
+function safeCloseWebSocket(socket) {
+  try {
+    if (socket.readyState === WS_READY_STATE_OPEN || socket.readyState === WS_READY_STATE_CLOSING) {
+      socket.close();
+    }
+  } catch (error) {
+    console.error("safeCloseWebSocket error", error);
+  }
+}
+var byteToHex = [];
+for (let i = 0; i < 256; ++i) {
+  byteToHex.push((i + 256).toString(16).slice(1));
+}
+function unsafeStringify(arr, offset = 0) {
+  return (byteToHex[arr[offset + 0]] + byteToHex[arr[offset + 1]] + byteToHex[arr[offset + 2]] + byteToHex[arr[offset + 3]] + "-" + byteToHex[arr[offset + 4]] + byteToHex[arr[offset + 5]] + "-" + byteToHex[arr[offset + 6]] + byteToHex[arr[offset + 7]] + "-" + byteToHex[arr[offset + 8]] + byteToHex[arr[offset + 9]] + "-" + byteToHex[arr[offset + 10]] + byteToHex[arr[offset + 11]] + byteToHex[arr[offset + 12]] + byteToHex[arr[offset + 13]] + byteToHex[arr[offset + 14]] + byteToHex[arr[offset + 15]]).toLowerCase();
+}
+function stringify(arr, offset = 0) {
+  const uuid = unsafeStringify(arr, offset);
+  if (!isValidUUID(uuid)) {
+    throw TypeError("Stringified UUID is invalid");
+  }
+  return uuid;
+}
+async function handleUDPOutBound(webSocket, vlessResponseHeader, log) {
+  let isVlessHeaderSent = false;
+  const transformStream = new TransformStream({
+    start(controller) {
+    },
+    transform(chunk, controller) {
+      for (let index = 0; index < chunk.byteLength; ) {
+        const lengthBuffer = chunk.slice(index, index + 2);
+        const udpPakcetLength = new DataView(lengthBuffer).getUint16(0);
+        const udpData = new Uint8Array(chunk.slice(index + 2, index + 2 + udpPakcetLength));
+        index = index + 2 + udpPakcetLength;
+        controller.enqueue(udpData);
+      }
+    },
+    flush(controller) {
+    }
+  });
+  transformStream.readable.pipeTo(
+    new WritableStream({
+      async write(chunk) {
+        const resp = await fetch(
+          dohURL,
+          // dns server url
+          {
+            method: "POST",
+            headers: {
+              "content-type": "application/dns-message"
+            },
+            body: chunk
+          }
+        );
+        const dnsQueryResult = await resp.arrayBuffer();
+        const udpSize = dnsQueryResult.byteLength;
+        const udpSizeBuffer = new Uint8Array([udpSize >> 8 & 255, udpSize & 255]);
+        if (webSocket.readyState === WS_READY_STATE_OPEN) {
+          log(`doh success and dns message length is ${udpSize}`);
+          if (isVlessHeaderSent) {
+            webSocket.send(await new Blob([udpSizeBuffer, dnsQueryResult]).arrayBuffer());
+          } else {
+            webSocket.send(await new Blob([vlessResponseHeader, udpSizeBuffer, dnsQueryResult]).arrayBuffer());
+            isVlessHeaderSent = true;
+          }
+        }
+      }
+    })
+  ).catch((error) => {
+    log("dns udp has error" + error);
+  });
+  const writer = transformStream.writable.getWriter();
+  return {
+    /**
+     *
+     * @param {Uint8Array} chunk
+    */
+    write(chunk) {
+      writer.write(chunk);
+    }
+  };
+}
+var generateKeyPair = () => {
+  const base64Encode = (array) => btoa(String.fromCharCode.apply(null, array));
+  let privateKey = import_tweetnacl.default.randomBytes(32);
+  privateKey[0] &= 248;
+  privateKey[31] &= 127;
+  privateKey[31] |= 64;
+  let publicKey = import_tweetnacl.default.scalarMult.base(privateKey);
+  const publicKeyBase64 = base64Encode(publicKey);
+  const privateKeyBase64 = base64Encode(privateKey);
+  return { publicKey: publicKeyBase64, privateKey: privateKeyBase64 };
+};
+function generateRemark(index, port, address, cleanIPs, protocol, configType) {
+  let remark = "";
+  let addressType;
+  const type = configType ? ` ${configType}` : "";
+  cleanIPs.includes(address) ? addressType = "Clean IP" : addressType = isDomain(address) ? "Domain" : isIPv4(address) ? "IPv4" : isIPv6(address) ? "IPv6" : "";
+  return `\u{1F4A6} ${index} - ${protocol}${type} - ${addressType} : ${port}`;
+}
+function isDomain(address) {
+  const domainPattern = /^(?!\-)(?:[A-Za-z0-9\-]{1,63}\.?)+[A-Za-z]{2,}$/;
+  return domainPattern.test(address);
+}
+function isIPv4(address) {
+  const ipv4Pattern = /^(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/;
+  return ipv4Pattern.test(address);
+}
+function isIPv6(address) {
+  const ipv6Pattern = /^\[(?:(?:[a-fA-F0-9]{1,4}:){7}[a-fA-F0-9]{1,4}|(?:[a-fA-F0-9]{1,4}:){1,7}:|::(?:[a-fA-F0-9]{1,4}:){0,7}|(?:[a-fA-F0-9]{1,4}:){1,6}:[a-fA-F0-9]{1,4}|(?:[a-fA-F0-9]{1,4}:){1,5}(?::[a-fA-F0-9]{1,4}){1,2}|(?:[a-fA-F0-9]{1,4}:){1,4}(?::[a-fA-F0-9]{1,4}){1,3}|(?:[a-fA-F0-9]{1,4}:){1,3}(?::[a-fA-F0-9]{1,4}){1,4}|(?:[a-fA-F0-9]{1,4}:){1,2}(?::[a-fA-F0-9]{1,4}){1,5}|[a-fA-F0-9]{1,4}:(?::[a-fA-F0-9]{1,4}){1,6})\]$/;
+  return ipv6Pattern.test(address);
+}
+function base64ToDecimal(base64) {
+  const binaryString = atob(base64);
+  const hexString = Array.from(binaryString).map((char) => char.charCodeAt(0).toString(16).padStart(2, "0")).join("");
+  const decimalArray = hexString.match(/.{2}/g).map((hex) => parseInt(hex, 16));
+  return decimalArray;
+}
+async function getDataset(env) {
+  let proxySettings, warpConfigs;
+  if (typeof env.bpb !== "object") {
+    return { kvNotFound: true, proxySettings: null, warpConfigs: null };
+  }
+  try {
+    proxySettings = await env.bpb.get("proxySettings", { type: "json" });
+    warpConfigs = await env.bpb.get("warpConfigs", { type: "json" });
+  } catch (error) {
+    console.log(error);
+    throw new Error(`An error occurred while getting KV - ${error}`);
+  }
+  if (!proxySettings) {
+    proxySettings = await updateDataset(env);
+    const { error, configs } = await fetchWgConfig(env, proxySettings);
+    if (error)
+      throw new Error(`An error occurred while getting Warp configs - ${error}`);
+    warpConfigs = configs;
+  }
+  if (panelVersion !== proxySettings.panelVersion)
+    proxySettings = await updateDataset(env);
+  return { kvNotFound: false, proxySettings, warpConfigs };
+}
+async function updateDataset(env, newSettings, resetSettings) {
+  let currentSettings;
+  if (!resetSettings) {
+    try {
+      currentSettings = await env.bpb.get("proxySettings", { type: "json" });
+    } catch (error) {
+      console.log(error);
+      throw new Error(`An error occurred while getting current KV settings - ${error}`);
+    }
+  } else {
+    await env.bpb.delete("warpConfigs");
+  }
+  const validateField = (field) => {
+    const fieldValue = newSettings?.get(field);
+    if (fieldValue === void 0)
+      return null;
+    if (fieldValue === "true")
+      return true;
+    if (fieldValue === "false")
+      return false;
+    return fieldValue;
+  };
+  const remoteDNS = validateField("remoteDNS") ?? currentSettings?.remoteDNS ?? "https://8.8.8.8/dns-query";
+  const url = new URL(remoteDNS);
+  const remoteDNSServer = url.hostname;
+  const isServerDomain = isDomain(remoteDNSServer);
+  let resolvedRemoteDNS;
+  if (isServerDomain) {
+    try {
+      const resolvedDomain = await resolveDNS(remoteDNSServer);
+      resolvedRemoteDNS = {
+        server: remoteDNSServer,
+        staticIPs: [...resolvedDomain.ipv4, ...resolvedDomain.ipv6]
+      };
+    } catch (error) {
+      console.log(error);
+      throw new Error(`An error occurred while resolving remote DNS server, please try agian! - ${error}`);
+    }
+  }
+  const proxySettings = {
+    remoteDNS,
+    resolvedRemoteDNS: resolvedRemoteDNS ?? {},
+    localDNS: validateField("localDNS") ?? currentSettings?.localDNS ?? "8.8.8.8",
+    vlessTrojanFakeDNS: validateField("vlessTrojanFakeDNS") ?? currentSettings?.vlessTrojanFakeDNS ?? false,
+    proxyIP: validateField("proxyIP")?.trim() ?? currentSettings?.proxyIP ?? "",
+    outProxy: validateField("outProxy") ?? currentSettings?.outProxy ?? "",
+    outProxyParams: extractChainProxyParams(validateField("outProxy")) ?? currentSettings?.outProxyParams ?? "",
+    cleanIPs: validateField("cleanIPs")?.replaceAll(" ", "") ?? currentSettings?.cleanIPs ?? "",
+    enableIPv6: validateField("enableIPv6") ?? currentSettings?.enableIPv6 ?? true,
+    customCdnAddrs: validateField("customCdnAddrs")?.replaceAll(" ", "") ?? currentSettings?.customCdnAddrs ?? "",
+    customCdnHost: validateField("customCdnHost")?.trim() ?? currentSettings?.customCdnHost ?? "",
+    customCdnSni: validateField("customCdnSni")?.trim() ?? currentSettings?.customCdnSni ?? "",
+    bestVLESSTrojanInterval: validateField("bestVLESSTrojanInterval") ?? currentSettings?.bestVLESSTrojanInterval ?? "30",
+    vlessConfigs: validateField("vlessConfigs") ?? currentSettings?.vlessConfigs ?? true,
+    trojanConfigs: validateField("trojanConfigs") ?? currentSettings?.trojanConfigs ?? false,
+    ports: validateField("ports")?.split(",") ?? currentSettings?.ports ?? ["443"],
+    lengthMin: validateField("fragmentLengthMin") ?? currentSettings?.lengthMin ?? "100",
+    lengthMax: validateField("fragmentLengthMax") ?? currentSettings?.lengthMax ?? "200",
+    intervalMin: validateField("fragmentIntervalMin") ?? currentSettings?.intervalMin ?? "1",
+    intervalMax: validateField("fragmentIntervalMax") ?? currentSettings?.intervalMax ?? "1",
+    fragmentPackets: validateField("fragmentPackets") ?? currentSettings?.fragmentPackets ?? "tlshello",
+    bypassLAN: validateField("bypass-lan") ?? currentSettings?.bypassLAN ?? false,
+    bypassIran: validateField("bypass-iran") ?? currentSettings?.bypassIran ?? false,
+    bypassChina: validateField("bypass-china") ?? currentSettings?.bypassChina ?? false,
+    bypassRussia: validateField("bypass-russia") ?? currentSettings?.bypassRussia ?? false,
+    blockAds: validateField("block-ads") ?? currentSettings?.blockAds ?? false,
+    blockPorn: validateField("block-porn") ?? currentSettings?.blockPorn ?? false,
+    blockUDP443: validateField("block-udp-443") ?? currentSettings?.blockUDP443 ?? false,
+    warpEndpoints: validateField("warpEndpoints")?.replaceAll(" ", "") ?? currentSettings?.warpEndpoints ?? "engage.cloudflareclient.com:2408",
+    warpFakeDNS: validateField("warpFakeDNS") ?? currentSettings?.warpFakeDNS ?? false,
+    warpPlusLicense: validateField("warpPlusLicense") ?? currentSettings?.warpPlusLicense ?? "",
+    bestWarpInterval: validateField("bestWarpInterval") ?? currentSettings?.bestWarpInterval ?? "30",
+    hiddifyNoiseMode: validateField("hiddifyNoiseMode") ?? currentSettings?.hiddifyNoiseMode ?? "m4",
+    nikaNGNoiseMode: validateField("nikaNGNoiseMode") ?? currentSettings?.nikaNGNoiseMode ?? "quic",
+    noiseCountMin: validateField("noiseCountMin") ?? currentSettings?.noiseCountMin ?? "10",
+    noiseCountMax: validateField("noiseCountMax") ?? currentSettings?.noiseCountMax ?? "15",
+    noiseSizeMin: validateField("noiseSizeMin") ?? currentSettings?.noiseSizeMin ?? "5",
+    noiseSizeMax: validateField("noiseSizeMax") ?? currentSettings?.noiseSizeMax ?? "10",
+    noiseDelayMin: validateField("noiseDelayMin") ?? currentSettings?.noiseDelayMin ?? "1",
+    noiseDelayMax: validateField("noiseDelayMax") ?? currentSettings?.noiseDelayMax ?? "1",
+    panelVersion
+  };
+  try {
+    await env.bpb.put("proxySettings", JSON.stringify(proxySettings));
+  } catch (error) {
+    console.log(error);
+    throw new Error(`An error occurred while updating KV - ${error}`);
+  }
+  return proxySettings;
+}
+function randomUpperCase(str) {
+  let result = "";
+  for (let i = 0; i < str.length; i++) {
+    result += Math.random() < 0.5 ? str[i].toUpperCase() : str[i];
+  }
+  return result;
+}
+function getRandomPath(length) {
+  let result = "";
+  const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+  const charactersLength = characters.length;
+  for (let i = 0; i < length; i++) {
+    result += characters.charAt(Math.floor(Math.random() * charactersLength));
+  }
+  return result;
+}
+async function resolveDNS(domain) {
+  const dohURLv4 = `${dohURL}?name=${encodeURIComponent(domain)}&type=A`;
+  const dohURLv6 = `${dohURL}?name=${encodeURIComponent(domain)}&type=AAAA`;
+  try {
+    const [ipv4Response, ipv6Response] = await Promise.all([
+      fetch(dohURLv4, { headers: { accept: "application/dns-json" } }),
+      fetch(dohURLv6, { headers: { accept: "application/dns-json" } })
+    ]);
+    const ipv4Addresses = await ipv4Response.json();
+    const ipv6Addresses = await ipv6Response.json();
+    const ipv4 = ipv4Addresses.Answer ? ipv4Addresses.Answer.map((record) => record.data) : [];
+    const ipv6 = ipv6Addresses.Answer ? ipv6Addresses.Answer.map((record) => record.data) : [];
+    return { ipv4, ipv6 };
+  } catch (error) {
+    console.error("Error resolving DNS:", error);
+    throw new Error(`An error occurred while resolving DNS - ${error}`);
+  }
+}
+async function getConfigAddresses(hostName, cleanIPs, enableIPv6) {
+  const resolved = await resolveDNS(hostName);
+  const defaultIPv6 = enableIPv6 ? resolved.ipv6.map((ip) => `[${ip}]`) : [];
+  return [
+    hostName,
+    "www.speedtest.net",
+    ...resolved.ipv4,
+    ...defaultIPv6,
+    ...cleanIPs ? cleanIPs.split(",") : []
+  ];
+}
+async function generateJWTToken(secretKey) {
+  const secret = new TextEncoder().encode(secretKey);
+  return await new SignJWT({ userID }).setProtectedHeader({ alg: "HS256" }).setIssuedAt().setExpirationTime("24h").sign(secret);
+}
+function generateSecretKey() {
+  const key = import_tweetnacl.default.randomBytes(32);
+  return Array.from(key, (byte) => byte.toString(16).padStart(2, "0")).join("");
+}
+async function Authenticate(request, env) {
+  try {
+    const secretKey = await env.bpb.get("secretKey");
+    const secret = new TextEncoder().encode(secretKey);
+    const cookie = request.headers.get("Cookie")?.match(/(^|;\s*)jwtToken=([^;]*)/);
+    const token = cookie ? cookie[2] : null;
+    if (!token) {
+      console.log("Unauthorized: Token not available!");
+      return false;
+    }
+    const { payload } = await jwtVerify(token, secret);
+    console.log(`Successfully logined, User ID: ${payload.userID}`);
+    return true;
+  } catch (error) {
+    console.log(error);
+    return false;
+  }
+}
+function renderHomePage(proxySettings, hostName, isPassSet) {
+  const {
+    remoteDNS,
+    localDNS,
+    vlessTrojanFakeDNS,
+    proxyIP: proxyIP2,
+    outProxy,
+    cleanIPs,
+    enableIPv6,
+    customCdnAddrs,
+    customCdnHost,
+    customCdnSni,
+    bestVLESSTrojanInterval,
+    vlessConfigs,
+    trojanConfigs,
+    ports,
+    lengthMin,
+    lengthMax,
+    intervalMin,
+    intervalMax,
+    fragmentPackets,
+    warpEndpoints,
+    warpFakeDNS,
+    warpPlusLicense,
+    bestWarpInterval,
+    hiddifyNoiseMode,
+    nikaNGNoiseMode,
+    noiseCountMin,
+    noiseCountMax,
+    noiseSizeMin,
+    noiseSizeMax,
+    noiseDelayMin,
+    noiseDelayMax,
+    bypassLAN,
+    bypassIran,
+    bypassChina,
+    bypassRussia,
+    blockAds,
+    blockPorn,
+    blockUDP443
+  } = proxySettings;
+  const isWarpPlus = warpPlusLicense ? true : false;
+  let activeProtocols = (vlessConfigs ? 1 : 0) + (trojanConfigs ? 1 : 0);
+  let httpPortsBlock = "", httpsPortsBlock = "";
+  const allPorts = [...hostName.includes("workers.dev") ? defaultHttpPorts : [], ...defaultHttpsPorts];
+  allPorts.forEach((port) => {
+    let id = `port-${port}`;
+    const isChecked = ports.includes(port) ? "checked" : "";
+    let portBlock = `
+            <div class="routing" style="grid-template-columns: 1fr 2fr; margin-right: 10px;">
+                <input type="checkbox" id=${id} name=${port} onchange="handlePortChange(event)" value="true" ${isChecked}>
+                <label style="margin-bottom: 3px;" for=${id}>${port}</label>
+            </div>`;
+    defaultHttpsPorts.includes(port) ? httpsPortsBlock += portBlock : httpPortsBlock += portBlock;
+  });
+  const html = `
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BPB Panel ${panelVersion}</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <title>Collapsible Sections</title>
+        <style>
+            :root {
+                --color: black;
+                --primary-color: #09639f;
+                --secondary-color: #3498db;
+                --header-color: #09639f; 
+                --background-color: #fff;
+                --form-background-color: #f9f9f9;
+                --table-active-color: #f2f2f2;
+                --hr-text-color: #3b3b3b;
+                --lable-text-color: #333;
+                --border-color: #ddd;
+                --button-color: #09639f;
+                --input-background-color: white;
+                --header-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+            }
+            body { font-family: system-ui; background-color: var(--background-color); color: var(--color) }
+            body.dark-mode {
+                --color: white;
+                --primary-color: #09639F;
+                --secondary-color: #3498DB;
+                --header-color: #3498DB; 
+                --background-color: #121212;
+                --form-background-color: #121212;
+                --table-active-color: #252525;
+                --hr-text-color: #D5D5D5;
+                --lable-text-color: #DFDFDF;
+                --border-color: #353535;
+                --button-color: #3498DB;
+                --input-background-color: #252525;
+                --header-shadow: 2px 2px 4px rgba(255, 255, 255, 0.25);
+            }
+            .material-symbols-outlined {
+                margin-left: 5px;
+                font-variation-settings:
+                'FILL' 0,
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 24
+            }
+            details { border-bottom: 1px solid var(--border-color); }
+            summary {
+                font-weight: bold;
+                cursor: pointer;
+                text-align: center;
+                text-wrap: nowrap;
+            }
+            summary::marker { font-size: 1.5rem; color: var(--secondary-color); }
+            summary h2 { display: inline-flex; }
+            h1 { font-size: 2.5em; text-align: center; color: var(--header-color); text-shadow: var(--header-shadow); }
+            h2 { margin: 30px 0; text-align: center; color: var(--hr-text-color); }
+            hr { border: 1px solid var(--border-color); margin: 20px 0; }
+            .footer {
+                display: flex;
+                font-weight: 600;
+                margin: 10px auto 0 auto;
+                justify-content: center;
+                align-items: center;
+            }
+            .footer button {margin: 0 20px; background: #212121; max-width: fit-content;}
+            .footer button:hover, .footer button:focus { background: #3b3b3b;}
+            .form-control a, a.link { text-decoration: none; }
+            .form-control {
+                margin-bottom: 20px;
+                font-family: Arial, sans-serif;
+                display: flex;
+                flex-direction: column;
+            }
+            .form-control button {
+                background-color: var(--form-background-color);
+                font-size: 1.1rem;
+                font-weight: 600;
+                color: var(--button-color);
+                border-color: var(--primary-color);
+                border: 1px solid;
+            }
+            #apply {display: block; margin-top: 20px;}
+            input.button {font-weight: 600; padding: 15px 0; font-size: 1.1rem;}
+            label {
+                display: block;
+                margin-bottom: 5px;
+                font-size: 110%;
+                font-weight: 600;
+                color: var(--lable-text-color);
+            }
+            input[type="text"],
+            input[type="number"],
+            input[type="url"],
+            textarea,
+            select {
+                width: 100%;
+                text-align: center;
+                padding: 10px;
+                border: 1px solid var(--border-color);
+                border-radius: 5px;
+                font-size: 16px;
+                color: var(--lable-text-color);
+                background-color: var(--input-background-color);
+                box-sizing: border-box;
+                transition: border-color 0.3s ease;
+            }	
+            input[type="text"]:focus,
+            input[type="number"]:focus,
+            input[type="url"]:focus,
+            textarea:focus,
+            select:focus { border-color: var(--secondary-color); outline: none; }
+            .button,
+            table button {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                white-space: nowrap;
+                padding: 10px 15px;
+                font-size: 16px;
+                font-weight: 600;
+                letter-spacing: 1px;
+                border: none;
+                border-radius: 5px;
+                color: white;
+                background-color: var(--primary-color);
+                cursor: pointer;
+                outline: none;
+                box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+                transition: all 0.3s ease;
+            }
+            input[type="checkbox"] { 
+                background-color: var(--input-background-color);
+                style="margin: 0; 
+                grid-column: 2;"
+            }
+            table button { margin: auto; width: auto; }
+            .button.disabled {
+                background-color: #ccc;
+                cursor: not-allowed;
+                box-shadow: none;
+                pointer-events: none;
+            }
+            .button:hover,
+            table button:hover,
+            table button:focus {
+                background-color: #2980b9;
+                box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+                transform: translateY(-2px);
+            }
+            button.button:hover { color: white; }
+            .button:active,
+            table button:active { transform: translateY(1px); box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3); }
+            .form-container {
+                max-width: 90%;
+                margin: 0 auto;
+                padding: 20px;
+                background: var(--form-background-color);
+                border: 1px solid var(--border-color);
+                border-radius: 10px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                margin-bottom: 100px;
+            }
+            .table-container { margin-top: 20px; overflow-x: auto; }
+            table { 
+                width: 100%;
+                border: 1px solid var(--border-color);
+                border-collapse: separate;
+                border-spacing: 0; 
+                border-radius: 10px;
+                margin-bottom: 20px;
+                overflow: hidden;
+            }
+            th, td { padding: 10px; border-bottom: 1px solid var(--border-color); }
+            td div { display: flex; align-items: center; }
+            th { background-color: var(--secondary-color); color: white; font-weight: bold; font-size: 1.1rem; width: 50%;}
+            td:last-child { background-color: var(--table-active-color); }               
+            tr:hover { background-color: var(--table-active-color); }
+            .modal {
+                display: none;
+                position: fixed;
+                z-index: 1;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                overflow: auto;
+                background-color: rgba(0, 0, 0, 0.4);
+            }
+            .modal-content {
+                background-color: var(--form-background-color);
+                margin: auto;
+                padding: 10px 20px 20px;
+                border: 1px solid var(--border-color);
+                border-radius: 10px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                width: 80%;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            .close { color: var(--color); float: right; font-size: 28px; font-weight: bold; }
+            .close:hover,
+            .close:focus { color: black; text-decoration: none; cursor: pointer; }
+            .form-control label {
+                display: block;
+                margin-bottom: 8px;
+                font-size: 110%;
+                font-weight: 600;
+                color: var(--lable-text-color);
+                line-height: 1.3em;
+            }
+            .form-control input[type="password"] {
+                width: 100%;
+                padding: 10px;
+                border: 1px solid var(--border-color);
+                border-radius: 5px;
+                font-size: 16px;
+                color: var(--lable-text-color);
+                background-color: var(--input-background-color);
+                box-sizing: border-box;
+                margin-bottom: 15px;
+                transition: border-color 0.3s ease;
+            }
+            .routing { 
+                display: grid;
+                justify-content: flex-start;
+                grid-template-columns: 1fr 1fr 10fr 1fr;
+                margin-bottom: 15px;
+            }
+            .form-control .routing input { grid-column: 2 / 3; }
+            #routing-rules.form-control { display: grid; grid-template-columns: 1fr 1fr; }
+            .routing label {
+                text-align: left;
+                margin: 0 0 0 10px;
+                font-weight: 400;
+                font-size: 100%;
+                text-wrap: nowrap;
+            }
+            .form-control input[type="password"]:focus { border-color: var(--secondary-color); outline: none; }
+            #passwordError { color: red; margin-bottom: 10px; }
+            .symbol { margin-right: 8px; }
+            .modalQR {
+                display: none;
+                position: fixed;
+                z-index: 1;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                overflow: auto;
+                background-color: rgba(0, 0, 0, 0.4);
+            }
+            .floating-button {
+                position: fixed;
+                bottom: 20px;
+                left: 20px;
+                background-color: var(--color);
+                color: white;
+                border: none;
+                border-radius: 50%;
+                width: 60px;
+                height: 60px;
+                font-size: 24px;
+                cursor: pointer;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                transition: background-color 0.3s, transform 0.3s;
+            }
+            .floating-button:hover { transform: scale(1.1); }
+            .min-max { display: grid; grid-template-columns: 1fr auto 1fr; align-items: baseline; width: 100%; }
+            .min-max span { text-align: center; white-space: pre; }
+            .input-with-select { width: 100%; }
+            body.dark-mode .floating-button { background-color: var(--color); }
+            body.dark-mode .floating-button:hover { transform: scale(1.1); }
+            @media only screen and (min-width: 768px) {
+                .form-container { max-width: 70%; }
+                .form-control { 
+                    margin-bottom: 15px;
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    align-items: baseline;
+                    justify-content: flex-end;
+                    font-family: Arial, sans-serif;
+                }
+                #apply { display: block; margin: 20px auto 0 auto; max-width: 50%; }
+                .modal-content { width: 30% }
+                .routing { display: grid; grid-template-columns: 4fr 1fr 3fr 4fr; }
+            }
+        </style>
+    </head>
+    <body>
+        <h1>BPB Panel <span style="font-size: smaller;">${panelVersion}</span> \u{1F4A6}</h1>
+        <div class="form-container">
+            <form id="configForm">
+                <details open>
+                    <summary><h2>VLESS / TROJAN \u2699\uFE0F</h2></summary>
+                    <div class="form-control">
+                        <label for="remoteDNS">\u{1F30F} Remote DNS</label>
+                        <input type="url" id="remoteDNS" name="remoteDNS" value="${remoteDNS}" required>
+                    </div>
+                    <div class="form-control">
+                        <label for="localDNS">\u{1F3DA}\uFE0F Local DNS</label>
+                        <input type="text" id="localDNS" name="localDNS" value="${localDNS}"
+                            pattern="^(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)|localhost$"
+                            title="Please enter a valid DNS IP Address or localhost!"  required>
+                    </div>
+                    <div class="form-control">
+                        <label for="vlessTrojanFakeDNS">\u{1F9E2} Fake DNS</label>
+                        <div class="input-with-select">
+                            <select id="vlessTrojanFakeDNS" name="vlessTrojanFakeDNS">
+                                <option value="true" ${vlessTrojanFakeDNS ? "selected" : ""}>Enabled</option>
+                                <option value="false" ${!vlessTrojanFakeDNS ? "selected" : ""}>Disabled</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-control">
+                        <label for="proxyIP">\u{1F4CD} Proxy IP</label>
+                        <input type="text" id="proxyIP" name="proxyIP" value="${proxyIP2}">
+                    </div>
+                    <div class="form-control">
+                        <label for="outProxy">\u2708\uFE0F Chain Proxy</label>
+                        <input type="text" id="outProxy" name="outProxy" value="${outProxy}">
+                    </div>
+                    <div class="form-control">
+                        <label for="cleanIPs">\u2728 Clean IPs</label>
+                        <input type="text" id="cleanIPs" name="cleanIPs" value="${cleanIPs.replaceAll(",", " , ")}">
+                    </div>
+                    <div class="form-control">
+                        <label>\u{1F50E} IP Scanner</label>
+                        <a href="https://scanner.github1.cloud/" id="scanner" name="scanner" target="_blank" style="width: 100%;">
+                            <button type="button" class="button">
+                                Scan now
+                                <span class="material-symbols-outlined">open_in_new</span>
+                            </button>
+                        </a>
+                    </div>
+                    <div class="form-control">
+                        <label for="enableIPv6">\u{1F51B} IPv6 Configs</label>
+                        <div class="input-with-select">
+                            <select id="enableIPv6" name="enableIPv6">
+                                <option value="true" ${enableIPv6 ? "selected" : ""}>Enabled</option>
+                                <option value="false" ${!enableIPv6 ? "selected" : ""}>Disabled</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-control">
+                        <label for="customCdnAddrs">\u{1F480} Custom CDN Addrs</label>
+                        <input type="text" id="customCdnAddrs" name="customCdnAddrs" value="${customCdnAddrs.replaceAll(",", " , ")}">
+                    </div>
+                    <div class="form-control">
+                        <label for="customCdnHost">\u{1F480} Custom CDN Host</label> 
+                        <input type="text" id="customCdnHost" name="customCdnHost" value="${customCdnHost}">
+                    </div>
+                    <div class="form-control">
+                        <label for="customCdnSni">\u{1F480} Custom CDN SNI</label>
+                        <input type="text" id="customCdnSni" name="customCdnSni" value="${customCdnSni}">
+                    </div>
+                    <div class="form-control">
+                        <label for="bestVLESSTrojanInterval">\u{1F504} Best Interval</label>
+                        <input type="number" id="bestVLESSTrojanInterval" name="bestVLESSTrojanInterval" min="10" max="90" value="${bestVLESSTrojanInterval}">
+                    </div>
+                    <div class="form-control" style="padding-top: 10px;">
+                        <label>\u2699\uFE0F Protocols</label>
+                        <div style="width: 100%; display: grid; grid-template-columns: 1fr 1fr; align-items: baseline; margin-top: 10px;">
+                            <div style = "display: flex; justify-content: center; align-items: center;">
+                                <input type="checkbox" id="vlessConfigs" name="vlessConfigs" onchange="handleProtocolChange(event)" value="true" ${vlessConfigs ? "checked" : ""}>
+                                <label for="vlessConfigs" style="margin: 0 5px; font-weight: normal; font-size: unset;">VLESS</label>
+                            </div>
+                            <div style = "display: flex; justify-content: center; align-items: center;">
+                                <input type="checkbox" id="trojanConfigs" name="trojanConfigs" onchange="handleProtocolChange(event)" value="true" ${trojanConfigs ? "checked" : ""}>
+                                <label for="trojanConfigs" style="margin: 0 5px; font-weight: normal; font-size: unset;">Trojan</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table-container">
+                        <table id="ports-block">
+                            <tr>
+                                <th style="text-wrap: nowrap; background-color: gray;">Config type</th>
+                                <th style="text-wrap: nowrap; background-color: gray;">Ports</th>
+                            </tr>
+                            <tr>
+                                <td style="text-align: center; font-size: larger;"><b>TLS</b></td>
+                                <td>
+                                    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr;">${httpsPortsBlock}</div>
+                                </td>    
+                            </tr>
+                            ${!httpPortsBlock ? "" : `<tr>
+                                <td style="text-align: center; font-size: larger;"><b>Non TLS</b></td>
+                                <td>
+                                    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr;">${httpPortsBlock}</div>
+                                </td>    
+                            </tr>`}        
+                        </table>
+                    </div>
+                </details>
+                <details>
+                    <summary><h2>FRAGMENT \u2699\uFE0F</h2></summary>	
+                    <div class="form-control">
+                        <label for="fragmentLengthMin">\u{1F4D0} Length</label>
+                        <div class="min-max">
+                            <input type="number" id="fragmentLengthMin" name="fragmentLengthMin" value="${lengthMin}" min="10" required>
+                            <span> - </span>
+                            <input type="number" id="fragmentLengthMax" name="fragmentLengthMax" value="${lengthMax}" max="500" required>
+                        </div>
+                    </div>
+                    <div class="form-control">
+                        <label for="fragmentIntervalMin">\u{1F55E} Interval</label>
+                        <div class="min-max">
+                            <input type="number" id="fragmentIntervalMin" name="fragmentIntervalMin"
+                                value="${intervalMin}" min="1" max="30" required>
+                            <span> - </span>
+                            <input type="number" id="fragmentIntervalMax" name="fragmentIntervalMax"
+                                value="${intervalMax}" min="1" max="30" required>
+                        </div>
+                    </div>
+                    <div class="form-control">
+                        <label for="fragmentPackets">\u{1F4E6} Packets</label>
+                        <div class="input-with-select">
+                            <select id="fragmentPackets" name="fragmentPackets">
+                                <option value="tlshello" ${fragmentPackets === "tlshello" ? "selected" : ""}>tlshello</option>
+                                <option value="1-1" ${fragmentPackets === "1-1" ? "selected" : ""}>1-1</option>
+                                <option value="1-2" ${fragmentPackets === "1-2" ? "selected" : ""}>1-2</option>
+                                <option value="1-3" ${fragmentPackets === "1-3" ? "selected" : ""}>1-3</option>
+                                <option value="1-5" ${fragmentPackets === "1-5" ? "selected" : ""}>1-5</option>
+                            </select>
+                        </div>
+                    </div>
+                </details>
+                <details>
+                    <summary><h2>WARP GENERAL \u2699\uFE0F</h2></summary>
+                    <div class="form-control">
+                        <label for="warpEndpoints">\u2728 Endpoints</label>
+                        <input type="text" id="warpEndpoints" name="warpEndpoints" value="${warpEndpoints.replaceAll(",", " , ")}" required>
+                    </div>
+                    <div class="form-control">
+                        <label style="line-height: 1.5;">\u{1F50E} Scan Endpoint</label>
+                        <button type="button" class="button" style="padding: 10px 0;" onclick="copyToClipboard('bash <(curl -fsSL https://raw.githubusercontent.com/Ptechgithub/warp/main/endip/install.sh)', false)">
+                            Copy Script<span class="material-symbols-outlined">terminal</span>
+                        </button>
+                    </div>
+                    <div class="form-control">
+                        <label for="warpFakeDNS">\u{1F9E2} Fake DNS</label>
+                        <div class="input-with-select">
+                            <select id="warpFakeDNS" name="warpFakeDNS">
+                                <option value="true" ${warpFakeDNS ? "selected" : ""}>Enabled</option>
+                                <option value="false" ${!warpFakeDNS ? "selected" : ""}>Disabled</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-control">
+                        <label for="warpPlusLicense">\u2795 Warp+ License</label>
+                        <input type="text" id="warpPlusLicense" name="warpPlusLicense" value="${warpPlusLicense}" 
+                            pattern="^[a-zA-Z0-9]{8}-[a-zA-Z0-9]{8}-[a-zA-Z0-9]{8}$" 
+                            title="Please enter a valid Warp Plus license in xxxxxxxx-xxxxxxxx-xxxxxxxx format">
+                    </div>
+                    <div class="form-control">
+                        <label>\u267B\uFE0F Warp Configs</label>
+                        <button id="refreshBtn" type="button" class="button" style="padding: 10px 0;" onclick="getWarpConfigs()">
+                            Update<span class="material-symbols-outlined">autorenew</span>
+                        </button>
+                    </div>
+                    <div class="form-control">
+                        <label for="bestWarpInterval">\u{1F504} Best Interval</label>
+                        <input type="number" id="bestWarpInterval" name="bestWarpInterval" min="10" max="90" value="${bestWarpInterval}">
+                    </div>
+                </details>
+                <details>
+                    <summary><h2>WARP PRO \u2699\uFE0F</h2></summary>
+                    <div class="form-control">
+                        <label for="hiddifyNoiseMode">\u{1F635}\u200D\u{1F4AB} Hiddify Mode</label>
+                        <input type="text" id="hiddifyNoiseMode" name="hiddifyNoiseMode" 
+                            pattern="^(m[1-6]|h_[0-9A-Fa-f]{2}|g_([0-9A-Fa-f]{2}_){2}[0-9A-Fa-f]{2})$" 
+                            title="Enter 'm1-m6', 'h_HEX', 'g_HEX_HEX_HEX' which HEX can be between 00 to ff"
+                            value="${hiddifyNoiseMode}" required>
+                    </div>
+                    <div class="form-control">
+                        <label for="nikaNGNoiseMode">\u{1F635}\u200D\u{1F4AB} NikaNG Mode</label>
+                        <input type="text" id="nikaNGNoiseMode" name="nikaNGNoiseMode" 
+                            pattern="^(none|quic|random|[0-9A-Fa-f]+)$" 
+                            title="Enter 'none', 'quic', 'random', or any HEX string like 'ee0000000108aaaa'"
+                            value="${nikaNGNoiseMode}" required>
+                    </div>
+                    <div class="form-control">
+                        <label for="noiseCountMin">\u{1F39A}\uFE0F Noise Count</label>
+                        <div class="min-max">
+                            <input type="number" id="noiseCountMin" name="noiseCountMin"
+                                value="${noiseCountMin}" min="1" required>
+                            <span> - </span>
+                            <input type="number" id="noiseCountMax" name="noiseCountMax"
+                                value="${noiseCountMax}" min="1" required>
+                        </div>
+                    </div>
+                    <div class="form-control">
+                        <label for="noiseSizeMin">\u{1F4CF} Noise Size</label>
+                        <div class="min-max">
+                            <input type="number" id="noiseSizeMin" name="noiseSizeMin"
+                                value="${noiseSizeMin}" min="1" required>
+                            <span> - </span>
+                            <input type="number" id="noiseSizeMax" name="noiseSizeMax"
+                                value="${noiseSizeMax}" min="1" required>
+                        </div>
+                    </div>
+                    <div class="form-control">
+                        <label for="noiseDelayMin">\u{1F55E} Noise Delay</label>
+                        <div class="min-max">
+                            <input type="number" id="noiseDelayMin" name="noiseDelayMin"
+                                value="${noiseDelayMin}" min="1" required>
+                            <span> - </span>
+                            <input type="number" id="noiseDelayMax" name="noiseDelayMax"
+                                value="${noiseDelayMax}" min="1" required>
+                        </div>
+                    </div>
+                </details>
+                <details>
+                    <summary><h2>ROUTING RULES \u2699\uFE0F</h2></summary>
+                    <div id="routing-rules" class="form-control" style="margin-bottom: 20px;">			
+                        <div class="routing">
+                            <input type="checkbox" id="bypass-lan" name="bypass-lan" value="true" ${bypassLAN ? "checked" : ""}>
+                            <label for="bypass-lan">Bypass LAN</label>
+                        </div>
+                        <div class="routing">
+                            <input type="checkbox" id="block-ads" name="block-ads" value="true" ${blockAds ? "checked" : ""}>
+                            <label for="block-ads">Block Ads.</label>
+                        </div>
+                        <div class="routing">
+                            <input type="checkbox" id="bypass-iran" name="bypass-iran" value="true" ${bypassIran ? "checked" : ""}>
+                            <label for="bypass-iran">Bypass Iran</label>
+                        </div>
+                        <div class="routing">
+                            <input type="checkbox" id="block-porn" name="block-porn" value="true" ${blockPorn ? "checked" : ""}>
+                            <label for="block-porn">Block Porn</label>
+                        </div>
+                        <div class="routing">
+                            <input type="checkbox" id="bypass-china" name="bypass-china" value="true" ${bypassChina ? "checked" : ""}>
+                            <label for="bypass-china">Bypass China</label>
+                        </div>
+                        <div class="routing">
+                            <input type="checkbox" id="block-udp-443" name="block-udp-443" value="true" ${blockUDP443 ? "checked" : ""}>
+                            <label for="block-udp-443">Block QUIC</label>
+                        </div>
+                        <div class="routing">
+                            <input type="checkbox" id="bypass-russia" name="bypass-russia" value="true" ${bypassRussia ? "checked" : ""}>
+                            <label for="bypass-russia">Bypass Russia</label>
+                        </div>
+                    </div>
+                </details>
+                <div id="apply" class="form-control">
+                    <div style="grid-column: 2; width: 100%; display: inline-flex;">
+                        <input type="submit" id="applyButton" style="margin-right: 10px;" class="button disabled" value="APPLY SETTINGS \u{1F4A5}" form="configForm">
+                        <button type="button" id="resetSettings" style="background: none; margin: 0; border: none; cursor: pointer;">
+                            <i class="fa fa-refresh fa-2x fa-border" style="border-radius: .2em; border-color: var(--border-color);" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+            <hr>            
+            <h2>NORMAL SUB \u{1F517}</h2>
+            <div class="table-container">
+                <table id="normal-configs-table">
+                    <tr>
+                        <th>Application</th>
+                        <th>Subscription</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>
+                                <span class="material-symbols-outlined symbol">verified</span>
+                                <span>v2rayNG</span>
+                            </div>
+                            <div>
+                                <span class="material-symbols-outlined symbol">verified</span>
+                                <span>NikaNG</span>
+                            </div>
+                            <div>
+                                <span class="material-symbols-outlined symbol">verified</span>
+                                <span>MahsaNG</span>
+                            </div>
+                            <div>
+                                <span class="material-symbols-outlined symbol">verified</span>
+                                <span>v2rayN</span>
+                            </div>
+                            <div>
+                                <span class="material-symbols-outlined symbol">verified</span>
+                                <span>v2rayN-PRO</span>
+                            </div>
+                            <div>
+                                <span class="material-symbols-outlined symbol">verified</span>
+                                <span>Shadowrocket</span>
+                            </div>
+                            <div>
+                                <span class="material-symbols-outlined symbol">verified</span>
+                                <span>Streisand</span>
+                            </div>
+                            <div>
+                                <span class="material-symbols-outlined symbol">verified</span>
+                                <span>Hiddify</span>
+                            </div>
+                            <div>
+                                <span class="material-symbols-outlined symbol">verified</span>
+                                <span>Nekoray (Xray)</span>
+                            </div>
+                        </td>
+                        <td>
+                            <button onclick="openQR('https://${hostName}/sub/${userID}#BPB-Normal', 'Normal Subscription')" style="margin-bottom: 8px;">
+                                QR Code&nbsp;<span class="material-symbols-outlined">qr_code</span>
+                            </button>
+                            <button onclick="copyToClipboard('https://${hostName}/sub/${userID}#BPB-Normal', false)">
+                                Copy Sub<span class="material-symbols-outlined">format_list_bulleted</span>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>
+                                <span class="material-symbols-outlined symbol">verified</span>
+                                <span>Nekobox</span>
+                            </div>
+                            <div>
+                                <span class="material-symbols-outlined symbol">verified</span>
+                                <span>Nekoray (Sing-Box)</span>
+                            </div>
+                            <div>
+                                <span class="material-symbols-outlined symbol">verified</span>
+                                <span>Karing</span>
+                            </div>
+                        </td>
+                        <td>
+                            <button onclick="copyToClipboard('https://${hostName}/sub/${userID}?app=singbox#BPB-Normal', false)">
+                                Copy Sub<span class="material-symbols-outlined">format_list_bulleted</span>
+                            </button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <h2>FULL NORMAL SUB \u{1F517}</h2>
+            <div class="table-container">
+                <table id="full-normal-configs-table">
+                    <tr>
+                        <th>Application</th>
+                        <th>Subscription</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>
+                                <span class="material-symbols-outlined symbol">verified</span>
+                                <span>v2rayNG</span>
+                            </div>
+                            <div>
+                                <span class="material-symbols-outlined symbol">verified</span>
+                                <span>NikaNG</span>
+                            </div>
+                            <div>
+                                <span class="material-symbols-outlined symbol">verified</span>
+                                <span>MahsaNG</span>
+                            </div>
+                            <div>
+                                <span class="material-symbols-outlined symbol">verified</span>
+                                <span>v2rayN</span>
+                            </div>
+                            <div>
+                                <span class="material-symbols-outlined symbol">verified</span>
+                                <span>v2rayN-PRO</span>
+                            </div>
+                            <div>
+                                <span class="material-symbols-outlined symbol">verified</span>
+                                <span>Streisand</span>
+                            </div>
+                        </td>
+                        <td>
+                            <button onclick="openQR('https://${hostName}/sub/${userID}?app=xray#BPB-Full-Normal', 'Full normal Subscription')" style="margin-bottom: 8px;">
+                                QR Code&nbsp;<span class="material-symbols-outlined">qr_code</span>
+                            </button>
+                            <button onclick="copyToClipboard('https://${hostName}/sub/${userID}?app=xray#BPB-Full-Normal', false)">
+                                Copy Sub<span class="material-symbols-outlined">format_list_bulleted</span>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>
+                                <span class="material-symbols-outlined symbol">verified</span>
+                                <span>Sing-box</b></span>
+                            </div>
+                        </td>
+                        <td>
+                            <button onclick="openQR('sing-box://import-remote-profile?url=https://${hostName}/sub/${userID}?app=sfa#BPB-Full-Normal', 'Normal Subscription')" style="margin-bottom: 8px;">
+                                QR Code&nbsp;<span class="material-symbols-outlined">qr_code</span>
+                            </button>
+                            <button onclick="copyToClipboard('https://${hostName}/sub/${userID}?app=sfa#BPB-Full-Normal', false)">
+                                Copy Sub<span class="material-symbols-outlined">format_list_bulleted</span>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>
+                                <span class="material-symbols-outlined symbol">verified</span>
+                                <span>Clash Meta</span>
+                            </div>
+                            <div>
+                                <span class="material-symbols-outlined symbol">verified</span>
+                                <span>Clash Verge</span>
+                            </div>
+                            <div>
+                                <span class="material-symbols-outlined symbol">verified</span>
+                                <span>v2rayN</span>
+                            </div>
+                            <div>
+                                <span class="material-symbols-outlined symbol">verified</span>
+                                <span>FlClash</span>
+                            </div>
+                            <div>
+                                <span class="material-symbols-outlined symbol">verified</span>
+                                <span>Stash</span>
+                            </div>
+                        </td>
+                        <td>
+                            <button onclick="openQR('https://${hostName}/sub/${userID}?app=clash#BPB-Full-Normal', 'Normal Subscription')" style="margin-bottom: 8px;">
+                                QR Code&nbsp;<span class="material-symbols-outlined">qr_code</span>
+                            </button>
+                            <button onclick="copyToClipboard('https://${hostName}/sub/${userID}?app=clash#BPB-Full-Normal', false)">
+                                Copy Sub<span class="material-symbols-outlined">format_list_bulleted</span>
+                            </button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <h2>FRAGMENT SUB \u26D3\uFE0F</h2>
+            <div class="table-container">
+                <table id="frag-sub-table">
+                    <tr>
+                        <th style="text-wrap: nowrap;">Application</th>
+                        <th style="text-wrap: nowrap;">Subscription</th>
+                    </tr>
+                    <tr>
+                        <td style="text-wrap: nowrap;">
+                            <div>
+                                <span class="material-symbols-outlined symbol">verified</span>
+                                <span>v2rayNG</span>
+                            </div>
+                            <div>
+                                <span class="material-symbols-outlined symbol">verified</span>
+                                <span>NikaNG</span>
+                            </div>
+                            <div>
+                                <span class="material-symbols-outlined symbol">verified</span>
+                                <span>MahsaNG</span>
+                            </div>
+                            <div>
+                                <span class="material-symbols-outlined symbol">verified</span>
+                                <span>v2rayN</span>
+                            </div>
+                            <div>
+                                <span class="material-symbols-outlined symbol">verified</span>
+                                <span>v2rayN-PRO</span>
+                            </div>
+                            <div>
+                                <span class="material-symbols-outlined symbol">verified</span>
+                                <span>Streisand</span>
+                            </div>
+                        </td>
+                        <td>
+                            <button onclick="openQR('https://${hostName}/fragsub/${userID}#BPB-Fragment', 'Fragment Subscription')" style="margin-bottom: 8px;">
+                                QR Code&nbsp;<span class="material-symbols-outlined">qr_code</span>
+                            </button>
+                            <button onclick="copyToClipboard('https://${hostName}/fragsub/${userID}#BPB-Fragment', true)">
+                                Copy Sub<span class="material-symbols-outlined">format_list_bulleted</span>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-wrap: nowrap;">
+                            <div>
+                                <span class="material-symbols-outlined symbol">verified</span>
+                                <span>Hiddify</span>
+                            </div>
+                        </td>
+                        <td>
+                            <button onclick="openQR('https://${hostName}/fragsub/${userID}?app=hiddify#BPB-Fragment', 'Fragment Subscription')" style="margin-bottom: 8px;">
+                                QR Code&nbsp;<span class="material-symbols-outlined">qr_code</span>
+                            </button>
+                            <button onclick="copyToClipboard('https://${hostName}/fragsub/${userID}?app=hiddify#BPB-Fragment', true)">
+                                Copy Sub<span class="material-symbols-outlined">format_list_bulleted</span>
+                            </button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <h2>WARP SUB \u{1F517}</h2>
+            <div class="table-container">
+                <table id="normal-configs-table">
+                    <tr>
+                        <th>Application</th>
+                        <th>Subscription</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>
+                                <span class="material-symbols-outlined symbol">verified</span>
+                                <span>v2rayNG</span>
+                            </div>
+                            <div>
+                                <span class="material-symbols-outlined symbol">verified</span>
+                                <span>v2rayN</span>
+                            </div>
+                            <div>
+                                <span class="material-symbols-outlined symbol">verified</span>
+                                <span>Streisand</span>
+                            </div>
+                        </td>
+                        <td>
+                            <button onclick="openQR('https://${hostName}/warpsub/${userID}?app=xray#BPB-Warp', 'Warp Subscription')" style="margin-bottom: 8px;">
+                                QR Code&nbsp;<span class="material-symbols-outlined">qr_code</span>
+                            </button>
+                            <button onclick="copyToClipboard('https://${hostName}/warpsub/${userID}?app=xray#BPB-Warp', false)">
+                                Copy Sub<span class="material-symbols-outlined">format_list_bulleted</span>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>
+                                <span class="material-symbols-outlined symbol">verified</span>
+                                <span>Hiddify</span>
+                            </div>
+                            <div>
+                                <span class="material-symbols-outlined symbol">verified</span>
+                                <span>Singbox</span>
+                            </div>
+                        </td>
+                        <td>
+                            <button onclick="openQR('sing-box://import-remote-profile?url=https://${hostName}/warpsub/${userID}?app=singbox#BPB-Warp', 'Warp Subscription')" style="margin-bottom: 8px;">
+                                QR Code&nbsp;<span class="material-symbols-outlined">qr_code</span>
+                            </button>
+                            <button onclick="copyToClipboard('https://${hostName}/warpsub/${userID}?app=singbox#BPB-Warp', false)">
+                                Copy Sub<span class="material-symbols-outlined">format_list_bulleted</span>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>
+                                <span class="material-symbols-outlined symbol">verified</span>
+                                <span>Clash Meta</span>
+                            </div>
+                            <div>
+                                <span class="material-symbols-outlined symbol">verified</span>
+                                <span>Clash Verge</span>
+                            </div>
+                            <div>
+                                <span class="material-symbols-outlined symbol">verified</span>
+                                <span>v2rayN</span>
+                            </div>
+                            <div>
+                                <span class="material-symbols-outlined symbol">verified</span>
+                                <span>FlClash</span>
+                            </div>
+                            <div>
+                                <span class="material-symbols-outlined symbol">verified</span>
+                                <span>Stash</span>
+                            </div>
+                        </td>
+                        <td>
+                            <button onclick="openQR('https://${hostName}/warpsub/${userID}?app=clash#BPB-Warp', 'Warp Subscription')" style="margin-bottom: 8px;">
+                                QR Code&nbsp;<span class="material-symbols-outlined">qr_code</span>
+                            </button>
+                            <button onclick="copyToClipboard('https://${hostName}/warpsub/${userID}?app=clash#BPB-Warp', false)">
+                                Copy Sub<span class="material-symbols-outlined">format_list_bulleted</span>
+                            </button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <h2>WARP PRO SUB \u{1F517}</h2>
+            <div class="table-container">
+                <table id="warp-pro-configs-table">
+                    <tr>
+                        <th>Application</th>
+                        <th>Subscription</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>
+                                <span class="material-symbols-outlined symbol">verified</span>
+                                <span>NikaNG</span>
+                            </div>
+                            <div>
+                                <span class="material-symbols-outlined symbol">verified</span>
+                                <span>MahsaNG</span>
+                            </div>
+                            <div>
+                                <span class="material-symbols-outlined symbol">verified</span>
+                                <span>v2rayN-PRO</span>
+                            </div>
+                        </td>
+                        <td>
+                            <button onclick="openQR('https://${hostName}/warpsub/${userID}?app=nikang#BPB-Warp-Pro', 'Warp Pro Subscription')" style="margin-bottom: 8px;">
+                                QR Code&nbsp;<span class="material-symbols-outlined">qr_code</span>
+                            </button>
+                            <button onclick="copyToClipboard('https://${hostName}/warpsub/${userID}?app=nikang#BPB-Warp-Pro', false)">
+                                Copy Sub<span class="material-symbols-outlined">format_list_bulleted</span>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>
+                                <span class="material-symbols-outlined symbol">verified</span>
+                                <span>Hiddify</span>
+                            </div>
+                        </td>
+                        <td>
+                            <button onclick="openQR('sing-box://import-remote-profile?url=https://${hostName}/warpsub/${userID}?app=hiddify#BPB-Warp-Pro', 'Warp Pro Subscription')" style="margin-bottom: 8px;">
+                                QR Code&nbsp;<span class="material-symbols-outlined">qr_code</span>
+                            </button>
+                            <button onclick="copyToClipboard('https://${hostName}/warpsub/${userID}?app=hiddify#BPB-Warp-Pro', false)">
+                                Copy Sub<span class="material-symbols-outlined">format_list_bulleted</span>
+                            </button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <form id="passwordChangeForm">
+                        <h2>Change Password</h2>
+                        <div class="form-control">
+                            <label for="newPassword">New Password</label>
+                            <input type="password" id="newPassword" name="newPassword" required>
+                            </div>
+                        <div class="form-control">
+                            <label for="confirmPassword">Confirm Password</label>
+                            <input type="password" id="confirmPassword" name="confirmPassword" required>
+                        </div>
+                        <div id="passwordError" style="color: red; margin-bottom: 10px;"></div>
+                        <button id="changePasswordBtn" type="submit" class="button">Change Password</button>
+                    </form>
+                </div>
+            </div>
+            <div id="myQRModal" class="modalQR">
+                <div class="modal-content" style="width: auto; text-align: center;">
+                    <div style="display: flex; flex-direction: column; align-items: center; margin-bottom: 10px;">
+                        <span id="closeQRModal" class="close" style="align-self: flex-end;">&times;</span>
+                        <span id="qrcodeTitle" style="align-self: center; font-weight: bold;"></span>
+                    </div>
+                    <div id="qrcode-container"></div>
+                </div>
+            </div>
+            <hr>
+            <div class="footer">
+                <i class="fa fa-github" style="font-size:36px; margin-right: 10px;"></i>
+                <a class="link" href="https://github.com/bia-pain-bache/BPB-Worker-Panel" style="color: var(--color); text-decoration: underline;" target="_blank">Github</a>
+                <button id="openModalBtn" class="button">Change Password</button>
+                <button type="button" id="logout" style="background: none; color: var(--color); margin: 0; border: none; cursor: pointer;">
+                    <i class="fa fa-power-off fa-2x" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+        <button id="darkModeToggle" class="floating-button">
+            <i id="modeIcon" class="fa fa-2x fa-adjust" style="color: var(--background-color);" aria-hidden="true"></i>
+        </button>   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"><\/script>
+    <script>
+        const defaultHttpsPorts = ['443', '8443', '2053', '2083', '2087', '2096'];
+        let activePortsNo = ${ports.length};
+        let activeHttpsPortsNo = ${ports.filter((port) => defaultHttpsPorts.includes(port)).length};
+        let activeProtocols = ${activeProtocols};
+        const warpPlusLicense = '${warpPlusLicense}';
+        localStorage.getItem('darkMode') === 'enabled' && document.body.classList.add('dark-mode');
+
+        document.addEventListener('DOMContentLoaded', async () => {
+            const configForm = document.getElementById('configForm');            
+            const modal = document.getElementById('myModal');
+            const changePass = document.getElementById('openModalBtn');
+            const closeBtn = document.querySelector(".close");
+            const passwordChangeForm = document.getElementById('passwordChangeForm');            
+            const applyBtn = document.getElementById('applyButton');         
+            const initialFormData = new FormData(configForm);
+            const closeQR = document.getElementById('closeQRModal');
+            const resetSettings = document.getElementById('resetSettings');
+            let modalQR = document.getElementById('myQRModal');
+            let qrcodeContainer = document.getElementById('qrcode-container');
+            let forcedPassChange = false;
+            const darkModeToggle = document.getElementById('darkModeToggle');
+                    
+            const hasFormDataChanged = () => {
+                const currentFormData = new FormData(configForm);
+                const currentFormDataEntries = [...currentFormData.entries()];
+
+                const nonCheckboxFieldsChanged = currentFormDataEntries.some(
+                    ([key, value]) => !initialFormData.has(key) || initialFormData.get(key) !== value
+                );
+
+                const checkboxFieldsChanged = Array.from(configForm.elements)
+                    .filter((element) => element.type === 'checkbox')
+                    .some((checkbox) => {
+                    const initialValue = initialFormData.has(checkbox.name)
+                        ? initialFormData.get(checkbox.name)
+                        : false;
+                    const currentValue = currentFormDataEntries.find(([key]) => key === checkbox.name)?.[1] || false;
+                    return initialValue !== currentValue;
+                });
+
+                return nonCheckboxFieldsChanged || checkboxFieldsChanged;
+            };
+            
+            const enableApplyButton = () => {
+                const isChanged = hasFormDataChanged();
+                applyButton.disabled = !isChanged;
+                applyButton.classList.toggle('disabled', !isChanged);
+            };
+                        
+            passwordChangeForm.addEventListener('submit', event => resetPassword(event));
+            document.getElementById('logout').addEventListener('click', event => logout(event));
+            configForm.addEventListener('submit', (event) => applySettings(event, configForm));
+            configForm.addEventListener('input', enableApplyButton);
+            configForm.addEventListener('change', enableApplyButton);
+            changePass.addEventListener('click', () => {
+                forcedPassChange ? closeBtn.style.display = 'none' : closeBtn.style.display = '';
+                modal.style.display = "block";
+                document.body.style.overflow = "hidden";
+                forcedPassChange = false;
+            });        
+            closeBtn.addEventListener('click', () => {
+                modal.style.display = "none";
+                document.body.style.overflow = "";
+            });
+            closeQR.addEventListener('click', () => {
+                modalQR.style.display = "none";
+                qrcodeContainer.lastElementChild.remove();
+            });
+            resetSettings.addEventListener('click', async () => {
+                const confirmReset = confirm('\u26A0\uFE0F This will reset all panel settings.\\nAre you sure?');
+                if(!confirmReset) return;
+                const formData = new FormData();
+                formData.append('resetSettings', 'true');
+                try {
+                    document.body.style.cursor = 'wait';
+                    const refreshButtonVal = refreshBtn.innerHTML;
+                    refreshBtn.innerHTML = '\u231B Loading...';
+
+                    const response = await fetch('/panel', {
+                        method: 'POST',
+                        body: formData,
+                        credentials: 'include'
+                    });
+
+                    document.body.style.cursor = 'default';
+                    refreshBtn.innerHTML = refreshButtonVal;
+                    if (response.ok) {
+                        alert('\u2705 Panel settings reset to default successfully! \u{1F60E}');
+                        window.location.reload(true);
+                    } else {
+                        const errorMessage = await response.text();
+                        console.error(errorMessage, response.status);
+                        alert('\u26A0\uFE0F An error occured, Please try again!\\n\u26D4 ' + errorMessage);
+                    }         
+                } catch (error) {
+                    console.error('Error:', error);
+                }
+            });
+            window.onclick = (event) => {
+                if (event.target == modalQR) {
+                    modalQR.style.display = "none";
+                    qrcodeContainer.lastElementChild.remove();
+                }
+            }
+            darkModeToggle.addEventListener('click', () => {
+                const isDarkMode = document.body.classList.toggle('dark-mode');
+                if (isDarkMode) {
+                    localStorage.setItem('darkMode', 'enabled');
+                } else {
+                    localStorage.setItem('darkMode', 'disabled');                
+                }
+            });
+
+            if (${!isPassSet}) {
+                forcedPassChange = true;
+                changePass.click();
+            }
+        });
+
+        const getWarpConfigs = async () => {
+            const license = document.getElementById('warpPlusLicense').value;
+            if (license !== warpPlusLicense) {
+                alert('\u26A0\uFE0F First APPLY SETTINGS and then update Warp configs!');
+                return false;
+            }
+            const confirmReset = confirm('\u26A0\uFE0F Are you sure?');
+            if(!confirmReset) return;
+            const refreshBtn = document.getElementById('refreshBtn');
+
+            try {
+                document.body.style.cursor = 'wait';
+                const refreshButtonVal = refreshBtn.innerHTML;
+                refreshBtn.innerHTML = '\u231B Loading...';
+
+                const response = await fetch('/update-warp', {
+                    method: 'POST',
+                    credentials: 'include'
+                });
+
+                document.body.style.cursor = 'default';
+                refreshBtn.innerHTML = refreshButtonVal;
+                if (response.ok) {
+                    ${isWarpPlus} ? alert('\u2705 Warp configs upgraded to PLUS successfully! \u{1F60E}') : alert('\u2705 Warp configs updated successfully! \u{1F60E}');
+                } else {
+                    const errorMessage = await response.text();
+                    console.error(errorMessage, response.status);
+                    alert('\u26A0\uFE0F An error occured, Please try again!\\n\u26D4 ' + errorMessage);
+                }         
+            } catch (error) {
+                console.error('Error:', error);
+            } 
+        }
+
+        const handlePortChange = (event) => {
+            
+            if(event.target.checked) { 
+                activePortsNo++ 
+                defaultHttpsPorts.includes(event.target.name) && activeHttpsPortsNo++;
+            } else {
+                activePortsNo--;
+                defaultHttpsPorts.includes(event.target.name) && activeHttpsPortsNo--;
+            }
+
+            if (activePortsNo === 0) {
+                event.preventDefault();
+                event.target.checked = !event.target.checked;
+                alert("\u26D4 At least one port should be selected! \u{1FAE4}");
+                activePortsNo = 1;
+                defaultHttpsPorts.includes(event.target.name) && activeHttpsPortsNo++;
+                return false;
+            }
+                
+            if (activeHttpsPortsNo === 0) {
+                event.preventDefault();
+                event.target.checked = !event.target.checked;
+                alert("\u26D4 At least one TLS(https) port should be selected! \u{1FAE4}");
+                activeHttpsPortsNo = 1;
+                return false;
+            }
+        }
+        
+        const handleProtocolChange = (event) => {
+            
+            if(event.target.checked) { 
+                activeProtocols++ 
+            } else {
+                activeProtocols--;
+            }
+
+            if (activeProtocols === 0) {
+                event.preventDefault();
+                event.target.checked = !event.target.checked;
+                alert("\u26D4 At least one Protocol should be selected! \u{1FAE4}");
+                activeProtocols = 1;
+                return false;
+            }
+        }
+
+        const openQR = (url, title) => {
+            let qrcodeContainer = document.getElementById("qrcode-container");
+            let qrcodeTitle = document.getElementById("qrcodeTitle");
+            const modalQR = document.getElementById("myQRModal");
+            qrcodeTitle.textContent = title;
+            modalQR.style.display = "block";
+            let qrcodeDiv = document.createElement("div");
+            qrcodeDiv.className = "qrcode";
+            qrcodeDiv.style.padding = "2px";
+            qrcodeDiv.style.backgroundColor = "#ffffff";
+            new QRCode(qrcodeDiv, {
+                text: url,
+                width: 256,
+                height: 256,
+                colorDark: "#000000",
+                colorLight: "#ffffff",
+                correctLevel: QRCode.CorrectLevel.H
+            });
+            qrcodeContainer.appendChild(qrcodeDiv);
+        }
+
+        const copyToClipboard = (text, decode) => {
+            const textarea = document.createElement('textarea');
+            const value = decode ? decodeURIComponent(text) : text;
+            textarea.value = value;
+            document.body.appendChild(textarea);
+            textarea.select();
+            document.execCommand('copy');
+            document.body.removeChild(textarea);
+            alert('\u{1F4CB} Copied to clipboard:\\n\\n' +  value);
+        }
+
+        const applySettings = async (event, configForm) => {
+            event.preventDefault();
+            event.stopPropagation();
+            const applyButton = document.getElementById('applyButton');
+            const getValue = (id) => parseInt(document.getElementById(id).value, 10);              
+            const lengthMin = getValue('fragmentLengthMin');
+            const lengthMax = getValue('fragmentLengthMax');
+            const intervalMin = getValue('fragmentIntervalMin');
+            const intervalMax = getValue('fragmentIntervalMax');
+            const proxyIP = document.getElementById('proxyIP').value?.trim();
+            const cleanIP = document.getElementById('cleanIPs');
+            const customCdnAddrs = document.getElementById('customCdnAddrs').value?.split(',').filter(addr => addr !== '');
+            const customCdnHost = document.getElementById('customCdnHost').value;
+            const customCdnSni = document.getElementById('customCdnSni').value;
+            const isCustomCdn = customCdnAddrs.length > 0 || customCdnHost !== '' || customCdnSni !== '';
+            const warpEndpoints = document.getElementById('warpEndpoints').value?.replaceAll(' ', '').split(',');
+            const noiseCountMin = getValue('noiseCountMin');
+            const noiseCountMax = getValue('noiseCountMax');
+            const noiseSizeMin = getValue('noiseSizeMin');
+            const noiseSizeMax = getValue('noiseSizeMax');
+            const noiseDelayMin = getValue('noiseDelayMin');
+            const noiseDelayMax = getValue('noiseDelayMax');
+            const cleanIPs = cleanIP.value?.split(',');
+            const chainProxy = document.getElementById('outProxy').value?.trim();                    
+            const formData = new FormData(configForm);
+            const isVless = /vless:\\/\\/[^s@]+@[^\\s:]+:[^\\s]+/.test(chainProxy);
+            const isSocksHttp = /^(http|socks):\\/\\/(?:([^:@]+):([^:@]+)@)?([^:@]+):(\\d+)$/.test(chainProxy);
+            const hasSecurity = /security=/.test(chainProxy);
+            const securityRegex = /security=(tls|none|reality)/;
+            const validSecurityType = securityRegex.test(chainProxy);
+            let match = chainProxy.match(securityRegex);
+            const securityType = match ? match[1] : null;
+            match = chainProxy.match(/:(\\d+)\\?/);
+            const vlessPort = match ? match[1] : null;
+            const validTransmission = /type=(tcp|grpc|ws)/.test(chainProxy);
+            const validIPDomain = /^((?:(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?\\.)+[a-zA-Z]{2,})|(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)|\\[(?:[a-fA-F0-9]{1,4}:){7}[a-fA-F0-9]{1,4}\\]|\\[(?:[a-fA-F0-9]{1,4}:){1,7}:\\]|\\[(?:[a-fA-F0-9]{1,4}:){1,6}:[a-fA-F0-9]{1,4}\\]|\\[(?:[a-fA-F0-9]{1,4}:){1,5}(?::[a-fA-F0-9]{1,4}){1,2}\\]|\\[(?:[a-fA-F0-9]{1,4}:){1,4}(?::[a-fA-F0-9]{1,4}){1,3}\\]|\\[(?:[a-fA-F0-9]{1,4}:){1,3}(?::[a-fA-F0-9]{1,4}){1,4}\\]|\\[(?:[a-fA-F0-9]{1,4}:){1,2}(?::[a-fA-F0-9]{1,4}){1,5}\\]|\\[[a-fA-F0-9]{1,4}:(?::[a-fA-F0-9]{1,4}){1,6}\\]|\\[:(?::[a-fA-F0-9]{1,4}){1,7}\\]|\\[\\](?:::[a-fA-F0-9]{1,4}){1,7}\\])$/i;
+            const checkedPorts = Array.from(document.querySelectorAll('input[id^="port-"]:checked')).map(input => input.id.split('-')[1]);
+            const validEndpoint = /^(?:(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?\\.)+[a-zA-Z]{2,}|(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)|\\[(?:[a-fA-F0-9]{1,4}:){7}[a-fA-F0-9]{1,4}\\]|\\[(?:[a-fA-F0-9]{1,4}:){1,7}:\\]|\\[(?:[a-fA-F0-9]{1,4}:){1,6}:[a-fA-F0-9]{1,4}\\]|\\[(?:[a-fA-F0-9]{1,4}:){1,5}(?::[a-fA-F0-9]{1,4}){1,2}\\]|\\[(?:[a-fA-F0-9]{1,4}:){1,4}(?::[a-fA-F0-9]{1,4}){1,3}\\]|\\[(?:[a-fA-F0-9]{1,4}:){1,3}(?::[a-fA-F0-9]{1,4}){1,4}\\]|\\[(?:[a-fA-F0-9]{1,4}:){1,2}(?::[a-fA-F0-9]{1,4}){1,5}\\]|\\[[a-fA-F0-9]{1,4}:(?::[a-fA-F0-9]{1,4}){1,6}\\]|\\[:(?::[a-fA-F0-9]{1,4}){1,7}\\]|\\[::(?::[a-fA-F0-9]{1,4}){0,7}\\]):(?:[0-9]{1,5})$/;
+            formData.append('ports', checkedPorts);
+            configForm.querySelectorAll('input[type="checkbox"]').forEach(checkbox => {
+                !formData.has(checkbox.name) && formData.append(checkbox.name, 'false');    
+            });
+
+            const invalidIPs = [...cleanIPs, proxyIP, ...customCdnAddrs, customCdnHost, customCdnSni]?.filter(value => {
+                if (value !== "") {
+                    const trimmedValue = value.trim();
+                    return !validIPDomain.test(trimmedValue);
+                }
+            });
+
+            const invalidEndpoints = warpEndpoints?.filter(value => {
+                if (value !== "") {
+                    const trimmedValue = value.trim();
+                    return !validEndpoint.test(trimmedValue);
+                }
+            });
+
+            if (invalidIPs.length) {
+                alert('\u26D4 Invalid IPs or Domains \u{1FAE4}\\n\\n' + invalidIPs.map(ip => '\u26A0\uFE0F ' + ip).join('\\n'));
+                return false;
+            }
+            
+            if (invalidEndpoints.length) {
+                alert('\u26D4 Invalid endpoint \u{1FAE4}\\n\\n' + invalidEndpoints.map(endpoint => '\u26A0\uFE0F ' + endpoint).join('\\n'));
+                return false;
+            }
+
+            if (lengthMin >= lengthMax || intervalMin > intervalMax || noiseCountMin > noiseCountMax || noiseSizeMin > noiseSizeMax || noiseDelayMin > noiseDelayMax) {
+                alert('\u26D4 Minimum should be smaller or equal to Maximum! \u{1FAE4}');               
+                return false;
+            }
+
+            if (!(isVless && (hasSecurity && validSecurityType || !hasSecurity) && validTransmission) && !isSocksHttp && chainProxy) {
+                alert('\u26D4 Invalid Config! \u{1FAE4} \\n - The chain proxy should be VLESS, Socks or Http!\\n - VLESS transmission should be GRPC,WS or TCP\\n - VLESS security should be TLS,Reality or None\\n - socks or http should be like:\\n + (socks or http)://user:pass@host:port\\n + (socks or http)://host:port');               
+                return false;
+            }
+
+            if (isVless && securityType === 'tls' && vlessPort !== '443') {
+                alert('\u26D4 VLESS TLS port can be only 443 to be used as a proxy chain! \u{1FAE4}');               
+                return false;
+            }
+
+            if (isCustomCdn && !(customCdnAddrs.length > 0 && customCdnHost && customCdnSni)) {
+                alert('\u26D4 All "Custom" fields should be filled or deleted together! \u{1FAE4}');               
+                return false;
+            }
+
+            try {
+                document.body.style.cursor = 'wait';
+                const applyButtonVal = applyButton.value;
+                applyButton.value = '\u231B Loading...';
+
+                const response = await fetch('/panel', {
+                    method: 'POST',
+                    body: formData,
+                    credentials: 'include'
+                });
+
+                document.body.style.cursor = 'default';
+                applyButton.value = applyButtonVal;
+
+                if (response.ok) {
+                    alert('\u2705 Parameters applied successfully \u{1F60E}');
+                    window.location.reload(true);
+                } else {
+                    const errorMessage = await response.text();
+                    console.error(errorMessage, response.status);
+                    alert('\u26A0\uFE0F Session expired! Please login again.');
+                    window.location.href = '/login';
+                }           
+            } catch (error) {
+                console.error('Error:', error);
+            }
+        }
+
+        const logout = async (event) => {
+            event.preventDefault();
+
+            try {
+                const response = await fetch('/logout', {
+                    method: 'GET',
+                    credentials: 'same-origin'
+                });
+            
+                if (response.ok) {
+                    window.location.href = '/login';
+                } else {
+                    console.error('Failed to log out:', response.status);
+                }
+            } catch (error) {
+                console.error('Error:', error);
+            }
+        }
+
+        const resetPassword = async (event) => {
+            event.preventDefault();
+            const modal = document.getElementById('myModal');
+            const newPasswordInput = document.getElementById('newPassword');
+            const confirmPasswordInput = document.getElementById('confirmPassword');
+            const passwordError = document.getElementById('passwordError');             
+            const newPassword = newPasswordInput.value;
+            const confirmPassword = confirmPasswordInput.value;
+
+            if (newPassword !== confirmPassword) {
+                passwordError.textContent = "Passwords do not match";
+                return false;
+            }
+
+            const hasCapitalLetter = /[A-Z]/.test(newPassword);
+            const hasNumber = /[0-9]/.test(newPassword);
+            const isLongEnough = newPassword.length >= 8;
+
+            if (!(hasCapitalLetter && hasNumber && isLongEnough)) {
+                passwordError.textContent = '\u26A0\uFE0F Password must contain at least one capital letter, one number, and be at least 8 characters long.';
+                return false;
+            }
+                    
+            try {
+                const response = await fetch('/panel/password', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'text/plain'
+                    },
+                    body: newPassword,
+                    credentials: 'same-origin'
+                });
+            
+                if (response.ok) {
+                    modal.style.display = "none";
+                    document.body.style.overflow = "";
+                    alert("\u2705 Password changed successfully! \u{1F44D}");
+                    window.location.href = '/login';
+                } else if (response.status === 401) {
+                    const errorMessage = await response.text();
+                    passwordError.textContent = '\u26A0\uFE0F ' + errorMessage;
+                    console.error(errorMessage, response.status);
+                    alert('\u26A0\uFE0F Session expired! Please login again.');
+                    window.location.href = '/login';
+                } else {
+                    const errorMessage = await response.text();
+                    passwordError.textContent = '\u26A0\uFE0F ' + errorMessage;
+                    console.error(errorMessage, response.status);
+                    return false;
+                }
+            } catch (error) {
+                console.error('Error:', error);
+            }
+        }
+    <\/script>
+    </body>	
+    </html>`;
+  return html;
+}
+function renderLoginPage() {
+  return `
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Login</title>
+    <style>
+        :root {
+            --color: black;
+            --primary-color: #09639f;
+            --header-color: #09639f; 
+            --background-color: #fff;
+            --form-background-color: #f9f9f9;
+            --lable-text-color: #333;
+            --h2-color: #3b3b3b;
+            --border-color: #ddd;
+            --input-background-color: white;
+            --header-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+        }
+        html, body { height: 100%; margin: 0; }
+        body {
+            font-family: system-ui;
+            background-color: var(--background-color);
+            position: relative;
+            overflow: hidden;
+        }
+        body.dark-mode {
+            --color: white;
+            --primary-color: #09639F;
+            --header-color: #3498DB; 
+            --background-color: #121212;
+            --form-background-color: #121212;
+            --lable-text-color: #DFDFDF;
+            --h2-color: #D5D5D5;
+            --border-color: #353535;
+            --input-background-color: #252525;
+            --header-shadow: 2px 2px 4px rgba(255, 255, 255, 0.25);
+        }
+        html, body { height: 100%; margin: 0; }
+        .container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 90%;
+        }
+        h1 { font-size: 2.5rem; text-align: center; color: var(--header-color); margin: 0 auto 30px; text-shadow: var(--header-shadow); }        
+        h2 { text-align: center; color: var(--h2-color) }
+        .form-container {
+            background: var(--form-background-color);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        .form-control { margin-bottom: 15px; display: flex; align-items: center; }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            padding-right: 20px;
+            font-size: 110%;
+            font-weight: 600;
+            color: var(--lable-text-color);
+        }
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid var(--border-color);
+            border-radius: 5px;
+            color: var(--lable-text-color);
+            background-color: var(--input-background-color);
+        }
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            background-color: var(--primary-color);
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover,
+        button:focus {
+            background-color: #2980b9;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+            transform: translateY(-2px);
+        }
+        button.button:hover { color: white; }
+        .button:active { transform: translateY(1px); box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3); }
+        @media only screen and (min-width: 768px) {
+            .container { width: 30%; }
+        }
+    </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>BPB Panel <span style="font-size: smaller;">${panelVersion}</span> \u{1F4A6}</h1>
+            <div class="form-container">
+                <h2>User Login</h2>
+                <form id="loginForm">
+                    <div class="form-control">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <div id="passwordError" style="color: red; margin-bottom: 10px;"></div>
+                    <button type="submit" class="button">Login</button>
+                </form>
+            </div>
+        </div>
+    <script>
+        localStorage.getItem('darkMode') === 'enabled' && document.body.classList.add('dark-mode');
+        document.getElementById('loginForm').addEventListener('submit', async (event) => {
+            event.preventDefault();
+            const password = document.getElementById('password').value;
+
+            try {
+                const response = await fetch('/login', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'text/plain'
+                    },
+                    body: password
+                });
+            
+                if (response.ok) {
+                    window.location.href = '/panel';
+                } else {
+                    passwordError.textContent = '\u26A0\uFE0F Wrong Password!';
+                    const errorMessage = await response.text();
+                    console.error('Login failed:', errorMessage);
+                }
+            } catch (error) {
+                console.error('Error during login:', error);
+            }
+        });
+    <\/script>
+    </body>
+    </html>`;
+}
+function renderErrorPage(message2, error, refer) {
+  return `
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Error Page</title>
+        <style>
+            :root {
+                --color: black;
+                --header-color: #09639f; 
+                --background-color: #fff;
+                --border-color: #ddd;
+                --header-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+            }
+            body, html {
+                height: 100%;
+                width: 100%;
+                margin: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: system-ui;
+                color: var(--color);
+                background-color: var(--background-color);
+            }
+            body.dark-mode {
+                --color: white;
+                --header-color: #3498DB; 
+                --background-color: #121212;
+                --header-shadow: 2px 2px 4px rgba(255, 255, 255, 0.25);          
+            }
+            h1 { font-size: 2.5rem; text-align: center; color: var(--header-color); text-shadow: var(--header-shadow); }
+            #error-container { text-align: center; }
+        </style>
+    </head>
+    <body>
+        <div id="error-container">
+            <h1>BPB Panel <span style="font-size: smaller;">${panelVersion}</span> \u{1F4A6}</h1>
+            <div id="error-message">
+                <h2>${message2} ${refer ? 'Please try again or refer to <a href="https://github.com/bia-pain-bache/BPB-Worker-Panel/blob/main/README.md">documents</a>' : ""}
+                </h2>
+                <p><b>${error ? `\u26A0\uFE0F ${error.stack.toString()}` : ""}</b></p>
+            </div>
+        </div>
+    <script>
+        localStorage.getItem('darkMode') === 'enabled' && document.body.classList.add('dark-mode');
+    <\/script>
+    </body>
+    </html>`;
+}
+function extractChainProxyParams(chainProxy) {
+  let configParams = {};
+  if (!chainProxy)
+    return null;
+  let url = new URL(chainProxy);
+  const protocol = url.protocol.slice(0, -1);
+  if (protocol === "vless") {
+    const params = new URLSearchParams(url.search);
+    configParams = {
+      protocol,
+      uuid: url.username,
+      hostName: url.hostname,
+      port: url.port
+    };
+    params.forEach((value, key) => {
+      configParams[key] = value;
+    });
+  } else {
+    configParams = {
+      protocol,
+      user: url.username,
+      pass: url.password,
+      host: url.host,
+      port: url.port
+    };
+  }
+  return JSON.stringify(configParams);
+}
+async function fetchWgConfig(env, proxySettings) {
+  let warpConfigs = [];
+  const apiBaseUrl = "https://api.cloudflareclient.com/v0a4005/reg";
+  const { warpPlusLicense } = proxySettings;
+  const warpKeys = [generateKeyPair(), generateKeyPair()];
+  for (let i = 0; i < 2; i++) {
+    const accountResponse = await fetch(apiBaseUrl, {
+      method: "POST",
+      headers: {
+        "User-Agent": "insomnia/8.6.1",
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        key: warpKeys[i].publicKey,
+        install_id: "",
+        fcm_token: "",
+        tos: (/* @__PURE__ */ new Date()).toISOString(),
+        type: "Android",
+        model: "PC",
+        locale: "en_US",
+        warp_enabled: true
+      })
+    });
+    const accountData = await accountResponse.json();
+    warpConfigs.push({
+      privateKey: warpKeys[i].privateKey,
+      account: accountData
+    });
+    if (warpPlusLicense) {
+      const response = await fetch(`${apiBaseUrl}/${accountData.id}/account`, {
+        method: "PUT",
+        headers: {
+          "User-Agent": "insomnia/8.6.1",
+          "Content-Type": "application/json",
+          "Authorization": `Bearer ${accountData.token}`
+        },
+        body: JSON.stringify({
+          key: warpKeys[i].publicKey,
+          install_id: "",
+          fcm_token: "",
+          tos: (/* @__PURE__ */ new Date()).toISOString(),
+          type: "Android",
+          model: "PC",
+          locale: "en_US",
+          warp_enabled: true,
+          license: warpPlusLicense
+        })
+      });
+      const responseData = await response.json();
+      if (response.status !== 200 && !responseData.success)
+        return { error: responseData.errors[0]?.message, configs: null };
+    }
+  }
+  const configs = JSON.stringify(warpConfigs);
+  await env.bpb.put("warpConfigs", configs);
+  return { error: null, configs };
+}
+function extractWireguardParams(warpConfigs, isWoW) {
+  const index = isWoW ? 1 : 0;
+  const warpConfig = warpConfigs[index].account.config;
+  return {
+    warpIPv6: `${warpConfig.interface.addresses.v6}/128`,
+    reserved: warpConfig.client_id,
+    publicKey: warpConfig.peers[0].public_key,
+    privateKey: warpConfigs[index].privateKey
+  };
+}
+async function buildXrayDNS(proxySettings, outboundAddrs, domainToStaticIPs, isWorkerLess, isWarp) {
+  const {
+    remoteDNS,
+    resolvedRemoteDNS,
+    localDNS,
+    vlessTrojanFakeDNS,
+    warpFakeDNS,
+    blockAds,
+    bypassIran,
+    bypassChina,
+    blockPorn,
+    bypassRussia
+  } = proxySettings;
+  const isBypass = bypassIran || bypassChina || bypassRussia;
+  const isFakeDNS = vlessTrojanFakeDNS && !isWarp || warpFakeDNS && isWarp;
+  const outboundDomains = outboundAddrs.filter((address) => isDomain(address));
+  const isOutboundRule = outboundDomains.length > 0;
+  const outboundRules = outboundDomains.map((domain) => `full:${domain}`);
+  const finalRemoteDNS = isWarp ? ["1.1.1.1", "1.0.0.1"] : isWorkerLess ? ["https://cloudflare-dns.com/dns-query"] : [remoteDNS];
+  let dnsObject = {
+    hosts: {
+      "domain:googleapis.cn": ["googleapis.com"]
+    },
+    servers: finalRemoteDNS,
+    tag: "dns"
+  };
+  const staticIPs = domainToStaticIPs ? await resolveDNS(domainToStaticIPs) : void 0;
+  if (staticIPs)
+    dnsObject.hosts[domainToStaticIPs] = [...staticIPs.ipv4, ...staticIPs.ipv6];
+  if (resolvedRemoteDNS.server && !isWorkerLess && !isWarp)
+    dnsObject.hosts[resolvedRemoteDNS.server] = resolvedRemoteDNS.staticIPs;
+  if (isWorkerLess) {
+    const resolvedDOH = await resolveDNS("cloudflare-dns.com");
+    const resolvedCloudflare = await resolveDNS("cloudflare.com");
+    const resolvedCLDomain = await resolveDNS("www.speedtest.net.cdn.cloudflare.net");
+    const resolvedCFNS_1 = await resolveDNS("ben.ns.cloudflare.com");
+    const resolvedCFNS_2 = await resolveDNS("lara.ns.cloudflare.com");
+    dnsObject.hosts["cloudflare-dns.com"] = [
+      ...resolvedDOH.ipv4,
+      ...resolvedCloudflare.ipv4,
+      ...resolvedCLDomain.ipv4,
+      ...resolvedCFNS_1.ipv4,
+      ...resolvedCFNS_2.ipv4
+    ];
+  }
+  if (blockAds) {
+    dnsObject.hosts["geosite:category-ads-all"] = ["127.0.0.1"];
+    dnsObject.hosts["geosite:category-ads-ir"] = ["127.0.0.1"];
+  }
+  if (blockPorn) {
+    dnsObject.hosts["geosite:category-porn"] = ["127.0.0.1"];
+  }
+  isOutboundRule && dnsObject.servers.push({
+    address: localDNS === "localhost" ? "8.8.8.8" : localDNS,
+    domains: outboundRules
+  });
+  let localDNSServer = {
+    address: localDNS,
+    domains: [],
+    expectIPs: []
+  };
+  if (!isWorkerLess && isBypass) {
+    bypassIran && localDNSServer.domains.push("geosite:category-ir") && localDNSServer.expectIPs.push("geoip:ir");
+    bypassChina && localDNSServer.domains.push("geosite:cn") && localDNSServer.expectIPs.push("geoip:cn");
+    bypassRussia && localDNSServer.domains.push("geosite:category-ru") && localDNSServer.expectIPs.push("geoip:ru");
+    dnsObject.servers.push(localDNSServer);
+  }
+  if (isFakeDNS) {
+    if ((isBypass || isOutboundRule) && !isWorkerLess) {
+      dnsObject.servers.unshift({
+        address: "fakedns",
+        domains: [
+          ...localDNSServer.domains,
+          ...outboundRules
+        ]
+      });
+    } else {
+      dnsObject.servers.unshift("fakedns");
+    }
+  }
+  return dnsObject;
+}
+function buildXrayRoutingRules(proxySettings, outboundAddrs, isChain, isBalancer, isWorkerLess) {
+  const {
+    localDNS,
+    bypassLAN,
+    bypassIran,
+    bypassChina,
+    bypassRussia,
+    blockAds,
+    blockPorn,
+    blockUDP443
+  } = proxySettings;
+  const isBypass = bypassIran || bypassChina || bypassRussia || bypassLAN;
+  const outboundDomains = outboundAddrs.filter((address) => isDomain(address));
+  const isOutboundRule = outboundDomains.length > 0;
+  let rules = [
+    {
+      inboundTag: [
+        "dns-in"
+      ],
+      outboundTag: "dns-out",
+      type: "field"
+    },
+    {
+      inboundTag: [
+        "socks-in",
+        "http-in"
+      ],
+      port: "53",
+      outboundTag: "dns-out",
+      type: "field"
+    }
+  ];
+  if (!isWorkerLess && (isOutboundRule || localDNS !== "localhost" && isBypass))
+    rules.push({
+      ip: [localDNS === "localhost" ? "8.8.8.8" : localDNS],
+      port: "53",
+      outboundTag: "direct",
+      type: "field"
+    });
+  if (isBypass && !isWorkerLess) {
+    let ipRule = {
+      ip: [],
+      outboundTag: "direct",
+      type: "field"
+    };
+    let domainRule = {
+      domain: [],
+      outboundTag: "direct",
+      type: "field"
+    };
+    bypassLAN && domainRule.domain.push("geosite:private") && ipRule.ip.push("geoip:private");
+    bypassIran && domainRule.domain.push("geosite:category-ir") && ipRule.ip.push("geoip:ir");
+    bypassChina && domainRule.domain.push("geosite:cn") && ipRule.ip.push("geoip:cn");
+    bypassRussia && domainRule.domain.push("geosite:category-ru") && ipRule.ip.push("geoip:ru");
+    rules.push(domainRule, ipRule);
+  }
+  blockUDP443 && rules.push({
+    network: "udp",
+    port: "443",
+    outboundTag: "block",
+    type: "field"
+  });
+  if (blockAds || blockPorn) {
+    let rule = {
+      domain: [],
+      outboundTag: "block",
+      type: "field"
+    };
+    blockAds && rule.domain.push("geosite:category-ads-all", "geosite:category-ads-ir");
+    blockPorn && rule.domain.push("geosite:category-porn");
+    rules.push(rule);
+  }
+  if (isBalancer) {
+    rules.push({
+      network: "tcp,udp",
+      balancerTag: "all",
+      type: "field"
+    });
+  } else {
+    rules.push({
+      network: "tcp,udp",
+      outboundTag: isChain ? "chain" : isWorkerLess ? "fragment" : "proxy",
+      type: "field"
+    });
+  }
+  return rules;
+}
+function buildXrayVLESSOutbound(tag2, address, port, host, sni, proxyIP2, isFragment, allowInsecure) {
+  let outbound = {
+    protocol: "vless",
+    settings: {
+      vnext: [
+        {
+          address,
+          port: +port,
+          users: [
+            {
+              id: userID,
+              encryption: "none",
+              level: 8
+            }
+          ]
+        }
+      ]
+    },
+    streamSettings: {
+      network: "ws",
+      security: "none",
+      sockopt: {},
+      wsSettings: {
+        headers: {
+          Host: host,
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+        },
+        path: `/${getRandomPath(16)}${proxyIP2 ? `/${btoa(proxyIP2)}` : ""}?ed=2560`
+      }
+    },
+    tag: tag2
+  };
+  if (defaultHttpsPorts.includes(port)) {
+    outbound.streamSettings.security = "tls";
+    outbound.streamSettings.tlsSettings = {
+      allowInsecure,
+      fingerprint: "randomized",
+      alpn: ["h2", "http/1.1"],
+      serverName: sni
+    };
+  }
+  if (isFragment) {
+    outbound.streamSettings.sockopt.dialerProxy = "fragment";
+  } else {
+    outbound.streamSettings.sockopt.tcpKeepAliveIdle = 100;
+    outbound.streamSettings.sockopt.tcpNoDelay = true;
+  }
+  return outbound;
+}
+function buildXrayTrojanOutbound(tag2, address, port, host, sni, proxyIP2, isFragment, allowInsecure) {
+  let outbound = {
+    protocol: "trojan",
+    settings: {
+      servers: [
+        {
+          address,
+          port: +port,
+          password: trojanPassword,
+          level: 8
+        }
+      ]
+    },
+    streamSettings: {
+      network: "ws",
+      security: "none",
+      sockopt: {},
+      wsSettings: {
+        headers: {
+          Host: host
+        },
+        path: `/tr${getRandomPath(16)}${proxyIP2 ? `/${btoa(proxyIP2)}` : ""}?ed=2560`
+      }
+    },
+    tag: tag2
+  };
+  if (defaultHttpsPorts.includes(port)) {
+    outbound.streamSettings.security = "tls";
+    outbound.streamSettings.tlsSettings = {
+      allowInsecure,
+      fingerprint: "randomized",
+      alpn: ["h2", "http/1.1"],
+      serverName: sni
+    };
+  }
+  if (isFragment) {
+    outbound.streamSettings.sockopt.dialerProxy = "fragment";
+  } else {
+    outbound.streamSettings.sockopt.tcpKeepAliveIdle = 100;
+    outbound.streamSettings.sockopt.tcpNoDelay = true;
+  }
+  return outbound;
+}
+function buildXrayWarpOutbound(proxySettings, warpConfigs, endpoint, isChain, client) {
+  const {
+    nikaNGNoiseMode,
+    noiseCountMin,
+    noiseCountMax,
+    noiseSizeMin,
+    noiseSizeMax,
+    noiseDelayMin,
+    noiseDelayMax
+  } = proxySettings;
+  const {
+    warpIPv6,
+    reserved,
+    publicKey,
+    privateKey
+  } = extractWireguardParams(warpConfigs, isChain);
+  let outbound = {
+    protocol: "wireguard",
+    settings: {
+      address: [
+        "172.16.0.2/32",
+        warpIPv6
+      ],
+      mtu: 1280,
+      peers: [
+        {
+          endpoint,
+          publicKey,
+          keepAlive: 5
+        }
+      ],
+      reserved: base64ToDecimal(reserved),
+      secretKey: privateKey
+    },
+    streamSettings: {
+      sockopt: {
+        dialerProxy: "proxy",
+        tcpKeepAliveIdle: 100,
+        tcpNoDelay: true
+      }
+    },
+    tag: isChain ? "chain" : "proxy"
+  };
+  !isChain && delete outbound.streamSettings;
+  client === "nikang" && !isChain && Object.assign(outbound.settings, {
+    wnoise: nikaNGNoiseMode,
+    wnoisecount: noiseCountMin === noiseCountMax ? noiseCountMin : `${noiseCountMin}-${noiseCountMax}`,
+    wpayloadsize: noiseSizeMin === noiseSizeMax ? noiseSizeMin : `${noiseSizeMin}-${noiseSizeMax}`,
+    wnoisedelay: noiseDelayMin === noiseDelayMax ? noiseDelayMin : `${noiseDelayMin}-${noiseDelayMax}`
+  });
+  return outbound;
+}
+function buildXrayChainOutbound(chainProxyParams) {
+  if (["socks", "http"].includes(chainProxyParams.protocol)) {
+    const { protocol, host: host2, port: port2, user, pass } = chainProxyParams;
+    return {
+      protocol,
+      settings: {
+        servers: [
+          {
+            address: host2,
+            port: +port2,
+            users: [
+              {
+                user,
+                pass,
+                level: 8
+              }
+            ]
+          }
+        ]
+      },
+      streamSettings: {
+        network: "tcp",
+        sockopt: {
+          dialerProxy: "proxy",
+          tcpNoDelay: true
+        }
+      },
+      mux: {
+        enabled: true,
+        concurrency: 8,
+        xudpConcurrency: 16,
+        xudpProxyUDP443: "reject"
+      },
+      tag: "chain"
+    };
+  }
+  const {
+    hostName,
+    port,
+    uuid,
+    flow,
+    security,
+    type,
+    sni,
+    fp,
+    alpn,
+    pbk,
+    sid,
+    spx,
+    headerType,
+    host,
+    path,
+    authority,
+    serviceName,
+    mode
+  } = chainProxyParams;
+  let proxyOutbound = {
+    mux: {
+      concurrency: 8,
+      enabled: true,
+      xudpConcurrency: 16,
+      xudpProxyUDP443: "reject"
+    },
+    protocol: "vless",
+    settings: {
+      vnext: [
+        {
+          address: hostName,
+          port: +port,
+          users: [
+            {
+              encryption: "none",
+              flow,
+              id: uuid,
+              level: 8,
+              security: "auto"
+            }
+          ]
+        }
+      ]
+    },
+    streamSettings: {
+      network: type,
+      security,
+      sockopt: {
+        dialerProxy: "proxy",
+        tcpNoDelay: true
+      }
+    },
+    tag: "chain"
+  };
+  if (security === "tls") {
+    const tlsAlpns = alpn ? alpn?.split(",") : [];
+    proxyOutbound.streamSettings.tlsSettings = {
+      allowInsecure: false,
+      fingerprint: fp,
+      alpn: tlsAlpns,
+      serverName: sni
+    };
+  }
+  if (security === "reality") {
+    delete proxyOutbound.mux;
+    proxyOutbound.streamSettings.realitySettings = {
+      fingerprint: fp,
+      publicKey: pbk,
+      serverName: sni,
+      shortId: sid,
+      spiderX: spx
+    };
+  }
+  if (headerType === "http") {
+    const httpPaths = path?.split(",");
+    const httpHosts = host?.split(",");
+    proxyOutbound.streamSettings.tcpSettings = {
+      header: {
+        request: {
+          headers: { Host: httpHosts },
+          method: "GET",
+          path: httpPaths,
+          version: "1.1"
+        },
+        response: {
+          headers: { "Content-Type": ["application/octet-stream"] },
+          reason: "OK",
+          status: "200",
+          version: "1.1"
+        },
+        type: "http"
+      }
+    };
+  }
+  if (type === "tcp" && security !== "reality" && !headerType)
+    proxyOutbound.streamSettings.tcpSettings = {
+      header: {
+        type: "none"
+      }
+    };
+  if (type === "ws")
+    proxyOutbound.streamSettings.wsSettings = {
+      headers: { Host: host },
+      path
+    };
+  if (type === "grpc") {
+    delete proxyOutbound.mux;
+    proxyOutbound.streamSettings.grpcSettings = {
+      authority,
+      multiMode: mode === "multi",
+      serviceName
+    };
+  }
+  return proxyOutbound;
+}
+function buildXrayConfig(proxySettings, remark, isFragment, isBalancer, isChain, balancerFallback, isWarp) {
+  const {
+    vlessTrojanFakeDNS,
+    warpFakeDNS,
+    bestVLESSTrojanInterval,
+    bestWarpInterval,
+    lengthMin,
+    lengthMax,
+    intervalMin,
+    intervalMax,
+    fragmentPackets
+  } = proxySettings;
+  const isFakeDNS = vlessTrojanFakeDNS && !isWarp || warpFakeDNS && isWarp;
+  let config = structuredClone(xrayConfigTemp);
+  config.remarks = remark;
+  if (isFakeDNS) {
+    config.inbounds[0].sniffing.destOverride.push("fakedns");
+    config.inbounds[1].sniffing.destOverride.push("fakedns");
+  } else {
+    delete config.fakedns;
+  }
+  if (isFragment) {
+    const fragment = config.outbounds[0].settings.fragment;
+    fragment.length = `${lengthMin}-${lengthMax}`;
+    fragment.interval = `${intervalMin}-${intervalMax}`;
+    fragment.packets = fragmentPackets;
+  } else {
+    config.outbounds.shift();
+  }
+  if (isBalancer) {
+    const interval = isWarp ? bestWarpInterval : bestVLESSTrojanInterval;
+    config.observatory.probeInterval = `${interval}s`;
+    config.observatory.subjectSelector = [isChain ? "chain" : "prox"];
+    config.routing.balancers[0].selector = [isChain ? "chain" : "prox"];
+    if (balancerFallback)
+      config.routing.balancers[0].fallbackTag = balancerFallback;
+  } else {
+    delete config.observatory;
+    delete config.routing.balancers;
+  }
+  return config;
+}
+async function buildXrayBestPingConfig(proxySettings, totalAddresses, chainProxy, outbounds, isFragment) {
+  const remark = isFragment ? "\u{1F4A6} BPB F - Best Ping \u{1F4A5}" : "\u{1F4A6} BPB - Best Ping \u{1F4A5}";
+  let config = buildXrayConfig(proxySettings, remark, isFragment, true, chainProxy, chainProxy ? "chain-2" : "prox-2");
+  config.dns = await buildXrayDNS(proxySettings, totalAddresses, void 0);
+  config.routing.rules = buildXrayRoutingRules(proxySettings, totalAddresses, chainProxy, true, false);
+  config.outbounds.unshift(...outbounds);
+  return config;
+}
+async function buildXrayBestFragmentConfig(proxySettings, hostName, chainProxy, outbounds) {
+  const bestFragValues = [
+    "10-20",
+    "20-30",
+    "30-40",
+    "40-50",
+    "50-60",
+    "60-70",
+    "70-80",
+    "80-90",
+    "90-100",
+    "10-30",
+    "20-40",
+    "30-50",
+    "40-60",
+    "50-70",
+    "60-80",
+    "70-90",
+    "80-100",
+    "100-200"
+  ];
+  let config = buildXrayConfig(proxySettings, "\u{1F4A6} BPB F - Best Fragment \u{1F60E}", true, true, chainProxy, void 0, false);
+  config.dns = await buildXrayDNS(proxySettings, [], hostName);
+  config.routing.rules = buildXrayRoutingRules(proxySettings, [], chainProxy, true, false);
+  const fragment = config.outbounds.shift();
+  let bestFragOutbounds = [];
+  bestFragValues.forEach((fragLength, index) => {
+    if (chainProxy) {
+      let chainOutbound = structuredClone(chainProxy);
+      chainOutbound.tag = `chain-${index + 1}`;
+      chainOutbound.streamSettings.sockopt.dialerProxy = `prox-${index + 1}`;
+      bestFragOutbounds.push(chainOutbound);
+    }
+    let proxyOutbound = structuredClone(outbounds[chainProxy ? 1 : 0]);
+    proxyOutbound.tag = `prox-${index + 1}`;
+    proxyOutbound.streamSettings.sockopt.dialerProxy = `frag-${index + 1}`;
+    let fragmentOutbound = structuredClone(fragment);
+    fragmentOutbound.tag = `frag-${index + 1}`;
+    fragmentOutbound.settings.fragment.length = fragLength;
+    fragmentOutbound.settings.fragment.interval = "1-1";
+    bestFragOutbounds.push(proxyOutbound, fragmentOutbound);
+  });
+  config.outbounds.unshift(...bestFragOutbounds);
+  return config;
+}
+async function buildXrayWorkerLessConfig(proxySettings) {
+  let config = buildXrayConfig(proxySettings, "\u{1F4A6} BPB F - WorkerLess \u2B50", true, false, false, void 0, false);
+  config.dns = await buildXrayDNS(proxySettings, [], void 0, true);
+  config.routing.rules = buildXrayRoutingRules(proxySettings, [], false, false, true);
+  let fakeOutbound = buildXrayVLESSOutbound("fake-outbound", "google.com", "443", userID, "google.com", "google.com", "", true, false);
+  delete fakeOutbound.streamSettings.sockopt;
+  fakeOutbound.streamSettings.wsSettings.path = "/";
+  config.outbounds.push(fakeOutbound);
+  return config;
+}
+async function getXrayCustomConfigs(env, proxySettings, hostName, isFragment) {
+  let configs = [];
+  let outbounds = [];
+  let protocols = [];
+  let chainProxy;
+  const {
+    proxyIP: proxyIP2,
+    outProxy,
+    outProxyParams,
+    cleanIPs,
+    enableIPv6,
+    customCdnAddrs,
+    customCdnHost,
+    customCdnSni,
+    vlessConfigs,
+    trojanConfigs,
+    ports
+  } = proxySettings;
+  if (outProxy) {
+    const proxyParams = JSON.parse(outProxyParams);
+    try {
+      chainProxy = buildXrayChainOutbound(proxyParams);
+    } catch (error) {
+      console.log("An error occured while parsing chain proxy: ", error);
+      chainProxy = void 0;
+      await env.bpb.put("proxySettings", JSON.stringify({
+        ...proxySettings,
+        outProxy: "",
+        outProxyParams: ""
+      }));
+    }
+  }
+  const Addresses = await getConfigAddresses(hostName, cleanIPs, enableIPv6);
+  const customCdnAddresses = customCdnAddrs ? customCdnAddrs.split(",") : [];
+  const totalAddresses = isFragment ? [...Addresses] : [...Addresses, ...customCdnAddresses];
+  const totalPorts = ports.filter((port) => isFragment ? defaultHttpsPorts.includes(port) : true);
+  vlessConfigs && protocols.push("VLESS");
+  trojanConfigs && protocols.push("Trojan");
+  let proxyIndex = 1;
+  for (const protocol of protocols) {
+    let protocolIndex = 1;
+    for (const port of totalPorts) {
+      for (const addr of totalAddresses) {
+        const isCustomAddr = customCdnAddresses.includes(addr);
+        const configType = isCustomAddr ? "C" : isFragment ? "F" : "";
+        const sni = isCustomAddr ? customCdnSni : randomUpperCase(hostName);
+        const host = isCustomAddr ? customCdnHost : hostName;
+        const remark = generateRemark(protocolIndex, port, addr, cleanIPs, protocol, configType);
+        let customConfig = buildXrayConfig(proxySettings, remark, isFragment, false, chainProxy, void 0, false);
+        customConfig.dns = await buildXrayDNS(proxySettings, [addr], void 0);
+        customConfig.routing.rules = buildXrayRoutingRules(proxySettings, [addr], chainProxy, false, false);
+        let outbound = protocol === "VLESS" ? buildXrayVLESSOutbound("proxy", addr, port, host, sni, proxyIP2, isFragment, isCustomAddr) : buildXrayTrojanOutbound("proxy", addr, port, host, sni, proxyIP2, isFragment, isCustomAddr);
+        customConfig.outbounds.unshift({ ...outbound });
+        outbound.tag = `prox-${proxyIndex}`;
+        if (chainProxy) {
+          customConfig.outbounds.unshift(chainProxy);
+          let chainOutbound = structuredClone(chainProxy);
+          chainOutbound.tag = `chain-${proxyIndex}`;
+          chainOutbound.streamSettings.sockopt.dialerProxy = `prox-${proxyIndex}`;
+          outbounds.push(chainOutbound);
+        }
+        outbounds.push(outbound);
+        configs.push(customConfig);
+        proxyIndex++;
+        protocolIndex++;
+      }
+    }
+  }
+  const bestPing = await buildXrayBestPingConfig(proxySettings, totalAddresses, chainProxy, outbounds, isFragment);
+  if (!isFragment)
+    return [...configs, bestPing];
+  const bestFragment = await buildXrayBestFragmentConfig(proxySettings, hostName, chainProxy, outbounds);
+  const workerLessConfig = await buildXrayWorkerLessConfig(proxySettings);
+  configs.push(bestPing, bestFragment, workerLessConfig);
+  return configs;
+}
+async function getXrayWarpConfigs(proxySettings, warpConfigs, client) {
+  let xrayWarpConfigs = [];
+  let xrayWoWConfigs = [];
+  let xrayWarpOutbounds = [];
+  let xrayWoWOutbounds = [];
+  const { warpEndpoints } = proxySettings;
+  const outboundDomains = warpEndpoints.split(",").map((endpoint) => endpoint.split(":")[0]).filter((address) => isDomain(address));
+  const proIndicator = client === "nikang" ? " Pro " : " ";
+  for (const [index, endpoint] of warpEndpoints.split(",").entries()) {
+    const endpointHost = endpoint.split(":")[0];
+    let warpConfig = buildXrayConfig(proxySettings, `\u{1F4A6} ${index + 1} - Warp${proIndicator}\u{1F1EE}\u{1F1F7}`, false, false, false, void 0, true);
+    let WoWConfig = buildXrayConfig(proxySettings, `\u{1F4A6} ${index + 1} - WoW${proIndicator}\u{1F30D}`, false, false, true, void 0, true);
+    warpConfig.dns = WoWConfig.dns = await buildXrayDNS(proxySettings, [endpointHost], void 0, false, true);
+    warpConfig.routing.rules = buildXrayRoutingRules(proxySettings, [endpointHost], false, false, false);
+    WoWConfig.routing.rules = buildXrayRoutingRules(proxySettings, [endpointHost], true, false, false);
+    const warpOutbound = buildXrayWarpOutbound(proxySettings, warpConfigs, endpoint, false, client);
+    const WoWOutbound = buildXrayWarpOutbound(proxySettings, warpConfigs, endpoint, true, client);
+    warpOutbound.settings.peers[0].endpoint = endpoint;
+    WoWOutbound.settings.peers[0].endpoint = endpoint;
+    warpConfig.outbounds.unshift(warpOutbound);
+    WoWConfig.outbounds.unshift(WoWOutbound, warpOutbound);
+    xrayWarpConfigs.push(warpConfig);
+    xrayWoWConfigs.push(WoWConfig);
+    const proxyOutbound = structuredClone(warpOutbound);
+    proxyOutbound.tag = `prox-${index + 1}`;
+    const chainOutbound = structuredClone(WoWOutbound);
+    chainOutbound.tag = `chain-${index + 1}`;
+    chainOutbound.streamSettings.sockopt.dialerProxy = `prox-${index + 1}`;
+    xrayWarpOutbounds.push(proxyOutbound);
+    xrayWoWOutbounds.push(chainOutbound);
+  }
+  const dnsObject = await buildXrayDNS(proxySettings, outboundDomains, void 0, false, true);
+  let xrayWarpBestPing = buildXrayConfig(proxySettings, `\u{1F4A6} Warp${proIndicator}- Best Ping \u{1F680}`, false, true, false, void 0, true);
+  xrayWarpBestPing.dns = dnsObject;
+  xrayWarpBestPing.routing.rules = buildXrayRoutingRules(proxySettings, outboundDomains, false, true, false);
+  xrayWarpBestPing.outbounds.unshift(...xrayWarpOutbounds);
+  let xrayWoWBestPing = buildXrayConfig(proxySettings, `\u{1F4A6} WoW${proIndicator}- Best Ping \u{1F680}`, false, true, true, void 0, true);
+  xrayWoWBestPing.dns = dnsObject;
+  xrayWoWBestPing.routing.rules = buildXrayRoutingRules(proxySettings, outboundDomains, true, true, false);
+  xrayWoWBestPing.outbounds.unshift(...xrayWoWOutbounds, ...xrayWarpOutbounds);
+  return [...xrayWarpConfigs, ...xrayWoWConfigs, xrayWarpBestPing, xrayWoWBestPing];
+}
+async function buildClashDNS(proxySettings, isWarp) {
+  const {
+    remoteDNS,
+    resolvedRemoteDNS,
+    localDNS,
+    vlessTrojanFakeDNS,
+    warpFakeDNS,
+    bypassLAN,
+    bypassIran,
+    bypassChina,
+    bypassRussia
+  } = proxySettings;
+  const finalRemoteDNS = isWarp ? ["1.1.1.1", "1.0.0.1"] : [remoteDNS];
+  let clashLocalDNS = localDNS === "localhost" ? "system" : localDNS;
+  const isFakeDNS = vlessTrojanFakeDNS && !isWarp || warpFakeDNS && isWarp;
+  let dns = {
+    "enable": true,
+    "listen": "0.0.0.0:1053",
+    "ipv6": true,
+    "respect-rules": true,
+    "nameserver": finalRemoteDNS,
+    "proxy-server-nameserver": [clashLocalDNS]
+  };
+  if (resolvedRemoteDNS.server && !isWarp) {
+    dns["hosts"] = {
+      [resolvedRemoteDNS.server]: resolvedRemoteDNS.staticIPs
+    };
+  }
+  let geosites = [];
+  bypassLAN && geosites.push("private");
+  bypassIran && geosites.push("category-ir");
+  bypassChina && geosites.push("cn");
+  bypassRussia && geosites.push("category-ru");
+  if (bypassIran || bypassChina || bypassLAN || bypassRussia) {
+    dns["nameserver-policy"] = {
+      [`geosite:${geosites.join(",")}`]: [clashLocalDNS],
+      "www.gstatic.com": [clashLocalDNS]
+    };
+  }
+  if (isFakeDNS) {
+    dns["enhanced-mode"] = "fake-ip";
+    dns["fake-ip-range"] = "198.18.0.1/16";
+  }
+  return dns;
+}
+function buildClashRoutingRules(proxySettings) {
+  let rules = [];
+  const {
+    localDNS,
+    bypassLAN,
+    bypassIran,
+    bypassChina,
+    bypassRussia,
+    blockAds,
+    blockPorn,
+    blockUDP443
+  } = proxySettings;
+  localDNS !== "localhost" && rules.push(`AND,((IP-CIDR,${localDNS}/32),(DST-PORT,53)),DIRECT`);
+  bypassLAN && rules.push("GEOSITE,private,DIRECT");
+  bypassIran && rules.push("GEOSITE,category-ir,DIRECT");
+  bypassChina && rules.push("GEOSITE,cn,DIRECT");
+  bypassRussia && rules.push("GEOSITE,category-ru,DIRECT");
+  bypassLAN && rules.push("GEOIP,private,DIRECT,no-resolve");
+  bypassIran && rules.push("GEOIP,ir,DIRECT,no-resolve");
+  bypassChina && rules.push("GEOIP,cn,DIRECT,no-resolve");
+  bypassRussia && rules.push("GEOIP,ru,DIRECT,no-resolve");
+  blockUDP443 && rules.push("AND,((NETWORK,udp),(DST-PORT,443)),REJECT");
+  blockAds && rules.push("GEOSITE,category-ads-all,REJECT", "GEOSITE,category-ads-ir,REJECT");
+  blockPorn && rules.push("GEOSITE,category-porn,REJECT");
+  rules.push("MATCH,\u2705 Selector");
+  return rules;
+}
+function buildClashVLESSOutbound(remark, address, port, host, sni, path, allowInsecure) {
+  const tls = defaultHttpsPorts.includes(port) ? true : false;
+  const addr = isIPv6(address) ? address.replace(/\[|\]/g, "") : address;
+  let outbound = {
+    "name": remark,
+    "type": "vless",
+    "server": addr,
+    "port": +port,
+    "uuid": userID,
+    "tls": tls,
+    "network": "ws",
+    "udp": false,
+    "ws-opts": {
+      "path": path,
+      "headers": { "host": host },
+      "max-early-data": 2560,
+      "early-data-header-name": "Sec-WebSocket-Protocol"
+    }
+  };
+  if (tls) {
+    Object.assign(outbound, {
+      "servername": sni,
+      "alpn": ["h2", "http/1.1"],
+      "client-fingerprint": "random",
+      "skip-cert-verify": allowInsecure
+    });
+  }
+  return outbound;
+}
+function buildClashTrojanOutbound(remark, address, port, host, sni, path, allowInsecure) {
+  const addr = isIPv6(address) ? address.replace(/\[|\]/g, "") : address;
+  return {
+    "name": remark,
+    "type": "trojan",
+    "server": addr,
+    "port": +port,
+    "password": trojanPassword,
+    "network": "ws",
+    "udp": false,
+    "ws-opts": {
+      "path": path,
+      "headers": { "host": host },
+      "max-early-data": 2560,
+      "early-data-header-name": "Sec-WebSocket-Protocol"
+    },
+    "sni": sni,
+    "alpn": ["h2", "http/1.1"],
+    "client-fingerprint": "random",
+    "skip-cert-verify": allowInsecure
+  };
+}
+function buildClashWarpOutbound(warpConfigs, remark, endpoint, chain) {
+  const ipv6Regex = /\[(.*?)\]/;
+  const portRegex = /[^:]*$/;
+  const endpointServer = endpoint.includes("[") ? endpoint.match(ipv6Regex)[1] : endpoint.split(":")[0];
+  const endpointPort = endpoint.includes("[") ? +endpoint.match(portRegex)[0] : +endpoint.split(":")[1];
+  const {
+    warpIPv6,
+    reserved,
+    publicKey,
+    privateKey
+  } = extractWireguardParams(warpConfigs, chain);
+  return {
+    "name": remark,
+    "type": "wireguard",
+    "ip": "172.16.0.2/32",
+    "ipv6": warpIPv6,
+    "private-key": privateKey,
+    "server": endpointServer,
+    "port": endpointPort,
+    "public-key": publicKey,
+    "allowed-ips": ["0.0.0.0/0", "::/0"],
+    "reserved": reserved,
+    "udp": true,
+    "mtu": 1280,
+    "dialer-proxy": chain,
+    "remote-dns-resolve": true,
+    "dns": ["1.1.1.1", "1.0.0.1"]
+  };
+}
+function buildClashChainOutbound(chainProxyParams) {
+  if (["socks", "http"].includes(chainProxyParams.protocol)) {
+    const { protocol, host: host2, port: port2, user, pass } = chainProxyParams;
+    const proxyType = protocol === "socks" ? "socks5" : protocol;
+    return {
+      "name": "",
+      "type": proxyType,
+      "server": host2,
+      "port": +port2,
+      "dialer-proxy": "",
+      "username": user,
+      "password": pass
+    };
+  }
+  const { hostName, port, uuid, flow, security, type, sni, fp, alpn, pbk, sid, headerType, host, path, serviceName } = chainProxyParams;
+  let chainOutbound = {
+    "name": "\u{1F4A6} Chain Best Ping \u{1F4A5}",
+    "type": "vless",
+    "server": hostName,
+    "port": +port,
+    "udp": true,
+    "uuid": uuid,
+    "flow": flow,
+    "network": type,
+    "dialer-proxy": "\u{1F4A6} Best Ping \u{1F4A5}"
+  };
+  if (security === "tls") {
+    const tlsAlpns = alpn ? alpn?.split(",") : [];
+    Object.assign(chainOutbound, {
+      "tls": true,
+      "servername": sni,
+      "alpn": tlsAlpns,
+      "client-fingerprint": fp
+    });
+  }
+  if (security === "reality")
+    Object.assign(chainOutbound, {
+      "tls": true,
+      "servername": sni,
+      "client-fingerprint": fp,
+      "reality-opts": {
+        "public-key": pbk,
+        "short-id": sid
+      }
+    });
+  if (headerType === "http") {
+    const httpPaths = path?.split(",");
+    chainOutbound["http-opts"] = {
+      "method": "GET",
+      "path": httpPaths,
+      "headers": {
+        "Connection": ["keep-alive"],
+        "Content-Type": ["application/octet-stream"]
+      }
+    };
+  }
+  if (type === "ws") {
+    const wsPath = path?.split("?ed=")[0];
+    const earlyData = +path?.split("?ed=")[1];
+    chainOutbound["ws-opts"] = {
+      "path": wsPath,
+      "headers": {
+        "Host": host
+      },
+      "max-early-data": earlyData,
+      "early-data-header-name": "Sec-WebSocket-Protocol"
+    };
+  }
+  if (type === "grpc")
+    chainOutbound["grpc-opts"] = {
+      "grpc-service-name": serviceName
+    };
+  return chainOutbound;
+}
+async function getClashWarpConfig(proxySettings, warpConfigs) {
+  const { warpEndpoints } = proxySettings;
+  let config = structuredClone(clashConfigTemp);
+  config.dns = await buildClashDNS(proxySettings, true);
+  config.rules = buildClashRoutingRules(proxySettings);
+  const selector = config["proxy-groups"][0];
+  const warpUrlTest = config["proxy-groups"][1];
+  selector.proxies = ["\u{1F4A6} Warp - Best Ping \u{1F680}", "\u{1F4A6} WoW - Best Ping \u{1F680}"];
+  warpUrlTest.name = "\u{1F4A6} Warp - Best Ping \u{1F680}";
+  warpUrlTest.interval = +proxySettings.bestWarpInterval;
+  config["proxy-groups"].push(structuredClone(warpUrlTest));
+  const WoWUrlTest = config["proxy-groups"][2];
+  WoWUrlTest.name = "\u{1F4A6} WoW - Best Ping \u{1F680}";
+  let warpRemarks = [], WoWRemarks = [];
+  warpEndpoints.split(",").forEach((endpoint, index) => {
+    const warpRemark = `\u{1F4A6} ${index + 1} - Warp \u{1F1EE}\u{1F1F7}`;
+    const WoWRemark = `\u{1F4A6} ${index + 1} - WoW \u{1F30D}`;
+    const warpOutbound = buildClashWarpOutbound(warpConfigs, warpRemark, endpoint, "");
+    const WoWOutbound = buildClashWarpOutbound(warpConfigs, WoWRemark, endpoint, warpRemark);
+    config.proxies.push(WoWOutbound, warpOutbound);
+    warpRemarks.push(warpRemark);
+    WoWRemarks.push(WoWRemark);
+    warpUrlTest.proxies.push(warpRemark);
+    WoWUrlTest.proxies.push(WoWRemark);
+  });
+  selector.proxies.push(...warpRemarks, ...WoWRemarks);
+  return config;
+}
+async function getClashNormalConfig(env, proxySettings, hostName) {
+  let chainProxy;
+  const {
+    cleanIPs,
+    proxyIP: proxyIP2,
+    ports,
+    vlessConfigs,
+    trojanConfigs,
+    outProxy,
+    outProxyParams,
+    customCdnAddrs,
+    customCdnHost,
+    customCdnSni,
+    bestVLESSTrojanInterval,
+    enableIPv6
+  } = proxySettings;
+  if (outProxy) {
+    const proxyParams = JSON.parse(outProxyParams);
+    try {
+      chainProxy = buildClashChainOutbound(proxyParams);
+    } catch (error) {
+      console.log("An error occured while parsing chain proxy: ", error);
+      chainProxy = void 0;
+      await env.bpb.put("proxySettings", JSON.stringify({
+        ...proxySettings,
+        outProxy: "",
+        outProxyParams: ""
+      }));
+    }
+  }
+  let config = structuredClone(clashConfigTemp);
+  config.dns = await buildClashDNS(proxySettings, false);
+  config.rules = buildClashRoutingRules(proxySettings);
+  const selector = config["proxy-groups"][0];
+  const urlTest = config["proxy-groups"][1];
+  selector.proxies = ["\u{1F4A6} Best Ping \u{1F4A5}"];
+  urlTest.name = "\u{1F4A6} Best Ping \u{1F4A5}";
+  urlTest.interval = +bestVLESSTrojanInterval;
+  const Addresses = await getConfigAddresses(hostName, cleanIPs, enableIPv6);
+  const customCdnAddresses = customCdnAddrs ? customCdnAddrs.split(",") : [];
+  const totalAddresses = [...Addresses, ...customCdnAddresses];
+  let proxyIndex = 1, path;
+  const protocols = [
+    ...vlessConfigs ? ["VLESS"] : [],
+    ...trojanConfigs ? ["Trojan"] : []
+  ];
+  protocols.forEach((protocol) => {
+    let protocolIndex = 1;
+    ports.forEach((port) => {
+      totalAddresses.forEach((addr) => {
+        let VLESSOutbound, TrojanOutbound;
+        const isCustomAddr = customCdnAddresses.includes(addr);
+        const configType = isCustomAddr ? "C" : "";
+        const sni = isCustomAddr ? customCdnSni : randomUpperCase(hostName);
+        const host = isCustomAddr ? customCdnHost : hostName;
+        const remark = generateRemark(protocolIndex, port, addr, cleanIPs, protocol, configType).replace(" : ", " - ");
+        if (protocol === "VLESS") {
+          path = `/${getRandomPath(16)}${proxyIP2 ? `/${btoa(proxyIP2)}` : ""}`;
+          VLESSOutbound = buildClashVLESSOutbound(
+            chainProxy ? `proxy-${proxyIndex}` : remark,
+            addr,
+            port,
+            host,
+            sni,
+            path,
+            isCustomAddr
+          );
+          config.proxies.push(VLESSOutbound);
+          selector.proxies.push(remark);
+          urlTest.proxies.push(remark);
+        }
+        if (protocol === "Trojan" && defaultHttpsPorts.includes(port)) {
+          path = `/tr${getRandomPath(16)}${proxyIP2 ? `/${btoa(proxyIP2)}` : ""}`;
+          TrojanOutbound = buildClashTrojanOutbound(
+            chainProxy ? `proxy-${proxyIndex}` : remark,
+            addr,
+            port,
+            host,
+            sni,
+            path,
+            isCustomAddr
+          );
+          config.proxies.push(TrojanOutbound);
+          selector.proxies.push(remark);
+          urlTest.proxies.push(remark);
+        }
+        if (chainProxy) {
+          let chain = structuredClone(chainProxy);
+          chain["name"] = remark;
+          chain["dialer-proxy"] = `proxy-${proxyIndex}`;
+          config.proxies.push(chain);
+        }
+        proxyIndex++;
+        protocolIndex++;
+      });
+    });
+  });
+  return config;
+}
+function buildSingBoxDNS(proxySettings, isChain, isWarp) {
+  const {
+    remoteDNS,
+    localDNS,
+    vlessTrojanFakeDNS,
+    warpFakeDNS,
+    bypassIran,
+    bypassChina,
+    bypassRussia,
+    blockAds,
+    blockPorn
+  } = proxySettings;
+  let fakeip;
+  const isFakeDNS = vlessTrojanFakeDNS && !isWarp || warpFakeDNS && isWarp;
+  const servers = [
+    {
+      address: isWarp ? "1.1.1.1" : remoteDNS,
+      address_resolver: "dns-direct",
+      strategy: "prefer_ipv4",
+      detour: isChain ? "proxy-1" : "proxy",
+      tag: "dns-remote"
+    },
+    {
+      address: localDNS === "localhost" ? "local" : localDNS,
+      strategy: "prefer_ipv4",
+      detour: "direct",
+      tag: "dns-direct"
+    },
+    {
+      address: "rcode://success",
+      tag: "dns-block"
+    }
+  ];
+  let rules = [
+    {
+      outbound: "any",
+      server: "dns-direct"
+    }
+  ];
+  if (bypassIran || bypassChina || bypassRussia) {
+    let bypassRules = {
+      rule_set: [],
+      server: "dns-direct"
+    };
+    bypassIran && bypassRules.rule_set.push("geosite-ir");
+    bypassChina && bypassRules.rule_set.push("geosite-cn");
+    bypassRussia && bypassRules.rule_set.push("geosite-category-ru");
+    rules.push(bypassRules);
+  }
+  let blockRules = {
+    disable_cache: true,
+    rule_set: [
+      "geosite-malware",
+      "geosite-phishing",
+      "geosite-cryptominers"
+    ],
+    server: "dns-block"
+  };
+  blockAds && blockRules.rule_set.push("geosite-category-ads-all");
+  blockPorn && blockRules.rule_set.push("geosite-nsfw");
+  rules.push(blockRules);
+  if (isFakeDNS) {
+    servers.push({
+      address: "fakeip",
+      tag: "dns-fake"
+    });
+    rules.push({
+      disable_cache: true,
+      inbound: "tun-in",
+      query_type: [
+        "A",
+        "AAAA"
+      ],
+      server: "dns-fake"
+    });
+    fakeip = {
+      enabled: true,
+      inet4_range: "198.18.0.0/15",
+      inet6_range: "fc00::/18"
+    };
+  }
+  return { servers, rules, fakeip };
+}
+function buildSingBoxRoutingRules(proxySettings) {
+  const {
+    bypassLAN,
+    bypassIran,
+    bypassChina,
+    bypassRussia,
+    blockAds,
+    blockPorn,
+    blockUDP443
+  } = proxySettings;
+  let rules = [
+    {
+      inbound: "dns-in",
+      outbound: "dns-out"
+    },
+    {
+      network: "udp",
+      port: 53,
+      outbound: "dns-out"
+    }
+  ];
+  let ruleSet = [
+    {
+      type: "remote",
+      tag: "geosite-malware",
+      format: "binary",
+      url: "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-malware.srs",
+      download_detour: "direct"
+    },
+    {
+      type: "remote",
+      tag: "geosite-phishing",
+      format: "binary",
+      url: "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-phishing.srs",
+      download_detour: "direct"
+    },
+    {
+      type: "remote",
+      tag: "geosite-cryptominers",
+      format: "binary",
+      url: "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-cryptominers.srs",
+      download_detour: "direct"
+    },
+    {
+      type: "remote",
+      tag: "geoip-malware",
+      format: "binary",
+      url: "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geoip-malware.srs",
+      download_detour: "direct"
+    },
+    {
+      type: "remote",
+      tag: "geoip-phishing",
+      format: "binary",
+      url: "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geoip-phishing.srs",
+      download_detour: "direct"
+    }
+  ];
+  if (bypassIran) {
+    rules.push({
+      rule_set: ["geosite-ir", "geoip-ir"],
+      outbound: "direct"
+    });
+    ruleSet.push(
+      {
+        type: "remote",
+        tag: "geosite-ir",
+        format: "binary",
+        url: "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-ir.srs",
+        download_detour: "direct"
+      },
+      {
+        type: "remote",
+        tag: "geoip-ir",
+        format: "binary",
+        url: "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geoip-ir.srs",
+        download_detour: "direct"
+      }
+    );
+  }
+  if (bypassChina) {
+    rules.push({
+      rule_set: ["geosite-cn", "geoip-cn"],
+      outbound: "direct"
+    });
+    ruleSet.push(
+      {
+        type: "remote",
+        tag: "geosite-cn",
+        format: "binary",
+        url: "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-cn.srs",
+        download_detour: "direct"
+      },
+      {
+        type: "remote",
+        tag: "geoip-cn",
+        format: "binary",
+        url: "https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-cn.srs",
+        download_detour: "direct"
+      }
+    );
+  }
+  if (bypassRussia) {
+    rules.push({
+      rule_set: ["geosite-category-ru", "geoip-ru"],
+      outbound: "direct"
+    });
+    ruleSet.push(
+      {
+        type: "remote",
+        tag: "geosite-category-ru",
+        format: "binary",
+        url: "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-category-ru.srs",
+        download_detour: "direct"
+      },
+      {
+        type: "remote",
+        tag: "geoip-ru",
+        format: "binary",
+        url: "https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-ru.srs",
+        download_detour: "direct"
+      }
+    );
+  }
+  bypassLAN && rules.push({
+    ip_is_private: true,
+    outbound: "direct"
+  });
+  blockUDP443 && rules.push({
+    network: "udp",
+    port: 443,
+    protocol: "quic",
+    outbound: "block"
+  });
+  let blockRuleSet = {
+    rule_set: [
+      "geosite-malware",
+      "geosite-phishing",
+      "geosite-cryptominers",
+      "geoip-malware",
+      "geoip-phishing"
+    ],
+    outbound: "block"
+  };
+  if (blockAds) {
+    blockRuleSet.rule_set.push("geosite-category-ads-all");
+    ruleSet.push({
+      type: "remote",
+      tag: "geosite-category-ads-all",
+      format: "binary",
+      url: "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-category-ads-all.srs",
+      download_detour: "direct"
+    });
+  }
+  if (blockPorn) {
+    blockRuleSet.rule_set.push("geosite-nsfw");
+    ruleSet.push({
+      type: "remote",
+      tag: "geosite-nsfw",
+      format: "binary",
+      url: "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-nsfw.srs",
+      download_detour: "direct"
+    });
+  }
+  rules.push(blockRuleSet);
+  rules.push({
+    ip_cidr: ["224.0.0.0/3", "ff00::/8"],
+    source_ip_cidr: ["224.0.0.0/3", "ff00::/8"],
+    outbound: "block"
+  });
+  return { rules, rule_set: ruleSet };
+}
+function buildSingBoxVLESSOutbound(proxySettings, remark, address, port, host, sni, allowInsecure, isFragment) {
+  const { lengthMin, lengthMax, intervalMin, intervalMax, proxyIP: proxyIP2 } = proxySettings;
+  const path = `/${getRandomPath(16)}${proxyIP2 ? `/${btoa(proxyIP2)}` : ""}`;
+  const tls = defaultHttpsPorts.includes(port) ? true : false;
+  let outbound = {
+    type: "vless",
+    server: address,
+    server_port: +port,
+    uuid: userID,
+    tls: {
+      alpn: "http/1.1",
+      enabled: true,
+      insecure: allowInsecure,
+      server_name: sni,
+      utls: {
+        enabled: true,
+        fingerprint: "randomized"
+      }
+    },
+    transport: {
+      early_data_header_name: "Sec-WebSocket-Protocol",
+      max_early_data: 2560,
+      headers: {
+        Host: host
+      },
+      path,
+      type: "ws"
+    },
+    tag: remark
+  };
+  if (!tls)
+    delete outbound.tls;
+  if (isFragment)
+    outbound.tls_fragment = {
+      enabled: true,
+      size: `${lengthMin}-${lengthMax}`,
+      sleep: `${intervalMin}-${intervalMax}`
+    };
+  return outbound;
+}
+function buildSingBoxTrojanOutbound(proxySettings, remark, address, port, host, sni, allowInsecure, isFragment) {
+  const { lengthMin, lengthMax, intervalMin, intervalMax, proxyIP: proxyIP2 } = proxySettings;
+  const path = `/tr${getRandomPath(16)}${proxyIP2 ? `/${btoa(proxyIP2)}` : ""}`;
+  const tls = defaultHttpsPorts.includes(port) ? true : false;
+  let outbound = {
+    type: "trojan",
+    password: trojanPassword,
+    server: address,
+    server_port: +port,
+    tls: {
+      alpn: "http/1.1",
+      enabled: true,
+      insecure: allowInsecure,
+      server_name: sni,
+      utls: {
+        enabled: true,
+        fingerprint: "randomized"
+      }
+    },
+    transport: {
+      early_data_header_name: "Sec-WebSocket-Protocol",
+      max_early_data: 2560,
+      headers: {
+        Host: host
+      },
+      path,
+      type: "ws"
+    },
+    tag: remark
+  };
+  if (!tls)
+    delete outbound.tls;
+  if (isFragment)
+    outbound.tls_fragment = {
+      enabled: true,
+      size: `${lengthMin}-${lengthMax}`,
+      sleep: `${intervalMin}-${intervalMax}`
+    };
+  return outbound;
+}
+function buildSingBoxWarpOutbound(proxySettings, warpConfigs, remark, endpoint, chain, client) {
+  const ipv6Regex = /\[(.*?)\]/;
+  const portRegex = /[^:]*$/;
+  const endpointServer = endpoint.includes("[") ? endpoint.match(ipv6Regex)[1] : endpoint.split(":")[0];
+  const endpointPort = endpoint.includes("[") ? +endpoint.match(portRegex)[0] : +endpoint.split(":")[1];
+  const {
+    hiddifyNoiseMode,
+    noiseCountMin,
+    noiseCountMax,
+    noiseSizeMin,
+    noiseSizeMax,
+    noiseDelayMin,
+    noiseDelayMax
+  } = proxySettings;
+  const {
+    warpIPv6,
+    reserved,
+    publicKey,
+    privateKey
+  } = extractWireguardParams(warpConfigs, chain);
+  let outbound = {
+    local_address: [
+      "172.16.0.2/32",
+      warpIPv6
+    ],
+    mtu: 1280,
+    peer_public_key: publicKey,
+    private_key: privateKey,
+    reserved,
+    server: endpointServer,
+    server_port: endpointPort,
+    type: "wireguard",
+    detour: chain,
+    tag: remark
+  };
+  client === "hiddify" && Object.assign(outbound, {
+    fake_packets_mode: hiddifyNoiseMode,
+    fake_packets: noiseCountMin === noiseCountMax ? noiseCountMin : `${noiseCountMin}-${noiseCountMax}`,
+    fake_packets_size: noiseSizeMin === noiseSizeMax ? noiseSizeMin : `${noiseSizeMin}-${noiseSizeMax}`,
+    fake_packets_delay: noiseDelayMin === noiseDelayMax ? noiseDelayMin : `${noiseDelayMin}-${noiseDelayMax}`
+  });
+  return outbound;
+}
+function buildSingBoxChainOutbound(chainProxyParams) {
+  if (["socks", "http"].includes(chainProxyParams.protocol)) {
+    const { protocol, host: host2, port: port2, user, pass } = chainProxyParams;
+    let chainOutbound2 = {
+      type: protocol,
+      tag: "",
+      server: host2,
+      server_port: +port2,
+      username: user,
+      password: pass,
+      detour: ""
+    };
+    protocol === "socks" && Object.assign(chainOutbound2, {
+      version: "5",
+      network: "tcp"
+    });
+    return chainOutbound2;
+  }
+  const { hostName, port, uuid, flow, security, type, sni, fp, alpn, pbk, sid, headerType, host, path, serviceName } = chainProxyParams;
+  let chainOutbound = {
+    type: "vless",
+    tag: "",
+    server: hostName,
+    server_port: +port,
+    uuid,
+    flow,
+    network: "tcp",
+    detour: ""
+  };
+  if (security === "tls" || security === "reality") {
+    const tlsAlpns = alpn ? alpn?.split(",").filter((value) => value !== "h2") : [];
+    chainOutbound.tls = {
+      enabled: true,
+      server_name: sni,
+      insecure: false,
+      alpn: tlsAlpns,
+      utls: {
+        enabled: true,
+        fingerprint: fp
+      }
+    };
+    if (security === "reality") {
+      chainOutbound.tls.reality = {
+        enabled: true,
+        public_key: pbk,
+        short_id: sid
+      };
+      delete chainOutbound.tls.alpn;
+    }
+  }
+  if (headerType === "http") {
+    const httpHosts = host?.split(",");
+    chainOutbound.transport = {
+      type: "http",
+      host: httpHosts,
+      path,
+      method: "GET",
+      headers: {
+        "Connection": ["keep-alive"],
+        "Content-Type": ["application/octet-stream"]
+      }
+    };
+  }
+  if (type === "ws") {
+    const wsPath = path?.split("?ed=")[0];
+    const earlyData = +path?.split("?ed=")[1] || 0;
+    chainOutbound.transport = {
+      type: "ws",
+      path: wsPath,
+      headers: { Host: host },
+      max_early_data: earlyData,
+      early_data_header_name: "Sec-WebSocket-Protocol"
+    };
+  }
+  if (type === "grpc")
+    chainOutbound.transport = {
+      type: "grpc",
+      service_name: serviceName
+    };
+  return chainOutbound;
+}
+async function getSingBoxWarpConfig(proxySettings, warpConfigs, client) {
+  const { warpEndpoints } = proxySettings;
+  let config = structuredClone(singboxConfigTemp);
+  const dnsObject = buildSingBoxDNS(proxySettings, false, true);
+  const { rules, rule_set } = buildSingBoxRoutingRules(proxySettings);
+  config.dns.servers = dnsObject.servers;
+  config.dns.rules = dnsObject.rules;
+  if (dnsObject.fakeip)
+    config.dns.fakeip = dnsObject.fakeip;
+  config.route.rules = rules;
+  config.route.rule_set = rule_set;
+  const selector = config.outbounds[0];
+  const warpUrlTest = config.outbounds[1];
+  const proIndicator = client === "hiddify" ? " Pro " : " ";
+  selector.outbounds = [`\u{1F4A6} Warp${proIndicator}- Best Ping \u{1F680}`, `\u{1F4A6} WoW${proIndicator}- Best Ping \u{1F680}`];
+  config.outbounds.splice(2, 0, structuredClone(warpUrlTest));
+  const WoWUrlTest = config.outbounds[2];
+  warpUrlTest.tag = `\u{1F4A6} Warp${proIndicator}- Best Ping \u{1F680}`;
+  warpUrlTest.interval = `${proxySettings.bestWarpInterval}s`;
+  WoWUrlTest.tag = `\u{1F4A6} WoW${proIndicator}- Best Ping \u{1F680}`;
+  WoWUrlTest.interval = `${proxySettings.bestWarpInterval}s`;
+  let warpRemarks = [], WoWRemarks = [];
+  warpEndpoints.split(",").forEach((endpoint, index) => {
+    const warpRemark = `\u{1F4A6} ${index + 1} - Warp \u{1F1EE}\u{1F1F7}`;
+    const WoWRemark = `\u{1F4A6} ${index + 1} - WoW \u{1F30D}`;
+    const warpOutbound = buildSingBoxWarpOutbound(proxySettings, warpConfigs, warpRemark, endpoint, "", client);
+    const WoWOutbound = buildSingBoxWarpOutbound(proxySettings, warpConfigs, WoWRemark, endpoint, warpRemark, client);
+    config.outbounds.push(WoWOutbound, warpOutbound);
+    warpRemarks.push(warpRemark);
+    WoWRemarks.push(WoWRemark);
+    warpUrlTest.outbounds.push(warpRemark);
+    WoWUrlTest.outbounds.push(WoWRemark);
+  });
+  selector.outbounds.push(...warpRemarks, ...WoWRemarks);
+  return config;
+}
+async function getSingBoxCustomConfig(env, proxySettings, hostName, client, isFragment) {
+  let chainProxyOutbound;
+  const {
+    cleanIPs,
+    ports,
+    vlessConfigs,
+    trojanConfigs,
+    outProxy,
+    outProxyParams,
+    customCdnAddrs,
+    customCdnHost,
+    customCdnSni,
+    bestVLESSTrojanInterval,
+    enableIPv6
+  } = proxySettings;
+  if (outProxy) {
+    const proxyParams = JSON.parse(outProxyParams);
+    try {
+      chainProxyOutbound = buildSingBoxChainOutbound(proxyParams);
+    } catch (error) {
+      console.log("An error occured while parsing chain proxy: ", error);
+      chainProxyOutbound = void 0;
+      await env.bpb.put("proxySettings", JSON.stringify({
+        ...proxySettings,
+        outProxy: "",
+        outProxyParams: ""
+      }));
+      throw new Error(error);
+    }
+  }
+  let config = structuredClone(singboxConfigTemp);
+  const dnsObject = buildSingBoxDNS(proxySettings, chainProxyOutbound, false);
+  const { rules, rule_set } = buildSingBoxRoutingRules(proxySettings);
+  config.dns.servers = dnsObject.servers;
+  config.dns.rules = dnsObject.rules;
+  if (dnsObject.fakeip)
+    config.dns.fakeip = dnsObject.fakeip;
+  config.route.rules = rules;
+  config.route.rule_set = rule_set;
+  const selector = config.outbounds[0];
+  const urlTest = config.outbounds[1];
+  selector.outbounds = ["\u{1F4A6} Best Ping \u{1F4A5}"];
+  urlTest.interval = `${bestVLESSTrojanInterval}s`;
+  urlTest.tag = "\u{1F4A6} Best Ping \u{1F4A5}";
+  const Addresses = await getConfigAddresses(hostName, cleanIPs, enableIPv6);
+  const customCdnAddresses = customCdnAddrs ? customCdnAddrs.split(",") : [];
+  const totalAddresses = [...Addresses, ...customCdnAddresses];
+  const totalPorts = ports.filter((port) => isFragment ? defaultHttpsPorts.includes(port) : true);
+  let proxyIndex = 1;
+  const protocols = [
+    ...vlessConfigs ? ["VLESS"] : [],
+    ...trojanConfigs ? ["Trojan"] : []
+  ];
+  protocols.forEach((protocol) => {
+    let protocolIndex = 1;
+    totalPorts.forEach((port) => {
+      totalAddresses.forEach((addr) => {
+        let VLESSOutbound, TrojanOutbound;
+        const isCustomAddr = customCdnAddresses.includes(addr);
+        const configType = isCustomAddr ? "C" : isFragment ? "F" : "";
+        const sni = isCustomAddr ? customCdnSni : randomUpperCase(hostName);
+        const host = isCustomAddr ? customCdnHost : hostName;
+        const remark = generateRemark(protocolIndex, port, addr, cleanIPs, protocol, configType);
+        if (protocol === "VLESS") {
+          VLESSOutbound = buildSingBoxVLESSOutbound(
+            proxySettings,
+            chainProxyOutbound ? `proxy-${proxyIndex}` : remark,
+            addr,
+            port,
+            host,
+            sni,
+            isCustomAddr,
+            isFragment
+          );
+          config.outbounds.push(VLESSOutbound);
+        }
+        if (protocol === "Trojan") {
+          TrojanOutbound = buildSingBoxTrojanOutbound(
+            proxySettings,
+            chainProxyOutbound ? `proxy-${proxyIndex}` : remark,
+            addr,
+            port,
+            host,
+            sni,
+            isCustomAddr,
+            isFragment
+          );
+          config.outbounds.push(TrojanOutbound);
+        }
+        if (chainProxyOutbound) {
+          let chain = structuredClone(chainProxyOutbound);
+          chain.tag = remark;
+          chain.detour = `proxy-${proxyIndex}`;
+          config.outbounds.push(chain);
+        }
+        selector.outbounds.push(remark);
+        urlTest.outbounds.push(remark);
+        proxyIndex++;
+        protocolIndex++;
+      });
+    });
+  });
+  return config;
+}
+async function getNormalConfigs(proxySettings, hostName, client) {
+  const {
+    cleanIPs,
+    proxyIP: proxyIP2,
+    ports,
+    vlessConfigs,
+    trojanConfigs,
+    outProxy,
+    customCdnAddrs,
+    customCdnHost,
+    customCdnSni,
+    enableIPv6
+  } = proxySettings;
+  let vlessConfs = "", trojanConfs = "", chainProxy = "";
+  let proxyIndex = 1;
+  const Addresses = await getConfigAddresses(hostName, cleanIPs, enableIPv6);
+  const customCdnAddresses = customCdnAddrs ? customCdnAddrs.split(",") : [];
+  const totalAddresses = [...Addresses, ...customCdnAddresses];
+  const alpn = client === "singbox" ? "http/1.1" : "h2,http/1.1";
+  const trojanPass = encodeURIComponent(trojanPassword);
+  const earlyData = client === "singbox" ? "&eh=Sec-WebSocket-Protocol&ed=2560" : encodeURIComponent("?ed=2560");
+  ports.forEach((port) => {
+    totalAddresses.forEach((addr, index) => {
+      const isCustomAddr = index > Addresses.length - 1;
+      const configType = isCustomAddr ? "C" : "";
+      const sni = isCustomAddr ? customCdnSni : randomUpperCase(hostName);
+      const host = isCustomAddr ? customCdnHost : hostName;
+      const path = `${getRandomPath(16)}${proxyIP2 ? `/${encodeURIComponent(btoa(proxyIP2))}` : ""}${earlyData}`;
+      const vlessRemark = encodeURIComponent(generateRemark(proxyIndex, port, addr, cleanIPs, "VLESS", configType));
+      const trojanRemark = encodeURIComponent(generateRemark(proxyIndex, port, addr, cleanIPs, "Trojan", configType));
+      const tlsFields = defaultHttpsPorts.includes(port) ? `&security=tls&sni=${sni}&fp=randomized&alpn=${alpn}` : "&security=none";
+      if (vlessConfigs) {
+        vlessConfs += `${atob("dmxlc3M")}://${userID}@${addr}:${port}?path=/${path}&encryption=none&host=${host}&type=ws${tlsFields}#${vlessRemark}
+`;
+      }
+      if (trojanConfigs) {
+        trojanConfs += `${atob("dHJvamFu")}://${trojanPass}@${addr}:${port}?path=/tr${path}&host=${host}&type=ws${tlsFields}#${trojanRemark}
+`;
+      }
+      proxyIndex++;
+    });
+  });
+  if (outProxy) {
+    let chainRemark = `#${encodeURIComponent("\u{1F4A6} Chain proxy \u{1F517}")}`;
+    if (outProxy.startsWith("socks") || outProxy.startsWith("http")) {
+      const regex = /^(?:socks|http):\/\/([^@]+)@/;
+      const isUserPass = outProxy.match(regex);
+      const userPass = isUserPass ? isUserPass[1] : false;
+      chainProxy = userPass ? outProxy.replace(userPass, btoa(userPass)) + chainRemark : outProxy + chainRemark;
+    } else {
+      chainProxy = outProxy.split("#")[0] + chainRemark;
+    }
+  }
+  return btoa(vlessConfs + trojanConfs + chainProxy);
+}
+var xrayConfigTemp = {
+  remarks: "",
+  log: {
+    loglevel: "warning"
+  },
+  dns: {},
+  fakedns: [
+    {
+      ipPool: "198.18.0.0/15",
+      poolSize: 32768
+    },
+    {
+      ipPool: "fc00::/18",
+      poolSize: 32768
+    }
+  ],
+  inbounds: [
+    {
+      port: 10808,
+      protocol: "socks",
+      settings: {
+        auth: "noauth",
+        udp: true,
+        userLevel: 8
+      },
+      sniffing: {
+        destOverride: ["http", "tls"],
+        enabled: true,
+        routeOnly: true
+      },
+      tag: "socks-in"
+    },
+    {
+      port: 10809,
+      protocol: "http",
+      settings: {
+        auth: "noauth",
+        udp: true,
+        userLevel: 8
+      },
+      sniffing: {
+        destOverride: ["http", "tls"],
+        enabled: true,
+        routeOnly: true
+      },
+      tag: "http-in"
+    },
+    {
+      listen: "127.0.0.1",
+      port: 10853,
+      protocol: "dokodemo-door",
+      settings: {
+        address: "1.1.1.1",
+        network: "tcp,udp",
+        port: 53
+      },
+      tag: "dns-in"
+    }
+  ],
+  outbounds: [
+    {
+      tag: "fragment",
+      protocol: "freedom",
+      settings: {
+        fragment: {
+          packets: "tlshello",
+          length: "",
+          interval: ""
+        },
+        domainStrategy: "UseIP"
+      },
+      streamSettings: {
+        sockopt: {
+          tcpKeepAliveIdle: 100,
+          tcpNoDelay: true
+        }
+      }
+    },
+    {
+      protocol: "dns",
+      tag: "dns-out"
+    },
+    {
+      protocol: "freedom",
+      settings: {},
+      tag: "direct"
+    },
+    {
+      protocol: "blackhole",
+      settings: {
+        response: {
+          type: "http"
+        }
+      },
+      tag: "block"
+    }
+  ],
+  policy: {
+    levels: {
+      8: {
+        connIdle: 300,
+        downlinkOnly: 1,
+        handshake: 4,
+        uplinkOnly: 1
+      }
+    },
+    system: {
+      statsOutboundUplink: true,
+      statsOutboundDownlink: true
+    }
+  },
+  routing: {
+    domainStrategy: "IPIfNonMatch",
+    rules: [],
+    balancers: [
+      {
+        tag: "all",
+        selector: ["prox"],
+        strategy: {
+          type: "leastPing"
+        }
+      }
+    ]
+  },
+  observatory: {
+    probeInterval: "30s",
+    probeURL: "https://www.gstatic.com/generate_204",
+    subjectSelector: ["prox"],
+    EnableConcurrency: true
+  },
+  stats: {}
+};
+var singboxConfigTemp = {
+  log: {
+    level: "warn",
+    timestamp: true
+  },
+  dns: {
+    servers: [],
+    rules: [],
+    independent_cache: true
+  },
+  inbounds: [
+    {
+      type: "direct",
+      tag: "dns-in",
+      listen: "0.0.0.0",
+      listen_port: 6450,
+      override_address: "8.8.8.8",
+      override_port: 53
+    },
+    {
+      type: "tun",
+      tag: "tun-in",
+      inet4_address: "172.19.0.1/28",
+      inet6_address: "fdfe:dcba:9876::1/126",
+      mtu: 9e3,
+      auto_route: true,
+      strict_route: true,
+      stack: "mixed",
+      sniff: true,
+      sniff_override_destination: true
+    },
+    {
+      type: "mixed",
+      tag: "mixed-in",
+      listen: "0.0.0.0",
+      listen_port: 2080,
+      sniff: true,
+      sniff_override_destination: false
+    }
+  ],
+  outbounds: [
+    {
+      type: "selector",
+      tag: "proxy",
+      outbounds: []
+    },
+    {
+      type: "urltest",
+      tag: "",
+      outbounds: [],
+      url: "https://www.gstatic.com/generate_204",
+      interval: ""
+    },
+    {
+      type: "direct",
+      tag: "direct"
+    },
+    {
+      type: "block",
+      tag: "block"
+    },
+    {
+      type: "dns",
+      tag: "dns-out"
+    }
+  ],
+  route: {
+    rules: [],
+    rule_set: [],
+    auto_detect_interface: true,
+    override_android_vpn: true,
+    final: "proxy"
+  },
+  ntp: {
+    enabled: true,
+    server: "time.apple.com",
+    server_port: 123,
+    detour: "direct",
+    interval: "30m"
+  },
+  experimental: {
+    cache_file: {
+      enabled: true,
+      store_fakeip: true
+    },
+    clash_api: {
+      external_controller: "0.0.0.0:9090",
+      external_ui: "yacd",
+      external_ui_download_url: "https://github.com/MetaCubeX/Yacd-meta/archive/gh-pages.zip",
+      external_ui_download_detour: "direct",
+      default_mode: "rule"
+    }
+  }
+};
+var clashConfigTemp = {
+  "mixed-port": 7890,
+  "ipv6": true,
+  "allow-lan": true,
+  "mode": "rule",
+  "log-level": "info",
+  "keep-alive-interval": 30,
+  "unified-delay": false,
+  "dns": {},
+  "tun": {
+    "enable": true,
+    "stack": "system",
+    "auto-route": true,
+    "auto-redirect": true,
+    "auto-detect-interface": true,
+    "dns-hijack": [
+      "any:53",
+      "198.18.0.2:53"
+    ],
+    "device": "utun0",
+    "mtu": 9e3,
+    "strict-route": true
+  },
+  "sniffer": {
+    "enable": true,
+    "force-dns-mapping": true,
+    "parse-pure-ip": true,
+    "sniff": {
+      "HTTP": {
+        "ports": [80, 8080, 8880, 2052, 2082, 2086, 2095],
+        "override-destination": false
+      },
+      "TLS": {
+        "ports": [443, 8443, 2053, 2083, 2087, 2096],
+        "override-destination": false
+      }
+    }
+  },
+  "proxies": [],
+  "proxy-groups": [
+    {
+      "name": "\u2705 Selector",
+      "type": "select",
+      "proxies": []
+    },
+    {
+      "name": "",
+      "type": "url-test",
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": 30,
+      "tolerance": 50,
+      "proxies": []
+    }
+  ],
+  "rules": [],
+  "ntp": {
+    "enable": true,
+    "server": "time.apple.com",
+    "port": 123,
+    "interval": 30
+  }
+};
+export {
+  worker_default as default
+};
+/*! Bundled license information:
 
 js-sha256/src/sha256.js:
   (**
@@ -10,3 +8871,4 @@ js-sha256/src/sha256.js:
    * @license MIT
    *)
 */
+//# sourceMappingURL=worker.js.map
