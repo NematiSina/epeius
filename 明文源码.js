@@ -4,2954 +4,3386 @@ var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
 var __getOwnPropNames = Object.getOwnPropertyNames;
 var __getProtoOf = Object.getPrototypeOf;
 var __hasOwnProp = Object.prototype.hasOwnProperty;
-var __require = /* @__PURE__ */ ((x) => typeof require !== "undefined" ? require : typeof Proxy !== "undefined" ? new Proxy(x, {
-  get: (a, b) => (typeof require !== "undefined" ? require : a)[b]
-}) : x)(function(x) {
-  if (typeof require !== "undefined")
+var __name = (_0x45e955, _0x55f8f4) => __defProp(_0x45e955, "name", {
+  'value': _0x55f8f4,
+  'configurable': true
+});
+var __require = (_0x4b8c64 => typeof require !== "undefined" ? require : typeof Proxy !== "undefined" ? new Proxy(_0x4b8c64, {
+  'get': (_0x2564a2, _0x15d669) => (typeof require !== "undefined" ? require : _0x2564a2)[_0x15d669]
+}) : _0x4b8c64)(function (_0x33ed3a) {
+  if (typeof require !== "undefined") {
     return require.apply(this, arguments);
-  throw new Error('Dynamic require of "' + x + '" is not supported');
-});
-var __commonJS = (cb, mod) => function __require2() {
-  return mod || (0, cb[__getOwnPropNames(cb)[0]])((mod = { exports: {} }).exports, mod), mod.exports;
-};
-var __copyProps = (to, from, except, desc) => {
-  if (from && typeof from === "object" || typeof from === "function") {
-    for (let key of __getOwnPropNames(from))
-      if (!__hasOwnProp.call(to, key) && key !== except)
-        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
   }
-  return to;
+  throw new Error("Dynamic require of \"" + _0x33ed3a + "\" is not supported");
+});
+var __commonJS = (_0x545d69, _0x509e66) => function _0x43dddc() {
+  if (!_0x509e66) {
+    0x0;
+    _0x545d69[__getOwnPropNames(_0x545d69)[0x0]]((_0x509e66 = {
+      'exports': {}
+    }).exports, _0x509e66);
+  }
+  return _0x509e66.exports;
 };
-var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
-  // If the importer is in node compatibility mode or this is not an ESM
-  // file that has been converted to a CommonJS file using a Babel-
-  // compatible transform (i.e. "__esModule" has not been set), then set
-  // "default" to the CommonJS "module.exports" for node compatibility.
-  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
-  mod
-));
-
-// (disabled):crypto
+var __copyProps = (_0x562c20, _0x4a8db3, _0x277fe7, _0x3a64e2) => {
+  if (_0x4a8db3 && typeof _0x4a8db3 === "object" || typeof _0x4a8db3 === "function") {
+    for (let _0x27787d of __getOwnPropNames(_0x4a8db3)) if (!__hasOwnProp.call(_0x562c20, _0x27787d) && _0x27787d !== _0x277fe7) {
+      __defProp(_0x562c20, _0x27787d, {
+        'get': () => _0x4a8db3[_0x27787d],
+        'enumerable': !(_0x3a64e2 = __getOwnPropDesc(_0x4a8db3, _0x27787d)) || _0x3a64e2.enumerable
+      });
+    }
+  }
+  return _0x562c20;
+};
+var __toESM = (_0x2831fd, _0x26793a, _0x4c5bf2) => (_0x4c5bf2 = _0x2831fd != null ? __create(__getProtoOf(_0x2831fd)) : {}, __copyProps(_0x26793a || !_0x2831fd || !_0x2831fd.__esModule ? __defProp(_0x4c5bf2, "default", {
+  'value': _0x2831fd,
+  'enumerable': true
+}) : _0x4c5bf2, _0x2831fd));
 var require_crypto = __commonJS({
-  "(disabled):crypto"() {
-  }
+  '(disabled):crypto'() {}
 });
-
-// node_modules/tweetnacl/nacl-fast.js
 var require_nacl_fast = __commonJS({
-  "node_modules/tweetnacl/nacl-fast.js"(exports, module) {
-    (function(nacl2) {
-      "use strict";
-      var gf = function(init) {
-        var i, r = new Float64Array(16);
-        if (init)
-          for (i = 0; i < init.length; i++)
-            r[i] = init[i];
-        return r;
-      };
-      var randombytes = function() {
+  'node_modules/tweetnacl/nacl-fast.js'(_0x52bd0d, _0x5b6019) {
+    (function (_0xfbb87d) {
+      'use strict';
+
+      var _0x37d431 = __defProp(function (_0x4f05f3) {
+        var _0x5f2fb9;
+        var _0xc1fe11 = new Float64Array(0x10);
+        if (_0x4f05f3) {
+          for (_0x5f2fb9 = 0x0; _0x5f2fb9 < _0x4f05f3.length; _0x5f2fb9++) {
+            _0xc1fe11[_0x5f2fb9] = _0x4f05f3[_0x5f2fb9];
+          }
+        }
+        return _0xc1fe11;
+      }, "name", {
+        'value': 'gf',
+        'configurable': true
+      });
+      var _0x5354b6 = __defProp(function () {
         throw new Error("no PRNG");
-      };
-      var _0 = new Uint8Array(16);
-      var _9 = new Uint8Array(32);
-      _9[0] = 9;
-      var gf0 = gf(), gf1 = gf([1]), _121665 = gf([56129, 1]), D = gf([30883, 4953, 19914, 30187, 55467, 16705, 2637, 112, 59544, 30585, 16505, 36039, 65139, 11119, 27886, 20995]), D2 = gf([61785, 9906, 39828, 60374, 45398, 33411, 5274, 224, 53552, 61171, 33010, 6542, 64743, 22239, 55772, 9222]), X = gf([54554, 36645, 11616, 51542, 42930, 38181, 51040, 26924, 56412, 64982, 57905, 49316, 21502, 52590, 14035, 8553]), Y = gf([26200, 26214, 26214, 26214, 26214, 26214, 26214, 26214, 26214, 26214, 26214, 26214, 26214, 26214, 26214, 26214]), I = gf([41136, 18958, 6951, 50414, 58488, 44335, 6150, 12099, 55207, 15867, 153, 11085, 57099, 20417, 9344, 11139]);
-      function ts64(x, i, h, l) {
-        x[i] = h >> 24 & 255;
-        x[i + 1] = h >> 16 & 255;
-        x[i + 2] = h >> 8 & 255;
-        x[i + 3] = h & 255;
-        x[i + 4] = l >> 24 & 255;
-        x[i + 5] = l >> 16 & 255;
-        x[i + 6] = l >> 8 & 255;
-        x[i + 7] = l & 255;
+      }, "name", {
+        'value': "randombytes",
+        'configurable': true
+      });
+      var _0x3c444b = new Uint8Array(0x10);
+      var _0x1074eb = new Uint8Array(0x20);
+      _0x1074eb[0x0] = 0x9;
+      var _0x50f9a5 = _0x37d431();
+      var _0x5c7baf = _0x37d431([0x1]);
+      var _0x1a27a4 = _0x37d431([0xdb41, 0x1]);
+      var _0x1eda62 = _0x37d431([0x78a3, 0x1359, 0x4dca, 0x75eb, 0xd8ab, 0x4141, 0xa4d, 0x70, 0xe898, 0x7779, 0x4079, 0x8cc7, 0xfe73, 0x2b6f, 0x6cee, 0x5203]);
+      var _0x5593e8 = _0x37d431([0xf159, 0x26b2, 0x9b94, 0xebd6, 0xb156, 0x8283, 0x149a, 0xe0, 0xd130, 0xeef3, 0x80f2, 0x198e, 0xfce7, 0x56df, 0xd9dc, 0x2406]);
+      var _0x399a7d = _0x37d431([0xd51a, 0x8f25, 0x2d60, 0xc956, 0xa7b2, 0x9525, 0xc760, 0x692c, 0xdc5c, 0xfdd6, 0xe231, 0xc0a4, 0x53fe, 0xcd6e, 0x36d3, 0x2169]);
+      var _0x3189d4 = _0x37d431([0x6658, 0x6666, 0x6666, 0x6666, 0x6666, 0x6666, 0x6666, 0x6666, 0x6666, 0x6666, 0x6666, 0x6666, 0x6666, 0x6666, 0x6666, 0x6666]);
+      var _0x598225 = _0x37d431([0xa0b0, 0x4a0e, 0x1b27, 0xc4ee, 0xe478, 0xad2f, 0x1806, 0x2f43, 0xd7a7, 0x3dfb, 0x99, 0x2b4d, 0xdf0b, 0x4fc1, 0x2480, 0x2b83]);
+      function _0x339b23(_0x488576, _0x34a3f6, _0x25cda7, _0x29de41) {
+        _0x488576[_0x34a3f6] = _0x25cda7 >> 0x18 & 0xff;
+        _0x488576[_0x34a3f6 + 0x1] = _0x25cda7 >> 0x10 & 0xff;
+        _0x488576[_0x34a3f6 + 0x2] = _0x25cda7 >> 0x8 & 0xff;
+        _0x488576[_0x34a3f6 + 0x3] = _0x25cda7 & 0xff;
+        _0x488576[_0x34a3f6 + 0x4] = _0x29de41 >> 0x18 & 0xff;
+        _0x488576[_0x34a3f6 + 0x5] = _0x29de41 >> 0x10 & 0xff;
+        _0x488576[_0x34a3f6 + 0x6] = _0x29de41 >> 0x8 & 0xff;
+        _0x488576[_0x34a3f6 + 0x7] = _0x29de41 & 0xff;
       }
-      function vn(x, xi, y, yi, n) {
-        var i, d = 0;
-        for (i = 0; i < n; i++)
-          d |= x[xi + i] ^ y[yi + i];
-        return (1 & d - 1 >>> 8) - 1;
-      }
-      function crypto_verify_16(x, xi, y, yi) {
-        return vn(x, xi, y, yi, 16);
-      }
-      function crypto_verify_32(x, xi, y, yi) {
-        return vn(x, xi, y, yi, 32);
-      }
-      function core_salsa20(o, p, k, c) {
-        var j0 = c[0] & 255 | (c[1] & 255) << 8 | (c[2] & 255) << 16 | (c[3] & 255) << 24, j1 = k[0] & 255 | (k[1] & 255) << 8 | (k[2] & 255) << 16 | (k[3] & 255) << 24, j2 = k[4] & 255 | (k[5] & 255) << 8 | (k[6] & 255) << 16 | (k[7] & 255) << 24, j3 = k[8] & 255 | (k[9] & 255) << 8 | (k[10] & 255) << 16 | (k[11] & 255) << 24, j4 = k[12] & 255 | (k[13] & 255) << 8 | (k[14] & 255) << 16 | (k[15] & 255) << 24, j5 = c[4] & 255 | (c[5] & 255) << 8 | (c[6] & 255) << 16 | (c[7] & 255) << 24, j6 = p[0] & 255 | (p[1] & 255) << 8 | (p[2] & 255) << 16 | (p[3] & 255) << 24, j7 = p[4] & 255 | (p[5] & 255) << 8 | (p[6] & 255) << 16 | (p[7] & 255) << 24, j8 = p[8] & 255 | (p[9] & 255) << 8 | (p[10] & 255) << 16 | (p[11] & 255) << 24, j9 = p[12] & 255 | (p[13] & 255) << 8 | (p[14] & 255) << 16 | (p[15] & 255) << 24, j10 = c[8] & 255 | (c[9] & 255) << 8 | (c[10] & 255) << 16 | (c[11] & 255) << 24, j11 = k[16] & 255 | (k[17] & 255) << 8 | (k[18] & 255) << 16 | (k[19] & 255) << 24, j12 = k[20] & 255 | (k[21] & 255) << 8 | (k[22] & 255) << 16 | (k[23] & 255) << 24, j13 = k[24] & 255 | (k[25] & 255) << 8 | (k[26] & 255) << 16 | (k[27] & 255) << 24, j14 = k[28] & 255 | (k[29] & 255) << 8 | (k[30] & 255) << 16 | (k[31] & 255) << 24, j15 = c[12] & 255 | (c[13] & 255) << 8 | (c[14] & 255) << 16 | (c[15] & 255) << 24;
-        var x0 = j0, x1 = j1, x2 = j2, x3 = j3, x4 = j4, x5 = j5, x6 = j6, x7 = j7, x8 = j8, x9 = j9, x10 = j10, x11 = j11, x12 = j12, x13 = j13, x14 = j14, x15 = j15, u;
-        for (var i = 0; i < 20; i += 2) {
-          u = x0 + x12 | 0;
-          x4 ^= u << 7 | u >>> 32 - 7;
-          u = x4 + x0 | 0;
-          x8 ^= u << 9 | u >>> 32 - 9;
-          u = x8 + x4 | 0;
-          x12 ^= u << 13 | u >>> 32 - 13;
-          u = x12 + x8 | 0;
-          x0 ^= u << 18 | u >>> 32 - 18;
-          u = x5 + x1 | 0;
-          x9 ^= u << 7 | u >>> 32 - 7;
-          u = x9 + x5 | 0;
-          x13 ^= u << 9 | u >>> 32 - 9;
-          u = x13 + x9 | 0;
-          x1 ^= u << 13 | u >>> 32 - 13;
-          u = x1 + x13 | 0;
-          x5 ^= u << 18 | u >>> 32 - 18;
-          u = x10 + x6 | 0;
-          x14 ^= u << 7 | u >>> 32 - 7;
-          u = x14 + x10 | 0;
-          x2 ^= u << 9 | u >>> 32 - 9;
-          u = x2 + x14 | 0;
-          x6 ^= u << 13 | u >>> 32 - 13;
-          u = x6 + x2 | 0;
-          x10 ^= u << 18 | u >>> 32 - 18;
-          u = x15 + x11 | 0;
-          x3 ^= u << 7 | u >>> 32 - 7;
-          u = x3 + x15 | 0;
-          x7 ^= u << 9 | u >>> 32 - 9;
-          u = x7 + x3 | 0;
-          x11 ^= u << 13 | u >>> 32 - 13;
-          u = x11 + x7 | 0;
-          x15 ^= u << 18 | u >>> 32 - 18;
-          u = x0 + x3 | 0;
-          x1 ^= u << 7 | u >>> 32 - 7;
-          u = x1 + x0 | 0;
-          x2 ^= u << 9 | u >>> 32 - 9;
-          u = x2 + x1 | 0;
-          x3 ^= u << 13 | u >>> 32 - 13;
-          u = x3 + x2 | 0;
-          x0 ^= u << 18 | u >>> 32 - 18;
-          u = x5 + x4 | 0;
-          x6 ^= u << 7 | u >>> 32 - 7;
-          u = x6 + x5 | 0;
-          x7 ^= u << 9 | u >>> 32 - 9;
-          u = x7 + x6 | 0;
-          x4 ^= u << 13 | u >>> 32 - 13;
-          u = x4 + x7 | 0;
-          x5 ^= u << 18 | u >>> 32 - 18;
-          u = x10 + x9 | 0;
-          x11 ^= u << 7 | u >>> 32 - 7;
-          u = x11 + x10 | 0;
-          x8 ^= u << 9 | u >>> 32 - 9;
-          u = x8 + x11 | 0;
-          x9 ^= u << 13 | u >>> 32 - 13;
-          u = x9 + x8 | 0;
-          x10 ^= u << 18 | u >>> 32 - 18;
-          u = x15 + x14 | 0;
-          x12 ^= u << 7 | u >>> 32 - 7;
-          u = x12 + x15 | 0;
-          x13 ^= u << 9 | u >>> 32 - 9;
-          u = x13 + x12 | 0;
-          x14 ^= u << 13 | u >>> 32 - 13;
-          u = x14 + x13 | 0;
-          x15 ^= u << 18 | u >>> 32 - 18;
+      __defProp(_0x339b23, "name", {
+        'value': "ts64",
+        'configurable': true
+      });
+      function _0x5eab61(_0x2f84c9, _0x42068a, _0x39a95e, _0x4881c0, _0x38d4b5) {
+        var _0x2e605b;
+        var _0x53d40e = 0x0;
+        for (_0x2e605b = 0x0; _0x2e605b < _0x38d4b5; _0x2e605b++) {
+          _0x53d40e |= _0x2f84c9[_0x42068a + _0x2e605b] ^ _0x39a95e[_0x4881c0 + _0x2e605b];
         }
-        x0 = x0 + j0 | 0;
-        x1 = x1 + j1 | 0;
-        x2 = x2 + j2 | 0;
-        x3 = x3 + j3 | 0;
-        x4 = x4 + j4 | 0;
-        x5 = x5 + j5 | 0;
-        x6 = x6 + j6 | 0;
-        x7 = x7 + j7 | 0;
-        x8 = x8 + j8 | 0;
-        x9 = x9 + j9 | 0;
-        x10 = x10 + j10 | 0;
-        x11 = x11 + j11 | 0;
-        x12 = x12 + j12 | 0;
-        x13 = x13 + j13 | 0;
-        x14 = x14 + j14 | 0;
-        x15 = x15 + j15 | 0;
-        o[0] = x0 >>> 0 & 255;
-        o[1] = x0 >>> 8 & 255;
-        o[2] = x0 >>> 16 & 255;
-        o[3] = x0 >>> 24 & 255;
-        o[4] = x1 >>> 0 & 255;
-        o[5] = x1 >>> 8 & 255;
-        o[6] = x1 >>> 16 & 255;
-        o[7] = x1 >>> 24 & 255;
-        o[8] = x2 >>> 0 & 255;
-        o[9] = x2 >>> 8 & 255;
-        o[10] = x2 >>> 16 & 255;
-        o[11] = x2 >>> 24 & 255;
-        o[12] = x3 >>> 0 & 255;
-        o[13] = x3 >>> 8 & 255;
-        o[14] = x3 >>> 16 & 255;
-        o[15] = x3 >>> 24 & 255;
-        o[16] = x4 >>> 0 & 255;
-        o[17] = x4 >>> 8 & 255;
-        o[18] = x4 >>> 16 & 255;
-        o[19] = x4 >>> 24 & 255;
-        o[20] = x5 >>> 0 & 255;
-        o[21] = x5 >>> 8 & 255;
-        o[22] = x5 >>> 16 & 255;
-        o[23] = x5 >>> 24 & 255;
-        o[24] = x6 >>> 0 & 255;
-        o[25] = x6 >>> 8 & 255;
-        o[26] = x6 >>> 16 & 255;
-        o[27] = x6 >>> 24 & 255;
-        o[28] = x7 >>> 0 & 255;
-        o[29] = x7 >>> 8 & 255;
-        o[30] = x7 >>> 16 & 255;
-        o[31] = x7 >>> 24 & 255;
-        o[32] = x8 >>> 0 & 255;
-        o[33] = x8 >>> 8 & 255;
-        o[34] = x8 >>> 16 & 255;
-        o[35] = x8 >>> 24 & 255;
-        o[36] = x9 >>> 0 & 255;
-        o[37] = x9 >>> 8 & 255;
-        o[38] = x9 >>> 16 & 255;
-        o[39] = x9 >>> 24 & 255;
-        o[40] = x10 >>> 0 & 255;
-        o[41] = x10 >>> 8 & 255;
-        o[42] = x10 >>> 16 & 255;
-        o[43] = x10 >>> 24 & 255;
-        o[44] = x11 >>> 0 & 255;
-        o[45] = x11 >>> 8 & 255;
-        o[46] = x11 >>> 16 & 255;
-        o[47] = x11 >>> 24 & 255;
-        o[48] = x12 >>> 0 & 255;
-        o[49] = x12 >>> 8 & 255;
-        o[50] = x12 >>> 16 & 255;
-        o[51] = x12 >>> 24 & 255;
-        o[52] = x13 >>> 0 & 255;
-        o[53] = x13 >>> 8 & 255;
-        o[54] = x13 >>> 16 & 255;
-        o[55] = x13 >>> 24 & 255;
-        o[56] = x14 >>> 0 & 255;
-        o[57] = x14 >>> 8 & 255;
-        o[58] = x14 >>> 16 & 255;
-        o[59] = x14 >>> 24 & 255;
-        o[60] = x15 >>> 0 & 255;
-        o[61] = x15 >>> 8 & 255;
-        o[62] = x15 >>> 16 & 255;
-        o[63] = x15 >>> 24 & 255;
+        return (0x1 & _0x53d40e - 0x1 >>> 0x8) - 0x1;
       }
-      function core_hsalsa20(o, p, k, c) {
-        var j0 = c[0] & 255 | (c[1] & 255) << 8 | (c[2] & 255) << 16 | (c[3] & 255) << 24, j1 = k[0] & 255 | (k[1] & 255) << 8 | (k[2] & 255) << 16 | (k[3] & 255) << 24, j2 = k[4] & 255 | (k[5] & 255) << 8 | (k[6] & 255) << 16 | (k[7] & 255) << 24, j3 = k[8] & 255 | (k[9] & 255) << 8 | (k[10] & 255) << 16 | (k[11] & 255) << 24, j4 = k[12] & 255 | (k[13] & 255) << 8 | (k[14] & 255) << 16 | (k[15] & 255) << 24, j5 = c[4] & 255 | (c[5] & 255) << 8 | (c[6] & 255) << 16 | (c[7] & 255) << 24, j6 = p[0] & 255 | (p[1] & 255) << 8 | (p[2] & 255) << 16 | (p[3] & 255) << 24, j7 = p[4] & 255 | (p[5] & 255) << 8 | (p[6] & 255) << 16 | (p[7] & 255) << 24, j8 = p[8] & 255 | (p[9] & 255) << 8 | (p[10] & 255) << 16 | (p[11] & 255) << 24, j9 = p[12] & 255 | (p[13] & 255) << 8 | (p[14] & 255) << 16 | (p[15] & 255) << 24, j10 = c[8] & 255 | (c[9] & 255) << 8 | (c[10] & 255) << 16 | (c[11] & 255) << 24, j11 = k[16] & 255 | (k[17] & 255) << 8 | (k[18] & 255) << 16 | (k[19] & 255) << 24, j12 = k[20] & 255 | (k[21] & 255) << 8 | (k[22] & 255) << 16 | (k[23] & 255) << 24, j13 = k[24] & 255 | (k[25] & 255) << 8 | (k[26] & 255) << 16 | (k[27] & 255) << 24, j14 = k[28] & 255 | (k[29] & 255) << 8 | (k[30] & 255) << 16 | (k[31] & 255) << 24, j15 = c[12] & 255 | (c[13] & 255) << 8 | (c[14] & 255) << 16 | (c[15] & 255) << 24;
-        var x0 = j0, x1 = j1, x2 = j2, x3 = j3, x4 = j4, x5 = j5, x6 = j6, x7 = j7, x8 = j8, x9 = j9, x10 = j10, x11 = j11, x12 = j12, x13 = j13, x14 = j14, x15 = j15, u;
-        for (var i = 0; i < 20; i += 2) {
-          u = x0 + x12 | 0;
-          x4 ^= u << 7 | u >>> 32 - 7;
-          u = x4 + x0 | 0;
-          x8 ^= u << 9 | u >>> 32 - 9;
-          u = x8 + x4 | 0;
-          x12 ^= u << 13 | u >>> 32 - 13;
-          u = x12 + x8 | 0;
-          x0 ^= u << 18 | u >>> 32 - 18;
-          u = x5 + x1 | 0;
-          x9 ^= u << 7 | u >>> 32 - 7;
-          u = x9 + x5 | 0;
-          x13 ^= u << 9 | u >>> 32 - 9;
-          u = x13 + x9 | 0;
-          x1 ^= u << 13 | u >>> 32 - 13;
-          u = x1 + x13 | 0;
-          x5 ^= u << 18 | u >>> 32 - 18;
-          u = x10 + x6 | 0;
-          x14 ^= u << 7 | u >>> 32 - 7;
-          u = x14 + x10 | 0;
-          x2 ^= u << 9 | u >>> 32 - 9;
-          u = x2 + x14 | 0;
-          x6 ^= u << 13 | u >>> 32 - 13;
-          u = x6 + x2 | 0;
-          x10 ^= u << 18 | u >>> 32 - 18;
-          u = x15 + x11 | 0;
-          x3 ^= u << 7 | u >>> 32 - 7;
-          u = x3 + x15 | 0;
-          x7 ^= u << 9 | u >>> 32 - 9;
-          u = x7 + x3 | 0;
-          x11 ^= u << 13 | u >>> 32 - 13;
-          u = x11 + x7 | 0;
-          x15 ^= u << 18 | u >>> 32 - 18;
-          u = x0 + x3 | 0;
-          x1 ^= u << 7 | u >>> 32 - 7;
-          u = x1 + x0 | 0;
-          x2 ^= u << 9 | u >>> 32 - 9;
-          u = x2 + x1 | 0;
-          x3 ^= u << 13 | u >>> 32 - 13;
-          u = x3 + x2 | 0;
-          x0 ^= u << 18 | u >>> 32 - 18;
-          u = x5 + x4 | 0;
-          x6 ^= u << 7 | u >>> 32 - 7;
-          u = x6 + x5 | 0;
-          x7 ^= u << 9 | u >>> 32 - 9;
-          u = x7 + x6 | 0;
-          x4 ^= u << 13 | u >>> 32 - 13;
-          u = x4 + x7 | 0;
-          x5 ^= u << 18 | u >>> 32 - 18;
-          u = x10 + x9 | 0;
-          x11 ^= u << 7 | u >>> 32 - 7;
-          u = x11 + x10 | 0;
-          x8 ^= u << 9 | u >>> 32 - 9;
-          u = x8 + x11 | 0;
-          x9 ^= u << 13 | u >>> 32 - 13;
-          u = x9 + x8 | 0;
-          x10 ^= u << 18 | u >>> 32 - 18;
-          u = x15 + x14 | 0;
-          x12 ^= u << 7 | u >>> 32 - 7;
-          u = x12 + x15 | 0;
-          x13 ^= u << 9 | u >>> 32 - 9;
-          u = x13 + x12 | 0;
-          x14 ^= u << 13 | u >>> 32 - 13;
-          u = x14 + x13 | 0;
-          x15 ^= u << 18 | u >>> 32 - 18;
+      __defProp(_0x5eab61, "name", {
+        'value': 'vn',
+        'configurable': true
+      });
+      function _0x3b07f3(_0xd1e036, _0x1b48d4, _0x1a02a2, _0x309373) {
+        return _0x5eab61(_0xd1e036, _0x1b48d4, _0x1a02a2, _0x309373, 0x10);
+      }
+      __defProp(_0x3b07f3, "name", {
+        'value': "crypto_verify_16",
+        'configurable': true
+      });
+      function _0x5d5b38(_0x1d5391, _0x448ee2, _0x3b56c1, _0x3a1f02) {
+        return _0x5eab61(_0x1d5391, _0x448ee2, _0x3b56c1, _0x3a1f02, 0x20);
+      }
+      __defProp(_0x5d5b38, "name", {
+        'value': "crypto_verify_32",
+        'configurable': true
+      });
+      function _0x4154ce(_0x1ca769, _0x18af5a, _0x45bfeb, _0x3c5c13) {
+        var _0x20e65e = _0x3c5c13[0x0] & 0xff | (_0x3c5c13[0x1] & 0xff) << 0x8 | (_0x3c5c13[0x2] & 0xff) << 0x10 | (_0x3c5c13[0x3] & 0xff) << 0x18;
+        var _0x5ea6be = _0x45bfeb[0x0] & 0xff | (_0x45bfeb[0x1] & 0xff) << 0x8 | (_0x45bfeb[0x2] & 0xff) << 0x10 | (_0x45bfeb[0x3] & 0xff) << 0x18;
+        var _0x196671 = _0x45bfeb[0x4] & 0xff | (_0x45bfeb[0x5] & 0xff) << 0x8 | (_0x45bfeb[0x6] & 0xff) << 0x10 | (_0x45bfeb[0x7] & 0xff) << 0x18;
+        var _0x2dee99 = _0x45bfeb[0x8] & 0xff | (_0x45bfeb[0x9] & 0xff) << 0x8 | (_0x45bfeb[0xa] & 0xff) << 0x10 | (_0x45bfeb[0xb] & 0xff) << 0x18;
+        var _0xb5d286 = _0x45bfeb[0xc] & 0xff | (_0x45bfeb[0xd] & 0xff) << 0x8 | (_0x45bfeb[0xe] & 0xff) << 0x10 | (_0x45bfeb[0xf] & 0xff) << 0x18;
+        var _0x2f1064 = _0x3c5c13[0x4] & 0xff | (_0x3c5c13[0x5] & 0xff) << 0x8 | (_0x3c5c13[0x6] & 0xff) << 0x10 | (_0x3c5c13[0x7] & 0xff) << 0x18;
+        var _0x2325f1 = _0x18af5a[0x0] & 0xff | (_0x18af5a[0x1] & 0xff) << 0x8 | (_0x18af5a[0x2] & 0xff) << 0x10 | (_0x18af5a[0x3] & 0xff) << 0x18;
+        var _0x49532e = _0x18af5a[0x4] & 0xff | (_0x18af5a[0x5] & 0xff) << 0x8 | (_0x18af5a[0x6] & 0xff) << 0x10 | (_0x18af5a[0x7] & 0xff) << 0x18;
+        var _0x23625f = _0x18af5a[0x8] & 0xff | (_0x18af5a[0x9] & 0xff) << 0x8 | (_0x18af5a[0xa] & 0xff) << 0x10 | (_0x18af5a[0xb] & 0xff) << 0x18;
+        var _0x3d35ef = _0x18af5a[0xc] & 0xff | (_0x18af5a[0xd] & 0xff) << 0x8 | (_0x18af5a[0xe] & 0xff) << 0x10 | (_0x18af5a[0xf] & 0xff) << 0x18;
+        var _0x5f363c = _0x3c5c13[0x8] & 0xff | (_0x3c5c13[0x9] & 0xff) << 0x8 | (_0x3c5c13[0xa] & 0xff) << 0x10 | (_0x3c5c13[0xb] & 0xff) << 0x18;
+        var _0x3f757b = _0x45bfeb[0x10] & 0xff | (_0x45bfeb[0x11] & 0xff) << 0x8 | (_0x45bfeb[0x12] & 0xff) << 0x10 | (_0x45bfeb[0x13] & 0xff) << 0x18;
+        var _0x1a72e6 = _0x45bfeb[0x14] & 0xff | (_0x45bfeb[0x15] & 0xff) << 0x8 | (_0x45bfeb[0x16] & 0xff) << 0x10 | (_0x45bfeb[0x17] & 0xff) << 0x18;
+        var _0x1a754d = _0x45bfeb[0x18] & 0xff | (_0x45bfeb[0x19] & 0xff) << 0x8 | (_0x45bfeb[0x1a] & 0xff) << 0x10 | (_0x45bfeb[0x1b] & 0xff) << 0x18;
+        var _0x25c17e = _0x45bfeb[0x1c] & 0xff | (_0x45bfeb[0x1d] & 0xff) << 0x8 | (_0x45bfeb[0x1e] & 0xff) << 0x10 | (_0x45bfeb[0x1f] & 0xff) << 0x18;
+        var _0x58289e = _0x3c5c13[0xc] & 0xff | (_0x3c5c13[0xd] & 0xff) << 0x8 | (_0x3c5c13[0xe] & 0xff) << 0x10 | (_0x3c5c13[0xf] & 0xff) << 0x18;
+        var _0x5aa492 = _0x20e65e;
+        var _0x343436 = _0x5ea6be;
+        var _0x5cbd9b = _0x196671;
+        var _0x3f6c66 = _0x2dee99;
+        var _0x1029d5 = _0xb5d286;
+        var _0x458e46 = _0x2f1064;
+        var _0x5adf40 = _0x2325f1;
+        var _0x1b2e88 = _0x49532e;
+        var _0x5929ee = _0x23625f;
+        var _0x3aca28 = _0x3d35ef;
+        var _0x5b3ec6 = _0x5f363c;
+        var _0x3dcd4e = _0x3f757b;
+        var _0x406869 = _0x1a72e6;
+        var _0x350f47 = _0x1a754d;
+        var _0x3c53e7 = _0x25c17e;
+        var _0x430cb2 = _0x58289e;
+        var _0x531533;
+        for (var _0x2232da = 0x0; _0x2232da < 0x14; _0x2232da += 0x2) {
+          _0x531533 = _0x5aa492 + _0x406869 | 0x0;
+          _0x1029d5 ^= _0x531533 << 0x7 | _0x531533 >>> 25;
+          _0x531533 = _0x1029d5 + _0x5aa492 | 0x0;
+          _0x5929ee ^= _0x531533 << 0x9 | _0x531533 >>> 23;
+          _0x531533 = _0x5929ee + _0x1029d5 | 0x0;
+          _0x406869 ^= _0x531533 << 0xd | _0x531533 >>> 19;
+          _0x531533 = _0x406869 + _0x5929ee | 0x0;
+          _0x5aa492 ^= _0x531533 << 0x12 | _0x531533 >>> 14;
+          _0x531533 = _0x458e46 + _0x343436 | 0x0;
+          _0x3aca28 ^= _0x531533 << 0x7 | _0x531533 >>> 25;
+          _0x531533 = _0x3aca28 + _0x458e46 | 0x0;
+          _0x350f47 ^= _0x531533 << 0x9 | _0x531533 >>> 23;
+          _0x531533 = _0x350f47 + _0x3aca28 | 0x0;
+          _0x343436 ^= _0x531533 << 0xd | _0x531533 >>> 19;
+          _0x531533 = _0x343436 + _0x350f47 | 0x0;
+          _0x458e46 ^= _0x531533 << 0x12 | _0x531533 >>> 14;
+          _0x531533 = _0x5b3ec6 + _0x5adf40 | 0x0;
+          _0x3c53e7 ^= _0x531533 << 0x7 | _0x531533 >>> 25;
+          _0x531533 = _0x3c53e7 + _0x5b3ec6 | 0x0;
+          _0x5cbd9b ^= _0x531533 << 0x9 | _0x531533 >>> 23;
+          _0x531533 = _0x5cbd9b + _0x3c53e7 | 0x0;
+          _0x5adf40 ^= _0x531533 << 0xd | _0x531533 >>> 19;
+          _0x531533 = _0x5adf40 + _0x5cbd9b | 0x0;
+          _0x5b3ec6 ^= _0x531533 << 0x12 | _0x531533 >>> 14;
+          _0x531533 = _0x430cb2 + _0x3dcd4e | 0x0;
+          _0x3f6c66 ^= _0x531533 << 0x7 | _0x531533 >>> 25;
+          _0x531533 = _0x3f6c66 + _0x430cb2 | 0x0;
+          _0x1b2e88 ^= _0x531533 << 0x9 | _0x531533 >>> 23;
+          _0x531533 = _0x1b2e88 + _0x3f6c66 | 0x0;
+          _0x3dcd4e ^= _0x531533 << 0xd | _0x531533 >>> 19;
+          _0x531533 = _0x3dcd4e + _0x1b2e88 | 0x0;
+          _0x430cb2 ^= _0x531533 << 0x12 | _0x531533 >>> 14;
+          _0x531533 = _0x5aa492 + _0x3f6c66 | 0x0;
+          _0x343436 ^= _0x531533 << 0x7 | _0x531533 >>> 25;
+          _0x531533 = _0x343436 + _0x5aa492 | 0x0;
+          _0x5cbd9b ^= _0x531533 << 0x9 | _0x531533 >>> 23;
+          _0x531533 = _0x5cbd9b + _0x343436 | 0x0;
+          _0x3f6c66 ^= _0x531533 << 0xd | _0x531533 >>> 19;
+          _0x531533 = _0x3f6c66 + _0x5cbd9b | 0x0;
+          _0x5aa492 ^= _0x531533 << 0x12 | _0x531533 >>> 14;
+          _0x531533 = _0x458e46 + _0x1029d5 | 0x0;
+          _0x5adf40 ^= _0x531533 << 0x7 | _0x531533 >>> 25;
+          _0x531533 = _0x5adf40 + _0x458e46 | 0x0;
+          _0x1b2e88 ^= _0x531533 << 0x9 | _0x531533 >>> 23;
+          _0x531533 = _0x1b2e88 + _0x5adf40 | 0x0;
+          _0x1029d5 ^= _0x531533 << 0xd | _0x531533 >>> 19;
+          _0x531533 = _0x1029d5 + _0x1b2e88 | 0x0;
+          _0x458e46 ^= _0x531533 << 0x12 | _0x531533 >>> 14;
+          _0x531533 = _0x5b3ec6 + _0x3aca28 | 0x0;
+          _0x3dcd4e ^= _0x531533 << 0x7 | _0x531533 >>> 25;
+          _0x531533 = _0x3dcd4e + _0x5b3ec6 | 0x0;
+          _0x5929ee ^= _0x531533 << 0x9 | _0x531533 >>> 23;
+          _0x531533 = _0x5929ee + _0x3dcd4e | 0x0;
+          _0x3aca28 ^= _0x531533 << 0xd | _0x531533 >>> 19;
+          _0x531533 = _0x3aca28 + _0x5929ee | 0x0;
+          _0x5b3ec6 ^= _0x531533 << 0x12 | _0x531533 >>> 14;
+          _0x531533 = _0x430cb2 + _0x3c53e7 | 0x0;
+          _0x406869 ^= _0x531533 << 0x7 | _0x531533 >>> 25;
+          _0x531533 = _0x406869 + _0x430cb2 | 0x0;
+          _0x350f47 ^= _0x531533 << 0x9 | _0x531533 >>> 23;
+          _0x531533 = _0x350f47 + _0x406869 | 0x0;
+          _0x3c53e7 ^= _0x531533 << 0xd | _0x531533 >>> 19;
+          _0x531533 = _0x3c53e7 + _0x350f47 | 0x0;
+          _0x430cb2 ^= _0x531533 << 0x12 | _0x531533 >>> 14;
         }
-        o[0] = x0 >>> 0 & 255;
-        o[1] = x0 >>> 8 & 255;
-        o[2] = x0 >>> 16 & 255;
-        o[3] = x0 >>> 24 & 255;
-        o[4] = x5 >>> 0 & 255;
-        o[5] = x5 >>> 8 & 255;
-        o[6] = x5 >>> 16 & 255;
-        o[7] = x5 >>> 24 & 255;
-        o[8] = x10 >>> 0 & 255;
-        o[9] = x10 >>> 8 & 255;
-        o[10] = x10 >>> 16 & 255;
-        o[11] = x10 >>> 24 & 255;
-        o[12] = x15 >>> 0 & 255;
-        o[13] = x15 >>> 8 & 255;
-        o[14] = x15 >>> 16 & 255;
-        o[15] = x15 >>> 24 & 255;
-        o[16] = x6 >>> 0 & 255;
-        o[17] = x6 >>> 8 & 255;
-        o[18] = x6 >>> 16 & 255;
-        o[19] = x6 >>> 24 & 255;
-        o[20] = x7 >>> 0 & 255;
-        o[21] = x7 >>> 8 & 255;
-        o[22] = x7 >>> 16 & 255;
-        o[23] = x7 >>> 24 & 255;
-        o[24] = x8 >>> 0 & 255;
-        o[25] = x8 >>> 8 & 255;
-        o[26] = x8 >>> 16 & 255;
-        o[27] = x8 >>> 24 & 255;
-        o[28] = x9 >>> 0 & 255;
-        o[29] = x9 >>> 8 & 255;
-        o[30] = x9 >>> 16 & 255;
-        o[31] = x9 >>> 24 & 255;
+        _0x5aa492 = _0x5aa492 + _0x20e65e | 0x0;
+        _0x343436 = _0x343436 + _0x5ea6be | 0x0;
+        _0x5cbd9b = _0x5cbd9b + _0x196671 | 0x0;
+        _0x3f6c66 = _0x3f6c66 + _0x2dee99 | 0x0;
+        _0x1029d5 = _0x1029d5 + _0xb5d286 | 0x0;
+        _0x458e46 = _0x458e46 + _0x2f1064 | 0x0;
+        _0x5adf40 = _0x5adf40 + _0x2325f1 | 0x0;
+        _0x1b2e88 = _0x1b2e88 + _0x49532e | 0x0;
+        _0x5929ee = _0x5929ee + _0x23625f | 0x0;
+        _0x3aca28 = _0x3aca28 + _0x3d35ef | 0x0;
+        _0x5b3ec6 = _0x5b3ec6 + _0x5f363c | 0x0;
+        _0x3dcd4e = _0x3dcd4e + _0x3f757b | 0x0;
+        _0x406869 = _0x406869 + _0x1a72e6 | 0x0;
+        _0x350f47 = _0x350f47 + _0x1a754d | 0x0;
+        _0x3c53e7 = _0x3c53e7 + _0x25c17e | 0x0;
+        _0x430cb2 = _0x430cb2 + _0x58289e | 0x0;
+        _0x1ca769[0x0] = _0x5aa492 >>> 0x0 & 0xff;
+        _0x1ca769[0x1] = _0x5aa492 >>> 0x8 & 0xff;
+        _0x1ca769[0x2] = _0x5aa492 >>> 0x10 & 0xff;
+        _0x1ca769[0x3] = _0x5aa492 >>> 0x18 & 0xff;
+        _0x1ca769[0x4] = _0x343436 >>> 0x0 & 0xff;
+        _0x1ca769[0x5] = _0x343436 >>> 0x8 & 0xff;
+        _0x1ca769[0x6] = _0x343436 >>> 0x10 & 0xff;
+        _0x1ca769[0x7] = _0x343436 >>> 0x18 & 0xff;
+        _0x1ca769[0x8] = _0x5cbd9b >>> 0x0 & 0xff;
+        _0x1ca769[0x9] = _0x5cbd9b >>> 0x8 & 0xff;
+        _0x1ca769[0xa] = _0x5cbd9b >>> 0x10 & 0xff;
+        _0x1ca769[0xb] = _0x5cbd9b >>> 0x18 & 0xff;
+        _0x1ca769[0xc] = _0x3f6c66 >>> 0x0 & 0xff;
+        _0x1ca769[0xd] = _0x3f6c66 >>> 0x8 & 0xff;
+        _0x1ca769[0xe] = _0x3f6c66 >>> 0x10 & 0xff;
+        _0x1ca769[0xf] = _0x3f6c66 >>> 0x18 & 0xff;
+        _0x1ca769[0x10] = _0x1029d5 >>> 0x0 & 0xff;
+        _0x1ca769[0x11] = _0x1029d5 >>> 0x8 & 0xff;
+        _0x1ca769[0x12] = _0x1029d5 >>> 0x10 & 0xff;
+        _0x1ca769[0x13] = _0x1029d5 >>> 0x18 & 0xff;
+        _0x1ca769[0x14] = _0x458e46 >>> 0x0 & 0xff;
+        _0x1ca769[0x15] = _0x458e46 >>> 0x8 & 0xff;
+        _0x1ca769[0x16] = _0x458e46 >>> 0x10 & 0xff;
+        _0x1ca769[0x17] = _0x458e46 >>> 0x18 & 0xff;
+        _0x1ca769[0x18] = _0x5adf40 >>> 0x0 & 0xff;
+        _0x1ca769[0x19] = _0x5adf40 >>> 0x8 & 0xff;
+        _0x1ca769[0x1a] = _0x5adf40 >>> 0x10 & 0xff;
+        _0x1ca769[0x1b] = _0x5adf40 >>> 0x18 & 0xff;
+        _0x1ca769[0x1c] = _0x1b2e88 >>> 0x0 & 0xff;
+        _0x1ca769[0x1d] = _0x1b2e88 >>> 0x8 & 0xff;
+        _0x1ca769[0x1e] = _0x1b2e88 >>> 0x10 & 0xff;
+        _0x1ca769[0x1f] = _0x1b2e88 >>> 0x18 & 0xff;
+        _0x1ca769[0x20] = _0x5929ee >>> 0x0 & 0xff;
+        _0x1ca769[0x21] = _0x5929ee >>> 0x8 & 0xff;
+        _0x1ca769[0x22] = _0x5929ee >>> 0x10 & 0xff;
+        _0x1ca769[0x23] = _0x5929ee >>> 0x18 & 0xff;
+        _0x1ca769[0x24] = _0x3aca28 >>> 0x0 & 0xff;
+        _0x1ca769[0x25] = _0x3aca28 >>> 0x8 & 0xff;
+        _0x1ca769[0x26] = _0x3aca28 >>> 0x10 & 0xff;
+        _0x1ca769[0x27] = _0x3aca28 >>> 0x18 & 0xff;
+        _0x1ca769[0x28] = _0x5b3ec6 >>> 0x0 & 0xff;
+        _0x1ca769[0x29] = _0x5b3ec6 >>> 0x8 & 0xff;
+        _0x1ca769[0x2a] = _0x5b3ec6 >>> 0x10 & 0xff;
+        _0x1ca769[0x2b] = _0x5b3ec6 >>> 0x18 & 0xff;
+        _0x1ca769[0x2c] = _0x3dcd4e >>> 0x0 & 0xff;
+        _0x1ca769[0x2d] = _0x3dcd4e >>> 0x8 & 0xff;
+        _0x1ca769[0x2e] = _0x3dcd4e >>> 0x10 & 0xff;
+        _0x1ca769[0x2f] = _0x3dcd4e >>> 0x18 & 0xff;
+        _0x1ca769[0x30] = _0x406869 >>> 0x0 & 0xff;
+        _0x1ca769[0x31] = _0x406869 >>> 0x8 & 0xff;
+        _0x1ca769[0x32] = _0x406869 >>> 0x10 & 0xff;
+        _0x1ca769[0x33] = _0x406869 >>> 0x18 & 0xff;
+        _0x1ca769[0x34] = _0x350f47 >>> 0x0 & 0xff;
+        _0x1ca769[0x35] = _0x350f47 >>> 0x8 & 0xff;
+        _0x1ca769[0x36] = _0x350f47 >>> 0x10 & 0xff;
+        _0x1ca769[0x37] = _0x350f47 >>> 0x18 & 0xff;
+        _0x1ca769[0x38] = _0x3c53e7 >>> 0x0 & 0xff;
+        _0x1ca769[0x39] = _0x3c53e7 >>> 0x8 & 0xff;
+        _0x1ca769[0x3a] = _0x3c53e7 >>> 0x10 & 0xff;
+        _0x1ca769[0x3b] = _0x3c53e7 >>> 0x18 & 0xff;
+        _0x1ca769[0x3c] = _0x430cb2 >>> 0x0 & 0xff;
+        _0x1ca769[0x3d] = _0x430cb2 >>> 0x8 & 0xff;
+        _0x1ca769[0x3e] = _0x430cb2 >>> 0x10 & 0xff;
+        _0x1ca769[0x3f] = _0x430cb2 >>> 0x18 & 0xff;
       }
-      function crypto_core_salsa20(out, inp, k, c) {
-        core_salsa20(out, inp, k, c);
+      __defProp(_0x4154ce, "name", {
+        'value': "core_salsa20",
+        'configurable': true
+      });
+      function _0x35bb40(_0x46de74, _0x472ea1, _0x46520b, _0x1cec28) {
+        var _0x29d75e = _0x1cec28[0x0] & 0xff | (_0x1cec28[0x1] & 0xff) << 0x8 | (_0x1cec28[0x2] & 0xff) << 0x10 | (_0x1cec28[0x3] & 0xff) << 0x18;
+        var _0x3062e1 = _0x46520b[0x0] & 0xff | (_0x46520b[0x1] & 0xff) << 0x8 | (_0x46520b[0x2] & 0xff) << 0x10 | (_0x46520b[0x3] & 0xff) << 0x18;
+        var _0x634581 = _0x46520b[0x4] & 0xff | (_0x46520b[0x5] & 0xff) << 0x8 | (_0x46520b[0x6] & 0xff) << 0x10 | (_0x46520b[0x7] & 0xff) << 0x18;
+        var _0x244e87 = _0x46520b[0x8] & 0xff | (_0x46520b[0x9] & 0xff) << 0x8 | (_0x46520b[0xa] & 0xff) << 0x10 | (_0x46520b[0xb] & 0xff) << 0x18;
+        var _0x4c03b2 = _0x46520b[0xc] & 0xff | (_0x46520b[0xd] & 0xff) << 0x8 | (_0x46520b[0xe] & 0xff) << 0x10 | (_0x46520b[0xf] & 0xff) << 0x18;
+        var _0xb8491f = _0x1cec28[0x4] & 0xff | (_0x1cec28[0x5] & 0xff) << 0x8 | (_0x1cec28[0x6] & 0xff) << 0x10 | (_0x1cec28[0x7] & 0xff) << 0x18;
+        var _0xf50a5 = _0x472ea1[0x0] & 0xff | (_0x472ea1[0x1] & 0xff) << 0x8 | (_0x472ea1[0x2] & 0xff) << 0x10 | (_0x472ea1[0x3] & 0xff) << 0x18;
+        var _0x1a65ca = _0x472ea1[0x4] & 0xff | (_0x472ea1[0x5] & 0xff) << 0x8 | (_0x472ea1[0x6] & 0xff) << 0x10 | (_0x472ea1[0x7] & 0xff) << 0x18;
+        var _0x24053f = _0x472ea1[0x8] & 0xff | (_0x472ea1[0x9] & 0xff) << 0x8 | (_0x472ea1[0xa] & 0xff) << 0x10 | (_0x472ea1[0xb] & 0xff) << 0x18;
+        var _0x211e2f = _0x472ea1[0xc] & 0xff | (_0x472ea1[0xd] & 0xff) << 0x8 | (_0x472ea1[0xe] & 0xff) << 0x10 | (_0x472ea1[0xf] & 0xff) << 0x18;
+        var _0x107043 = _0x1cec28[0x8] & 0xff | (_0x1cec28[0x9] & 0xff) << 0x8 | (_0x1cec28[0xa] & 0xff) << 0x10 | (_0x1cec28[0xb] & 0xff) << 0x18;
+        var _0x470f4d = _0x46520b[0x10] & 0xff | (_0x46520b[0x11] & 0xff) << 0x8 | (_0x46520b[0x12] & 0xff) << 0x10 | (_0x46520b[0x13] & 0xff) << 0x18;
+        var _0x5e6c6f = _0x46520b[0x14] & 0xff | (_0x46520b[0x15] & 0xff) << 0x8 | (_0x46520b[0x16] & 0xff) << 0x10 | (_0x46520b[0x17] & 0xff) << 0x18;
+        var _0x22fed9 = _0x46520b[0x18] & 0xff | (_0x46520b[0x19] & 0xff) << 0x8 | (_0x46520b[0x1a] & 0xff) << 0x10 | (_0x46520b[0x1b] & 0xff) << 0x18;
+        var _0x502396 = _0x46520b[0x1c] & 0xff | (_0x46520b[0x1d] & 0xff) << 0x8 | (_0x46520b[0x1e] & 0xff) << 0x10 | (_0x46520b[0x1f] & 0xff) << 0x18;
+        var _0x3a60e7 = _0x1cec28[0xc] & 0xff | (_0x1cec28[0xd] & 0xff) << 0x8 | (_0x1cec28[0xe] & 0xff) << 0x10 | (_0x1cec28[0xf] & 0xff) << 0x18;
+        var _0xe647c4 = _0x29d75e;
+        var _0xfa1f3d = _0x3062e1;
+        var _0x22c967 = _0x634581;
+        var _0x2db0ff = _0x244e87;
+        var _0x309380 = _0x4c03b2;
+        var _0xbef0e4 = _0xb8491f;
+        var _0x3eebe2 = _0xf50a5;
+        var _0x45dcad = _0x1a65ca;
+        var _0x2149c8 = _0x24053f;
+        var _0x48099b = _0x211e2f;
+        var _0x2517d4 = _0x107043;
+        var _0x1e90ee = _0x470f4d;
+        var _0x5efa93 = _0x5e6c6f;
+        var _0x251064 = _0x22fed9;
+        var _0x484f8b = _0x502396;
+        var _0x293ac0 = _0x3a60e7;
+        var _0x35c9bd;
+        for (var _0x39d6b9 = 0x0; _0x39d6b9 < 0x14; _0x39d6b9 += 0x2) {
+          _0x35c9bd = _0xe647c4 + _0x5efa93 | 0x0;
+          _0x309380 ^= _0x35c9bd << 0x7 | _0x35c9bd >>> 25;
+          _0x35c9bd = _0x309380 + _0xe647c4 | 0x0;
+          _0x2149c8 ^= _0x35c9bd << 0x9 | _0x35c9bd >>> 23;
+          _0x35c9bd = _0x2149c8 + _0x309380 | 0x0;
+          _0x5efa93 ^= _0x35c9bd << 0xd | _0x35c9bd >>> 19;
+          _0x35c9bd = _0x5efa93 + _0x2149c8 | 0x0;
+          _0xe647c4 ^= _0x35c9bd << 0x12 | _0x35c9bd >>> 14;
+          _0x35c9bd = _0xbef0e4 + _0xfa1f3d | 0x0;
+          _0x48099b ^= _0x35c9bd << 0x7 | _0x35c9bd >>> 25;
+          _0x35c9bd = _0x48099b + _0xbef0e4 | 0x0;
+          _0x251064 ^= _0x35c9bd << 0x9 | _0x35c9bd >>> 23;
+          _0x35c9bd = _0x251064 + _0x48099b | 0x0;
+          _0xfa1f3d ^= _0x35c9bd << 0xd | _0x35c9bd >>> 19;
+          _0x35c9bd = _0xfa1f3d + _0x251064 | 0x0;
+          _0xbef0e4 ^= _0x35c9bd << 0x12 | _0x35c9bd >>> 14;
+          _0x35c9bd = _0x2517d4 + _0x3eebe2 | 0x0;
+          _0x484f8b ^= _0x35c9bd << 0x7 | _0x35c9bd >>> 25;
+          _0x35c9bd = _0x484f8b + _0x2517d4 | 0x0;
+          _0x22c967 ^= _0x35c9bd << 0x9 | _0x35c9bd >>> 23;
+          _0x35c9bd = _0x22c967 + _0x484f8b | 0x0;
+          _0x3eebe2 ^= _0x35c9bd << 0xd | _0x35c9bd >>> 19;
+          _0x35c9bd = _0x3eebe2 + _0x22c967 | 0x0;
+          _0x2517d4 ^= _0x35c9bd << 0x12 | _0x35c9bd >>> 14;
+          _0x35c9bd = _0x293ac0 + _0x1e90ee | 0x0;
+          _0x2db0ff ^= _0x35c9bd << 0x7 | _0x35c9bd >>> 25;
+          _0x35c9bd = _0x2db0ff + _0x293ac0 | 0x0;
+          _0x45dcad ^= _0x35c9bd << 0x9 | _0x35c9bd >>> 23;
+          _0x35c9bd = _0x45dcad + _0x2db0ff | 0x0;
+          _0x1e90ee ^= _0x35c9bd << 0xd | _0x35c9bd >>> 19;
+          _0x35c9bd = _0x1e90ee + _0x45dcad | 0x0;
+          _0x293ac0 ^= _0x35c9bd << 0x12 | _0x35c9bd >>> 14;
+          _0x35c9bd = _0xe647c4 + _0x2db0ff | 0x0;
+          _0xfa1f3d ^= _0x35c9bd << 0x7 | _0x35c9bd >>> 25;
+          _0x35c9bd = _0xfa1f3d + _0xe647c4 | 0x0;
+          _0x22c967 ^= _0x35c9bd << 0x9 | _0x35c9bd >>> 23;
+          _0x35c9bd = _0x22c967 + _0xfa1f3d | 0x0;
+          _0x2db0ff ^= _0x35c9bd << 0xd | _0x35c9bd >>> 19;
+          _0x35c9bd = _0x2db0ff + _0x22c967 | 0x0;
+          _0xe647c4 ^= _0x35c9bd << 0x12 | _0x35c9bd >>> 14;
+          _0x35c9bd = _0xbef0e4 + _0x309380 | 0x0;
+          _0x3eebe2 ^= _0x35c9bd << 0x7 | _0x35c9bd >>> 25;
+          _0x35c9bd = _0x3eebe2 + _0xbef0e4 | 0x0;
+          _0x45dcad ^= _0x35c9bd << 0x9 | _0x35c9bd >>> 23;
+          _0x35c9bd = _0x45dcad + _0x3eebe2 | 0x0;
+          _0x309380 ^= _0x35c9bd << 0xd | _0x35c9bd >>> 19;
+          _0x35c9bd = _0x309380 + _0x45dcad | 0x0;
+          _0xbef0e4 ^= _0x35c9bd << 0x12 | _0x35c9bd >>> 14;
+          _0x35c9bd = _0x2517d4 + _0x48099b | 0x0;
+          _0x1e90ee ^= _0x35c9bd << 0x7 | _0x35c9bd >>> 25;
+          _0x35c9bd = _0x1e90ee + _0x2517d4 | 0x0;
+          _0x2149c8 ^= _0x35c9bd << 0x9 | _0x35c9bd >>> 23;
+          _0x35c9bd = _0x2149c8 + _0x1e90ee | 0x0;
+          _0x48099b ^= _0x35c9bd << 0xd | _0x35c9bd >>> 19;
+          _0x35c9bd = _0x48099b + _0x2149c8 | 0x0;
+          _0x2517d4 ^= _0x35c9bd << 0x12 | _0x35c9bd >>> 14;
+          _0x35c9bd = _0x293ac0 + _0x484f8b | 0x0;
+          _0x5efa93 ^= _0x35c9bd << 0x7 | _0x35c9bd >>> 25;
+          _0x35c9bd = _0x5efa93 + _0x293ac0 | 0x0;
+          _0x251064 ^= _0x35c9bd << 0x9 | _0x35c9bd >>> 23;
+          _0x35c9bd = _0x251064 + _0x5efa93 | 0x0;
+          _0x484f8b ^= _0x35c9bd << 0xd | _0x35c9bd >>> 19;
+          _0x35c9bd = _0x484f8b + _0x251064 | 0x0;
+          _0x293ac0 ^= _0x35c9bd << 0x12 | _0x35c9bd >>> 14;
+        }
+        _0x46de74[0x0] = _0xe647c4 >>> 0x0 & 0xff;
+        _0x46de74[0x1] = _0xe647c4 >>> 0x8 & 0xff;
+        _0x46de74[0x2] = _0xe647c4 >>> 0x10 & 0xff;
+        _0x46de74[0x3] = _0xe647c4 >>> 0x18 & 0xff;
+        _0x46de74[0x4] = _0xbef0e4 >>> 0x0 & 0xff;
+        _0x46de74[0x5] = _0xbef0e4 >>> 0x8 & 0xff;
+        _0x46de74[0x6] = _0xbef0e4 >>> 0x10 & 0xff;
+        _0x46de74[0x7] = _0xbef0e4 >>> 0x18 & 0xff;
+        _0x46de74[0x8] = _0x2517d4 >>> 0x0 & 0xff;
+        _0x46de74[0x9] = _0x2517d4 >>> 0x8 & 0xff;
+        _0x46de74[0xa] = _0x2517d4 >>> 0x10 & 0xff;
+        _0x46de74[0xb] = _0x2517d4 >>> 0x18 & 0xff;
+        _0x46de74[0xc] = _0x293ac0 >>> 0x0 & 0xff;
+        _0x46de74[0xd] = _0x293ac0 >>> 0x8 & 0xff;
+        _0x46de74[0xe] = _0x293ac0 >>> 0x10 & 0xff;
+        _0x46de74[0xf] = _0x293ac0 >>> 0x18 & 0xff;
+        _0x46de74[0x10] = _0x3eebe2 >>> 0x0 & 0xff;
+        _0x46de74[0x11] = _0x3eebe2 >>> 0x8 & 0xff;
+        _0x46de74[0x12] = _0x3eebe2 >>> 0x10 & 0xff;
+        _0x46de74[0x13] = _0x3eebe2 >>> 0x18 & 0xff;
+        _0x46de74[0x14] = _0x45dcad >>> 0x0 & 0xff;
+        _0x46de74[0x15] = _0x45dcad >>> 0x8 & 0xff;
+        _0x46de74[0x16] = _0x45dcad >>> 0x10 & 0xff;
+        _0x46de74[0x17] = _0x45dcad >>> 0x18 & 0xff;
+        _0x46de74[0x18] = _0x2149c8 >>> 0x0 & 0xff;
+        _0x46de74[0x19] = _0x2149c8 >>> 0x8 & 0xff;
+        _0x46de74[0x1a] = _0x2149c8 >>> 0x10 & 0xff;
+        _0x46de74[0x1b] = _0x2149c8 >>> 0x18 & 0xff;
+        _0x46de74[0x1c] = _0x48099b >>> 0x0 & 0xff;
+        _0x46de74[0x1d] = _0x48099b >>> 0x8 & 0xff;
+        _0x46de74[0x1e] = _0x48099b >>> 0x10 & 0xff;
+        _0x46de74[0x1f] = _0x48099b >>> 0x18 & 0xff;
       }
-      function crypto_core_hsalsa20(out, inp, k, c) {
-        core_hsalsa20(out, inp, k, c);
+      __defProp(_0x35bb40, "name", {
+        'value': "core_hsalsa20",
+        'configurable': true
+      });
+      function _0x26c993(_0x2a9d7a, _0x42f172, _0xf8d697, _0x5dbd9d) {
+        _0x4154ce(_0x2a9d7a, _0x42f172, _0xf8d697, _0x5dbd9d);
       }
-      var sigma = new Uint8Array([101, 120, 112, 97, 110, 100, 32, 51, 50, 45, 98, 121, 116, 101, 32, 107]);
-      function crypto_stream_salsa20_xor(c, cpos, m, mpos, b, n, k) {
-        var z = new Uint8Array(16), x = new Uint8Array(64);
-        var u, i;
-        for (i = 0; i < 16; i++)
-          z[i] = 0;
-        for (i = 0; i < 8; i++)
-          z[i] = n[i];
-        while (b >= 64) {
-          crypto_core_salsa20(x, z, k, sigma);
-          for (i = 0; i < 64; i++)
-            c[cpos + i] = m[mpos + i] ^ x[i];
-          u = 1;
-          for (i = 8; i < 16; i++) {
-            u = u + (z[i] & 255) | 0;
-            z[i] = u & 255;
-            u >>>= 8;
+      __defProp(_0x26c993, "name", {
+        'value': "crypto_core_salsa20",
+        'configurable': true
+      });
+      function _0xf178f6(_0x4bb72d, _0x48ef8e, _0x463172, _0x260ac4) {
+        _0x35bb40(_0x4bb72d, _0x48ef8e, _0x463172, _0x260ac4);
+      }
+      __defProp(_0xf178f6, "name", {
+        'value': "crypto_core_hsalsa20",
+        'configurable': true
+      });
+      var _0x1cc854 = new Uint8Array([0x65, 0x78, 0x70, 0x61, 0x6e, 0x64, 0x20, 0x33, 0x32, 0x2d, 0x62, 0x79, 0x74, 0x65, 0x20, 0x6b]);
+      function _0x373ffe(_0x5202f5, _0x3314bf, _0x2dd6f3, _0x3f146e, _0x5ea6d6, _0x29a388, _0x1c9c9f) {
+        var _0x12f701 = new Uint8Array(0x10);
+        var _0x3581c2 = new Uint8Array(0x40);
+        var _0x2d9e3d;
+        var _0x2c096e;
+        for (_0x2c096e = 0x0; _0x2c096e < 0x10; _0x2c096e++) {
+          _0x12f701[_0x2c096e] = 0x0;
+        }
+        for (_0x2c096e = 0x0; _0x2c096e < 0x8; _0x2c096e++) {
+          _0x12f701[_0x2c096e] = _0x29a388[_0x2c096e];
+        }
+        while (_0x5ea6d6 >= 0x40) {
+          _0x26c993(_0x3581c2, _0x12f701, _0x1c9c9f, _0x1cc854);
+          for (_0x2c096e = 0x0; _0x2c096e < 0x40; _0x2c096e++) {
+            _0x5202f5[_0x3314bf + _0x2c096e] = _0x2dd6f3[_0x3f146e + _0x2c096e] ^ _0x3581c2[_0x2c096e];
           }
-          b -= 64;
-          cpos += 64;
-          mpos += 64;
-        }
-        if (b > 0) {
-          crypto_core_salsa20(x, z, k, sigma);
-          for (i = 0; i < b; i++)
-            c[cpos + i] = m[mpos + i] ^ x[i];
-        }
-        return 0;
-      }
-      function crypto_stream_salsa20(c, cpos, b, n, k) {
-        var z = new Uint8Array(16), x = new Uint8Array(64);
-        var u, i;
-        for (i = 0; i < 16; i++)
-          z[i] = 0;
-        for (i = 0; i < 8; i++)
-          z[i] = n[i];
-        while (b >= 64) {
-          crypto_core_salsa20(x, z, k, sigma);
-          for (i = 0; i < 64; i++)
-            c[cpos + i] = x[i];
-          u = 1;
-          for (i = 8; i < 16; i++) {
-            u = u + (z[i] & 255) | 0;
-            z[i] = u & 255;
-            u >>>= 8;
+          _0x2d9e3d = 0x1;
+          for (_0x2c096e = 0x8; _0x2c096e < 0x10; _0x2c096e++) {
+            _0x2d9e3d = _0x2d9e3d + (_0x12f701[_0x2c096e] & 0xff) | 0x0;
+            _0x12f701[_0x2c096e] = _0x2d9e3d & 0xff;
+            _0x2d9e3d >>>= 0x8;
           }
-          b -= 64;
-          cpos += 64;
+          _0x5ea6d6 -= 0x40;
+          _0x3314bf += 0x40;
+          _0x3f146e += 0x40;
         }
-        if (b > 0) {
-          crypto_core_salsa20(x, z, k, sigma);
-          for (i = 0; i < b; i++)
-            c[cpos + i] = x[i];
+        if (_0x5ea6d6 > 0x0) {
+          _0x26c993(_0x3581c2, _0x12f701, _0x1c9c9f, _0x1cc854);
+          for (_0x2c096e = 0x0; _0x2c096e < _0x5ea6d6; _0x2c096e++) {
+            _0x5202f5[_0x3314bf + _0x2c096e] = _0x2dd6f3[_0x3f146e + _0x2c096e] ^ _0x3581c2[_0x2c096e];
+          }
         }
-        return 0;
+        return 0x0;
       }
-      function crypto_stream(c, cpos, d, n, k) {
-        var s = new Uint8Array(32);
-        crypto_core_hsalsa20(s, n, k, sigma);
-        var sn = new Uint8Array(8);
-        for (var i = 0; i < 8; i++)
-          sn[i] = n[i + 16];
-        return crypto_stream_salsa20(c, cpos, d, sn, s);
+      __defProp(_0x373ffe, "name", {
+        'value': "crypto_stream_salsa20_xor",
+        'configurable': true
+      });
+      function _0x530fbb(_0x11491c, _0x40ef69, _0x46dd23, _0x486d94, _0x278552) {
+        var _0x507d56 = new Uint8Array(0x10);
+        var _0x4a8748 = new Uint8Array(0x40);
+        var _0x456b94;
+        var _0x2c19b3;
+        for (_0x2c19b3 = 0x0; _0x2c19b3 < 0x10; _0x2c19b3++) {
+          _0x507d56[_0x2c19b3] = 0x0;
+        }
+        for (_0x2c19b3 = 0x0; _0x2c19b3 < 0x8; _0x2c19b3++) {
+          _0x507d56[_0x2c19b3] = _0x486d94[_0x2c19b3];
+        }
+        while (_0x46dd23 >= 0x40) {
+          _0x26c993(_0x4a8748, _0x507d56, _0x278552, _0x1cc854);
+          for (_0x2c19b3 = 0x0; _0x2c19b3 < 0x40; _0x2c19b3++) {
+            _0x11491c[_0x40ef69 + _0x2c19b3] = _0x4a8748[_0x2c19b3];
+          }
+          _0x456b94 = 0x1;
+          for (_0x2c19b3 = 0x8; _0x2c19b3 < 0x10; _0x2c19b3++) {
+            _0x456b94 = _0x456b94 + (_0x507d56[_0x2c19b3] & 0xff) | 0x0;
+            _0x507d56[_0x2c19b3] = _0x456b94 & 0xff;
+            _0x456b94 >>>= 0x8;
+          }
+          _0x46dd23 -= 0x40;
+          _0x40ef69 += 0x40;
+        }
+        if (_0x46dd23 > 0x0) {
+          _0x26c993(_0x4a8748, _0x507d56, _0x278552, _0x1cc854);
+          for (_0x2c19b3 = 0x0; _0x2c19b3 < _0x46dd23; _0x2c19b3++) {
+            _0x11491c[_0x40ef69 + _0x2c19b3] = _0x4a8748[_0x2c19b3];
+          }
+        }
+        return 0x0;
       }
-      function crypto_stream_xor(c, cpos, m, mpos, d, n, k) {
-        var s = new Uint8Array(32);
-        crypto_core_hsalsa20(s, n, k, sigma);
-        var sn = new Uint8Array(8);
-        for (var i = 0; i < 8; i++)
-          sn[i] = n[i + 16];
-        return crypto_stream_salsa20_xor(c, cpos, m, mpos, d, sn, s);
+      __defProp(_0x530fbb, "name", {
+        'value': "crypto_stream_salsa20",
+        'configurable': true
+      });
+      function _0x3fa61b(_0x1b97f0, _0xccdc40, _0x12ca46, _0x481890, _0x12d4bd) {
+        var _0x3fb4be = new Uint8Array(0x20);
+        _0xf178f6(_0x3fb4be, _0x481890, _0x12d4bd, _0x1cc854);
+        var _0x1919b6 = new Uint8Array(0x8);
+        for (var _0x29720b = 0x0; _0x29720b < 0x8; _0x29720b++) {
+          _0x1919b6[_0x29720b] = _0x481890[_0x29720b + 0x10];
+        }
+        return _0x530fbb(_0x1b97f0, _0xccdc40, _0x12ca46, _0x1919b6, _0x3fb4be);
       }
-      var poly1305 = function(key) {
-        this.buffer = new Uint8Array(16);
-        this.r = new Uint16Array(10);
-        this.h = new Uint16Array(10);
-        this.pad = new Uint16Array(8);
-        this.leftover = 0;
-        this.fin = 0;
-        var t0, t1, t2, t3, t4, t5, t6, t7;
-        t0 = key[0] & 255 | (key[1] & 255) << 8;
-        this.r[0] = t0 & 8191;
-        t1 = key[2] & 255 | (key[3] & 255) << 8;
-        this.r[1] = (t0 >>> 13 | t1 << 3) & 8191;
-        t2 = key[4] & 255 | (key[5] & 255) << 8;
-        this.r[2] = (t1 >>> 10 | t2 << 6) & 7939;
-        t3 = key[6] & 255 | (key[7] & 255) << 8;
-        this.r[3] = (t2 >>> 7 | t3 << 9) & 8191;
-        t4 = key[8] & 255 | (key[9] & 255) << 8;
-        this.r[4] = (t3 >>> 4 | t4 << 12) & 255;
-        this.r[5] = t4 >>> 1 & 8190;
-        t5 = key[10] & 255 | (key[11] & 255) << 8;
-        this.r[6] = (t4 >>> 14 | t5 << 2) & 8191;
-        t6 = key[12] & 255 | (key[13] & 255) << 8;
-        this.r[7] = (t5 >>> 11 | t6 << 5) & 8065;
-        t7 = key[14] & 255 | (key[15] & 255) << 8;
-        this.r[8] = (t6 >>> 8 | t7 << 8) & 8191;
-        this.r[9] = t7 >>> 5 & 127;
-        this.pad[0] = key[16] & 255 | (key[17] & 255) << 8;
-        this.pad[1] = key[18] & 255 | (key[19] & 255) << 8;
-        this.pad[2] = key[20] & 255 | (key[21] & 255) << 8;
-        this.pad[3] = key[22] & 255 | (key[23] & 255) << 8;
-        this.pad[4] = key[24] & 255 | (key[25] & 255) << 8;
-        this.pad[5] = key[26] & 255 | (key[27] & 255) << 8;
-        this.pad[6] = key[28] & 255 | (key[29] & 255) << 8;
-        this.pad[7] = key[30] & 255 | (key[31] & 255) << 8;
+      __defProp(_0x3fa61b, "name", {
+        'value': "crypto_stream",
+        'configurable': true
+      });
+      function _0x2650ce(_0x1e2a2b, _0x4afe48, _0x552c63, _0x32564d, _0x161c4e, _0x450340, _0x413d01) {
+        var _0x2648c6 = new Uint8Array(0x20);
+        _0xf178f6(_0x2648c6, _0x450340, _0x413d01, _0x1cc854);
+        var _0x3d57c7 = new Uint8Array(0x8);
+        for (var _0x79d9d9 = 0x0; _0x79d9d9 < 0x8; _0x79d9d9++) {
+          _0x3d57c7[_0x79d9d9] = _0x450340[_0x79d9d9 + 0x10];
+        }
+        return _0x373ffe(_0x1e2a2b, _0x4afe48, _0x552c63, _0x32564d, _0x161c4e, _0x3d57c7, _0x2648c6);
+      }
+      __defProp(_0x2650ce, "name", {
+        'value': "crypto_stream_xor",
+        'configurable': true
+      });
+      var _0x2e78b9 = __defProp(function (_0xdcf66d) {
+        this.buffer = new Uint8Array(0x10);
+        this.r = new Uint16Array(0xa);
+        this.h = new Uint16Array(0xa);
+        this.pad = new Uint16Array(0x8);
+        this.leftover = 0x0;
+        this.fin = 0x0;
+        var _0x87f436;
+        var _0x160e23;
+        var _0x3e96c7;
+        var _0x4a272f;
+        var _0x162e70;
+        var _0x35a2cc;
+        var _0x57a693;
+        var _0x2df708;
+        _0x87f436 = _0xdcf66d[0x0] & 0xff | (_0xdcf66d[0x1] & 0xff) << 0x8;
+        this.r[0x0] = _0x87f436 & 0x1fff;
+        _0x160e23 = _0xdcf66d[0x2] & 0xff | (_0xdcf66d[0x3] & 0xff) << 0x8;
+        this.r[0x1] = (_0x87f436 >>> 0xd | _0x160e23 << 0x3) & 0x1fff;
+        _0x3e96c7 = _0xdcf66d[0x4] & 0xff | (_0xdcf66d[0x5] & 0xff) << 0x8;
+        this.r[0x2] = (_0x160e23 >>> 0xa | _0x3e96c7 << 0x6) & 0x1f03;
+        _0x4a272f = _0xdcf66d[0x6] & 0xff | (_0xdcf66d[0x7] & 0xff) << 0x8;
+        this.r[0x3] = (_0x3e96c7 >>> 0x7 | _0x4a272f << 0x9) & 0x1fff;
+        _0x162e70 = _0xdcf66d[0x8] & 0xff | (_0xdcf66d[0x9] & 0xff) << 0x8;
+        this.r[0x4] = (_0x4a272f >>> 0x4 | _0x162e70 << 0xc) & 0xff;
+        this.r[0x5] = _0x162e70 >>> 0x1 & 0x1ffe;
+        _0x35a2cc = _0xdcf66d[0xa] & 0xff | (_0xdcf66d[0xb] & 0xff) << 0x8;
+        this.r[0x6] = (_0x162e70 >>> 0xe | _0x35a2cc << 0x2) & 0x1fff;
+        _0x57a693 = _0xdcf66d[0xc] & 0xff | (_0xdcf66d[0xd] & 0xff) << 0x8;
+        this.r[0x7] = (_0x35a2cc >>> 0xb | _0x57a693 << 0x5) & 0x1f81;
+        _0x2df708 = _0xdcf66d[0xe] & 0xff | (_0xdcf66d[0xf] & 0xff) << 0x8;
+        this.r[0x8] = (_0x57a693 >>> 0x8 | _0x2df708 << 0x8) & 0x1fff;
+        this.r[0x9] = _0x2df708 >>> 0x5 & 0x7f;
+        this.pad[0x0] = _0xdcf66d[0x10] & 0xff | (_0xdcf66d[0x11] & 0xff) << 0x8;
+        this.pad[0x1] = _0xdcf66d[0x12] & 0xff | (_0xdcf66d[0x13] & 0xff) << 0x8;
+        this.pad[0x2] = _0xdcf66d[0x14] & 0xff | (_0xdcf66d[0x15] & 0xff) << 0x8;
+        this.pad[0x3] = _0xdcf66d[0x16] & 0xff | (_0xdcf66d[0x17] & 0xff) << 0x8;
+        this.pad[0x4] = _0xdcf66d[0x18] & 0xff | (_0xdcf66d[0x19] & 0xff) << 0x8;
+        this.pad[0x5] = _0xdcf66d[0x1a] & 0xff | (_0xdcf66d[0x1b] & 0xff) << 0x8;
+        this.pad[0x6] = _0xdcf66d[0x1c] & 0xff | (_0xdcf66d[0x1d] & 0xff) << 0x8;
+        this.pad[0x7] = _0xdcf66d[0x1e] & 0xff | (_0xdcf66d[0x1f] & 0xff) << 0x8;
+      }, "name", {
+        'value': "poly1305",
+        'configurable': true
+      });
+      _0x2e78b9.prototype.blocks = function (_0x476125, _0x5af89c, _0x325a7c) {
+        var _0xdad95a = this.fin ? 0x0 : 2048;
+        var _0x476e21;
+        var _0x22e32e;
+        var _0x4fb686;
+        var _0xf6e9f2;
+        var _0x16108b;
+        var _0x31f090;
+        var _0x52c3a3;
+        var _0x3ccc05;
+        var _0x1ee6e9;
+        var _0x1feb6d;
+        var _0x42e641;
+        var _0x529901;
+        var _0x568ff1;
+        var _0x24d5bb;
+        var _0x2b0a86;
+        var _0x1ad828;
+        var _0x308a6e;
+        var _0x5e4d5b;
+        var _0x5d17ee;
+        var _0x376234 = this.h[0x0];
+        var _0x12b451 = this.h[0x1];
+        var _0x582e92 = this.h[0x2];
+        var _0x476e85 = this.h[0x3];
+        var _0x7fa270 = this.h[0x4];
+        var _0x4c69dc = this.h[0x5];
+        var _0x33a4ef = this.h[0x6];
+        var _0x25f110 = this.h[0x7];
+        var _0x232ef1 = this.h[0x8];
+        var _0x55dd99 = this.h[0x9];
+        var _0x5a70cb = this.r[0x0];
+        var _0x3d97d6 = this.r[0x1];
+        var _0x275dc7 = this.r[0x2];
+        var _0x4fd850 = this.r[0x3];
+        var _0x20e94b = this.r[0x4];
+        var _0x5500e2 = this.r[0x5];
+        var _0x58470d = this.r[0x6];
+        var _0x217235 = this.r[0x7];
+        var _0x322695 = this.r[0x8];
+        var _0x252ab2 = this.r[0x9];
+        while (_0x325a7c >= 0x10) {
+          _0x476e21 = _0x476125[_0x5af89c + 0x0] & 0xff | (_0x476125[_0x5af89c + 0x1] & 0xff) << 0x8;
+          _0x376234 += _0x476e21 & 0x1fff;
+          _0x22e32e = _0x476125[_0x5af89c + 0x2] & 0xff | (_0x476125[_0x5af89c + 0x3] & 0xff) << 0x8;
+          _0x12b451 += (_0x476e21 >>> 0xd | _0x22e32e << 0x3) & 0x1fff;
+          _0x4fb686 = _0x476125[_0x5af89c + 0x4] & 0xff | (_0x476125[_0x5af89c + 0x5] & 0xff) << 0x8;
+          _0x582e92 += (_0x22e32e >>> 0xa | _0x4fb686 << 0x6) & 0x1fff;
+          _0xf6e9f2 = _0x476125[_0x5af89c + 0x6] & 0xff | (_0x476125[_0x5af89c + 0x7] & 0xff) << 0x8;
+          _0x476e85 += (_0x4fb686 >>> 0x7 | _0xf6e9f2 << 0x9) & 0x1fff;
+          _0x16108b = _0x476125[_0x5af89c + 0x8] & 0xff | (_0x476125[_0x5af89c + 0x9] & 0xff) << 0x8;
+          _0x7fa270 += (_0xf6e9f2 >>> 0x4 | _0x16108b << 0xc) & 0x1fff;
+          _0x4c69dc += _0x16108b >>> 0x1 & 0x1fff;
+          _0x31f090 = _0x476125[_0x5af89c + 0xa] & 0xff | (_0x476125[_0x5af89c + 0xb] & 0xff) << 0x8;
+          _0x33a4ef += (_0x16108b >>> 0xe | _0x31f090 << 0x2) & 0x1fff;
+          _0x52c3a3 = _0x476125[_0x5af89c + 0xc] & 0xff | (_0x476125[_0x5af89c + 0xd] & 0xff) << 0x8;
+          _0x25f110 += (_0x31f090 >>> 0xb | _0x52c3a3 << 0x5) & 0x1fff;
+          _0x3ccc05 = _0x476125[_0x5af89c + 0xe] & 0xff | (_0x476125[_0x5af89c + 0xf] & 0xff) << 0x8;
+          _0x232ef1 += (_0x52c3a3 >>> 0x8 | _0x3ccc05 << 0x8) & 0x1fff;
+          _0x55dd99 += _0x3ccc05 >>> 0x5 | _0xdad95a;
+          _0x1ee6e9 = 0x0;
+          _0x1feb6d = _0x1ee6e9;
+          _0x1feb6d += _0x376234 * _0x5a70cb;
+          _0x1feb6d += _0x12b451 * (0x5 * _0x252ab2);
+          _0x1feb6d += _0x582e92 * (0x5 * _0x322695);
+          _0x1feb6d += _0x476e85 * (0x5 * _0x217235);
+          _0x1feb6d += _0x7fa270 * (0x5 * _0x58470d);
+          _0x1ee6e9 = _0x1feb6d >>> 0xd;
+          _0x1feb6d &= 0x1fff;
+          _0x1feb6d += _0x4c69dc * (0x5 * _0x5500e2);
+          _0x1feb6d += _0x33a4ef * (0x5 * _0x20e94b);
+          _0x1feb6d += _0x25f110 * (0x5 * _0x4fd850);
+          _0x1feb6d += _0x232ef1 * (0x5 * _0x275dc7);
+          _0x1feb6d += _0x55dd99 * (0x5 * _0x3d97d6);
+          _0x1ee6e9 += _0x1feb6d >>> 0xd;
+          _0x1feb6d &= 0x1fff;
+          _0x42e641 = _0x1ee6e9;
+          _0x42e641 += _0x376234 * _0x3d97d6;
+          _0x42e641 += _0x12b451 * _0x5a70cb;
+          _0x42e641 += _0x582e92 * (0x5 * _0x252ab2);
+          _0x42e641 += _0x476e85 * (0x5 * _0x322695);
+          _0x42e641 += _0x7fa270 * (0x5 * _0x217235);
+          _0x1ee6e9 = _0x42e641 >>> 0xd;
+          _0x42e641 &= 0x1fff;
+          _0x42e641 += _0x4c69dc * (0x5 * _0x58470d);
+          _0x42e641 += _0x33a4ef * (0x5 * _0x5500e2);
+          _0x42e641 += _0x25f110 * (0x5 * _0x20e94b);
+          _0x42e641 += _0x232ef1 * (0x5 * _0x4fd850);
+          _0x42e641 += _0x55dd99 * (0x5 * _0x275dc7);
+          _0x1ee6e9 += _0x42e641 >>> 0xd;
+          _0x42e641 &= 0x1fff;
+          _0x529901 = _0x1ee6e9;
+          _0x529901 += _0x376234 * _0x275dc7;
+          _0x529901 += _0x12b451 * _0x3d97d6;
+          _0x529901 += _0x582e92 * _0x5a70cb;
+          _0x529901 += _0x476e85 * (0x5 * _0x252ab2);
+          _0x529901 += _0x7fa270 * (0x5 * _0x322695);
+          _0x1ee6e9 = _0x529901 >>> 0xd;
+          _0x529901 &= 0x1fff;
+          _0x529901 += _0x4c69dc * (0x5 * _0x217235);
+          _0x529901 += _0x33a4ef * (0x5 * _0x58470d);
+          _0x529901 += _0x25f110 * (0x5 * _0x5500e2);
+          _0x529901 += _0x232ef1 * (0x5 * _0x20e94b);
+          _0x529901 += _0x55dd99 * (0x5 * _0x4fd850);
+          _0x1ee6e9 += _0x529901 >>> 0xd;
+          _0x529901 &= 0x1fff;
+          _0x568ff1 = _0x1ee6e9;
+          _0x568ff1 += _0x376234 * _0x4fd850;
+          _0x568ff1 += _0x12b451 * _0x275dc7;
+          _0x568ff1 += _0x582e92 * _0x3d97d6;
+          _0x568ff1 += _0x476e85 * _0x5a70cb;
+          _0x568ff1 += _0x7fa270 * (0x5 * _0x252ab2);
+          _0x1ee6e9 = _0x568ff1 >>> 0xd;
+          _0x568ff1 &= 0x1fff;
+          _0x568ff1 += _0x4c69dc * (0x5 * _0x322695);
+          _0x568ff1 += _0x33a4ef * (0x5 * _0x217235);
+          _0x568ff1 += _0x25f110 * (0x5 * _0x58470d);
+          _0x568ff1 += _0x232ef1 * (0x5 * _0x5500e2);
+          _0x568ff1 += _0x55dd99 * (0x5 * _0x20e94b);
+          _0x1ee6e9 += _0x568ff1 >>> 0xd;
+          _0x568ff1 &= 0x1fff;
+          _0x24d5bb = _0x1ee6e9;
+          _0x24d5bb += _0x376234 * _0x20e94b;
+          _0x24d5bb += _0x12b451 * _0x4fd850;
+          _0x24d5bb += _0x582e92 * _0x275dc7;
+          _0x24d5bb += _0x476e85 * _0x3d97d6;
+          _0x24d5bb += _0x7fa270 * _0x5a70cb;
+          _0x1ee6e9 = _0x24d5bb >>> 0xd;
+          _0x24d5bb &= 0x1fff;
+          _0x24d5bb += _0x4c69dc * (0x5 * _0x252ab2);
+          _0x24d5bb += _0x33a4ef * (0x5 * _0x322695);
+          _0x24d5bb += _0x25f110 * (0x5 * _0x217235);
+          _0x24d5bb += _0x232ef1 * (0x5 * _0x58470d);
+          _0x24d5bb += _0x55dd99 * (0x5 * _0x5500e2);
+          _0x1ee6e9 += _0x24d5bb >>> 0xd;
+          _0x24d5bb &= 0x1fff;
+          _0x2b0a86 = _0x1ee6e9;
+          _0x2b0a86 += _0x376234 * _0x5500e2;
+          _0x2b0a86 += _0x12b451 * _0x20e94b;
+          _0x2b0a86 += _0x582e92 * _0x4fd850;
+          _0x2b0a86 += _0x476e85 * _0x275dc7;
+          _0x2b0a86 += _0x7fa270 * _0x3d97d6;
+          _0x1ee6e9 = _0x2b0a86 >>> 0xd;
+          _0x2b0a86 &= 0x1fff;
+          _0x2b0a86 += _0x4c69dc * _0x5a70cb;
+          _0x2b0a86 += _0x33a4ef * (0x5 * _0x252ab2);
+          _0x2b0a86 += _0x25f110 * (0x5 * _0x322695);
+          _0x2b0a86 += _0x232ef1 * (0x5 * _0x217235);
+          _0x2b0a86 += _0x55dd99 * (0x5 * _0x58470d);
+          _0x1ee6e9 += _0x2b0a86 >>> 0xd;
+          _0x2b0a86 &= 0x1fff;
+          _0x1ad828 = _0x1ee6e9;
+          _0x1ad828 += _0x376234 * _0x58470d;
+          _0x1ad828 += _0x12b451 * _0x5500e2;
+          _0x1ad828 += _0x582e92 * _0x20e94b;
+          _0x1ad828 += _0x476e85 * _0x4fd850;
+          _0x1ad828 += _0x7fa270 * _0x275dc7;
+          _0x1ee6e9 = _0x1ad828 >>> 0xd;
+          _0x1ad828 &= 0x1fff;
+          _0x1ad828 += _0x4c69dc * _0x3d97d6;
+          _0x1ad828 += _0x33a4ef * _0x5a70cb;
+          _0x1ad828 += _0x25f110 * (0x5 * _0x252ab2);
+          _0x1ad828 += _0x232ef1 * (0x5 * _0x322695);
+          _0x1ad828 += _0x55dd99 * (0x5 * _0x217235);
+          _0x1ee6e9 += _0x1ad828 >>> 0xd;
+          _0x1ad828 &= 0x1fff;
+          _0x308a6e = _0x1ee6e9;
+          _0x308a6e += _0x376234 * _0x217235;
+          _0x308a6e += _0x12b451 * _0x58470d;
+          _0x308a6e += _0x582e92 * _0x5500e2;
+          _0x308a6e += _0x476e85 * _0x20e94b;
+          _0x308a6e += _0x7fa270 * _0x4fd850;
+          _0x1ee6e9 = _0x308a6e >>> 0xd;
+          _0x308a6e &= 0x1fff;
+          _0x308a6e += _0x4c69dc * _0x275dc7;
+          _0x308a6e += _0x33a4ef * _0x3d97d6;
+          _0x308a6e += _0x25f110 * _0x5a70cb;
+          _0x308a6e += _0x232ef1 * (0x5 * _0x252ab2);
+          _0x308a6e += _0x55dd99 * (0x5 * _0x322695);
+          _0x1ee6e9 += _0x308a6e >>> 0xd;
+          _0x308a6e &= 0x1fff;
+          _0x5e4d5b = _0x1ee6e9;
+          _0x5e4d5b += _0x376234 * _0x322695;
+          _0x5e4d5b += _0x12b451 * _0x217235;
+          _0x5e4d5b += _0x582e92 * _0x58470d;
+          _0x5e4d5b += _0x476e85 * _0x5500e2;
+          _0x5e4d5b += _0x7fa270 * _0x20e94b;
+          _0x1ee6e9 = _0x5e4d5b >>> 0xd;
+          _0x5e4d5b &= 0x1fff;
+          _0x5e4d5b += _0x4c69dc * _0x4fd850;
+          _0x5e4d5b += _0x33a4ef * _0x275dc7;
+          _0x5e4d5b += _0x25f110 * _0x3d97d6;
+          _0x5e4d5b += _0x232ef1 * _0x5a70cb;
+          _0x5e4d5b += _0x55dd99 * (0x5 * _0x252ab2);
+          _0x1ee6e9 += _0x5e4d5b >>> 0xd;
+          _0x5e4d5b &= 0x1fff;
+          _0x5d17ee = _0x1ee6e9;
+          _0x5d17ee += _0x376234 * _0x252ab2;
+          _0x5d17ee += _0x12b451 * _0x322695;
+          _0x5d17ee += _0x582e92 * _0x217235;
+          _0x5d17ee += _0x476e85 * _0x58470d;
+          _0x5d17ee += _0x7fa270 * _0x5500e2;
+          _0x1ee6e9 = _0x5d17ee >>> 0xd;
+          _0x5d17ee &= 0x1fff;
+          _0x5d17ee += _0x4c69dc * _0x20e94b;
+          _0x5d17ee += _0x33a4ef * _0x4fd850;
+          _0x5d17ee += _0x25f110 * _0x275dc7;
+          _0x5d17ee += _0x232ef1 * _0x3d97d6;
+          _0x5d17ee += _0x55dd99 * _0x5a70cb;
+          _0x1ee6e9 += _0x5d17ee >>> 0xd;
+          _0x5d17ee &= 0x1fff;
+          _0x1ee6e9 = (_0x1ee6e9 << 0x2) + _0x1ee6e9 | 0x0;
+          _0x1ee6e9 = _0x1ee6e9 + _0x1feb6d | 0x0;
+          _0x1feb6d = _0x1ee6e9 & 0x1fff;
+          _0x1ee6e9 = _0x1ee6e9 >>> 0xd;
+          _0x42e641 += _0x1ee6e9;
+          _0x376234 = _0x1feb6d;
+          _0x12b451 = _0x42e641;
+          _0x582e92 = _0x529901;
+          _0x476e85 = _0x568ff1;
+          _0x7fa270 = _0x24d5bb;
+          _0x4c69dc = _0x2b0a86;
+          _0x33a4ef = _0x1ad828;
+          _0x25f110 = _0x308a6e;
+          _0x232ef1 = _0x5e4d5b;
+          _0x55dd99 = _0x5d17ee;
+          _0x5af89c += 0x10;
+          _0x325a7c -= 0x10;
+        }
+        this.h[0x0] = _0x376234;
+        this.h[0x1] = _0x12b451;
+        this.h[0x2] = _0x582e92;
+        this.h[0x3] = _0x476e85;
+        this.h[0x4] = _0x7fa270;
+        this.h[0x5] = _0x4c69dc;
+        this.h[0x6] = _0x33a4ef;
+        this.h[0x7] = _0x25f110;
+        this.h[0x8] = _0x232ef1;
+        this.h[0x9] = _0x55dd99;
       };
-      poly1305.prototype.blocks = function(m, mpos, bytes) {
-        var hibit = this.fin ? 0 : 1 << 11;
-        var t0, t1, t2, t3, t4, t5, t6, t7, c;
-        var d0, d1, d2, d3, d4, d5, d6, d7, d8, d9;
-        var h0 = this.h[0], h1 = this.h[1], h2 = this.h[2], h3 = this.h[3], h4 = this.h[4], h5 = this.h[5], h6 = this.h[6], h7 = this.h[7], h8 = this.h[8], h9 = this.h[9];
-        var r0 = this.r[0], r1 = this.r[1], r2 = this.r[2], r3 = this.r[3], r4 = this.r[4], r5 = this.r[5], r6 = this.r[6], r7 = this.r[7], r8 = this.r[8], r9 = this.r[9];
-        while (bytes >= 16) {
-          t0 = m[mpos + 0] & 255 | (m[mpos + 1] & 255) << 8;
-          h0 += t0 & 8191;
-          t1 = m[mpos + 2] & 255 | (m[mpos + 3] & 255) << 8;
-          h1 += (t0 >>> 13 | t1 << 3) & 8191;
-          t2 = m[mpos + 4] & 255 | (m[mpos + 5] & 255) << 8;
-          h2 += (t1 >>> 10 | t2 << 6) & 8191;
-          t3 = m[mpos + 6] & 255 | (m[mpos + 7] & 255) << 8;
-          h3 += (t2 >>> 7 | t3 << 9) & 8191;
-          t4 = m[mpos + 8] & 255 | (m[mpos + 9] & 255) << 8;
-          h4 += (t3 >>> 4 | t4 << 12) & 8191;
-          h5 += t4 >>> 1 & 8191;
-          t5 = m[mpos + 10] & 255 | (m[mpos + 11] & 255) << 8;
-          h6 += (t4 >>> 14 | t5 << 2) & 8191;
-          t6 = m[mpos + 12] & 255 | (m[mpos + 13] & 255) << 8;
-          h7 += (t5 >>> 11 | t6 << 5) & 8191;
-          t7 = m[mpos + 14] & 255 | (m[mpos + 15] & 255) << 8;
-          h8 += (t6 >>> 8 | t7 << 8) & 8191;
-          h9 += t7 >>> 5 | hibit;
-          c = 0;
-          d0 = c;
-          d0 += h0 * r0;
-          d0 += h1 * (5 * r9);
-          d0 += h2 * (5 * r8);
-          d0 += h3 * (5 * r7);
-          d0 += h4 * (5 * r6);
-          c = d0 >>> 13;
-          d0 &= 8191;
-          d0 += h5 * (5 * r5);
-          d0 += h6 * (5 * r4);
-          d0 += h7 * (5 * r3);
-          d0 += h8 * (5 * r2);
-          d0 += h9 * (5 * r1);
-          c += d0 >>> 13;
-          d0 &= 8191;
-          d1 = c;
-          d1 += h0 * r1;
-          d1 += h1 * r0;
-          d1 += h2 * (5 * r9);
-          d1 += h3 * (5 * r8);
-          d1 += h4 * (5 * r7);
-          c = d1 >>> 13;
-          d1 &= 8191;
-          d1 += h5 * (5 * r6);
-          d1 += h6 * (5 * r5);
-          d1 += h7 * (5 * r4);
-          d1 += h8 * (5 * r3);
-          d1 += h9 * (5 * r2);
-          c += d1 >>> 13;
-          d1 &= 8191;
-          d2 = c;
-          d2 += h0 * r2;
-          d2 += h1 * r1;
-          d2 += h2 * r0;
-          d2 += h3 * (5 * r9);
-          d2 += h4 * (5 * r8);
-          c = d2 >>> 13;
-          d2 &= 8191;
-          d2 += h5 * (5 * r7);
-          d2 += h6 * (5 * r6);
-          d2 += h7 * (5 * r5);
-          d2 += h8 * (5 * r4);
-          d2 += h9 * (5 * r3);
-          c += d2 >>> 13;
-          d2 &= 8191;
-          d3 = c;
-          d3 += h0 * r3;
-          d3 += h1 * r2;
-          d3 += h2 * r1;
-          d3 += h3 * r0;
-          d3 += h4 * (5 * r9);
-          c = d3 >>> 13;
-          d3 &= 8191;
-          d3 += h5 * (5 * r8);
-          d3 += h6 * (5 * r7);
-          d3 += h7 * (5 * r6);
-          d3 += h8 * (5 * r5);
-          d3 += h9 * (5 * r4);
-          c += d3 >>> 13;
-          d3 &= 8191;
-          d4 = c;
-          d4 += h0 * r4;
-          d4 += h1 * r3;
-          d4 += h2 * r2;
-          d4 += h3 * r1;
-          d4 += h4 * r0;
-          c = d4 >>> 13;
-          d4 &= 8191;
-          d4 += h5 * (5 * r9);
-          d4 += h6 * (5 * r8);
-          d4 += h7 * (5 * r7);
-          d4 += h8 * (5 * r6);
-          d4 += h9 * (5 * r5);
-          c += d4 >>> 13;
-          d4 &= 8191;
-          d5 = c;
-          d5 += h0 * r5;
-          d5 += h1 * r4;
-          d5 += h2 * r3;
-          d5 += h3 * r2;
-          d5 += h4 * r1;
-          c = d5 >>> 13;
-          d5 &= 8191;
-          d5 += h5 * r0;
-          d5 += h6 * (5 * r9);
-          d5 += h7 * (5 * r8);
-          d5 += h8 * (5 * r7);
-          d5 += h9 * (5 * r6);
-          c += d5 >>> 13;
-          d5 &= 8191;
-          d6 = c;
-          d6 += h0 * r6;
-          d6 += h1 * r5;
-          d6 += h2 * r4;
-          d6 += h3 * r3;
-          d6 += h4 * r2;
-          c = d6 >>> 13;
-          d6 &= 8191;
-          d6 += h5 * r1;
-          d6 += h6 * r0;
-          d6 += h7 * (5 * r9);
-          d6 += h8 * (5 * r8);
-          d6 += h9 * (5 * r7);
-          c += d6 >>> 13;
-          d6 &= 8191;
-          d7 = c;
-          d7 += h0 * r7;
-          d7 += h1 * r6;
-          d7 += h2 * r5;
-          d7 += h3 * r4;
-          d7 += h4 * r3;
-          c = d7 >>> 13;
-          d7 &= 8191;
-          d7 += h5 * r2;
-          d7 += h6 * r1;
-          d7 += h7 * r0;
-          d7 += h8 * (5 * r9);
-          d7 += h9 * (5 * r8);
-          c += d7 >>> 13;
-          d7 &= 8191;
-          d8 = c;
-          d8 += h0 * r8;
-          d8 += h1 * r7;
-          d8 += h2 * r6;
-          d8 += h3 * r5;
-          d8 += h4 * r4;
-          c = d8 >>> 13;
-          d8 &= 8191;
-          d8 += h5 * r3;
-          d8 += h6 * r2;
-          d8 += h7 * r1;
-          d8 += h8 * r0;
-          d8 += h9 * (5 * r9);
-          c += d8 >>> 13;
-          d8 &= 8191;
-          d9 = c;
-          d9 += h0 * r9;
-          d9 += h1 * r8;
-          d9 += h2 * r7;
-          d9 += h3 * r6;
-          d9 += h4 * r5;
-          c = d9 >>> 13;
-          d9 &= 8191;
-          d9 += h5 * r4;
-          d9 += h6 * r3;
-          d9 += h7 * r2;
-          d9 += h8 * r1;
-          d9 += h9 * r0;
-          c += d9 >>> 13;
-          d9 &= 8191;
-          c = (c << 2) + c | 0;
-          c = c + d0 | 0;
-          d0 = c & 8191;
-          c = c >>> 13;
-          d1 += c;
-          h0 = d0;
-          h1 = d1;
-          h2 = d2;
-          h3 = d3;
-          h4 = d4;
-          h5 = d5;
-          h6 = d6;
-          h7 = d7;
-          h8 = d8;
-          h9 = d9;
-          mpos += 16;
-          bytes -= 16;
-        }
-        this.h[0] = h0;
-        this.h[1] = h1;
-        this.h[2] = h2;
-        this.h[3] = h3;
-        this.h[4] = h4;
-        this.h[5] = h5;
-        this.h[6] = h6;
-        this.h[7] = h7;
-        this.h[8] = h8;
-        this.h[9] = h9;
-      };
-      poly1305.prototype.finish = function(mac, macpos) {
-        var g = new Uint16Array(10);
-        var c, mask, f, i;
+      _0x2e78b9.prototype.finish = function (_0x54d183, _0x4c3e96) {
+        var _0x32dc91 = new Uint16Array(0xa);
+        var _0x425452;
+        var _0x256f64;
+        var _0x55cb97;
+        var _0x182823;
         if (this.leftover) {
-          i = this.leftover;
-          this.buffer[i++] = 1;
-          for (; i < 16; i++)
-            this.buffer[i] = 0;
-          this.fin = 1;
-          this.blocks(this.buffer, 0, 16);
+          _0x182823 = this.leftover;
+          this.buffer[_0x182823++] = 0x1;
+          for (; _0x182823 < 0x10; _0x182823++) {
+            this.buffer[_0x182823] = 0x0;
+          }
+          this.fin = 0x1;
+          this.blocks(this.buffer, 0x0, 0x10);
         }
-        c = this.h[1] >>> 13;
-        this.h[1] &= 8191;
-        for (i = 2; i < 10; i++) {
-          this.h[i] += c;
-          c = this.h[i] >>> 13;
-          this.h[i] &= 8191;
+        _0x425452 = this.h[0x1] >>> 0xd;
+        this.h[0x1] &= 0x1fff;
+        for (_0x182823 = 0x2; _0x182823 < 0xa; _0x182823++) {
+          this.h[_0x182823] += _0x425452;
+          _0x425452 = this.h[_0x182823] >>> 0xd;
+          this.h[_0x182823] &= 0x1fff;
         }
-        this.h[0] += c * 5;
-        c = this.h[0] >>> 13;
-        this.h[0] &= 8191;
-        this.h[1] += c;
-        c = this.h[1] >>> 13;
-        this.h[1] &= 8191;
-        this.h[2] += c;
-        g[0] = this.h[0] + 5;
-        c = g[0] >>> 13;
-        g[0] &= 8191;
-        for (i = 1; i < 10; i++) {
-          g[i] = this.h[i] + c;
-          c = g[i] >>> 13;
-          g[i] &= 8191;
+        this.h[0x0] += _0x425452 * 0x5;
+        _0x425452 = this.h[0x0] >>> 0xd;
+        this.h[0x0] &= 0x1fff;
+        this.h[0x1] += _0x425452;
+        _0x425452 = this.h[0x1] >>> 0xd;
+        this.h[0x1] &= 0x1fff;
+        this.h[0x2] += _0x425452;
+        _0x32dc91[0x0] = this.h[0x0] + 0x5;
+        _0x425452 = _0x32dc91[0x0] >>> 0xd;
+        _0x32dc91[0x0] &= 0x1fff;
+        for (_0x182823 = 0x1; _0x182823 < 0xa; _0x182823++) {
+          _0x32dc91[_0x182823] = this.h[_0x182823] + _0x425452;
+          _0x425452 = _0x32dc91[_0x182823] >>> 0xd;
+          _0x32dc91[_0x182823] &= 0x1fff;
         }
-        g[9] -= 1 << 13;
-        mask = (c ^ 1) - 1;
-        for (i = 0; i < 10; i++)
-          g[i] &= mask;
-        mask = ~mask;
-        for (i = 0; i < 10; i++)
-          this.h[i] = this.h[i] & mask | g[i];
-        this.h[0] = (this.h[0] | this.h[1] << 13) & 65535;
-        this.h[1] = (this.h[1] >>> 3 | this.h[2] << 10) & 65535;
-        this.h[2] = (this.h[2] >>> 6 | this.h[3] << 7) & 65535;
-        this.h[3] = (this.h[3] >>> 9 | this.h[4] << 4) & 65535;
-        this.h[4] = (this.h[4] >>> 12 | this.h[5] << 1 | this.h[6] << 14) & 65535;
-        this.h[5] = (this.h[6] >>> 2 | this.h[7] << 11) & 65535;
-        this.h[6] = (this.h[7] >>> 5 | this.h[8] << 8) & 65535;
-        this.h[7] = (this.h[8] >>> 8 | this.h[9] << 5) & 65535;
-        f = this.h[0] + this.pad[0];
-        this.h[0] = f & 65535;
-        for (i = 1; i < 8; i++) {
-          f = (this.h[i] + this.pad[i] | 0) + (f >>> 16) | 0;
-          this.h[i] = f & 65535;
+        _0x32dc91[0x9] -= 8192;
+        _0x256f64 = (_0x425452 ^ 0x1) - 0x1;
+        for (_0x182823 = 0x0; _0x182823 < 0xa; _0x182823++) {
+          _0x32dc91[_0x182823] &= _0x256f64;
         }
-        mac[macpos + 0] = this.h[0] >>> 0 & 255;
-        mac[macpos + 1] = this.h[0] >>> 8 & 255;
-        mac[macpos + 2] = this.h[1] >>> 0 & 255;
-        mac[macpos + 3] = this.h[1] >>> 8 & 255;
-        mac[macpos + 4] = this.h[2] >>> 0 & 255;
-        mac[macpos + 5] = this.h[2] >>> 8 & 255;
-        mac[macpos + 6] = this.h[3] >>> 0 & 255;
-        mac[macpos + 7] = this.h[3] >>> 8 & 255;
-        mac[macpos + 8] = this.h[4] >>> 0 & 255;
-        mac[macpos + 9] = this.h[4] >>> 8 & 255;
-        mac[macpos + 10] = this.h[5] >>> 0 & 255;
-        mac[macpos + 11] = this.h[5] >>> 8 & 255;
-        mac[macpos + 12] = this.h[6] >>> 0 & 255;
-        mac[macpos + 13] = this.h[6] >>> 8 & 255;
-        mac[macpos + 14] = this.h[7] >>> 0 & 255;
-        mac[macpos + 15] = this.h[7] >>> 8 & 255;
+        _0x256f64 = ~_0x256f64;
+        for (_0x182823 = 0x0; _0x182823 < 0xa; _0x182823++) {
+          this.h[_0x182823] = this.h[_0x182823] & _0x256f64 | _0x32dc91[_0x182823];
+        }
+        this.h[0x0] = (this.h[0x0] | this.h[0x1] << 0xd) & 0xffff;
+        this.h[0x1] = (this.h[0x1] >>> 0x3 | this.h[0x2] << 0xa) & 0xffff;
+        this.h[0x2] = (this.h[0x2] >>> 0x6 | this.h[0x3] << 0x7) & 0xffff;
+        this.h[0x3] = (this.h[0x3] >>> 0x9 | this.h[0x4] << 0x4) & 0xffff;
+        this.h[0x4] = (this.h[0x4] >>> 0xc | this.h[0x5] << 0x1 | this.h[0x6] << 0xe) & 0xffff;
+        this.h[0x5] = (this.h[0x6] >>> 0x2 | this.h[0x7] << 0xb) & 0xffff;
+        this.h[0x6] = (this.h[0x7] >>> 0x5 | this.h[0x8] << 0x8) & 0xffff;
+        this.h[0x7] = (this.h[0x8] >>> 0x8 | this.h[0x9] << 0x5) & 0xffff;
+        _0x55cb97 = this.h[0x0] + this.pad[0x0];
+        this.h[0x0] = _0x55cb97 & 0xffff;
+        for (_0x182823 = 0x1; _0x182823 < 0x8; _0x182823++) {
+          _0x55cb97 = (this.h[_0x182823] + this.pad[_0x182823] | 0x0) + (_0x55cb97 >>> 0x10) | 0x0;
+          this.h[_0x182823] = _0x55cb97 & 0xffff;
+        }
+        _0x54d183[_0x4c3e96 + 0x0] = this.h[0x0] >>> 0x0 & 0xff;
+        _0x54d183[_0x4c3e96 + 0x1] = this.h[0x0] >>> 0x8 & 0xff;
+        _0x54d183[_0x4c3e96 + 0x2] = this.h[0x1] >>> 0x0 & 0xff;
+        _0x54d183[_0x4c3e96 + 0x3] = this.h[0x1] >>> 0x8 & 0xff;
+        _0x54d183[_0x4c3e96 + 0x4] = this.h[0x2] >>> 0x0 & 0xff;
+        _0x54d183[_0x4c3e96 + 0x5] = this.h[0x2] >>> 0x8 & 0xff;
+        _0x54d183[_0x4c3e96 + 0x6] = this.h[0x3] >>> 0x0 & 0xff;
+        _0x54d183[_0x4c3e96 + 0x7] = this.h[0x3] >>> 0x8 & 0xff;
+        _0x54d183[_0x4c3e96 + 0x8] = this.h[0x4] >>> 0x0 & 0xff;
+        _0x54d183[_0x4c3e96 + 0x9] = this.h[0x4] >>> 0x8 & 0xff;
+        _0x54d183[_0x4c3e96 + 0xa] = this.h[0x5] >>> 0x0 & 0xff;
+        _0x54d183[_0x4c3e96 + 0xb] = this.h[0x5] >>> 0x8 & 0xff;
+        _0x54d183[_0x4c3e96 + 0xc] = this.h[0x6] >>> 0x0 & 0xff;
+        _0x54d183[_0x4c3e96 + 0xd] = this.h[0x6] >>> 0x8 & 0xff;
+        _0x54d183[_0x4c3e96 + 0xe] = this.h[0x7] >>> 0x0 & 0xff;
+        _0x54d183[_0x4c3e96 + 0xf] = this.h[0x7] >>> 0x8 & 0xff;
       };
-      poly1305.prototype.update = function(m, mpos, bytes) {
-        var i, want;
+      _0x2e78b9.prototype.update = function (_0x3bdc88, _0x308c9e, _0x53eec3) {
+        var _0x1fcc11;
+        var _0x4c87c9;
         if (this.leftover) {
-          want = 16 - this.leftover;
-          if (want > bytes)
-            want = bytes;
-          for (i = 0; i < want; i++)
-            this.buffer[this.leftover + i] = m[mpos + i];
-          bytes -= want;
-          mpos += want;
-          this.leftover += want;
-          if (this.leftover < 16)
+          _0x4c87c9 = 0x10 - this.leftover;
+          if (_0x4c87c9 > _0x53eec3) {
+            _0x4c87c9 = _0x53eec3;
+          }
+          for (_0x1fcc11 = 0x0; _0x1fcc11 < _0x4c87c9; _0x1fcc11++) {
+            this.buffer[this.leftover + _0x1fcc11] = _0x3bdc88[_0x308c9e + _0x1fcc11];
+          }
+          _0x53eec3 -= _0x4c87c9;
+          _0x308c9e += _0x4c87c9;
+          this.leftover += _0x4c87c9;
+          if (this.leftover < 0x10) {
             return;
-          this.blocks(this.buffer, 0, 16);
-          this.leftover = 0;
+          }
+          this.blocks(this.buffer, 0x0, 0x10);
+          this.leftover = 0x0;
         }
-        if (bytes >= 16) {
-          want = bytes - bytes % 16;
-          this.blocks(m, mpos, want);
-          mpos += want;
-          bytes -= want;
+        if (_0x53eec3 >= 0x10) {
+          _0x4c87c9 = _0x53eec3 - _0x53eec3 % 0x10;
+          this.blocks(_0x3bdc88, _0x308c9e, _0x4c87c9);
+          _0x308c9e += _0x4c87c9;
+          _0x53eec3 -= _0x4c87c9;
         }
-        if (bytes) {
-          for (i = 0; i < bytes; i++)
-            this.buffer[this.leftover + i] = m[mpos + i];
-          this.leftover += bytes;
+        if (_0x53eec3) {
+          for (_0x1fcc11 = 0x0; _0x1fcc11 < _0x53eec3; _0x1fcc11++) {
+            this.buffer[this.leftover + _0x1fcc11] = _0x3bdc88[_0x308c9e + _0x1fcc11];
+          }
+          this.leftover += _0x53eec3;
         }
       };
-      function crypto_onetimeauth(out, outpos, m, mpos, n, k) {
-        var s = new poly1305(k);
-        s.update(m, mpos, n);
-        s.finish(out, outpos);
-        return 0;
+      function _0x4c8545(_0x11270e, _0x119192, _0x1308ec, _0x7c8274, _0x32f4f7, _0x3d6eab) {
+        var _0x479f6b = new _0x2e78b9(_0x3d6eab);
+        _0x479f6b.update(_0x1308ec, _0x7c8274, _0x32f4f7);
+        _0x479f6b.finish(_0x11270e, _0x119192);
+        return 0x0;
       }
-      function crypto_onetimeauth_verify(h, hpos, m, mpos, n, k) {
-        var x = new Uint8Array(16);
-        crypto_onetimeauth(x, 0, m, mpos, n, k);
-        return crypto_verify_16(h, hpos, x, 0);
+      __defProp(_0x4c8545, "name", {
+        'value': "crypto_onetimeauth",
+        'configurable': true
+      });
+      function _0x216382(_0x4321f3, _0x5bc2f5, _0x36298b, _0x92b133, _0x2fd1dd, _0x149b1f) {
+        var _0x596163 = new Uint8Array(0x10);
+        _0x4c8545(_0x596163, 0x0, _0x36298b, _0x92b133, _0x2fd1dd, _0x149b1f);
+        return _0x5eab61(_0x4321f3, _0x5bc2f5, _0x596163, 0x0, 0x10);
       }
-      function crypto_secretbox(c, m, d, n, k) {
-        var i;
-        if (d < 32)
-          return -1;
-        crypto_stream_xor(c, 0, m, 0, d, n, k);
-        crypto_onetimeauth(c, 16, c, 32, d - 32, c);
-        for (i = 0; i < 16; i++)
-          c[i] = 0;
-        return 0;
-      }
-      function crypto_secretbox_open(m, c, d, n, k) {
-        var i;
-        var x = new Uint8Array(32);
-        if (d < 32)
-          return -1;
-        crypto_stream(x, 0, 32, n, k);
-        if (crypto_onetimeauth_verify(c, 16, c, 32, d - 32, x) !== 0)
-          return -1;
-        crypto_stream_xor(m, 0, c, 0, d, n, k);
-        for (i = 0; i < 32; i++)
-          m[i] = 0;
-        return 0;
-      }
-      function set25519(r, a) {
-        var i;
-        for (i = 0; i < 16; i++)
-          r[i] = a[i] | 0;
-      }
-      function car25519(o) {
-        var i, v, c = 1;
-        for (i = 0; i < 16; i++) {
-          v = o[i] + c + 65535;
-          c = Math.floor(v / 65536);
-          o[i] = v - c * 65536;
+      __defProp(_0x216382, "name", {
+        'value': "crypto_onetimeauth_verify",
+        'configurable': true
+      });
+      function _0x444ec1(_0x3d0868, _0x386611, _0x5f1295, _0x508cf5, _0x8cd8e9) {
+        var _0x4b4743;
+        if (_0x5f1295 < 0x20) {
+          return -0x1;
         }
-        o[0] += c - 1 + 37 * (c - 1);
+        _0x2650ce(_0x3d0868, 0x0, _0x386611, 0x0, _0x5f1295, _0x508cf5, _0x8cd8e9);
+        _0x4c8545(_0x3d0868, 0x10, _0x3d0868, 0x20, _0x5f1295 - 0x20, _0x3d0868);
+        for (_0x4b4743 = 0x0; _0x4b4743 < 0x10; _0x4b4743++) {
+          _0x3d0868[_0x4b4743] = 0x0;
+        }
+        return 0x0;
       }
-      function sel25519(p, q, b) {
-        var t, c = ~(b - 1);
-        for (var i = 0; i < 16; i++) {
-          t = c & (p[i] ^ q[i]);
-          p[i] ^= t;
-          q[i] ^= t;
+      __defProp(_0x444ec1, "name", {
+        'value': "crypto_secretbox",
+        'configurable': true
+      });
+      function _0x3bfe27(_0x4420c4, _0x43b4e9, _0x399e06, _0x50bbc2, _0x2caa35) {
+        var _0x2401b6;
+        var _0x377376 = new Uint8Array(0x20);
+        if (_0x399e06 < 0x20) {
+          return -0x1;
+        }
+        _0x3fa61b(_0x377376, 0x0, 0x20, _0x50bbc2, _0x2caa35);
+        if (_0x216382(_0x43b4e9, 0x10, _0x43b4e9, 0x20, _0x399e06 - 0x20, _0x377376) !== 0x0) {
+          return -0x1;
+        }
+        _0x2650ce(_0x4420c4, 0x0, _0x43b4e9, 0x0, _0x399e06, _0x50bbc2, _0x2caa35);
+        for (_0x2401b6 = 0x0; _0x2401b6 < 0x20; _0x2401b6++) {
+          _0x4420c4[_0x2401b6] = 0x0;
+        }
+        return 0x0;
+      }
+      __defProp(_0x3bfe27, "name", {
+        'value': "crypto_secretbox_open",
+        'configurable': true
+      });
+      function _0x17b8b6(_0x3eec11, _0x4d0d9b) {
+        var _0x5ef12e;
+        for (_0x5ef12e = 0x0; _0x5ef12e < 0x10; _0x5ef12e++) {
+          _0x3eec11[_0x5ef12e] = _0x4d0d9b[_0x5ef12e] | 0x0;
         }
       }
-      function pack25519(o, n) {
-        var i, j, b;
-        var m = gf(), t = gf();
-        for (i = 0; i < 16; i++)
-          t[i] = n[i];
-        car25519(t);
-        car25519(t);
-        car25519(t);
-        for (j = 0; j < 2; j++) {
-          m[0] = t[0] - 65517;
-          for (i = 1; i < 15; i++) {
-            m[i] = t[i] - 65535 - (m[i - 1] >> 16 & 1);
-            m[i - 1] &= 65535;
+      __defProp(_0x17b8b6, "name", {
+        'value': "set25519",
+        'configurable': true
+      });
+      function _0x25f999(_0x1909cd) {
+        var _0xf7507e;
+        var _0x1d12c2;
+        var _0x187a22 = 0x1;
+        for (_0xf7507e = 0x0; _0xf7507e < 0x10; _0xf7507e++) {
+          _0x1d12c2 = _0x1909cd[_0xf7507e] + _0x187a22 + 0xffff;
+          _0x187a22 = Math.floor(_0x1d12c2 / 0x10000);
+          _0x1909cd[_0xf7507e] = _0x1d12c2 - _0x187a22 * 0x10000;
+        }
+        _0x1909cd[0x0] += _0x187a22 - 0x1 + 0x25 * (_0x187a22 - 0x1);
+      }
+      __defProp(_0x25f999, "name", {
+        'value': "car25519",
+        'configurable': true
+      });
+      function _0xeaa097(_0x1d1e1d, _0xa97cd0, _0x259c08) {
+        var _0x251ffc;
+        var _0x5c68a9 = ~(_0x259c08 - 0x1);
+        for (var _0xcec2ac = 0x0; _0xcec2ac < 0x10; _0xcec2ac++) {
+          _0x251ffc = _0x5c68a9 & (_0x1d1e1d[_0xcec2ac] ^ _0xa97cd0[_0xcec2ac]);
+          _0x1d1e1d[_0xcec2ac] ^= _0x251ffc;
+          _0xa97cd0[_0xcec2ac] ^= _0x251ffc;
+        }
+      }
+      __defProp(_0xeaa097, "name", {
+        'value': "sel25519",
+        'configurable': true
+      });
+      function _0x3dc71f(_0x438740, _0x12aa01) {
+        var _0x4b7860;
+        var _0xbe121d;
+        var _0x5f5a2d;
+        var _0x16393c = _0x37d431();
+        var _0x38ffb7 = _0x37d431();
+        for (_0x4b7860 = 0x0; _0x4b7860 < 0x10; _0x4b7860++) {
+          _0x38ffb7[_0x4b7860] = _0x12aa01[_0x4b7860];
+        }
+        _0x25f999(_0x38ffb7);
+        _0x25f999(_0x38ffb7);
+        _0x25f999(_0x38ffb7);
+        for (_0xbe121d = 0x0; _0xbe121d < 0x2; _0xbe121d++) {
+          _0x16393c[0x0] = _0x38ffb7[0x0] - 0xffed;
+          for (_0x4b7860 = 0x1; _0x4b7860 < 0xf; _0x4b7860++) {
+            _0x16393c[_0x4b7860] = _0x38ffb7[_0x4b7860] - 0xffff - (_0x16393c[_0x4b7860 - 0x1] >> 0x10 & 0x1);
+            _0x16393c[_0x4b7860 - 0x1] &= 0xffff;
           }
-          m[15] = t[15] - 32767 - (m[14] >> 16 & 1);
-          b = m[15] >> 16 & 1;
-          m[14] &= 65535;
-          sel25519(t, m, 1 - b);
+          _0x16393c[0xf] = _0x38ffb7[0xf] - 0x7fff - (_0x16393c[0xe] >> 0x10 & 0x1);
+          _0x5f5a2d = _0x16393c[0xf] >> 0x10 & 0x1;
+          _0x16393c[0xe] &= 0xffff;
+          _0xeaa097(_0x38ffb7, _0x16393c, 0x1 - _0x5f5a2d);
         }
-        for (i = 0; i < 16; i++) {
-          o[2 * i] = t[i] & 255;
-          o[2 * i + 1] = t[i] >> 8;
+        for (_0x4b7860 = 0x0; _0x4b7860 < 0x10; _0x4b7860++) {
+          _0x438740[0x2 * _0x4b7860] = _0x38ffb7[_0x4b7860] & 0xff;
+          _0x438740[0x2 * _0x4b7860 + 0x1] = _0x38ffb7[_0x4b7860] >> 0x8;
         }
       }
-      function neq25519(a, b) {
-        var c = new Uint8Array(32), d = new Uint8Array(32);
-        pack25519(c, a);
-        pack25519(d, b);
-        return crypto_verify_32(c, 0, d, 0);
+      __defProp(_0x3dc71f, "name", {
+        'value': "pack25519",
+        'configurable': true
+      });
+      function _0x3dcce4(_0x42824d, _0x462f0f) {
+        var _0x384985 = new Uint8Array(0x20);
+        var _0x99cbf8 = new Uint8Array(0x20);
+        _0x3dc71f(_0x384985, _0x42824d);
+        _0x3dc71f(_0x99cbf8, _0x462f0f);
+        return _0x5eab61(_0x384985, 0x0, _0x99cbf8, 0x0, 0x20);
       }
-      function par25519(a) {
-        var d = new Uint8Array(32);
-        pack25519(d, a);
-        return d[0] & 1;
+      __defProp(_0x3dcce4, "name", {
+        'value': "neq25519",
+        'configurable': true
+      });
+      function _0xc4696d(_0x55217b) {
+        var _0x4641f8 = new Uint8Array(0x20);
+        _0x3dc71f(_0x4641f8, _0x55217b);
+        return _0x4641f8[0x0] & 0x1;
       }
-      function unpack25519(o, n) {
-        var i;
-        for (i = 0; i < 16; i++)
-          o[i] = n[2 * i] + (n[2 * i + 1] << 8);
-        o[15] &= 32767;
-      }
-      function A(o, a, b) {
-        for (var i = 0; i < 16; i++)
-          o[i] = a[i] + b[i];
-      }
-      function Z(o, a, b) {
-        for (var i = 0; i < 16; i++)
-          o[i] = a[i] - b[i];
-      }
-      function M(o, a, b) {
-        var v, c, t0 = 0, t1 = 0, t2 = 0, t3 = 0, t4 = 0, t5 = 0, t6 = 0, t7 = 0, t8 = 0, t9 = 0, t10 = 0, t11 = 0, t12 = 0, t13 = 0, t14 = 0, t15 = 0, t16 = 0, t17 = 0, t18 = 0, t19 = 0, t20 = 0, t21 = 0, t22 = 0, t23 = 0, t24 = 0, t25 = 0, t26 = 0, t27 = 0, t28 = 0, t29 = 0, t30 = 0, b0 = b[0], b1 = b[1], b2 = b[2], b3 = b[3], b4 = b[4], b5 = b[5], b6 = b[6], b7 = b[7], b8 = b[8], b9 = b[9], b10 = b[10], b11 = b[11], b12 = b[12], b13 = b[13], b14 = b[14], b15 = b[15];
-        v = a[0];
-        t0 += v * b0;
-        t1 += v * b1;
-        t2 += v * b2;
-        t3 += v * b3;
-        t4 += v * b4;
-        t5 += v * b5;
-        t6 += v * b6;
-        t7 += v * b7;
-        t8 += v * b8;
-        t9 += v * b9;
-        t10 += v * b10;
-        t11 += v * b11;
-        t12 += v * b12;
-        t13 += v * b13;
-        t14 += v * b14;
-        t15 += v * b15;
-        v = a[1];
-        t1 += v * b0;
-        t2 += v * b1;
-        t3 += v * b2;
-        t4 += v * b3;
-        t5 += v * b4;
-        t6 += v * b5;
-        t7 += v * b6;
-        t8 += v * b7;
-        t9 += v * b8;
-        t10 += v * b9;
-        t11 += v * b10;
-        t12 += v * b11;
-        t13 += v * b12;
-        t14 += v * b13;
-        t15 += v * b14;
-        t16 += v * b15;
-        v = a[2];
-        t2 += v * b0;
-        t3 += v * b1;
-        t4 += v * b2;
-        t5 += v * b3;
-        t6 += v * b4;
-        t7 += v * b5;
-        t8 += v * b6;
-        t9 += v * b7;
-        t10 += v * b8;
-        t11 += v * b9;
-        t12 += v * b10;
-        t13 += v * b11;
-        t14 += v * b12;
-        t15 += v * b13;
-        t16 += v * b14;
-        t17 += v * b15;
-        v = a[3];
-        t3 += v * b0;
-        t4 += v * b1;
-        t5 += v * b2;
-        t6 += v * b3;
-        t7 += v * b4;
-        t8 += v * b5;
-        t9 += v * b6;
-        t10 += v * b7;
-        t11 += v * b8;
-        t12 += v * b9;
-        t13 += v * b10;
-        t14 += v * b11;
-        t15 += v * b12;
-        t16 += v * b13;
-        t17 += v * b14;
-        t18 += v * b15;
-        v = a[4];
-        t4 += v * b0;
-        t5 += v * b1;
-        t6 += v * b2;
-        t7 += v * b3;
-        t8 += v * b4;
-        t9 += v * b5;
-        t10 += v * b6;
-        t11 += v * b7;
-        t12 += v * b8;
-        t13 += v * b9;
-        t14 += v * b10;
-        t15 += v * b11;
-        t16 += v * b12;
-        t17 += v * b13;
-        t18 += v * b14;
-        t19 += v * b15;
-        v = a[5];
-        t5 += v * b0;
-        t6 += v * b1;
-        t7 += v * b2;
-        t8 += v * b3;
-        t9 += v * b4;
-        t10 += v * b5;
-        t11 += v * b6;
-        t12 += v * b7;
-        t13 += v * b8;
-        t14 += v * b9;
-        t15 += v * b10;
-        t16 += v * b11;
-        t17 += v * b12;
-        t18 += v * b13;
-        t19 += v * b14;
-        t20 += v * b15;
-        v = a[6];
-        t6 += v * b0;
-        t7 += v * b1;
-        t8 += v * b2;
-        t9 += v * b3;
-        t10 += v * b4;
-        t11 += v * b5;
-        t12 += v * b6;
-        t13 += v * b7;
-        t14 += v * b8;
-        t15 += v * b9;
-        t16 += v * b10;
-        t17 += v * b11;
-        t18 += v * b12;
-        t19 += v * b13;
-        t20 += v * b14;
-        t21 += v * b15;
-        v = a[7];
-        t7 += v * b0;
-        t8 += v * b1;
-        t9 += v * b2;
-        t10 += v * b3;
-        t11 += v * b4;
-        t12 += v * b5;
-        t13 += v * b6;
-        t14 += v * b7;
-        t15 += v * b8;
-        t16 += v * b9;
-        t17 += v * b10;
-        t18 += v * b11;
-        t19 += v * b12;
-        t20 += v * b13;
-        t21 += v * b14;
-        t22 += v * b15;
-        v = a[8];
-        t8 += v * b0;
-        t9 += v * b1;
-        t10 += v * b2;
-        t11 += v * b3;
-        t12 += v * b4;
-        t13 += v * b5;
-        t14 += v * b6;
-        t15 += v * b7;
-        t16 += v * b8;
-        t17 += v * b9;
-        t18 += v * b10;
-        t19 += v * b11;
-        t20 += v * b12;
-        t21 += v * b13;
-        t22 += v * b14;
-        t23 += v * b15;
-        v = a[9];
-        t9 += v * b0;
-        t10 += v * b1;
-        t11 += v * b2;
-        t12 += v * b3;
-        t13 += v * b4;
-        t14 += v * b5;
-        t15 += v * b6;
-        t16 += v * b7;
-        t17 += v * b8;
-        t18 += v * b9;
-        t19 += v * b10;
-        t20 += v * b11;
-        t21 += v * b12;
-        t22 += v * b13;
-        t23 += v * b14;
-        t24 += v * b15;
-        v = a[10];
-        t10 += v * b0;
-        t11 += v * b1;
-        t12 += v * b2;
-        t13 += v * b3;
-        t14 += v * b4;
-        t15 += v * b5;
-        t16 += v * b6;
-        t17 += v * b7;
-        t18 += v * b8;
-        t19 += v * b9;
-        t20 += v * b10;
-        t21 += v * b11;
-        t22 += v * b12;
-        t23 += v * b13;
-        t24 += v * b14;
-        t25 += v * b15;
-        v = a[11];
-        t11 += v * b0;
-        t12 += v * b1;
-        t13 += v * b2;
-        t14 += v * b3;
-        t15 += v * b4;
-        t16 += v * b5;
-        t17 += v * b6;
-        t18 += v * b7;
-        t19 += v * b8;
-        t20 += v * b9;
-        t21 += v * b10;
-        t22 += v * b11;
-        t23 += v * b12;
-        t24 += v * b13;
-        t25 += v * b14;
-        t26 += v * b15;
-        v = a[12];
-        t12 += v * b0;
-        t13 += v * b1;
-        t14 += v * b2;
-        t15 += v * b3;
-        t16 += v * b4;
-        t17 += v * b5;
-        t18 += v * b6;
-        t19 += v * b7;
-        t20 += v * b8;
-        t21 += v * b9;
-        t22 += v * b10;
-        t23 += v * b11;
-        t24 += v * b12;
-        t25 += v * b13;
-        t26 += v * b14;
-        t27 += v * b15;
-        v = a[13];
-        t13 += v * b0;
-        t14 += v * b1;
-        t15 += v * b2;
-        t16 += v * b3;
-        t17 += v * b4;
-        t18 += v * b5;
-        t19 += v * b6;
-        t20 += v * b7;
-        t21 += v * b8;
-        t22 += v * b9;
-        t23 += v * b10;
-        t24 += v * b11;
-        t25 += v * b12;
-        t26 += v * b13;
-        t27 += v * b14;
-        t28 += v * b15;
-        v = a[14];
-        t14 += v * b0;
-        t15 += v * b1;
-        t16 += v * b2;
-        t17 += v * b3;
-        t18 += v * b4;
-        t19 += v * b5;
-        t20 += v * b6;
-        t21 += v * b7;
-        t22 += v * b8;
-        t23 += v * b9;
-        t24 += v * b10;
-        t25 += v * b11;
-        t26 += v * b12;
-        t27 += v * b13;
-        t28 += v * b14;
-        t29 += v * b15;
-        v = a[15];
-        t15 += v * b0;
-        t16 += v * b1;
-        t17 += v * b2;
-        t18 += v * b3;
-        t19 += v * b4;
-        t20 += v * b5;
-        t21 += v * b6;
-        t22 += v * b7;
-        t23 += v * b8;
-        t24 += v * b9;
-        t25 += v * b10;
-        t26 += v * b11;
-        t27 += v * b12;
-        t28 += v * b13;
-        t29 += v * b14;
-        t30 += v * b15;
-        t0 += 38 * t16;
-        t1 += 38 * t17;
-        t2 += 38 * t18;
-        t3 += 38 * t19;
-        t4 += 38 * t20;
-        t5 += 38 * t21;
-        t6 += 38 * t22;
-        t7 += 38 * t23;
-        t8 += 38 * t24;
-        t9 += 38 * t25;
-        t10 += 38 * t26;
-        t11 += 38 * t27;
-        t12 += 38 * t28;
-        t13 += 38 * t29;
-        t14 += 38 * t30;
-        c = 1;
-        v = t0 + c + 65535;
-        c = Math.floor(v / 65536);
-        t0 = v - c * 65536;
-        v = t1 + c + 65535;
-        c = Math.floor(v / 65536);
-        t1 = v - c * 65536;
-        v = t2 + c + 65535;
-        c = Math.floor(v / 65536);
-        t2 = v - c * 65536;
-        v = t3 + c + 65535;
-        c = Math.floor(v / 65536);
-        t3 = v - c * 65536;
-        v = t4 + c + 65535;
-        c = Math.floor(v / 65536);
-        t4 = v - c * 65536;
-        v = t5 + c + 65535;
-        c = Math.floor(v / 65536);
-        t5 = v - c * 65536;
-        v = t6 + c + 65535;
-        c = Math.floor(v / 65536);
-        t6 = v - c * 65536;
-        v = t7 + c + 65535;
-        c = Math.floor(v / 65536);
-        t7 = v - c * 65536;
-        v = t8 + c + 65535;
-        c = Math.floor(v / 65536);
-        t8 = v - c * 65536;
-        v = t9 + c + 65535;
-        c = Math.floor(v / 65536);
-        t9 = v - c * 65536;
-        v = t10 + c + 65535;
-        c = Math.floor(v / 65536);
-        t10 = v - c * 65536;
-        v = t11 + c + 65535;
-        c = Math.floor(v / 65536);
-        t11 = v - c * 65536;
-        v = t12 + c + 65535;
-        c = Math.floor(v / 65536);
-        t12 = v - c * 65536;
-        v = t13 + c + 65535;
-        c = Math.floor(v / 65536);
-        t13 = v - c * 65536;
-        v = t14 + c + 65535;
-        c = Math.floor(v / 65536);
-        t14 = v - c * 65536;
-        v = t15 + c + 65535;
-        c = Math.floor(v / 65536);
-        t15 = v - c * 65536;
-        t0 += c - 1 + 37 * (c - 1);
-        c = 1;
-        v = t0 + c + 65535;
-        c = Math.floor(v / 65536);
-        t0 = v - c * 65536;
-        v = t1 + c + 65535;
-        c = Math.floor(v / 65536);
-        t1 = v - c * 65536;
-        v = t2 + c + 65535;
-        c = Math.floor(v / 65536);
-        t2 = v - c * 65536;
-        v = t3 + c + 65535;
-        c = Math.floor(v / 65536);
-        t3 = v - c * 65536;
-        v = t4 + c + 65535;
-        c = Math.floor(v / 65536);
-        t4 = v - c * 65536;
-        v = t5 + c + 65535;
-        c = Math.floor(v / 65536);
-        t5 = v - c * 65536;
-        v = t6 + c + 65535;
-        c = Math.floor(v / 65536);
-        t6 = v - c * 65536;
-        v = t7 + c + 65535;
-        c = Math.floor(v / 65536);
-        t7 = v - c * 65536;
-        v = t8 + c + 65535;
-        c = Math.floor(v / 65536);
-        t8 = v - c * 65536;
-        v = t9 + c + 65535;
-        c = Math.floor(v / 65536);
-        t9 = v - c * 65536;
-        v = t10 + c + 65535;
-        c = Math.floor(v / 65536);
-        t10 = v - c * 65536;
-        v = t11 + c + 65535;
-        c = Math.floor(v / 65536);
-        t11 = v - c * 65536;
-        v = t12 + c + 65535;
-        c = Math.floor(v / 65536);
-        t12 = v - c * 65536;
-        v = t13 + c + 65535;
-        c = Math.floor(v / 65536);
-        t13 = v - c * 65536;
-        v = t14 + c + 65535;
-        c = Math.floor(v / 65536);
-        t14 = v - c * 65536;
-        v = t15 + c + 65535;
-        c = Math.floor(v / 65536);
-        t15 = v - c * 65536;
-        t0 += c - 1 + 37 * (c - 1);
-        o[0] = t0;
-        o[1] = t1;
-        o[2] = t2;
-        o[3] = t3;
-        o[4] = t4;
-        o[5] = t5;
-        o[6] = t6;
-        o[7] = t7;
-        o[8] = t8;
-        o[9] = t9;
-        o[10] = t10;
-        o[11] = t11;
-        o[12] = t12;
-        o[13] = t13;
-        o[14] = t14;
-        o[15] = t15;
-      }
-      function S(o, a) {
-        M(o, a, a);
-      }
-      function inv25519(o, i) {
-        var c = gf();
-        var a;
-        for (a = 0; a < 16; a++)
-          c[a] = i[a];
-        for (a = 253; a >= 0; a--) {
-          S(c, c);
-          if (a !== 2 && a !== 4)
-            M(c, c, i);
+      __defProp(_0xc4696d, "name", {
+        'value': "par25519",
+        'configurable': true
+      });
+      function _0x553aef(_0xbf92db, _0x40f501) {
+        var _0x4fbfcd;
+        for (_0x4fbfcd = 0x0; _0x4fbfcd < 0x10; _0x4fbfcd++) {
+          _0xbf92db[_0x4fbfcd] = _0x40f501[0x2 * _0x4fbfcd] + (_0x40f501[0x2 * _0x4fbfcd + 0x1] << 0x8);
         }
-        for (a = 0; a < 16; a++)
-          o[a] = c[a];
+        _0xbf92db[0xf] &= 0x7fff;
       }
-      function pow2523(o, i) {
-        var c = gf();
-        var a;
-        for (a = 0; a < 16; a++)
-          c[a] = i[a];
-        for (a = 250; a >= 0; a--) {
-          S(c, c);
-          if (a !== 1)
-            M(c, c, i);
+      __defProp(_0x553aef, "name", {
+        'value': "unpack25519",
+        'configurable': true
+      });
+      function _0x2b9493(_0x305b50, _0x5794a4, _0x462515) {
+        for (var _0x1b3239 = 0x0; _0x1b3239 < 0x10; _0x1b3239++) {
+          _0x305b50[_0x1b3239] = _0x5794a4[_0x1b3239] + _0x462515[_0x1b3239];
         }
-        for (a = 0; a < 16; a++)
-          o[a] = c[a];
       }
-      function crypto_scalarmult(q, n, p) {
-        var z = new Uint8Array(32);
-        var x = new Float64Array(80), r, i;
-        var a = gf(), b = gf(), c = gf(), d = gf(), e = gf(), f = gf();
-        for (i = 0; i < 31; i++)
-          z[i] = n[i];
-        z[31] = n[31] & 127 | 64;
-        z[0] &= 248;
-        unpack25519(x, p);
-        for (i = 0; i < 16; i++) {
-          b[i] = x[i];
-          d[i] = a[i] = c[i] = 0;
+      __defProp(_0x2b9493, "name", {
+        'value': 'A',
+        'configurable': true
+      });
+      function _0x2b9d8a(_0x5e20bf, _0x573661, _0x1bbe7d) {
+        for (var _0x1fdc4e = 0x0; _0x1fdc4e < 0x10; _0x1fdc4e++) {
+          _0x5e20bf[_0x1fdc4e] = _0x573661[_0x1fdc4e] - _0x1bbe7d[_0x1fdc4e];
         }
-        a[0] = d[0] = 1;
-        for (i = 254; i >= 0; --i) {
-          r = z[i >>> 3] >>> (i & 7) & 1;
-          sel25519(a, b, r);
-          sel25519(c, d, r);
-          A(e, a, c);
-          Z(a, a, c);
-          A(c, b, d);
-          Z(b, b, d);
-          S(d, e);
-          S(f, a);
-          M(a, c, a);
-          M(c, b, e);
-          A(e, a, c);
-          Z(a, a, c);
-          S(b, a);
-          Z(c, d, f);
-          M(a, c, _121665);
-          A(a, a, d);
-          M(c, c, a);
-          M(a, d, f);
-          M(d, b, x);
-          S(b, e);
-          sel25519(a, b, r);
-          sel25519(c, d, r);
+      }
+      __defProp(_0x2b9d8a, "name", {
+        'value': 'Z',
+        'configurable': true
+      });
+      function _0x23ec90(_0xbc8a96, _0x27f511, _0x29973d) {
+        var _0x44d4c9;
+        var _0x35c30c;
+        var _0x2a77f3 = 0x0;
+        var _0x4af804 = 0x0;
+        var _0xb4e710 = 0x0;
+        var _0x3300dc = 0x0;
+        var _0x1dbc08 = 0x0;
+        var _0x49771b = 0x0;
+        var _0xf6c0d1 = 0x0;
+        var _0x572a1c = 0x0;
+        var _0x3a75da = 0x0;
+        var _0x387877 = 0x0;
+        var _0x468775 = 0x0;
+        var _0x16d377 = 0x0;
+        var _0xc070e0 = 0x0;
+        var _0x114e8e = 0x0;
+        var _0x41a71d = 0x0;
+        var _0x4c3e19 = 0x0;
+        var _0x1afa88 = 0x0;
+        var _0x2514e9 = 0x0;
+        var _0x4fc9e6 = 0x0;
+        var _0x1e6781 = 0x0;
+        var _0x505117 = 0x0;
+        var _0x53bd36 = 0x0;
+        var _0x1eef0d = 0x0;
+        var _0x4affce = 0x0;
+        var _0x1f3f8f = 0x0;
+        var _0xd8aa2f = 0x0;
+        var _0x1125a9 = 0x0;
+        var _0x2edcad = 0x0;
+        var _0x4ddb86 = 0x0;
+        var _0x403ceb = 0x0;
+        var _0x40aaae = 0x0;
+        var _0xe32744 = _0x29973d[0x0];
+        var _0x352b4a = _0x29973d[0x1];
+        var _0x3e204a = _0x29973d[0x2];
+        var _0x7f5512 = _0x29973d[0x3];
+        var _0x28edff = _0x29973d[0x4];
+        var _0x5a856f = _0x29973d[0x5];
+        var _0x220ea3 = _0x29973d[0x6];
+        var _0x231070 = _0x29973d[0x7];
+        var _0x369616 = _0x29973d[0x8];
+        var _0x229c80 = _0x29973d[0x9];
+        var _0x11dd6b = _0x29973d[0xa];
+        var _0x44eee5 = _0x29973d[0xb];
+        var _0x392023 = _0x29973d[0xc];
+        var _0x2a4318 = _0x29973d[0xd];
+        var _0x5e526a = _0x29973d[0xe];
+        var _0x2d3f5b = _0x29973d[0xf];
+        _0x44d4c9 = _0x27f511[0x0];
+        _0x2a77f3 += _0x44d4c9 * _0xe32744;
+        _0x4af804 += _0x44d4c9 * _0x352b4a;
+        _0xb4e710 += _0x44d4c9 * _0x3e204a;
+        _0x3300dc += _0x44d4c9 * _0x7f5512;
+        _0x1dbc08 += _0x44d4c9 * _0x28edff;
+        _0x49771b += _0x44d4c9 * _0x5a856f;
+        _0xf6c0d1 += _0x44d4c9 * _0x220ea3;
+        _0x572a1c += _0x44d4c9 * _0x231070;
+        _0x3a75da += _0x44d4c9 * _0x369616;
+        _0x387877 += _0x44d4c9 * _0x229c80;
+        _0x468775 += _0x44d4c9 * _0x11dd6b;
+        _0x16d377 += _0x44d4c9 * _0x44eee5;
+        _0xc070e0 += _0x44d4c9 * _0x392023;
+        _0x114e8e += _0x44d4c9 * _0x2a4318;
+        _0x41a71d += _0x44d4c9 * _0x5e526a;
+        _0x4c3e19 += _0x44d4c9 * _0x2d3f5b;
+        _0x44d4c9 = _0x27f511[0x1];
+        _0x4af804 += _0x44d4c9 * _0xe32744;
+        _0xb4e710 += _0x44d4c9 * _0x352b4a;
+        _0x3300dc += _0x44d4c9 * _0x3e204a;
+        _0x1dbc08 += _0x44d4c9 * _0x7f5512;
+        _0x49771b += _0x44d4c9 * _0x28edff;
+        _0xf6c0d1 += _0x44d4c9 * _0x5a856f;
+        _0x572a1c += _0x44d4c9 * _0x220ea3;
+        _0x3a75da += _0x44d4c9 * _0x231070;
+        _0x387877 += _0x44d4c9 * _0x369616;
+        _0x468775 += _0x44d4c9 * _0x229c80;
+        _0x16d377 += _0x44d4c9 * _0x11dd6b;
+        _0xc070e0 += _0x44d4c9 * _0x44eee5;
+        _0x114e8e += _0x44d4c9 * _0x392023;
+        _0x41a71d += _0x44d4c9 * _0x2a4318;
+        _0x4c3e19 += _0x44d4c9 * _0x5e526a;
+        _0x1afa88 += _0x44d4c9 * _0x2d3f5b;
+        _0x44d4c9 = _0x27f511[0x2];
+        _0xb4e710 += _0x44d4c9 * _0xe32744;
+        _0x3300dc += _0x44d4c9 * _0x352b4a;
+        _0x1dbc08 += _0x44d4c9 * _0x3e204a;
+        _0x49771b += _0x44d4c9 * _0x7f5512;
+        _0xf6c0d1 += _0x44d4c9 * _0x28edff;
+        _0x572a1c += _0x44d4c9 * _0x5a856f;
+        _0x3a75da += _0x44d4c9 * _0x220ea3;
+        _0x387877 += _0x44d4c9 * _0x231070;
+        _0x468775 += _0x44d4c9 * _0x369616;
+        _0x16d377 += _0x44d4c9 * _0x229c80;
+        _0xc070e0 += _0x44d4c9 * _0x11dd6b;
+        _0x114e8e += _0x44d4c9 * _0x44eee5;
+        _0x41a71d += _0x44d4c9 * _0x392023;
+        _0x4c3e19 += _0x44d4c9 * _0x2a4318;
+        _0x1afa88 += _0x44d4c9 * _0x5e526a;
+        _0x2514e9 += _0x44d4c9 * _0x2d3f5b;
+        _0x44d4c9 = _0x27f511[0x3];
+        _0x3300dc += _0x44d4c9 * _0xe32744;
+        _0x1dbc08 += _0x44d4c9 * _0x352b4a;
+        _0x49771b += _0x44d4c9 * _0x3e204a;
+        _0xf6c0d1 += _0x44d4c9 * _0x7f5512;
+        _0x572a1c += _0x44d4c9 * _0x28edff;
+        _0x3a75da += _0x44d4c9 * _0x5a856f;
+        _0x387877 += _0x44d4c9 * _0x220ea3;
+        _0x468775 += _0x44d4c9 * _0x231070;
+        _0x16d377 += _0x44d4c9 * _0x369616;
+        _0xc070e0 += _0x44d4c9 * _0x229c80;
+        _0x114e8e += _0x44d4c9 * _0x11dd6b;
+        _0x41a71d += _0x44d4c9 * _0x44eee5;
+        _0x4c3e19 += _0x44d4c9 * _0x392023;
+        _0x1afa88 += _0x44d4c9 * _0x2a4318;
+        _0x2514e9 += _0x44d4c9 * _0x5e526a;
+        _0x4fc9e6 += _0x44d4c9 * _0x2d3f5b;
+        _0x44d4c9 = _0x27f511[0x4];
+        _0x1dbc08 += _0x44d4c9 * _0xe32744;
+        _0x49771b += _0x44d4c9 * _0x352b4a;
+        _0xf6c0d1 += _0x44d4c9 * _0x3e204a;
+        _0x572a1c += _0x44d4c9 * _0x7f5512;
+        _0x3a75da += _0x44d4c9 * _0x28edff;
+        _0x387877 += _0x44d4c9 * _0x5a856f;
+        _0x468775 += _0x44d4c9 * _0x220ea3;
+        _0x16d377 += _0x44d4c9 * _0x231070;
+        _0xc070e0 += _0x44d4c9 * _0x369616;
+        _0x114e8e += _0x44d4c9 * _0x229c80;
+        _0x41a71d += _0x44d4c9 * _0x11dd6b;
+        _0x4c3e19 += _0x44d4c9 * _0x44eee5;
+        _0x1afa88 += _0x44d4c9 * _0x392023;
+        _0x2514e9 += _0x44d4c9 * _0x2a4318;
+        _0x4fc9e6 += _0x44d4c9 * _0x5e526a;
+        _0x1e6781 += _0x44d4c9 * _0x2d3f5b;
+        _0x44d4c9 = _0x27f511[0x5];
+        _0x49771b += _0x44d4c9 * _0xe32744;
+        _0xf6c0d1 += _0x44d4c9 * _0x352b4a;
+        _0x572a1c += _0x44d4c9 * _0x3e204a;
+        _0x3a75da += _0x44d4c9 * _0x7f5512;
+        _0x387877 += _0x44d4c9 * _0x28edff;
+        _0x468775 += _0x44d4c9 * _0x5a856f;
+        _0x16d377 += _0x44d4c9 * _0x220ea3;
+        _0xc070e0 += _0x44d4c9 * _0x231070;
+        _0x114e8e += _0x44d4c9 * _0x369616;
+        _0x41a71d += _0x44d4c9 * _0x229c80;
+        _0x4c3e19 += _0x44d4c9 * _0x11dd6b;
+        _0x1afa88 += _0x44d4c9 * _0x44eee5;
+        _0x2514e9 += _0x44d4c9 * _0x392023;
+        _0x4fc9e6 += _0x44d4c9 * _0x2a4318;
+        _0x1e6781 += _0x44d4c9 * _0x5e526a;
+        _0x505117 += _0x44d4c9 * _0x2d3f5b;
+        _0x44d4c9 = _0x27f511[0x6];
+        _0xf6c0d1 += _0x44d4c9 * _0xe32744;
+        _0x572a1c += _0x44d4c9 * _0x352b4a;
+        _0x3a75da += _0x44d4c9 * _0x3e204a;
+        _0x387877 += _0x44d4c9 * _0x7f5512;
+        _0x468775 += _0x44d4c9 * _0x28edff;
+        _0x16d377 += _0x44d4c9 * _0x5a856f;
+        _0xc070e0 += _0x44d4c9 * _0x220ea3;
+        _0x114e8e += _0x44d4c9 * _0x231070;
+        _0x41a71d += _0x44d4c9 * _0x369616;
+        _0x4c3e19 += _0x44d4c9 * _0x229c80;
+        _0x1afa88 += _0x44d4c9 * _0x11dd6b;
+        _0x2514e9 += _0x44d4c9 * _0x44eee5;
+        _0x4fc9e6 += _0x44d4c9 * _0x392023;
+        _0x1e6781 += _0x44d4c9 * _0x2a4318;
+        _0x505117 += _0x44d4c9 * _0x5e526a;
+        _0x53bd36 += _0x44d4c9 * _0x2d3f5b;
+        _0x44d4c9 = _0x27f511[0x7];
+        _0x572a1c += _0x44d4c9 * _0xe32744;
+        _0x3a75da += _0x44d4c9 * _0x352b4a;
+        _0x387877 += _0x44d4c9 * _0x3e204a;
+        _0x468775 += _0x44d4c9 * _0x7f5512;
+        _0x16d377 += _0x44d4c9 * _0x28edff;
+        _0xc070e0 += _0x44d4c9 * _0x5a856f;
+        _0x114e8e += _0x44d4c9 * _0x220ea3;
+        _0x41a71d += _0x44d4c9 * _0x231070;
+        _0x4c3e19 += _0x44d4c9 * _0x369616;
+        _0x1afa88 += _0x44d4c9 * _0x229c80;
+        _0x2514e9 += _0x44d4c9 * _0x11dd6b;
+        _0x4fc9e6 += _0x44d4c9 * _0x44eee5;
+        _0x1e6781 += _0x44d4c9 * _0x392023;
+        _0x505117 += _0x44d4c9 * _0x2a4318;
+        _0x53bd36 += _0x44d4c9 * _0x5e526a;
+        _0x1eef0d += _0x44d4c9 * _0x2d3f5b;
+        _0x44d4c9 = _0x27f511[0x8];
+        _0x3a75da += _0x44d4c9 * _0xe32744;
+        _0x387877 += _0x44d4c9 * _0x352b4a;
+        _0x468775 += _0x44d4c9 * _0x3e204a;
+        _0x16d377 += _0x44d4c9 * _0x7f5512;
+        _0xc070e0 += _0x44d4c9 * _0x28edff;
+        _0x114e8e += _0x44d4c9 * _0x5a856f;
+        _0x41a71d += _0x44d4c9 * _0x220ea3;
+        _0x4c3e19 += _0x44d4c9 * _0x231070;
+        _0x1afa88 += _0x44d4c9 * _0x369616;
+        _0x2514e9 += _0x44d4c9 * _0x229c80;
+        _0x4fc9e6 += _0x44d4c9 * _0x11dd6b;
+        _0x1e6781 += _0x44d4c9 * _0x44eee5;
+        _0x505117 += _0x44d4c9 * _0x392023;
+        _0x53bd36 += _0x44d4c9 * _0x2a4318;
+        _0x1eef0d += _0x44d4c9 * _0x5e526a;
+        _0x4affce += _0x44d4c9 * _0x2d3f5b;
+        _0x44d4c9 = _0x27f511[0x9];
+        _0x387877 += _0x44d4c9 * _0xe32744;
+        _0x468775 += _0x44d4c9 * _0x352b4a;
+        _0x16d377 += _0x44d4c9 * _0x3e204a;
+        _0xc070e0 += _0x44d4c9 * _0x7f5512;
+        _0x114e8e += _0x44d4c9 * _0x28edff;
+        _0x41a71d += _0x44d4c9 * _0x5a856f;
+        _0x4c3e19 += _0x44d4c9 * _0x220ea3;
+        _0x1afa88 += _0x44d4c9 * _0x231070;
+        _0x2514e9 += _0x44d4c9 * _0x369616;
+        _0x4fc9e6 += _0x44d4c9 * _0x229c80;
+        _0x1e6781 += _0x44d4c9 * _0x11dd6b;
+        _0x505117 += _0x44d4c9 * _0x44eee5;
+        _0x53bd36 += _0x44d4c9 * _0x392023;
+        _0x1eef0d += _0x44d4c9 * _0x2a4318;
+        _0x4affce += _0x44d4c9 * _0x5e526a;
+        _0x1f3f8f += _0x44d4c9 * _0x2d3f5b;
+        _0x44d4c9 = _0x27f511[0xa];
+        _0x468775 += _0x44d4c9 * _0xe32744;
+        _0x16d377 += _0x44d4c9 * _0x352b4a;
+        _0xc070e0 += _0x44d4c9 * _0x3e204a;
+        _0x114e8e += _0x44d4c9 * _0x7f5512;
+        _0x41a71d += _0x44d4c9 * _0x28edff;
+        _0x4c3e19 += _0x44d4c9 * _0x5a856f;
+        _0x1afa88 += _0x44d4c9 * _0x220ea3;
+        _0x2514e9 += _0x44d4c9 * _0x231070;
+        _0x4fc9e6 += _0x44d4c9 * _0x369616;
+        _0x1e6781 += _0x44d4c9 * _0x229c80;
+        _0x505117 += _0x44d4c9 * _0x11dd6b;
+        _0x53bd36 += _0x44d4c9 * _0x44eee5;
+        _0x1eef0d += _0x44d4c9 * _0x392023;
+        _0x4affce += _0x44d4c9 * _0x2a4318;
+        _0x1f3f8f += _0x44d4c9 * _0x5e526a;
+        _0xd8aa2f += _0x44d4c9 * _0x2d3f5b;
+        _0x44d4c9 = _0x27f511[0xb];
+        _0x16d377 += _0x44d4c9 * _0xe32744;
+        _0xc070e0 += _0x44d4c9 * _0x352b4a;
+        _0x114e8e += _0x44d4c9 * _0x3e204a;
+        _0x41a71d += _0x44d4c9 * _0x7f5512;
+        _0x4c3e19 += _0x44d4c9 * _0x28edff;
+        _0x1afa88 += _0x44d4c9 * _0x5a856f;
+        _0x2514e9 += _0x44d4c9 * _0x220ea3;
+        _0x4fc9e6 += _0x44d4c9 * _0x231070;
+        _0x1e6781 += _0x44d4c9 * _0x369616;
+        _0x505117 += _0x44d4c9 * _0x229c80;
+        _0x53bd36 += _0x44d4c9 * _0x11dd6b;
+        _0x1eef0d += _0x44d4c9 * _0x44eee5;
+        _0x4affce += _0x44d4c9 * _0x392023;
+        _0x1f3f8f += _0x44d4c9 * _0x2a4318;
+        _0xd8aa2f += _0x44d4c9 * _0x5e526a;
+        _0x1125a9 += _0x44d4c9 * _0x2d3f5b;
+        _0x44d4c9 = _0x27f511[0xc];
+        _0xc070e0 += _0x44d4c9 * _0xe32744;
+        _0x114e8e += _0x44d4c9 * _0x352b4a;
+        _0x41a71d += _0x44d4c9 * _0x3e204a;
+        _0x4c3e19 += _0x44d4c9 * _0x7f5512;
+        _0x1afa88 += _0x44d4c9 * _0x28edff;
+        _0x2514e9 += _0x44d4c9 * _0x5a856f;
+        _0x4fc9e6 += _0x44d4c9 * _0x220ea3;
+        _0x1e6781 += _0x44d4c9 * _0x231070;
+        _0x505117 += _0x44d4c9 * _0x369616;
+        _0x53bd36 += _0x44d4c9 * _0x229c80;
+        _0x1eef0d += _0x44d4c9 * _0x11dd6b;
+        _0x4affce += _0x44d4c9 * _0x44eee5;
+        _0x1f3f8f += _0x44d4c9 * _0x392023;
+        _0xd8aa2f += _0x44d4c9 * _0x2a4318;
+        _0x1125a9 += _0x44d4c9 * _0x5e526a;
+        _0x2edcad += _0x44d4c9 * _0x2d3f5b;
+        _0x44d4c9 = _0x27f511[0xd];
+        _0x114e8e += _0x44d4c9 * _0xe32744;
+        _0x41a71d += _0x44d4c9 * _0x352b4a;
+        _0x4c3e19 += _0x44d4c9 * _0x3e204a;
+        _0x1afa88 += _0x44d4c9 * _0x7f5512;
+        _0x2514e9 += _0x44d4c9 * _0x28edff;
+        _0x4fc9e6 += _0x44d4c9 * _0x5a856f;
+        _0x1e6781 += _0x44d4c9 * _0x220ea3;
+        _0x505117 += _0x44d4c9 * _0x231070;
+        _0x53bd36 += _0x44d4c9 * _0x369616;
+        _0x1eef0d += _0x44d4c9 * _0x229c80;
+        _0x4affce += _0x44d4c9 * _0x11dd6b;
+        _0x1f3f8f += _0x44d4c9 * _0x44eee5;
+        _0xd8aa2f += _0x44d4c9 * _0x392023;
+        _0x1125a9 += _0x44d4c9 * _0x2a4318;
+        _0x2edcad += _0x44d4c9 * _0x5e526a;
+        _0x4ddb86 += _0x44d4c9 * _0x2d3f5b;
+        _0x44d4c9 = _0x27f511[0xe];
+        _0x41a71d += _0x44d4c9 * _0xe32744;
+        _0x4c3e19 += _0x44d4c9 * _0x352b4a;
+        _0x1afa88 += _0x44d4c9 * _0x3e204a;
+        _0x2514e9 += _0x44d4c9 * _0x7f5512;
+        _0x4fc9e6 += _0x44d4c9 * _0x28edff;
+        _0x1e6781 += _0x44d4c9 * _0x5a856f;
+        _0x505117 += _0x44d4c9 * _0x220ea3;
+        _0x53bd36 += _0x44d4c9 * _0x231070;
+        _0x1eef0d += _0x44d4c9 * _0x369616;
+        _0x4affce += _0x44d4c9 * _0x229c80;
+        _0x1f3f8f += _0x44d4c9 * _0x11dd6b;
+        _0xd8aa2f += _0x44d4c9 * _0x44eee5;
+        _0x1125a9 += _0x44d4c9 * _0x392023;
+        _0x2edcad += _0x44d4c9 * _0x2a4318;
+        _0x4ddb86 += _0x44d4c9 * _0x5e526a;
+        _0x403ceb += _0x44d4c9 * _0x2d3f5b;
+        _0x44d4c9 = _0x27f511[0xf];
+        _0x4c3e19 += _0x44d4c9 * _0xe32744;
+        _0x1afa88 += _0x44d4c9 * _0x352b4a;
+        _0x2514e9 += _0x44d4c9 * _0x3e204a;
+        _0x4fc9e6 += _0x44d4c9 * _0x7f5512;
+        _0x1e6781 += _0x44d4c9 * _0x28edff;
+        _0x505117 += _0x44d4c9 * _0x5a856f;
+        _0x53bd36 += _0x44d4c9 * _0x220ea3;
+        _0x1eef0d += _0x44d4c9 * _0x231070;
+        _0x4affce += _0x44d4c9 * _0x369616;
+        _0x1f3f8f += _0x44d4c9 * _0x229c80;
+        _0xd8aa2f += _0x44d4c9 * _0x11dd6b;
+        _0x1125a9 += _0x44d4c9 * _0x44eee5;
+        _0x2edcad += _0x44d4c9 * _0x392023;
+        _0x4ddb86 += _0x44d4c9 * _0x2a4318;
+        _0x403ceb += _0x44d4c9 * _0x5e526a;
+        _0x40aaae += _0x44d4c9 * _0x2d3f5b;
+        _0x2a77f3 += 0x26 * _0x1afa88;
+        _0x4af804 += 0x26 * _0x2514e9;
+        _0xb4e710 += 0x26 * _0x4fc9e6;
+        _0x3300dc += 0x26 * _0x1e6781;
+        _0x1dbc08 += 0x26 * _0x505117;
+        _0x49771b += 0x26 * _0x53bd36;
+        _0xf6c0d1 += 0x26 * _0x1eef0d;
+        _0x572a1c += 0x26 * _0x4affce;
+        _0x3a75da += 0x26 * _0x1f3f8f;
+        _0x387877 += 0x26 * _0xd8aa2f;
+        _0x468775 += 0x26 * _0x1125a9;
+        _0x16d377 += 0x26 * _0x2edcad;
+        _0xc070e0 += 0x26 * _0x4ddb86;
+        _0x114e8e += 0x26 * _0x403ceb;
+        _0x41a71d += 0x26 * _0x40aaae;
+        _0x35c30c = 0x1;
+        _0x44d4c9 = _0x2a77f3 + _0x35c30c + 0xffff;
+        _0x35c30c = Math.floor(_0x44d4c9 / 0x10000);
+        _0x2a77f3 = _0x44d4c9 - _0x35c30c * 0x10000;
+        _0x44d4c9 = _0x4af804 + _0x35c30c + 0xffff;
+        _0x35c30c = Math.floor(_0x44d4c9 / 0x10000);
+        _0x4af804 = _0x44d4c9 - _0x35c30c * 0x10000;
+        _0x44d4c9 = _0xb4e710 + _0x35c30c + 0xffff;
+        _0x35c30c = Math.floor(_0x44d4c9 / 0x10000);
+        _0xb4e710 = _0x44d4c9 - _0x35c30c * 0x10000;
+        _0x44d4c9 = _0x3300dc + _0x35c30c + 0xffff;
+        _0x35c30c = Math.floor(_0x44d4c9 / 0x10000);
+        _0x3300dc = _0x44d4c9 - _0x35c30c * 0x10000;
+        _0x44d4c9 = _0x1dbc08 + _0x35c30c + 0xffff;
+        _0x35c30c = Math.floor(_0x44d4c9 / 0x10000);
+        _0x1dbc08 = _0x44d4c9 - _0x35c30c * 0x10000;
+        _0x44d4c9 = _0x49771b + _0x35c30c + 0xffff;
+        _0x35c30c = Math.floor(_0x44d4c9 / 0x10000);
+        _0x49771b = _0x44d4c9 - _0x35c30c * 0x10000;
+        _0x44d4c9 = _0xf6c0d1 + _0x35c30c + 0xffff;
+        _0x35c30c = Math.floor(_0x44d4c9 / 0x10000);
+        _0xf6c0d1 = _0x44d4c9 - _0x35c30c * 0x10000;
+        _0x44d4c9 = _0x572a1c + _0x35c30c + 0xffff;
+        _0x35c30c = Math.floor(_0x44d4c9 / 0x10000);
+        _0x572a1c = _0x44d4c9 - _0x35c30c * 0x10000;
+        _0x44d4c9 = _0x3a75da + _0x35c30c + 0xffff;
+        _0x35c30c = Math.floor(_0x44d4c9 / 0x10000);
+        _0x3a75da = _0x44d4c9 - _0x35c30c * 0x10000;
+        _0x44d4c9 = _0x387877 + _0x35c30c + 0xffff;
+        _0x35c30c = Math.floor(_0x44d4c9 / 0x10000);
+        _0x387877 = _0x44d4c9 - _0x35c30c * 0x10000;
+        _0x44d4c9 = _0x468775 + _0x35c30c + 0xffff;
+        _0x35c30c = Math.floor(_0x44d4c9 / 0x10000);
+        _0x468775 = _0x44d4c9 - _0x35c30c * 0x10000;
+        _0x44d4c9 = _0x16d377 + _0x35c30c + 0xffff;
+        _0x35c30c = Math.floor(_0x44d4c9 / 0x10000);
+        _0x16d377 = _0x44d4c9 - _0x35c30c * 0x10000;
+        _0x44d4c9 = _0xc070e0 + _0x35c30c + 0xffff;
+        _0x35c30c = Math.floor(_0x44d4c9 / 0x10000);
+        _0xc070e0 = _0x44d4c9 - _0x35c30c * 0x10000;
+        _0x44d4c9 = _0x114e8e + _0x35c30c + 0xffff;
+        _0x35c30c = Math.floor(_0x44d4c9 / 0x10000);
+        _0x114e8e = _0x44d4c9 - _0x35c30c * 0x10000;
+        _0x44d4c9 = _0x41a71d + _0x35c30c + 0xffff;
+        _0x35c30c = Math.floor(_0x44d4c9 / 0x10000);
+        _0x41a71d = _0x44d4c9 - _0x35c30c * 0x10000;
+        _0x44d4c9 = _0x4c3e19 + _0x35c30c + 0xffff;
+        _0x35c30c = Math.floor(_0x44d4c9 / 0x10000);
+        _0x4c3e19 = _0x44d4c9 - _0x35c30c * 0x10000;
+        _0x2a77f3 += _0x35c30c - 0x1 + 0x25 * (_0x35c30c - 0x1);
+        _0x35c30c = 0x1;
+        _0x44d4c9 = _0x2a77f3 + _0x35c30c + 0xffff;
+        _0x35c30c = Math.floor(_0x44d4c9 / 0x10000);
+        _0x2a77f3 = _0x44d4c9 - _0x35c30c * 0x10000;
+        _0x44d4c9 = _0x4af804 + _0x35c30c + 0xffff;
+        _0x35c30c = Math.floor(_0x44d4c9 / 0x10000);
+        _0x4af804 = _0x44d4c9 - _0x35c30c * 0x10000;
+        _0x44d4c9 = _0xb4e710 + _0x35c30c + 0xffff;
+        _0x35c30c = Math.floor(_0x44d4c9 / 0x10000);
+        _0xb4e710 = _0x44d4c9 - _0x35c30c * 0x10000;
+        _0x44d4c9 = _0x3300dc + _0x35c30c + 0xffff;
+        _0x35c30c = Math.floor(_0x44d4c9 / 0x10000);
+        _0x3300dc = _0x44d4c9 - _0x35c30c * 0x10000;
+        _0x44d4c9 = _0x1dbc08 + _0x35c30c + 0xffff;
+        _0x35c30c = Math.floor(_0x44d4c9 / 0x10000);
+        _0x1dbc08 = _0x44d4c9 - _0x35c30c * 0x10000;
+        _0x44d4c9 = _0x49771b + _0x35c30c + 0xffff;
+        _0x35c30c = Math.floor(_0x44d4c9 / 0x10000);
+        _0x49771b = _0x44d4c9 - _0x35c30c * 0x10000;
+        _0x44d4c9 = _0xf6c0d1 + _0x35c30c + 0xffff;
+        _0x35c30c = Math.floor(_0x44d4c9 / 0x10000);
+        _0xf6c0d1 = _0x44d4c9 - _0x35c30c * 0x10000;
+        _0x44d4c9 = _0x572a1c + _0x35c30c + 0xffff;
+        _0x35c30c = Math.floor(_0x44d4c9 / 0x10000);
+        _0x572a1c = _0x44d4c9 - _0x35c30c * 0x10000;
+        _0x44d4c9 = _0x3a75da + _0x35c30c + 0xffff;
+        _0x35c30c = Math.floor(_0x44d4c9 / 0x10000);
+        _0x3a75da = _0x44d4c9 - _0x35c30c * 0x10000;
+        _0x44d4c9 = _0x387877 + _0x35c30c + 0xffff;
+        _0x35c30c = Math.floor(_0x44d4c9 / 0x10000);
+        _0x387877 = _0x44d4c9 - _0x35c30c * 0x10000;
+        _0x44d4c9 = _0x468775 + _0x35c30c + 0xffff;
+        _0x35c30c = Math.floor(_0x44d4c9 / 0x10000);
+        _0x468775 = _0x44d4c9 - _0x35c30c * 0x10000;
+        _0x44d4c9 = _0x16d377 + _0x35c30c + 0xffff;
+        _0x35c30c = Math.floor(_0x44d4c9 / 0x10000);
+        _0x16d377 = _0x44d4c9 - _0x35c30c * 0x10000;
+        _0x44d4c9 = _0xc070e0 + _0x35c30c + 0xffff;
+        _0x35c30c = Math.floor(_0x44d4c9 / 0x10000);
+        _0xc070e0 = _0x44d4c9 - _0x35c30c * 0x10000;
+        _0x44d4c9 = _0x114e8e + _0x35c30c + 0xffff;
+        _0x35c30c = Math.floor(_0x44d4c9 / 0x10000);
+        _0x114e8e = _0x44d4c9 - _0x35c30c * 0x10000;
+        _0x44d4c9 = _0x41a71d + _0x35c30c + 0xffff;
+        _0x35c30c = Math.floor(_0x44d4c9 / 0x10000);
+        _0x41a71d = _0x44d4c9 - _0x35c30c * 0x10000;
+        _0x44d4c9 = _0x4c3e19 + _0x35c30c + 0xffff;
+        _0x35c30c = Math.floor(_0x44d4c9 / 0x10000);
+        _0x4c3e19 = _0x44d4c9 - _0x35c30c * 0x10000;
+        _0x2a77f3 += _0x35c30c - 0x1 + 0x25 * (_0x35c30c - 0x1);
+        _0xbc8a96[0x0] = _0x2a77f3;
+        _0xbc8a96[0x1] = _0x4af804;
+        _0xbc8a96[0x2] = _0xb4e710;
+        _0xbc8a96[0x3] = _0x3300dc;
+        _0xbc8a96[0x4] = _0x1dbc08;
+        _0xbc8a96[0x5] = _0x49771b;
+        _0xbc8a96[0x6] = _0xf6c0d1;
+        _0xbc8a96[0x7] = _0x572a1c;
+        _0xbc8a96[0x8] = _0x3a75da;
+        _0xbc8a96[0x9] = _0x387877;
+        _0xbc8a96[0xa] = _0x468775;
+        _0xbc8a96[0xb] = _0x16d377;
+        _0xbc8a96[0xc] = _0xc070e0;
+        _0xbc8a96[0xd] = _0x114e8e;
+        _0xbc8a96[0xe] = _0x41a71d;
+        _0xbc8a96[0xf] = _0x4c3e19;
+      }
+      __defProp(_0x23ec90, "name", {
+        'value': 'M',
+        'configurable': true
+      });
+      function _0x5c2179(_0x200193, _0x3eae7f) {
+        _0x23ec90(_0x200193, _0x3eae7f, _0x3eae7f);
+      }
+      __defProp(_0x5c2179, "name", {
+        'value': 'S',
+        'configurable': true
+      });
+      function _0x2d41a1(_0x2fc082, _0x2517a3) {
+        var _0x1c85ef = _0x37d431();
+        var _0x43fb58;
+        for (_0x43fb58 = 0x0; _0x43fb58 < 0x10; _0x43fb58++) {
+          _0x1c85ef[_0x43fb58] = _0x2517a3[_0x43fb58];
         }
-        for (i = 0; i < 16; i++) {
-          x[i + 16] = a[i];
-          x[i + 32] = c[i];
-          x[i + 48] = b[i];
-          x[i + 64] = d[i];
-        }
-        var x32 = x.subarray(32);
-        var x16 = x.subarray(16);
-        inv25519(x32, x32);
-        M(x16, x16, x32);
-        pack25519(q, x16);
-        return 0;
-      }
-      function crypto_scalarmult_base(q, n) {
-        return crypto_scalarmult(q, n, _9);
-      }
-      function crypto_box_keypair(y, x) {
-        randombytes(x, 32);
-        return crypto_scalarmult_base(y, x);
-      }
-      function crypto_box_beforenm(k, y, x) {
-        var s = new Uint8Array(32);
-        crypto_scalarmult(s, x, y);
-        return crypto_core_hsalsa20(k, _0, s, sigma);
-      }
-      var crypto_box_afternm = crypto_secretbox;
-      var crypto_box_open_afternm = crypto_secretbox_open;
-      function crypto_box(c, m, d, n, y, x) {
-        var k = new Uint8Array(32);
-        crypto_box_beforenm(k, y, x);
-        return crypto_box_afternm(c, m, d, n, k);
-      }
-      function crypto_box_open(m, c, d, n, y, x) {
-        var k = new Uint8Array(32);
-        crypto_box_beforenm(k, y, x);
-        return crypto_box_open_afternm(m, c, d, n, k);
-      }
-      var K = [
-        1116352408,
-        3609767458,
-        1899447441,
-        602891725,
-        3049323471,
-        3964484399,
-        3921009573,
-        2173295548,
-        961987163,
-        4081628472,
-        1508970993,
-        3053834265,
-        2453635748,
-        2937671579,
-        2870763221,
-        3664609560,
-        3624381080,
-        2734883394,
-        310598401,
-        1164996542,
-        607225278,
-        1323610764,
-        1426881987,
-        3590304994,
-        1925078388,
-        4068182383,
-        2162078206,
-        991336113,
-        2614888103,
-        633803317,
-        3248222580,
-        3479774868,
-        3835390401,
-        2666613458,
-        4022224774,
-        944711139,
-        264347078,
-        2341262773,
-        604807628,
-        2007800933,
-        770255983,
-        1495990901,
-        1249150122,
-        1856431235,
-        1555081692,
-        3175218132,
-        1996064986,
-        2198950837,
-        2554220882,
-        3999719339,
-        2821834349,
-        766784016,
-        2952996808,
-        2566594879,
-        3210313671,
-        3203337956,
-        3336571891,
-        1034457026,
-        3584528711,
-        2466948901,
-        113926993,
-        3758326383,
-        338241895,
-        168717936,
-        666307205,
-        1188179964,
-        773529912,
-        1546045734,
-        1294757372,
-        1522805485,
-        1396182291,
-        2643833823,
-        1695183700,
-        2343527390,
-        1986661051,
-        1014477480,
-        2177026350,
-        1206759142,
-        2456956037,
-        344077627,
-        2730485921,
-        1290863460,
-        2820302411,
-        3158454273,
-        3259730800,
-        3505952657,
-        3345764771,
-        106217008,
-        3516065817,
-        3606008344,
-        3600352804,
-        1432725776,
-        4094571909,
-        1467031594,
-        275423344,
-        851169720,
-        430227734,
-        3100823752,
-        506948616,
-        1363258195,
-        659060556,
-        3750685593,
-        883997877,
-        3785050280,
-        958139571,
-        3318307427,
-        1322822218,
-        3812723403,
-        1537002063,
-        2003034995,
-        1747873779,
-        3602036899,
-        1955562222,
-        1575990012,
-        2024104815,
-        1125592928,
-        2227730452,
-        2716904306,
-        2361852424,
-        442776044,
-        2428436474,
-        593698344,
-        2756734187,
-        3733110249,
-        3204031479,
-        2999351573,
-        3329325298,
-        3815920427,
-        3391569614,
-        3928383900,
-        3515267271,
-        566280711,
-        3940187606,
-        3454069534,
-        4118630271,
-        4000239992,
-        116418474,
-        1914138554,
-        174292421,
-        2731055270,
-        289380356,
-        3203993006,
-        460393269,
-        320620315,
-        685471733,
-        587496836,
-        852142971,
-        1086792851,
-        1017036298,
-        365543100,
-        1126000580,
-        2618297676,
-        1288033470,
-        3409855158,
-        1501505948,
-        4234509866,
-        1607167915,
-        987167468,
-        1816402316,
-        1246189591
-      ];
-      function crypto_hashblocks_hl(hh, hl, m, n) {
-        var wh = new Int32Array(16), wl = new Int32Array(16), bh0, bh1, bh2, bh3, bh4, bh5, bh6, bh7, bl0, bl1, bl2, bl3, bl4, bl5, bl6, bl7, th, tl, i, j, h, l, a, b, c, d;
-        var ah0 = hh[0], ah1 = hh[1], ah2 = hh[2], ah3 = hh[3], ah4 = hh[4], ah5 = hh[5], ah6 = hh[6], ah7 = hh[7], al0 = hl[0], al1 = hl[1], al2 = hl[2], al3 = hl[3], al4 = hl[4], al5 = hl[5], al6 = hl[6], al7 = hl[7];
-        var pos = 0;
-        while (n >= 128) {
-          for (i = 0; i < 16; i++) {
-            j = 8 * i + pos;
-            wh[i] = m[j + 0] << 24 | m[j + 1] << 16 | m[j + 2] << 8 | m[j + 3];
-            wl[i] = m[j + 4] << 24 | m[j + 5] << 16 | m[j + 6] << 8 | m[j + 7];
+        for (_0x43fb58 = 0xfd; _0x43fb58 >= 0x0; _0x43fb58--) {
+          _0x5c2179(_0x1c85ef, _0x1c85ef);
+          if (_0x43fb58 !== 0x2 && _0x43fb58 !== 0x4) {
+            _0x23ec90(_0x1c85ef, _0x1c85ef, _0x2517a3);
           }
-          for (i = 0; i < 80; i++) {
-            bh0 = ah0;
-            bh1 = ah1;
-            bh2 = ah2;
-            bh3 = ah3;
-            bh4 = ah4;
-            bh5 = ah5;
-            bh6 = ah6;
-            bh7 = ah7;
-            bl0 = al0;
-            bl1 = al1;
-            bl2 = al2;
-            bl3 = al3;
-            bl4 = al4;
-            bl5 = al5;
-            bl6 = al6;
-            bl7 = al7;
-            h = ah7;
-            l = al7;
-            a = l & 65535;
-            b = l >>> 16;
-            c = h & 65535;
-            d = h >>> 16;
-            h = (ah4 >>> 14 | al4 << 32 - 14) ^ (ah4 >>> 18 | al4 << 32 - 18) ^ (al4 >>> 41 - 32 | ah4 << 32 - (41 - 32));
-            l = (al4 >>> 14 | ah4 << 32 - 14) ^ (al4 >>> 18 | ah4 << 32 - 18) ^ (ah4 >>> 41 - 32 | al4 << 32 - (41 - 32));
-            a += l & 65535;
-            b += l >>> 16;
-            c += h & 65535;
-            d += h >>> 16;
-            h = ah4 & ah5 ^ ~ah4 & ah6;
-            l = al4 & al5 ^ ~al4 & al6;
-            a += l & 65535;
-            b += l >>> 16;
-            c += h & 65535;
-            d += h >>> 16;
-            h = K[i * 2];
-            l = K[i * 2 + 1];
-            a += l & 65535;
-            b += l >>> 16;
-            c += h & 65535;
-            d += h >>> 16;
-            h = wh[i % 16];
-            l = wl[i % 16];
-            a += l & 65535;
-            b += l >>> 16;
-            c += h & 65535;
-            d += h >>> 16;
-            b += a >>> 16;
-            c += b >>> 16;
-            d += c >>> 16;
-            th = c & 65535 | d << 16;
-            tl = a & 65535 | b << 16;
-            h = th;
-            l = tl;
-            a = l & 65535;
-            b = l >>> 16;
-            c = h & 65535;
-            d = h >>> 16;
-            h = (ah0 >>> 28 | al0 << 32 - 28) ^ (al0 >>> 34 - 32 | ah0 << 32 - (34 - 32)) ^ (al0 >>> 39 - 32 | ah0 << 32 - (39 - 32));
-            l = (al0 >>> 28 | ah0 << 32 - 28) ^ (ah0 >>> 34 - 32 | al0 << 32 - (34 - 32)) ^ (ah0 >>> 39 - 32 | al0 << 32 - (39 - 32));
-            a += l & 65535;
-            b += l >>> 16;
-            c += h & 65535;
-            d += h >>> 16;
-            h = ah0 & ah1 ^ ah0 & ah2 ^ ah1 & ah2;
-            l = al0 & al1 ^ al0 & al2 ^ al1 & al2;
-            a += l & 65535;
-            b += l >>> 16;
-            c += h & 65535;
-            d += h >>> 16;
-            b += a >>> 16;
-            c += b >>> 16;
-            d += c >>> 16;
-            bh7 = c & 65535 | d << 16;
-            bl7 = a & 65535 | b << 16;
-            h = bh3;
-            l = bl3;
-            a = l & 65535;
-            b = l >>> 16;
-            c = h & 65535;
-            d = h >>> 16;
-            h = th;
-            l = tl;
-            a += l & 65535;
-            b += l >>> 16;
-            c += h & 65535;
-            d += h >>> 16;
-            b += a >>> 16;
-            c += b >>> 16;
-            d += c >>> 16;
-            bh3 = c & 65535 | d << 16;
-            bl3 = a & 65535 | b << 16;
-            ah1 = bh0;
-            ah2 = bh1;
-            ah3 = bh2;
-            ah4 = bh3;
-            ah5 = bh4;
-            ah6 = bh5;
-            ah7 = bh6;
-            ah0 = bh7;
-            al1 = bl0;
-            al2 = bl1;
-            al3 = bl2;
-            al4 = bl3;
-            al5 = bl4;
-            al6 = bl5;
-            al7 = bl6;
-            al0 = bl7;
-            if (i % 16 === 15) {
-              for (j = 0; j < 16; j++) {
-                h = wh[j];
-                l = wl[j];
-                a = l & 65535;
-                b = l >>> 16;
-                c = h & 65535;
-                d = h >>> 16;
-                h = wh[(j + 9) % 16];
-                l = wl[(j + 9) % 16];
-                a += l & 65535;
-                b += l >>> 16;
-                c += h & 65535;
-                d += h >>> 16;
-                th = wh[(j + 1) % 16];
-                tl = wl[(j + 1) % 16];
-                h = (th >>> 1 | tl << 32 - 1) ^ (th >>> 8 | tl << 32 - 8) ^ th >>> 7;
-                l = (tl >>> 1 | th << 32 - 1) ^ (tl >>> 8 | th << 32 - 8) ^ (tl >>> 7 | th << 32 - 7);
-                a += l & 65535;
-                b += l >>> 16;
-                c += h & 65535;
-                d += h >>> 16;
-                th = wh[(j + 14) % 16];
-                tl = wl[(j + 14) % 16];
-                h = (th >>> 19 | tl << 32 - 19) ^ (tl >>> 61 - 32 | th << 32 - (61 - 32)) ^ th >>> 6;
-                l = (tl >>> 19 | th << 32 - 19) ^ (th >>> 61 - 32 | tl << 32 - (61 - 32)) ^ (tl >>> 6 | th << 32 - 6);
-                a += l & 65535;
-                b += l >>> 16;
-                c += h & 65535;
-                d += h >>> 16;
-                b += a >>> 16;
-                c += b >>> 16;
-                d += c >>> 16;
-                wh[j] = c & 65535 | d << 16;
-                wl[j] = a & 65535 | b << 16;
+        }
+        for (_0x43fb58 = 0x0; _0x43fb58 < 0x10; _0x43fb58++) {
+          _0x2fc082[_0x43fb58] = _0x1c85ef[_0x43fb58];
+        }
+      }
+      __defProp(_0x2d41a1, "name", {
+        'value': "inv25519",
+        'configurable': true
+      });
+      function _0x25e99e(_0x8d128e, _0x36b00f) {
+        var _0x3f7d2d = _0x37d431();
+        var _0x3ebd51;
+        for (_0x3ebd51 = 0x0; _0x3ebd51 < 0x10; _0x3ebd51++) {
+          _0x3f7d2d[_0x3ebd51] = _0x36b00f[_0x3ebd51];
+        }
+        for (_0x3ebd51 = 0xfa; _0x3ebd51 >= 0x0; _0x3ebd51--) {
+          _0x5c2179(_0x3f7d2d, _0x3f7d2d);
+          if (_0x3ebd51 !== 0x1) {
+            _0x23ec90(_0x3f7d2d, _0x3f7d2d, _0x36b00f);
+          }
+        }
+        for (_0x3ebd51 = 0x0; _0x3ebd51 < 0x10; _0x3ebd51++) {
+          _0x8d128e[_0x3ebd51] = _0x3f7d2d[_0x3ebd51];
+        }
+      }
+      __defProp(_0x25e99e, "name", {
+        'value': "pow2523",
+        'configurable': true
+      });
+      function _0x1a2efd(_0x50e26f, _0x10c419, _0x3c00ed) {
+        var _0x2115b1 = new Uint8Array(0x20);
+        var _0x5b28fd = new Float64Array(0x50);
+        var _0x30f7a9;
+        var _0x43af00;
+        var _0x166f7d = _0x37d431();
+        var _0x2580c1 = _0x37d431();
+        var _0x26747e = _0x37d431();
+        var _0x4befad = _0x37d431();
+        var _0x56d42 = _0x37d431();
+        var _0x289428 = _0x37d431();
+        for (_0x43af00 = 0x0; _0x43af00 < 0x1f; _0x43af00++) {
+          _0x2115b1[_0x43af00] = _0x10c419[_0x43af00];
+        }
+        _0x2115b1[0x1f] = _0x10c419[0x1f] & 0x7f | 0x40;
+        _0x2115b1[0x0] &= 0xf8;
+        _0x553aef(_0x5b28fd, _0x3c00ed);
+        for (_0x43af00 = 0x0; _0x43af00 < 0x10; _0x43af00++) {
+          _0x2580c1[_0x43af00] = _0x5b28fd[_0x43af00];
+          _0x4befad[_0x43af00] = _0x166f7d[_0x43af00] = _0x26747e[_0x43af00] = 0x0;
+        }
+        _0x166f7d[0x0] = _0x4befad[0x0] = 0x1;
+        for (_0x43af00 = 0xfe; _0x43af00 >= 0x0; --_0x43af00) {
+          _0x30f7a9 = _0x2115b1[_0x43af00 >>> 0x3] >>> (_0x43af00 & 0x7) & 0x1;
+          _0xeaa097(_0x166f7d, _0x2580c1, _0x30f7a9);
+          _0xeaa097(_0x26747e, _0x4befad, _0x30f7a9);
+          _0x2b9493(_0x56d42, _0x166f7d, _0x26747e);
+          _0x2b9d8a(_0x166f7d, _0x166f7d, _0x26747e);
+          _0x2b9493(_0x26747e, _0x2580c1, _0x4befad);
+          _0x2b9d8a(_0x2580c1, _0x2580c1, _0x4befad);
+          _0x5c2179(_0x4befad, _0x56d42);
+          _0x5c2179(_0x289428, _0x166f7d);
+          _0x23ec90(_0x166f7d, _0x26747e, _0x166f7d);
+          _0x23ec90(_0x26747e, _0x2580c1, _0x56d42);
+          _0x2b9493(_0x56d42, _0x166f7d, _0x26747e);
+          _0x2b9d8a(_0x166f7d, _0x166f7d, _0x26747e);
+          _0x5c2179(_0x2580c1, _0x166f7d);
+          _0x2b9d8a(_0x26747e, _0x4befad, _0x289428);
+          _0x23ec90(_0x166f7d, _0x26747e, _0x1a27a4);
+          _0x2b9493(_0x166f7d, _0x166f7d, _0x4befad);
+          _0x23ec90(_0x26747e, _0x26747e, _0x166f7d);
+          _0x23ec90(_0x166f7d, _0x4befad, _0x289428);
+          _0x23ec90(_0x4befad, _0x2580c1, _0x5b28fd);
+          _0x5c2179(_0x2580c1, _0x56d42);
+          _0xeaa097(_0x166f7d, _0x2580c1, _0x30f7a9);
+          _0xeaa097(_0x26747e, _0x4befad, _0x30f7a9);
+        }
+        for (_0x43af00 = 0x0; _0x43af00 < 0x10; _0x43af00++) {
+          _0x5b28fd[_0x43af00 + 0x10] = _0x166f7d[_0x43af00];
+          _0x5b28fd[_0x43af00 + 0x20] = _0x26747e[_0x43af00];
+          _0x5b28fd[_0x43af00 + 0x30] = _0x2580c1[_0x43af00];
+          _0x5b28fd[_0x43af00 + 0x40] = _0x4befad[_0x43af00];
+        }
+        var _0x593c20 = _0x5b28fd.subarray(0x20);
+        var _0x355cd1 = _0x5b28fd.subarray(0x10);
+        _0x2d41a1(_0x593c20, _0x593c20);
+        _0x23ec90(_0x355cd1, _0x355cd1, _0x593c20);
+        _0x3dc71f(_0x50e26f, _0x355cd1);
+        return 0x0;
+      }
+      __defProp(_0x1a2efd, "name", {
+        'value': "crypto_scalarmult",
+        'configurable': true
+      });
+      function _0x44a5a9(_0x2ac4c5, _0x1d539f) {
+        return _0x1a2efd(_0x2ac4c5, _0x1d539f, _0x1074eb);
+      }
+      __defProp(_0x44a5a9, "name", {
+        'value': "crypto_scalarmult_base",
+        'configurable': true
+      });
+      function _0x183ae2(_0x16cc20, _0x4e0d96) {
+        _0x5354b6(_0x4e0d96, 0x20);
+        return _0x1a2efd(_0x16cc20, _0x4e0d96, _0x1074eb);
+      }
+      __defProp(_0x183ae2, "name", {
+        'value': "crypto_box_keypair",
+        'configurable': true
+      });
+      function _0x7baa21(_0x31a12e, _0xb74b87, _0x296211) {
+        var _0x4e769f = new Uint8Array(0x20);
+        _0x1a2efd(_0x4e769f, _0x296211, _0xb74b87);
+        return _0xf178f6(_0x31a12e, _0x3c444b, _0x4e769f, _0x1cc854);
+      }
+      __defProp(_0x7baa21, "name", {
+        'value': "crypto_box_beforenm",
+        'configurable': true
+      });
+      function _0x34092b(_0x68eeab, _0xdbb970, _0x560f81, _0x41f3c9, _0x20e4f9, _0x467780) {
+        var _0x1b384a = new Uint8Array(0x20);
+        _0x7baa21(_0x1b384a, _0x20e4f9, _0x467780);
+        return _0x444ec1(_0x68eeab, _0xdbb970, _0x560f81, _0x41f3c9, _0x1b384a);
+      }
+      __defProp(_0x34092b, "name", {
+        'value': "crypto_box",
+        'configurable': true
+      });
+      function _0x36d381(_0xfc8f77, _0x903e32, _0x3a702b, _0x61729d, _0x3c2e06, _0x59d61f) {
+        var _0x2514ff = new Uint8Array(0x20);
+        _0x7baa21(_0x2514ff, _0x3c2e06, _0x59d61f);
+        return _0x3bfe27(_0xfc8f77, _0x903e32, _0x3a702b, _0x61729d, _0x2514ff);
+      }
+      __defProp(_0x36d381, "name", {
+        'value': "crypto_box_open",
+        'configurable': true
+      });
+      var _0x44dac6 = [0x428a2f98, 0xd728ae22, 0x71374491, 0x23ef65cd, 0xb5c0fbcf, 0xec4d3b2f, 0xe9b5dba5, 0x8189dbbc, 0x3956c25b, 0xf348b538, 0x59f111f1, 0xb605d019, 0x923f82a4, 0xaf194f9b, 0xab1c5ed5, 0xda6d8118, 0xd807aa98, 0xa3030242, 0x12835b01, 0x45706fbe, 0x243185be, 0x4ee4b28c, 0x550c7dc3, 0xd5ffb4e2, 0x72be5d74, 0xf27b896f, 0x80deb1fe, 0x3b1696b1, 0x9bdc06a7, 0x25c71235, 0xc19bf174, 0xcf692694, 0xe49b69c1, 0x9ef14ad2, 0xefbe4786, 0x384f25e3, 0xfc19dc6, 0x8b8cd5b5, 0x240ca1cc, 0x77ac9c65, 0x2de92c6f, 0x592b0275, 0x4a7484aa, 0x6ea6e483, 0x5cb0a9dc, 0xbd41fbd4, 0x76f988da, 0x831153b5, 0x983e5152, 0xee66dfab, 0xa831c66d, 0x2db43210, 0xb00327c8, 0x98fb213f, 0xbf597fc7, 0xbeef0ee4, 0xc6e00bf3, 0x3da88fc2, 0xd5a79147, 0x930aa725, 0x6ca6351, 0xe003826f, 0x14292967, 0xa0e6e70, 0x27b70a85, 0x46d22ffc, 0x2e1b2138, 0x5c26c926, 0x4d2c6dfc, 0x5ac42aed, 0x53380d13, 0x9d95b3df, 0x650a7354, 0x8baf63de, 0x766a0abb, 0x3c77b2a8, 0x81c2c92e, 0x47edaee6, 0x92722c85, 0x1482353b, 0xa2bfe8a1, 0x4cf10364, 0xa81a664b, 0xbc423001, 0xc24b8b70, 0xd0f89791, 0xc76c51a3, 0x654be30, 0xd192e819, 0xd6ef5218, 0xd6990624, 0x5565a910, 0xf40e3585, 0x5771202a, 0x106aa070, 0x32bbd1b8, 0x19a4c116, 0xb8d2d0c8, 0x1e376c08, 0x5141ab53, 0x2748774c, 0xdf8eeb99, 0x34b0bcb5, 0xe19b48a8, 0x391c0cb3, 0xc5c95a63, 0x4ed8aa4a, 0xe3418acb, 0x5b9cca4f, 0x7763e373, 0x682e6ff3, 0xd6b2b8a3, 0x748f82ee, 0x5defb2fc, 0x78a5636f, 0x43172f60, 0x84c87814, 0xa1f0ab72, 0x8cc70208, 0x1a6439ec, 0x90befffa, 0x23631e28, 0xa4506ceb, 0xde82bde9, 0xbef9a3f7, 0xb2c67915, 0xc67178f2, 0xe372532b, 0xca273ece, 0xea26619c, 0xd186b8c7, 0x21c0c207, 0xeada7dd6, 0xcde0eb1e, 0xf57d4f7f, 0xee6ed178, 0x6f067aa, 0x72176fba, 0xa637dc5, 0xa2c898a6, 0x113f9804, 0xbef90dae, 0x1b710b35, 0x131c471b, 0x28db77f5, 0x23047d84, 0x32caab7b, 0x40c72493, 0x3c9ebe0a, 0x15c9bebc, 0x431d67c4, 0x9c100d4c, 0x4cc5d4be, 0xcb3e42b6, 0x597f299c, 0xfc657e2a, 0x5fcb6fab, 0x3ad6faec, 0x6c44198c, 0x4a475817];
+      function _0xa4e7a3(_0x138560, _0x271c33, _0x5ec831, _0x550b13) {
+        var _0x4fcd92 = new Int32Array(0x10);
+        var _0x579966 = new Int32Array(0x10);
+        var _0x50abd5;
+        var _0x48aa73;
+        var _0x5aad1b;
+        var _0x1991e4;
+        var _0x564fa4;
+        var _0x369801;
+        var _0x204355;
+        var _0x273251;
+        var _0x453c25;
+        var _0xd45fb3;
+        var _0x58074d;
+        var _0x278d72;
+        var _0x3f218d;
+        var _0x3eb182;
+        var _0x5c32e8;
+        var _0x58eeb4;
+        var _0x4c789c;
+        var _0x169312;
+        var _0x40a427;
+        var _0x3dfea0;
+        var _0x533d9a;
+        var _0x23bab0;
+        var _0x332cff;
+        var _0x42df63;
+        var _0x4c3c4c;
+        var _0x542048;
+        var _0x4dda85 = _0x138560[0x0];
+        var _0x248fe6 = _0x138560[0x1];
+        var _0xa1d4b3 = _0x138560[0x2];
+        var _0xcdda0a = _0x138560[0x3];
+        var _0x7e2e79 = _0x138560[0x4];
+        var _0x5c3602 = _0x138560[0x5];
+        var _0x2b668c = _0x138560[0x6];
+        var _0x3d0abe = _0x138560[0x7];
+        var _0xb9c3aa = _0x271c33[0x0];
+        var _0x1aabec = _0x271c33[0x1];
+        var _0x4fa35f = _0x271c33[0x2];
+        var _0x24cdc0 = _0x271c33[0x3];
+        var _0x5abba2 = _0x271c33[0x4];
+        var _0x3e88ea = _0x271c33[0x5];
+        var _0xf48350 = _0x271c33[0x6];
+        var _0x3e8514 = _0x271c33[0x7];
+        var _0x237c9d = 0x0;
+        while (_0x550b13 >= 0x80) {
+          for (_0x40a427 = 0x0; _0x40a427 < 0x10; _0x40a427++) {
+            _0x3dfea0 = 0x8 * _0x40a427 + _0x237c9d;
+            _0x4fcd92[_0x40a427] = _0x5ec831[_0x3dfea0 + 0x0] << 0x18 | _0x5ec831[_0x3dfea0 + 0x1] << 0x10 | _0x5ec831[_0x3dfea0 + 0x2] << 0x8 | _0x5ec831[_0x3dfea0 + 0x3];
+            _0x579966[_0x40a427] = _0x5ec831[_0x3dfea0 + 0x4] << 0x18 | _0x5ec831[_0x3dfea0 + 0x5] << 0x10 | _0x5ec831[_0x3dfea0 + 0x6] << 0x8 | _0x5ec831[_0x3dfea0 + 0x7];
+          }
+          for (_0x40a427 = 0x0; _0x40a427 < 0x50; _0x40a427++) {
+            _0x50abd5 = _0x4dda85;
+            _0x48aa73 = _0x248fe6;
+            _0x5aad1b = _0xa1d4b3;
+            _0x1991e4 = _0xcdda0a;
+            _0x564fa4 = _0x7e2e79;
+            _0x369801 = _0x5c3602;
+            _0x204355 = _0x2b668c;
+            _0x273251 = _0x3d0abe;
+            _0x453c25 = _0xb9c3aa;
+            _0xd45fb3 = _0x1aabec;
+            _0x58074d = _0x4fa35f;
+            _0x278d72 = _0x24cdc0;
+            _0x3f218d = _0x5abba2;
+            _0x3eb182 = _0x3e88ea;
+            _0x5c32e8 = _0xf48350;
+            _0x58eeb4 = _0x3e8514;
+            _0x533d9a = _0x3d0abe;
+            _0x23bab0 = _0x3e8514;
+            _0x332cff = _0x23bab0 & 0xffff;
+            _0x42df63 = _0x23bab0 >>> 0x10;
+            _0x4c3c4c = _0x533d9a & 0xffff;
+            _0x542048 = _0x533d9a >>> 0x10;
+            _0x533d9a = (_0x7e2e79 >>> 0xe | _0x5abba2 << 18) ^ (_0x7e2e79 >>> 0x12 | _0x5abba2 << 14) ^ (_0x5abba2 >>> 9 | _0x7e2e79 << 23);
+            _0x23bab0 = (_0x5abba2 >>> 0xe | _0x7e2e79 << 18) ^ (_0x5abba2 >>> 0x12 | _0x7e2e79 << 14) ^ (_0x7e2e79 >>> 9 | _0x5abba2 << 23);
+            _0x332cff += _0x23bab0 & 0xffff;
+            _0x42df63 += _0x23bab0 >>> 0x10;
+            _0x4c3c4c += _0x533d9a & 0xffff;
+            _0x542048 += _0x533d9a >>> 0x10;
+            _0x533d9a = _0x7e2e79 & _0x5c3602 ^ ~_0x7e2e79 & _0x2b668c;
+            _0x23bab0 = _0x5abba2 & _0x3e88ea ^ ~_0x5abba2 & _0xf48350;
+            _0x332cff += _0x23bab0 & 0xffff;
+            _0x42df63 += _0x23bab0 >>> 0x10;
+            _0x4c3c4c += _0x533d9a & 0xffff;
+            _0x542048 += _0x533d9a >>> 0x10;
+            _0x533d9a = _0x44dac6[_0x40a427 * 0x2];
+            _0x23bab0 = _0x44dac6[_0x40a427 * 0x2 + 0x1];
+            _0x332cff += _0x23bab0 & 0xffff;
+            _0x42df63 += _0x23bab0 >>> 0x10;
+            _0x4c3c4c += _0x533d9a & 0xffff;
+            _0x542048 += _0x533d9a >>> 0x10;
+            _0x533d9a = _0x4fcd92[_0x40a427 % 0x10];
+            _0x23bab0 = _0x579966[_0x40a427 % 0x10];
+            _0x332cff += _0x23bab0 & 0xffff;
+            _0x42df63 += _0x23bab0 >>> 0x10;
+            _0x4c3c4c += _0x533d9a & 0xffff;
+            _0x542048 += _0x533d9a >>> 0x10;
+            _0x42df63 += _0x332cff >>> 0x10;
+            _0x4c3c4c += _0x42df63 >>> 0x10;
+            _0x542048 += _0x4c3c4c >>> 0x10;
+            _0x4c789c = _0x4c3c4c & 0xffff | _0x542048 << 0x10;
+            _0x169312 = _0x332cff & 0xffff | _0x42df63 << 0x10;
+            _0x533d9a = _0x4c789c;
+            _0x23bab0 = _0x169312;
+            _0x332cff = _0x23bab0 & 0xffff;
+            _0x42df63 = _0x23bab0 >>> 0x10;
+            _0x4c3c4c = _0x533d9a & 0xffff;
+            _0x542048 = _0x533d9a >>> 0x10;
+            _0x533d9a = (_0x4dda85 >>> 0x1c | _0xb9c3aa << 4) ^ (_0xb9c3aa >>> 2 | _0x4dda85 << 30) ^ (_0xb9c3aa >>> 7 | _0x4dda85 << 25);
+            _0x23bab0 = (_0xb9c3aa >>> 0x1c | _0x4dda85 << 4) ^ (_0x4dda85 >>> 2 | _0xb9c3aa << 30) ^ (_0x4dda85 >>> 7 | _0xb9c3aa << 25);
+            _0x332cff += _0x23bab0 & 0xffff;
+            _0x42df63 += _0x23bab0 >>> 0x10;
+            _0x4c3c4c += _0x533d9a & 0xffff;
+            _0x542048 += _0x533d9a >>> 0x10;
+            _0x533d9a = _0x4dda85 & _0x248fe6 ^ _0x4dda85 & _0xa1d4b3 ^ _0x248fe6 & _0xa1d4b3;
+            _0x23bab0 = _0xb9c3aa & _0x1aabec ^ _0xb9c3aa & _0x4fa35f ^ _0x1aabec & _0x4fa35f;
+            _0x332cff += _0x23bab0 & 0xffff;
+            _0x42df63 += _0x23bab0 >>> 0x10;
+            _0x4c3c4c += _0x533d9a & 0xffff;
+            _0x542048 += _0x533d9a >>> 0x10;
+            _0x42df63 += _0x332cff >>> 0x10;
+            _0x4c3c4c += _0x42df63 >>> 0x10;
+            _0x542048 += _0x4c3c4c >>> 0x10;
+            _0x273251 = _0x4c3c4c & 0xffff | _0x542048 << 0x10;
+            _0x58eeb4 = _0x332cff & 0xffff | _0x42df63 << 0x10;
+            _0x533d9a = _0x1991e4;
+            _0x23bab0 = _0x278d72;
+            _0x332cff = _0x23bab0 & 0xffff;
+            _0x42df63 = _0x23bab0 >>> 0x10;
+            _0x4c3c4c = _0x533d9a & 0xffff;
+            _0x542048 = _0x533d9a >>> 0x10;
+            _0x533d9a = _0x4c789c;
+            _0x23bab0 = _0x169312;
+            _0x332cff += _0x23bab0 & 0xffff;
+            _0x42df63 += _0x23bab0 >>> 0x10;
+            _0x4c3c4c += _0x533d9a & 0xffff;
+            _0x542048 += _0x533d9a >>> 0x10;
+            _0x42df63 += _0x332cff >>> 0x10;
+            _0x4c3c4c += _0x42df63 >>> 0x10;
+            _0x542048 += _0x4c3c4c >>> 0x10;
+            _0x1991e4 = _0x4c3c4c & 0xffff | _0x542048 << 0x10;
+            _0x278d72 = _0x332cff & 0xffff | _0x42df63 << 0x10;
+            _0x248fe6 = _0x50abd5;
+            _0xa1d4b3 = _0x48aa73;
+            _0xcdda0a = _0x5aad1b;
+            _0x7e2e79 = _0x1991e4;
+            _0x5c3602 = _0x564fa4;
+            _0x2b668c = _0x369801;
+            _0x3d0abe = _0x204355;
+            _0x4dda85 = _0x273251;
+            _0x1aabec = _0x453c25;
+            _0x4fa35f = _0xd45fb3;
+            _0x24cdc0 = _0x58074d;
+            _0x5abba2 = _0x278d72;
+            _0x3e88ea = _0x3f218d;
+            _0xf48350 = _0x3eb182;
+            _0x3e8514 = _0x5c32e8;
+            _0xb9c3aa = _0x58eeb4;
+            if (_0x40a427 % 0x10 === 0xf) {
+              for (_0x3dfea0 = 0x0; _0x3dfea0 < 0x10; _0x3dfea0++) {
+                _0x533d9a = _0x4fcd92[_0x3dfea0];
+                _0x23bab0 = _0x579966[_0x3dfea0];
+                _0x332cff = _0x23bab0 & 0xffff;
+                _0x42df63 = _0x23bab0 >>> 0x10;
+                _0x4c3c4c = _0x533d9a & 0xffff;
+                _0x542048 = _0x533d9a >>> 0x10;
+                _0x533d9a = _0x4fcd92[(_0x3dfea0 + 0x9) % 0x10];
+                _0x23bab0 = _0x579966[(_0x3dfea0 + 0x9) % 0x10];
+                _0x332cff += _0x23bab0 & 0xffff;
+                _0x42df63 += _0x23bab0 >>> 0x10;
+                _0x4c3c4c += _0x533d9a & 0xffff;
+                _0x542048 += _0x533d9a >>> 0x10;
+                _0x4c789c = _0x4fcd92[(_0x3dfea0 + 0x1) % 0x10];
+                _0x169312 = _0x579966[(_0x3dfea0 + 0x1) % 0x10];
+                _0x533d9a = (_0x4c789c >>> 0x1 | _0x169312 << 31) ^ (_0x4c789c >>> 0x8 | _0x169312 << 24) ^ _0x4c789c >>> 0x7;
+                _0x23bab0 = (_0x169312 >>> 0x1 | _0x4c789c << 31) ^ (_0x169312 >>> 0x8 | _0x4c789c << 24) ^ (_0x169312 >>> 0x7 | _0x4c789c << 25);
+                _0x332cff += _0x23bab0 & 0xffff;
+                _0x42df63 += _0x23bab0 >>> 0x10;
+                _0x4c3c4c += _0x533d9a & 0xffff;
+                _0x542048 += _0x533d9a >>> 0x10;
+                _0x4c789c = _0x4fcd92[(_0x3dfea0 + 0xe) % 0x10];
+                _0x169312 = _0x579966[(_0x3dfea0 + 0xe) % 0x10];
+                _0x533d9a = (_0x4c789c >>> 0x13 | _0x169312 << 13) ^ (_0x169312 >>> 29 | _0x4c789c << 3) ^ _0x4c789c >>> 0x6;
+                _0x23bab0 = (_0x169312 >>> 0x13 | _0x4c789c << 13) ^ (_0x4c789c >>> 29 | _0x169312 << 3) ^ (_0x169312 >>> 0x6 | _0x4c789c << 26);
+                _0x332cff += _0x23bab0 & 0xffff;
+                _0x42df63 += _0x23bab0 >>> 0x10;
+                _0x4c3c4c += _0x533d9a & 0xffff;
+                _0x542048 += _0x533d9a >>> 0x10;
+                _0x42df63 += _0x332cff >>> 0x10;
+                _0x4c3c4c += _0x42df63 >>> 0x10;
+                _0x542048 += _0x4c3c4c >>> 0x10;
+                _0x4fcd92[_0x3dfea0] = _0x4c3c4c & 0xffff | _0x542048 << 0x10;
+                _0x579966[_0x3dfea0] = _0x332cff & 0xffff | _0x42df63 << 0x10;
               }
             }
           }
-          h = ah0;
-          l = al0;
-          a = l & 65535;
-          b = l >>> 16;
-          c = h & 65535;
-          d = h >>> 16;
-          h = hh[0];
-          l = hl[0];
-          a += l & 65535;
-          b += l >>> 16;
-          c += h & 65535;
-          d += h >>> 16;
-          b += a >>> 16;
-          c += b >>> 16;
-          d += c >>> 16;
-          hh[0] = ah0 = c & 65535 | d << 16;
-          hl[0] = al0 = a & 65535 | b << 16;
-          h = ah1;
-          l = al1;
-          a = l & 65535;
-          b = l >>> 16;
-          c = h & 65535;
-          d = h >>> 16;
-          h = hh[1];
-          l = hl[1];
-          a += l & 65535;
-          b += l >>> 16;
-          c += h & 65535;
-          d += h >>> 16;
-          b += a >>> 16;
-          c += b >>> 16;
-          d += c >>> 16;
-          hh[1] = ah1 = c & 65535 | d << 16;
-          hl[1] = al1 = a & 65535 | b << 16;
-          h = ah2;
-          l = al2;
-          a = l & 65535;
-          b = l >>> 16;
-          c = h & 65535;
-          d = h >>> 16;
-          h = hh[2];
-          l = hl[2];
-          a += l & 65535;
-          b += l >>> 16;
-          c += h & 65535;
-          d += h >>> 16;
-          b += a >>> 16;
-          c += b >>> 16;
-          d += c >>> 16;
-          hh[2] = ah2 = c & 65535 | d << 16;
-          hl[2] = al2 = a & 65535 | b << 16;
-          h = ah3;
-          l = al3;
-          a = l & 65535;
-          b = l >>> 16;
-          c = h & 65535;
-          d = h >>> 16;
-          h = hh[3];
-          l = hl[3];
-          a += l & 65535;
-          b += l >>> 16;
-          c += h & 65535;
-          d += h >>> 16;
-          b += a >>> 16;
-          c += b >>> 16;
-          d += c >>> 16;
-          hh[3] = ah3 = c & 65535 | d << 16;
-          hl[3] = al3 = a & 65535 | b << 16;
-          h = ah4;
-          l = al4;
-          a = l & 65535;
-          b = l >>> 16;
-          c = h & 65535;
-          d = h >>> 16;
-          h = hh[4];
-          l = hl[4];
-          a += l & 65535;
-          b += l >>> 16;
-          c += h & 65535;
-          d += h >>> 16;
-          b += a >>> 16;
-          c += b >>> 16;
-          d += c >>> 16;
-          hh[4] = ah4 = c & 65535 | d << 16;
-          hl[4] = al4 = a & 65535 | b << 16;
-          h = ah5;
-          l = al5;
-          a = l & 65535;
-          b = l >>> 16;
-          c = h & 65535;
-          d = h >>> 16;
-          h = hh[5];
-          l = hl[5];
-          a += l & 65535;
-          b += l >>> 16;
-          c += h & 65535;
-          d += h >>> 16;
-          b += a >>> 16;
-          c += b >>> 16;
-          d += c >>> 16;
-          hh[5] = ah5 = c & 65535 | d << 16;
-          hl[5] = al5 = a & 65535 | b << 16;
-          h = ah6;
-          l = al6;
-          a = l & 65535;
-          b = l >>> 16;
-          c = h & 65535;
-          d = h >>> 16;
-          h = hh[6];
-          l = hl[6];
-          a += l & 65535;
-          b += l >>> 16;
-          c += h & 65535;
-          d += h >>> 16;
-          b += a >>> 16;
-          c += b >>> 16;
-          d += c >>> 16;
-          hh[6] = ah6 = c & 65535 | d << 16;
-          hl[6] = al6 = a & 65535 | b << 16;
-          h = ah7;
-          l = al7;
-          a = l & 65535;
-          b = l >>> 16;
-          c = h & 65535;
-          d = h >>> 16;
-          h = hh[7];
-          l = hl[7];
-          a += l & 65535;
-          b += l >>> 16;
-          c += h & 65535;
-          d += h >>> 16;
-          b += a >>> 16;
-          c += b >>> 16;
-          d += c >>> 16;
-          hh[7] = ah7 = c & 65535 | d << 16;
-          hl[7] = al7 = a & 65535 | b << 16;
-          pos += 128;
-          n -= 128;
+          _0x533d9a = _0x4dda85;
+          _0x23bab0 = _0xb9c3aa;
+          _0x332cff = _0x23bab0 & 0xffff;
+          _0x42df63 = _0x23bab0 >>> 0x10;
+          _0x4c3c4c = _0x533d9a & 0xffff;
+          _0x542048 = _0x533d9a >>> 0x10;
+          _0x533d9a = _0x138560[0x0];
+          _0x23bab0 = _0x271c33[0x0];
+          _0x332cff += _0x23bab0 & 0xffff;
+          _0x42df63 += _0x23bab0 >>> 0x10;
+          _0x4c3c4c += _0x533d9a & 0xffff;
+          _0x542048 += _0x533d9a >>> 0x10;
+          _0x42df63 += _0x332cff >>> 0x10;
+          _0x4c3c4c += _0x42df63 >>> 0x10;
+          _0x542048 += _0x4c3c4c >>> 0x10;
+          _0x138560[0x0] = _0x4dda85 = _0x4c3c4c & 0xffff | _0x542048 << 0x10;
+          _0x271c33[0x0] = _0xb9c3aa = _0x332cff & 0xffff | _0x42df63 << 0x10;
+          _0x533d9a = _0x248fe6;
+          _0x23bab0 = _0x1aabec;
+          _0x332cff = _0x23bab0 & 0xffff;
+          _0x42df63 = _0x23bab0 >>> 0x10;
+          _0x4c3c4c = _0x533d9a & 0xffff;
+          _0x542048 = _0x533d9a >>> 0x10;
+          _0x533d9a = _0x138560[0x1];
+          _0x23bab0 = _0x271c33[0x1];
+          _0x332cff += _0x23bab0 & 0xffff;
+          _0x42df63 += _0x23bab0 >>> 0x10;
+          _0x4c3c4c += _0x533d9a & 0xffff;
+          _0x542048 += _0x533d9a >>> 0x10;
+          _0x42df63 += _0x332cff >>> 0x10;
+          _0x4c3c4c += _0x42df63 >>> 0x10;
+          _0x542048 += _0x4c3c4c >>> 0x10;
+          _0x138560[0x1] = _0x248fe6 = _0x4c3c4c & 0xffff | _0x542048 << 0x10;
+          _0x271c33[0x1] = _0x1aabec = _0x332cff & 0xffff | _0x42df63 << 0x10;
+          _0x533d9a = _0xa1d4b3;
+          _0x23bab0 = _0x4fa35f;
+          _0x332cff = _0x23bab0 & 0xffff;
+          _0x42df63 = _0x23bab0 >>> 0x10;
+          _0x4c3c4c = _0x533d9a & 0xffff;
+          _0x542048 = _0x533d9a >>> 0x10;
+          _0x533d9a = _0x138560[0x2];
+          _0x23bab0 = _0x271c33[0x2];
+          _0x332cff += _0x23bab0 & 0xffff;
+          _0x42df63 += _0x23bab0 >>> 0x10;
+          _0x4c3c4c += _0x533d9a & 0xffff;
+          _0x542048 += _0x533d9a >>> 0x10;
+          _0x42df63 += _0x332cff >>> 0x10;
+          _0x4c3c4c += _0x42df63 >>> 0x10;
+          _0x542048 += _0x4c3c4c >>> 0x10;
+          _0x138560[0x2] = _0xa1d4b3 = _0x4c3c4c & 0xffff | _0x542048 << 0x10;
+          _0x271c33[0x2] = _0x4fa35f = _0x332cff & 0xffff | _0x42df63 << 0x10;
+          _0x533d9a = _0xcdda0a;
+          _0x23bab0 = _0x24cdc0;
+          _0x332cff = _0x23bab0 & 0xffff;
+          _0x42df63 = _0x23bab0 >>> 0x10;
+          _0x4c3c4c = _0x533d9a & 0xffff;
+          _0x542048 = _0x533d9a >>> 0x10;
+          _0x533d9a = _0x138560[0x3];
+          _0x23bab0 = _0x271c33[0x3];
+          _0x332cff += _0x23bab0 & 0xffff;
+          _0x42df63 += _0x23bab0 >>> 0x10;
+          _0x4c3c4c += _0x533d9a & 0xffff;
+          _0x542048 += _0x533d9a >>> 0x10;
+          _0x42df63 += _0x332cff >>> 0x10;
+          _0x4c3c4c += _0x42df63 >>> 0x10;
+          _0x542048 += _0x4c3c4c >>> 0x10;
+          _0x138560[0x3] = _0xcdda0a = _0x4c3c4c & 0xffff | _0x542048 << 0x10;
+          _0x271c33[0x3] = _0x24cdc0 = _0x332cff & 0xffff | _0x42df63 << 0x10;
+          _0x533d9a = _0x7e2e79;
+          _0x23bab0 = _0x5abba2;
+          _0x332cff = _0x23bab0 & 0xffff;
+          _0x42df63 = _0x23bab0 >>> 0x10;
+          _0x4c3c4c = _0x533d9a & 0xffff;
+          _0x542048 = _0x533d9a >>> 0x10;
+          _0x533d9a = _0x138560[0x4];
+          _0x23bab0 = _0x271c33[0x4];
+          _0x332cff += _0x23bab0 & 0xffff;
+          _0x42df63 += _0x23bab0 >>> 0x10;
+          _0x4c3c4c += _0x533d9a & 0xffff;
+          _0x542048 += _0x533d9a >>> 0x10;
+          _0x42df63 += _0x332cff >>> 0x10;
+          _0x4c3c4c += _0x42df63 >>> 0x10;
+          _0x542048 += _0x4c3c4c >>> 0x10;
+          _0x138560[0x4] = _0x7e2e79 = _0x4c3c4c & 0xffff | _0x542048 << 0x10;
+          _0x271c33[0x4] = _0x5abba2 = _0x332cff & 0xffff | _0x42df63 << 0x10;
+          _0x533d9a = _0x5c3602;
+          _0x23bab0 = _0x3e88ea;
+          _0x332cff = _0x23bab0 & 0xffff;
+          _0x42df63 = _0x23bab0 >>> 0x10;
+          _0x4c3c4c = _0x533d9a & 0xffff;
+          _0x542048 = _0x533d9a >>> 0x10;
+          _0x533d9a = _0x138560[0x5];
+          _0x23bab0 = _0x271c33[0x5];
+          _0x332cff += _0x23bab0 & 0xffff;
+          _0x42df63 += _0x23bab0 >>> 0x10;
+          _0x4c3c4c += _0x533d9a & 0xffff;
+          _0x542048 += _0x533d9a >>> 0x10;
+          _0x42df63 += _0x332cff >>> 0x10;
+          _0x4c3c4c += _0x42df63 >>> 0x10;
+          _0x542048 += _0x4c3c4c >>> 0x10;
+          _0x138560[0x5] = _0x5c3602 = _0x4c3c4c & 0xffff | _0x542048 << 0x10;
+          _0x271c33[0x5] = _0x3e88ea = _0x332cff & 0xffff | _0x42df63 << 0x10;
+          _0x533d9a = _0x2b668c;
+          _0x23bab0 = _0xf48350;
+          _0x332cff = _0x23bab0 & 0xffff;
+          _0x42df63 = _0x23bab0 >>> 0x10;
+          _0x4c3c4c = _0x533d9a & 0xffff;
+          _0x542048 = _0x533d9a >>> 0x10;
+          _0x533d9a = _0x138560[0x6];
+          _0x23bab0 = _0x271c33[0x6];
+          _0x332cff += _0x23bab0 & 0xffff;
+          _0x42df63 += _0x23bab0 >>> 0x10;
+          _0x4c3c4c += _0x533d9a & 0xffff;
+          _0x542048 += _0x533d9a >>> 0x10;
+          _0x42df63 += _0x332cff >>> 0x10;
+          _0x4c3c4c += _0x42df63 >>> 0x10;
+          _0x542048 += _0x4c3c4c >>> 0x10;
+          _0x138560[0x6] = _0x2b668c = _0x4c3c4c & 0xffff | _0x542048 << 0x10;
+          _0x271c33[0x6] = _0xf48350 = _0x332cff & 0xffff | _0x42df63 << 0x10;
+          _0x533d9a = _0x3d0abe;
+          _0x23bab0 = _0x3e8514;
+          _0x332cff = _0x23bab0 & 0xffff;
+          _0x42df63 = _0x23bab0 >>> 0x10;
+          _0x4c3c4c = _0x533d9a & 0xffff;
+          _0x542048 = _0x533d9a >>> 0x10;
+          _0x533d9a = _0x138560[0x7];
+          _0x23bab0 = _0x271c33[0x7];
+          _0x332cff += _0x23bab0 & 0xffff;
+          _0x42df63 += _0x23bab0 >>> 0x10;
+          _0x4c3c4c += _0x533d9a & 0xffff;
+          _0x542048 += _0x533d9a >>> 0x10;
+          _0x42df63 += _0x332cff >>> 0x10;
+          _0x4c3c4c += _0x42df63 >>> 0x10;
+          _0x542048 += _0x4c3c4c >>> 0x10;
+          _0x138560[0x7] = _0x3d0abe = _0x4c3c4c & 0xffff | _0x542048 << 0x10;
+          _0x271c33[0x7] = _0x3e8514 = _0x332cff & 0xffff | _0x42df63 << 0x10;
+          _0x237c9d += 0x80;
+          _0x550b13 -= 0x80;
         }
-        return n;
+        return _0x550b13;
       }
-      function crypto_hash(out, m, n) {
-        var hh = new Int32Array(8), hl = new Int32Array(8), x = new Uint8Array(256), i, b = n;
-        hh[0] = 1779033703;
-        hh[1] = 3144134277;
-        hh[2] = 1013904242;
-        hh[3] = 2773480762;
-        hh[4] = 1359893119;
-        hh[5] = 2600822924;
-        hh[6] = 528734635;
-        hh[7] = 1541459225;
-        hl[0] = 4089235720;
-        hl[1] = 2227873595;
-        hl[2] = 4271175723;
-        hl[3] = 1595750129;
-        hl[4] = 2917565137;
-        hl[5] = 725511199;
-        hl[6] = 4215389547;
-        hl[7] = 327033209;
-        crypto_hashblocks_hl(hh, hl, m, n);
-        n %= 128;
-        for (i = 0; i < n; i++)
-          x[i] = m[b - n + i];
-        x[n] = 128;
-        n = 256 - 128 * (n < 112 ? 1 : 0);
-        x[n - 9] = 0;
-        ts64(x, n - 8, b / 536870912 | 0, b << 3);
-        crypto_hashblocks_hl(hh, hl, x, n);
-        for (i = 0; i < 8; i++)
-          ts64(out, 8 * i, hh[i], hl[i]);
-        return 0;
+      __defProp(_0xa4e7a3, "name", {
+        'value': "crypto_hashblocks_hl",
+        'configurable': true
+      });
+      function _0x1f4752(_0x4fb20d, _0x1af879, _0x5cd073) {
+        var _0x395eca = new Int32Array(0x8);
+        var _0x550aeb = new Int32Array(0x8);
+        var _0xd50dd1 = new Uint8Array(0x100);
+        var _0x9ad680;
+        var _0x2c20fa = _0x5cd073;
+        _0x395eca[0x0] = 0x6a09e667;
+        _0x395eca[0x1] = 0xbb67ae85;
+        _0x395eca[0x2] = 0x3c6ef372;
+        _0x395eca[0x3] = 0xa54ff53a;
+        _0x395eca[0x4] = 0x510e527f;
+        _0x395eca[0x5] = 0x9b05688c;
+        _0x395eca[0x6] = 0x1f83d9ab;
+        _0x395eca[0x7] = 0x5be0cd19;
+        _0x550aeb[0x0] = 0xf3bcc908;
+        _0x550aeb[0x1] = 0x84caa73b;
+        _0x550aeb[0x2] = 0xfe94f82b;
+        _0x550aeb[0x3] = 0x5f1d36f1;
+        _0x550aeb[0x4] = 0xade682d1;
+        _0x550aeb[0x5] = 0x2b3e6c1f;
+        _0x550aeb[0x6] = 0xfb41bd6b;
+        _0x550aeb[0x7] = 0x137e2179;
+        _0xa4e7a3(_0x395eca, _0x550aeb, _0x1af879, _0x5cd073);
+        _0x5cd073 %= 0x80;
+        for (_0x9ad680 = 0x0; _0x9ad680 < _0x5cd073; _0x9ad680++) {
+          _0xd50dd1[_0x9ad680] = _0x1af879[_0x2c20fa - _0x5cd073 + _0x9ad680];
+        }
+        _0xd50dd1[_0x5cd073] = 0x80;
+        _0x5cd073 = 0x100 - 0x80 * (_0x5cd073 < 0x70 ? 0x1 : 0x0);
+        _0xd50dd1[_0x5cd073 - 0x9] = 0x0;
+        _0x339b23(_0xd50dd1, _0x5cd073 - 0x8, _0x2c20fa / 0x20000000 | 0x0, _0x2c20fa << 0x3);
+        _0xa4e7a3(_0x395eca, _0x550aeb, _0xd50dd1, _0x5cd073);
+        for (_0x9ad680 = 0x0; _0x9ad680 < 0x8; _0x9ad680++) {
+          _0x339b23(_0x4fb20d, 0x8 * _0x9ad680, _0x395eca[_0x9ad680], _0x550aeb[_0x9ad680]);
+        }
+        return 0x0;
       }
-      function add(p, q) {
-        var a = gf(), b = gf(), c = gf(), d = gf(), e = gf(), f = gf(), g = gf(), h = gf(), t = gf();
-        Z(a, p[1], p[0]);
-        Z(t, q[1], q[0]);
-        M(a, a, t);
-        A(b, p[0], p[1]);
-        A(t, q[0], q[1]);
-        M(b, b, t);
-        M(c, p[3], q[3]);
-        M(c, c, D2);
-        M(d, p[2], q[2]);
-        A(d, d, d);
-        Z(e, b, a);
-        Z(f, d, c);
-        A(g, d, c);
-        A(h, b, a);
-        M(p[0], e, f);
-        M(p[1], h, g);
-        M(p[2], g, f);
-        M(p[3], e, h);
+      __defProp(_0x1f4752, "name", {
+        'value': "crypto_hash",
+        'configurable': true
+      });
+      function _0x1fb908(_0xb18f4b, _0x52fdbb) {
+        var _0xfd799e = _0x37d431();
+        var _0x510672 = _0x37d431();
+        var _0x27047f = _0x37d431();
+        var _0x54f03c = _0x37d431();
+        var _0x2632e3 = _0x37d431();
+        var _0x559fe3 = _0x37d431();
+        var _0x4f6596 = _0x37d431();
+        var _0x48ef0c = _0x37d431();
+        var _0x1fec27 = _0x37d431();
+        _0x2b9d8a(_0xfd799e, _0xb18f4b[0x1], _0xb18f4b[0x0]);
+        _0x2b9d8a(_0x1fec27, _0x52fdbb[0x1], _0x52fdbb[0x0]);
+        _0x23ec90(_0xfd799e, _0xfd799e, _0x1fec27);
+        _0x2b9493(_0x510672, _0xb18f4b[0x0], _0xb18f4b[0x1]);
+        _0x2b9493(_0x1fec27, _0x52fdbb[0x0], _0x52fdbb[0x1]);
+        _0x23ec90(_0x510672, _0x510672, _0x1fec27);
+        _0x23ec90(_0x27047f, _0xb18f4b[0x3], _0x52fdbb[0x3]);
+        _0x23ec90(_0x27047f, _0x27047f, _0x5593e8);
+        _0x23ec90(_0x54f03c, _0xb18f4b[0x2], _0x52fdbb[0x2]);
+        _0x2b9493(_0x54f03c, _0x54f03c, _0x54f03c);
+        _0x2b9d8a(_0x2632e3, _0x510672, _0xfd799e);
+        _0x2b9d8a(_0x559fe3, _0x54f03c, _0x27047f);
+        _0x2b9493(_0x4f6596, _0x54f03c, _0x27047f);
+        _0x2b9493(_0x48ef0c, _0x510672, _0xfd799e);
+        _0x23ec90(_0xb18f4b[0x0], _0x2632e3, _0x559fe3);
+        _0x23ec90(_0xb18f4b[0x1], _0x48ef0c, _0x4f6596);
+        _0x23ec90(_0xb18f4b[0x2], _0x4f6596, _0x559fe3);
+        _0x23ec90(_0xb18f4b[0x3], _0x2632e3, _0x48ef0c);
       }
-      function cswap(p, q, b) {
-        var i;
-        for (i = 0; i < 4; i++) {
-          sel25519(p[i], q[i], b);
+      __defProp(_0x1fb908, "name", {
+        'value': "add",
+        'configurable': true
+      });
+      function _0x392969(_0x5bc6f5, _0xab3da7, _0x5e2187) {
+        var _0x26d237;
+        for (_0x26d237 = 0x0; _0x26d237 < 0x4; _0x26d237++) {
+          _0xeaa097(_0x5bc6f5[_0x26d237], _0xab3da7[_0x26d237], _0x5e2187);
         }
       }
-      function pack(r, p) {
-        var tx = gf(), ty = gf(), zi = gf();
-        inv25519(zi, p[2]);
-        M(tx, p[0], zi);
-        M(ty, p[1], zi);
-        pack25519(r, ty);
-        r[31] ^= par25519(tx) << 7;
+      __defProp(_0x392969, "name", {
+        'value': "cswap",
+        'configurable': true
+      });
+      function _0x461bfc(_0x540510, _0x1878c1) {
+        var _0xb6c3c0 = _0x37d431();
+        var _0x5531ab = _0x37d431();
+        var _0x488709 = _0x37d431();
+        _0x2d41a1(_0x488709, _0x1878c1[0x2]);
+        _0x23ec90(_0xb6c3c0, _0x1878c1[0x0], _0x488709);
+        _0x23ec90(_0x5531ab, _0x1878c1[0x1], _0x488709);
+        _0x3dc71f(_0x540510, _0x5531ab);
+        _0x540510[0x1f] ^= _0xc4696d(_0xb6c3c0) << 0x7;
       }
-      function scalarmult(p, q, s) {
-        var b, i;
-        set25519(p[0], gf0);
-        set25519(p[1], gf1);
-        set25519(p[2], gf1);
-        set25519(p[3], gf0);
-        for (i = 255; i >= 0; --i) {
-          b = s[i / 8 | 0] >> (i & 7) & 1;
-          cswap(p, q, b);
-          add(q, p);
-          add(p, p);
-          cswap(p, q, b);
+      __defProp(_0x461bfc, "name", {
+        'value': "pack",
+        'configurable': true
+      });
+      function _0x45c667(_0x197e7d, _0x4bc2b9, _0x1340aa) {
+        var _0x3b59fb;
+        var _0x6b58ef;
+        _0x17b8b6(_0x197e7d[0x0], _0x50f9a5);
+        _0x17b8b6(_0x197e7d[0x1], _0x5c7baf);
+        _0x17b8b6(_0x197e7d[0x2], _0x5c7baf);
+        _0x17b8b6(_0x197e7d[0x3], _0x50f9a5);
+        for (_0x6b58ef = 0xff; _0x6b58ef >= 0x0; --_0x6b58ef) {
+          _0x3b59fb = _0x1340aa[_0x6b58ef / 0x8 | 0x0] >> (_0x6b58ef & 0x7) & 0x1;
+          _0x392969(_0x197e7d, _0x4bc2b9, _0x3b59fb);
+          _0x1fb908(_0x4bc2b9, _0x197e7d);
+          _0x1fb908(_0x197e7d, _0x197e7d);
+          _0x392969(_0x197e7d, _0x4bc2b9, _0x3b59fb);
         }
       }
-      function scalarbase(p, s) {
-        var q = [gf(), gf(), gf(), gf()];
-        set25519(q[0], X);
-        set25519(q[1], Y);
-        set25519(q[2], gf1);
-        M(q[3], X, Y);
-        scalarmult(p, q, s);
+      __defProp(_0x45c667, "name", {
+        'value': "scalarmult",
+        'configurable': true
+      });
+      function _0x126cb4(_0xbfffa8, _0x57ecef) {
+        var _0x2515d9 = [_0x37d431(), _0x37d431(), _0x37d431(), _0x37d431()];
+        _0x17b8b6(_0x2515d9[0x0], _0x399a7d);
+        _0x17b8b6(_0x2515d9[0x1], _0x3189d4);
+        _0x17b8b6(_0x2515d9[0x2], _0x5c7baf);
+        _0x23ec90(_0x2515d9[0x3], _0x399a7d, _0x3189d4);
+        _0x45c667(_0xbfffa8, _0x2515d9, _0x57ecef);
       }
-      function crypto_sign_keypair(pk, sk, seeded) {
-        var d = new Uint8Array(64);
-        var p = [gf(), gf(), gf(), gf()];
-        var i;
-        if (!seeded)
-          randombytes(sk, 32);
-        crypto_hash(d, sk, 32);
-        d[0] &= 248;
-        d[31] &= 127;
-        d[31] |= 64;
-        scalarbase(p, d);
-        pack(pk, p);
-        for (i = 0; i < 32; i++)
-          sk[i + 32] = pk[i];
-        return 0;
+      __defProp(_0x126cb4, "name", {
+        'value': "scalarbase",
+        'configurable': true
+      });
+      function _0x466f04(_0x3a89d0, _0x49967b, _0x1202d9) {
+        var _0x29ec09 = new Uint8Array(0x40);
+        var _0x33c5f2 = [_0x37d431(), _0x37d431(), _0x37d431(), _0x37d431()];
+        var _0x27fc04;
+        if (!_0x1202d9) {
+          _0x5354b6(_0x49967b, 0x20);
+        }
+        _0x1f4752(_0x29ec09, _0x49967b, 0x20);
+        _0x29ec09[0x0] &= 0xf8;
+        _0x29ec09[0x1f] &= 0x7f;
+        _0x29ec09[0x1f] |= 0x40;
+        _0x126cb4(_0x33c5f2, _0x29ec09);
+        _0x461bfc(_0x3a89d0, _0x33c5f2);
+        for (_0x27fc04 = 0x0; _0x27fc04 < 0x20; _0x27fc04++) {
+          _0x49967b[_0x27fc04 + 0x20] = _0x3a89d0[_0x27fc04];
+        }
+        return 0x0;
       }
-      var L = new Float64Array([237, 211, 245, 92, 26, 99, 18, 88, 214, 156, 247, 162, 222, 249, 222, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16]);
-      function modL(r, x) {
-        var carry, i, j, k;
-        for (i = 63; i >= 32; --i) {
-          carry = 0;
-          for (j = i - 32, k = i - 12; j < k; ++j) {
-            x[j] += carry - 16 * x[i] * L[j - (i - 32)];
-            carry = Math.floor((x[j] + 128) / 256);
-            x[j] -= carry * 256;
+      __defProp(_0x466f04, "name", {
+        'value': "crypto_sign_keypair",
+        'configurable': true
+      });
+      var _0x21edda = new Float64Array([0xed, 0xd3, 0xf5, 0x5c, 0x1a, 0x63, 0x12, 0x58, 0xd6, 0x9c, 0xf7, 0xa2, 0xde, 0xf9, 0xde, 0x14, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x10]);
+      function _0x51af5e(_0x35801d, _0x1bd652) {
+        var _0x124b9c;
+        var _0x176e53;
+        var _0x351c08;
+        var _0x4a8ed2;
+        for (_0x176e53 = 0x3f; _0x176e53 >= 0x20; --_0x176e53) {
+          _0x124b9c = 0x0;
+          _0x351c08 = _0x176e53 - 0x20;
+          for (_0x4a8ed2 = _0x176e53 - 0xc; _0x351c08 < _0x4a8ed2; ++_0x351c08) {
+            _0x1bd652[_0x351c08] += _0x124b9c - 0x10 * _0x1bd652[_0x176e53] * _0x21edda[_0x351c08 - (_0x176e53 - 0x20)];
+            _0x124b9c = Math.floor((_0x1bd652[_0x351c08] + 0x80) / 0x100);
+            _0x1bd652[_0x351c08] -= _0x124b9c * 0x100;
           }
-          x[j] += carry;
-          x[i] = 0;
+          _0x1bd652[_0x351c08] += _0x124b9c;
+          _0x1bd652[_0x176e53] = 0x0;
         }
-        carry = 0;
-        for (j = 0; j < 32; j++) {
-          x[j] += carry - (x[31] >> 4) * L[j];
-          carry = x[j] >> 8;
-          x[j] &= 255;
+        _0x124b9c = 0x0;
+        for (_0x351c08 = 0x0; _0x351c08 < 0x20; _0x351c08++) {
+          _0x1bd652[_0x351c08] += _0x124b9c - (_0x1bd652[0x1f] >> 0x4) * _0x21edda[_0x351c08];
+          _0x124b9c = _0x1bd652[_0x351c08] >> 0x8;
+          _0x1bd652[_0x351c08] &= 0xff;
         }
-        for (j = 0; j < 32; j++)
-          x[j] -= carry * L[j];
-        for (i = 0; i < 32; i++) {
-          x[i + 1] += x[i] >> 8;
-          r[i] = x[i] & 255;
+        for (_0x351c08 = 0x0; _0x351c08 < 0x20; _0x351c08++) {
+          _0x1bd652[_0x351c08] -= _0x124b9c * _0x21edda[_0x351c08];
+        }
+        for (_0x176e53 = 0x0; _0x176e53 < 0x20; _0x176e53++) {
+          _0x1bd652[_0x176e53 + 0x1] += _0x1bd652[_0x176e53] >> 0x8;
+          _0x35801d[_0x176e53] = _0x1bd652[_0x176e53] & 0xff;
         }
       }
-      function reduce(r) {
-        var x = new Float64Array(64), i;
-        for (i = 0; i < 64; i++)
-          x[i] = r[i];
-        for (i = 0; i < 64; i++)
-          r[i] = 0;
-        modL(r, x);
+      __defProp(_0x51af5e, "name", {
+        'value': "modL",
+        'configurable': true
+      });
+      function _0x265d2f(_0x1f7657) {
+        var _0x4f586a = new Float64Array(0x40);
+        var _0x1f446a;
+        for (_0x1f446a = 0x0; _0x1f446a < 0x40; _0x1f446a++) {
+          _0x4f586a[_0x1f446a] = _0x1f7657[_0x1f446a];
+        }
+        for (_0x1f446a = 0x0; _0x1f446a < 0x40; _0x1f446a++) {
+          _0x1f7657[_0x1f446a] = 0x0;
+        }
+        _0x51af5e(_0x1f7657, _0x4f586a);
       }
-      function crypto_sign(sm, m, n, sk) {
-        var d = new Uint8Array(64), h = new Uint8Array(64), r = new Uint8Array(64);
-        var i, j, x = new Float64Array(64);
-        var p = [gf(), gf(), gf(), gf()];
-        crypto_hash(d, sk, 32);
-        d[0] &= 248;
-        d[31] &= 127;
-        d[31] |= 64;
-        var smlen = n + 64;
-        for (i = 0; i < n; i++)
-          sm[64 + i] = m[i];
-        for (i = 0; i < 32; i++)
-          sm[32 + i] = d[32 + i];
-        crypto_hash(r, sm.subarray(32), n + 32);
-        reduce(r);
-        scalarbase(p, r);
-        pack(sm, p);
-        for (i = 32; i < 64; i++)
-          sm[i] = sk[i];
-        crypto_hash(h, sm, n + 64);
-        reduce(h);
-        for (i = 0; i < 64; i++)
-          x[i] = 0;
-        for (i = 0; i < 32; i++)
-          x[i] = r[i];
-        for (i = 0; i < 32; i++) {
-          for (j = 0; j < 32; j++) {
-            x[i + j] += h[i] * d[j];
+      __defProp(_0x265d2f, "name", {
+        'value': "reduce",
+        'configurable': true
+      });
+      function _0x277561(_0x4f0373, _0x3375cc, _0xc7075e, _0x4e47fe) {
+        var _0x5c82a6 = new Uint8Array(0x40);
+        var _0x4cd0c9 = new Uint8Array(0x40);
+        var _0x4a0609 = new Uint8Array(0x40);
+        var _0x1bf4ea;
+        var _0x55fecc;
+        var _0x578d1e = new Float64Array(0x40);
+        var _0x357bea = [_0x37d431(), _0x37d431(), _0x37d431(), _0x37d431()];
+        _0x1f4752(_0x5c82a6, _0x4e47fe, 0x20);
+        _0x5c82a6[0x0] &= 0xf8;
+        _0x5c82a6[0x1f] &= 0x7f;
+        _0x5c82a6[0x1f] |= 0x40;
+        var _0x186149 = _0xc7075e + 0x40;
+        for (_0x1bf4ea = 0x0; _0x1bf4ea < _0xc7075e; _0x1bf4ea++) {
+          _0x4f0373[0x40 + _0x1bf4ea] = _0x3375cc[_0x1bf4ea];
+        }
+        for (_0x1bf4ea = 0x0; _0x1bf4ea < 0x20; _0x1bf4ea++) {
+          _0x4f0373[0x20 + _0x1bf4ea] = _0x5c82a6[0x20 + _0x1bf4ea];
+        }
+        _0x1f4752(_0x4a0609, _0x4f0373.subarray(0x20), _0xc7075e + 0x20);
+        _0x265d2f(_0x4a0609);
+        _0x126cb4(_0x357bea, _0x4a0609);
+        _0x461bfc(_0x4f0373, _0x357bea);
+        for (_0x1bf4ea = 0x20; _0x1bf4ea < 0x40; _0x1bf4ea++) {
+          _0x4f0373[_0x1bf4ea] = _0x4e47fe[_0x1bf4ea];
+        }
+        _0x1f4752(_0x4cd0c9, _0x4f0373, _0xc7075e + 0x40);
+        _0x265d2f(_0x4cd0c9);
+        for (_0x1bf4ea = 0x0; _0x1bf4ea < 0x40; _0x1bf4ea++) {
+          _0x578d1e[_0x1bf4ea] = 0x0;
+        }
+        for (_0x1bf4ea = 0x0; _0x1bf4ea < 0x20; _0x1bf4ea++) {
+          _0x578d1e[_0x1bf4ea] = _0x4a0609[_0x1bf4ea];
+        }
+        for (_0x1bf4ea = 0x0; _0x1bf4ea < 0x20; _0x1bf4ea++) {
+          for (_0x55fecc = 0x0; _0x55fecc < 0x20; _0x55fecc++) {
+            _0x578d1e[_0x1bf4ea + _0x55fecc] += _0x4cd0c9[_0x1bf4ea] * _0x5c82a6[_0x55fecc];
           }
         }
-        modL(sm.subarray(32), x);
-        return smlen;
+        _0x51af5e(_0x4f0373.subarray(0x20), _0x578d1e);
+        return _0x186149;
       }
-      function unpackneg(r, p) {
-        var t = gf(), chk = gf(), num = gf(), den = gf(), den2 = gf(), den4 = gf(), den6 = gf();
-        set25519(r[2], gf1);
-        unpack25519(r[1], p);
-        S(num, r[1]);
-        M(den, num, D);
-        Z(num, num, r[2]);
-        A(den, r[2], den);
-        S(den2, den);
-        S(den4, den2);
-        M(den6, den4, den2);
-        M(t, den6, num);
-        M(t, t, den);
-        pow2523(t, t);
-        M(t, t, num);
-        M(t, t, den);
-        M(t, t, den);
-        M(r[0], t, den);
-        S(chk, r[0]);
-        M(chk, chk, den);
-        if (neq25519(chk, num))
-          M(r[0], r[0], I);
-        S(chk, r[0]);
-        M(chk, chk, den);
-        if (neq25519(chk, num))
-          return -1;
-        if (par25519(r[0]) === p[31] >> 7)
-          Z(r[0], gf0, r[0]);
-        M(r[3], r[0], r[1]);
-        return 0;
-      }
-      function crypto_sign_open(m, sm, n, pk) {
-        var i;
-        var t = new Uint8Array(32), h = new Uint8Array(64);
-        var p = [gf(), gf(), gf(), gf()], q = [gf(), gf(), gf(), gf()];
-        if (n < 64)
-          return -1;
-        if (unpackneg(q, pk))
-          return -1;
-        for (i = 0; i < n; i++)
-          m[i] = sm[i];
-        for (i = 0; i < 32; i++)
-          m[i + 32] = pk[i];
-        crypto_hash(h, m, n);
-        reduce(h);
-        scalarmult(p, q, h);
-        scalarbase(q, sm.subarray(32));
-        add(p, q);
-        pack(t, p);
-        n -= 64;
-        if (crypto_verify_32(sm, 0, t, 0)) {
-          for (i = 0; i < n; i++)
-            m[i] = 0;
-          return -1;
+      __defProp(_0x277561, "name", {
+        'value': "crypto_sign",
+        'configurable': true
+      });
+      function _0x1a1ed1(_0x2ad5dc, _0x365eae) {
+        var _0x478706 = _0x37d431();
+        var _0x70a4ad = _0x37d431();
+        var _0x357350 = _0x37d431();
+        var _0x8ab197 = _0x37d431();
+        var _0x1524e0 = _0x37d431();
+        var _0x2e5f57 = _0x37d431();
+        var _0x432b8e = _0x37d431();
+        _0x17b8b6(_0x2ad5dc[0x2], _0x5c7baf);
+        _0x553aef(_0x2ad5dc[0x1], _0x365eae);
+        _0x5c2179(_0x357350, _0x2ad5dc[0x1]);
+        _0x23ec90(_0x8ab197, _0x357350, _0x1eda62);
+        _0x2b9d8a(_0x357350, _0x357350, _0x2ad5dc[0x2]);
+        _0x2b9493(_0x8ab197, _0x2ad5dc[0x2], _0x8ab197);
+        _0x5c2179(_0x1524e0, _0x8ab197);
+        _0x5c2179(_0x2e5f57, _0x1524e0);
+        _0x23ec90(_0x432b8e, _0x2e5f57, _0x1524e0);
+        _0x23ec90(_0x478706, _0x432b8e, _0x357350);
+        _0x23ec90(_0x478706, _0x478706, _0x8ab197);
+        _0x25e99e(_0x478706, _0x478706);
+        _0x23ec90(_0x478706, _0x478706, _0x357350);
+        _0x23ec90(_0x478706, _0x478706, _0x8ab197);
+        _0x23ec90(_0x478706, _0x478706, _0x8ab197);
+        _0x23ec90(_0x2ad5dc[0x0], _0x478706, _0x8ab197);
+        _0x5c2179(_0x70a4ad, _0x2ad5dc[0x0]);
+        _0x23ec90(_0x70a4ad, _0x70a4ad, _0x8ab197);
+        if (_0x3dcce4(_0x70a4ad, _0x357350)) {
+          _0x23ec90(_0x2ad5dc[0x0], _0x2ad5dc[0x0], _0x598225);
         }
-        for (i = 0; i < n; i++)
-          m[i] = sm[i + 64];
-        return n;
+        _0x5c2179(_0x70a4ad, _0x2ad5dc[0x0]);
+        _0x23ec90(_0x70a4ad, _0x70a4ad, _0x8ab197);
+        if (_0x3dcce4(_0x70a4ad, _0x357350)) {
+          return -0x1;
+        }
+        if (_0xc4696d(_0x2ad5dc[0x0]) === _0x365eae[0x1f] >> 0x7) {
+          _0x2b9d8a(_0x2ad5dc[0x0], _0x50f9a5, _0x2ad5dc[0x0]);
+        }
+        _0x23ec90(_0x2ad5dc[0x3], _0x2ad5dc[0x0], _0x2ad5dc[0x1]);
+        return 0x0;
       }
-      var crypto_secretbox_KEYBYTES = 32, crypto_secretbox_NONCEBYTES = 24, crypto_secretbox_ZEROBYTES = 32, crypto_secretbox_BOXZEROBYTES = 16, crypto_scalarmult_BYTES = 32, crypto_scalarmult_SCALARBYTES = 32, crypto_box_PUBLICKEYBYTES = 32, crypto_box_SECRETKEYBYTES = 32, crypto_box_BEFORENMBYTES = 32, crypto_box_NONCEBYTES = crypto_secretbox_NONCEBYTES, crypto_box_ZEROBYTES = crypto_secretbox_ZEROBYTES, crypto_box_BOXZEROBYTES = crypto_secretbox_BOXZEROBYTES, crypto_sign_BYTES = 64, crypto_sign_PUBLICKEYBYTES = 32, crypto_sign_SECRETKEYBYTES = 64, crypto_sign_SEEDBYTES = 32, crypto_hash_BYTES = 64;
-      nacl2.lowlevel = {
-        crypto_core_hsalsa20,
-        crypto_stream_xor,
-        crypto_stream,
-        crypto_stream_salsa20_xor,
-        crypto_stream_salsa20,
-        crypto_onetimeauth,
-        crypto_onetimeauth_verify,
-        crypto_verify_16,
-        crypto_verify_32,
-        crypto_secretbox,
-        crypto_secretbox_open,
-        crypto_scalarmult,
-        crypto_scalarmult_base,
-        crypto_box_beforenm,
-        crypto_box_afternm,
-        crypto_box,
-        crypto_box_open,
-        crypto_box_keypair,
-        crypto_hash,
-        crypto_sign,
-        crypto_sign_keypair,
-        crypto_sign_open,
-        crypto_secretbox_KEYBYTES,
-        crypto_secretbox_NONCEBYTES,
-        crypto_secretbox_ZEROBYTES,
-        crypto_secretbox_BOXZEROBYTES,
-        crypto_scalarmult_BYTES,
-        crypto_scalarmult_SCALARBYTES,
-        crypto_box_PUBLICKEYBYTES,
-        crypto_box_SECRETKEYBYTES,
-        crypto_box_BEFORENMBYTES,
-        crypto_box_NONCEBYTES,
-        crypto_box_ZEROBYTES,
-        crypto_box_BOXZEROBYTES,
-        crypto_sign_BYTES,
-        crypto_sign_PUBLICKEYBYTES,
-        crypto_sign_SECRETKEYBYTES,
-        crypto_sign_SEEDBYTES,
-        crypto_hash_BYTES,
-        gf,
-        D,
-        L,
-        pack25519,
-        unpack25519,
-        M,
-        A,
-        S,
-        Z,
-        pow2523,
-        add,
-        set25519,
-        modL,
-        scalarmult,
-        scalarbase
+      __defProp(_0x1a1ed1, "name", {
+        'value': "unpackneg",
+        'configurable': true
+      });
+      function _0x26788d(_0x54b1da, _0x702290, _0x4cb6e6, _0x2e0e11) {
+        var _0x448c12;
+        var _0x21bd14 = new Uint8Array(0x20);
+        var _0x3f35c2 = new Uint8Array(0x40);
+        var _0x1dc606 = [_0x37d431(), _0x37d431(), _0x37d431(), _0x37d431()];
+        var _0x200b76 = [_0x37d431(), _0x37d431(), _0x37d431(), _0x37d431()];
+        if (_0x4cb6e6 < 0x40) {
+          return -0x1;
+        }
+        if (_0x1a1ed1(_0x200b76, _0x2e0e11)) {
+          return -0x1;
+        }
+        for (_0x448c12 = 0x0; _0x448c12 < _0x4cb6e6; _0x448c12++) {
+          _0x54b1da[_0x448c12] = _0x702290[_0x448c12];
+        }
+        for (_0x448c12 = 0x0; _0x448c12 < 0x20; _0x448c12++) {
+          _0x54b1da[_0x448c12 + 0x20] = _0x2e0e11[_0x448c12];
+        }
+        _0x1f4752(_0x3f35c2, _0x54b1da, _0x4cb6e6);
+        _0x265d2f(_0x3f35c2);
+        _0x45c667(_0x1dc606, _0x200b76, _0x3f35c2);
+        _0x126cb4(_0x200b76, _0x702290.subarray(0x20));
+        _0x1fb908(_0x1dc606, _0x200b76);
+        _0x461bfc(_0x21bd14, _0x1dc606);
+        _0x4cb6e6 -= 0x40;
+        if (_0x5eab61(_0x702290, 0x0, _0x21bd14, 0x0, 0x20)) {
+          for (_0x448c12 = 0x0; _0x448c12 < _0x4cb6e6; _0x448c12++) {
+            _0x54b1da[_0x448c12] = 0x0;
+          }
+          return -0x1;
+        }
+        for (_0x448c12 = 0x0; _0x448c12 < _0x4cb6e6; _0x448c12++) {
+          _0x54b1da[_0x448c12] = _0x702290[_0x448c12 + 0x40];
+        }
+        return _0x4cb6e6;
+      }
+      __defProp(_0x26788d, "name", {
+        'value': "crypto_sign_open",
+        'configurable': true
+      });
+      _0xfbb87d.lowlevel = {
+        'crypto_core_hsalsa20': _0xf178f6,
+        'crypto_stream_xor': _0x2650ce,
+        'crypto_stream': _0x3fa61b,
+        'crypto_stream_salsa20_xor': _0x373ffe,
+        'crypto_stream_salsa20': _0x530fbb,
+        'crypto_onetimeauth': _0x4c8545,
+        'crypto_onetimeauth_verify': _0x216382,
+        'crypto_verify_16': _0x3b07f3,
+        'crypto_verify_32': _0x5d5b38,
+        'crypto_secretbox': _0x444ec1,
+        'crypto_secretbox_open': _0x3bfe27,
+        'crypto_scalarmult': _0x1a2efd,
+        'crypto_scalarmult_base': _0x44a5a9,
+        'crypto_box_beforenm': _0x7baa21,
+        'crypto_box_afternm': _0x444ec1,
+        'crypto_box': _0x34092b,
+        'crypto_box_open': _0x36d381,
+        'crypto_box_keypair': _0x183ae2,
+        'crypto_hash': _0x1f4752,
+        'crypto_sign': _0x277561,
+        'crypto_sign_keypair': _0x466f04,
+        'crypto_sign_open': _0x26788d,
+        'crypto_secretbox_KEYBYTES': 0x20,
+        'crypto_secretbox_NONCEBYTES': 0x18,
+        'crypto_secretbox_ZEROBYTES': 0x20,
+        'crypto_secretbox_BOXZEROBYTES': 0x10,
+        'crypto_scalarmult_BYTES': 0x20,
+        'crypto_scalarmult_SCALARBYTES': 0x20,
+        'crypto_box_PUBLICKEYBYTES': 0x20,
+        'crypto_box_SECRETKEYBYTES': 0x20,
+        'crypto_box_BEFORENMBYTES': 0x20,
+        'crypto_box_NONCEBYTES': 0x18,
+        'crypto_box_ZEROBYTES': 0x20,
+        'crypto_box_BOXZEROBYTES': 0x10,
+        'crypto_sign_BYTES': 0x40,
+        'crypto_sign_PUBLICKEYBYTES': 0x20,
+        'crypto_sign_SECRETKEYBYTES': 0x40,
+        'crypto_sign_SEEDBYTES': 0x20,
+        'crypto_hash_BYTES': 0x40,
+        'gf': _0x37d431,
+        'D': _0x1eda62,
+        'L': _0x21edda,
+        'pack25519': _0x3dc71f,
+        'unpack25519': _0x553aef,
+        'M': _0x23ec90,
+        'A': _0x2b9493,
+        'S': _0x5c2179,
+        'Z': _0x2b9d8a,
+        'pow2523': _0x25e99e,
+        'add': _0x1fb908,
+        'set25519': _0x17b8b6,
+        'modL': _0x51af5e,
+        'scalarmult': _0x45c667,
+        'scalarbase': _0x126cb4
       };
-      function checkLengths(k, n) {
-        if (k.length !== crypto_secretbox_KEYBYTES)
+      function _0x53cff5(_0x17e60e, _0x48f4c5) {
+        if (_0x17e60e.length !== 0x20) {
           throw new Error("bad key size");
-        if (n.length !== crypto_secretbox_NONCEBYTES)
+        }
+        if (_0x48f4c5.length !== 0x18) {
           throw new Error("bad nonce size");
-      }
-      function checkBoxLengths(pk, sk) {
-        if (pk.length !== crypto_box_PUBLICKEYBYTES)
-          throw new Error("bad public key size");
-        if (sk.length !== crypto_box_SECRETKEYBYTES)
-          throw new Error("bad secret key size");
-      }
-      function checkArrayTypes() {
-        for (var i = 0; i < arguments.length; i++) {
-          if (!(arguments[i] instanceof Uint8Array))
-            throw new TypeError("unexpected type, use Uint8Array");
         }
       }
-      function cleanup(arr) {
-        for (var i = 0; i < arr.length; i++)
-          arr[i] = 0;
+      __defProp(_0x53cff5, "name", {
+        'value': "checkLengths",
+        'configurable': true
+      });
+      function _0x2b9895(_0x8ded9a, _0x478b5b) {
+        if (_0x8ded9a.length !== 0x20) {
+          throw new Error("bad public key size");
+        }
+        if (_0x478b5b.length !== 0x20) {
+          throw new Error("bad secret key size");
+        }
       }
-      nacl2.randomBytes = function(n) {
-        var b = new Uint8Array(n);
-        randombytes(b, n);
-        return b;
+      __defProp(_0x2b9895, "name", {
+        'value': "checkBoxLengths",
+        'configurable': true
+      });
+      function _0x383ec8() {
+        for (var _0x32e4f7 = 0x0; _0x32e4f7 < arguments.length; _0x32e4f7++) {
+          if (!(arguments[_0x32e4f7] instanceof Uint8Array)) {
+            throw new TypeError("unexpected type, use Uint8Array");
+          }
+        }
+      }
+      __defProp(_0x383ec8, "name", {
+        'value': "checkArrayTypes",
+        'configurable': true
+      });
+      function _0x1ce50d(_0x53b9cf) {
+        for (var _0x2b7de7 = 0x0; _0x2b7de7 < _0x53b9cf.length; _0x2b7de7++) {
+          _0x53b9cf[_0x2b7de7] = 0x0;
+        }
+      }
+      __defProp(_0x1ce50d, "name", {
+        'value': "cleanup",
+        'configurable': true
+      });
+      _0xfbb87d.randomBytes = function (_0x497206) {
+        var _0x413f43 = new Uint8Array(_0x497206);
+        _0x5354b6(_0x413f43, _0x497206);
+        return _0x413f43;
       };
-      nacl2.secretbox = function(msg, nonce, key) {
-        checkArrayTypes(msg, nonce, key);
-        checkLengths(key, nonce);
-        var m = new Uint8Array(crypto_secretbox_ZEROBYTES + msg.length);
-        var c = new Uint8Array(m.length);
-        for (var i = 0; i < msg.length; i++)
-          m[i + crypto_secretbox_ZEROBYTES] = msg[i];
-        crypto_secretbox(c, m, m.length, nonce, key);
-        return c.subarray(crypto_secretbox_BOXZEROBYTES);
+      _0xfbb87d.secretbox = function (_0x8e8218, _0x11eab0, _0x306ae9) {
+        _0x383ec8(_0x8e8218, _0x11eab0, _0x306ae9);
+        _0x53cff5(_0x306ae9, _0x11eab0);
+        var _0x32a388 = new Uint8Array(0x20 + _0x8e8218.length);
+        var _0x56f4f0 = new Uint8Array(_0x32a388.length);
+        for (var _0x549e90 = 0x0; _0x549e90 < _0x8e8218.length; _0x549e90++) {
+          _0x32a388[_0x549e90 + 0x20] = _0x8e8218[_0x549e90];
+        }
+        _0x444ec1(_0x56f4f0, _0x32a388, _0x32a388.length, _0x11eab0, _0x306ae9);
+        return _0x56f4f0.subarray(0x10);
       };
-      nacl2.secretbox.open = function(box, nonce, key) {
-        checkArrayTypes(box, nonce, key);
-        checkLengths(key, nonce);
-        var c = new Uint8Array(crypto_secretbox_BOXZEROBYTES + box.length);
-        var m = new Uint8Array(c.length);
-        for (var i = 0; i < box.length; i++)
-          c[i + crypto_secretbox_BOXZEROBYTES] = box[i];
-        if (c.length < 32)
+      _0xfbb87d.secretbox.open = function (_0x260906, _0x425235, _0x40c189) {
+        _0x383ec8(_0x260906, _0x425235, _0x40c189);
+        _0x53cff5(_0x40c189, _0x425235);
+        var _0x3288a5 = new Uint8Array(0x10 + _0x260906.length);
+        var _0x5e4918 = new Uint8Array(_0x3288a5.length);
+        for (var _0x3623a9 = 0x0; _0x3623a9 < _0x260906.length; _0x3623a9++) {
+          _0x3288a5[_0x3623a9 + 0x10] = _0x260906[_0x3623a9];
+        }
+        if (_0x3288a5.length < 0x20) {
           return null;
-        if (crypto_secretbox_open(m, c, c.length, nonce, key) !== 0)
+        }
+        if (_0x3bfe27(_0x5e4918, _0x3288a5, _0x3288a5.length, _0x425235, _0x40c189) !== 0x0) {
           return null;
-        return m.subarray(crypto_secretbox_ZEROBYTES);
+        }
+        return _0x5e4918.subarray(0x20);
       };
-      nacl2.secretbox.keyLength = crypto_secretbox_KEYBYTES;
-      nacl2.secretbox.nonceLength = crypto_secretbox_NONCEBYTES;
-      nacl2.secretbox.overheadLength = crypto_secretbox_BOXZEROBYTES;
-      nacl2.scalarMult = function(n, p) {
-        checkArrayTypes(n, p);
-        if (n.length !== crypto_scalarmult_SCALARBYTES)
+      _0xfbb87d.secretbox.keyLength = 0x20;
+      _0xfbb87d.secretbox.nonceLength = 0x18;
+      _0xfbb87d.secretbox.overheadLength = 0x10;
+      _0xfbb87d.scalarMult = function (_0x5b4b6a, _0x47e6f7) {
+        _0x383ec8(_0x5b4b6a, _0x47e6f7);
+        if (_0x5b4b6a.length !== 0x20) {
           throw new Error("bad n size");
-        if (p.length !== crypto_scalarmult_BYTES)
+        }
+        if (_0x47e6f7.length !== 0x20) {
           throw new Error("bad p size");
-        var q = new Uint8Array(crypto_scalarmult_BYTES);
-        crypto_scalarmult(q, n, p);
-        return q;
+        }
+        var _0x41efc3 = new Uint8Array(0x20);
+        _0x1a2efd(_0x41efc3, _0x5b4b6a, _0x47e6f7);
+        return _0x41efc3;
       };
-      nacl2.scalarMult.base = function(n) {
-        checkArrayTypes(n);
-        if (n.length !== crypto_scalarmult_SCALARBYTES)
+      _0xfbb87d.scalarMult.base = function (_0xc6a7aa) {
+        _0x383ec8(_0xc6a7aa);
+        if (_0xc6a7aa.length !== 0x20) {
           throw new Error("bad n size");
-        var q = new Uint8Array(crypto_scalarmult_BYTES);
-        crypto_scalarmult_base(q, n);
-        return q;
+        }
+        var _0x1b66e6 = new Uint8Array(0x20);
+        _0x1a2efd(_0x1b66e6, _0xc6a7aa, _0x1074eb);
+        return _0x1b66e6;
       };
-      nacl2.scalarMult.scalarLength = crypto_scalarmult_SCALARBYTES;
-      nacl2.scalarMult.groupElementLength = crypto_scalarmult_BYTES;
-      nacl2.box = function(msg, nonce, publicKey, secretKey) {
-        var k = nacl2.box.before(publicKey, secretKey);
-        return nacl2.secretbox(msg, nonce, k);
+      _0xfbb87d.scalarMult.scalarLength = 0x20;
+      _0xfbb87d.scalarMult.groupElementLength = 0x20;
+      _0xfbb87d.box = function (_0xd3deb3, _0x480dc4, _0x31c9d3, _0x493b2e) {
+        var _0x4ccf95 = _0xfbb87d.box.before(_0x31c9d3, _0x493b2e);
+        return _0xfbb87d.secretbox(_0xd3deb3, _0x480dc4, _0x4ccf95);
       };
-      nacl2.box.before = function(publicKey, secretKey) {
-        checkArrayTypes(publicKey, secretKey);
-        checkBoxLengths(publicKey, secretKey);
-        var k = new Uint8Array(crypto_box_BEFORENMBYTES);
-        crypto_box_beforenm(k, publicKey, secretKey);
-        return k;
+      _0xfbb87d.box.before = function (_0x36189e, _0x544973) {
+        _0x383ec8(_0x36189e, _0x544973);
+        _0x2b9895(_0x36189e, _0x544973);
+        var _0x2b8ac9 = new Uint8Array(0x20);
+        _0x7baa21(_0x2b8ac9, _0x36189e, _0x544973);
+        return _0x2b8ac9;
       };
-      nacl2.box.after = nacl2.secretbox;
-      nacl2.box.open = function(msg, nonce, publicKey, secretKey) {
-        var k = nacl2.box.before(publicKey, secretKey);
-        return nacl2.secretbox.open(msg, nonce, k);
+      _0xfbb87d.box.after = _0xfbb87d.secretbox;
+      _0xfbb87d.box.open = function (_0x1fa739, _0x710906, _0x49447e, _0x136dd9) {
+        var _0x2da98f = _0xfbb87d.box.before(_0x49447e, _0x136dd9);
+        return _0xfbb87d.secretbox.open(_0x1fa739, _0x710906, _0x2da98f);
       };
-      nacl2.box.open.after = nacl2.secretbox.open;
-      nacl2.box.keyPair = function() {
-        var pk = new Uint8Array(crypto_box_PUBLICKEYBYTES);
-        var sk = new Uint8Array(crypto_box_SECRETKEYBYTES);
-        crypto_box_keypair(pk, sk);
-        return { publicKey: pk, secretKey: sk };
+      _0xfbb87d.box.open.after = _0xfbb87d.secretbox.open;
+      _0xfbb87d.box.keyPair = function () {
+        var _0x4782a3 = new Uint8Array(0x20);
+        var _0xe48c5 = new Uint8Array(0x20);
+        _0x183ae2(_0x4782a3, _0xe48c5);
+        return {
+          'publicKey': _0x4782a3,
+          'secretKey': _0xe48c5
+        };
       };
-      nacl2.box.keyPair.fromSecretKey = function(secretKey) {
-        checkArrayTypes(secretKey);
-        if (secretKey.length !== crypto_box_SECRETKEYBYTES)
+      _0xfbb87d.box.keyPair.fromSecretKey = function (_0xc8f2a) {
+        _0x383ec8(_0xc8f2a);
+        if (_0xc8f2a.length !== 0x20) {
           throw new Error("bad secret key size");
-        var pk = new Uint8Array(crypto_box_PUBLICKEYBYTES);
-        crypto_scalarmult_base(pk, secretKey);
-        return { publicKey: pk, secretKey: new Uint8Array(secretKey) };
+        }
+        var _0x251b3c = new Uint8Array(0x20);
+        _0x1a2efd(_0x251b3c, _0xc8f2a, _0x1074eb);
+        return {
+          'publicKey': _0x251b3c,
+          'secretKey': new Uint8Array(_0xc8f2a)
+        };
       };
-      nacl2.box.publicKeyLength = crypto_box_PUBLICKEYBYTES;
-      nacl2.box.secretKeyLength = crypto_box_SECRETKEYBYTES;
-      nacl2.box.sharedKeyLength = crypto_box_BEFORENMBYTES;
-      nacl2.box.nonceLength = crypto_box_NONCEBYTES;
-      nacl2.box.overheadLength = nacl2.secretbox.overheadLength;
-      nacl2.sign = function(msg, secretKey) {
-        checkArrayTypes(msg, secretKey);
-        if (secretKey.length !== crypto_sign_SECRETKEYBYTES)
+      _0xfbb87d.box.publicKeyLength = 0x20;
+      _0xfbb87d.box.secretKeyLength = 0x20;
+      _0xfbb87d.box.sharedKeyLength = 0x20;
+      _0xfbb87d.box.nonceLength = 0x18;
+      _0xfbb87d.box.overheadLength = _0xfbb87d.secretbox.overheadLength;
+      _0xfbb87d.sign = function (_0x3ae98a, _0x5951eb) {
+        _0x383ec8(_0x3ae98a, _0x5951eb);
+        if (_0x5951eb.length !== 0x40) {
           throw new Error("bad secret key size");
-        var signedMsg = new Uint8Array(crypto_sign_BYTES + msg.length);
-        crypto_sign(signedMsg, msg, msg.length, secretKey);
-        return signedMsg;
+        }
+        var _0x53a5af = new Uint8Array(0x40 + _0x3ae98a.length);
+        _0x277561(_0x53a5af, _0x3ae98a, _0x3ae98a.length, _0x5951eb);
+        return _0x53a5af;
       };
-      nacl2.sign.open = function(signedMsg, publicKey) {
-        checkArrayTypes(signedMsg, publicKey);
-        if (publicKey.length !== crypto_sign_PUBLICKEYBYTES)
+      _0xfbb87d.sign.open = function (_0xf1f056, _0x4a161a) {
+        _0x383ec8(_0xf1f056, _0x4a161a);
+        if (_0x4a161a.length !== 0x20) {
           throw new Error("bad public key size");
-        var tmp = new Uint8Array(signedMsg.length);
-        var mlen = crypto_sign_open(tmp, signedMsg, signedMsg.length, publicKey);
-        if (mlen < 0)
+        }
+        var _0x2d042c = new Uint8Array(_0xf1f056.length);
+        var _0x59d83a = _0x26788d(_0x2d042c, _0xf1f056, _0xf1f056.length, _0x4a161a);
+        if (_0x59d83a < 0x0) {
           return null;
-        var m = new Uint8Array(mlen);
-        for (var i = 0; i < m.length; i++)
-          m[i] = tmp[i];
-        return m;
+        }
+        var _0x5cfd01 = new Uint8Array(_0x59d83a);
+        for (var _0x478ec7 = 0x0; _0x478ec7 < _0x5cfd01.length; _0x478ec7++) {
+          _0x5cfd01[_0x478ec7] = _0x2d042c[_0x478ec7];
+        }
+        return _0x5cfd01;
       };
-      nacl2.sign.detached = function(msg, secretKey) {
-        var signedMsg = nacl2.sign(msg, secretKey);
-        var sig = new Uint8Array(crypto_sign_BYTES);
-        for (var i = 0; i < sig.length; i++)
-          sig[i] = signedMsg[i];
-        return sig;
+      _0xfbb87d.sign.detached = function (_0x1d7bb9, _0x1e40d3) {
+        var _0x3d291 = _0xfbb87d.sign(_0x1d7bb9, _0x1e40d3);
+        var _0xfb7148 = new Uint8Array(0x40);
+        for (var _0x33c631 = 0x0; _0x33c631 < _0xfb7148.length; _0x33c631++) {
+          _0xfb7148[_0x33c631] = _0x3d291[_0x33c631];
+        }
+        return _0xfb7148;
       };
-      nacl2.sign.detached.verify = function(msg, sig, publicKey) {
-        checkArrayTypes(msg, sig, publicKey);
-        if (sig.length !== crypto_sign_BYTES)
+      _0xfbb87d.sign.detached.verify = function (_0x1adc8f, _0x5caf88, _0x24ca02) {
+        _0x383ec8(_0x1adc8f, _0x5caf88, _0x24ca02);
+        if (_0x5caf88.length !== 0x40) {
           throw new Error("bad signature size");
-        if (publicKey.length !== crypto_sign_PUBLICKEYBYTES)
+        }
+        if (_0x24ca02.length !== 0x20) {
           throw new Error("bad public key size");
-        var sm = new Uint8Array(crypto_sign_BYTES + msg.length);
-        var m = new Uint8Array(crypto_sign_BYTES + msg.length);
-        var i;
-        for (i = 0; i < crypto_sign_BYTES; i++)
-          sm[i] = sig[i];
-        for (i = 0; i < msg.length; i++)
-          sm[i + crypto_sign_BYTES] = msg[i];
-        return crypto_sign_open(m, sm, sm.length, publicKey) >= 0;
+        }
+        var _0x4a528d = new Uint8Array(0x40 + _0x1adc8f.length);
+        var _0xf58ad8 = new Uint8Array(0x40 + _0x1adc8f.length);
+        var _0x3bfb28;
+        for (_0x3bfb28 = 0x0; _0x3bfb28 < 0x40; _0x3bfb28++) {
+          _0x4a528d[_0x3bfb28] = _0x5caf88[_0x3bfb28];
+        }
+        for (_0x3bfb28 = 0x0; _0x3bfb28 < _0x1adc8f.length; _0x3bfb28++) {
+          _0x4a528d[_0x3bfb28 + 0x40] = _0x1adc8f[_0x3bfb28];
+        }
+        return _0x26788d(_0xf58ad8, _0x4a528d, _0x4a528d.length, _0x24ca02) >= 0x0;
       };
-      nacl2.sign.keyPair = function() {
-        var pk = new Uint8Array(crypto_sign_PUBLICKEYBYTES);
-        var sk = new Uint8Array(crypto_sign_SECRETKEYBYTES);
-        crypto_sign_keypair(pk, sk);
-        return { publicKey: pk, secretKey: sk };
+      _0xfbb87d.sign.keyPair = function () {
+        var _0x498cca = new Uint8Array(0x20);
+        var _0x5c4cd5 = new Uint8Array(0x40);
+        _0x466f04(_0x498cca, _0x5c4cd5);
+        return {
+          'publicKey': _0x498cca,
+          'secretKey': _0x5c4cd5
+        };
       };
-      nacl2.sign.keyPair.fromSecretKey = function(secretKey) {
-        checkArrayTypes(secretKey);
-        if (secretKey.length !== crypto_sign_SECRETKEYBYTES)
+      _0xfbb87d.sign.keyPair.fromSecretKey = function (_0x3e1e7f) {
+        _0x383ec8(_0x3e1e7f);
+        if (_0x3e1e7f.length !== 0x40) {
           throw new Error("bad secret key size");
-        var pk = new Uint8Array(crypto_sign_PUBLICKEYBYTES);
-        for (var i = 0; i < pk.length; i++)
-          pk[i] = secretKey[32 + i];
-        return { publicKey: pk, secretKey: new Uint8Array(secretKey) };
+        }
+        var _0x5bcb70 = new Uint8Array(0x20);
+        for (var _0x4f1e34 = 0x0; _0x4f1e34 < _0x5bcb70.length; _0x4f1e34++) {
+          _0x5bcb70[_0x4f1e34] = _0x3e1e7f[0x20 + _0x4f1e34];
+        }
+        return {
+          'publicKey': _0x5bcb70,
+          'secretKey': new Uint8Array(_0x3e1e7f)
+        };
       };
-      nacl2.sign.keyPair.fromSeed = function(seed) {
-        checkArrayTypes(seed);
-        if (seed.length !== crypto_sign_SEEDBYTES)
+      _0xfbb87d.sign.keyPair.fromSeed = function (_0x5edff1) {
+        _0x383ec8(_0x5edff1);
+        if (_0x5edff1.length !== 0x20) {
           throw new Error("bad seed size");
-        var pk = new Uint8Array(crypto_sign_PUBLICKEYBYTES);
-        var sk = new Uint8Array(crypto_sign_SECRETKEYBYTES);
-        for (var i = 0; i < 32; i++)
-          sk[i] = seed[i];
-        crypto_sign_keypair(pk, sk, true);
-        return { publicKey: pk, secretKey: sk };
+        }
+        var _0x3d61bf = new Uint8Array(0x20);
+        var _0x57dc26 = new Uint8Array(0x40);
+        for (var _0x5efafd = 0x0; _0x5efafd < 0x20; _0x5efafd++) {
+          _0x57dc26[_0x5efafd] = _0x5edff1[_0x5efafd];
+        }
+        _0x466f04(_0x3d61bf, _0x57dc26, true);
+        return {
+          'publicKey': _0x3d61bf,
+          'secretKey': _0x57dc26
+        };
       };
-      nacl2.sign.publicKeyLength = crypto_sign_PUBLICKEYBYTES;
-      nacl2.sign.secretKeyLength = crypto_sign_SECRETKEYBYTES;
-      nacl2.sign.seedLength = crypto_sign_SEEDBYTES;
-      nacl2.sign.signatureLength = crypto_sign_BYTES;
-      nacl2.hash = function(msg) {
-        checkArrayTypes(msg);
-        var h = new Uint8Array(crypto_hash_BYTES);
-        crypto_hash(h, msg, msg.length);
-        return h;
+      _0xfbb87d.sign.publicKeyLength = 0x20;
+      _0xfbb87d.sign.secretKeyLength = 0x40;
+      _0xfbb87d.sign.seedLength = 0x20;
+      _0xfbb87d.sign.signatureLength = 0x40;
+      _0xfbb87d.hash = function (_0x410dc6) {
+        _0x383ec8(_0x410dc6);
+        var _0x5dd3e1 = new Uint8Array(0x40);
+        _0x1f4752(_0x5dd3e1, _0x410dc6, _0x410dc6.length);
+        return _0x5dd3e1;
       };
-      nacl2.hash.hashLength = crypto_hash_BYTES;
-      nacl2.verify = function(x, y) {
-        checkArrayTypes(x, y);
-        if (x.length === 0 || y.length === 0)
+      _0xfbb87d.hash.hashLength = 0x40;
+      _0xfbb87d.verify = function (_0xf14e1c, _0x44db66) {
+        _0x383ec8(_0xf14e1c, _0x44db66);
+        if (_0xf14e1c.length === 0x0 || _0x44db66.length === 0x0) {
           return false;
-        if (x.length !== y.length)
+        }
+        if (_0xf14e1c.length !== _0x44db66.length) {
           return false;
-        return vn(x, 0, y, 0, x.length) === 0 ? true : false;
+        }
+        return !!(_0x5eab61(_0xf14e1c, 0x0, _0x44db66, 0x0, _0xf14e1c.length) === 0x0);
       };
-      nacl2.setPRNG = function(fn) {
-        randombytes = fn;
+      _0xfbb87d.setPRNG = function (_0x9320f2) {
+        _0x5354b6 = _0x9320f2;
       };
-      (function() {
-        var crypto2 = typeof self !== "undefined" ? self.crypto || self.msCrypto : null;
-        if (crypto2 && crypto2.getRandomValues) {
-          var QUOTA = 65536;
-          nacl2.setPRNG(function(x, n) {
-            var i, v = new Uint8Array(n);
-            for (i = 0; i < n; i += QUOTA) {
-              crypto2.getRandomValues(v.subarray(i, i + Math.min(n - i, QUOTA)));
+      (function () {
+        var _0x14816e = typeof self !== "undefined" ? self.crypto || self.msCrypto : null;
+        if (_0x14816e && _0x14816e.getRandomValues) {
+          _0xfbb87d.setPRNG(function (_0x10dd82, _0x20a06f) {
+            var _0x559efd;
+            var _0x375615 = new Uint8Array(_0x20a06f);
+            for (_0x559efd = 0x0; _0x559efd < _0x20a06f; _0x559efd += 0x10000) {
+              _0x14816e.getRandomValues(_0x375615.subarray(_0x559efd, _0x559efd + Math.min(_0x20a06f - _0x559efd, 0x10000)));
             }
-            for (i = 0; i < n; i++)
-              x[i] = v[i];
-            cleanup(v);
+            for (_0x559efd = 0x0; _0x559efd < _0x20a06f; _0x559efd++) {
+              _0x10dd82[_0x559efd] = _0x375615[_0x559efd];
+            }
+            _0x1ce50d(_0x375615);
           });
         } else if (typeof __require !== "undefined") {
-          crypto2 = require_crypto();
-          if (crypto2 && crypto2.randomBytes) {
-            nacl2.setPRNG(function(x, n) {
-              var i, v = crypto2.randomBytes(n);
-              for (i = 0; i < n; i++)
-                x[i] = v[i];
-              cleanup(v);
+          _0x14816e = require_crypto();
+          if (_0x14816e && _0x14816e.randomBytes) {
+            _0xfbb87d.setPRNG(function (_0x57012f, _0x4a3624) {
+              var _0x2095c0;
+              var _0x116164 = _0x14816e.randomBytes(_0x4a3624);
+              for (_0x2095c0 = 0x0; _0x2095c0 < _0x4a3624; _0x2095c0++) {
+                _0x57012f[_0x2095c0] = _0x116164[_0x2095c0];
+              }
+              _0x1ce50d(_0x116164);
             });
           }
         }
       })();
-    })(typeof module !== "undefined" && module.exports ? module.exports : self.nacl = self.nacl || {});
+    })(typeof _0x5b6019 !== "undefined" && _0x5b6019.exports ? _0x5b6019.exports : self.nacl = self.nacl || {});
   }
 });
-
-// (disabled):buffer
 var require_buffer = __commonJS({
-  "(disabled):buffer"() {
-  }
+  '(disabled):buffer'() {}
 });
-
-// node_modules/js-sha256/src/sha256.js
 var require_sha256 = __commonJS({
-  "node_modules/js-sha256/src/sha256.js"(exports, module) {
-    (function() {
-      "use strict";
-      var ERROR = "input is invalid type";
-      var WINDOW = typeof window === "object";
-      var root = WINDOW ? window : {};
-      if (root.JS_SHA256_NO_WINDOW) {
-        WINDOW = false;
+  'node_modules/js-sha256/src/sha256.js'(_0xfa19bb, _0x1fb8c3) {
+    (function () {
+      'use strict';
+
+      var _0x12a99c = typeof window === "object";
+      var _0x5ade68 = _0x12a99c ? window : {};
+      if (_0x5ade68.JS_SHA256_NO_WINDOW) {
+        _0x12a99c = false;
       }
-      var WEB_WORKER = !WINDOW && typeof self === "object";
-      var NODE_JS = !root.JS_SHA256_NO_NODE_JS && typeof process === "object" && process.versions && process.versions.node;
-      if (NODE_JS) {
-        root = global;
-      } else if (WEB_WORKER) {
-        root = self;
+      var _0x5938a5 = !_0x12a99c && typeof self === "object";
+      var _0x4ca655 = !_0x5ade68.JS_SHA256_NO_NODE_JS && typeof process === "object" && process.versions && process.versions.node;
+      if (_0x4ca655) {
+        _0x5ade68 = global;
+      } else if (_0x5938a5) {
+        _0x5ade68 = self;
       }
-      var COMMON_JS = !root.JS_SHA256_NO_COMMON_JS && typeof module === "object" && module.exports;
-      var AMD = typeof define === "function" && define.amd;
-      var ARRAY_BUFFER = !root.JS_SHA256_NO_ARRAY_BUFFER && typeof ArrayBuffer !== "undefined";
-      var HEX_CHARS = "0123456789abcdef".split("");
-      var EXTRA = [-2147483648, 8388608, 32768, 128];
-      var SHIFT = [24, 16, 8, 0];
-      var K = [
-        1116352408,
-        1899447441,
-        3049323471,
-        3921009573,
-        961987163,
-        1508970993,
-        2453635748,
-        2870763221,
-        3624381080,
-        310598401,
-        607225278,
-        1426881987,
-        1925078388,
-        2162078206,
-        2614888103,
-        3248222580,
-        3835390401,
-        4022224774,
-        264347078,
-        604807628,
-        770255983,
-        1249150122,
-        1555081692,
-        1996064986,
-        2554220882,
-        2821834349,
-        2952996808,
-        3210313671,
-        3336571891,
-        3584528711,
-        113926993,
-        338241895,
-        666307205,
-        773529912,
-        1294757372,
-        1396182291,
-        1695183700,
-        1986661051,
-        2177026350,
-        2456956037,
-        2730485921,
-        2820302411,
-        3259730800,
-        3345764771,
-        3516065817,
-        3600352804,
-        4094571909,
-        275423344,
-        430227734,
-        506948616,
-        659060556,
-        883997877,
-        958139571,
-        1322822218,
-        1537002063,
-        1747873779,
-        1955562222,
-        2024104815,
-        2227730452,
-        2361852424,
-        2428436474,
-        2756734187,
-        3204031479,
-        3329325298
-      ];
-      var OUTPUT_TYPES = ["hex", "array", "digest", "arrayBuffer"];
-      var blocks = [];
-      if (root.JS_SHA256_NO_NODE_JS || !Array.isArray) {
-        Array.isArray = function(obj) {
-          return Object.prototype.toString.call(obj) === "[object Array]";
+      var _0x22e210 = !_0x5ade68.JS_SHA256_NO_COMMON_JS && typeof _0x1fb8c3 === "object" && _0x1fb8c3.exports;
+      var _0x386084 = typeof define === "function" && define.amd;
+      var _0x4cb1ab = !_0x5ade68.JS_SHA256_NO_ARRAY_BUFFER && typeof ArrayBuffer !== "undefined";
+      var _0x393fa5 = "0123456789abcdef".split('');
+      var _0x302537 = [-0x80000000, 0x800000, 0x8000, 0x80];
+      var _0x441680 = [0x18, 0x10, 0x8, 0x0];
+      var _0xfc958e = [0x428a2f98, 0x71374491, 0xb5c0fbcf, 0xe9b5dba5, 0x3956c25b, 0x59f111f1, 0x923f82a4, 0xab1c5ed5, 0xd807aa98, 0x12835b01, 0x243185be, 0x550c7dc3, 0x72be5d74, 0x80deb1fe, 0x9bdc06a7, 0xc19bf174, 0xe49b69c1, 0xefbe4786, 0xfc19dc6, 0x240ca1cc, 0x2de92c6f, 0x4a7484aa, 0x5cb0a9dc, 0x76f988da, 0x983e5152, 0xa831c66d, 0xb00327c8, 0xbf597fc7, 0xc6e00bf3, 0xd5a79147, 0x6ca6351, 0x14292967, 0x27b70a85, 0x2e1b2138, 0x4d2c6dfc, 0x53380d13, 0x650a7354, 0x766a0abb, 0x81c2c92e, 0x92722c85, 0xa2bfe8a1, 0xa81a664b, 0xc24b8b70, 0xc76c51a3, 0xd192e819, 0xd6990624, 0xf40e3585, 0x106aa070, 0x19a4c116, 0x1e376c08, 0x2748774c, 0x34b0bcb5, 0x391c0cb3, 0x4ed8aa4a, 0x5b9cca4f, 0x682e6ff3, 0x748f82ee, 0x78a5636f, 0x84c87814, 0x8cc70208, 0x90befffa, 0xa4506ceb, 0xbef9a3f7, 0xc67178f2];
+      var _0x10ed6c = ["hex", "array", "digest", "arrayBuffer"];
+      var _0x13f383 = [];
+      if (_0x5ade68.JS_SHA256_NO_NODE_JS || !Array.isArray) {
+        Array.isArray = function (_0x405fdd) {
+          return Object.prototype.toString.call(_0x405fdd) === "[object Array]";
         };
       }
-      if (ARRAY_BUFFER && (root.JS_SHA256_NO_ARRAY_BUFFER_IS_VIEW || !ArrayBuffer.isView)) {
-        ArrayBuffer.isView = function(obj) {
-          return typeof obj === "object" && obj.buffer && obj.buffer.constructor === ArrayBuffer;
+      if (_0x4cb1ab && (_0x5ade68.JS_SHA256_NO_ARRAY_BUFFER_IS_VIEW || !ArrayBuffer.isView)) {
+        ArrayBuffer.isView = function (_0x2bea6a) {
+          return typeof _0x2bea6a === "object" && _0x2bea6a.buffer && _0x2bea6a.buffer.constructor === ArrayBuffer;
         };
       }
-      var createOutputMethod = function(outputType, is224) {
-        return function(message2) {
-          return new Sha256(is224, true).update(message2)[outputType]();
+      var _0x1d62aa = __defProp(function (_0x4fa06d, _0x4cccc3) {
+        return function (_0x398163) {
+          return new _0x2bf529(_0x4cccc3, true).update(_0x398163)[_0x4fa06d]();
         };
-      };
-      var createMethod = function(is224) {
-        var method = createOutputMethod("hex", is224);
-        if (NODE_JS) {
-          method = nodeWrap(method, is224);
+      }, "name", {
+        'value': "createOutputMethod",
+        'configurable': true
+      });
+      var _0xc745d3 = __defProp(function (_0x10ef0d) {
+        var _0x43b54f = _0x1d62aa("hex", _0x10ef0d);
+        if (_0x4ca655) {
+          _0x43b54f = _0x1af089(_0x43b54f, _0x10ef0d);
         }
-        method.create = function() {
-          return new Sha256(is224);
+        _0x43b54f.create = function () {
+          return new _0x2bf529(_0x10ef0d);
         };
-        method.update = function(message2) {
-          return method.create().update(message2);
+        _0x43b54f.update = function (_0x4eb47c) {
+          return _0x43b54f.create().update(_0x4eb47c);
         };
-        for (var i = 0; i < OUTPUT_TYPES.length; ++i) {
-          var type = OUTPUT_TYPES[i];
-          method[type] = createOutputMethod(type, is224);
+        for (var _0x37a0f8 = 0x0; _0x37a0f8 < _0x10ed6c.length; ++_0x37a0f8) {
+          var _0x16e493 = _0x10ed6c[_0x37a0f8];
+          _0x43b54f[_0x16e493] = _0x1d62aa(_0x16e493, _0x10ef0d);
         }
-        return method;
-      };
-      var nodeWrap = function(method, is224) {
-        var crypto2 = require_crypto();
-        var Buffer2 = require_buffer().Buffer;
-        var algorithm = is224 ? "sha224" : "sha256";
-        var bufferFrom;
-        if (Buffer2.from && !root.JS_SHA256_NO_BUFFER_FROM) {
-          bufferFrom = Buffer2.from;
+        return _0x43b54f;
+      }, "name", {
+        'value': "createMethod",
+        'configurable': true
+      });
+      var _0x1af089 = __defProp(function (_0x18ae0d, _0xbc640a) {
+        var _0x291cb0 = require_crypto();
+        var _0x23ffaa = require_buffer().Buffer;
+        var _0x1326bc = _0xbc640a ? "sha224" : "sha256";
+        var _0x1aa810;
+        if (_0x23ffaa.from && !_0x5ade68.JS_SHA256_NO_BUFFER_FROM) {
+          _0x1aa810 = _0x23ffaa.from;
         } else {
-          bufferFrom = function(message2) {
-            return new Buffer2(message2);
-          };
+          _0x1aa810 = __defProp(function (_0x2c7760) {
+            return new _0x23ffaa(_0x2c7760);
+          }, "name", {
+            'value': "bufferFrom",
+            'configurable': true
+          });
         }
-        var nodeMethod = function(message2) {
-          if (typeof message2 === "string") {
-            return crypto2.createHash(algorithm).update(message2, "utf8").digest("hex");
+        var _0x475418 = __defProp(function (_0x50834d) {
+          if (typeof _0x50834d === "string") {
+            return _0x291cb0.createHash(_0x1326bc).update(_0x50834d, "utf8").digest("hex");
           } else {
-            if (message2 === null || message2 === void 0) {
-              throw new Error(ERROR);
-            } else if (message2.constructor === ArrayBuffer) {
-              message2 = new Uint8Array(message2);
+            if (_0x50834d === null || _0x50834d === undefined) {
+              throw new Error("input is invalid type");
+            } else if (_0x50834d.constructor === ArrayBuffer) {
+              _0x50834d = new Uint8Array(_0x50834d);
             }
           }
-          if (Array.isArray(message2) || ArrayBuffer.isView(message2) || message2.constructor === Buffer2) {
-            return crypto2.createHash(algorithm).update(bufferFrom(message2)).digest("hex");
-          } else {
-            return method(message2);
-          }
+          return Array.isArray(_0x50834d) || ArrayBuffer.isView(_0x50834d) || _0x50834d.constructor === _0x23ffaa ? _0x291cb0.createHash(_0x1326bc).update(_0x1aa810(_0x50834d)).digest("hex") : _0x18ae0d(_0x50834d);
+        }, "name", {
+          'value': "nodeMethod",
+          'configurable': true
+        });
+        return _0x475418;
+      }, "name", {
+        'value': "nodeWrap",
+        'configurable': true
+      });
+      var _0x5a9a1a = __defProp(function (_0x22c8a1, _0x3e8a44) {
+        return function (_0x4ef446, _0x359532) {
+          return new _0x2e6da5(_0x4ef446, _0x3e8a44, true).update(_0x359532)[_0x22c8a1]();
         };
-        return nodeMethod;
-      };
-      var createHmacOutputMethod = function(outputType, is224) {
-        return function(key, message2) {
-          return new HmacSha256(key, is224, true).update(message2)[outputType]();
+      }, "name", {
+        'value': "createHmacOutputMethod",
+        'configurable': true
+      });
+      var _0x1d0ef9 = __defProp(function (_0x10deda) {
+        var _0x5aca7b = _0x5a9a1a("hex", _0x10deda);
+        _0x5aca7b.create = function (_0x305c36) {
+          return new _0x2e6da5(_0x305c36, _0x10deda);
         };
-      };
-      var createHmacMethod = function(is224) {
-        var method = createHmacOutputMethod("hex", is224);
-        method.create = function(key) {
-          return new HmacSha256(key, is224);
+        _0x5aca7b.update = function (_0x3f9991, _0x126aad) {
+          return _0x5aca7b.create(_0x3f9991).update(_0x126aad);
         };
-        method.update = function(key, message2) {
-          return method.create(key).update(message2);
-        };
-        for (var i = 0; i < OUTPUT_TYPES.length; ++i) {
-          var type = OUTPUT_TYPES[i];
-          method[type] = createHmacOutputMethod(type, is224);
+        for (var _0x355c7b = 0x0; _0x355c7b < _0x10ed6c.length; ++_0x355c7b) {
+          var _0x204cbf = _0x10ed6c[_0x355c7b];
+          _0x5aca7b[_0x204cbf] = _0x5a9a1a(_0x204cbf, _0x10deda);
         }
-        return method;
-      };
-      function Sha256(is224, sharedMemory) {
-        if (sharedMemory) {
-          blocks[0] = blocks[16] = blocks[1] = blocks[2] = blocks[3] = blocks[4] = blocks[5] = blocks[6] = blocks[7] = blocks[8] = blocks[9] = blocks[10] = blocks[11] = blocks[12] = blocks[13] = blocks[14] = blocks[15] = 0;
-          this.blocks = blocks;
+        return _0x5aca7b;
+      }, "name", {
+        'value': "createHmacMethod",
+        'configurable': true
+      });
+      function _0x2bf529(_0x25383f, _0x5ce5cf) {
+        if (_0x5ce5cf) {
+          _0x13f383[0x0] = _0x13f383[0x10] = _0x13f383[0x1] = _0x13f383[0x2] = _0x13f383[0x3] = _0x13f383[0x4] = _0x13f383[0x5] = _0x13f383[0x6] = _0x13f383[0x7] = _0x13f383[0x8] = _0x13f383[0x9] = _0x13f383[0xa] = _0x13f383[0xb] = _0x13f383[0xc] = _0x13f383[0xd] = _0x13f383[0xe] = _0x13f383[0xf] = 0x0;
+          this.blocks = _0x13f383;
         } else {
-          this.blocks = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+          this.blocks = [0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0];
         }
-        if (is224) {
-          this.h0 = 3238371032;
-          this.h1 = 914150663;
-          this.h2 = 812702999;
-          this.h3 = 4144912697;
-          this.h4 = 4290775857;
-          this.h5 = 1750603025;
-          this.h6 = 1694076839;
-          this.h7 = 3204075428;
+        if (_0x25383f) {
+          this.h0 = 0xc1059ed8;
+          this.h1 = 0x367cd507;
+          this.h2 = 0x3070dd17;
+          this.h3 = 0xf70e5939;
+          this.h4 = 0xffc00b31;
+          this.h5 = 0x68581511;
+          this.h6 = 0x64f98fa7;
+          this.h7 = 0xbefa4fa4;
         } else {
-          this.h0 = 1779033703;
-          this.h1 = 3144134277;
-          this.h2 = 1013904242;
-          this.h3 = 2773480762;
-          this.h4 = 1359893119;
-          this.h5 = 2600822924;
-          this.h6 = 528734635;
-          this.h7 = 1541459225;
+          this.h0 = 0x6a09e667;
+          this.h1 = 0xbb67ae85;
+          this.h2 = 0x3c6ef372;
+          this.h3 = 0xa54ff53a;
+          this.h4 = 0x510e527f;
+          this.h5 = 0x9b05688c;
+          this.h6 = 0x1f83d9ab;
+          this.h7 = 0x5be0cd19;
         }
-        this.block = this.start = this.bytes = this.hBytes = 0;
+        this.block = this.start = this.bytes = this.hBytes = 0x0;
         this.finalized = this.hashed = false;
         this.first = true;
-        this.is224 = is224;
+        this.is224 = _0x25383f;
       }
-      Sha256.prototype.update = function(message2) {
+      __defProp(_0x2bf529, "name", {
+        'value': "Sha256",
+        'configurable': true
+      });
+      _0x2bf529.prototype.update = function (_0x144ff5) {
         if (this.finalized) {
           return;
         }
-        var notString, type = typeof message2;
-        if (type !== "string") {
-          if (type === "object") {
-            if (message2 === null) {
-              throw new Error(ERROR);
-            } else if (ARRAY_BUFFER && message2.constructor === ArrayBuffer) {
-              message2 = new Uint8Array(message2);
-            } else if (!Array.isArray(message2)) {
-              if (!ARRAY_BUFFER || !ArrayBuffer.isView(message2)) {
-                throw new Error(ERROR);
+        var _0x26efa3;
+        var _0xa7d523 = typeof _0x144ff5;
+        if (_0xa7d523 !== "string") {
+          if (_0xa7d523 === "object") {
+            if (_0x144ff5 === null) {
+              throw new Error("input is invalid type");
+            } else {
+              if (_0x4cb1ab && _0x144ff5.constructor === ArrayBuffer) {
+                _0x144ff5 = new Uint8Array(_0x144ff5);
+              } else {
+                if (!Array.isArray(_0x144ff5)) {
+                  if (!_0x4cb1ab || !ArrayBuffer.isView(_0x144ff5)) {
+                    throw new Error("input is invalid type");
+                  }
+                }
               }
             }
           } else {
-            throw new Error(ERROR);
+            throw new Error("input is invalid type");
           }
-          notString = true;
+          _0x26efa3 = true;
         }
-        var code, index = 0, i, length = message2.length, blocks2 = this.blocks;
-        while (index < length) {
+        var _0x448e84;
+        var _0x5656f3 = 0x0;
+        var _0x385f0b;
+        var _0x26cbab = _0x144ff5.length;
+        var _0x1847ce = this.blocks;
+        while (_0x5656f3 < _0x26cbab) {
           if (this.hashed) {
             this.hashed = false;
-            blocks2[0] = this.block;
-            this.block = blocks2[16] = blocks2[1] = blocks2[2] = blocks2[3] = blocks2[4] = blocks2[5] = blocks2[6] = blocks2[7] = blocks2[8] = blocks2[9] = blocks2[10] = blocks2[11] = blocks2[12] = blocks2[13] = blocks2[14] = blocks2[15] = 0;
+            _0x1847ce[0x0] = this.block;
+            this.block = _0x1847ce[0x10] = _0x1847ce[0x1] = _0x1847ce[0x2] = _0x1847ce[0x3] = _0x1847ce[0x4] = _0x1847ce[0x5] = _0x1847ce[0x6] = _0x1847ce[0x7] = _0x1847ce[0x8] = _0x1847ce[0x9] = _0x1847ce[0xa] = _0x1847ce[0xb] = _0x1847ce[0xc] = _0x1847ce[0xd] = _0x1847ce[0xe] = _0x1847ce[0xf] = 0x0;
           }
-          if (notString) {
-            for (i = this.start; index < length && i < 64; ++index) {
-              blocks2[i >>> 2] |= message2[index] << SHIFT[i++ & 3];
+          if (_0x26efa3) {
+            for (_0x385f0b = this.start; _0x5656f3 < _0x26cbab && _0x385f0b < 0x40; ++_0x5656f3) {
+              _0x1847ce[_0x385f0b >>> 0x2] |= _0x144ff5[_0x5656f3] << _0x441680[_0x385f0b++ & 0x3];
             }
           } else {
-            for (i = this.start; index < length && i < 64; ++index) {
-              code = message2.charCodeAt(index);
-              if (code < 128) {
-                blocks2[i >>> 2] |= code << SHIFT[i++ & 3];
-              } else if (code < 2048) {
-                blocks2[i >>> 2] |= (192 | code >>> 6) << SHIFT[i++ & 3];
-                blocks2[i >>> 2] |= (128 | code & 63) << SHIFT[i++ & 3];
-              } else if (code < 55296 || code >= 57344) {
-                blocks2[i >>> 2] |= (224 | code >>> 12) << SHIFT[i++ & 3];
-                blocks2[i >>> 2] |= (128 | code >>> 6 & 63) << SHIFT[i++ & 3];
-                blocks2[i >>> 2] |= (128 | code & 63) << SHIFT[i++ & 3];
+            for (_0x385f0b = this.start; _0x5656f3 < _0x26cbab && _0x385f0b < 0x40; ++_0x5656f3) {
+              _0x448e84 = _0x144ff5.charCodeAt(_0x5656f3);
+              if (_0x448e84 < 0x80) {
+                _0x1847ce[_0x385f0b >>> 0x2] |= _0x448e84 << _0x441680[_0x385f0b++ & 0x3];
               } else {
-                code = 65536 + ((code & 1023) << 10 | message2.charCodeAt(++index) & 1023);
-                blocks2[i >>> 2] |= (240 | code >>> 18) << SHIFT[i++ & 3];
-                blocks2[i >>> 2] |= (128 | code >>> 12 & 63) << SHIFT[i++ & 3];
-                blocks2[i >>> 2] |= (128 | code >>> 6 & 63) << SHIFT[i++ & 3];
-                blocks2[i >>> 2] |= (128 | code & 63) << SHIFT[i++ & 3];
+                if (_0x448e84 < 0x800) {
+                  _0x1847ce[_0x385f0b >>> 0x2] |= (0xc0 | _0x448e84 >>> 0x6) << _0x441680[_0x385f0b++ & 0x3];
+                  _0x1847ce[_0x385f0b >>> 0x2] |= (0x80 | _0x448e84 & 0x3f) << _0x441680[_0x385f0b++ & 0x3];
+                } else if (_0x448e84 < 0xd800 || _0x448e84 >= 0xe000) {
+                  _0x1847ce[_0x385f0b >>> 0x2] |= (0xe0 | _0x448e84 >>> 0xc) << _0x441680[_0x385f0b++ & 0x3];
+                  _0x1847ce[_0x385f0b >>> 0x2] |= (0x80 | _0x448e84 >>> 0x6 & 0x3f) << _0x441680[_0x385f0b++ & 0x3];
+                  _0x1847ce[_0x385f0b >>> 0x2] |= (0x80 | _0x448e84 & 0x3f) << _0x441680[_0x385f0b++ & 0x3];
+                } else {
+                  _0x448e84 = 0x10000 + ((_0x448e84 & 0x3ff) << 0xa | _0x144ff5.charCodeAt(++_0x5656f3) & 0x3ff);
+                  _0x1847ce[_0x385f0b >>> 0x2] |= (0xf0 | _0x448e84 >>> 0x12) << _0x441680[_0x385f0b++ & 0x3];
+                  _0x1847ce[_0x385f0b >>> 0x2] |= (0x80 | _0x448e84 >>> 0xc & 0x3f) << _0x441680[_0x385f0b++ & 0x3];
+                  _0x1847ce[_0x385f0b >>> 0x2] |= (0x80 | _0x448e84 >>> 0x6 & 0x3f) << _0x441680[_0x385f0b++ & 0x3];
+                  _0x1847ce[_0x385f0b >>> 0x2] |= (0x80 | _0x448e84 & 0x3f) << _0x441680[_0x385f0b++ & 0x3];
+                }
               }
             }
           }
-          this.lastByteIndex = i;
-          this.bytes += i - this.start;
-          if (i >= 64) {
-            this.block = blocks2[16];
-            this.start = i - 64;
+          this.lastByteIndex = _0x385f0b;
+          this.bytes += _0x385f0b - this.start;
+          if (_0x385f0b >= 0x40) {
+            this.block = _0x1847ce[0x10];
+            this.start = _0x385f0b - 0x40;
             this.hash();
             this.hashed = true;
           } else {
-            this.start = i;
+            this.start = _0x385f0b;
           }
         }
-        if (this.bytes > 4294967295) {
-          this.hBytes += this.bytes / 4294967296 << 0;
-          this.bytes = this.bytes % 4294967296;
+        if (this.bytes > 0xffffffff) {
+          this.hBytes += this.bytes / 0x100000000 << 0x0;
+          this.bytes = this.bytes % 0x100000000;
         }
         return this;
       };
-      Sha256.prototype.finalize = function() {
+      _0x2bf529.prototype.finalize = function () {
         if (this.finalized) {
           return;
         }
         this.finalized = true;
-        var blocks2 = this.blocks, i = this.lastByteIndex;
-        blocks2[16] = this.block;
-        blocks2[i >>> 2] |= EXTRA[i & 3];
-        this.block = blocks2[16];
-        if (i >= 56) {
+        var _0x5266fb = this.blocks;
+        var _0x297f28 = this.lastByteIndex;
+        _0x5266fb[0x10] = this.block;
+        _0x5266fb[_0x297f28 >>> 0x2] |= _0x302537[_0x297f28 & 0x3];
+        this.block = _0x5266fb[0x10];
+        if (_0x297f28 >= 0x38) {
           if (!this.hashed) {
             this.hash();
           }
-          blocks2[0] = this.block;
-          blocks2[16] = blocks2[1] = blocks2[2] = blocks2[3] = blocks2[4] = blocks2[5] = blocks2[6] = blocks2[7] = blocks2[8] = blocks2[9] = blocks2[10] = blocks2[11] = blocks2[12] = blocks2[13] = blocks2[14] = blocks2[15] = 0;
+          _0x5266fb[0x0] = this.block;
+          _0x5266fb[0x10] = _0x5266fb[0x1] = _0x5266fb[0x2] = _0x5266fb[0x3] = _0x5266fb[0x4] = _0x5266fb[0x5] = _0x5266fb[0x6] = _0x5266fb[0x7] = _0x5266fb[0x8] = _0x5266fb[0x9] = _0x5266fb[0xa] = _0x5266fb[0xb] = _0x5266fb[0xc] = _0x5266fb[0xd] = _0x5266fb[0xe] = _0x5266fb[0xf] = 0x0;
         }
-        blocks2[14] = this.hBytes << 3 | this.bytes >>> 29;
-        blocks2[15] = this.bytes << 3;
+        _0x5266fb[0xe] = this.hBytes << 0x3 | this.bytes >>> 0x1d;
+        _0x5266fb[0xf] = this.bytes << 0x3;
         this.hash();
       };
-      Sha256.prototype.hash = function() {
-        var a = this.h0, b = this.h1, c = this.h2, d = this.h3, e = this.h4, f = this.h5, g = this.h6, h = this.h7, blocks2 = this.blocks, j, s0, s1, maj, t1, t2, ch, ab, da, cd, bc;
-        for (j = 16; j < 64; ++j) {
-          t1 = blocks2[j - 15];
-          s0 = (t1 >>> 7 | t1 << 25) ^ (t1 >>> 18 | t1 << 14) ^ t1 >>> 3;
-          t1 = blocks2[j - 2];
-          s1 = (t1 >>> 17 | t1 << 15) ^ (t1 >>> 19 | t1 << 13) ^ t1 >>> 10;
-          blocks2[j] = blocks2[j - 16] + s0 + blocks2[j - 7] + s1 << 0;
+      _0x2bf529.prototype.hash = function () {
+        var _0x43d9f5 = this.h0;
+        var _0x596fd6 = this.h1;
+        var _0x28d0b3 = this.h2;
+        var _0x3c6cdf = this.h3;
+        var _0x2efffe = this.h4;
+        var _0x1a7858 = this.h5;
+        var _0x202ce4 = this.h6;
+        var _0x35bd3b = this.h7;
+        var _0x272a26 = this.blocks;
+        var _0x21582e;
+        var _0x2147ea;
+        var _0x9bd78f;
+        var _0x321077;
+        var _0x85d9f8;
+        var _0x2d7d73;
+        var _0x47b3d8;
+        var _0x509093;
+        var _0x8bde5e;
+        var _0x1b0932;
+        var _0x34f3f6;
+        for (_0x21582e = 0x10; _0x21582e < 0x40; ++_0x21582e) {
+          _0x85d9f8 = _0x272a26[_0x21582e - 0xf];
+          _0x2147ea = (_0x85d9f8 >>> 0x7 | _0x85d9f8 << 0x19) ^ (_0x85d9f8 >>> 0x12 | _0x85d9f8 << 0xe) ^ _0x85d9f8 >>> 0x3;
+          _0x85d9f8 = _0x272a26[_0x21582e - 0x2];
+          _0x9bd78f = (_0x85d9f8 >>> 0x11 | _0x85d9f8 << 0xf) ^ (_0x85d9f8 >>> 0x13 | _0x85d9f8 << 0xd) ^ _0x85d9f8 >>> 0xa;
+          _0x272a26[_0x21582e] = _0x272a26[_0x21582e - 0x10] + _0x2147ea + _0x272a26[_0x21582e - 0x7] + _0x9bd78f << 0x0;
         }
-        bc = b & c;
-        for (j = 0; j < 64; j += 4) {
+        _0x34f3f6 = _0x596fd6 & _0x28d0b3;
+        for (_0x21582e = 0x0; _0x21582e < 0x40; _0x21582e += 0x4) {
           if (this.first) {
             if (this.is224) {
-              ab = 300032;
-              t1 = blocks2[0] - 1413257819;
-              h = t1 - 150054599 << 0;
-              d = t1 + 24177077 << 0;
+              _0x509093 = 0x49400;
+              _0x85d9f8 = _0x272a26[0x0] - 0x543c9a5b;
+              _0x35bd3b = _0x85d9f8 - 0x8f1a6c7 << 0x0;
+              _0x3c6cdf = _0x85d9f8 + 0x170e9b5 << 0x0;
             } else {
-              ab = 704751109;
-              t1 = blocks2[0] - 210244248;
-              h = t1 - 1521486534 << 0;
-              d = t1 + 143694565 << 0;
+              _0x509093 = 0x2a01a605;
+              _0x85d9f8 = _0x272a26[0x0] - 0xc881298;
+              _0x35bd3b = _0x85d9f8 - 0x5ab00ac6 << 0x0;
+              _0x3c6cdf = _0x85d9f8 + 0x8909ae5 << 0x0;
             }
             this.first = false;
           } else {
-            s0 = (a >>> 2 | a << 30) ^ (a >>> 13 | a << 19) ^ (a >>> 22 | a << 10);
-            s1 = (e >>> 6 | e << 26) ^ (e >>> 11 | e << 21) ^ (e >>> 25 | e << 7);
-            ab = a & b;
-            maj = ab ^ a & c ^ bc;
-            ch = e & f ^ ~e & g;
-            t1 = h + s1 + ch + K[j] + blocks2[j];
-            t2 = s0 + maj;
-            h = d + t1 << 0;
-            d = t1 + t2 << 0;
+            _0x2147ea = (_0x43d9f5 >>> 0x2 | _0x43d9f5 << 0x1e) ^ (_0x43d9f5 >>> 0xd | _0x43d9f5 << 0x13) ^ (_0x43d9f5 >>> 0x16 | _0x43d9f5 << 0xa);
+            _0x9bd78f = (_0x2efffe >>> 0x6 | _0x2efffe << 0x1a) ^ (_0x2efffe >>> 0xb | _0x2efffe << 0x15) ^ (_0x2efffe >>> 0x19 | _0x2efffe << 0x7);
+            _0x509093 = _0x43d9f5 & _0x596fd6;
+            _0x321077 = _0x509093 ^ _0x43d9f5 & _0x28d0b3 ^ _0x34f3f6;
+            _0x47b3d8 = _0x2efffe & _0x1a7858 ^ ~_0x2efffe & _0x202ce4;
+            _0x85d9f8 = _0x35bd3b + _0x9bd78f + _0x47b3d8 + _0xfc958e[_0x21582e] + _0x272a26[_0x21582e];
+            _0x2d7d73 = _0x2147ea + _0x321077;
+            _0x35bd3b = _0x3c6cdf + _0x85d9f8 << 0x0;
+            _0x3c6cdf = _0x85d9f8 + _0x2d7d73 << 0x0;
           }
-          s0 = (d >>> 2 | d << 30) ^ (d >>> 13 | d << 19) ^ (d >>> 22 | d << 10);
-          s1 = (h >>> 6 | h << 26) ^ (h >>> 11 | h << 21) ^ (h >>> 25 | h << 7);
-          da = d & a;
-          maj = da ^ d & b ^ ab;
-          ch = h & e ^ ~h & f;
-          t1 = g + s1 + ch + K[j + 1] + blocks2[j + 1];
-          t2 = s0 + maj;
-          g = c + t1 << 0;
-          c = t1 + t2 << 0;
-          s0 = (c >>> 2 | c << 30) ^ (c >>> 13 | c << 19) ^ (c >>> 22 | c << 10);
-          s1 = (g >>> 6 | g << 26) ^ (g >>> 11 | g << 21) ^ (g >>> 25 | g << 7);
-          cd = c & d;
-          maj = cd ^ c & a ^ da;
-          ch = g & h ^ ~g & e;
-          t1 = f + s1 + ch + K[j + 2] + blocks2[j + 2];
-          t2 = s0 + maj;
-          f = b + t1 << 0;
-          b = t1 + t2 << 0;
-          s0 = (b >>> 2 | b << 30) ^ (b >>> 13 | b << 19) ^ (b >>> 22 | b << 10);
-          s1 = (f >>> 6 | f << 26) ^ (f >>> 11 | f << 21) ^ (f >>> 25 | f << 7);
-          bc = b & c;
-          maj = bc ^ b & d ^ cd;
-          ch = f & g ^ ~f & h;
-          t1 = e + s1 + ch + K[j + 3] + blocks2[j + 3];
-          t2 = s0 + maj;
-          e = a + t1 << 0;
-          a = t1 + t2 << 0;
+          _0x2147ea = (_0x3c6cdf >>> 0x2 | _0x3c6cdf << 0x1e) ^ (_0x3c6cdf >>> 0xd | _0x3c6cdf << 0x13) ^ (_0x3c6cdf >>> 0x16 | _0x3c6cdf << 0xa);
+          _0x9bd78f = (_0x35bd3b >>> 0x6 | _0x35bd3b << 0x1a) ^ (_0x35bd3b >>> 0xb | _0x35bd3b << 0x15) ^ (_0x35bd3b >>> 0x19 | _0x35bd3b << 0x7);
+          _0x8bde5e = _0x3c6cdf & _0x43d9f5;
+          _0x321077 = _0x8bde5e ^ _0x3c6cdf & _0x596fd6 ^ _0x509093;
+          _0x47b3d8 = _0x35bd3b & _0x2efffe ^ ~_0x35bd3b & _0x1a7858;
+          _0x85d9f8 = _0x202ce4 + _0x9bd78f + _0x47b3d8 + _0xfc958e[_0x21582e + 0x1] + _0x272a26[_0x21582e + 0x1];
+          _0x2d7d73 = _0x2147ea + _0x321077;
+          _0x202ce4 = _0x28d0b3 + _0x85d9f8 << 0x0;
+          _0x28d0b3 = _0x85d9f8 + _0x2d7d73 << 0x0;
+          _0x2147ea = (_0x28d0b3 >>> 0x2 | _0x28d0b3 << 0x1e) ^ (_0x28d0b3 >>> 0xd | _0x28d0b3 << 0x13) ^ (_0x28d0b3 >>> 0x16 | _0x28d0b3 << 0xa);
+          _0x9bd78f = (_0x202ce4 >>> 0x6 | _0x202ce4 << 0x1a) ^ (_0x202ce4 >>> 0xb | _0x202ce4 << 0x15) ^ (_0x202ce4 >>> 0x19 | _0x202ce4 << 0x7);
+          _0x1b0932 = _0x28d0b3 & _0x3c6cdf;
+          _0x321077 = _0x1b0932 ^ _0x28d0b3 & _0x43d9f5 ^ _0x8bde5e;
+          _0x47b3d8 = _0x202ce4 & _0x35bd3b ^ ~_0x202ce4 & _0x2efffe;
+          _0x85d9f8 = _0x1a7858 + _0x9bd78f + _0x47b3d8 + _0xfc958e[_0x21582e + 0x2] + _0x272a26[_0x21582e + 0x2];
+          _0x2d7d73 = _0x2147ea + _0x321077;
+          _0x1a7858 = _0x596fd6 + _0x85d9f8 << 0x0;
+          _0x596fd6 = _0x85d9f8 + _0x2d7d73 << 0x0;
+          _0x2147ea = (_0x596fd6 >>> 0x2 | _0x596fd6 << 0x1e) ^ (_0x596fd6 >>> 0xd | _0x596fd6 << 0x13) ^ (_0x596fd6 >>> 0x16 | _0x596fd6 << 0xa);
+          _0x9bd78f = (_0x1a7858 >>> 0x6 | _0x1a7858 << 0x1a) ^ (_0x1a7858 >>> 0xb | _0x1a7858 << 0x15) ^ (_0x1a7858 >>> 0x19 | _0x1a7858 << 0x7);
+          _0x34f3f6 = _0x596fd6 & _0x28d0b3;
+          _0x321077 = _0x34f3f6 ^ _0x596fd6 & _0x3c6cdf ^ _0x1b0932;
+          _0x47b3d8 = _0x1a7858 & _0x202ce4 ^ ~_0x1a7858 & _0x35bd3b;
+          _0x85d9f8 = _0x2efffe + _0x9bd78f + _0x47b3d8 + _0xfc958e[_0x21582e + 0x3] + _0x272a26[_0x21582e + 0x3];
+          _0x2d7d73 = _0x2147ea + _0x321077;
+          _0x2efffe = _0x43d9f5 + _0x85d9f8 << 0x0;
+          _0x43d9f5 = _0x85d9f8 + _0x2d7d73 << 0x0;
           this.chromeBugWorkAround = true;
         }
-        this.h0 = this.h0 + a << 0;
-        this.h1 = this.h1 + b << 0;
-        this.h2 = this.h2 + c << 0;
-        this.h3 = this.h3 + d << 0;
-        this.h4 = this.h4 + e << 0;
-        this.h5 = this.h5 + f << 0;
-        this.h6 = this.h6 + g << 0;
-        this.h7 = this.h7 + h << 0;
+        this.h0 = this.h0 + _0x43d9f5 << 0x0;
+        this.h1 = this.h1 + _0x596fd6 << 0x0;
+        this.h2 = this.h2 + _0x28d0b3 << 0x0;
+        this.h3 = this.h3 + _0x3c6cdf << 0x0;
+        this.h4 = this.h4 + _0x2efffe << 0x0;
+        this.h5 = this.h5 + _0x1a7858 << 0x0;
+        this.h6 = this.h6 + _0x202ce4 << 0x0;
+        this.h7 = this.h7 + _0x35bd3b << 0x0;
       };
-      Sha256.prototype.hex = function() {
+      _0x2bf529.prototype.hex = function () {
         this.finalize();
-        var h0 = this.h0, h1 = this.h1, h2 = this.h2, h3 = this.h3, h4 = this.h4, h5 = this.h5, h6 = this.h6, h7 = this.h7;
-        var hex = HEX_CHARS[h0 >>> 28 & 15] + HEX_CHARS[h0 >>> 24 & 15] + HEX_CHARS[h0 >>> 20 & 15] + HEX_CHARS[h0 >>> 16 & 15] + HEX_CHARS[h0 >>> 12 & 15] + HEX_CHARS[h0 >>> 8 & 15] + HEX_CHARS[h0 >>> 4 & 15] + HEX_CHARS[h0 & 15] + HEX_CHARS[h1 >>> 28 & 15] + HEX_CHARS[h1 >>> 24 & 15] + HEX_CHARS[h1 >>> 20 & 15] + HEX_CHARS[h1 >>> 16 & 15] + HEX_CHARS[h1 >>> 12 & 15] + HEX_CHARS[h1 >>> 8 & 15] + HEX_CHARS[h1 >>> 4 & 15] + HEX_CHARS[h1 & 15] + HEX_CHARS[h2 >>> 28 & 15] + HEX_CHARS[h2 >>> 24 & 15] + HEX_CHARS[h2 >>> 20 & 15] + HEX_CHARS[h2 >>> 16 & 15] + HEX_CHARS[h2 >>> 12 & 15] + HEX_CHARS[h2 >>> 8 & 15] + HEX_CHARS[h2 >>> 4 & 15] + HEX_CHARS[h2 & 15] + HEX_CHARS[h3 >>> 28 & 15] + HEX_CHARS[h3 >>> 24 & 15] + HEX_CHARS[h3 >>> 20 & 15] + HEX_CHARS[h3 >>> 16 & 15] + HEX_CHARS[h3 >>> 12 & 15] + HEX_CHARS[h3 >>> 8 & 15] + HEX_CHARS[h3 >>> 4 & 15] + HEX_CHARS[h3 & 15] + HEX_CHARS[h4 >>> 28 & 15] + HEX_CHARS[h4 >>> 24 & 15] + HEX_CHARS[h4 >>> 20 & 15] + HEX_CHARS[h4 >>> 16 & 15] + HEX_CHARS[h4 >>> 12 & 15] + HEX_CHARS[h4 >>> 8 & 15] + HEX_CHARS[h4 >>> 4 & 15] + HEX_CHARS[h4 & 15] + HEX_CHARS[h5 >>> 28 & 15] + HEX_CHARS[h5 >>> 24 & 15] + HEX_CHARS[h5 >>> 20 & 15] + HEX_CHARS[h5 >>> 16 & 15] + HEX_CHARS[h5 >>> 12 & 15] + HEX_CHARS[h5 >>> 8 & 15] + HEX_CHARS[h5 >>> 4 & 15] + HEX_CHARS[h5 & 15] + HEX_CHARS[h6 >>> 28 & 15] + HEX_CHARS[h6 >>> 24 & 15] + HEX_CHARS[h6 >>> 20 & 15] + HEX_CHARS[h6 >>> 16 & 15] + HEX_CHARS[h6 >>> 12 & 15] + HEX_CHARS[h6 >>> 8 & 15] + HEX_CHARS[h6 >>> 4 & 15] + HEX_CHARS[h6 & 15];
+        var _0x2ab5ff = this.h0;
+        var _0x11e896 = this.h1;
+        var _0x420fba = this.h2;
+        var _0x504c71 = this.h3;
+        var _0x22bf90 = this.h4;
+        var _0x3f40e4 = this.h5;
+        var _0x3dc2ab = this.h6;
+        var _0x5bdee1 = this.h7;
+        var _0x1f3dfc = _0x393fa5[_0x2ab5ff >>> 0x1c & 0xf] + _0x393fa5[_0x2ab5ff >>> 0x18 & 0xf] + _0x393fa5[_0x2ab5ff >>> 0x14 & 0xf] + _0x393fa5[_0x2ab5ff >>> 0x10 & 0xf] + _0x393fa5[_0x2ab5ff >>> 0xc & 0xf] + _0x393fa5[_0x2ab5ff >>> 0x8 & 0xf] + _0x393fa5[_0x2ab5ff >>> 0x4 & 0xf] + _0x393fa5[_0x2ab5ff & 0xf] + _0x393fa5[_0x11e896 >>> 0x1c & 0xf] + _0x393fa5[_0x11e896 >>> 0x18 & 0xf] + _0x393fa5[_0x11e896 >>> 0x14 & 0xf] + _0x393fa5[_0x11e896 >>> 0x10 & 0xf] + _0x393fa5[_0x11e896 >>> 0xc & 0xf] + _0x393fa5[_0x11e896 >>> 0x8 & 0xf] + _0x393fa5[_0x11e896 >>> 0x4 & 0xf] + _0x393fa5[_0x11e896 & 0xf] + _0x393fa5[_0x420fba >>> 0x1c & 0xf] + _0x393fa5[_0x420fba >>> 0x18 & 0xf] + _0x393fa5[_0x420fba >>> 0x14 & 0xf] + _0x393fa5[_0x420fba >>> 0x10 & 0xf] + _0x393fa5[_0x420fba >>> 0xc & 0xf] + _0x393fa5[_0x420fba >>> 0x8 & 0xf] + _0x393fa5[_0x420fba >>> 0x4 & 0xf] + _0x393fa5[_0x420fba & 0xf] + _0x393fa5[_0x504c71 >>> 0x1c & 0xf] + _0x393fa5[_0x504c71 >>> 0x18 & 0xf] + _0x393fa5[_0x504c71 >>> 0x14 & 0xf] + _0x393fa5[_0x504c71 >>> 0x10 & 0xf] + _0x393fa5[_0x504c71 >>> 0xc & 0xf] + _0x393fa5[_0x504c71 >>> 0x8 & 0xf] + _0x393fa5[_0x504c71 >>> 0x4 & 0xf] + _0x393fa5[_0x504c71 & 0xf] + _0x393fa5[_0x22bf90 >>> 0x1c & 0xf] + _0x393fa5[_0x22bf90 >>> 0x18 & 0xf] + _0x393fa5[_0x22bf90 >>> 0x14 & 0xf] + _0x393fa5[_0x22bf90 >>> 0x10 & 0xf] + _0x393fa5[_0x22bf90 >>> 0xc & 0xf] + _0x393fa5[_0x22bf90 >>> 0x8 & 0xf] + _0x393fa5[_0x22bf90 >>> 0x4 & 0xf] + _0x393fa5[_0x22bf90 & 0xf] + _0x393fa5[_0x3f40e4 >>> 0x1c & 0xf] + _0x393fa5[_0x3f40e4 >>> 0x18 & 0xf] + _0x393fa5[_0x3f40e4 >>> 0x14 & 0xf] + _0x393fa5[_0x3f40e4 >>> 0x10 & 0xf] + _0x393fa5[_0x3f40e4 >>> 0xc & 0xf] + _0x393fa5[_0x3f40e4 >>> 0x8 & 0xf] + _0x393fa5[_0x3f40e4 >>> 0x4 & 0xf] + _0x393fa5[_0x3f40e4 & 0xf] + _0x393fa5[_0x3dc2ab >>> 0x1c & 0xf] + _0x393fa5[_0x3dc2ab >>> 0x18 & 0xf] + _0x393fa5[_0x3dc2ab >>> 0x14 & 0xf] + _0x393fa5[_0x3dc2ab >>> 0x10 & 0xf] + _0x393fa5[_0x3dc2ab >>> 0xc & 0xf] + _0x393fa5[_0x3dc2ab >>> 0x8 & 0xf] + _0x393fa5[_0x3dc2ab >>> 0x4 & 0xf] + _0x393fa5[_0x3dc2ab & 0xf];
         if (!this.is224) {
-          hex += HEX_CHARS[h7 >>> 28 & 15] + HEX_CHARS[h7 >>> 24 & 15] + HEX_CHARS[h7 >>> 20 & 15] + HEX_CHARS[h7 >>> 16 & 15] + HEX_CHARS[h7 >>> 12 & 15] + HEX_CHARS[h7 >>> 8 & 15] + HEX_CHARS[h7 >>> 4 & 15] + HEX_CHARS[h7 & 15];
+          _0x1f3dfc += _0x393fa5[_0x5bdee1 >>> 0x1c & 0xf] + _0x393fa5[_0x5bdee1 >>> 0x18 & 0xf] + _0x393fa5[_0x5bdee1 >>> 0x14 & 0xf] + _0x393fa5[_0x5bdee1 >>> 0x10 & 0xf] + _0x393fa5[_0x5bdee1 >>> 0xc & 0xf] + _0x393fa5[_0x5bdee1 >>> 0x8 & 0xf] + _0x393fa5[_0x5bdee1 >>> 0x4 & 0xf] + _0x393fa5[_0x5bdee1 & 0xf];
         }
-        return hex;
+        return _0x1f3dfc;
       };
-      Sha256.prototype.toString = Sha256.prototype.hex;
-      Sha256.prototype.digest = function() {
+      _0x2bf529.prototype.toString = _0x2bf529.prototype.hex;
+      _0x2bf529.prototype.digest = function () {
         this.finalize();
-        var h0 = this.h0, h1 = this.h1, h2 = this.h2, h3 = this.h3, h4 = this.h4, h5 = this.h5, h6 = this.h6, h7 = this.h7;
-        var arr = [
-          h0 >>> 24 & 255,
-          h0 >>> 16 & 255,
-          h0 >>> 8 & 255,
-          h0 & 255,
-          h1 >>> 24 & 255,
-          h1 >>> 16 & 255,
-          h1 >>> 8 & 255,
-          h1 & 255,
-          h2 >>> 24 & 255,
-          h2 >>> 16 & 255,
-          h2 >>> 8 & 255,
-          h2 & 255,
-          h3 >>> 24 & 255,
-          h3 >>> 16 & 255,
-          h3 >>> 8 & 255,
-          h3 & 255,
-          h4 >>> 24 & 255,
-          h4 >>> 16 & 255,
-          h4 >>> 8 & 255,
-          h4 & 255,
-          h5 >>> 24 & 255,
-          h5 >>> 16 & 255,
-          h5 >>> 8 & 255,
-          h5 & 255,
-          h6 >>> 24 & 255,
-          h6 >>> 16 & 255,
-          h6 >>> 8 & 255,
-          h6 & 255
-        ];
+        var _0x486853 = this.h0;
+        var _0x48ccbf = this.h1;
+        var _0x23f14a = this.h2;
+        var _0x2ab168 = this.h3;
+        var _0x19708e = this.h4;
+        var _0x186f44 = this.h5;
+        var _0x3a933c = this.h6;
+        var _0x271184 = this.h7;
+        var _0x1ae1af = [_0x486853 >>> 0x18 & 0xff, _0x486853 >>> 0x10 & 0xff, _0x486853 >>> 0x8 & 0xff, _0x486853 & 0xff, _0x48ccbf >>> 0x18 & 0xff, _0x48ccbf >>> 0x10 & 0xff, _0x48ccbf >>> 0x8 & 0xff, _0x48ccbf & 0xff, _0x23f14a >>> 0x18 & 0xff, _0x23f14a >>> 0x10 & 0xff, _0x23f14a >>> 0x8 & 0xff, _0x23f14a & 0xff, _0x2ab168 >>> 0x18 & 0xff, _0x2ab168 >>> 0x10 & 0xff, _0x2ab168 >>> 0x8 & 0xff, _0x2ab168 & 0xff, _0x19708e >>> 0x18 & 0xff, _0x19708e >>> 0x10 & 0xff, _0x19708e >>> 0x8 & 0xff, _0x19708e & 0xff, _0x186f44 >>> 0x18 & 0xff, _0x186f44 >>> 0x10 & 0xff, _0x186f44 >>> 0x8 & 0xff, _0x186f44 & 0xff, _0x3a933c >>> 0x18 & 0xff, _0x3a933c >>> 0x10 & 0xff, _0x3a933c >>> 0x8 & 0xff, _0x3a933c & 0xff];
         if (!this.is224) {
-          arr.push(h7 >>> 24 & 255, h7 >>> 16 & 255, h7 >>> 8 & 255, h7 & 255);
+          _0x1ae1af.push(_0x271184 >>> 0x18 & 0xff, _0x271184 >>> 0x10 & 0xff, _0x271184 >>> 0x8 & 0xff, _0x271184 & 0xff);
         }
-        return arr;
+        return _0x1ae1af;
       };
-      Sha256.prototype.array = Sha256.prototype.digest;
-      Sha256.prototype.arrayBuffer = function() {
+      _0x2bf529.prototype.array = _0x2bf529.prototype.digest;
+      _0x2bf529.prototype.arrayBuffer = function () {
         this.finalize();
-        var buffer = new ArrayBuffer(this.is224 ? 28 : 32);
-        var dataView = new DataView(buffer);
-        dataView.setUint32(0, this.h0);
-        dataView.setUint32(4, this.h1);
-        dataView.setUint32(8, this.h2);
-        dataView.setUint32(12, this.h3);
-        dataView.setUint32(16, this.h4);
-        dataView.setUint32(20, this.h5);
-        dataView.setUint32(24, this.h6);
+        var _0x1b3cd4 = new ArrayBuffer(this.is224 ? 0x1c : 0x20);
+        var _0x15a167 = new DataView(_0x1b3cd4);
+        _0x15a167.setUint32(0x0, this.h0);
+        _0x15a167.setUint32(0x4, this.h1);
+        _0x15a167.setUint32(0x8, this.h2);
+        _0x15a167.setUint32(0xc, this.h3);
+        _0x15a167.setUint32(0x10, this.h4);
+        _0x15a167.setUint32(0x14, this.h5);
+        _0x15a167.setUint32(0x18, this.h6);
         if (!this.is224) {
-          dataView.setUint32(28, this.h7);
+          _0x15a167.setUint32(0x1c, this.h7);
         }
-        return buffer;
+        return _0x1b3cd4;
       };
-      function HmacSha256(key, is224, sharedMemory) {
-        var i, type = typeof key;
-        if (type === "string") {
-          var bytes = [], length = key.length, index = 0, code;
-          for (i = 0; i < length; ++i) {
-            code = key.charCodeAt(i);
-            if (code < 128) {
-              bytes[index++] = code;
-            } else if (code < 2048) {
-              bytes[index++] = 192 | code >>> 6;
-              bytes[index++] = 128 | code & 63;
-            } else if (code < 55296 || code >= 57344) {
-              bytes[index++] = 224 | code >>> 12;
-              bytes[index++] = 128 | code >>> 6 & 63;
-              bytes[index++] = 128 | code & 63;
+      function _0x2e6da5(_0x234c6c, _0x2e544f, _0x31814a) {
+        var _0x1a45b0;
+        var _0xb322f1 = typeof _0x234c6c;
+        if (_0xb322f1 === "string") {
+          var _0x1fa3c9 = [];
+          var _0x2ea4d4 = _0x234c6c.length;
+          var _0x269f31 = 0x0;
+          var _0x38f119;
+          for (_0x1a45b0 = 0x0; _0x1a45b0 < _0x2ea4d4; ++_0x1a45b0) {
+            _0x38f119 = _0x234c6c.charCodeAt(_0x1a45b0);
+            if (_0x38f119 < 0x80) {
+              _0x1fa3c9[_0x269f31++] = _0x38f119;
             } else {
-              code = 65536 + ((code & 1023) << 10 | key.charCodeAt(++i) & 1023);
-              bytes[index++] = 240 | code >>> 18;
-              bytes[index++] = 128 | code >>> 12 & 63;
-              bytes[index++] = 128 | code >>> 6 & 63;
-              bytes[index++] = 128 | code & 63;
+              if (_0x38f119 < 0x800) {
+                _0x1fa3c9[_0x269f31++] = 0xc0 | _0x38f119 >>> 0x6;
+                _0x1fa3c9[_0x269f31++] = 0x80 | _0x38f119 & 0x3f;
+              } else if (_0x38f119 < 0xd800 || _0x38f119 >= 0xe000) {
+                _0x1fa3c9[_0x269f31++] = 0xe0 | _0x38f119 >>> 0xc;
+                _0x1fa3c9[_0x269f31++] = 0x80 | _0x38f119 >>> 0x6 & 0x3f;
+                _0x1fa3c9[_0x269f31++] = 0x80 | _0x38f119 & 0x3f;
+              } else {
+                _0x38f119 = 0x10000 + ((_0x38f119 & 0x3ff) << 0xa | _0x234c6c.charCodeAt(++_0x1a45b0) & 0x3ff);
+                _0x1fa3c9[_0x269f31++] = 0xf0 | _0x38f119 >>> 0x12;
+                _0x1fa3c9[_0x269f31++] = 0x80 | _0x38f119 >>> 0xc & 0x3f;
+                _0x1fa3c9[_0x269f31++] = 0x80 | _0x38f119 >>> 0x6 & 0x3f;
+                _0x1fa3c9[_0x269f31++] = 0x80 | _0x38f119 & 0x3f;
+              }
             }
           }
-          key = bytes;
+          _0x234c6c = _0x1fa3c9;
         } else {
-          if (type === "object") {
-            if (key === null) {
-              throw new Error(ERROR);
-            } else if (ARRAY_BUFFER && key.constructor === ArrayBuffer) {
-              key = new Uint8Array(key);
-            } else if (!Array.isArray(key)) {
-              if (!ARRAY_BUFFER || !ArrayBuffer.isView(key)) {
-                throw new Error(ERROR);
+          if (_0xb322f1 === "object") {
+            if (_0x234c6c === null) {
+              throw new Error("input is invalid type");
+            } else {
+              if (_0x4cb1ab && _0x234c6c.constructor === ArrayBuffer) {
+                _0x234c6c = new Uint8Array(_0x234c6c);
+              } else {
+                if (!Array.isArray(_0x234c6c)) {
+                  if (!_0x4cb1ab || !ArrayBuffer.isView(_0x234c6c)) {
+                    throw new Error("input is invalid type");
+                  }
+                }
               }
             }
           } else {
-            throw new Error(ERROR);
+            throw new Error("input is invalid type");
           }
         }
-        if (key.length > 64) {
-          key = new Sha256(is224, true).update(key).array();
+        if (_0x234c6c.length > 0x40) {
+          _0x234c6c = new _0x2bf529(_0x2e544f, true).update(_0x234c6c).array();
         }
-        var oKeyPad = [], iKeyPad = [];
-        for (i = 0; i < 64; ++i) {
-          var b = key[i] || 0;
-          oKeyPad[i] = 92 ^ b;
-          iKeyPad[i] = 54 ^ b;
+        var _0xa625c2 = [];
+        var _0x5a892b = [];
+        for (_0x1a45b0 = 0x0; _0x1a45b0 < 0x40; ++_0x1a45b0) {
+          var _0x559cc6 = _0x234c6c[_0x1a45b0] || 0x0;
+          _0xa625c2[_0x1a45b0] = 0x5c ^ _0x559cc6;
+          _0x5a892b[_0x1a45b0] = 0x36 ^ _0x559cc6;
         }
-        Sha256.call(this, is224, sharedMemory);
-        this.update(iKeyPad);
-        this.oKeyPad = oKeyPad;
+        _0x2bf529.call(this, _0x2e544f, _0x31814a);
+        this.update(_0x5a892b);
+        this.oKeyPad = _0xa625c2;
         this.inner = true;
-        this.sharedMemory = sharedMemory;
+        this.sharedMemory = _0x31814a;
       }
-      HmacSha256.prototype = new Sha256();
-      HmacSha256.prototype.finalize = function() {
-        Sha256.prototype.finalize.call(this);
+      __defProp(_0x2e6da5, "name", {
+        'value': "HmacSha256",
+        'configurable': true
+      });
+      _0x2e6da5.prototype = new _0x2bf529();
+      _0x2e6da5.prototype.finalize = function () {
+        _0x2bf529.prototype.finalize.call(this);
         if (this.inner) {
           this.inner = false;
-          var innerHash = this.array();
-          Sha256.call(this, this.is224, this.sharedMemory);
+          var _0x94132e = this.array();
+          _0x2bf529.call(this, this.is224, this.sharedMemory);
           this.update(this.oKeyPad);
-          this.update(innerHash);
-          Sha256.prototype.finalize.call(this);
+          this.update(_0x94132e);
+          _0x2bf529.prototype.finalize.call(this);
         }
       };
-      var exports2 = createMethod();
-      exports2.sha256 = exports2;
-      exports2.sha224 = createMethod(true);
-      exports2.sha256.hmac = createHmacMethod();
-      exports2.sha224.hmac = createHmacMethod(true);
-      if (COMMON_JS) {
-        module.exports = exports2;
+      var _0x1990ab = _0xc745d3();
+      _0x1990ab.sha256 = _0x1990ab;
+      _0x1990ab.sha224 = _0xc745d3(true);
+      _0x1990ab.sha256.hmac = _0x1d0ef9();
+      _0x1990ab.sha224.hmac = _0x1d0ef9(true);
+      if (_0x22e210) {
+        _0x1fb8c3.exports = _0x1990ab;
       } else {
-        root.sha256 = exports2.sha256;
-        root.sha224 = exports2.sha224;
-        if (AMD) {
-          define(function() {
-            return exports2;
+        _0x5ade68.sha256 = _0x1990ab.sha256;
+        _0x5ade68.sha224 = _0x1990ab.sha224;
+        if (_0x386084) {
+          define(function () {
+            return _0x1990ab;
           });
         }
       }
     })();
   }
 });
-
-// src/worker.js
-var import_tweetnacl = __toESM(require_nacl_fast());
-var import_js_sha256 = __toESM(require_sha256());
-import { connect } from "cloudflare:sockets";
-
-// node_modules/jose/dist/browser/runtime/webcrypto.js
-var webcrypto_default = crypto;
-var isCryptoKey = (key) => key instanceof CryptoKey;
-
-// node_modules/jose/dist/browser/lib/buffer_utils.js
+var isCryptoKey = __defProp(_0xef71f0 => _0xef71f0 instanceof CryptoKey, "name", {
+  'value': "isCryptoKey",
+  'configurable': true
+});
 var encoder = new TextEncoder();
 var decoder = new TextDecoder();
-var MAX_INT32 = 2 ** 32;
-function concat(...buffers) {
-  const size = buffers.reduce((acc, { length }) => acc + length, 0);
-  const buf = new Uint8Array(size);
-  let i = 0;
-  for (const buffer of buffers) {
-    buf.set(buffer, i);
-    i += buffer.length;
+function concat(..._0x569d4e) {
+  const _0x313190 = _0x569d4e.reduce((_0x5e5bb9, {
+    length: _0x173dc5
+  }) => _0x5e5bb9 + _0x173dc5, 0x0);
+  const _0x13d2de = new Uint8Array(_0x313190);
+  let _0x35e3d3 = 0x0;
+  for (const _0x332816 of _0x569d4e) {
+    _0x13d2de.set(_0x332816, _0x35e3d3);
+    _0x35e3d3 += _0x332816.length;
   }
-  return buf;
+  return _0x13d2de;
 }
-
-// node_modules/jose/dist/browser/runtime/base64url.js
-var encodeBase64 = (input) => {
-  let unencoded = input;
-  if (typeof unencoded === "string") {
-    unencoded = encoder.encode(unencoded);
+__defProp(concat, "name", {
+  'value': "concat",
+  'configurable': true
+});
+var encodeBase64 = __defProp(_0x3666e1 => {
+  let _0x4904c3 = _0x3666e1;
+  if (typeof _0x4904c3 === "string") {
+    _0x4904c3 = encoder.encode(_0x4904c3);
   }
-  const CHUNK_SIZE = 32768;
-  const arr = [];
-  for (let i = 0; i < unencoded.length; i += CHUNK_SIZE) {
-    arr.push(String.fromCharCode.apply(null, unencoded.subarray(i, i + CHUNK_SIZE)));
+  const _0x533ba2 = [];
+  for (let _0x37f28f = 0x0; _0x37f28f < _0x4904c3.length; _0x37f28f += 0x8000) {
+    _0x533ba2.push(String.fromCharCode.apply(null, _0x4904c3.subarray(_0x37f28f, _0x37f28f + 0x8000)));
   }
-  return btoa(arr.join(""));
-};
-var encode = (input) => {
-  return encodeBase64(input).replace(/=/g, "").replace(/\+/g, "-").replace(/\//g, "_");
-};
-var decodeBase64 = (encoded) => {
-  const binary = atob(encoded);
-  const bytes = new Uint8Array(binary.length);
-  for (let i = 0; i < binary.length; i++) {
-    bytes[i] = binary.charCodeAt(i);
+  return btoa(_0x533ba2.join(''));
+}, "name", {
+  'value': "encodeBase64",
+  'configurable': true
+});
+var encode = __defProp(_0x527ebe => {
+  return encodeBase64(_0x527ebe).replace(/=/g, '').replace(/\+/g, '-').replace(/\//g, '_');
+}, "name", {
+  'value': "encode",
+  'configurable': true
+});
+var decodeBase64 = __defProp(_0x6e63ca => {
+  const _0x244609 = atob(_0x6e63ca);
+  const _0x11f2da = new Uint8Array(_0x244609.length);
+  for (let _0xea62bf = 0x0; _0xea62bf < _0x244609.length; _0xea62bf++) {
+    _0x11f2da[_0xea62bf] = _0x244609.charCodeAt(_0xea62bf);
   }
-  return bytes;
-};
-var decode = (input) => {
-  let encoded = input;
-  if (encoded instanceof Uint8Array) {
-    encoded = decoder.decode(encoded);
+  return _0x11f2da;
+}, "name", {
+  'value': "decodeBase64",
+  'configurable': true
+});
+var decode = __defProp(_0x3af05e => {
+  let _0x413eb3 = _0x3af05e;
+  if (_0x413eb3 instanceof Uint8Array) {
+    _0x413eb3 = decoder.decode(_0x413eb3);
   }
-  encoded = encoded.replace(/-/g, "+").replace(/_/g, "/").replace(/\s/g, "");
+  _0x413eb3 = _0x413eb3.replace(/-/g, '+').replace(/_/g, '/').replace(/\s/g, '');
   try {
-    return decodeBase64(encoded);
+    return decodeBase64(_0x413eb3);
   } catch {
     throw new TypeError("The input to be decoded is not correctly encoded.");
   }
-};
-
-// node_modules/jose/dist/browser/util/errors.js
+}, "name", {
+  'value': "decode",
+  'configurable': true
+});
 var JOSEError = class extends Error {
-  constructor(message2, options) {
-    super(message2, options);
+  constructor(_0x2cb11b, _0x2fb9e4) {
+    super(_0x2cb11b, _0x2fb9e4);
     this.code = "ERR_JOSE_GENERIC";
     this.name = this.constructor.name;
     Error.captureStackTrace?.(this, this.constructor);
   }
 };
+__defProp(JOSEError, "name", {
+  'value': "JOSEError",
+  'configurable': true
+});
 JOSEError.code = "ERR_JOSE_GENERIC";
 var JWTClaimValidationFailed = class extends JOSEError {
-  constructor(message2, payload, claim = "unspecified", reason = "unspecified") {
-    super(message2, { cause: { claim, reason, payload } });
+  constructor(_0x367db7, _0x4bec8c, _0x15fb01 = "unspecified", _0x321cd7 = "unspecified") {
+    super(_0x367db7, {
+      'cause': {
+        'claim': _0x15fb01,
+        'reason': _0x321cd7,
+        'payload': _0x4bec8c
+      }
+    });
     this.code = "ERR_JWT_CLAIM_VALIDATION_FAILED";
-    this.claim = claim;
-    this.reason = reason;
-    this.payload = payload;
+    this.claim = _0x15fb01;
+    this.reason = _0x321cd7;
+    this.payload = _0x4bec8c;
   }
 };
+__defProp(JWTClaimValidationFailed, "name", {
+  'value': "JWTClaimValidationFailed",
+  'configurable': true
+});
 JWTClaimValidationFailed.code = "ERR_JWT_CLAIM_VALIDATION_FAILED";
 var JWTExpired = class extends JOSEError {
-  constructor(message2, payload, claim = "unspecified", reason = "unspecified") {
-    super(message2, { cause: { claim, reason, payload } });
+  constructor(_0x1b8586, _0xb5ed51, _0x1d91a3 = "unspecified", _0x60d782 = "unspecified") {
+    super(_0x1b8586, {
+      'cause': {
+        'claim': _0x1d91a3,
+        'reason': _0x60d782,
+        'payload': _0xb5ed51
+      }
+    });
     this.code = "ERR_JWT_EXPIRED";
-    this.claim = claim;
-    this.reason = reason;
-    this.payload = payload;
+    this.claim = _0x1d91a3;
+    this.reason = _0x60d782;
+    this.payload = _0xb5ed51;
   }
 };
+__defProp(JWTExpired, "name", {
+  'value': "JWTExpired",
+  'configurable': true
+});
 JWTExpired.code = "ERR_JWT_EXPIRED";
 var JOSEAlgNotAllowed = class extends JOSEError {
   constructor() {
@@ -2959,6 +3391,10 @@ var JOSEAlgNotAllowed = class extends JOSEError {
     this.code = "ERR_JOSE_ALG_NOT_ALLOWED";
   }
 };
+__defProp(JOSEAlgNotAllowed, "name", {
+  'value': "JOSEAlgNotAllowed",
+  'configurable': true
+});
 JOSEAlgNotAllowed.code = "ERR_JOSE_ALG_NOT_ALLOWED";
 var JOSENotSupported = class extends JOSEError {
   constructor() {
@@ -2966,13 +3402,21 @@ var JOSENotSupported = class extends JOSEError {
     this.code = "ERR_JOSE_NOT_SUPPORTED";
   }
 };
+__defProp(JOSENotSupported, "name", {
+  'value': "JOSENotSupported",
+  'configurable': true
+});
 JOSENotSupported.code = "ERR_JOSE_NOT_SUPPORTED";
 var JWEDecryptionFailed = class extends JOSEError {
-  constructor(message2 = "decryption operation failed", options) {
-    super(message2, options);
+  constructor(_0x218362 = "decryption operation failed", _0x40f5cf) {
+    super(_0x218362, _0x40f5cf);
     this.code = "ERR_JWE_DECRYPTION_FAILED";
   }
 };
+__defProp(JWEDecryptionFailed, "name", {
+  'value': "JWEDecryptionFailed",
+  'configurable': true
+});
 JWEDecryptionFailed.code = "ERR_JWE_DECRYPTION_FAILED";
 var JWEInvalid = class extends JOSEError {
   constructor() {
@@ -2980,6 +3424,10 @@ var JWEInvalid = class extends JOSEError {
     this.code = "ERR_JWE_INVALID";
   }
 };
+__defProp(JWEInvalid, "name", {
+  'value': "JWEInvalid",
+  'configurable': true
+});
 JWEInvalid.code = "ERR_JWE_INVALID";
 var JWSInvalid = class extends JOSEError {
   constructor() {
@@ -2987,6 +3435,10 @@ var JWSInvalid = class extends JOSEError {
     this.code = "ERR_JWS_INVALID";
   }
 };
+__defProp(JWSInvalid, "name", {
+  'value': "JWSInvalid",
+  'configurable': true
+});
 JWSInvalid.code = "ERR_JWS_INVALID";
 var JWTInvalid = class extends JOSEError {
   constructor() {
@@ -2994,6 +3446,10 @@ var JWTInvalid = class extends JOSEError {
     this.code = "ERR_JWT_INVALID";
   }
 };
+__defProp(JWTInvalid, "name", {
+  'value': "JWTInvalid",
+  'configurable': true
+});
 JWTInvalid.code = "ERR_JWT_INVALID";
 var JWKInvalid = class extends JOSEError {
   constructor() {
@@ -3001,6 +3457,10 @@ var JWKInvalid = class extends JOSEError {
     this.code = "ERR_JWK_INVALID";
   }
 };
+__defProp(JWKInvalid, "name", {
+  'value': "JWKInvalid",
+  'configurable': true
+});
 JWKInvalid.code = "ERR_JWK_INVALID";
 var JWKSInvalid = class extends JOSEError {
   constructor() {
@@ -3008,48 +3468,78 @@ var JWKSInvalid = class extends JOSEError {
     this.code = "ERR_JWKS_INVALID";
   }
 };
+__defProp(JWKSInvalid, "name", {
+  'value': "JWKSInvalid",
+  'configurable': true
+});
 JWKSInvalid.code = "ERR_JWKS_INVALID";
 var JWKSNoMatchingKey = class extends JOSEError {
-  constructor(message2 = "no applicable key found in the JSON Web Key Set", options) {
-    super(message2, options);
+  constructor(_0x4352db = "no applicable key found in the JSON Web Key Set", _0x3a288b) {
+    super(_0x4352db, _0x3a288b);
     this.code = "ERR_JWKS_NO_MATCHING_KEY";
   }
 };
+__defProp(JWKSNoMatchingKey, "name", {
+  'value': "JWKSNoMatchingKey",
+  'configurable': true
+});
 JWKSNoMatchingKey.code = "ERR_JWKS_NO_MATCHING_KEY";
 var JWKSMultipleMatchingKeys = class extends JOSEError {
-  constructor(message2 = "multiple matching keys found in the JSON Web Key Set", options) {
-    super(message2, options);
+  constructor(_0x14b78f = "multiple matching keys found in the JSON Web Key Set", _0x2be383) {
+    super(_0x14b78f, _0x2be383);
     this.code = "ERR_JWKS_MULTIPLE_MATCHING_KEYS";
   }
 };
+__defProp(JWKSMultipleMatchingKeys, "name", {
+  'value': "JWKSMultipleMatchingKeys",
+  'configurable': true
+});
 JWKSMultipleMatchingKeys.code = "ERR_JWKS_MULTIPLE_MATCHING_KEYS";
 var JWKSTimeout = class extends JOSEError {
-  constructor(message2 = "request timed out", options) {
-    super(message2, options);
+  constructor(_0x35506b = "request timed out", _0xb65e05) {
+    super(_0x35506b, _0xb65e05);
     this.code = "ERR_JWKS_TIMEOUT";
   }
 };
+__defProp(JWKSTimeout, "name", {
+  'value': "JWKSTimeout",
+  'configurable': true
+});
 JWKSTimeout.code = "ERR_JWKS_TIMEOUT";
 var JWSSignatureVerificationFailed = class extends JOSEError {
-  constructor(message2 = "signature verification failed", options) {
-    super(message2, options);
+  constructor(_0x53d8bf = "signature verification failed", _0x2b98e9) {
+    super(_0x53d8bf, _0x2b98e9);
     this.code = "ERR_JWS_SIGNATURE_VERIFICATION_FAILED";
   }
 };
+__defProp(JWSSignatureVerificationFailed, "name", {
+  'value': "JWSSignatureVerificationFailed",
+  'configurable': true
+});
 JWSSignatureVerificationFailed.code = "ERR_JWS_SIGNATURE_VERIFICATION_FAILED";
-
-// node_modules/jose/dist/browser/lib/crypto_key.js
-function unusable(name, prop = "algorithm.name") {
-  return new TypeError(`CryptoKey does not support this operation, its ${prop} must be ${name}`);
+function unusable(_0x205e24, _0xdfb491 = "algorithm.name") {
+  return new TypeError("CryptoKey does not support this operation, its " + _0xdfb491 + " must be " + _0x205e24);
 }
-function isAlgorithm(algorithm, name) {
-  return algorithm.name === name;
+__defProp(unusable, "name", {
+  'value': "unusable",
+  'configurable': true
+});
+function isAlgorithm(_0x12733e, _0x5b83d6) {
+  return _0x12733e.name === _0x5b83d6;
 }
-function getHashLength(hash) {
-  return parseInt(hash.name.slice(4), 10);
+__defProp(isAlgorithm, "name", {
+  'value': "isAlgorithm",
+  'configurable': true
+});
+function getHashLength(_0xf39fcb) {
+  return parseInt(_0xf39fcb.name.slice(0x4), 0xa);
 }
-function getNamedCurve(alg) {
-  switch (alg) {
+__defProp(getHashLength, "name", {
+  'value': "getHashLength",
+  'configurable': true
+});
+function getNamedCurve(_0x2b50f9) {
+  switch (_0x2b50f9) {
     case "ES256":
       return "P-256";
     case "ES384":
@@ -3060,5815 +3550,5577 @@ function getNamedCurve(alg) {
       throw new Error("unreachable");
   }
 }
-function checkUsage(key, usages) {
-  if (usages.length && !usages.some((expected) => key.usages.includes(expected))) {
-    let msg = "CryptoKey does not support this operation, its usages must include ";
-    if (usages.length > 2) {
-      const last = usages.pop();
-      msg += `one of ${usages.join(", ")}, or ${last}.`;
-    } else if (usages.length === 2) {
-      msg += `one of ${usages[0]} or ${usages[1]}.`;
+__defProp(getNamedCurve, "name", {
+  'value': "getNamedCurve",
+  'configurable': true
+});
+function checkUsage(_0x10bf77, _0x50e391) {
+  if (_0x50e391.length && !_0x50e391.some(_0x16cdd2 => _0x10bf77.usages.includes(_0x16cdd2))) {
+    let _0x43c278 = "CryptoKey does not support this operation, its usages must include ";
+    if (_0x50e391.length > 0x2) {
+      const _0xfc14c1 = _0x50e391.pop();
+      _0x43c278 += "one of " + _0x50e391.join(", ") + ", or " + _0xfc14c1 + '.';
+    } else if (_0x50e391.length === 0x2) {
+      _0x43c278 += "one of " + _0x50e391[0x0] + " or " + _0x50e391[0x1] + '.';
     } else {
-      msg += `${usages[0]}.`;
+      _0x43c278 += _0x50e391[0x0] + '.';
     }
-    throw new TypeError(msg);
+    throw new TypeError(_0x43c278);
   }
 }
-function checkSigCryptoKey(key, alg, ...usages) {
-  switch (alg) {
-    case "HS256":
-    case "HS384":
-    case "HS512": {
-      if (!isAlgorithm(key.algorithm, "HMAC"))
-        throw unusable("HMAC");
-      const expected = parseInt(alg.slice(2), 10);
-      const actual = getHashLength(key.algorithm.hash);
-      if (actual !== expected)
-        throw unusable(`SHA-${expected}`, "algorithm.hash");
-      break;
-    }
-    case "RS256":
-    case "RS384":
-    case "RS512": {
-      if (!isAlgorithm(key.algorithm, "RSASSA-PKCS1-v1_5"))
-        throw unusable("RSASSA-PKCS1-v1_5");
-      const expected = parseInt(alg.slice(2), 10);
-      const actual = getHashLength(key.algorithm.hash);
-      if (actual !== expected)
-        throw unusable(`SHA-${expected}`, "algorithm.hash");
-      break;
-    }
-    case "PS256":
-    case "PS384":
-    case "PS512": {
-      if (!isAlgorithm(key.algorithm, "RSA-PSS"))
-        throw unusable("RSA-PSS");
-      const expected = parseInt(alg.slice(2), 10);
-      const actual = getHashLength(key.algorithm.hash);
-      if (actual !== expected)
-        throw unusable(`SHA-${expected}`, "algorithm.hash");
-      break;
-    }
-    case "EdDSA": {
-      if (key.algorithm.name !== "Ed25519" && key.algorithm.name !== "Ed448") {
-        throw unusable("Ed25519 or Ed448");
-      }
-      break;
-    }
-    case "ES256":
-    case "ES384":
-    case "ES512": {
-      if (!isAlgorithm(key.algorithm, "ECDSA"))
-        throw unusable("ECDSA");
-      const expected = getNamedCurve(alg);
-      const actual = key.algorithm.namedCurve;
-      if (actual !== expected)
-        throw unusable(expected, "algorithm.namedCurve");
-      break;
-    }
-    default:
-      throw new TypeError("CryptoKey does not support this operation");
-  }
-  checkUsage(key, usages);
-}
-
-// node_modules/jose/dist/browser/lib/invalid_key_input.js
-function message(msg, actual, ...types2) {
-  types2 = types2.filter(Boolean);
-  if (types2.length > 2) {
-    const last = types2.pop();
-    msg += `one of type ${types2.join(", ")}, or ${last}.`;
-  } else if (types2.length === 2) {
-    msg += `one of type ${types2[0]} or ${types2[1]}.`;
-  } else {
-    msg += `of type ${types2[0]}.`;
-  }
-  if (actual == null) {
-    msg += ` Received ${actual}`;
-  } else if (typeof actual === "function" && actual.name) {
-    msg += ` Received function ${actual.name}`;
-  } else if (typeof actual === "object" && actual != null) {
-    if (actual.constructor?.name) {
-      msg += ` Received an instance of ${actual.constructor.name}`;
-    }
-  }
-  return msg;
-}
-var invalid_key_input_default = (actual, ...types2) => {
-  return message("Key must be ", actual, ...types2);
-};
-function withAlg(alg, actual, ...types2) {
-  return message(`Key for the ${alg} algorithm must be `, actual, ...types2);
-}
-
-// node_modules/jose/dist/browser/runtime/is_key_like.js
-var is_key_like_default = (key) => {
-  if (isCryptoKey(key)) {
-    return true;
-  }
-  return key?.[Symbol.toStringTag] === "KeyObject";
-};
-var types = ["CryptoKey"];
-
-// node_modules/jose/dist/browser/lib/is_disjoint.js
-var isDisjoint = (...headers) => {
-  const sources = headers.filter(Boolean);
-  if (sources.length === 0 || sources.length === 1) {
-    return true;
-  }
-  let acc;
-  for (const header of sources) {
-    const parameters = Object.keys(header);
-    if (!acc || acc.size === 0) {
-      acc = new Set(parameters);
-      continue;
-    }
-    for (const parameter of parameters) {
-      if (acc.has(parameter)) {
-        return false;
-      }
-      acc.add(parameter);
-    }
-  }
-  return true;
-};
-var is_disjoint_default = isDisjoint;
-
-// node_modules/jose/dist/browser/lib/is_object.js
-function isObjectLike(value) {
-  return typeof value === "object" && value !== null;
-}
-function isObject(input) {
-  if (!isObjectLike(input) || Object.prototype.toString.call(input) !== "[object Object]") {
-    return false;
-  }
-  if (Object.getPrototypeOf(input) === null) {
-    return true;
-  }
-  let proto = input;
-  while (Object.getPrototypeOf(proto) !== null) {
-    proto = Object.getPrototypeOf(proto);
-  }
-  return Object.getPrototypeOf(input) === proto;
-}
-
-// node_modules/jose/dist/browser/runtime/check_key_length.js
-var check_key_length_default = (alg, key) => {
-  if (alg.startsWith("RS") || alg.startsWith("PS")) {
-    const { modulusLength } = key.algorithm;
-    if (typeof modulusLength !== "number" || modulusLength < 2048) {
-      throw new TypeError(`${alg} requires key modulusLength to be 2048 bits or larger`);
-    }
-  }
-};
-
-// node_modules/jose/dist/browser/lib/is_jwk.js
-function isJWK(key) {
-  return isObject(key) && typeof key.kty === "string";
-}
-function isPrivateJWK(key) {
-  return key.kty !== "oct" && typeof key.d === "string";
-}
-function isPublicJWK(key) {
-  return key.kty !== "oct" && typeof key.d === "undefined";
-}
-function isSecretJWK(key) {
-  return isJWK(key) && key.kty === "oct" && typeof key.k === "string";
-}
-
-// node_modules/jose/dist/browser/runtime/jwk_to_key.js
-function subtleMapping(jwk) {
-  let algorithm;
-  let keyUsages;
-  switch (jwk.kty) {
-    case "RSA": {
-      switch (jwk.alg) {
-        case "PS256":
-        case "PS384":
-        case "PS512":
-          algorithm = { name: "RSA-PSS", hash: `SHA-${jwk.alg.slice(-3)}` };
-          keyUsages = jwk.d ? ["sign"] : ["verify"];
-          break;
-        case "RS256":
-        case "RS384":
-        case "RS512":
-          algorithm = { name: "RSASSA-PKCS1-v1_5", hash: `SHA-${jwk.alg.slice(-3)}` };
-          keyUsages = jwk.d ? ["sign"] : ["verify"];
-          break;
-        case "RSA-OAEP":
-        case "RSA-OAEP-256":
-        case "RSA-OAEP-384":
-        case "RSA-OAEP-512":
-          algorithm = {
-            name: "RSA-OAEP",
-            hash: `SHA-${parseInt(jwk.alg.slice(-3), 10) || 1}`
-          };
-          keyUsages = jwk.d ? ["decrypt", "unwrapKey"] : ["encrypt", "wrapKey"];
-          break;
-        default:
-          throw new JOSENotSupported('Invalid or unsupported JWK "alg" (Algorithm) Parameter value');
-      }
-      break;
-    }
-    case "EC": {
-      switch (jwk.alg) {
-        case "ES256":
-          algorithm = { name: "ECDSA", namedCurve: "P-256" };
-          keyUsages = jwk.d ? ["sign"] : ["verify"];
-          break;
-        case "ES384":
-          algorithm = { name: "ECDSA", namedCurve: "P-384" };
-          keyUsages = jwk.d ? ["sign"] : ["verify"];
-          break;
-        case "ES512":
-          algorithm = { name: "ECDSA", namedCurve: "P-521" };
-          keyUsages = jwk.d ? ["sign"] : ["verify"];
-          break;
-        case "ECDH-ES":
-        case "ECDH-ES+A128KW":
-        case "ECDH-ES+A192KW":
-        case "ECDH-ES+A256KW":
-          algorithm = { name: "ECDH", namedCurve: jwk.crv };
-          keyUsages = jwk.d ? ["deriveBits"] : [];
-          break;
-        default:
-          throw new JOSENotSupported('Invalid or unsupported JWK "alg" (Algorithm) Parameter value');
-      }
-      break;
-    }
-    case "OKP": {
-      switch (jwk.alg) {
-        case "EdDSA":
-          algorithm = { name: jwk.crv };
-          keyUsages = jwk.d ? ["sign"] : ["verify"];
-          break;
-        case "ECDH-ES":
-        case "ECDH-ES+A128KW":
-        case "ECDH-ES+A192KW":
-        case "ECDH-ES+A256KW":
-          algorithm = { name: jwk.crv };
-          keyUsages = jwk.d ? ["deriveBits"] : [];
-          break;
-        default:
-          throw new JOSENotSupported('Invalid or unsupported JWK "alg" (Algorithm) Parameter value');
-      }
-      break;
-    }
-    default:
-      throw new JOSENotSupported('Invalid or unsupported JWK "kty" (Key Type) Parameter value');
-  }
-  return { algorithm, keyUsages };
-}
-var parse = async (jwk) => {
-  if (!jwk.alg) {
-    throw new TypeError('"alg" argument is required when "jwk.alg" is not present');
-  }
-  const { algorithm, keyUsages } = subtleMapping(jwk);
-  const rest = [
-    algorithm,
-    jwk.ext ?? false,
-    jwk.key_ops ?? keyUsages
-  ];
-  const keyData = { ...jwk };
-  delete keyData.alg;
-  delete keyData.use;
-  return webcrypto_default.subtle.importKey("jwk", keyData, ...rest);
-};
-var jwk_to_key_default = parse;
-
-// node_modules/jose/dist/browser/runtime/normalize_key.js
-var exportKeyValue = (k) => decode(k);
-var privCache;
-var pubCache;
-var isKeyObject = (key) => {
-  return key?.[Symbol.toStringTag] === "KeyObject";
-};
-var importAndCache = async (cache, key, jwk, alg, freeze = false) => {
-  let cached = cache.get(key);
-  if (cached?.[alg]) {
-    return cached[alg];
-  }
-  const cryptoKey = await jwk_to_key_default({ ...jwk, alg });
-  if (freeze)
-    Object.freeze(key);
-  if (!cached) {
-    cache.set(key, { [alg]: cryptoKey });
-  } else {
-    cached[alg] = cryptoKey;
-  }
-  return cryptoKey;
-};
-var normalizePublicKey = (key, alg) => {
-  if (isKeyObject(key)) {
-    let jwk = key.export({ format: "jwk" });
-    delete jwk.d;
-    delete jwk.dp;
-    delete jwk.dq;
-    delete jwk.p;
-    delete jwk.q;
-    delete jwk.qi;
-    if (jwk.k) {
-      return exportKeyValue(jwk.k);
-    }
-    pubCache || (pubCache = /* @__PURE__ */ new WeakMap());
-    return importAndCache(pubCache, key, jwk, alg);
-  }
-  if (isJWK(key)) {
-    if (key.k)
-      return decode(key.k);
-    pubCache || (pubCache = /* @__PURE__ */ new WeakMap());
-    const cryptoKey = importAndCache(pubCache, key, key, alg, true);
-    return cryptoKey;
-  }
-  return key;
-};
-var normalizePrivateKey = (key, alg) => {
-  if (isKeyObject(key)) {
-    let jwk = key.export({ format: "jwk" });
-    if (jwk.k) {
-      return exportKeyValue(jwk.k);
-    }
-    privCache || (privCache = /* @__PURE__ */ new WeakMap());
-    return importAndCache(privCache, key, jwk, alg);
-  }
-  if (isJWK(key)) {
-    if (key.k)
-      return decode(key.k);
-    privCache || (privCache = /* @__PURE__ */ new WeakMap());
-    const cryptoKey = importAndCache(privCache, key, key, alg, true);
-    return cryptoKey;
-  }
-  return key;
-};
-var normalize_key_default = { normalizePublicKey, normalizePrivateKey };
-
-// node_modules/jose/dist/browser/key/import.js
-async function importJWK(jwk, alg) {
-  if (!isObject(jwk)) {
-    throw new TypeError("JWK must be an object");
-  }
-  alg || (alg = jwk.alg);
-  switch (jwk.kty) {
-    case "oct":
-      if (typeof jwk.k !== "string" || !jwk.k) {
-        throw new TypeError('missing "k" (Key Value) Parameter value');
-      }
-      return decode(jwk.k);
-    case "RSA":
-      if (jwk.oth !== void 0) {
-        throw new JOSENotSupported('RSA JWK "oth" (Other Primes Info) Parameter value is not supported');
-      }
-    case "EC":
-    case "OKP":
-      return jwk_to_key_default({ ...jwk, alg });
-    default:
-      throw new JOSENotSupported('Unsupported "kty" (Key Type) Parameter value');
-  }
-}
-
-// node_modules/jose/dist/browser/lib/check_key_type.js
-var tag = (key) => key?.[Symbol.toStringTag];
-var jwkMatchesOp = (alg, key, usage) => {
-  if (key.use !== void 0 && key.use !== "sig") {
-    throw new TypeError("Invalid key for this operation, when present its use must be sig");
-  }
-  if (key.key_ops !== void 0 && key.key_ops.includes?.(usage) !== true) {
-    throw new TypeError(`Invalid key for this operation, when present its key_ops must include ${usage}`);
-  }
-  if (key.alg !== void 0 && key.alg !== alg) {
-    throw new TypeError(`Invalid key for this operation, when present its alg must be ${alg}`);
-  }
-  return true;
-};
-var symmetricTypeCheck = (alg, key, usage, allowJwk) => {
-  if (key instanceof Uint8Array)
-    return;
-  if (allowJwk && isJWK(key)) {
-    if (isSecretJWK(key) && jwkMatchesOp(alg, key, usage))
-      return;
-    throw new TypeError(`JSON Web Key for symmetric algorithms must have JWK "kty" (Key Type) equal to "oct" and the JWK "k" (Key Value) present`);
-  }
-  if (!is_key_like_default(key)) {
-    throw new TypeError(withAlg(alg, key, ...types, "Uint8Array", allowJwk ? "JSON Web Key" : null));
-  }
-  if (key.type !== "secret") {
-    throw new TypeError(`${tag(key)} instances for symmetric algorithms must be of type "secret"`);
-  }
-};
-var asymmetricTypeCheck = (alg, key, usage, allowJwk) => {
-  if (allowJwk && isJWK(key)) {
-    switch (usage) {
-      case "sign":
-        if (isPrivateJWK(key) && jwkMatchesOp(alg, key, usage))
-          return;
-        throw new TypeError(`JSON Web Key for this operation be a private JWK`);
-      case "verify":
-        if (isPublicJWK(key) && jwkMatchesOp(alg, key, usage))
-          return;
-        throw new TypeError(`JSON Web Key for this operation be a public JWK`);
-    }
-  }
-  if (!is_key_like_default(key)) {
-    throw new TypeError(withAlg(alg, key, ...types, allowJwk ? "JSON Web Key" : null));
-  }
-  if (key.type === "secret") {
-    throw new TypeError(`${tag(key)} instances for asymmetric algorithms must not be of type "secret"`);
-  }
-  if (usage === "sign" && key.type === "public") {
-    throw new TypeError(`${tag(key)} instances for asymmetric algorithm signing must be of type "private"`);
-  }
-  if (usage === "decrypt" && key.type === "public") {
-    throw new TypeError(`${tag(key)} instances for asymmetric algorithm decryption must be of type "private"`);
-  }
-  if (key.algorithm && usage === "verify" && key.type === "private") {
-    throw new TypeError(`${tag(key)} instances for asymmetric algorithm verifying must be of type "public"`);
-  }
-  if (key.algorithm && usage === "encrypt" && key.type === "private") {
-    throw new TypeError(`${tag(key)} instances for asymmetric algorithm encryption must be of type "public"`);
-  }
-};
-function checkKeyType(allowJwk, alg, key, usage) {
-  const symmetric = alg.startsWith("HS") || alg === "dir" || alg.startsWith("PBES2") || /^A\d{3}(?:GCM)?KW$/.test(alg);
-  if (symmetric) {
-    symmetricTypeCheck(alg, key, usage, allowJwk);
-  } else {
-    asymmetricTypeCheck(alg, key, usage, allowJwk);
-  }
-}
-var check_key_type_default = checkKeyType.bind(void 0, false);
-var checkKeyTypeWithJwk = checkKeyType.bind(void 0, true);
-
-// node_modules/jose/dist/browser/lib/validate_crit.js
-function validateCrit(Err, recognizedDefault, recognizedOption, protectedHeader, joseHeader) {
-  if (joseHeader.crit !== void 0 && protectedHeader?.crit === void 0) {
-    throw new Err('"crit" (Critical) Header Parameter MUST be integrity protected');
-  }
-  if (!protectedHeader || protectedHeader.crit === void 0) {
-    return /* @__PURE__ */ new Set();
-  }
-  if (!Array.isArray(protectedHeader.crit) || protectedHeader.crit.length === 0 || protectedHeader.crit.some((input) => typeof input !== "string" || input.length === 0)) {
-    throw new Err('"crit" (Critical) Header Parameter MUST be an array of non-empty strings when present');
-  }
-  let recognized;
-  if (recognizedOption !== void 0) {
-    recognized = new Map([...Object.entries(recognizedOption), ...recognizedDefault.entries()]);
-  } else {
-    recognized = recognizedDefault;
-  }
-  for (const parameter of protectedHeader.crit) {
-    if (!recognized.has(parameter)) {
-      throw new JOSENotSupported(`Extension Header Parameter "${parameter}" is not recognized`);
-    }
-    if (joseHeader[parameter] === void 0) {
-      throw new Err(`Extension Header Parameter "${parameter}" is missing`);
-    }
-    if (recognized.get(parameter) && protectedHeader[parameter] === void 0) {
-      throw new Err(`Extension Header Parameter "${parameter}" MUST be integrity protected`);
-    }
-  }
-  return new Set(protectedHeader.crit);
-}
-var validate_crit_default = validateCrit;
-
-// node_modules/jose/dist/browser/lib/validate_algorithms.js
-var validateAlgorithms = (option, algorithms) => {
-  if (algorithms !== void 0 && (!Array.isArray(algorithms) || algorithms.some((s) => typeof s !== "string"))) {
-    throw new TypeError(`"${option}" option must be an array of strings`);
-  }
-  if (!algorithms) {
-    return void 0;
-  }
-  return new Set(algorithms);
-};
-var validate_algorithms_default = validateAlgorithms;
-
-// node_modules/jose/dist/browser/runtime/subtle_dsa.js
-function subtleDsa(alg, algorithm) {
-  const hash = `SHA-${alg.slice(-3)}`;
-  switch (alg) {
+__defProp(checkUsage, "name", {
+  'value': "checkUsage",
+  'configurable': true
+});
+function checkSigCryptoKey(_0x1cfb46, _0x1cf737, ..._0x1316c5) {
+  switch (_0x1cf737) {
     case "HS256":
     case "HS384":
     case "HS512":
-      return { hash, name: "HMAC" };
-    case "PS256":
-    case "PS384":
-    case "PS512":
-      return { hash, name: "RSA-PSS", saltLength: alg.slice(-3) >> 3 };
+      {
+        if (!(_0x1cfb46.algorithm.name === "HMAC")) {
+          throw unusable("HMAC");
+        }
+        const _0x5f3425 = parseInt(_0x1cf737.slice(0x2), 0xa);
+        const _0x5ce1cd = parseInt(_0x1cfb46.algorithm.hash.name.slice(0x4), 0xa);
+        if (_0x5ce1cd !== _0x5f3425) {
+          throw unusable("SHA-" + _0x5f3425, "algorithm.hash");
+        }
+        break;
+      }
     case "RS256":
     case "RS384":
     case "RS512":
-      return { hash, name: "RSASSA-PKCS1-v1_5" };
+      {
+        if (!(_0x1cfb46.algorithm.name === "RSASSA-PKCS1-v1_5")) {
+          throw unusable("RSASSA-PKCS1-v1_5");
+        }
+        const _0x478c82 = parseInt(_0x1cf737.slice(0x2), 0xa);
+        const _0x28b0b8 = parseInt(_0x1cfb46.algorithm.hash.name.slice(0x4), 0xa);
+        if (_0x28b0b8 !== _0x478c82) {
+          throw unusable("SHA-" + _0x478c82, "algorithm.hash");
+        }
+        break;
+      }
+    case "PS256":
+    case "PS384":
+    case "PS512":
+      {
+        if (!(_0x1cfb46.algorithm.name === "RSA-PSS")) {
+          throw unusable("RSA-PSS");
+        }
+        const _0x71ed82 = parseInt(_0x1cf737.slice(0x2), 0xa);
+        const _0x1e5f84 = parseInt(_0x1cfb46.algorithm.hash.name.slice(0x4), 0xa);
+        if (_0x1e5f84 !== _0x71ed82) {
+          throw unusable("SHA-" + _0x71ed82, "algorithm.hash");
+        }
+        break;
+      }
+    case "EdDSA":
+      {
+        if (_0x1cfb46.algorithm.name !== "Ed25519" && _0x1cfb46.algorithm.name !== "Ed448") {
+          throw unusable("Ed25519 or Ed448");
+        }
+        break;
+      }
     case "ES256":
     case "ES384":
     case "ES512":
-      return { hash, name: "ECDSA", namedCurve: algorithm.namedCurve };
-    case "EdDSA":
-      return { name: algorithm.name };
+      {
+        if (!(_0x1cfb46.algorithm.name === "ECDSA")) {
+          throw unusable("ECDSA");
+        }
+        const _0x548beb = getNamedCurve(_0x1cf737);
+        const _0x34a28b = _0x1cfb46.algorithm.namedCurve;
+        if (_0x34a28b !== _0x548beb) {
+          throw unusable(_0x548beb, "algorithm.namedCurve");
+        }
+        break;
+      }
     default:
-      throw new JOSENotSupported(`alg ${alg} is not supported either by JOSE or your javascript runtime`);
+      throw new TypeError("CryptoKey does not support this operation");
   }
+  checkUsage(_0x1cfb46, _0x1316c5);
 }
-
-// node_modules/jose/dist/browser/runtime/get_sign_verify_key.js
-async function getCryptoKey(alg, key, usage) {
-  if (usage === "sign") {
-    key = await normalize_key_default.normalizePrivateKey(key, alg);
+__defProp(checkSigCryptoKey, "name", {
+  'value': "checkSigCryptoKey",
+  'configurable': true
+});
+function message(_0x42b5eb, _0x23f7e7, ..._0xbcfa71) {
+  _0xbcfa71 = _0xbcfa71.filter(Boolean);
+  if (_0xbcfa71.length > 0x2) {
+    const _0x280a6f = _0xbcfa71.pop();
+    _0x42b5eb += "one of type " + _0xbcfa71.join(", ") + ", or " + _0x280a6f + '.';
+  } else if (_0xbcfa71.length === 0x2) {
+    _0x42b5eb += "one of type " + _0xbcfa71[0x0] + " or " + _0xbcfa71[0x1] + '.';
+  } else {
+    _0x42b5eb += "of type " + _0xbcfa71[0x0] + '.';
   }
-  if (usage === "verify") {
-    key = await normalize_key_default.normalizePublicKey(key, alg);
-  }
-  if (isCryptoKey(key)) {
-    checkSigCryptoKey(key, alg, usage);
-    return key;
-  }
-  if (key instanceof Uint8Array) {
-    if (!alg.startsWith("HS")) {
-      throw new TypeError(invalid_key_input_default(key, ...types));
+  if (_0x23f7e7 == null) {
+    _0x42b5eb += " Received " + _0x23f7e7;
+  } else {
+    if (typeof _0x23f7e7 === "function" && _0x23f7e7.name) {
+      _0x42b5eb += " Received function " + _0x23f7e7.name;
+    } else if (typeof _0x23f7e7 === "object" && _0x23f7e7 != null) {
+      if (_0x23f7e7.constructor?.["name"]) {
+        _0x42b5eb += " Received an instance of " + _0x23f7e7.constructor.name;
+      }
     }
-    return webcrypto_default.subtle.importKey("raw", key, { hash: `SHA-${alg.slice(-3)}`, name: "HMAC" }, false, [usage]);
   }
-  throw new TypeError(invalid_key_input_default(key, ...types, "Uint8Array", "JSON Web Key"));
+  return _0x42b5eb;
 }
-
-// node_modules/jose/dist/browser/runtime/verify.js
-var verify = async (alg, key, signature, data) => {
-  const cryptoKey = await getCryptoKey(alg, key, "verify");
-  check_key_length_default(alg, cryptoKey);
-  const algorithm = subtleDsa(alg, cryptoKey.algorithm);
+__defProp(message, "name", {
+  'value': "message",
+  'configurable': true
+});
+var invalid_key_input_default = __defProp((_0x2daf33, ..._0x4752d2) => {
+  return message("Key must be ", _0x2daf33, ..._0x4752d2);
+}, "name", {
+  'value': "default",
+  'configurable': true
+});
+function withAlg(_0x4b1a90, _0x2393a9, ..._0x5dfbc7) {
+  return message("Key for the " + _0x4b1a90 + " algorithm must be ", _0x2393a9, ..._0x5dfbc7);
+}
+__defProp(withAlg, "name", {
+  'value': "withAlg",
+  'configurable': true
+});
+var is_key_like_default = __defProp(_0x331f53 => {
+  if (isCryptoKey(_0x331f53)) {
+    return true;
+  }
+  return _0x331f53?.[Symbol.toStringTag] === "KeyObject";
+}, "name", {
+  'value': "default",
+  'configurable': true
+});
+var types = ["CryptoKey"];
+var isDisjoint = __defProp((..._0x184a70) => {
+  const _0x4dd845 = _0x184a70.filter(Boolean);
+  if (_0x4dd845.length === 0x0 || _0x4dd845.length === 0x1) {
+    return true;
+  }
+  let _0x321be6;
+  for (const _0x5f1b0c of _0x4dd845) {
+    const _0x2fe3de = Object.keys(_0x5f1b0c);
+    if (!_0x321be6 || _0x321be6.size === 0x0) {
+      _0x321be6 = new Set(_0x2fe3de);
+      continue;
+    }
+    for (const _0x35acf5 of _0x2fe3de) {
+      if (_0x321be6.has(_0x35acf5)) {
+        return false;
+      }
+      _0x321be6.add(_0x35acf5);
+    }
+  }
+  return true;
+}, "name", {
+  'value': "isDisjoint",
+  'configurable': true
+});
+function isObjectLike(_0x55bed1) {
+  return typeof _0x55bed1 === "object" && _0x55bed1 !== null;
+}
+__defProp(isObjectLike, "name", {
+  'value': "isObjectLike",
+  'configurable': true
+});
+function isObject(_0x15ac56) {
+  if (!(typeof _0x15ac56 === "object" && _0x15ac56 !== null) || Object.prototype.toString.call(_0x15ac56) !== "[object Object]") {
+    return false;
+  }
+  if (Object.getPrototypeOf(_0x15ac56) === null) {
+    return true;
+  }
+  let _0xdaf574 = _0x15ac56;
+  while (Object.getPrototypeOf(_0xdaf574) !== null) {
+    _0xdaf574 = Object.getPrototypeOf(_0xdaf574);
+  }
+  return Object.getPrototypeOf(_0x15ac56) === _0xdaf574;
+}
+__defProp(isObject, "name", {
+  'value': "isObject",
+  'configurable': true
+});
+var check_key_length_default = __defProp((_0x16c6e3, _0x4643cb) => {
+  if (_0x16c6e3.startsWith('RS') || _0x16c6e3.startsWith('PS')) {
+    const {
+      modulusLength: _0xaa03a1
+    } = _0x4643cb.algorithm;
+    if (typeof _0xaa03a1 !== "number" || _0xaa03a1 < 0x800) {
+      throw new TypeError(_0x16c6e3 + " requires key modulusLength to be 2048 bits or larger");
+    }
+  }
+}, "name", {
+  'value': "default",
+  'configurable': true
+});
+function isJWK(_0x6f60a8) {
+  return isObject(_0x6f60a8) && typeof _0x6f60a8.kty === "string";
+}
+__defProp(isJWK, "name", {
+  'value': "isJWK",
+  'configurable': true
+});
+function isPrivateJWK(_0x283f04) {
+  return _0x283f04.kty !== "oct" && typeof _0x283f04.d === "string";
+}
+__defProp(isPrivateJWK, "name", {
+  'value': "isPrivateJWK",
+  'configurable': true
+});
+function isPublicJWK(_0x4a63c9) {
+  return _0x4a63c9.kty !== "oct" && typeof _0x4a63c9.d === "undefined";
+}
+__defProp(isPublicJWK, "name", {
+  'value': "isPublicJWK",
+  'configurable': true
+});
+function isSecretJWK(_0x55f7ed) {
+  return isObject(_0x55f7ed) && typeof _0x55f7ed.kty === "string" && _0x55f7ed.kty === "oct" && typeof _0x55f7ed.k === "string";
+}
+__defProp(isSecretJWK, "name", {
+  'value': "isSecretJWK",
+  'configurable': true
+});
+function subtleMapping(_0x364d69) {
+  let _0x1e3f5e;
+  let _0x22daed;
+  switch (_0x364d69.kty) {
+    case "RSA":
+      {
+        switch (_0x364d69.alg) {
+          case "PS256":
+          case "PS384":
+          case "PS512":
+            _0x1e3f5e = {
+              'name': "RSA-PSS",
+              'hash': "SHA-" + _0x364d69.alg.slice(-0x3)
+            };
+            _0x22daed = _0x364d69.d ? ["sign"] : ["verify"];
+            break;
+          case "RS256":
+          case "RS384":
+          case "RS512":
+            _0x1e3f5e = {
+              'name': "RSASSA-PKCS1-v1_5",
+              'hash': "SHA-" + _0x364d69.alg.slice(-0x3)
+            };
+            _0x22daed = _0x364d69.d ? ["sign"] : ["verify"];
+            break;
+          case "RSA-OAEP":
+          case "RSA-OAEP-256":
+          case "RSA-OAEP-384":
+          case "RSA-OAEP-512":
+            _0x1e3f5e = {
+              'name': "RSA-OAEP",
+              'hash': "SHA-" + (parseInt(_0x364d69.alg.slice(-0x3), 0xa) || 0x1)
+            };
+            _0x22daed = _0x364d69.d ? ["decrypt", "unwrapKey"] : ["encrypt", "wrapKey"];
+            break;
+          default:
+            throw new JOSENotSupported("Invalid or unsupported JWK \"alg\" (Algorithm) Parameter value");
+        }
+        break;
+      }
+    case 'EC':
+      {
+        switch (_0x364d69.alg) {
+          case "ES256":
+            _0x1e3f5e = {
+              'name': "ECDSA",
+              'namedCurve': "P-256"
+            };
+            _0x22daed = _0x364d69.d ? ["sign"] : ["verify"];
+            break;
+          case "ES384":
+            _0x1e3f5e = {
+              'name': "ECDSA",
+              'namedCurve': "P-384"
+            };
+            _0x22daed = _0x364d69.d ? ["sign"] : ["verify"];
+            break;
+          case "ES512":
+            _0x1e3f5e = {
+              'name': "ECDSA",
+              'namedCurve': "P-521"
+            };
+            _0x22daed = _0x364d69.d ? ["sign"] : ["verify"];
+            break;
+          case "ECDH-ES":
+          case "ECDH-ES+A128KW":
+          case "ECDH-ES+A192KW":
+          case "ECDH-ES+A256KW":
+            _0x1e3f5e = {
+              'name': "ECDH",
+              'namedCurve': _0x364d69.crv
+            };
+            _0x22daed = _0x364d69.d ? ["deriveBits"] : [];
+            break;
+          default:
+            throw new JOSENotSupported("Invalid or unsupported JWK \"alg\" (Algorithm) Parameter value");
+        }
+        break;
+      }
+    case "OKP":
+      {
+        switch (_0x364d69.alg) {
+          case "EdDSA":
+            _0x1e3f5e = {
+              'name': _0x364d69.crv
+            };
+            _0x22daed = _0x364d69.d ? ["sign"] : ["verify"];
+            break;
+          case "ECDH-ES":
+          case "ECDH-ES+A128KW":
+          case "ECDH-ES+A192KW":
+          case "ECDH-ES+A256KW":
+            _0x1e3f5e = {
+              'name': _0x364d69.crv
+            };
+            _0x22daed = _0x364d69.d ? ["deriveBits"] : [];
+            break;
+          default:
+            throw new JOSENotSupported("Invalid or unsupported JWK \"alg\" (Algorithm) Parameter value");
+        }
+        break;
+      }
+    default:
+      throw new JOSENotSupported("Invalid or unsupported JWK \"kty\" (Key Type) Parameter value");
+  }
+  return {
+    'algorithm': _0x1e3f5e,
+    'keyUsages': _0x22daed
+  };
+}
+__defProp(subtleMapping, "name", {
+  'value': "subtleMapping",
+  'configurable': true
+});
+var parse = __defProp(async _0x3bd100 => {
+  if (!_0x3bd100.alg) {
+    throw new TypeError("\"alg\" argument is required when \"jwk.alg\" is not present");
+  }
+  const {
+    algorithm: _0xabc232,
+    keyUsages: _0x46f4cd
+  } = subtleMapping(_0x3bd100);
+  const _0x3f4c17 = [_0xabc232, _0x3bd100.ext ?? false, _0x3bd100.key_ops ?? _0x46f4cd];
+  const _0x343fbc = {
+    ..._0x3bd100
+  };
+  delete _0x343fbc.alg;
+  delete _0x343fbc.use;
+  return crypto.subtle.importKey("jwk", _0x343fbc, ..._0x3f4c17);
+}, "name", {
+  'value': "parse",
+  'configurable': true
+});
+var exportKeyValue = __defProp(_0x2f7f2a => decode(_0x2f7f2a), "name", {
+  'value': "exportKeyValue",
+  'configurable': true
+});
+var privCache;
+var pubCache;
+var isKeyObject = __defProp(_0x4f7834 => {
+  return _0x4f7834?.[Symbol.toStringTag] === "KeyObject";
+}, "name", {
+  'value': "isKeyObject",
+  'configurable': true
+});
+var importAndCache = __defProp(async (_0x4122f2, _0x566252, _0x5c053e, _0x4610cc, _0x4e7582 = false) => {
+  let _0x26ff48 = _0x4122f2.get(_0x566252);
+  if (_0x26ff48?.[_0x4610cc]) {
+    return _0x26ff48[_0x4610cc];
+  }
+  const _0x576d78 = await parse({
+    ..._0x5c053e,
+    'alg': _0x4610cc
+  });
+  if (_0x4e7582) {
+    Object.freeze(_0x566252);
+  }
+  if (!_0x26ff48) {
+    _0x4122f2.set(_0x566252, {
+      [_0x4610cc]: _0x576d78
+    });
+  } else {
+    _0x26ff48[_0x4610cc] = _0x576d78;
+  }
+  return _0x576d78;
+}, "name", {
+  'value': "importAndCache",
+  'configurable': true
+});
+var normalizePublicKey = __defProp((_0x18b1ee, _0x51c99b) => {
+  if (isKeyObject(_0x18b1ee)) {
+    let _0xe52b6b = _0x18b1ee["export"]({
+      'format': "jwk"
+    });
+    delete _0xe52b6b.d;
+    delete _0xe52b6b.dp;
+    delete _0xe52b6b.dq;
+    delete _0xe52b6b.p;
+    delete _0xe52b6b.q;
+    delete _0xe52b6b.qi;
+    if (_0xe52b6b.k) {
+      return exportKeyValue(_0xe52b6b.k);
+    }
+    if (!pubCache) {
+      pubCache = new WeakMap();
+    }
+    return importAndCache(pubCache, _0x18b1ee, _0xe52b6b, _0x51c99b);
+  }
+  if (isObject(_0x18b1ee) && typeof _0x18b1ee.kty === "string") {
+    if (_0x18b1ee.k) {
+      return decode(_0x18b1ee.k);
+    }
+    if (!pubCache) {
+      pubCache = new WeakMap();
+    }
+    const _0x25f449 = importAndCache(pubCache, _0x18b1ee, _0x18b1ee, _0x51c99b, true);
+    return _0x25f449;
+  }
+  return _0x18b1ee;
+}, "name", {
+  'value': "normalizePublicKey",
+  'configurable': true
+});
+var normalizePrivateKey = __defProp((_0x47f5d0, _0x479d9e) => {
+  if (isKeyObject(_0x47f5d0)) {
+    let _0x417bac = _0x47f5d0["export"]({
+      'format': "jwk"
+    });
+    if (_0x417bac.k) {
+      return exportKeyValue(_0x417bac.k);
+    }
+    if (!privCache) {
+      privCache = new WeakMap();
+    }
+    return importAndCache(privCache, _0x47f5d0, _0x417bac, _0x479d9e);
+  }
+  if (isObject(_0x47f5d0) && typeof _0x47f5d0.kty === "string") {
+    if (_0x47f5d0.k) {
+      return decode(_0x47f5d0.k);
+    }
+    if (!privCache) {
+      privCache = new WeakMap();
+    }
+    const _0x2c4800 = importAndCache(privCache, _0x47f5d0, _0x47f5d0, _0x479d9e, true);
+    return _0x2c4800;
+  }
+  return _0x47f5d0;
+}, "name", {
+  'value': "normalizePrivateKey",
+  'configurable': true
+});
+var normalize_key_default = {
+  'normalizePublicKey': normalizePublicKey,
+  'normalizePrivateKey': normalizePrivateKey
+};
+async function importJWK(_0x478bc4, _0x15dfe6) {
+  if (!isObject(_0x478bc4)) {
+    throw new TypeError("JWK must be an object");
+  }
+  if (!_0x15dfe6) {
+    _0x15dfe6 = _0x478bc4.alg;
+  }
+  switch (_0x478bc4.kty) {
+    case "oct":
+      if (typeof _0x478bc4.k !== "string" || !_0x478bc4.k) {
+        throw new TypeError("missing \"k\" (Key Value) Parameter value");
+      }
+      return decode(_0x478bc4.k);
+    case "RSA":
+      if (_0x478bc4.oth !== undefined) {
+        throw new JOSENotSupported("RSA JWK \"oth\" (Other Primes Info) Parameter value is not supported");
+      }
+    case 'EC':
+    case "OKP":
+      return parse({
+        ..._0x478bc4,
+        'alg': _0x15dfe6
+      });
+    default:
+      throw new JOSENotSupported("Unsupported \"kty\" (Key Type) Parameter value");
+  }
+}
+__defProp(importJWK, "name", {
+  'value': "importJWK",
+  'configurable': true
+});
+var tag = __defProp(_0x1e61ee => _0x1e61ee?.[Symbol.toStringTag], "name", {
+  'value': "tag",
+  'configurable': true
+});
+var jwkMatchesOp = __defProp((_0x342594, _0x301b9c, _0x12fec4) => {
+  if (_0x301b9c.use !== undefined && _0x301b9c.use !== "sig") {
+    throw new TypeError("Invalid key for this operation, when present its use must be sig");
+  }
+  if (_0x301b9c.key_ops !== undefined && _0x301b9c.key_ops.includes?.(_0x12fec4) !== true) {
+    throw new TypeError("Invalid key for this operation, when present its key_ops must include " + _0x12fec4);
+  }
+  if (_0x301b9c.alg !== undefined && _0x301b9c.alg !== _0x342594) {
+    throw new TypeError("Invalid key for this operation, when present its alg must be " + _0x342594);
+  }
+  return true;
+}, "name", {
+  'value': "jwkMatchesOp",
+  'configurable': true
+});
+var symmetricTypeCheck = __defProp((_0x4ebd2a, _0x406c2b, _0x2f92e0, _0xcc962a) => {
+  if (_0x406c2b instanceof Uint8Array) {
+    return;
+  }
+  if (_0xcc962a && isObject(_0x406c2b) && typeof _0x406c2b.kty === "string") {
+    if (isObject(_0x406c2b) && typeof _0x406c2b.kty === "string" && _0x406c2b.kty === "oct" && typeof _0x406c2b.k === "string" && jwkMatchesOp(_0x4ebd2a, _0x406c2b, _0x2f92e0)) {
+      return;
+    }
+    throw new TypeError("JSON Web Key for symmetric algorithms must have JWK \"kty\" (Key Type) equal to \"oct\" and the JWK \"k\" (Key Value) present");
+  }
+  if (!is_key_like_default(_0x406c2b)) {
+    throw new TypeError(withAlg(_0x4ebd2a, _0x406c2b, ...types, "Uint8Array", _0xcc962a ? "JSON Web Key" : null));
+  }
+  if (_0x406c2b.type !== "secret") {
+    throw new TypeError(tag(_0x406c2b) + " instances for symmetric algorithms must be of type \"secret\"");
+  }
+}, "name", {
+  'value': "symmetricTypeCheck",
+  'configurable': true
+});
+var asymmetricTypeCheck = __defProp((_0x2ea34b, _0x18f480, _0x5ca5fd, _0x5f15be) => {
+  if (_0x5f15be && isObject(_0x18f480) && typeof _0x18f480.kty === "string") {
+    switch (_0x5ca5fd) {
+      case "sign":
+        if (_0x18f480.kty !== "oct" && typeof _0x18f480.d === "string" && jwkMatchesOp(_0x2ea34b, _0x18f480, _0x5ca5fd)) {
+          return;
+        }
+        throw new TypeError("JSON Web Key for this operation be a private JWK");
+      case "verify":
+        if (_0x18f480.kty !== "oct" && typeof _0x18f480.d === "undefined" && jwkMatchesOp(_0x2ea34b, _0x18f480, _0x5ca5fd)) {
+          return;
+        }
+        throw new TypeError("JSON Web Key for this operation be a public JWK");
+    }
+  }
+  if (!is_key_like_default(_0x18f480)) {
+    throw new TypeError(withAlg(_0x2ea34b, _0x18f480, ...types, _0x5f15be ? "JSON Web Key" : null));
+  }
+  if (_0x18f480.type === "secret") {
+    throw new TypeError(tag(_0x18f480) + " instances for asymmetric algorithms must not be of type \"secret\"");
+  }
+  if (_0x5ca5fd === "sign" && _0x18f480.type === "public") {
+    throw new TypeError(tag(_0x18f480) + " instances for asymmetric algorithm signing must be of type \"private\"");
+  }
+  if (_0x5ca5fd === "decrypt" && _0x18f480.type === "public") {
+    throw new TypeError(tag(_0x18f480) + " instances for asymmetric algorithm decryption must be of type \"private\"");
+  }
+  if (_0x18f480.algorithm && _0x5ca5fd === "verify" && _0x18f480.type === "private") {
+    throw new TypeError(tag(_0x18f480) + " instances for asymmetric algorithm verifying must be of type \"public\"");
+  }
+  if (_0x18f480.algorithm && _0x5ca5fd === "encrypt" && _0x18f480.type === "private") {
+    throw new TypeError(tag(_0x18f480) + " instances for asymmetric algorithm encryption must be of type \"public\"");
+  }
+}, "name", {
+  'value': "asymmetricTypeCheck",
+  'configurable': true
+});
+function checkKeyType(_0x436462, _0x37b1dc, _0x23296e, _0x2e6460) {
+  const _0x5e7d20 = _0x37b1dc.startsWith('HS') || _0x37b1dc === "dir" || _0x37b1dc.startsWith("PBES2") || /^A\d{3}(?:GCM)?KW$/.test(_0x37b1dc);
+  if (_0x5e7d20) {
+    symmetricTypeCheck(_0x37b1dc, _0x23296e, _0x2e6460, _0x436462);
+  } else {
+    asymmetricTypeCheck(_0x37b1dc, _0x23296e, _0x2e6460, _0x436462);
+  }
+}
+__defProp(checkKeyType, "name", {
+  'value': "checkKeyType",
+  'configurable': true
+});
+var check_key_type_default = checkKeyType.bind(undefined, false);
+var checkKeyTypeWithJwk = checkKeyType.bind(undefined, true);
+function validateCrit(_0x1212c1, _0x4272ac, _0xe504d9, _0x3e5016, _0x4cfb91) {
+  if (_0x4cfb91.crit !== undefined && _0x3e5016?.["crit"] === undefined) {
+    throw new _0x1212c1("\"crit\" (Critical) Header Parameter MUST be integrity protected");
+  }
+  if (!_0x3e5016 || _0x3e5016.crit === undefined) {
+    return new Set();
+  }
+  if (!Array.isArray(_0x3e5016.crit) || _0x3e5016.crit.length === 0x0 || _0x3e5016.crit.some(_0x34e954 => typeof _0x34e954 !== "string" || _0x34e954.length === 0x0)) {
+    throw new _0x1212c1("\"crit\" (Critical) Header Parameter MUST be an array of non-empty strings when present");
+  }
+  let _0x53413e;
+  if (_0xe504d9 !== undefined) {
+    _0x53413e = new Map([...Object.entries(_0xe504d9), ..._0x4272ac.entries()]);
+  } else {
+    _0x53413e = _0x4272ac;
+  }
+  for (const _0x27f018 of _0x3e5016.crit) {
+    if (!_0x53413e.has(_0x27f018)) {
+      throw new JOSENotSupported("Extension Header Parameter \"" + _0x27f018 + "\" is not recognized");
+    }
+    if (_0x4cfb91[_0x27f018] === undefined) {
+      throw new _0x1212c1("Extension Header Parameter \"" + _0x27f018 + "\" is missing");
+    }
+    if (_0x53413e.get(_0x27f018) && _0x3e5016[_0x27f018] === undefined) {
+      throw new _0x1212c1("Extension Header Parameter \"" + _0x27f018 + "\" MUST be integrity protected");
+    }
+  }
+  return new Set(_0x3e5016.crit);
+}
+__defProp(validateCrit, "name", {
+  'value': "validateCrit",
+  'configurable': true
+});
+var validateAlgorithms = __defProp((_0x30426c, _0x5a7bbd) => {
+  if (_0x5a7bbd !== undefined && (!Array.isArray(_0x5a7bbd) || _0x5a7bbd.some(_0x3a47d6 => typeof _0x3a47d6 !== "string"))) {
+    throw new TypeError("\"" + _0x30426c + "\" option must be an array of strings");
+  }
+  if (!_0x5a7bbd) {
+    return undefined;
+  }
+  return new Set(_0x5a7bbd);
+}, "name", {
+  'value': "validateAlgorithms",
+  'configurable': true
+});
+function subtleDsa(_0x20af88, _0x2f0044) {
+  const _0x55e368 = "SHA-" + _0x20af88.slice(-0x3);
+  switch (_0x20af88) {
+    case "HS256":
+    case "HS384":
+    case "HS512":
+      return {
+        'hash': _0x55e368,
+        'name': "HMAC"
+      };
+    case "PS256":
+    case "PS384":
+    case "PS512":
+      return {
+        'hash': _0x55e368,
+        'name': "RSA-PSS",
+        'saltLength': _0x20af88.slice(-0x3) >> 0x3
+      };
+    case "RS256":
+    case "RS384":
+    case "RS512":
+      return {
+        'hash': _0x55e368,
+        'name': "RSASSA-PKCS1-v1_5"
+      };
+    case "ES256":
+    case "ES384":
+    case "ES512":
+      return {
+        'hash': _0x55e368,
+        'name': "ECDSA",
+        'namedCurve': _0x2f0044.namedCurve
+      };
+    case "EdDSA":
+      return {
+        'name': _0x2f0044.name
+      };
+    default:
+      throw new JOSENotSupported("alg " + _0x20af88 + " is not supported either by JOSE or your javascript runtime");
+  }
+}
+__defProp(subtleDsa, "name", {
+  'value': "subtleDsa",
+  'configurable': true
+});
+async function getCryptoKey(_0x2c10e9, _0xc1627b, _0xb0049f) {
+  if (_0xb0049f === "sign") {
+    _0xc1627b = await normalize_key_default.normalizePrivateKey(_0xc1627b, _0x2c10e9);
+  }
+  if (_0xb0049f === "verify") {
+    _0xc1627b = await normalize_key_default.normalizePublicKey(_0xc1627b, _0x2c10e9);
+  }
+  if (isCryptoKey(_0xc1627b)) {
+    checkSigCryptoKey(_0xc1627b, _0x2c10e9, _0xb0049f);
+    return _0xc1627b;
+  }
+  if (_0xc1627b instanceof Uint8Array) {
+    if (!_0x2c10e9.startsWith('HS')) {
+      throw new TypeError(invalid_key_input_default(_0xc1627b, ...types));
+    }
+    return crypto.subtle.importKey("raw", _0xc1627b, {
+      'hash': "SHA-" + _0x2c10e9.slice(-0x3),
+      'name': "HMAC"
+    }, false, [_0xb0049f]);
+  }
+  throw new TypeError(invalid_key_input_default(_0xc1627b, ...types, "Uint8Array", "JSON Web Key"));
+}
+__defProp(getCryptoKey, "name", {
+  'value': "getCryptoKey",
+  'configurable': true
+});
+var verify = __defProp(async (_0x9298ef, _0xec624f, _0x9982bc, _0x81154) => {
+  const _0x406d49 = await getCryptoKey(_0x9298ef, _0xec624f, "verify");
+  check_key_length_default(_0x9298ef, _0x406d49);
+  const _0x3ee34c = subtleDsa(_0x9298ef, _0x406d49.algorithm);
   try {
-    return await webcrypto_default.subtle.verify(algorithm, cryptoKey, signature, data);
+    return await crypto.subtle.verify(_0x3ee34c, _0x406d49, _0x9982bc, _0x81154);
   } catch {
     return false;
   }
-};
-var verify_default = verify;
-
-// node_modules/jose/dist/browser/jws/flattened/verify.js
-async function flattenedVerify(jws, key, options) {
-  if (!isObject(jws)) {
+}, "name", {
+  'value': "verify",
+  'configurable': true
+});
+async function flattenedVerify(_0x4a70d1, _0x38d810, _0x2d1c90) {
+  if (!isObject(_0x4a70d1)) {
     throw new JWSInvalid("Flattened JWS must be an object");
   }
-  if (jws.protected === void 0 && jws.header === void 0) {
-    throw new JWSInvalid('Flattened JWS must have either of the "protected" or "header" members');
+  if (_0x4a70d1["protected"] === undefined && _0x4a70d1.header === undefined) {
+    throw new JWSInvalid("Flattened JWS must have either of the \"protected\" or \"header\" members");
   }
-  if (jws.protected !== void 0 && typeof jws.protected !== "string") {
+  if (_0x4a70d1["protected"] !== undefined && typeof _0x4a70d1["protected"] !== "string") {
     throw new JWSInvalid("JWS Protected Header incorrect type");
   }
-  if (jws.payload === void 0) {
+  if (_0x4a70d1.payload === undefined) {
     throw new JWSInvalid("JWS Payload missing");
   }
-  if (typeof jws.signature !== "string") {
+  if (typeof _0x4a70d1.signature !== "string") {
     throw new JWSInvalid("JWS Signature missing or incorrect type");
   }
-  if (jws.header !== void 0 && !isObject(jws.header)) {
+  if (_0x4a70d1.header !== undefined && !isObject(_0x4a70d1.header)) {
     throw new JWSInvalid("JWS Unprotected Header incorrect type");
   }
-  let parsedProt = {};
-  if (jws.protected) {
+  let _0x573c3b = {};
+  if (_0x4a70d1["protected"]) {
     try {
-      const protectedHeader = decode(jws.protected);
-      parsedProt = JSON.parse(decoder.decode(protectedHeader));
+      const _0x5ae792 = decode(_0x4a70d1["protected"]);
+      _0x573c3b = JSON.parse(decoder.decode(_0x5ae792));
     } catch {
       throw new JWSInvalid("JWS Protected Header is invalid");
     }
   }
-  if (!is_disjoint_default(parsedProt, jws.header)) {
+  if (!isDisjoint(_0x573c3b, _0x4a70d1.header)) {
     throw new JWSInvalid("JWS Protected and JWS Unprotected Header Parameter names must be disjoint");
   }
-  const joseHeader = {
-    ...parsedProt,
-    ...jws.header
+  const _0x44fdbd = {
+    ..._0x573c3b,
+    ..._0x4a70d1.header
   };
-  const extensions = validate_crit_default(JWSInvalid, /* @__PURE__ */ new Map([["b64", true]]), options?.crit, parsedProt, joseHeader);
-  let b64 = true;
-  if (extensions.has("b64")) {
-    b64 = parsedProt.b64;
-    if (typeof b64 !== "boolean") {
-      throw new JWSInvalid('The "b64" (base64url-encode payload) Header Parameter must be a boolean');
+  const _0x28b2f6 = validateCrit(JWSInvalid, new Map([["b64", true]]), _0x2d1c90?.["crit"], _0x573c3b, _0x44fdbd);
+  let _0x451ebe = true;
+  if (_0x28b2f6.has("b64")) {
+    _0x451ebe = _0x573c3b.b64;
+    if (typeof _0x451ebe !== "boolean") {
+      throw new JWSInvalid("The \"b64\" (base64url-encode payload) Header Parameter must be a boolean");
     }
   }
-  const { alg } = joseHeader;
-  if (typeof alg !== "string" || !alg) {
-    throw new JWSInvalid('JWS "alg" (Algorithm) Header Parameter missing or invalid');
+  const {
+    alg: _0x37c38f
+  } = _0x44fdbd;
+  if (typeof _0x37c38f !== "string" || !_0x37c38f) {
+    throw new JWSInvalid("JWS \"alg\" (Algorithm) Header Parameter missing or invalid");
   }
-  const algorithms = options && validate_algorithms_default("algorithms", options.algorithms);
-  if (algorithms && !algorithms.has(alg)) {
-    throw new JOSEAlgNotAllowed('"alg" (Algorithm) Header Parameter value not allowed');
+  const _0xee61ae = _0x2d1c90 && validateAlgorithms("algorithms", _0x2d1c90.algorithms);
+  if (_0xee61ae && !_0xee61ae.has(_0x37c38f)) {
+    throw new JOSEAlgNotAllowed("\"alg\" (Algorithm) Header Parameter value not allowed");
   }
-  if (b64) {
-    if (typeof jws.payload !== "string") {
+  if (_0x451ebe) {
+    if (typeof _0x4a70d1.payload !== "string") {
       throw new JWSInvalid("JWS Payload must be a string");
     }
-  } else if (typeof jws.payload !== "string" && !(jws.payload instanceof Uint8Array)) {
-    throw new JWSInvalid("JWS Payload must be a string or an Uint8Array instance");
+  } else {
+    if (typeof _0x4a70d1.payload !== "string" && !(_0x4a70d1.payload instanceof Uint8Array)) {
+      throw new JWSInvalid("JWS Payload must be a string or an Uint8Array instance");
+    }
   }
-  let resolvedKey = false;
-  if (typeof key === "function") {
-    key = await key(parsedProt, jws);
-    resolvedKey = true;
-    checkKeyTypeWithJwk(alg, key, "verify");
-    if (isJWK(key)) {
-      key = await importJWK(key, alg);
+  let _0x20033c = false;
+  if (typeof _0x38d810 === "function") {
+    _0x38d810 = await _0x38d810(_0x573c3b, _0x4a70d1);
+    _0x20033c = true;
+    checkKeyTypeWithJwk(_0x37c38f, _0x38d810, "verify");
+    if (isObject(_0x38d810) && typeof _0x38d810.kty === "string") {
+      _0x38d810 = await importJWK(_0x38d810, _0x37c38f);
     }
   } else {
-    checkKeyTypeWithJwk(alg, key, "verify");
+    checkKeyTypeWithJwk(_0x37c38f, _0x38d810, "verify");
   }
-  const data = concat(encoder.encode(jws.protected ?? ""), encoder.encode("."), typeof jws.payload === "string" ? encoder.encode(jws.payload) : jws.payload);
-  let signature;
+  const _0x54487d = concat(encoder.encode(_0x4a70d1["protected"] ?? ''), encoder.encode('.'), typeof _0x4a70d1.payload === "string" ? encoder.encode(_0x4a70d1.payload) : _0x4a70d1.payload);
+  let _0x547fc9;
   try {
-    signature = decode(jws.signature);
+    _0x547fc9 = decode(_0x4a70d1.signature);
   } catch {
     throw new JWSInvalid("Failed to base64url decode the signature");
   }
-  const verified = await verify_default(alg, key, signature, data);
-  if (!verified) {
+  const _0x18d43d = await verify(_0x37c38f, _0x38d810, _0x547fc9, _0x54487d);
+  if (!_0x18d43d) {
     throw new JWSSignatureVerificationFailed();
   }
-  let payload;
-  if (b64) {
+  let _0x3bbf17;
+  if (_0x451ebe) {
     try {
-      payload = decode(jws.payload);
+      _0x3bbf17 = decode(_0x4a70d1.payload);
     } catch {
       throw new JWSInvalid("Failed to base64url decode the payload");
     }
-  } else if (typeof jws.payload === "string") {
-    payload = encoder.encode(jws.payload);
+  } else if (typeof _0x4a70d1.payload === "string") {
+    _0x3bbf17 = encoder.encode(_0x4a70d1.payload);
   } else {
-    payload = jws.payload;
+    _0x3bbf17 = _0x4a70d1.payload;
   }
-  const result = { payload };
-  if (jws.protected !== void 0) {
-    result.protectedHeader = parsedProt;
+  const _0x44dc5f = {
+    'payload': _0x3bbf17
+  };
+  if (_0x4a70d1["protected"] !== undefined) {
+    _0x44dc5f.protectedHeader = _0x573c3b;
   }
-  if (jws.header !== void 0) {
-    result.unprotectedHeader = jws.header;
+  if (_0x4a70d1.header !== undefined) {
+    _0x44dc5f.unprotectedHeader = _0x4a70d1.header;
   }
-  if (resolvedKey) {
-    return { ...result, key };
+  if (_0x20033c) {
+    return {
+      ..._0x44dc5f,
+      'key': _0x38d810
+    };
   }
-  return result;
+  return _0x44dc5f;
 }
-
-// node_modules/jose/dist/browser/jws/compact/verify.js
-async function compactVerify(jws, key, options) {
-  if (jws instanceof Uint8Array) {
-    jws = decoder.decode(jws);
+__defProp(flattenedVerify, "name", {
+  'value': "flattenedVerify",
+  'configurable': true
+});
+async function compactVerify(_0x2daed3, _0x357f3e, _0x33b3ed) {
+  if (_0x2daed3 instanceof Uint8Array) {
+    _0x2daed3 = decoder.decode(_0x2daed3);
   }
-  if (typeof jws !== "string") {
+  if (typeof _0x2daed3 !== "string") {
     throw new JWSInvalid("Compact JWS must be a string or Uint8Array");
   }
-  const { 0: protectedHeader, 1: payload, 2: signature, length } = jws.split(".");
-  if (length !== 3) {
+  const {
+    0x0: _0x316362,
+    0x1: _0x29946f,
+    0x2: _0x5de475,
+    length: _0x4d76e4
+  } = _0x2daed3.split('.');
+  if (_0x4d76e4 !== 0x3) {
     throw new JWSInvalid("Invalid Compact JWS");
   }
-  const verified = await flattenedVerify({ payload, protected: protectedHeader, signature }, key, options);
-  const result = { payload: verified.payload, protectedHeader: verified.protectedHeader };
-  if (typeof key === "function") {
-    return { ...result, key: verified.key };
+  const _0xfd1870 = await flattenedVerify({
+    'payload': _0x29946f,
+    'protected': _0x316362,
+    'signature': _0x5de475
+  }, _0x357f3e, _0x33b3ed);
+  const _0x23f1de = {
+    'payload': _0xfd1870.payload,
+    'protectedHeader': _0xfd1870.protectedHeader
+  };
+  if (typeof _0x357f3e === "function") {
+    return {
+      ..._0x23f1de,
+      'key': _0xfd1870.key
+    };
   }
-  return result;
+  return _0x23f1de;
 }
-
-// node_modules/jose/dist/browser/lib/epoch.js
-var epoch_default = (date) => Math.floor(date.getTime() / 1e3);
-
-// node_modules/jose/dist/browser/lib/secs.js
-var minute = 60;
-var hour = minute * 60;
-var day = hour * 24;
-var week = day * 7;
-var year = day * 365.25;
+__defProp(compactVerify, "name", {
+  'value': "compactVerify",
+  'configurable': true
+});
+var epoch_default = __defProp(_0x3ccd5d => Math.floor(_0x3ccd5d.getTime() / 0x3e8), "name", {
+  'value': "default",
+  'configurable': true
+});
 var REGEX = /^(\+|\-)? ?(\d+|\d+\.\d+) ?(seconds?|secs?|s|minutes?|mins?|m|hours?|hrs?|h|days?|d|weeks?|w|years?|yrs?|y)(?: (ago|from now))?$/i;
-var secs_default = (str) => {
-  const matched = REGEX.exec(str);
-  if (!matched || matched[4] && matched[1]) {
+var secs_default = __defProp(_0x356f7d => {
+  const _0x37ac31 = REGEX.exec(_0x356f7d);
+  if (!_0x37ac31 || _0x37ac31[0x4] && _0x37ac31[0x1]) {
     throw new TypeError("Invalid time period format");
   }
-  const value = parseFloat(matched[2]);
-  const unit = matched[3].toLowerCase();
-  let numericDate;
-  switch (unit) {
+  const _0x1cc144 = parseFloat(_0x37ac31[0x2]);
+  const _0x5f2ab5 = _0x37ac31[0x3].toLowerCase();
+  let _0x1684b2;
+  switch (_0x5f2ab5) {
     case "sec":
     case "secs":
     case "second":
     case "seconds":
-    case "s":
-      numericDate = Math.round(value);
+    case 's':
+      _0x1684b2 = Math.round(_0x1cc144);
       break;
     case "minute":
     case "minutes":
     case "min":
     case "mins":
-    case "m":
-      numericDate = Math.round(value * minute);
+    case 'm':
+      _0x1684b2 = Math.round(_0x1cc144 * 0x3c);
       break;
     case "hour":
     case "hours":
-    case "hr":
+    case 'hr':
     case "hrs":
-    case "h":
-      numericDate = Math.round(value * hour);
+    case 'h':
+      _0x1684b2 = Math.round(_0x1cc144 * 3600);
       break;
     case "day":
     case "days":
-    case "d":
-      numericDate = Math.round(value * day);
+    case 'd':
+      _0x1684b2 = Math.round(_0x1cc144 * 86400);
       break;
     case "week":
     case "weeks":
-    case "w":
-      numericDate = Math.round(value * week);
+    case 'w':
+      _0x1684b2 = Math.round(_0x1cc144 * 604800);
       break;
     default:
-      numericDate = Math.round(value * year);
+      _0x1684b2 = Math.round(_0x1cc144 * 31557600);
       break;
   }
-  if (matched[1] === "-" || matched[4] === "ago") {
-    return -numericDate;
+  if (_0x37ac31[0x1] === '-' || _0x37ac31[0x4] === "ago") {
+    return -_0x1684b2;
   }
-  return numericDate;
-};
-
-// node_modules/jose/dist/browser/lib/jwt_claims_set.js
-var normalizeTyp = (value) => value.toLowerCase().replace(/^application\//, "");
-var checkAudiencePresence = (audPayload, audOption) => {
-  if (typeof audPayload === "string") {
-    return audOption.includes(audPayload);
+  return _0x1684b2;
+}, "name", {
+  'value': "default",
+  'configurable': true
+});
+var normalizeTyp = __defProp(_0x6be510 => _0x6be510.toLowerCase().replace(/^application\//, ''), "name", {
+  'value': "normalizeTyp",
+  'configurable': true
+});
+var checkAudiencePresence = __defProp((_0x4c5a01, _0x197306) => {
+  if (typeof _0x4c5a01 === "string") {
+    return _0x197306.includes(_0x4c5a01);
   }
-  if (Array.isArray(audPayload)) {
-    return audOption.some(Set.prototype.has.bind(new Set(audPayload)));
+  if (Array.isArray(_0x4c5a01)) {
+    return _0x197306.some(Set.prototype.has.bind(new Set(_0x4c5a01)));
   }
   return false;
-};
-var jwt_claims_set_default = (protectedHeader, encodedPayload, options = {}) => {
-  let payload;
+}, "name", {
+  'value': "checkAudiencePresence",
+  'configurable': true
+});
+var jwt_claims_set_default = __defProp((_0x364be5, _0x3f14af, _0x381c1b = {}) => {
+  let _0x25bf30;
   try {
-    payload = JSON.parse(decoder.decode(encodedPayload));
-  } catch {
-  }
-  if (!isObject(payload)) {
+    _0x25bf30 = JSON.parse(decoder.decode(_0x3f14af));
+  } catch {}
+  if (!isObject(_0x25bf30)) {
     throw new JWTInvalid("JWT Claims Set must be a top-level JSON object");
   }
-  const { typ } = options;
-  if (typ && (typeof protectedHeader.typ !== "string" || normalizeTyp(protectedHeader.typ) !== normalizeTyp(typ))) {
-    throw new JWTClaimValidationFailed('unexpected "typ" JWT header value', payload, "typ", "check_failed");
+  const {
+    typ: _0x3d9639
+  } = _0x381c1b;
+  if (_0x3d9639 && (typeof _0x364be5.typ !== "string" || normalizeTyp(_0x364be5.typ) !== normalizeTyp(_0x3d9639))) {
+    throw new JWTClaimValidationFailed("unexpected \"typ\" JWT header value", _0x25bf30, "typ", "check_failed");
   }
-  const { requiredClaims = [], issuer, subject, audience, maxTokenAge } = options;
-  const presenceCheck = [...requiredClaims];
-  if (maxTokenAge !== void 0)
-    presenceCheck.push("iat");
-  if (audience !== void 0)
-    presenceCheck.push("aud");
-  if (subject !== void 0)
-    presenceCheck.push("sub");
-  if (issuer !== void 0)
-    presenceCheck.push("iss");
-  for (const claim of new Set(presenceCheck.reverse())) {
-    if (!(claim in payload)) {
-      throw new JWTClaimValidationFailed(`missing required "${claim}" claim`, payload, claim, "missing");
+  const {
+    requiredClaims = [],
+    issuer: _0x32670d,
+    subject: _0x46385e,
+    audience: _0x165085,
+    maxTokenAge: _0xa29870
+  } = _0x381c1b;
+  const _0x45dd9e = [...requiredClaims];
+  if (_0xa29870 !== undefined) {
+    _0x45dd9e.push("iat");
+  }
+  if (_0x165085 !== undefined) {
+    _0x45dd9e.push("aud");
+  }
+  if (_0x46385e !== undefined) {
+    _0x45dd9e.push("sub");
+  }
+  if (_0x32670d !== undefined) {
+    _0x45dd9e.push("iss");
+  }
+  for (const _0x58728a of new Set(_0x45dd9e.reverse())) {
+    if (!(_0x58728a in _0x25bf30)) {
+      throw new JWTClaimValidationFailed("missing required \"" + _0x58728a + "\" claim", _0x25bf30, _0x58728a, "missing");
     }
   }
-  if (issuer && !(Array.isArray(issuer) ? issuer : [issuer]).includes(payload.iss)) {
-    throw new JWTClaimValidationFailed('unexpected "iss" claim value', payload, "iss", "check_failed");
+  if (_0x32670d && !(Array.isArray(_0x32670d) ? _0x32670d : [_0x32670d]).includes(_0x25bf30.iss)) {
+    throw new JWTClaimValidationFailed("unexpected \"iss\" claim value", _0x25bf30, "iss", "check_failed");
   }
-  if (subject && payload.sub !== subject) {
-    throw new JWTClaimValidationFailed('unexpected "sub" claim value', payload, "sub", "check_failed");
+  if (_0x46385e && _0x25bf30.sub !== _0x46385e) {
+    throw new JWTClaimValidationFailed("unexpected \"sub\" claim value", _0x25bf30, "sub", "check_failed");
   }
-  if (audience && !checkAudiencePresence(payload.aud, typeof audience === "string" ? [audience] : audience)) {
-    throw new JWTClaimValidationFailed('unexpected "aud" claim value', payload, "aud", "check_failed");
+  if (_0x165085 && !checkAudiencePresence(_0x25bf30.aud, typeof _0x165085 === "string" ? [_0x165085] : _0x165085)) {
+    throw new JWTClaimValidationFailed("unexpected \"aud\" claim value", _0x25bf30, "aud", "check_failed");
   }
-  let tolerance;
-  switch (typeof options.clockTolerance) {
+  let _0x4bc145;
+  switch (typeof _0x381c1b.clockTolerance) {
     case "string":
-      tolerance = secs_default(options.clockTolerance);
+      _0x4bc145 = secs_default(_0x381c1b.clockTolerance);
       break;
     case "number":
-      tolerance = options.clockTolerance;
+      _0x4bc145 = _0x381c1b.clockTolerance;
       break;
     case "undefined":
-      tolerance = 0;
+      _0x4bc145 = 0x0;
       break;
     default:
       throw new TypeError("Invalid clockTolerance option type");
   }
-  const { currentDate } = options;
-  const now = epoch_default(currentDate || /* @__PURE__ */ new Date());
-  if ((payload.iat !== void 0 || maxTokenAge) && typeof payload.iat !== "number") {
-    throw new JWTClaimValidationFailed('"iat" claim must be a number', payload, "iat", "invalid");
+  const {
+    currentDate: _0x1e50f8
+  } = _0x381c1b;
+  const _0x2a1023 = epoch_default(_0x1e50f8 || new Date());
+  if ((_0x25bf30.iat !== undefined || _0xa29870) && typeof _0x25bf30.iat !== "number") {
+    throw new JWTClaimValidationFailed("\"iat\" claim must be a number", _0x25bf30, "iat", "invalid");
   }
-  if (payload.nbf !== void 0) {
-    if (typeof payload.nbf !== "number") {
-      throw new JWTClaimValidationFailed('"nbf" claim must be a number', payload, "nbf", "invalid");
+  if (_0x25bf30.nbf !== undefined) {
+    if (typeof _0x25bf30.nbf !== "number") {
+      throw new JWTClaimValidationFailed("\"nbf\" claim must be a number", _0x25bf30, "nbf", "invalid");
     }
-    if (payload.nbf > now + tolerance) {
-      throw new JWTClaimValidationFailed('"nbf" claim timestamp check failed', payload, "nbf", "check_failed");
-    }
-  }
-  if (payload.exp !== void 0) {
-    if (typeof payload.exp !== "number") {
-      throw new JWTClaimValidationFailed('"exp" claim must be a number', payload, "exp", "invalid");
-    }
-    if (payload.exp <= now - tolerance) {
-      throw new JWTExpired('"exp" claim timestamp check failed', payload, "exp", "check_failed");
+    if (_0x25bf30.nbf > _0x2a1023 + _0x4bc145) {
+      throw new JWTClaimValidationFailed("\"nbf\" claim timestamp check failed", _0x25bf30, "nbf", "check_failed");
     }
   }
-  if (maxTokenAge) {
-    const age = now - payload.iat;
-    const max = typeof maxTokenAge === "number" ? maxTokenAge : secs_default(maxTokenAge);
-    if (age - tolerance > max) {
-      throw new JWTExpired('"iat" claim timestamp check failed (too far in the past)', payload, "iat", "check_failed");
+  if (_0x25bf30.exp !== undefined) {
+    if (typeof _0x25bf30.exp !== "number") {
+      throw new JWTClaimValidationFailed("\"exp\" claim must be a number", _0x25bf30, "exp", "invalid");
     }
-    if (age < 0 - tolerance) {
-      throw new JWTClaimValidationFailed('"iat" claim timestamp check failed (it should be in the past)', payload, "iat", "check_failed");
+    if (_0x25bf30.exp <= _0x2a1023 - _0x4bc145) {
+      throw new JWTExpired("\"exp\" claim timestamp check failed", _0x25bf30, "exp", "check_failed");
     }
   }
-  return payload;
-};
-
-// node_modules/jose/dist/browser/jwt/verify.js
-async function jwtVerify(jwt, key, options) {
-  const verified = await compactVerify(jwt, key, options);
-  if (verified.protectedHeader.crit?.includes("b64") && verified.protectedHeader.b64 === false) {
+  if (_0xa29870) {
+    const _0x30f5bd = _0x2a1023 - _0x25bf30.iat;
+    const _0x30e5ba = typeof _0xa29870 === "number" ? _0xa29870 : secs_default(_0xa29870);
+    if (_0x30f5bd - _0x4bc145 > _0x30e5ba) {
+      throw new JWTExpired("\"iat\" claim timestamp check failed (too far in the past)", _0x25bf30, "iat", "check_failed");
+    }
+    if (_0x30f5bd < 0x0 - _0x4bc145) {
+      throw new JWTClaimValidationFailed("\"iat\" claim timestamp check failed (it should be in the past)", _0x25bf30, "iat", "check_failed");
+    }
+  }
+  return _0x25bf30;
+}, "name", {
+  'value': "default",
+  'configurable': true
+});
+async function jwtVerify(_0x241c30, _0x97edc1, _0xde33f4) {
+  const _0xb7011f = await compactVerify(_0x241c30, _0x97edc1, _0xde33f4);
+  if (_0xb7011f.protectedHeader.crit?.["includes"]("b64") && _0xb7011f.protectedHeader.b64 === false) {
     throw new JWTInvalid("JWTs MUST NOT use unencoded payload");
   }
-  const payload = jwt_claims_set_default(verified.protectedHeader, verified.payload, options);
-  const result = { payload, protectedHeader: verified.protectedHeader };
-  if (typeof key === "function") {
-    return { ...result, key: verified.key };
+  const _0x57b363 = jwt_claims_set_default(_0xb7011f.protectedHeader, _0xb7011f.payload, _0xde33f4);
+  const _0x75931c = {
+    'payload': _0x57b363,
+    'protectedHeader': _0xb7011f.protectedHeader
+  };
+  if (typeof _0x97edc1 === "function") {
+    return {
+      ..._0x75931c,
+      'key': _0xb7011f.key
+    };
   }
-  return result;
+  return _0x75931c;
 }
-
-// node_modules/jose/dist/browser/runtime/sign.js
-var sign = async (alg, key, data) => {
-  const cryptoKey = await getCryptoKey(alg, key, "sign");
-  check_key_length_default(alg, cryptoKey);
-  const signature = await webcrypto_default.subtle.sign(subtleDsa(alg, cryptoKey.algorithm), cryptoKey, data);
-  return new Uint8Array(signature);
-};
-var sign_default = sign;
-
-// node_modules/jose/dist/browser/jws/flattened/sign.js
+__defProp(jwtVerify, "name", {
+  'value': "jwtVerify",
+  'configurable': true
+});
+var sign = __defProp(async (_0x536500, _0x94233, _0x326c1f) => {
+  const _0x33b547 = await getCryptoKey(_0x536500, _0x94233, "sign");
+  check_key_length_default(_0x536500, _0x33b547);
+  const _0x578cdf = await crypto.subtle.sign(subtleDsa(_0x536500, _0x33b547.algorithm), _0x33b547, _0x326c1f);
+  return new Uint8Array(_0x578cdf);
+}, "name", {
+  'value': "sign",
+  'configurable': true
+});
 var FlattenedSign = class {
-  constructor(payload) {
-    if (!(payload instanceof Uint8Array)) {
+  constructor(_0x4bfd64) {
+    if (!(_0x4bfd64 instanceof Uint8Array)) {
       throw new TypeError("payload must be an instance of Uint8Array");
     }
-    this._payload = payload;
+    this._payload = _0x4bfd64;
   }
-  setProtectedHeader(protectedHeader) {
+  ["setProtectedHeader"](_0x12eab6) {
     if (this._protectedHeader) {
       throw new TypeError("setProtectedHeader can only be called once");
     }
-    this._protectedHeader = protectedHeader;
+    this._protectedHeader = _0x12eab6;
     return this;
   }
-  setUnprotectedHeader(unprotectedHeader) {
+  ["setUnprotectedHeader"](_0x38db3a) {
     if (this._unprotectedHeader) {
       throw new TypeError("setUnprotectedHeader can only be called once");
     }
-    this._unprotectedHeader = unprotectedHeader;
+    this._unprotectedHeader = _0x38db3a;
     return this;
   }
-  async sign(key, options) {
+  async ["sign"](_0x1650a3, _0x291e0a) {
     if (!this._protectedHeader && !this._unprotectedHeader) {
       throw new JWSInvalid("either setProtectedHeader or setUnprotectedHeader must be called before #sign()");
     }
-    if (!is_disjoint_default(this._protectedHeader, this._unprotectedHeader)) {
+    if (!isDisjoint(this._protectedHeader, this._unprotectedHeader)) {
       throw new JWSInvalid("JWS Protected and JWS Unprotected Header Parameter names must be disjoint");
     }
-    const joseHeader = {
+    const _0x545a81 = {
       ...this._protectedHeader,
       ...this._unprotectedHeader
     };
-    const extensions = validate_crit_default(JWSInvalid, /* @__PURE__ */ new Map([["b64", true]]), options?.crit, this._protectedHeader, joseHeader);
-    let b64 = true;
-    if (extensions.has("b64")) {
-      b64 = this._protectedHeader.b64;
-      if (typeof b64 !== "boolean") {
-        throw new JWSInvalid('The "b64" (base64url-encode payload) Header Parameter must be a boolean');
+    const _0xcbaec4 = validateCrit(JWSInvalid, new Map([["b64", true]]), _0x291e0a?.["crit"], this._protectedHeader, _0x545a81);
+    let _0x2fe338 = true;
+    if (_0xcbaec4.has("b64")) {
+      _0x2fe338 = this._protectedHeader.b64;
+      if (typeof _0x2fe338 !== "boolean") {
+        throw new JWSInvalid("The \"b64\" (base64url-encode payload) Header Parameter must be a boolean");
       }
     }
-    const { alg } = joseHeader;
-    if (typeof alg !== "string" || !alg) {
-      throw new JWSInvalid('JWS "alg" (Algorithm) Header Parameter missing or invalid');
+    const {
+      alg: _0x510605
+    } = _0x545a81;
+    if (typeof _0x510605 !== "string" || !_0x510605) {
+      throw new JWSInvalid("JWS \"alg\" (Algorithm) Header Parameter missing or invalid");
     }
-    checkKeyTypeWithJwk(alg, key, "sign");
-    let payload = this._payload;
-    if (b64) {
-      payload = encoder.encode(encode(payload));
+    checkKeyTypeWithJwk(_0x510605, _0x1650a3, "sign");
+    let _0x852b0b = this._payload;
+    if (_0x2fe338) {
+      _0x852b0b = encoder.encode(encode(_0x852b0b));
     }
-    let protectedHeader;
+    let _0x10fc05;
     if (this._protectedHeader) {
-      protectedHeader = encoder.encode(encode(JSON.stringify(this._protectedHeader)));
+      _0x10fc05 = encoder.encode(encode(JSON.stringify(this._protectedHeader)));
     } else {
-      protectedHeader = encoder.encode("");
+      _0x10fc05 = encoder.encode('');
     }
-    const data = concat(protectedHeader, encoder.encode("."), payload);
-    const signature = await sign_default(alg, key, data);
-    const jws = {
-      signature: encode(signature),
-      payload: ""
+    const _0x5f2264 = concat(_0x10fc05, encoder.encode('.'), _0x852b0b);
+    const _0x33a582 = await sign(_0x510605, _0x1650a3, _0x5f2264);
+    const _0x3d6b64 = {
+      'signature': encode(_0x33a582),
+      'payload': ''
     };
-    if (b64) {
-      jws.payload = decoder.decode(payload);
+    if (_0x2fe338) {
+      _0x3d6b64.payload = decoder.decode(_0x852b0b);
     }
     if (this._unprotectedHeader) {
-      jws.header = this._unprotectedHeader;
+      _0x3d6b64.header = this._unprotectedHeader;
     }
     if (this._protectedHeader) {
-      jws.protected = decoder.decode(protectedHeader);
+      _0x3d6b64["protected"] = decoder.decode(_0x10fc05);
     }
-    return jws;
+    return _0x3d6b64;
   }
 };
-
-// node_modules/jose/dist/browser/jws/compact/sign.js
+__defProp(FlattenedSign, "name", {
+  'value': "FlattenedSign",
+  'configurable': true
+});
 var CompactSign = class {
-  constructor(payload) {
-    this._flattened = new FlattenedSign(payload);
+  constructor(_0x431a70) {
+    this._flattened = new FlattenedSign(_0x431a70);
   }
-  setProtectedHeader(protectedHeader) {
-    this._flattened.setProtectedHeader(protectedHeader);
+  ["setProtectedHeader"](_0x40d65c) {
+    this._flattened.setProtectedHeader(_0x40d65c);
     return this;
   }
-  async sign(key, options) {
-    const jws = await this._flattened.sign(key, options);
-    if (jws.payload === void 0) {
+  async ["sign"](_0x4841c1, _0x26d9dc) {
+    const _0x22bd88 = await this._flattened.sign(_0x4841c1, _0x26d9dc);
+    if (_0x22bd88.payload === undefined) {
       throw new TypeError("use the flattened module for creating JWS with b64: false");
     }
-    return `${jws.protected}.${jws.payload}.${jws.signature}`;
+    return _0x22bd88["protected"] + '.' + _0x22bd88.payload + '.' + _0x22bd88.signature;
   }
 };
-
-// node_modules/jose/dist/browser/jwt/produce.js
-function validateInput(label, input) {
-  if (!Number.isFinite(input)) {
-    throw new TypeError(`Invalid ${label} input`);
+__defProp(CompactSign, "name", {
+  'value': "CompactSign",
+  'configurable': true
+});
+function validateInput(_0x98d75d, _0x3b0301) {
+  if (!Number.isFinite(_0x3b0301)) {
+    throw new TypeError("Invalid " + _0x98d75d + " input");
   }
-  return input;
+  return _0x3b0301;
 }
+__defProp(validateInput, "name", {
+  'value': "validateInput",
+  'configurable': true
+});
 var ProduceJWT = class {
-  constructor(payload = {}) {
-    if (!isObject(payload)) {
+  constructor(_0xe0925f = {}) {
+    if (!isObject(_0xe0925f)) {
       throw new TypeError("JWT Claims Set MUST be an object");
     }
-    this._payload = payload;
+    this._payload = _0xe0925f;
   }
-  setIssuer(issuer) {
-    this._payload = { ...this._payload, iss: issuer };
+  ["setIssuer"](_0x16afb3) {
+    this._payload = {
+      ...this._payload,
+      'iss': _0x16afb3
+    };
     return this;
   }
-  setSubject(subject) {
-    this._payload = { ...this._payload, sub: subject };
+  ["setSubject"](_0x4ee2c8) {
+    this._payload = {
+      ...this._payload,
+      'sub': _0x4ee2c8
+    };
     return this;
   }
-  setAudience(audience) {
-    this._payload = { ...this._payload, aud: audience };
+  ["setAudience"](_0x1f359b) {
+    this._payload = {
+      ...this._payload,
+      'aud': _0x1f359b
+    };
     return this;
   }
-  setJti(jwtId) {
-    this._payload = { ...this._payload, jti: jwtId };
+  ["setJti"](_0x4d4571) {
+    this._payload = {
+      ...this._payload,
+      'jti': _0x4d4571
+    };
     return this;
   }
-  setNotBefore(input) {
-    if (typeof input === "number") {
-      this._payload = { ...this._payload, nbf: validateInput("setNotBefore", input) };
-    } else if (input instanceof Date) {
-      this._payload = { ...this._payload, nbf: validateInput("setNotBefore", epoch_default(input)) };
-    } else {
-      this._payload = { ...this._payload, nbf: epoch_default(/* @__PURE__ */ new Date()) + secs_default(input) };
-    }
-    return this;
-  }
-  setExpirationTime(input) {
-    if (typeof input === "number") {
-      this._payload = { ...this._payload, exp: validateInput("setExpirationTime", input) };
-    } else if (input instanceof Date) {
-      this._payload = { ...this._payload, exp: validateInput("setExpirationTime", epoch_default(input)) };
-    } else {
-      this._payload = { ...this._payload, exp: epoch_default(/* @__PURE__ */ new Date()) + secs_default(input) };
-    }
-    return this;
-  }
-  setIssuedAt(input) {
-    if (typeof input === "undefined") {
-      this._payload = { ...this._payload, iat: epoch_default(/* @__PURE__ */ new Date()) };
-    } else if (input instanceof Date) {
-      this._payload = { ...this._payload, iat: validateInput("setIssuedAt", epoch_default(input)) };
-    } else if (typeof input === "string") {
+  ["setNotBefore"](_0x7e3065) {
+    if (typeof _0x7e3065 === "number") {
       this._payload = {
         ...this._payload,
-        iat: validateInput("setIssuedAt", epoch_default(/* @__PURE__ */ new Date()) + secs_default(input))
+        'nbf': validateInput("setNotBefore", _0x7e3065)
+      };
+    } else if (_0x7e3065 instanceof Date) {
+      this._payload = {
+        ...this._payload,
+        'nbf': validateInput("setNotBefore", epoch_default(_0x7e3065))
       };
     } else {
-      this._payload = { ...this._payload, iat: validateInput("setIssuedAt", input) };
+      this._payload = {
+        ...this._payload,
+        'nbf': epoch_default(new Date()) + secs_default(_0x7e3065)
+      };
+    }
+    return this;
+  }
+  ["setExpirationTime"](_0x24bdbf) {
+    if (typeof _0x24bdbf === "number") {
+      this._payload = {
+        ...this._payload,
+        'exp': validateInput("setExpirationTime", _0x24bdbf)
+      };
+    } else if (_0x24bdbf instanceof Date) {
+      this._payload = {
+        ...this._payload,
+        'exp': validateInput("setExpirationTime", epoch_default(_0x24bdbf))
+      };
+    } else {
+      this._payload = {
+        ...this._payload,
+        'exp': epoch_default(new Date()) + secs_default(_0x24bdbf)
+      };
+    }
+    return this;
+  }
+  ["setIssuedAt"](_0x122769) {
+    if (typeof _0x122769 === "undefined") {
+      this._payload = {
+        ...this._payload,
+        'iat': epoch_default(new Date())
+      };
+    } else {
+      if (_0x122769 instanceof Date) {
+        this._payload = {
+          ...this._payload,
+          'iat': validateInput("setIssuedAt", epoch_default(_0x122769))
+        };
+      } else if (typeof _0x122769 === "string") {
+        this._payload = {
+          ...this._payload,
+          'iat': validateInput("setIssuedAt", epoch_default(new Date()) + secs_default(_0x122769))
+        };
+      } else {
+        this._payload = {
+          ...this._payload,
+          'iat': validateInput("setIssuedAt", _0x122769)
+        };
+      }
     }
     return this;
   }
 };
-
-// node_modules/jose/dist/browser/jwt/sign.js
+__defProp(ProduceJWT, "name", {
+  'value': "ProduceJWT",
+  'configurable': true
+});
 var SignJWT = class extends ProduceJWT {
-  setProtectedHeader(protectedHeader) {
-    this._protectedHeader = protectedHeader;
+  ["setProtectedHeader"](_0x17142c) {
+    this._protectedHeader = _0x17142c;
     return this;
   }
-  async sign(key, options) {
-    const sig = new CompactSign(encoder.encode(JSON.stringify(this._payload)));
-    sig.setProtectedHeader(this._protectedHeader);
-    if (Array.isArray(this._protectedHeader?.crit) && this._protectedHeader.crit.includes("b64") && this._protectedHeader.b64 === false) {
+  async ["sign"](_0x502c5c, _0x3da6ee) {
+    const _0x422ae7 = new CompactSign(encoder.encode(JSON.stringify(this._payload)));
+    _0x422ae7.setProtectedHeader(this._protectedHeader);
+    if (Array.isArray(this._protectedHeader?.["crit"]) && this._protectedHeader.crit.includes("b64") && this._protectedHeader.b64 === false) {
       throw new JWTInvalid("JWTs MUST NOT use unencoded payload");
     }
-    return sig.sign(key, options);
+    return _0x422ae7.sign(_0x502c5c, _0x3da6ee);
   }
 };
-
-// src/worker.js
-var userID = "89b3cbba-e6ac-485a-9481-976a0415eab9";
-var trojanPassword = `bpb-trojan`;
-var proxyIPs = ["bpb.yousef.isegaro.com"];
-var defaultHttpPorts = ["80", "8080", "2052", "2082", "2086", "2095", "8880"];
-var defaultHttpsPorts = ["443", "8443", "2053", "2083", "2087", "2096"];
-var proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
-var dohURL = "https://cloudflare-dns.com/dns-query";
-var hashPassword;
-var panelVersion = "2.7";
-var worker_default = {
-  /**
-   * @param {import("@cloudflare/workers-types").Request} request
-   * @param {{UUID: string, PROXYIP: string, DNS_RESOLVER_URL: string}} env
-   * @param {import("@cloudflare/workers-types").ExecutionContext} ctx
-   * @returns {Promise<Response>}
-   */
-  async fetch(request, env) {
-    try {
-      userID = env.UUID || userID;
-      proxyIP = env.PROXYIP || proxyIP;
-      dohURL = env.DNS_RESOLVER_URL || dohURL;
-      trojanPassword = env.TROJAN_PASS || trojanPassword;
-      hashPassword = import_js_sha256.default.sha224(trojanPassword);
-      if (!isValidUUID(userID))
-        throw new Error(`Invalid UUID: ${userID}`);
-      const upgradeHeader = request.headers.get("Upgrade");
-      const url = new URL(request.url);
-      if (!upgradeHeader || upgradeHeader !== "websocket") {
-        const searchParams = new URLSearchParams(url.search);
-        const host = request.headers.get("Host");
-        const client = searchParams.get("app");
-        const { kvNotFound, proxySettings: settings, warpConfigs } = await getDataset(env);
-        if (kvNotFound) {
-          const errorPage = renderErrorPage("KV Dataset is not properly set!", null, true);
-          return new Response(errorPage, { status: 200, headers: { "Content-Type": "text/html" } });
-        }
-        switch (url.pathname) {
-          case "/cf":
-            return new Response(JSON.stringify(request.cf, null, 4), {
-              status: 200,
-              headers: {
-                "Content-Type": "application/json;charset=utf-8"
-              }
-            });
-          case "/update-warp":
-            const Auth = await Authenticate(request, env);
-            if (!Auth)
-              return new Response("Unauthorized", { status: 401 });
-            if (request.method === "POST") {
-              try {
-                const { error: warpPlusError } = await fetchWgConfig(env, settings);
-                if (warpPlusError) {
-                  return new Response(warpPlusError, { status: 400 });
-                } else {
-                  return new Response("Warp configs updated successfully", { status: 200 });
-                }
-              } catch (error) {
-                console.log(error);
-                return new Response(`An error occurred while updating Warp configs! - ${error}`, { status: 500 });
-              }
-            } else {
-              return new Response("Unsupported request", { status: 405 });
-            }
-          case `/sub/${userID}`:
-            if (client === "sfa") {
-              const BestPingSFA = await getSingBoxCustomConfig(env, settings, host, client, false);
-              return new Response(JSON.stringify(BestPingSFA, null, 4), {
-                status: 200,
-                headers: {
-                  "Content-Type": "application/json;charset=utf-8",
-                  "Cache-Control": "no-store, no-cache, must-revalidate, proxy-revalidate",
-                  "CDN-Cache-Control": "no-store"
-                }
-              });
-            }
-            if (client === "clash") {
-              const BestPingClash = await getClashNormalConfig(env, settings, host);
-              return new Response(JSON.stringify(BestPingClash, null, 4), {
-                status: 200,
-                headers: {
-                  "Content-Type": "application/json;charset=utf-8",
-                  "Cache-Control": "no-store, no-cache, must-revalidate, proxy-revalidate",
-                  "CDN-Cache-Control": "no-store"
-                }
-              });
-            }
-            if (client === "xray") {
-              const xrayFullConfigs = await getXrayCustomConfigs(env, settings, host, false);
-              return new Response(JSON.stringify(xrayFullConfigs, null, 4), {
-                status: 200,
-                headers: {
-                  "Content-Type": "application/json;charset=utf-8",
-                  "Cache-Control": "no-store, no-cache, must-revalidate, proxy-revalidate",
-                  "CDN-Cache-Control": "no-store"
-                }
-              });
-            }
-            const normalConfigs = await getNormalConfigs(settings, host, client);
-            return new Response(normalConfigs, {
-              status: 200,
-              headers: {
-                "Content-Type": "text/plain;charset=utf-8",
-                "Cache-Control": "no-store, no-cache, must-revalidate, proxy-revalidate",
-                "CDN-Cache-Control": "no-store"
-              }
-            });
-          case `/fragsub/${userID}`:
-            let fragConfigs = client === "hiddify" ? await getSingBoxCustomConfig(env, settings, host, client, true) : await getXrayCustomConfigs(env, settings, host, true);
-            return new Response(JSON.stringify(fragConfigs, null, 4), {
-              status: 200,
-              headers: {
-                "Content-Type": "application/json;charset=utf-8",
-                "Cache-Control": "no-store, no-cache, must-revalidate, proxy-revalidate",
-                "CDN-Cache-Control": "no-store"
-              }
-            });
-          case `/warpsub/${userID}`:
-            if (client === "clash") {
-              const clashWarpConfig = await getClashWarpConfig(settings, warpConfigs);
-              return new Response(JSON.stringify(clashWarpConfig, null, 4), {
-                status: 200,
-                headers: {
-                  "Content-Type": "application/json;charset=utf-8",
-                  "Cache-Control": "no-store, no-cache, must-revalidate, proxy-revalidate",
-                  "CDN-Cache-Control": "no-store"
-                }
-              });
-            }
-            if (client === "singbox" || client === "hiddify") {
-              const singboxWarpConfig = await getSingBoxWarpConfig(settings, warpConfigs, client);
-              return new Response(JSON.stringify(singboxWarpConfig, null, 4), {
-                status: 200,
-                headers: {
-                  "Content-Type": "application/json;charset=utf-8",
-                  "Cache-Control": "no-store, no-cache, must-revalidate, proxy-revalidate",
-                  "CDN-Cache-Control": "no-store"
-                }
-              });
-            }
-            const warpConfig = await getXrayWarpConfigs(settings, warpConfigs, client);
-            return new Response(JSON.stringify(warpConfig, null, 4), {
-              status: 200,
-              headers: {
-                "Content-Type": "application/json;charset=utf-8",
-                "Cache-Control": "no-store, no-cache, must-revalidate, proxy-revalidate",
-                "CDN-Cache-Control": "no-store"
-              }
-            });
-          case "/panel":
-            const pwd = await env.bpb.get("pwd");
-            const isAuth = await Authenticate(request, env);
-            if (request.method === "POST") {
-              if (!isAuth)
-                return new Response("Unauthorized or expired session!", { status: 401 });
-              const formData = await request.formData();
-              const isReset = formData.get("resetSettings") === "true";
-              isReset ? await updateDataset(env, null, true) : await updateDataset(env, formData);
-              return new Response("Success", { status: 200 });
-            }
-            if (pwd && !isAuth)
-              return Response.redirect(`${url.origin}/login`, 302);
-            const isPassSet = pwd?.length >= 8;
-            const homePage = renderHomePage(settings, host, isPassSet);
-            return new Response(homePage, {
-              status: 200,
-              headers: {
-                "Content-Type": "text/html",
-                "Access-Control-Allow-Origin": url.origin,
-                "Access-Control-Allow-Methods": "GET, POST",
-                "Access-Control-Allow-Headers": "Content-Type, Authorization",
-                "X-Content-Type-Options": "nosniff",
-                "X-Frame-Options": "DENY",
-                "Referrer-Policy": "strict-origin-when-cross-origin"
-              }
-            });
-          case "/login":
-            if (typeof env.bpb !== "object") {
-              const errorPage = renderErrorPage("KV Dataset is not properly set!", null, true);
-              return new Response(errorPage, { status: 200, headers: { "Content-Type": "text/html" } });
-            }
-            const loginAuth = await Authenticate(request, env);
-            if (loginAuth)
-              return Response.redirect(`${url.origin}/panel`, 302);
-            let secretKey = await env.bpb.get("secretKey");
-            if (!secretKey) {
-              secretKey = generateSecretKey();
-              await env.bpb.put("secretKey", secretKey);
-            }
-            if (request.method === "POST") {
-              const password = await request.text();
-              const savedPass = await env.bpb.get("pwd");
-              if (password === savedPass) {
-                const jwtToken = await generateJWTToken(secretKey);
-                const cookieHeader = `jwtToken=${jwtToken}; HttpOnly; Secure; Max-Age=${7 * 24 * 60 * 60}; Path=/; SameSite=Strict`;
-                return new Response("Success", {
-                  status: 200,
-                  headers: {
-                    "Set-Cookie": cookieHeader,
-                    "Content-Type": "text/plain"
-                  }
-                });
-              } else {
-                return new Response("Method Not Allowed", { status: 405 });
-              }
-            }
-            const loginPage = renderLoginPage();
-            return new Response(loginPage, {
-              status: 200,
-              headers: {
-                "Content-Type": "text/html",
-                "Access-Control-Allow-Origin": url.origin,
-                "Access-Control-Allow-Methods": "GET, POST",
-                "Access-Control-Allow-Headers": "Content-Type, Authorization",
-                "X-Content-Type-Options": "nosniff",
-                "X-Frame-Options": "DENY",
-                "Referrer-Policy": "strict-origin-when-cross-origin"
-              }
-            });
-          case "/logout":
-            return new Response("Success", {
-              status: 200,
-              headers: {
-                "Set-Cookie": "jwtToken=; Secure; SameSite=None; Expires=Thu, 01 Jan 1970 00:00:00 GMT",
-                "Content-Type": "text/plain"
-              }
-            });
-          case "/panel/password":
-            const oldPwd = await env.bpb.get("pwd");
-            let passAuth = await Authenticate(request, env);
-            if (oldPwd && !passAuth)
-              return new Response("Unauthorized!", { status: 401 });
-            const newPwd = await request.text();
-            if (newPwd === oldPwd)
-              return new Response("Please enter a new Password!", { status: 400 });
-            await env.bpb.put("pwd", newPwd);
-            return new Response("Success", {
-              status: 200,
-              headers: {
-                "Set-Cookie": "jwtToken=; Path=/; Secure; SameSite=None; Expires=Thu, 01 Jan 1970 00:00:00 GMT",
-                "Content-Type": "text/plain"
-              }
-            });
-          default:
-            url.hostname = "www.speedtest.net";
-            url.protocol = "https:";
-            request = new Request(url, request);
-            return await fetch(request);
-        }
-      } else {
-        return url.pathname.startsWith("/tr") ? await trojanOverWSHandler(request) : await vlessOverWSHandler(request);
-      }
-    } catch (err) {
-      const errorPage = renderErrorPage("Something went wrong!", err, false);
-      return new Response(errorPage, { status: 200, headers: { "Content-Type": "text/html" } });
+__defProp(SignJWT, "name", {
+  'value': "SignJWT",
+  'configurable': true
+});
+var import_tweetnacl = __toESM(require_nacl_fast());
+async function renderLoginPage() {
+  const _0x5bd4e3 = "\n    <!DOCTYPE html>\n    <html lang=\"en\">\n    <head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>User Login</title>\n    <style>\n        :root {\n            --color: black;\n            --primary-color: #09639f;\n            --header-color: #09639f; \n            --background-color: #fff;\n            --form-background-color: #f9f9f9;\n            --lable-text-color: #333;\n            --h2-color: #3b3b3b;\n            --border-color: #ddd;\n            --input-background-color: white;\n            --header-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);\n        }\n        html, body { height: 100%; margin: 0; }\n        body {\n            font-family: system-ui;\n            background-color: var(--background-color);\n            position: relative;\n            overflow: hidden;\n        }\n        body.dark-mode {\n            --color: white;\n            --primary-color: #09639F;\n            --header-color: #3498DB; \n            --background-color: #121212;\n            --form-background-color: #121212;\n            --lable-text-color: #DFDFDF;\n            --h2-color: #D5D5D5;\n            --border-color: #353535;\n            --input-background-color: #252525;\n            --header-shadow: 2px 2px 4px rgba(255, 255, 255, 0.25);\n        }\n        html, body { height: 100%; margin: 0; }\n        .container {\n            position: absolute;\n            top: 50%;\n            left: 50%;\n            transform: translate(-50%, -50%);\n            width: 90%;\n        }\n        h1 { font-size: 2.5rem; text-align: center; color: var(--header-color); margin: 0 auto 30px; text-shadow: var(--header-shadow); }        \n        h2 { text-align: center; color: var(--h2-color) }\n        .form-container {\n            background: var(--form-background-color);\n            border: 1px solid var(--border-color);\n            border-radius: 10px;\n            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);\n            padding: 20px;\n        }\n        .form-control { margin-bottom: 15px; display: flex; align-items: center; }\n        label {\n            display: block;\n            margin-bottom: 5px;\n            padding-right: 20px;\n            font-size: 110%;\n            font-weight: 600;\n            color: var(--lable-text-color);\n        }\n        input[type=\"text\"],\n        input[type=\"password\"] {\n            width: 100%;\n            padding: 10px;\n            border: 1px solid var(--border-color);\n            border-radius: 5px;\n            color: var(--lable-text-color);\n            background-color: var(--input-background-color);\n        }\n        button {\n            display: block;\n            width: 100%;\n            padding: 10px;\n            font-size: 16px;\n            font-weight: 600;\n            border: none;\n            border-radius: 5px;\n            color: white;\n            background-color: var(--primary-color);\n            cursor: pointer;\n            transition: background-color 0.3s ease;\n        }\n        .button:hover,\n        button:focus {\n            background-color: #2980b9;\n            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);\n            transform: translateY(-2px);\n        }\n        button.button:hover { color: white; }\n        .button:active { transform: translateY(1px); box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3); }\n        @media only screen and (min-width: 768px) {\n            .container { width: 30%; }\n        }\n    </style>\n    </head>\n    <body>\n        <div class=\"container\">\n            <h1>BPB Panel <span style=\"font-size: smaller;\">" + globalThis.panelVersion + "</span> 💦</h1>\n            <div class=\"form-container\">\n                <h2>User Login</h2>\n                <form id=\"loginForm\">\n                    <div class=\"form-control\">\n                        <label for=\"password\">Password</label>\n                        <input type=\"password\" id=\"password\" name=\"password\" required>\n                    </div>\n                    <div id=\"passwordError\" style=\"color: red; margin-bottom: 10px;\"></div>\n                    <button type=\"submit\" class=\"button\">Login</button>\n                </form>\n            </div>\n        </div>\n    <script>\n        localStorage.getItem('darkMode') === 'enabled' && document.body.classList.add('dark-mode');\n        document.getElementById('loginForm').addEventListener('submit', async (event) => {\n            event.preventDefault();\n            const password = document.getElementById('password').value;\n\n            try {\n                const response = await fetch('/login', {\n                    method: 'POST',\n                    headers: {\n                        'Content-Type': 'text/plain'\n                    },\n                    body: password\n                });\n            \n                if (!response.ok) {\n                    passwordError.textContent = '⚠️ Wrong Password!';\n                    const errorMessage = await response.text();\n                    console.error('Login failed:', errorMessage);\n                    return;\n                }\n                window.location.href = '/panel';\n            } catch (error) {\n                console.error('Error during login:', error);\n            }\n        });\n    </script>\n    </body>\n    </html>";
+  return new Response(_0x5bd4e3, {
+    'status': 0xc8,
+    'headers': {
+      'Content-Type': "text/html;charset=utf-8",
+      'Access-Control-Allow-Origin': globalThis.urlOrigin,
+      'Access-Control-Allow-Methods': "GET, POST",
+      'Access-Control-Allow-Headers': "Content-Type, Authorization",
+      'X-Content-Type-Options': "nosniff",
+      'X-Frame-Options': "DENY",
+      'Referrer-Policy': "strict-origin-when-cross-origin",
+      'Cache-Control': "no-store, no-cache, must-revalidate, proxy-revalidate, no-transform",
+      'CDN-Cache-Control': "no-store"
     }
-  }
-};
-async function vlessOverWSHandler(request) {
-  const webSocketPair = new WebSocketPair();
-  const [client, webSocket] = Object.values(webSocketPair);
-  webSocket.accept();
-  let address = "";
-  let portWithRandomLog = "";
-  const log = (info, event) => {
-    console.log(`[${address}:${portWithRandomLog}] ${info}`, event || "");
-  };
-  const earlyDataHeader = request.headers.get("sec-websocket-protocol") || "";
-  const readableWebSocketStream = makeReadableWebSocketStream(webSocket, earlyDataHeader, log);
-  let remoteSocketWapper = {
-    value: null
-  };
-  let udpStreamWrite = null;
-  let isDns = false;
-  readableWebSocketStream.pipeTo(
-    new WritableStream({
-      async write(chunk, controller) {
-        if (isDns && udpStreamWrite) {
-          return udpStreamWrite(chunk);
-        }
-        if (remoteSocketWapper.value) {
-          const writer = remoteSocketWapper.value.writable.getWriter();
-          await writer.write(chunk);
-          writer.releaseLock();
-          return;
-        }
-        const {
-          hasError,
-          message: message2,
-          portRemote = 443,
-          addressRemote = "",
-          rawDataIndex,
-          vlessVersion = new Uint8Array([0, 0]),
-          isUDP
-        } = await processVlessHeader(chunk, userID);
-        address = addressRemote;
-        portWithRandomLog = `${portRemote}--${Math.random()} ${isUDP ? "udp " : "tcp "} `;
-        if (hasError) {
-          throw new Error(message2);
-          return;
-        }
-        if (isUDP) {
-          if (portRemote === 53) {
-            isDns = true;
-          } else {
-            throw new Error("UDP proxy only enable for DNS which is port 53");
-            return;
-          }
-        }
-        const vlessResponseHeader = new Uint8Array([vlessVersion[0], 0]);
-        const rawClientData = chunk.slice(rawDataIndex);
-        if (isDns) {
-          const { write } = await handleUDPOutBound(webSocket, vlessResponseHeader, log);
-          udpStreamWrite = write;
-          udpStreamWrite(rawClientData);
-          return;
-        }
-        handleTCPOutBound(
-          request,
-          remoteSocketWapper,
-          addressRemote,
-          portRemote,
-          rawClientData,
-          webSocket,
-          vlessResponseHeader,
-          log
-        );
-      },
-      close() {
-        log(`readableWebSocketStream is close`);
-      },
-      abort(reason) {
-        log(`readableWebSocketStream is abort`, JSON.stringify(reason));
-      }
-    })
-  ).catch((err) => {
-    log("readableWebSocketStream pipeTo error", err);
-  });
-  return new Response(null, {
-    status: 101,
-    // @ts-ignore
-    webSocket: client
   });
 }
-async function checkUuidInApiResponse(targetUuid) {
-  try {
-    const apiResponse = await getApiResponse();
-    if (!apiResponse) {
-      return false;
-    }
-    const isUuidInResponse = apiResponse.users.some((user) => user.uuid === targetUuid);
-    return isUuidInResponse;
-  } catch (error) {
-    console.error("Error:", error);
-    return false;
-  }
-}
-async function trojanOverWSHandler(request) {
-  const webSocketPair = new WebSocketPair();
-  const [client, webSocket] = Object.values(webSocketPair);
-  webSocket.accept();
-  let address = "";
-  let portWithRandomLog = "";
-  const log = (info, event) => {
-    console.log(`[${address}:${portWithRandomLog}] ${info}`, event || "");
-  };
-  const earlyDataHeader = request.headers.get("sec-websocket-protocol") || "";
-  const readableWebSocketStream = makeReadableWebSocketStream(webSocket, earlyDataHeader, log);
-  let remoteSocketWapper = {
-    value: null
-  };
-  let udpStreamWrite = null;
-  readableWebSocketStream.pipeTo(
-    new WritableStream({
-      async write(chunk, controller) {
-        if (udpStreamWrite) {
-          return udpStreamWrite(chunk);
-        }
-        if (remoteSocketWapper.value) {
-          const writer = remoteSocketWapper.value.writable.getWriter();
-          await writer.write(chunk);
-          writer.releaseLock();
-          return;
-        }
-        const {
-          hasError,
-          message: message2,
-          portRemote = 443,
-          addressRemote = "",
-          rawClientData
-        } = await parseTrojanHeader(chunk);
-        address = addressRemote;
-        portWithRandomLog = `${portRemote}--${Math.random()} tcp`;
-        if (hasError) {
-          throw new Error(message2);
-          return;
-        }
-        handleTCPOutBound(request, remoteSocketWapper, addressRemote, portRemote, rawClientData, webSocket, false, log);
-      },
-      close() {
-        log(`readableWebSocketStream is closed`);
-      },
-      abort(reason) {
-        log(`readableWebSocketStream is aborted`, JSON.stringify(reason));
-      }
-    })
-  ).catch((err) => {
-    log("readableWebSocketStream pipeTo error", err);
-  });
-  return new Response(null, {
-    status: 101,
-    // @ts-ignore
-    webSocket: client
-  });
-}
-async function parseTrojanHeader(buffer) {
-  if (buffer.byteLength < 56) {
-    return {
-      hasError: true,
-      message: "invalid data"
-    };
-  }
-  let crLfIndex = 56;
-  if (new Uint8Array(buffer.slice(56, 57))[0] !== 13 || new Uint8Array(buffer.slice(57, 58))[0] !== 10) {
-    return {
-      hasError: true,
-      message: "invalid header format (missing CR LF)"
-    };
-  }
-  const password = new TextDecoder().decode(buffer.slice(0, crLfIndex));
-  if (password !== hashPassword) {
-    return {
-      hasError: true,
-      message: "invalid password"
-    };
-  }
-  const socks5DataBuffer = buffer.slice(crLfIndex + 2);
-  if (socks5DataBuffer.byteLength < 6) {
-    return {
-      hasError: true,
-      message: "invalid SOCKS5 request data"
-    };
-  }
-  const view = new DataView(socks5DataBuffer);
-  const cmd = view.getUint8(0);
-  if (cmd !== 1) {
-    return {
-      hasError: true,
-      message: "unsupported command, only TCP (CONNECT) is allowed"
-    };
-  }
-  const atype = view.getUint8(1);
-  let addressLength = 0;
-  let addressIndex = 2;
-  let address = "";
-  switch (atype) {
-    case 1:
-      addressLength = 4;
-      address = new Uint8Array(socks5DataBuffer.slice(addressIndex, addressIndex + addressLength)).join(".");
-      break;
-    case 3:
-      addressLength = new Uint8Array(socks5DataBuffer.slice(addressIndex, addressIndex + 1))[0];
-      addressIndex += 1;
-      address = new TextDecoder().decode(socks5DataBuffer.slice(addressIndex, addressIndex + addressLength));
-      break;
-    case 4:
-      addressLength = 16;
-      const dataView = new DataView(socks5DataBuffer.slice(addressIndex, addressIndex + addressLength));
-      const ipv6 = [];
-      for (let i = 0; i < 8; i++) {
-        ipv6.push(dataView.getUint16(i * 2).toString(16));
-      }
-      address = ipv6.join(":");
-      break;
-    default:
-      return {
-        hasError: true,
-        message: `invalid addressType is ${atype}`
-      };
-  }
-  if (!address) {
-    return {
-      hasError: true,
-      message: `address is empty, addressType is ${atype}`
-    };
-  }
-  const portIndex = addressIndex + addressLength;
-  const portBuffer = socks5DataBuffer.slice(portIndex, portIndex + 2);
-  const portRemote = new DataView(portBuffer).getUint16(0);
-  return {
-    hasError: false,
-    addressRemote: address,
-    portRemote,
-    rawClientData: socks5DataBuffer.slice(portIndex + 4)
-  };
-}
-async function handleTCPOutBound(request, remoteSocket, addressRemote, portRemote, rawClientData, webSocket, vlessResponseHeader, log) {
-  async function connectAndWrite(address, port) {
-    if (/^(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?).){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/.test(address))
-      address = `${atob("d3d3Lg==")}${address}${atob("LnNzbGlwLmlv")}`;
-    const tcpSocket2 = connect({
-      hostname: address,
-      port
+__defProp(renderLoginPage, "name", {
+  'value': "renderLoginPage",
+  'configurable': true
+});
+async function generateJWTToken(_0x538e63, _0x5bbaa2) {
+  const _0x43c23d = await _0x538e63.text();
+  const _0x30bed0 = await _0x5bbaa2.bpb.get("pwd");
+  if (_0x43c23d !== _0x30bed0) {
+    return new Response("Method Not Allowed", {
+      'status': 0x195
     });
-    remoteSocket.value = tcpSocket2;
-    log(`connected to ${address}:${port}`);
-    const writer = tcpSocket2.writable.getWriter();
-    await writer.write(rawClientData);
-    writer.releaseLock();
-    return tcpSocket2;
   }
-  async function retry() {
-    const { pathname } = new URL(request.url);
-    let panelProxyIP = pathname.split("/")[2];
-    panelProxyIP = panelProxyIP ? atob(panelProxyIP) : void 0;
-    const tcpSocket2 = await connectAndWrite(panelProxyIP || proxyIP || addressRemote, portRemote);
-    tcpSocket2.closed.catch((error) => {
-      console.log("retry tcpSocket closed error", error);
-    }).finally(() => {
-      safeCloseWebSocket(webSocket);
-    });
-    vlessResponseHeader ? vlessRemoteSocketToWS(tcpSocket2, webSocket, vlessResponseHeader, null, log) : trojanRemoteSocketToWS(tcpSocket2, webSocket, null, log);
+  let _0xec6f91 = await _0x5bbaa2.bpb.get("secretKey");
+  if (!_0xec6f91) {
+    _0xec6f91 = generateSecretKey();
+    await _0x5bbaa2.bpb.put("secretKey", _0xec6f91);
   }
-  const tcpSocket = await connectAndWrite(addressRemote, portRemote);
-  vlessResponseHeader ? vlessRemoteSocketToWS(tcpSocket, webSocket, vlessResponseHeader, retry, log) : trojanRemoteSocketToWS(tcpSocket, webSocket, retry, log);
-}
-function makeReadableWebSocketStream(webSocketServer, earlyDataHeader, log) {
-  let readableStreamCancel = false;
-  const stream = new ReadableStream({
-    start(controller) {
-      webSocketServer.addEventListener("message", (event) => {
-        if (readableStreamCancel) {
-          return;
-        }
-        const message2 = event.data;
-        controller.enqueue(message2);
-      });
-      webSocketServer.addEventListener("close", () => {
-        safeCloseWebSocket(webSocketServer);
-        if (readableStreamCancel) {
-          return;
-        }
-        controller.close();
-      });
-      webSocketServer.addEventListener("error", (err) => {
-        log("webSocketServer has error");
-        controller.error(err);
-      });
-      const { earlyData, error } = base64ToArrayBuffer(earlyDataHeader);
-      if (error) {
-        controller.error(error);
-      } else if (earlyData) {
-        controller.enqueue(earlyData);
-      }
-    },
-    pull(controller) {
-    },
-    cancel(reason) {
-      if (readableStreamCancel) {
-        return;
-      }
-      log(`ReadableStream was canceled, due to ${reason}`);
-      readableStreamCancel = true;
-      safeCloseWebSocket(webSocketServer);
+  const _0x5247d9 = new TextEncoder().encode(_0xec6f91);
+  const _0x279c42 = await new SignJWT({
+    'userID': globalThis.userID
+  }).setProtectedHeader({
+    'alg': "HS256"
+  }).setIssuedAt().setExpirationTime("24h").sign(_0x5247d9);
+  return new Response("Success", {
+    'status': 0xc8,
+    'headers': {
+      'Set-Cookie': "jwtToken=" + _0x279c42 + "; HttpOnly; Secure; Max-Age=" + 604800 + "; Path=/; SameSite=Strict",
+      'Content-Type': "text/plain"
     }
   });
-  return stream;
 }
-async function processVlessHeader(vlessBuffer, userID2) {
-  if (vlessBuffer.byteLength < 24) {
-    return {
-      hasError: true,
-      message: "invalid data"
-    };
-  }
-  const version = new Uint8Array(vlessBuffer.slice(0, 1));
-  let isValidUser = false;
-  let isUDP = false;
-  const slicedBuffer = new Uint8Array(vlessBuffer.slice(1, 17));
-  const slicedBufferString = stringify(slicedBuffer);
-  const uuids = userID2.includes(",") ? userID2.split(",") : [userID2];
-  const checkUuidInApi = await checkUuidInApiResponse(slicedBufferString);
-  isValidUser = uuids.some((userUuid) => checkUuidInApi || slicedBufferString === userUuid.trim());
-  console.log(`checkUuidInApi: ${await checkUuidInApiResponse(slicedBufferString)}, userID: ${slicedBufferString}`);
-  if (!isValidUser) {
-    return {
-      hasError: true,
-      message: "invalid user"
-    };
-  }
-  const optLength = new Uint8Array(vlessBuffer.slice(17, 18))[0];
-  const command = new Uint8Array(vlessBuffer.slice(18 + optLength, 18 + optLength + 1))[0];
-  if (command === 1) {
-  } else if (command === 2) {
-    isUDP = true;
-  } else {
-    return {
-      hasError: true,
-      message: `command ${command} is not support, command 01-tcp,02-udp,03-mux`
-    };
-  }
-  const portIndex = 18 + optLength + 1;
-  const portBuffer = vlessBuffer.slice(portIndex, portIndex + 2);
-  const portRemote = new DataView(portBuffer).getUint16(0);
-  let addressIndex = portIndex + 2;
-  const addressBuffer = new Uint8Array(vlessBuffer.slice(addressIndex, addressIndex + 1));
-  const addressType = addressBuffer[0];
-  let addressLength = 0;
-  let addressValueIndex = addressIndex + 1;
-  let addressValue = "";
-  switch (addressType) {
-    case 1:
-      addressLength = 4;
-      addressValue = new Uint8Array(vlessBuffer.slice(addressValueIndex, addressValueIndex + addressLength)).join(".");
-      break;
-    case 2:
-      addressLength = new Uint8Array(vlessBuffer.slice(addressValueIndex, addressValueIndex + 1))[0];
-      addressValueIndex += 1;
-      addressValue = new TextDecoder().decode(vlessBuffer.slice(addressValueIndex, addressValueIndex + addressLength));
-      break;
-    case 3:
-      addressLength = 16;
-      const dataView = new DataView(vlessBuffer.slice(addressValueIndex, addressValueIndex + addressLength));
-      const ipv6 = [];
-      for (let i = 0; i < 8; i++) {
-        ipv6.push(dataView.getUint16(i * 2).toString(16));
-      }
-      addressValue = ipv6.join(":");
-      break;
-    default:
-      return {
-        hasError: true,
-        message: `invild  addressType is ${addressType}`
-      };
-  }
-  if (!addressValue) {
-    return {
-      hasError: true,
-      message: `addressValue is empty, addressType is ${addressType}`
-    };
-  }
-  return {
-    hasError: false,
-    addressRemote: addressValue,
-    addressType,
-    portRemote,
-    rawDataIndex: addressValueIndex + addressLength,
-    vlessVersion: version,
-    isUDP
-  };
-}
-async function vlessRemoteSocketToWS(remoteSocket, webSocket, vlessResponseHeader, retry, log) {
-  let remoteChunkCount = 0;
-  let chunks = [];
-  let vlessHeader = vlessResponseHeader;
-  let hasIncomingData = false;
-  await remoteSocket.readable.pipeTo(
-    new WritableStream({
-      start() {
-      },
-      /**
-       *
-       * @param {Uint8Array} chunk
-       * @param {*} controller
-       */
-      async write(chunk, controller) {
-        hasIncomingData = true;
-        if (webSocket.readyState !== WS_READY_STATE_OPEN) {
-          controller.error("webSocket.readyState is not open, maybe close");
-        }
-        if (vlessHeader) {
-          webSocket.send(await new Blob([vlessHeader, chunk]).arrayBuffer());
-          vlessHeader = null;
-        } else {
-          webSocket.send(chunk);
-        }
-      },
-      close() {
-        log(`remoteConnection!.readable is close with hasIncomingData is ${hasIncomingData}`);
-      },
-      abort(reason) {
-        console.error(`remoteConnection!.readable abort`, reason);
-      }
-    })
-  ).catch((error) => {
-    console.error(`vlessRemoteSocketToWS has exception `, error.stack || error);
-    safeCloseWebSocket(webSocket);
-  });
-  if (hasIncomingData === false && retry) {
-    log(`retry`);
-    retry();
-  }
-}
-async function trojanRemoteSocketToWS(remoteSocket, webSocket, retry, log) {
-  let hasIncomingData = false;
-  await remoteSocket.readable.pipeTo(
-    new WritableStream({
-      start() {
-      },
-      /**
-       *
-       * @param {Uint8Array} chunk
-       * @param {*} controller
-       */
-      async write(chunk, controller) {
-        hasIncomingData = true;
-        if (webSocket.readyState !== WS_READY_STATE_OPEN) {
-          controller.error("webSocket connection is not open");
-        }
-        webSocket.send(chunk);
-      },
-      close() {
-        log(`remoteSocket.readable is closed, hasIncomingData: ${hasIncomingData}`);
-      },
-      abort(reason) {
-        console.error("remoteSocket.readable abort", reason);
-      }
-    })
-  ).catch((error) => {
-    console.error(`trojanRemoteSocketToWS error:`, error.stack || error);
-    safeCloseWebSocket(webSocket);
-  });
-  if (hasIncomingData === false && retry) {
-    log(`retry`);
-    retry();
-  }
-}
-function base64ToArrayBuffer(base64Str) {
-  if (!base64Str) {
-    return { earlyData: null, error: null };
-  }
-  try {
-    base64Str = base64Str.replace(/-/g, "+").replace(/_/g, "/");
-    const decode2 = atob(base64Str);
-    const arryBuffer = Uint8Array.from(decode2, (c) => c.charCodeAt(0));
-    return { earlyData: arryBuffer.buffer, error: null };
-  } catch (error) {
-    return { earlyData: null, error };
-  }
-}
-function isValidUUID(uuid) {
-  const uuidRegex = /^[0-9a-f]{8}-[0-9a-f]{4}-[4][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
-  return uuidRegex.test(uuid);
-}
-var WS_READY_STATE_OPEN = 1;
-var WS_READY_STATE_CLOSING = 2;
-function safeCloseWebSocket(socket) {
-  try {
-    if (socket.readyState === WS_READY_STATE_OPEN || socket.readyState === WS_READY_STATE_CLOSING) {
-      socket.close();
-    }
-  } catch (error) {
-    console.error("safeCloseWebSocket error", error);
-  }
-}
-var byteToHex = [];
-for (let i = 0; i < 256; ++i) {
-  byteToHex.push((i + 256).toString(16).slice(1));
-}
-function unsafeStringify(arr, offset = 0) {
-  return (byteToHex[arr[offset + 0]] + byteToHex[arr[offset + 1]] + byteToHex[arr[offset + 2]] + byteToHex[arr[offset + 3]] + "-" + byteToHex[arr[offset + 4]] + byteToHex[arr[offset + 5]] + "-" + byteToHex[arr[offset + 6]] + byteToHex[arr[offset + 7]] + "-" + byteToHex[arr[offset + 8]] + byteToHex[arr[offset + 9]] + "-" + byteToHex[arr[offset + 10]] + byteToHex[arr[offset + 11]] + byteToHex[arr[offset + 12]] + byteToHex[arr[offset + 13]] + byteToHex[arr[offset + 14]] + byteToHex[arr[offset + 15]]).toLowerCase();
-}
-function stringify(arr, offset = 0) {
-  const uuid = unsafeStringify(arr, offset);
-  if (!isValidUUID(uuid)) {
-    throw TypeError("Stringified UUID is invalid");
-  }
-  return uuid;
-}
-async function handleUDPOutBound(webSocket, vlessResponseHeader, log) {
-  let isVlessHeaderSent = false;
-  const transformStream = new TransformStream({
-    start(controller) {
-    },
-    transform(chunk, controller) {
-      for (let index = 0; index < chunk.byteLength; ) {
-        const lengthBuffer = chunk.slice(index, index + 2);
-        const udpPakcetLength = new DataView(lengthBuffer).getUint16(0);
-        const udpData = new Uint8Array(chunk.slice(index + 2, index + 2 + udpPakcetLength));
-        index = index + 2 + udpPakcetLength;
-        controller.enqueue(udpData);
-      }
-    },
-    flush(controller) {
-    }
-  });
-  transformStream.readable.pipeTo(
-    new WritableStream({
-      async write(chunk) {
-        const resp = await fetch(
-          dohURL,
-          // dns server url
-          {
-            method: "POST",
-            headers: {
-              "content-type": "application/dns-message"
-            },
-            body: chunk
-          }
-        );
-        const dnsQueryResult = await resp.arrayBuffer();
-        const udpSize = dnsQueryResult.byteLength;
-        const udpSizeBuffer = new Uint8Array([udpSize >> 8 & 255, udpSize & 255]);
-        if (webSocket.readyState === WS_READY_STATE_OPEN) {
-          log(`doh success and dns message length is ${udpSize}`);
-          if (isVlessHeaderSent) {
-            webSocket.send(await new Blob([udpSizeBuffer, dnsQueryResult]).arrayBuffer());
-          } else {
-            webSocket.send(await new Blob([vlessResponseHeader, udpSizeBuffer, dnsQueryResult]).arrayBuffer());
-            isVlessHeaderSent = true;
-          }
-        }
-      }
-    })
-  ).catch((error) => {
-    log("dns udp has error" + error);
-  });
-  const writer = transformStream.writable.getWriter();
-  return {
-    /**
-     *
-     * @param {Uint8Array} chunk
-    */
-    write(chunk) {
-      writer.write(chunk);
-    }
-  };
-}
-var generateKeyPair = () => {
-  const base64Encode = (array) => btoa(String.fromCharCode.apply(null, array));
-  let privateKey = import_tweetnacl.default.randomBytes(32);
-  privateKey[0] &= 248;
-  privateKey[31] &= 127;
-  privateKey[31] |= 64;
-  let publicKey = import_tweetnacl.default.scalarMult.base(privateKey);
-  const publicKeyBase64 = base64Encode(publicKey);
-  const privateKeyBase64 = base64Encode(privateKey);
-  return { publicKey: publicKeyBase64, privateKey: privateKeyBase64 };
-};
-function generateRemark(index, port, address, cleanIPs, protocol, configType) {
-  let remark = "";
-  let addressType;
-  const type = configType ? ` ${configType}` : "";
-  cleanIPs.includes(address) ? addressType = "Clean IP" : addressType = isDomain(address) ? "Domain" : isIPv4(address) ? "IPv4" : isIPv6(address) ? "IPv6" : "";
-  return `\u{1F4A6} ${index} - ${protocol}${type} - ${addressType} : ${port}`;
-}
-function isDomain(address) {
-  const domainPattern = /^(?!\-)(?:[A-Za-z0-9\-]{1,63}\.?)+[A-Za-z]{2,}$/;
-  return domainPattern.test(address);
-}
-function isIPv4(address) {
-  const ipv4Pattern = /^(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/;
-  return ipv4Pattern.test(address);
-}
-function isIPv6(address) {
-  const ipv6Pattern = /^\[(?:(?:[a-fA-F0-9]{1,4}:){7}[a-fA-F0-9]{1,4}|(?:[a-fA-F0-9]{1,4}:){1,7}:|::(?:[a-fA-F0-9]{1,4}:){0,7}|(?:[a-fA-F0-9]{1,4}:){1,6}:[a-fA-F0-9]{1,4}|(?:[a-fA-F0-9]{1,4}:){1,5}(?::[a-fA-F0-9]{1,4}){1,2}|(?:[a-fA-F0-9]{1,4}:){1,4}(?::[a-fA-F0-9]{1,4}){1,3}|(?:[a-fA-F0-9]{1,4}:){1,3}(?::[a-fA-F0-9]{1,4}){1,4}|(?:[a-fA-F0-9]{1,4}:){1,2}(?::[a-fA-F0-9]{1,4}){1,5}|[a-fA-F0-9]{1,4}:(?::[a-fA-F0-9]{1,4}){1,6})\]$/;
-  return ipv6Pattern.test(address);
-}
-function base64ToDecimal(base64) {
-  const binaryString = atob(base64);
-  const hexString = Array.from(binaryString).map((char) => char.charCodeAt(0).toString(16).padStart(2, "0")).join("");
-  const decimalArray = hexString.match(/.{2}/g).map((hex) => parseInt(hex, 16));
-  return decimalArray;
-}
-async function getDataset(env) {
-  let proxySettings, warpConfigs;
-  if (typeof env.bpb !== "object") {
-    return { kvNotFound: true, proxySettings: null, warpConfigs: null };
-  }
-  try {
-    proxySettings = await env.bpb.get("proxySettings", { type: "json" });
-    warpConfigs = await env.bpb.get("warpConfigs", { type: "json" });
-  } catch (error) {
-    console.log(error);
-    throw new Error(`An error occurred while getting KV - ${error}`);
-  }
-  if (!proxySettings) {
-    proxySettings = await updateDataset(env);
-    const { error, configs } = await fetchWgConfig(env, proxySettings);
-    if (error)
-      throw new Error(`An error occurred while getting Warp configs - ${error}`);
-    warpConfigs = configs;
-  }
-  if (panelVersion !== proxySettings.panelVersion)
-    proxySettings = await updateDataset(env);
-  return { kvNotFound: false, proxySettings, warpConfigs };
-}
-async function updateDataset(env, newSettings, resetSettings) {
-  let currentSettings;
-  if (!resetSettings) {
-    try {
-      currentSettings = await env.bpb.get("proxySettings", { type: "json" });
-    } catch (error) {
-      console.log(error);
-      throw new Error(`An error occurred while getting current KV settings - ${error}`);
-    }
-  } else {
-    await env.bpb.delete("warpConfigs");
-  }
-  const validateField = (field) => {
-    const fieldValue = newSettings?.get(field);
-    if (fieldValue === void 0)
-      return null;
-    if (fieldValue === "true")
-      return true;
-    if (fieldValue === "false")
-      return false;
-    return fieldValue;
-  };
-  const remoteDNS = validateField("remoteDNS") ?? currentSettings?.remoteDNS ?? "https://8.8.8.8/dns-query";
-  const url = new URL(remoteDNS);
-  const remoteDNSServer = url.hostname;
-  const isServerDomain = isDomain(remoteDNSServer);
-  let resolvedRemoteDNS;
-  if (isServerDomain) {
-    try {
-      const resolvedDomain = await resolveDNS(remoteDNSServer);
-      resolvedRemoteDNS = {
-        server: remoteDNSServer,
-        staticIPs: [...resolvedDomain.ipv4, ...resolvedDomain.ipv6]
-      };
-    } catch (error) {
-      console.log(error);
-      throw new Error(`An error occurred while resolving remote DNS server, please try agian! - ${error}`);
-    }
-  }
-  const proxySettings = {
-    remoteDNS,
-    resolvedRemoteDNS: resolvedRemoteDNS ?? {},
-    localDNS: validateField("localDNS") ?? currentSettings?.localDNS ?? "8.8.8.8",
-    vlessTrojanFakeDNS: validateField("vlessTrojanFakeDNS") ?? currentSettings?.vlessTrojanFakeDNS ?? false,
-    proxyIP: validateField("proxyIP")?.trim() ?? currentSettings?.proxyIP ?? "",
-    outProxy: validateField("outProxy") ?? currentSettings?.outProxy ?? "",
-    outProxyParams: extractChainProxyParams(validateField("outProxy")) ?? currentSettings?.outProxyParams ?? "",
-    cleanIPs: validateField("cleanIPs")?.replaceAll(" ", "") ?? currentSettings?.cleanIPs ?? "",
-    enableIPv6: validateField("enableIPv6") ?? currentSettings?.enableIPv6 ?? true,
-    customCdnAddrs: validateField("customCdnAddrs")?.replaceAll(" ", "") ?? currentSettings?.customCdnAddrs ?? "",
-    customCdnHost: validateField("customCdnHost")?.trim() ?? currentSettings?.customCdnHost ?? "",
-    customCdnSni: validateField("customCdnSni")?.trim() ?? currentSettings?.customCdnSni ?? "",
-    bestVLESSTrojanInterval: validateField("bestVLESSTrojanInterval") ?? currentSettings?.bestVLESSTrojanInterval ?? "30",
-    vlessConfigs: validateField("vlessConfigs") ?? currentSettings?.vlessConfigs ?? true,
-    trojanConfigs: validateField("trojanConfigs") ?? currentSettings?.trojanConfigs ?? false,
-    ports: validateField("ports")?.split(",") ?? currentSettings?.ports ?? ["443"],
-    lengthMin: validateField("fragmentLengthMin") ?? currentSettings?.lengthMin ?? "100",
-    lengthMax: validateField("fragmentLengthMax") ?? currentSettings?.lengthMax ?? "200",
-    intervalMin: validateField("fragmentIntervalMin") ?? currentSettings?.intervalMin ?? "1",
-    intervalMax: validateField("fragmentIntervalMax") ?? currentSettings?.intervalMax ?? "1",
-    fragmentPackets: validateField("fragmentPackets") ?? currentSettings?.fragmentPackets ?? "tlshello",
-    bypassLAN: validateField("bypass-lan") ?? currentSettings?.bypassLAN ?? false,
-    bypassIran: validateField("bypass-iran") ?? currentSettings?.bypassIran ?? false,
-    bypassChina: validateField("bypass-china") ?? currentSettings?.bypassChina ?? false,
-    bypassRussia: validateField("bypass-russia") ?? currentSettings?.bypassRussia ?? false,
-    blockAds: validateField("block-ads") ?? currentSettings?.blockAds ?? false,
-    blockPorn: validateField("block-porn") ?? currentSettings?.blockPorn ?? false,
-    blockUDP443: validateField("block-udp-443") ?? currentSettings?.blockUDP443 ?? false,
-    warpEndpoints: validateField("warpEndpoints")?.replaceAll(" ", "") ?? currentSettings?.warpEndpoints ?? "engage.cloudflareclient.com:2408",
-    warpFakeDNS: validateField("warpFakeDNS") ?? currentSettings?.warpFakeDNS ?? false,
-    warpPlusLicense: validateField("warpPlusLicense") ?? currentSettings?.warpPlusLicense ?? "",
-    bestWarpInterval: validateField("bestWarpInterval") ?? currentSettings?.bestWarpInterval ?? "30",
-    hiddifyNoiseMode: validateField("hiddifyNoiseMode") ?? currentSettings?.hiddifyNoiseMode ?? "m4",
-    nikaNGNoiseMode: validateField("nikaNGNoiseMode") ?? currentSettings?.nikaNGNoiseMode ?? "quic",
-    noiseCountMin: validateField("noiseCountMin") ?? currentSettings?.noiseCountMin ?? "10",
-    noiseCountMax: validateField("noiseCountMax") ?? currentSettings?.noiseCountMax ?? "15",
-    noiseSizeMin: validateField("noiseSizeMin") ?? currentSettings?.noiseSizeMin ?? "5",
-    noiseSizeMax: validateField("noiseSizeMax") ?? currentSettings?.noiseSizeMax ?? "10",
-    noiseDelayMin: validateField("noiseDelayMin") ?? currentSettings?.noiseDelayMin ?? "1",
-    noiseDelayMax: validateField("noiseDelayMax") ?? currentSettings?.noiseDelayMax ?? "1",
-    panelVersion
-  };
-  try {
-    await env.bpb.put("proxySettings", JSON.stringify(proxySettings));
-  } catch (error) {
-    console.log(error);
-    throw new Error(`An error occurred while updating KV - ${error}`);
-  }
-  return proxySettings;
-}
-function randomUpperCase(str) {
-  let result = "";
-  for (let i = 0; i < str.length; i++) {
-    result += Math.random() < 0.5 ? str[i].toUpperCase() : str[i];
-  }
-  return result;
-}
-function getRandomPath(length) {
-  let result = "";
-  const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-  const charactersLength = characters.length;
-  for (let i = 0; i < length; i++) {
-    result += characters.charAt(Math.floor(Math.random() * charactersLength));
-  }
-  return result;
-}
-async function resolveDNS(domain) {
-  const dohURLv4 = `${dohURL}?name=${encodeURIComponent(domain)}&type=A`;
-  const dohURLv6 = `${dohURL}?name=${encodeURIComponent(domain)}&type=AAAA`;
-  try {
-    const [ipv4Response, ipv6Response] = await Promise.all([
-      fetch(dohURLv4, { headers: { accept: "application/dns-json" } }),
-      fetch(dohURLv6, { headers: { accept: "application/dns-json" } })
-    ]);
-    const ipv4Addresses = await ipv4Response.json();
-    const ipv6Addresses = await ipv6Response.json();
-    const ipv4 = ipv4Addresses.Answer ? ipv4Addresses.Answer.map((record) => record.data) : [];
-    const ipv6 = ipv6Addresses.Answer ? ipv6Addresses.Answer.map((record) => record.data) : [];
-    return { ipv4, ipv6 };
-  } catch (error) {
-    console.error("Error resolving DNS:", error);
-    throw new Error(`An error occurred while resolving DNS - ${error}`);
-  }
-}
-async function getConfigAddresses(hostName, cleanIPs, enableIPv6) {
-  const resolved = await resolveDNS(hostName);
-  const defaultIPv6 = enableIPv6 ? resolved.ipv6.map((ip) => `[${ip}]`) : [];
-  return [
-    hostName,
-    "www.speedtest.net",
-    ...resolved.ipv4,
-    ...defaultIPv6,
-    ...cleanIPs ? cleanIPs.split(",") : []
-  ];
-}
-async function generateJWTToken(secretKey) {
-  const secret = new TextEncoder().encode(secretKey);
-  return await new SignJWT({ userID }).setProtectedHeader({ alg: "HS256" }).setIssuedAt().setExpirationTime("24h").sign(secret);
-}
+__defProp(generateJWTToken, "name", {
+  'value': "generateJWTToken",
+  'configurable': true
+});
 function generateSecretKey() {
-  const key = import_tweetnacl.default.randomBytes(32);
-  return Array.from(key, (byte) => byte.toString(16).padStart(2, "0")).join("");
+  const _0x4bf435 = import_tweetnacl["default"].randomBytes(0x20);
+  return Array.from(_0x4bf435, _0x51e811 => _0x51e811.toString(0x10).padStart(0x2, '0')).join('');
 }
-async function Authenticate(request, env) {
+__defProp(generateSecretKey, "name", {
+  'value': "generateSecretKey",
+  'configurable': true
+});
+async function Authenticate(_0x1a9791, _0x236670) {
   try {
-    const secretKey = await env.bpb.get("secretKey");
-    const secret = new TextEncoder().encode(secretKey);
-    const cookie = request.headers.get("Cookie")?.match(/(^|;\s*)jwtToken=([^;]*)/);
-    const token = cookie ? cookie[2] : null;
-    if (!token) {
+    const _0x584f72 = await _0x236670.bpb.get("secretKey");
+    const _0x45f367 = new TextEncoder().encode(_0x584f72);
+    const _0x28d3f2 = _0x1a9791.headers.get("Cookie")?.["match"](/(^|;\s*)jwtToken=([^;]*)/);
+    const _0x2b1241 = _0x28d3f2 ? _0x28d3f2[0x2] : null;
+    if (!_0x2b1241) {
       console.log("Unauthorized: Token not available!");
       return false;
     }
-    const { payload } = await jwtVerify(token, secret);
-    console.log(`Successfully logined, User ID: ${payload.userID}`);
+    const {
+      payload: _0x5c9641
+    } = await jwtVerify(_0x2b1241, _0x45f367);
+    console.log("Successfully authenticated, User ID: " + _0x5c9641.userID);
     return true;
-  } catch (error) {
-    console.log(error);
+  } catch (_0x1b325a) {
+    console.log(_0x1b325a);
     return false;
   }
 }
-function renderHomePage(proxySettings, hostName, isPassSet) {
-  const {
-    remoteDNS,
-    localDNS,
-    vlessTrojanFakeDNS,
-    proxyIP: proxyIP2,
-    outProxy,
-    cleanIPs,
-    enableIPv6,
-    customCdnAddrs,
-    customCdnHost,
-    customCdnSni,
-    bestVLESSTrojanInterval,
-    vlessConfigs,
-    trojanConfigs,
-    ports,
-    lengthMin,
-    lengthMax,
-    intervalMin,
-    intervalMax,
-    fragmentPackets,
-    warpEndpoints,
-    warpFakeDNS,
-    warpPlusLicense,
-    bestWarpInterval,
-    hiddifyNoiseMode,
-    nikaNGNoiseMode,
-    noiseCountMin,
-    noiseCountMax,
-    noiseSizeMin,
-    noiseSizeMax,
-    noiseDelayMin,
-    noiseDelayMax,
-    bypassLAN,
-    bypassIran,
-    bypassChina,
-    bypassRussia,
-    blockAds,
-    blockPorn,
-    blockUDP443
-  } = proxySettings;
-  const isWarpPlus = warpPlusLicense ? true : false;
-  let activeProtocols = (vlessConfigs ? 1 : 0) + (trojanConfigs ? 1 : 0);
-  let httpPortsBlock = "", httpsPortsBlock = "";
-  const allPorts = [...hostName.includes("workers.dev") ? defaultHttpPorts : [], ...defaultHttpsPorts];
-  allPorts.forEach((port) => {
-    let id = `port-${port}`;
-    const isChecked = ports.includes(port) ? "checked" : "";
-    let portBlock = `
-            <div class="routing" style="grid-template-columns: 1fr 2fr; margin-right: 10px;">
-                <input type="checkbox" id=${id} name=${port} onchange="handlePortChange(event)" value="true" ${isChecked}>
-                <label style="margin-bottom: 3px;" for=${id}>${port}</label>
-            </div>`;
-    defaultHttpsPorts.includes(port) ? httpsPortsBlock += portBlock : httpPortsBlock += portBlock;
+__defProp(Authenticate, "name", {
+  'value': "Authenticate",
+  'configurable': true
+});
+function logout() {
+  return new Response("Success", {
+    'status': 0xc8,
+    'headers': {
+      'Set-Cookie': "jwtToken=; Secure; SameSite=None; Expires=Thu, 01 Jan 1970 00:00:00 GMT",
+      'Content-Type': "text/plain"
+    }
   });
-  const html = `
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>BPB Panel ${panelVersion}</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-        <title>Collapsible Sections</title>
-        <style>
-            :root {
-                --color: black;
-                --primary-color: #09639f;
-                --secondary-color: #3498db;
-                --header-color: #09639f; 
-                --background-color: #fff;
-                --form-background-color: #f9f9f9;
-                --table-active-color: #f2f2f2;
-                --hr-text-color: #3b3b3b;
-                --lable-text-color: #333;
-                --border-color: #ddd;
-                --button-color: #09639f;
-                --input-background-color: white;
-                --header-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
-            }
-            body { font-family: system-ui; background-color: var(--background-color); color: var(--color) }
-            body.dark-mode {
-                --color: white;
-                --primary-color: #09639F;
-                --secondary-color: #3498DB;
-                --header-color: #3498DB; 
-                --background-color: #121212;
-                --form-background-color: #121212;
-                --table-active-color: #252525;
-                --hr-text-color: #D5D5D5;
-                --lable-text-color: #DFDFDF;
-                --border-color: #353535;
-                --button-color: #3498DB;
-                --input-background-color: #252525;
-                --header-shadow: 2px 2px 4px rgba(255, 255, 255, 0.25);
-            }
-            .material-symbols-outlined {
-                margin-left: 5px;
-                font-variation-settings:
-                'FILL' 0,
-                'wght' 400,
-                'GRAD' 0,
-                'opsz' 24
-            }
-            details { border-bottom: 1px solid var(--border-color); }
-            summary {
-                font-weight: bold;
-                cursor: pointer;
-                text-align: center;
-                text-wrap: nowrap;
-            }
-            summary::marker { font-size: 1.5rem; color: var(--secondary-color); }
-            summary h2 { display: inline-flex; }
-            h1 { font-size: 2.5em; text-align: center; color: var(--header-color); text-shadow: var(--header-shadow); }
-            h2 { margin: 30px 0; text-align: center; color: var(--hr-text-color); }
-            hr { border: 1px solid var(--border-color); margin: 20px 0; }
-            .footer {
-                display: flex;
-                font-weight: 600;
-                margin: 10px auto 0 auto;
-                justify-content: center;
-                align-items: center;
-            }
-            .footer button {margin: 0 20px; background: #212121; max-width: fit-content;}
-            .footer button:hover, .footer button:focus { background: #3b3b3b;}
-            .form-control a, a.link { text-decoration: none; }
-            .form-control {
-                margin-bottom: 20px;
-                font-family: Arial, sans-serif;
-                display: flex;
-                flex-direction: column;
-            }
-            .form-control button {
-                background-color: var(--form-background-color);
-                font-size: 1.1rem;
-                font-weight: 600;
-                color: var(--button-color);
-                border-color: var(--primary-color);
-                border: 1px solid;
-            }
-            #apply {display: block; margin-top: 20px;}
-            input.button {font-weight: 600; padding: 15px 0; font-size: 1.1rem;}
-            label {
-                display: block;
-                margin-bottom: 5px;
-                font-size: 110%;
-                font-weight: 600;
-                color: var(--lable-text-color);
-            }
-            input[type="text"],
-            input[type="number"],
-            input[type="url"],
-            textarea,
-            select {
-                width: 100%;
-                text-align: center;
-                padding: 10px;
-                border: 1px solid var(--border-color);
-                border-radius: 5px;
-                font-size: 16px;
-                color: var(--lable-text-color);
-                background-color: var(--input-background-color);
-                box-sizing: border-box;
-                transition: border-color 0.3s ease;
-            }	
-            input[type="text"]:focus,
-            input[type="number"]:focus,
-            input[type="url"]:focus,
-            textarea:focus,
-            select:focus { border-color: var(--secondary-color); outline: none; }
-            .button,
-            table button {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                width: 100%;
-                white-space: nowrap;
-                padding: 10px 15px;
-                font-size: 16px;
-                font-weight: 600;
-                letter-spacing: 1px;
-                border: none;
-                border-radius: 5px;
-                color: white;
-                background-color: var(--primary-color);
-                cursor: pointer;
-                outline: none;
-                box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-                transition: all 0.3s ease;
-            }
-            input[type="checkbox"] { 
-                background-color: var(--input-background-color);
-                style="margin: 0; 
-                grid-column: 2;"
-            }
-            table button { margin: auto; width: auto; }
-            .button.disabled {
-                background-color: #ccc;
-                cursor: not-allowed;
-                box-shadow: none;
-                pointer-events: none;
-            }
-            .button:hover,
-            table button:hover,
-            table button:focus {
-                background-color: #2980b9;
-                box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
-                transform: translateY(-2px);
-            }
-            button.button:hover { color: white; }
-            .button:active,
-            table button:active { transform: translateY(1px); box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3); }
-            .form-container {
-                max-width: 90%;
-                margin: 0 auto;
-                padding: 20px;
-                background: var(--form-background-color);
-                border: 1px solid var(--border-color);
-                border-radius: 10px;
-                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-                margin-bottom: 100px;
-            }
-            .table-container { margin-top: 20px; overflow-x: auto; }
-            table { 
-                width: 100%;
-                border: 1px solid var(--border-color);
-                border-collapse: separate;
-                border-spacing: 0; 
-                border-radius: 10px;
-                margin-bottom: 20px;
-                overflow: hidden;
-            }
-            th, td { padding: 10px; border-bottom: 1px solid var(--border-color); }
-            td div { display: flex; align-items: center; }
-            th { background-color: var(--secondary-color); color: white; font-weight: bold; font-size: 1.1rem; width: 50%;}
-            td:last-child { background-color: var(--table-active-color); }               
-            tr:hover { background-color: var(--table-active-color); }
-            .modal {
-                display: none;
-                position: fixed;
-                z-index: 1;
-                left: 0;
-                top: 0;
-                width: 100%;
-                height: 100%;
-                overflow: auto;
-                background-color: rgba(0, 0, 0, 0.4);
-            }
-            .modal-content {
-                background-color: var(--form-background-color);
-                margin: auto;
-                padding: 10px 20px 20px;
-                border: 1px solid var(--border-color);
-                border-radius: 10px;
-                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-                width: 80%;
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-            }
-            .close { color: var(--color); float: right; font-size: 28px; font-weight: bold; }
-            .close:hover,
-            .close:focus { color: black; text-decoration: none; cursor: pointer; }
-            .form-control label {
-                display: block;
-                margin-bottom: 8px;
-                font-size: 110%;
-                font-weight: 600;
-                color: var(--lable-text-color);
-                line-height: 1.3em;
-            }
-            .form-control input[type="password"] {
-                width: 100%;
-                padding: 10px;
-                border: 1px solid var(--border-color);
-                border-radius: 5px;
-                font-size: 16px;
-                color: var(--lable-text-color);
-                background-color: var(--input-background-color);
-                box-sizing: border-box;
-                margin-bottom: 15px;
-                transition: border-color 0.3s ease;
-            }
-            .routing { 
-                display: grid;
-                justify-content: flex-start;
-                grid-template-columns: 1fr 1fr 10fr 1fr;
-                margin-bottom: 15px;
-            }
-            .form-control .routing input { grid-column: 2 / 3; }
-            #routing-rules.form-control { display: grid; grid-template-columns: 1fr 1fr; }
-            .routing label {
-                text-align: left;
-                margin: 0 0 0 10px;
-                font-weight: 400;
-                font-size: 100%;
-                text-wrap: nowrap;
-            }
-            .form-control input[type="password"]:focus { border-color: var(--secondary-color); outline: none; }
-            #passwordError { color: red; margin-bottom: 10px; }
-            .symbol { margin-right: 8px; }
-            .modalQR {
-                display: none;
-                position: fixed;
-                z-index: 1;
-                left: 0;
-                top: 0;
-                width: 100%;
-                height: 100%;
-                overflow: auto;
-                background-color: rgba(0, 0, 0, 0.4);
-            }
-            .floating-button {
-                position: fixed;
-                bottom: 20px;
-                left: 20px;
-                background-color: var(--color);
-                color: white;
-                border: none;
-                border-radius: 50%;
-                width: 60px;
-                height: 60px;
-                font-size: 24px;
-                cursor: pointer;
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-                transition: background-color 0.3s, transform 0.3s;
-            }
-            .floating-button:hover { transform: scale(1.1); }
-            .min-max { display: grid; grid-template-columns: 1fr auto 1fr; align-items: baseline; width: 100%; }
-            .min-max span { text-align: center; white-space: pre; }
-            .input-with-select { width: 100%; }
-            body.dark-mode .floating-button { background-color: var(--color); }
-            body.dark-mode .floating-button:hover { transform: scale(1.1); }
-            @media only screen and (min-width: 768px) {
-                .form-container { max-width: 70%; }
-                .form-control { 
-                    margin-bottom: 15px;
-                    display: grid;
-                    grid-template-columns: 1fr 1fr;
-                    align-items: baseline;
-                    justify-content: flex-end;
-                    font-family: Arial, sans-serif;
-                }
-                #apply { display: block; margin: 20px auto 0 auto; max-width: 50%; }
-                .modal-content { width: 30% }
-                .routing { display: grid; grid-template-columns: 4fr 1fr 3fr 4fr; }
-            }
-        </style>
-    </head>
-    <body>
-        <h1>BPB Panel <span style="font-size: smaller;">${panelVersion}</span> \u{1F4A6}</h1>
-        <div class="form-container">
-            <form id="configForm">
-                <details open>
-                    <summary><h2>VLESS / TROJAN \u2699\uFE0F</h2></summary>
-                    <div class="form-control">
-                        <label for="remoteDNS">\u{1F30F} Remote DNS</label>
-                        <input type="url" id="remoteDNS" name="remoteDNS" value="${remoteDNS}" required>
-                    </div>
-                    <div class="form-control">
-                        <label for="localDNS">\u{1F3DA}\uFE0F Local DNS</label>
-                        <input type="text" id="localDNS" name="localDNS" value="${localDNS}"
-                            pattern="^(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)|localhost$"
-                            title="Please enter a valid DNS IP Address or localhost!"  required>
-                    </div>
-                    <div class="form-control">
-                        <label for="vlessTrojanFakeDNS">\u{1F9E2} Fake DNS</label>
-                        <div class="input-with-select">
-                            <select id="vlessTrojanFakeDNS" name="vlessTrojanFakeDNS">
-                                <option value="true" ${vlessTrojanFakeDNS ? "selected" : ""}>Enabled</option>
-                                <option value="false" ${!vlessTrojanFakeDNS ? "selected" : ""}>Disabled</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="form-control">
-                        <label for="proxyIP">\u{1F4CD} Proxy IP</label>
-                        <input type="text" id="proxyIP" name="proxyIP" value="${proxyIP2}">
-                    </div>
-                    <div class="form-control">
-                        <label for="outProxy">\u2708\uFE0F Chain Proxy</label>
-                        <input type="text" id="outProxy" name="outProxy" value="${outProxy}">
-                    </div>
-                    <div class="form-control">
-                        <label for="cleanIPs">\u2728 Clean IPs</label>
-                        <input type="text" id="cleanIPs" name="cleanIPs" value="${cleanIPs.replaceAll(",", " , ")}">
-                    </div>
-                    <div class="form-control">
-                        <label>\u{1F50E} IP Scanner</label>
-                        <a href="https://scanner.github1.cloud/" id="scanner" name="scanner" target="_blank" style="width: 100%;">
-                            <button type="button" class="button">
-                                Scan now
-                                <span class="material-symbols-outlined">open_in_new</span>
-                            </button>
-                        </a>
-                    </div>
-                    <div class="form-control">
-                        <label for="enableIPv6">\u{1F51B} IPv6 Configs</label>
-                        <div class="input-with-select">
-                            <select id="enableIPv6" name="enableIPv6">
-                                <option value="true" ${enableIPv6 ? "selected" : ""}>Enabled</option>
-                                <option value="false" ${!enableIPv6 ? "selected" : ""}>Disabled</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="form-control">
-                        <label for="customCdnAddrs">\u{1F480} Custom CDN Addrs</label>
-                        <input type="text" id="customCdnAddrs" name="customCdnAddrs" value="${customCdnAddrs.replaceAll(",", " , ")}">
-                    </div>
-                    <div class="form-control">
-                        <label for="customCdnHost">\u{1F480} Custom CDN Host</label> 
-                        <input type="text" id="customCdnHost" name="customCdnHost" value="${customCdnHost}">
-                    </div>
-                    <div class="form-control">
-                        <label for="customCdnSni">\u{1F480} Custom CDN SNI</label>
-                        <input type="text" id="customCdnSni" name="customCdnSni" value="${customCdnSni}">
-                    </div>
-                    <div class="form-control">
-                        <label for="bestVLESSTrojanInterval">\u{1F504} Best Interval</label>
-                        <input type="number" id="bestVLESSTrojanInterval" name="bestVLESSTrojanInterval" min="10" max="90" value="${bestVLESSTrojanInterval}">
-                    </div>
-                    <div class="form-control" style="padding-top: 10px;">
-                        <label>\u2699\uFE0F Protocols</label>
-                        <div style="width: 100%; display: grid; grid-template-columns: 1fr 1fr; align-items: baseline; margin-top: 10px;">
-                            <div style = "display: flex; justify-content: center; align-items: center;">
-                                <input type="checkbox" id="vlessConfigs" name="vlessConfigs" onchange="handleProtocolChange(event)" value="true" ${vlessConfigs ? "checked" : ""}>
-                                <label for="vlessConfigs" style="margin: 0 5px; font-weight: normal; font-size: unset;">VLESS</label>
-                            </div>
-                            <div style = "display: flex; justify-content: center; align-items: center;">
-                                <input type="checkbox" id="trojanConfigs" name="trojanConfigs" onchange="handleProtocolChange(event)" value="true" ${trojanConfigs ? "checked" : ""}>
-                                <label for="trojanConfigs" style="margin: 0 5px; font-weight: normal; font-size: unset;">Trojan</label>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="table-container">
-                        <table id="ports-block">
-                            <tr>
-                                <th style="text-wrap: nowrap; background-color: gray;">Config type</th>
-                                <th style="text-wrap: nowrap; background-color: gray;">Ports</th>
-                            </tr>
-                            <tr>
-                                <td style="text-align: center; font-size: larger;"><b>TLS</b></td>
-                                <td>
-                                    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr;">${httpsPortsBlock}</div>
-                                </td>    
-                            </tr>
-                            ${!httpPortsBlock ? "" : `<tr>
-                                <td style="text-align: center; font-size: larger;"><b>Non TLS</b></td>
-                                <td>
-                                    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr;">${httpPortsBlock}</div>
-                                </td>    
-                            </tr>`}        
-                        </table>
-                    </div>
-                </details>
-                <details>
-                    <summary><h2>FRAGMENT \u2699\uFE0F</h2></summary>	
-                    <div class="form-control">
-                        <label for="fragmentLengthMin">\u{1F4D0} Length</label>
-                        <div class="min-max">
-                            <input type="number" id="fragmentLengthMin" name="fragmentLengthMin" value="${lengthMin}" min="10" required>
-                            <span> - </span>
-                            <input type="number" id="fragmentLengthMax" name="fragmentLengthMax" value="${lengthMax}" max="500" required>
-                        </div>
-                    </div>
-                    <div class="form-control">
-                        <label for="fragmentIntervalMin">\u{1F55E} Interval</label>
-                        <div class="min-max">
-                            <input type="number" id="fragmentIntervalMin" name="fragmentIntervalMin"
-                                value="${intervalMin}" min="1" max="30" required>
-                            <span> - </span>
-                            <input type="number" id="fragmentIntervalMax" name="fragmentIntervalMax"
-                                value="${intervalMax}" min="1" max="30" required>
-                        </div>
-                    </div>
-                    <div class="form-control">
-                        <label for="fragmentPackets">\u{1F4E6} Packets</label>
-                        <div class="input-with-select">
-                            <select id="fragmentPackets" name="fragmentPackets">
-                                <option value="tlshello" ${fragmentPackets === "tlshello" ? "selected" : ""}>tlshello</option>
-                                <option value="1-1" ${fragmentPackets === "1-1" ? "selected" : ""}>1-1</option>
-                                <option value="1-2" ${fragmentPackets === "1-2" ? "selected" : ""}>1-2</option>
-                                <option value="1-3" ${fragmentPackets === "1-3" ? "selected" : ""}>1-3</option>
-                                <option value="1-5" ${fragmentPackets === "1-5" ? "selected" : ""}>1-5</option>
-                            </select>
-                        </div>
-                    </div>
-                </details>
-                <details>
-                    <summary><h2>WARP GENERAL \u2699\uFE0F</h2></summary>
-                    <div class="form-control">
-                        <label for="warpEndpoints">\u2728 Endpoints</label>
-                        <input type="text" id="warpEndpoints" name="warpEndpoints" value="${warpEndpoints.replaceAll(",", " , ")}" required>
-                    </div>
-                    <div class="form-control">
-                        <label style="line-height: 1.5;">\u{1F50E} Scan Endpoint</label>
-                        <button type="button" class="button" style="padding: 10px 0;" onclick="copyToClipboard('bash <(curl -fsSL https://raw.githubusercontent.com/Ptechgithub/warp/main/endip/install.sh)', false)">
-                            Copy Script<span class="material-symbols-outlined">terminal</span>
-                        </button>
-                    </div>
-                    <div class="form-control">
-                        <label for="warpFakeDNS">\u{1F9E2} Fake DNS</label>
-                        <div class="input-with-select">
-                            <select id="warpFakeDNS" name="warpFakeDNS">
-                                <option value="true" ${warpFakeDNS ? "selected" : ""}>Enabled</option>
-                                <option value="false" ${!warpFakeDNS ? "selected" : ""}>Disabled</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="form-control">
-                        <label for="warpPlusLicense">\u2795 Warp+ License</label>
-                        <input type="text" id="warpPlusLicense" name="warpPlusLicense" value="${warpPlusLicense}" 
-                            pattern="^[a-zA-Z0-9]{8}-[a-zA-Z0-9]{8}-[a-zA-Z0-9]{8}$" 
-                            title="Please enter a valid Warp Plus license in xxxxxxxx-xxxxxxxx-xxxxxxxx format">
-                    </div>
-                    <div class="form-control">
-                        <label>\u267B\uFE0F Warp Configs</label>
-                        <button id="refreshBtn" type="button" class="button" style="padding: 10px 0;" onclick="getWarpConfigs()">
-                            Update<span class="material-symbols-outlined">autorenew</span>
-                        </button>
-                    </div>
-                    <div class="form-control">
-                        <label for="bestWarpInterval">\u{1F504} Best Interval</label>
-                        <input type="number" id="bestWarpInterval" name="bestWarpInterval" min="10" max="90" value="${bestWarpInterval}">
-                    </div>
-                </details>
-                <details>
-                    <summary><h2>WARP PRO \u2699\uFE0F</h2></summary>
-                    <div class="form-control">
-                        <label for="hiddifyNoiseMode">\u{1F635}\u200D\u{1F4AB} Hiddify Mode</label>
-                        <input type="text" id="hiddifyNoiseMode" name="hiddifyNoiseMode" 
-                            pattern="^(m[1-6]|h_[0-9A-Fa-f]{2}|g_([0-9A-Fa-f]{2}_){2}[0-9A-Fa-f]{2})$" 
-                            title="Enter 'm1-m6', 'h_HEX', 'g_HEX_HEX_HEX' which HEX can be between 00 to ff"
-                            value="${hiddifyNoiseMode}" required>
-                    </div>
-                    <div class="form-control">
-                        <label for="nikaNGNoiseMode">\u{1F635}\u200D\u{1F4AB} NikaNG Mode</label>
-                        <input type="text" id="nikaNGNoiseMode" name="nikaNGNoiseMode" 
-                            pattern="^(none|quic|random|[0-9A-Fa-f]+)$" 
-                            title="Enter 'none', 'quic', 'random', or any HEX string like 'ee0000000108aaaa'"
-                            value="${nikaNGNoiseMode}" required>
-                    </div>
-                    <div class="form-control">
-                        <label for="noiseCountMin">\u{1F39A}\uFE0F Noise Count</label>
-                        <div class="min-max">
-                            <input type="number" id="noiseCountMin" name="noiseCountMin"
-                                value="${noiseCountMin}" min="1" required>
-                            <span> - </span>
-                            <input type="number" id="noiseCountMax" name="noiseCountMax"
-                                value="${noiseCountMax}" min="1" required>
-                        </div>
-                    </div>
-                    <div class="form-control">
-                        <label for="noiseSizeMin">\u{1F4CF} Noise Size</label>
-                        <div class="min-max">
-                            <input type="number" id="noiseSizeMin" name="noiseSizeMin"
-                                value="${noiseSizeMin}" min="1" required>
-                            <span> - </span>
-                            <input type="number" id="noiseSizeMax" name="noiseSizeMax"
-                                value="${noiseSizeMax}" min="1" required>
-                        </div>
-                    </div>
-                    <div class="form-control">
-                        <label for="noiseDelayMin">\u{1F55E} Noise Delay</label>
-                        <div class="min-max">
-                            <input type="number" id="noiseDelayMin" name="noiseDelayMin"
-                                value="${noiseDelayMin}" min="1" required>
-                            <span> - </span>
-                            <input type="number" id="noiseDelayMax" name="noiseDelayMax"
-                                value="${noiseDelayMax}" min="1" required>
-                        </div>
-                    </div>
-                </details>
-                <details>
-                    <summary><h2>ROUTING RULES \u2699\uFE0F</h2></summary>
-                    <div id="routing-rules" class="form-control" style="margin-bottom: 20px;">			
-                        <div class="routing">
-                            <input type="checkbox" id="bypass-lan" name="bypass-lan" value="true" ${bypassLAN ? "checked" : ""}>
-                            <label for="bypass-lan">Bypass LAN</label>
-                        </div>
-                        <div class="routing">
-                            <input type="checkbox" id="block-ads" name="block-ads" value="true" ${blockAds ? "checked" : ""}>
-                            <label for="block-ads">Block Ads.</label>
-                        </div>
-                        <div class="routing">
-                            <input type="checkbox" id="bypass-iran" name="bypass-iran" value="true" ${bypassIran ? "checked" : ""}>
-                            <label for="bypass-iran">Bypass Iran</label>
-                        </div>
-                        <div class="routing">
-                            <input type="checkbox" id="block-porn" name="block-porn" value="true" ${blockPorn ? "checked" : ""}>
-                            <label for="block-porn">Block Porn</label>
-                        </div>
-                        <div class="routing">
-                            <input type="checkbox" id="bypass-china" name="bypass-china" value="true" ${bypassChina ? "checked" : ""}>
-                            <label for="bypass-china">Bypass China</label>
-                        </div>
-                        <div class="routing">
-                            <input type="checkbox" id="block-udp-443" name="block-udp-443" value="true" ${blockUDP443 ? "checked" : ""}>
-                            <label for="block-udp-443">Block QUIC</label>
-                        </div>
-                        <div class="routing">
-                            <input type="checkbox" id="bypass-russia" name="bypass-russia" value="true" ${bypassRussia ? "checked" : ""}>
-                            <label for="bypass-russia">Bypass Russia</label>
-                        </div>
-                    </div>
-                </details>
-                <div id="apply" class="form-control">
-                    <div style="grid-column: 2; width: 100%; display: inline-flex;">
-                        <input type="submit" id="applyButton" style="margin-right: 10px;" class="button disabled" value="APPLY SETTINGS \u{1F4A5}" form="configForm">
-                        <button type="button" id="resetSettings" style="background: none; margin: 0; border: none; cursor: pointer;">
-                            <i class="fa fa-refresh fa-2x fa-border" style="border-radius: .2em; border-color: var(--border-color);" aria-hidden="true"></i>
-                        </button>
-                    </div>
-                </div>
-            </form>
-            <hr>            
-            <h2>NORMAL SUB \u{1F517}</h2>
-            <div class="table-container">
-                <table id="normal-configs-table">
-                    <tr>
-                        <th>Application</th>
-                        <th>Subscription</th>
-                    </tr>
-                    <tr>
-                        <td>
-                            <div>
-                                <span class="material-symbols-outlined symbol">verified</span>
-                                <span>v2rayNG</span>
-                            </div>
-                            <div>
-                                <span class="material-symbols-outlined symbol">verified</span>
-                                <span>NikaNG</span>
-                            </div>
-                            <div>
-                                <span class="material-symbols-outlined symbol">verified</span>
-                                <span>MahsaNG</span>
-                            </div>
-                            <div>
-                                <span class="material-symbols-outlined symbol">verified</span>
-                                <span>v2rayN</span>
-                            </div>
-                            <div>
-                                <span class="material-symbols-outlined symbol">verified</span>
-                                <span>v2rayN-PRO</span>
-                            </div>
-                            <div>
-                                <span class="material-symbols-outlined symbol">verified</span>
-                                <span>Shadowrocket</span>
-                            </div>
-                            <div>
-                                <span class="material-symbols-outlined symbol">verified</span>
-                                <span>Streisand</span>
-                            </div>
-                            <div>
-                                <span class="material-symbols-outlined symbol">verified</span>
-                                <span>Hiddify</span>
-                            </div>
-                            <div>
-                                <span class="material-symbols-outlined symbol">verified</span>
-                                <span>Nekoray (Xray)</span>
-                            </div>
-                        </td>
-                        <td>
-                            <button onclick="openQR('https://${hostName}/sub/${userID}#BPB-Normal', 'Normal Subscription')" style="margin-bottom: 8px;">
-                                QR Code&nbsp;<span class="material-symbols-outlined">qr_code</span>
-                            </button>
-                            <button onclick="copyToClipboard('https://${hostName}/sub/${userID}#BPB-Normal', false)">
-                                Copy Sub<span class="material-symbols-outlined">format_list_bulleted</span>
-                            </button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <div>
-                                <span class="material-symbols-outlined symbol">verified</span>
-                                <span>Nekobox</span>
-                            </div>
-                            <div>
-                                <span class="material-symbols-outlined symbol">verified</span>
-                                <span>Nekoray (Sing-Box)</span>
-                            </div>
-                            <div>
-                                <span class="material-symbols-outlined symbol">verified</span>
-                                <span>Karing</span>
-                            </div>
-                        </td>
-                        <td>
-                            <button onclick="copyToClipboard('https://${hostName}/sub/${userID}?app=singbox#BPB-Normal', false)">
-                                Copy Sub<span class="material-symbols-outlined">format_list_bulleted</span>
-                            </button>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-            <h2>FULL NORMAL SUB \u{1F517}</h2>
-            <div class="table-container">
-                <table id="full-normal-configs-table">
-                    <tr>
-                        <th>Application</th>
-                        <th>Subscription</th>
-                    </tr>
-                    <tr>
-                        <td>
-                            <div>
-                                <span class="material-symbols-outlined symbol">verified</span>
-                                <span>v2rayNG</span>
-                            </div>
-                            <div>
-                                <span class="material-symbols-outlined symbol">verified</span>
-                                <span>NikaNG</span>
-                            </div>
-                            <div>
-                                <span class="material-symbols-outlined symbol">verified</span>
-                                <span>MahsaNG</span>
-                            </div>
-                            <div>
-                                <span class="material-symbols-outlined symbol">verified</span>
-                                <span>v2rayN</span>
-                            </div>
-                            <div>
-                                <span class="material-symbols-outlined symbol">verified</span>
-                                <span>v2rayN-PRO</span>
-                            </div>
-                            <div>
-                                <span class="material-symbols-outlined symbol">verified</span>
-                                <span>Streisand</span>
-                            </div>
-                        </td>
-                        <td>
-                            <button onclick="openQR('https://${hostName}/sub/${userID}?app=xray#BPB-Full-Normal', 'Full normal Subscription')" style="margin-bottom: 8px;">
-                                QR Code&nbsp;<span class="material-symbols-outlined">qr_code</span>
-                            </button>
-                            <button onclick="copyToClipboard('https://${hostName}/sub/${userID}?app=xray#BPB-Full-Normal', false)">
-                                Copy Sub<span class="material-symbols-outlined">format_list_bulleted</span>
-                            </button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <div>
-                                <span class="material-symbols-outlined symbol">verified</span>
-                                <span>Sing-box</b></span>
-                            </div>
-                        </td>
-                        <td>
-                            <button onclick="openQR('sing-box://import-remote-profile?url=https://${hostName}/sub/${userID}?app=sfa#BPB-Full-Normal', 'Normal Subscription')" style="margin-bottom: 8px;">
-                                QR Code&nbsp;<span class="material-symbols-outlined">qr_code</span>
-                            </button>
-                            <button onclick="copyToClipboard('https://${hostName}/sub/${userID}?app=sfa#BPB-Full-Normal', false)">
-                                Copy Sub<span class="material-symbols-outlined">format_list_bulleted</span>
-                            </button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <div>
-                                <span class="material-symbols-outlined symbol">verified</span>
-                                <span>Clash Meta</span>
-                            </div>
-                            <div>
-                                <span class="material-symbols-outlined symbol">verified</span>
-                                <span>Clash Verge</span>
-                            </div>
-                            <div>
-                                <span class="material-symbols-outlined symbol">verified</span>
-                                <span>v2rayN</span>
-                            </div>
-                            <div>
-                                <span class="material-symbols-outlined symbol">verified</span>
-                                <span>FlClash</span>
-                            </div>
-                            <div>
-                                <span class="material-symbols-outlined symbol">verified</span>
-                                <span>Stash</span>
-                            </div>
-                        </td>
-                        <td>
-                            <button onclick="openQR('https://${hostName}/sub/${userID}?app=clash#BPB-Full-Normal', 'Normal Subscription')" style="margin-bottom: 8px;">
-                                QR Code&nbsp;<span class="material-symbols-outlined">qr_code</span>
-                            </button>
-                            <button onclick="copyToClipboard('https://${hostName}/sub/${userID}?app=clash#BPB-Full-Normal', false)">
-                                Copy Sub<span class="material-symbols-outlined">format_list_bulleted</span>
-                            </button>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-            <h2>FRAGMENT SUB \u26D3\uFE0F</h2>
-            <div class="table-container">
-                <table id="frag-sub-table">
-                    <tr>
-                        <th style="text-wrap: nowrap;">Application</th>
-                        <th style="text-wrap: nowrap;">Subscription</th>
-                    </tr>
-                    <tr>
-                        <td style="text-wrap: nowrap;">
-                            <div>
-                                <span class="material-symbols-outlined symbol">verified</span>
-                                <span>v2rayNG</span>
-                            </div>
-                            <div>
-                                <span class="material-symbols-outlined symbol">verified</span>
-                                <span>NikaNG</span>
-                            </div>
-                            <div>
-                                <span class="material-symbols-outlined symbol">verified</span>
-                                <span>MahsaNG</span>
-                            </div>
-                            <div>
-                                <span class="material-symbols-outlined symbol">verified</span>
-                                <span>v2rayN</span>
-                            </div>
-                            <div>
-                                <span class="material-symbols-outlined symbol">verified</span>
-                                <span>v2rayN-PRO</span>
-                            </div>
-                            <div>
-                                <span class="material-symbols-outlined symbol">verified</span>
-                                <span>Streisand</span>
-                            </div>
-                        </td>
-                        <td>
-                            <button onclick="openQR('https://${hostName}/fragsub/${userID}#BPB-Fragment', 'Fragment Subscription')" style="margin-bottom: 8px;">
-                                QR Code&nbsp;<span class="material-symbols-outlined">qr_code</span>
-                            </button>
-                            <button onclick="copyToClipboard('https://${hostName}/fragsub/${userID}#BPB-Fragment', true)">
-                                Copy Sub<span class="material-symbols-outlined">format_list_bulleted</span>
-                            </button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="text-wrap: nowrap;">
-                            <div>
-                                <span class="material-symbols-outlined symbol">verified</span>
-                                <span>Hiddify</span>
-                            </div>
-                        </td>
-                        <td>
-                            <button onclick="openQR('https://${hostName}/fragsub/${userID}?app=hiddify#BPB-Fragment', 'Fragment Subscription')" style="margin-bottom: 8px;">
-                                QR Code&nbsp;<span class="material-symbols-outlined">qr_code</span>
-                            </button>
-                            <button onclick="copyToClipboard('https://${hostName}/fragsub/${userID}?app=hiddify#BPB-Fragment', true)">
-                                Copy Sub<span class="material-symbols-outlined">format_list_bulleted</span>
-                            </button>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-            <h2>WARP SUB \u{1F517}</h2>
-            <div class="table-container">
-                <table id="normal-configs-table">
-                    <tr>
-                        <th>Application</th>
-                        <th>Subscription</th>
-                    </tr>
-                    <tr>
-                        <td>
-                            <div>
-                                <span class="material-symbols-outlined symbol">verified</span>
-                                <span>v2rayNG</span>
-                            </div>
-                            <div>
-                                <span class="material-symbols-outlined symbol">verified</span>
-                                <span>v2rayN</span>
-                            </div>
-                            <div>
-                                <span class="material-symbols-outlined symbol">verified</span>
-                                <span>Streisand</span>
-                            </div>
-                        </td>
-                        <td>
-                            <button onclick="openQR('https://${hostName}/warpsub/${userID}?app=xray#BPB-Warp', 'Warp Subscription')" style="margin-bottom: 8px;">
-                                QR Code&nbsp;<span class="material-symbols-outlined">qr_code</span>
-                            </button>
-                            <button onclick="copyToClipboard('https://${hostName}/warpsub/${userID}?app=xray#BPB-Warp', false)">
-                                Copy Sub<span class="material-symbols-outlined">format_list_bulleted</span>
-                            </button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <div>
-                                <span class="material-symbols-outlined symbol">verified</span>
-                                <span>Hiddify</span>
-                            </div>
-                            <div>
-                                <span class="material-symbols-outlined symbol">verified</span>
-                                <span>Singbox</span>
-                            </div>
-                        </td>
-                        <td>
-                            <button onclick="openQR('sing-box://import-remote-profile?url=https://${hostName}/warpsub/${userID}?app=singbox#BPB-Warp', 'Warp Subscription')" style="margin-bottom: 8px;">
-                                QR Code&nbsp;<span class="material-symbols-outlined">qr_code</span>
-                            </button>
-                            <button onclick="copyToClipboard('https://${hostName}/warpsub/${userID}?app=singbox#BPB-Warp', false)">
-                                Copy Sub<span class="material-symbols-outlined">format_list_bulleted</span>
-                            </button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <div>
-                                <span class="material-symbols-outlined symbol">verified</span>
-                                <span>Clash Meta</span>
-                            </div>
-                            <div>
-                                <span class="material-symbols-outlined symbol">verified</span>
-                                <span>Clash Verge</span>
-                            </div>
-                            <div>
-                                <span class="material-symbols-outlined symbol">verified</span>
-                                <span>v2rayN</span>
-                            </div>
-                            <div>
-                                <span class="material-symbols-outlined symbol">verified</span>
-                                <span>FlClash</span>
-                            </div>
-                            <div>
-                                <span class="material-symbols-outlined symbol">verified</span>
-                                <span>Stash</span>
-                            </div>
-                        </td>
-                        <td>
-                            <button onclick="openQR('https://${hostName}/warpsub/${userID}?app=clash#BPB-Warp', 'Warp Subscription')" style="margin-bottom: 8px;">
-                                QR Code&nbsp;<span class="material-symbols-outlined">qr_code</span>
-                            </button>
-                            <button onclick="copyToClipboard('https://${hostName}/warpsub/${userID}?app=clash#BPB-Warp', false)">
-                                Copy Sub<span class="material-symbols-outlined">format_list_bulleted</span>
-                            </button>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-            <h2>WARP PRO SUB \u{1F517}</h2>
-            <div class="table-container">
-                <table id="warp-pro-configs-table">
-                    <tr>
-                        <th>Application</th>
-                        <th>Subscription</th>
-                    </tr>
-                    <tr>
-                        <td>
-                            <div>
-                                <span class="material-symbols-outlined symbol">verified</span>
-                                <span>NikaNG</span>
-                            </div>
-                            <div>
-                                <span class="material-symbols-outlined symbol">verified</span>
-                                <span>MahsaNG</span>
-                            </div>
-                            <div>
-                                <span class="material-symbols-outlined symbol">verified</span>
-                                <span>v2rayN-PRO</span>
-                            </div>
-                        </td>
-                        <td>
-                            <button onclick="openQR('https://${hostName}/warpsub/${userID}?app=nikang#BPB-Warp-Pro', 'Warp Pro Subscription')" style="margin-bottom: 8px;">
-                                QR Code&nbsp;<span class="material-symbols-outlined">qr_code</span>
-                            </button>
-                            <button onclick="copyToClipboard('https://${hostName}/warpsub/${userID}?app=nikang#BPB-Warp-Pro', false)">
-                                Copy Sub<span class="material-symbols-outlined">format_list_bulleted</span>
-                            </button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <div>
-                                <span class="material-symbols-outlined symbol">verified</span>
-                                <span>Hiddify</span>
-                            </div>
-                        </td>
-                        <td>
-                            <button onclick="openQR('sing-box://import-remote-profile?url=https://${hostName}/warpsub/${userID}?app=hiddify#BPB-Warp-Pro', 'Warp Pro Subscription')" style="margin-bottom: 8px;">
-                                QR Code&nbsp;<span class="material-symbols-outlined">qr_code</span>
-                            </button>
-                            <button onclick="copyToClipboard('https://${hostName}/warpsub/${userID}?app=hiddify#BPB-Warp-Pro', false)">
-                                Copy Sub<span class="material-symbols-outlined">format_list_bulleted</span>
-                            </button>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-            <div id="myModal" class="modal">
-                <div class="modal-content">
-                    <span class="close">&times;</span>
-                    <form id="passwordChangeForm">
-                        <h2>Change Password</h2>
-                        <div class="form-control">
-                            <label for="newPassword">New Password</label>
-                            <input type="password" id="newPassword" name="newPassword" required>
-                            </div>
-                        <div class="form-control">
-                            <label for="confirmPassword">Confirm Password</label>
-                            <input type="password" id="confirmPassword" name="confirmPassword" required>
-                        </div>
-                        <div id="passwordError" style="color: red; margin-bottom: 10px;"></div>
-                        <button id="changePasswordBtn" type="submit" class="button">Change Password</button>
-                    </form>
-                </div>
-            </div>
-            <div id="myQRModal" class="modalQR">
-                <div class="modal-content" style="width: auto; text-align: center;">
-                    <div style="display: flex; flex-direction: column; align-items: center; margin-bottom: 10px;">
-                        <span id="closeQRModal" class="close" style="align-self: flex-end;">&times;</span>
-                        <span id="qrcodeTitle" style="align-self: center; font-weight: bold;"></span>
-                    </div>
-                    <div id="qrcode-container"></div>
-                </div>
-            </div>
-            <hr>
-            <div class="footer">
-                <i class="fa fa-github" style="font-size:36px; margin-right: 10px;"></i>
-                <a class="link" href="https://github.com/bia-pain-bache/BPB-Worker-Panel" style="color: var(--color); text-decoration: underline;" target="_blank">Github</a>
-                <button id="openModalBtn" class="button">Change Password</button>
-                <button type="button" id="logout" style="background: none; color: var(--color); margin: 0; border: none; cursor: pointer;">
-                    <i class="fa fa-power-off fa-2x" aria-hidden="true"></i>
-                </button>
-            </div>
-        </div>
-        <button id="darkModeToggle" class="floating-button">
-            <i id="modeIcon" class="fa fa-2x fa-adjust" style="color: var(--background-color);" aria-hidden="true"></i>
-        </button>   
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"><\/script>
-    <script>
-        const defaultHttpsPorts = ['443', '8443', '2053', '2083', '2087', '2096'];
-        let activePortsNo = ${ports.length};
-        let activeHttpsPortsNo = ${ports.filter((port) => defaultHttpsPorts.includes(port)).length};
-        let activeProtocols = ${activeProtocols};
-        const warpPlusLicense = '${warpPlusLicense}';
-        localStorage.getItem('darkMode') === 'enabled' && document.body.classList.add('dark-mode');
-
-        document.addEventListener('DOMContentLoaded', async () => {
-            const configForm = document.getElementById('configForm');            
-            const modal = document.getElementById('myModal');
-            const changePass = document.getElementById('openModalBtn');
-            const closeBtn = document.querySelector(".close");
-            const passwordChangeForm = document.getElementById('passwordChangeForm');            
-            const applyBtn = document.getElementById('applyButton');         
-            const initialFormData = new FormData(configForm);
-            const closeQR = document.getElementById('closeQRModal');
-            const resetSettings = document.getElementById('resetSettings');
-            let modalQR = document.getElementById('myQRModal');
-            let qrcodeContainer = document.getElementById('qrcode-container');
-            let forcedPassChange = false;
-            const darkModeToggle = document.getElementById('darkModeToggle');
-                    
-            const hasFormDataChanged = () => {
-                const currentFormData = new FormData(configForm);
-                const currentFormDataEntries = [...currentFormData.entries()];
-
-                const nonCheckboxFieldsChanged = currentFormDataEntries.some(
-                    ([key, value]) => !initialFormData.has(key) || initialFormData.get(key) !== value
-                );
-
-                const checkboxFieldsChanged = Array.from(configForm.elements)
-                    .filter((element) => element.type === 'checkbox')
-                    .some((checkbox) => {
-                    const initialValue = initialFormData.has(checkbox.name)
-                        ? initialFormData.get(checkbox.name)
-                        : false;
-                    const currentValue = currentFormDataEntries.find(([key]) => key === checkbox.name)?.[1] || false;
-                    return initialValue !== currentValue;
-                });
-
-                return nonCheckboxFieldsChanged || checkboxFieldsChanged;
-            };
-            
-            const enableApplyButton = () => {
-                const isChanged = hasFormDataChanged();
-                applyButton.disabled = !isChanged;
-                applyButton.classList.toggle('disabled', !isChanged);
-            };
-                        
-            passwordChangeForm.addEventListener('submit', event => resetPassword(event));
-            document.getElementById('logout').addEventListener('click', event => logout(event));
-            configForm.addEventListener('submit', (event) => applySettings(event, configForm));
-            configForm.addEventListener('input', enableApplyButton);
-            configForm.addEventListener('change', enableApplyButton);
-            changePass.addEventListener('click', () => {
-                forcedPassChange ? closeBtn.style.display = 'none' : closeBtn.style.display = '';
-                modal.style.display = "block";
-                document.body.style.overflow = "hidden";
-                forcedPassChange = false;
-            });        
-            closeBtn.addEventListener('click', () => {
-                modal.style.display = "none";
-                document.body.style.overflow = "";
-            });
-            closeQR.addEventListener('click', () => {
-                modalQR.style.display = "none";
-                qrcodeContainer.lastElementChild.remove();
-            });
-            resetSettings.addEventListener('click', async () => {
-                const confirmReset = confirm('\u26A0\uFE0F This will reset all panel settings.\\nAre you sure?');
-                if(!confirmReset) return;
-                const formData = new FormData();
-                formData.append('resetSettings', 'true');
-                try {
-                    document.body.style.cursor = 'wait';
-                    const refreshButtonVal = refreshBtn.innerHTML;
-                    refreshBtn.innerHTML = '\u231B Loading...';
-
-                    const response = await fetch('/panel', {
-                        method: 'POST',
-                        body: formData,
-                        credentials: 'include'
-                    });
-
-                    document.body.style.cursor = 'default';
-                    refreshBtn.innerHTML = refreshButtonVal;
-                    if (response.ok) {
-                        alert('\u2705 Panel settings reset to default successfully! \u{1F60E}');
-                        window.location.reload(true);
-                    } else {
-                        const errorMessage = await response.text();
-                        console.error(errorMessage, response.status);
-                        alert('\u26A0\uFE0F An error occured, Please try again!\\n\u26D4 ' + errorMessage);
-                    }         
-                } catch (error) {
-                    console.error('Error:', error);
-                }
-            });
-            window.onclick = (event) => {
-                if (event.target == modalQR) {
-                    modalQR.style.display = "none";
-                    qrcodeContainer.lastElementChild.remove();
-                }
-            }
-            darkModeToggle.addEventListener('click', () => {
-                const isDarkMode = document.body.classList.toggle('dark-mode');
-                if (isDarkMode) {
-                    localStorage.setItem('darkMode', 'enabled');
-                } else {
-                    localStorage.setItem('darkMode', 'disabled');                
-                }
-            });
-
-            if (${!isPassSet}) {
-                forcedPassChange = true;
-                changePass.click();
-            }
-        });
-
-        const getWarpConfigs = async () => {
-            const license = document.getElementById('warpPlusLicense').value;
-            if (license !== warpPlusLicense) {
-                alert('\u26A0\uFE0F First APPLY SETTINGS and then update Warp configs!');
-                return false;
-            }
-            const confirmReset = confirm('\u26A0\uFE0F Are you sure?');
-            if(!confirmReset) return;
-            const refreshBtn = document.getElementById('refreshBtn');
-
-            try {
-                document.body.style.cursor = 'wait';
-                const refreshButtonVal = refreshBtn.innerHTML;
-                refreshBtn.innerHTML = '\u231B Loading...';
-
-                const response = await fetch('/update-warp', {
-                    method: 'POST',
-                    credentials: 'include'
-                });
-
-                document.body.style.cursor = 'default';
-                refreshBtn.innerHTML = refreshButtonVal;
-                if (response.ok) {
-                    ${isWarpPlus} ? alert('\u2705 Warp configs upgraded to PLUS successfully! \u{1F60E}') : alert('\u2705 Warp configs updated successfully! \u{1F60E}');
-                } else {
-                    const errorMessage = await response.text();
-                    console.error(errorMessage, response.status);
-                    alert('\u26A0\uFE0F An error occured, Please try again!\\n\u26D4 ' + errorMessage);
-                }         
-            } catch (error) {
-                console.error('Error:', error);
-            } 
-        }
-
-        const handlePortChange = (event) => {
-            
-            if(event.target.checked) { 
-                activePortsNo++ 
-                defaultHttpsPorts.includes(event.target.name) && activeHttpsPortsNo++;
-            } else {
-                activePortsNo--;
-                defaultHttpsPorts.includes(event.target.name) && activeHttpsPortsNo--;
-            }
-
-            if (activePortsNo === 0) {
-                event.preventDefault();
-                event.target.checked = !event.target.checked;
-                alert("\u26D4 At least one port should be selected! \u{1FAE4}");
-                activePortsNo = 1;
-                defaultHttpsPorts.includes(event.target.name) && activeHttpsPortsNo++;
-                return false;
-            }
-                
-            if (activeHttpsPortsNo === 0) {
-                event.preventDefault();
-                event.target.checked = !event.target.checked;
-                alert("\u26D4 At least one TLS(https) port should be selected! \u{1FAE4}");
-                activeHttpsPortsNo = 1;
-                return false;
-            }
-        }
-        
-        const handleProtocolChange = (event) => {
-            
-            if(event.target.checked) { 
-                activeProtocols++ 
-            } else {
-                activeProtocols--;
-            }
-
-            if (activeProtocols === 0) {
-                event.preventDefault();
-                event.target.checked = !event.target.checked;
-                alert("\u26D4 At least one Protocol should be selected! \u{1FAE4}");
-                activeProtocols = 1;
-                return false;
-            }
-        }
-
-        const openQR = (url, title) => {
-            let qrcodeContainer = document.getElementById("qrcode-container");
-            let qrcodeTitle = document.getElementById("qrcodeTitle");
-            const modalQR = document.getElementById("myQRModal");
-            qrcodeTitle.textContent = title;
-            modalQR.style.display = "block";
-            let qrcodeDiv = document.createElement("div");
-            qrcodeDiv.className = "qrcode";
-            qrcodeDiv.style.padding = "2px";
-            qrcodeDiv.style.backgroundColor = "#ffffff";
-            new QRCode(qrcodeDiv, {
-                text: url,
-                width: 256,
-                height: 256,
-                colorDark: "#000000",
-                colorLight: "#ffffff",
-                correctLevel: QRCode.CorrectLevel.H
-            });
-            qrcodeContainer.appendChild(qrcodeDiv);
-        }
-
-        const copyToClipboard = (text, decode) => {
-            const textarea = document.createElement('textarea');
-            const value = decode ? decodeURIComponent(text) : text;
-            textarea.value = value;
-            document.body.appendChild(textarea);
-            textarea.select();
-            document.execCommand('copy');
-            document.body.removeChild(textarea);
-            alert('\u{1F4CB} Copied to clipboard:\\n\\n' +  value);
-        }
-
-        const applySettings = async (event, configForm) => {
-            event.preventDefault();
-            event.stopPropagation();
-            const applyButton = document.getElementById('applyButton');
-            const getValue = (id) => parseInt(document.getElementById(id).value, 10);              
-            const lengthMin = getValue('fragmentLengthMin');
-            const lengthMax = getValue('fragmentLengthMax');
-            const intervalMin = getValue('fragmentIntervalMin');
-            const intervalMax = getValue('fragmentIntervalMax');
-            const proxyIP = document.getElementById('proxyIP').value?.trim();
-            const cleanIP = document.getElementById('cleanIPs');
-            const customCdnAddrs = document.getElementById('customCdnAddrs').value?.split(',').filter(addr => addr !== '');
-            const customCdnHost = document.getElementById('customCdnHost').value;
-            const customCdnSni = document.getElementById('customCdnSni').value;
-            const isCustomCdn = customCdnAddrs.length > 0 || customCdnHost !== '' || customCdnSni !== '';
-            const warpEndpoints = document.getElementById('warpEndpoints').value?.replaceAll(' ', '').split(',');
-            const noiseCountMin = getValue('noiseCountMin');
-            const noiseCountMax = getValue('noiseCountMax');
-            const noiseSizeMin = getValue('noiseSizeMin');
-            const noiseSizeMax = getValue('noiseSizeMax');
-            const noiseDelayMin = getValue('noiseDelayMin');
-            const noiseDelayMax = getValue('noiseDelayMax');
-            const cleanIPs = cleanIP.value?.split(',');
-            const chainProxy = document.getElementById('outProxy').value?.trim();                    
-            const formData = new FormData(configForm);
-            const isVless = /vless:\\/\\/[^s@]+@[^\\s:]+:[^\\s]+/.test(chainProxy);
-            const isSocksHttp = /^(http|socks):\\/\\/(?:([^:@]+):([^:@]+)@)?([^:@]+):(\\d+)$/.test(chainProxy);
-            const hasSecurity = /security=/.test(chainProxy);
-            const securityRegex = /security=(tls|none|reality)/;
-            const validSecurityType = securityRegex.test(chainProxy);
-            let match = chainProxy.match(securityRegex);
-            const securityType = match ? match[1] : null;
-            match = chainProxy.match(/:(\\d+)\\?/);
-            const vlessPort = match ? match[1] : null;
-            const validTransmission = /type=(tcp|grpc|ws)/.test(chainProxy);
-            const validIPDomain = /^((?:(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?\\.)+[a-zA-Z]{2,})|(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)|\\[(?:[a-fA-F0-9]{1,4}:){7}[a-fA-F0-9]{1,4}\\]|\\[(?:[a-fA-F0-9]{1,4}:){1,7}:\\]|\\[(?:[a-fA-F0-9]{1,4}:){1,6}:[a-fA-F0-9]{1,4}\\]|\\[(?:[a-fA-F0-9]{1,4}:){1,5}(?::[a-fA-F0-9]{1,4}){1,2}\\]|\\[(?:[a-fA-F0-9]{1,4}:){1,4}(?::[a-fA-F0-9]{1,4}){1,3}\\]|\\[(?:[a-fA-F0-9]{1,4}:){1,3}(?::[a-fA-F0-9]{1,4}){1,4}\\]|\\[(?:[a-fA-F0-9]{1,4}:){1,2}(?::[a-fA-F0-9]{1,4}){1,5}\\]|\\[[a-fA-F0-9]{1,4}:(?::[a-fA-F0-9]{1,4}){1,6}\\]|\\[:(?::[a-fA-F0-9]{1,4}){1,7}\\]|\\[\\](?:::[a-fA-F0-9]{1,4}){1,7}\\])$/i;
-            const checkedPorts = Array.from(document.querySelectorAll('input[id^="port-"]:checked')).map(input => input.id.split('-')[1]);
-            const validEndpoint = /^(?:(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?\\.)+[a-zA-Z]{2,}|(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)|\\[(?:[a-fA-F0-9]{1,4}:){7}[a-fA-F0-9]{1,4}\\]|\\[(?:[a-fA-F0-9]{1,4}:){1,7}:\\]|\\[(?:[a-fA-F0-9]{1,4}:){1,6}:[a-fA-F0-9]{1,4}\\]|\\[(?:[a-fA-F0-9]{1,4}:){1,5}(?::[a-fA-F0-9]{1,4}){1,2}\\]|\\[(?:[a-fA-F0-9]{1,4}:){1,4}(?::[a-fA-F0-9]{1,4}){1,3}\\]|\\[(?:[a-fA-F0-9]{1,4}:){1,3}(?::[a-fA-F0-9]{1,4}){1,4}\\]|\\[(?:[a-fA-F0-9]{1,4}:){1,2}(?::[a-fA-F0-9]{1,4}){1,5}\\]|\\[[a-fA-F0-9]{1,4}:(?::[a-fA-F0-9]{1,4}){1,6}\\]|\\[:(?::[a-fA-F0-9]{1,4}){1,7}\\]|\\[::(?::[a-fA-F0-9]{1,4}){0,7}\\]):(?:[0-9]{1,5})$/;
-            formData.append('ports', checkedPorts);
-            configForm.querySelectorAll('input[type="checkbox"]').forEach(checkbox => {
-                !formData.has(checkbox.name) && formData.append(checkbox.name, 'false');    
-            });
-
-            const invalidIPs = [...cleanIPs, proxyIP, ...customCdnAddrs, customCdnHost, customCdnSni]?.filter(value => {
-                if (value !== "") {
-                    const trimmedValue = value.trim();
-                    return !validIPDomain.test(trimmedValue);
-                }
-            });
-
-            const invalidEndpoints = warpEndpoints?.filter(value => {
-                if (value !== "") {
-                    const trimmedValue = value.trim();
-                    return !validEndpoint.test(trimmedValue);
-                }
-            });
-
-            if (invalidIPs.length) {
-                alert('\u26D4 Invalid IPs or Domains \u{1FAE4}\\n\\n' + invalidIPs.map(ip => '\u26A0\uFE0F ' + ip).join('\\n'));
-                return false;
-            }
-            
-            if (invalidEndpoints.length) {
-                alert('\u26D4 Invalid endpoint \u{1FAE4}\\n\\n' + invalidEndpoints.map(endpoint => '\u26A0\uFE0F ' + endpoint).join('\\n'));
-                return false;
-            }
-
-            if (lengthMin >= lengthMax || intervalMin > intervalMax || noiseCountMin > noiseCountMax || noiseSizeMin > noiseSizeMax || noiseDelayMin > noiseDelayMax) {
-                alert('\u26D4 Minimum should be smaller or equal to Maximum! \u{1FAE4}');               
-                return false;
-            }
-
-            if (!(isVless && (hasSecurity && validSecurityType || !hasSecurity) && validTransmission) && !isSocksHttp && chainProxy) {
-                alert('\u26D4 Invalid Config! \u{1FAE4} \\n - The chain proxy should be VLESS, Socks or Http!\\n - VLESS transmission should be GRPC,WS or TCP\\n - VLESS security should be TLS,Reality or None\\n - socks or http should be like:\\n + (socks or http)://user:pass@host:port\\n + (socks or http)://host:port');               
-                return false;
-            }
-
-            if (isVless && securityType === 'tls' && vlessPort !== '443') {
-                alert('\u26D4 VLESS TLS port can be only 443 to be used as a proxy chain! \u{1FAE4}');               
-                return false;
-            }
-
-            if (isCustomCdn && !(customCdnAddrs.length > 0 && customCdnHost && customCdnSni)) {
-                alert('\u26D4 All "Custom" fields should be filled or deleted together! \u{1FAE4}');               
-                return false;
-            }
-
-            try {
-                document.body.style.cursor = 'wait';
-                const applyButtonVal = applyButton.value;
-                applyButton.value = '\u231B Loading...';
-
-                const response = await fetch('/panel', {
-                    method: 'POST',
-                    body: formData,
-                    credentials: 'include'
-                });
-
-                document.body.style.cursor = 'default';
-                applyButton.value = applyButtonVal;
-
-                if (response.ok) {
-                    alert('\u2705 Parameters applied successfully \u{1F60E}');
-                    window.location.reload(true);
-                } else {
-                    const errorMessage = await response.text();
-                    console.error(errorMessage, response.status);
-                    alert('\u26A0\uFE0F Session expired! Please login again.');
-                    window.location.href = '/login';
-                }           
-            } catch (error) {
-                console.error('Error:', error);
-            }
-        }
-
-        const logout = async (event) => {
-            event.preventDefault();
-
-            try {
-                const response = await fetch('/logout', {
-                    method: 'GET',
-                    credentials: 'same-origin'
-                });
-            
-                if (response.ok) {
-                    window.location.href = '/login';
-                } else {
-                    console.error('Failed to log out:', response.status);
-                }
-            } catch (error) {
-                console.error('Error:', error);
-            }
-        }
-
-        const resetPassword = async (event) => {
-            event.preventDefault();
-            const modal = document.getElementById('myModal');
-            const newPasswordInput = document.getElementById('newPassword');
-            const confirmPasswordInput = document.getElementById('confirmPassword');
-            const passwordError = document.getElementById('passwordError');             
-            const newPassword = newPasswordInput.value;
-            const confirmPassword = confirmPasswordInput.value;
-
-            if (newPassword !== confirmPassword) {
-                passwordError.textContent = "Passwords do not match";
-                return false;
-            }
-
-            const hasCapitalLetter = /[A-Z]/.test(newPassword);
-            const hasNumber = /[0-9]/.test(newPassword);
-            const isLongEnough = newPassword.length >= 8;
-
-            if (!(hasCapitalLetter && hasNumber && isLongEnough)) {
-                passwordError.textContent = '\u26A0\uFE0F Password must contain at least one capital letter, one number, and be at least 8 characters long.';
-                return false;
-            }
-                    
-            try {
-                const response = await fetch('/panel/password', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'text/plain'
-                    },
-                    body: newPassword,
-                    credentials: 'same-origin'
-                });
-            
-                if (response.ok) {
-                    modal.style.display = "none";
-                    document.body.style.overflow = "";
-                    alert("\u2705 Password changed successfully! \u{1F44D}");
-                    window.location.href = '/login';
-                } else if (response.status === 401) {
-                    const errorMessage = await response.text();
-                    passwordError.textContent = '\u26A0\uFE0F ' + errorMessage;
-                    console.error(errorMessage, response.status);
-                    alert('\u26A0\uFE0F Session expired! Please login again.');
-                    window.location.href = '/login';
-                } else {
-                    const errorMessage = await response.text();
-                    passwordError.textContent = '\u26A0\uFE0F ' + errorMessage;
-                    console.error(errorMessage, response.status);
-                    return false;
-                }
-            } catch (error) {
-                console.error('Error:', error);
-            }
-        }
-    <\/script>
-    </body>	
-    </html>`;
-  return html;
 }
-function renderLoginPage() {
-  return `
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>User Login</title>
-    <style>
-        :root {
-            --color: black;
-            --primary-color: #09639f;
-            --header-color: #09639f; 
-            --background-color: #fff;
-            --form-background-color: #f9f9f9;
-            --lable-text-color: #333;
-            --h2-color: #3b3b3b;
-            --border-color: #ddd;
-            --input-background-color: white;
-            --header-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
-        }
-        html, body { height: 100%; margin: 0; }
-        body {
-            font-family: system-ui;
-            background-color: var(--background-color);
-            position: relative;
-            overflow: hidden;
-        }
-        body.dark-mode {
-            --color: white;
-            --primary-color: #09639F;
-            --header-color: #3498DB; 
-            --background-color: #121212;
-            --form-background-color: #121212;
-            --lable-text-color: #DFDFDF;
-            --h2-color: #D5D5D5;
-            --border-color: #353535;
-            --input-background-color: #252525;
-            --header-shadow: 2px 2px 4px rgba(255, 255, 255, 0.25);
-        }
-        html, body { height: 100%; margin: 0; }
-        .container {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 90%;
-        }
-        h1 { font-size: 2.5rem; text-align: center; color: var(--header-color); margin: 0 auto 30px; text-shadow: var(--header-shadow); }        
-        h2 { text-align: center; color: var(--h2-color) }
-        .form-container {
-            background: var(--form-background-color);
-            border: 1px solid var(--border-color);
-            border-radius: 10px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-        }
-        .form-control { margin-bottom: 15px; display: flex; align-items: center; }
-        label {
-            display: block;
-            margin-bottom: 5px;
-            padding-right: 20px;
-            font-size: 110%;
-            font-weight: 600;
-            color: var(--lable-text-color);
-        }
-        input[type="text"],
-        input[type="password"] {
-            width: 100%;
-            padding: 10px;
-            border: 1px solid var(--border-color);
-            border-radius: 5px;
-            color: var(--lable-text-color);
-            background-color: var(--input-background-color);
-        }
-        button {
-            display: block;
-            width: 100%;
-            padding: 10px;
-            font-size: 16px;
-            font-weight: 600;
-            border: none;
-            border-radius: 5px;
-            color: white;
-            background-color: var(--primary-color);
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-        }
-        .button:hover,
-        button:focus {
-            background-color: #2980b9;
-            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
-            transform: translateY(-2px);
-        }
-        button.button:hover { color: white; }
-        .button:active { transform: translateY(1px); box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3); }
-        @media only screen and (min-width: 768px) {
-            .container { width: 30%; }
-        }
-    </style>
-    </head>
-    <body>
-        <div class="container">
-            <h1>BPB Panel <span style="font-size: smaller;">${panelVersion}</span> \u{1F4A6}</h1>
-            <div class="form-container">
-                <h2>User Login</h2>
-                <form id="loginForm">
-                    <div class="form-control">
-                        <label for="password">Password</label>
-                        <input type="password" id="password" name="password" required>
-                    </div>
-                    <div id="passwordError" style="color: red; margin-bottom: 10px;"></div>
-                    <button type="submit" class="button">Login</button>
-                </form>
-            </div>
-        </div>
-    <script>
-        localStorage.getItem('darkMode') === 'enabled' && document.body.classList.add('dark-mode');
-        document.getElementById('loginForm').addEventListener('submit', async (event) => {
-            event.preventDefault();
-            const password = document.getElementById('password').value;
-
-            try {
-                const response = await fetch('/login', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'text/plain'
-                    },
-                    body: password
-                });
-            
-                if (response.ok) {
-                    window.location.href = '/panel';
-                } else {
-                    passwordError.textContent = '\u26A0\uFE0F Wrong Password!';
-                    const errorMessage = await response.text();
-                    console.error('Login failed:', errorMessage);
-                }
-            } catch (error) {
-                console.error('Error during login:', error);
-            }
-        });
-    <\/script>
-    </body>
-    </html>`;
-}
-function renderErrorPage(message2, error, refer) {
-  return `
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Error Page</title>
-        <style>
-            :root {
-                --color: black;
-                --header-color: #09639f; 
-                --background-color: #fff;
-                --border-color: #ddd;
-                --header-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
-            }
-            body, html {
-                height: 100%;
-                width: 100%;
-                margin: 0;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                font-family: system-ui;
-                color: var(--color);
-                background-color: var(--background-color);
-            }
-            body.dark-mode {
-                --color: white;
-                --header-color: #3498DB; 
-                --background-color: #121212;
-                --header-shadow: 2px 2px 4px rgba(255, 255, 255, 0.25);          
-            }
-            h1 { font-size: 2.5rem; text-align: center; color: var(--header-color); text-shadow: var(--header-shadow); }
-            #error-container { text-align: center; }
-        </style>
-    </head>
-    <body>
-        <div id="error-container">
-            <h1>BPB Panel <span style="font-size: smaller;">${panelVersion}</span> \u{1F4A6}</h1>
-            <div id="error-message">
-                <h2>${message2} ${refer ? 'Please try again or refer to <a href="https://github.com/bia-pain-bache/BPB-Worker-Panel/blob/main/README.md">documents</a>' : ""}
-                </h2>
-                <p><b>${error ? `\u26A0\uFE0F ${error.stack.toString()}` : ""}</b></p>
-            </div>
-        </div>
-    <script>
-        localStorage.getItem('darkMode') === 'enabled' && document.body.classList.add('dark-mode');
-    <\/script>
-    </body>
-    </html>`;
-}
-function extractChainProxyParams(chainProxy) {
-  let configParams = {};
-  if (!chainProxy)
-    return null;
-  let url = new URL(chainProxy);
-  const protocol = url.protocol.slice(0, -1);
-  if (protocol === "vless") {
-    const params = new URLSearchParams(url.search);
-    configParams = {
-      protocol,
-      uuid: url.username,
-      hostName: url.hostname,
-      port: url.port
-    };
-    params.forEach((value, key) => {
-      configParams[key] = value;
+__defProp(logout, "name", {
+  'value': "logout",
+  'configurable': true
+});
+async function resetPassword(_0x29d397, _0x1d4529) {
+  let _0x54755e = await Authenticate(_0x29d397, _0x1d4529);
+  const _0x46e93d = await _0x1d4529.bpb.get("pwd");
+  if (_0x46e93d && !_0x54755e) {
+    return new Response("Unauthorized!", {
+      'status': 0x191
     });
-  } else {
-    configParams = {
-      protocol,
-      user: url.username,
-      pass: url.password,
-      host: url.host,
-      port: url.port
-    };
   }
-  return JSON.stringify(configParams);
+  const _0x292d09 = await _0x29d397.text();
+  if (_0x292d09 === _0x46e93d) {
+    return new Response("Please enter a new Password!", {
+      'status': 0x190
+    });
+  }
+  await _0x1d4529.bpb.put("pwd", _0x292d09);
+  return new Response("Success", {
+    'status': 0xc8,
+    'headers': {
+      'Set-Cookie': "jwtToken=; Path=/; Secure; SameSite=None; Expires=Thu, 01 Jan 1970 00:00:00 GMT",
+      'Content-Type': "text/plain"
+    }
+  });
 }
-async function fetchWgConfig(env, proxySettings) {
-  let warpConfigs = [];
-  const apiBaseUrl = "https://api.cloudflareclient.com/v0a4005/reg";
-  const { warpPlusLicense } = proxySettings;
-  const warpKeys = [generateKeyPair(), generateKeyPair()];
-  for (let i = 0; i < 2; i++) {
-    const accountResponse = await fetch(apiBaseUrl, {
-      method: "POST",
-      headers: {
-        "User-Agent": "insomnia/8.6.1",
-        "Content-Type": "application/json"
+__defProp(resetPassword, "name", {
+  'value': "resetPassword",
+  'configurable': true
+});
+async function login(_0x3ee8af, _0x27e16d) {
+  const _0x2c4da9 = await Authenticate(_0x3ee8af, _0x27e16d);
+  if (_0x2c4da9) {
+    return Response.redirect(globalThis.urlOrigin + "/panel", 0x12e);
+  }
+  if (_0x3ee8af.method === "POST") {
+    return await generateJWTToken(_0x3ee8af, _0x27e16d);
+  }
+  return await renderLoginPage();
+}
+__defProp(login, "name", {
+  'value': "login",
+  'configurable': true
+});
+var import_tweetnacl2 = __toESM(require_nacl_fast());
+async function fetchWarpConfigs(_0x17fb9e, _0x14147e) {
+  let _0x8dc3d = [];
+  const {
+    warpPlusLicense: _0x45daf8
+  } = _0x14147e;
+  const _0x3adaf2 = [generateKeyPair(), generateKeyPair()];
+  const _0x46a4fe = {
+    'install_id': '',
+    'fcm_token': '',
+    'tos': new Date().toISOString(),
+    'type': "Android",
+    'model': 'PC',
+    'locale': "en_US",
+    'warp_enabled': true
+  };
+  const _0x3588c3 = __defProp(async _0x1698fd => {
+    const _0x20f547 = await fetch("https://api.cloudflareclient.com/v0a4005/reg", {
+      'method': "POST",
+      'headers': {
+        'User-Agent': "insomnia/8.6.1",
+        'Content-Type': "application/json"
       },
-      body: JSON.stringify({
-        key: warpKeys[i].publicKey,
-        install_id: "",
-        fcm_token: "",
-        tos: (/* @__PURE__ */ new Date()).toISOString(),
-        type: "Android",
-        model: "PC",
-        locale: "en_US",
-        warp_enabled: true
+      'body': JSON.stringify({
+        ..._0x46a4fe,
+        'key': _0x1698fd.publicKey
       })
     });
-    const accountData = await accountResponse.json();
-    warpConfigs.push({
-      privateKey: warpKeys[i].privateKey,
-      account: accountData
-    });
-    if (warpPlusLicense) {
-      const response = await fetch(`${apiBaseUrl}/${accountData.id}/account`, {
-        method: "PUT",
-        headers: {
-          "User-Agent": "insomnia/8.6.1",
-          "Content-Type": "application/json",
-          "Authorization": `Bearer ${accountData.token}`
-        },
-        body: JSON.stringify({
-          key: warpKeys[i].publicKey,
-          install_id: "",
-          fcm_token: "",
-          tos: (/* @__PURE__ */ new Date()).toISOString(),
-          type: "Android",
-          model: "PC",
-          locale: "en_US",
-          warp_enabled: true,
-          license: warpPlusLicense
-        })
-      });
-      const responseData = await response.json();
-      if (response.status !== 200 && !responseData.success)
-        return { error: responseData.errors[0]?.message, configs: null };
-    }
-  }
-  const configs = JSON.stringify(warpConfigs);
-  await env.bpb.put("warpConfigs", configs);
-  return { error: null, configs };
-}
-function extractWireguardParams(warpConfigs, isWoW) {
-  const index = isWoW ? 1 : 0;
-  const warpConfig = warpConfigs[index].account.config;
-  return {
-    warpIPv6: `${warpConfig.interface.addresses.v6}/128`,
-    reserved: warpConfig.client_id,
-    publicKey: warpConfig.peers[0].public_key,
-    privateKey: warpConfigs[index].privateKey
-  };
-}
-async function buildXrayDNS(proxySettings, outboundAddrs, domainToStaticIPs, isWorkerLess, isWarp) {
-  const {
-    remoteDNS,
-    resolvedRemoteDNS,
-    localDNS,
-    vlessTrojanFakeDNS,
-    warpFakeDNS,
-    blockAds,
-    bypassIran,
-    bypassChina,
-    blockPorn,
-    bypassRussia
-  } = proxySettings;
-  const isBypass = bypassIran || bypassChina || bypassRussia;
-  const isFakeDNS = vlessTrojanFakeDNS && !isWarp || warpFakeDNS && isWarp;
-  const outboundDomains = outboundAddrs.filter((address) => isDomain(address));
-  const isOutboundRule = outboundDomains.length > 0;
-  const outboundRules = outboundDomains.map((domain) => `full:${domain}`);
-  const finalRemoteDNS = isWarp ? ["1.1.1.1", "1.0.0.1"] : isWorkerLess ? ["https://cloudflare-dns.com/dns-query"] : [remoteDNS];
-  let dnsObject = {
-    hosts: {
-      "domain:googleapis.cn": ["googleapis.com"]
-    },
-    servers: finalRemoteDNS,
-    tag: "dns"
-  };
-  const staticIPs = domainToStaticIPs ? await resolveDNS(domainToStaticIPs) : void 0;
-  if (staticIPs)
-    dnsObject.hosts[domainToStaticIPs] = [...staticIPs.ipv4, ...staticIPs.ipv6];
-  if (resolvedRemoteDNS.server && !isWorkerLess && !isWarp)
-    dnsObject.hosts[resolvedRemoteDNS.server] = resolvedRemoteDNS.staticIPs;
-  if (isWorkerLess) {
-    const resolvedDOH = await resolveDNS("cloudflare-dns.com");
-    const resolvedCloudflare = await resolveDNS("cloudflare.com");
-    const resolvedCLDomain = await resolveDNS("www.speedtest.net.cdn.cloudflare.net");
-    const resolvedCFNS_1 = await resolveDNS("ben.ns.cloudflare.com");
-    const resolvedCFNS_2 = await resolveDNS("lara.ns.cloudflare.com");
-    dnsObject.hosts["cloudflare-dns.com"] = [
-      ...resolvedDOH.ipv4,
-      ...resolvedCloudflare.ipv4,
-      ...resolvedCLDomain.ipv4,
-      ...resolvedCFNS_1.ipv4,
-      ...resolvedCFNS_2.ipv4
-    ];
-  }
-  if (blockAds) {
-    dnsObject.hosts["geosite:category-ads-all"] = ["127.0.0.1"];
-    dnsObject.hosts["geosite:category-ads-ir"] = ["127.0.0.1"];
-  }
-  if (blockPorn) {
-    dnsObject.hosts["geosite:category-porn"] = ["127.0.0.1"];
-  }
-  isOutboundRule && dnsObject.servers.push({
-    address: localDNS === "localhost" ? "8.8.8.8" : localDNS,
-    domains: outboundRules
+    return await _0x20f547.json();
+  }, "name", {
+    'value': "fetchAccount",
+    'configurable': true
   });
-  let localDNSServer = {
-    address: localDNS,
-    domains: [],
-    expectIPs: []
-  };
-  if (!isWorkerLess && isBypass) {
-    bypassIran && localDNSServer.domains.push("geosite:category-ir") && localDNSServer.expectIPs.push("geoip:ir");
-    bypassChina && localDNSServer.domains.push("geosite:cn") && localDNSServer.expectIPs.push("geoip:cn");
-    bypassRussia && localDNSServer.domains.push("geosite:category-ru") && localDNSServer.expectIPs.push("geoip:ru");
-    dnsObject.servers.push(localDNSServer);
-  }
-  if (isFakeDNS) {
-    if ((isBypass || isOutboundRule) && !isWorkerLess) {
-      dnsObject.servers.unshift({
-        address: "fakedns",
-        domains: [
-          ...localDNSServer.domains,
-          ...outboundRules
-        ]
-      });
-    } else {
-      dnsObject.servers.unshift("fakedns");
-    }
-  }
-  return dnsObject;
-}
-function buildXrayRoutingRules(proxySettings, outboundAddrs, isChain, isBalancer, isWorkerLess) {
-  const {
-    localDNS,
-    bypassLAN,
-    bypassIran,
-    bypassChina,
-    bypassRussia,
-    blockAds,
-    blockPorn,
-    blockUDP443
-  } = proxySettings;
-  const isBypass = bypassIran || bypassChina || bypassRussia || bypassLAN;
-  const outboundDomains = outboundAddrs.filter((address) => isDomain(address));
-  const isOutboundRule = outboundDomains.length > 0;
-  let rules = [
-    {
-      inboundTag: [
-        "dns-in"
-      ],
-      outboundTag: "dns-out",
-      type: "field"
-    },
-    {
-      inboundTag: [
-        "socks-in",
-        "http-in"
-      ],
-      port: "53",
-      outboundTag: "dns-out",
-      type: "field"
-    }
-  ];
-  if (!isWorkerLess && (isOutboundRule || localDNS !== "localhost" && isBypass))
-    rules.push({
-      ip: [localDNS === "localhost" ? "8.8.8.8" : localDNS],
-      port: "53",
-      outboundTag: "direct",
-      type: "field"
+  const _0x218719 = __defProp(async (_0x36763c, _0x5ed68e) => {
+    const _0x3e09c7 = await fetch("https://api.cloudflareclient.com/v0a4005/reg/" + _0x36763c.id + "/account", {
+      'method': "PUT",
+      'headers': {
+        'User-Agent': "insomnia/8.6.1",
+        'Content-Type': "application/json",
+        'Authorization': "Bearer " + _0x36763c.token
+      },
+      'body': JSON.stringify({
+        ..._0x46a4fe,
+        'key': _0x5ed68e.publicKey,
+        'license': _0x45daf8
+      })
     });
-  if (isBypass && !isWorkerLess) {
-    let ipRule = {
-      ip: [],
-      outboundTag: "direct",
-      type: "field"
-    };
-    let domainRule = {
-      domain: [],
-      outboundTag: "direct",
-      type: "field"
-    };
-    bypassLAN && domainRule.domain.push("geosite:private") && ipRule.ip.push("geoip:private");
-    bypassIran && domainRule.domain.push("geosite:category-ir") && ipRule.ip.push("geoip:ir");
-    bypassChina && domainRule.domain.push("geosite:cn") && ipRule.ip.push("geoip:cn");
-    bypassRussia && domainRule.domain.push("geosite:category-ru") && ipRule.ip.push("geoip:ru");
-    rules.push(domainRule, ipRule);
-  }
-  blockUDP443 && rules.push({
-    network: "udp",
-    port: "443",
-    outboundTag: "block",
-    type: "field"
-  });
-  if (blockAds || blockPorn) {
-    let rule = {
-      domain: [],
-      outboundTag: "block",
-      type: "field"
-    };
-    blockAds && rule.domain.push("geosite:category-ads-all", "geosite:category-ads-ir");
-    blockPorn && rule.domain.push("geosite:category-porn");
-    rules.push(rule);
-  }
-  if (isBalancer) {
-    rules.push({
-      network: "tcp,udp",
-      balancerTag: "all",
-      type: "field"
-    });
-  } else {
-    rules.push({
-      network: "tcp,udp",
-      outboundTag: isChain ? "chain" : isWorkerLess ? "fragment" : "proxy",
-      type: "field"
-    });
-  }
-  return rules;
-}
-function buildXrayVLESSOutbound(tag2, address, port, host, sni, proxyIP2, isFragment, allowInsecure) {
-  let outbound = {
-    protocol: "vless",
-    settings: {
-      vnext: [
-        {
-          address,
-          port: +port,
-          users: [
-            {
-              id: userID,
-              encryption: "none",
-              level: 8
-            }
-          ]
-        }
-      ]
-    },
-    streamSettings: {
-      network: "ws",
-      security: "none",
-      sockopt: {},
-      wsSettings: {
-        headers: {
-          Host: host,
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-        },
-        path: `/${getRandomPath(16)}${proxyIP2 ? `/${btoa(proxyIP2)}` : ""}?ed=2560`
-      }
-    },
-    tag: tag2
-  };
-  if (defaultHttpsPorts.includes(port)) {
-    outbound.streamSettings.security = "tls";
-    outbound.streamSettings.tlsSettings = {
-      allowInsecure,
-      fingerprint: "randomized",
-      alpn: ["h2", "http/1.1"],
-      serverName: sni
-    };
-  }
-  if (isFragment) {
-    outbound.streamSettings.sockopt.dialerProxy = "fragment";
-  } else {
-    outbound.streamSettings.sockopt.tcpKeepAliveIdle = 100;
-    outbound.streamSettings.sockopt.tcpNoDelay = true;
-  }
-  return outbound;
-}
-function buildXrayTrojanOutbound(tag2, address, port, host, sni, proxyIP2, isFragment, allowInsecure) {
-  let outbound = {
-    protocol: "trojan",
-    settings: {
-      servers: [
-        {
-          address,
-          port: +port,
-          password: trojanPassword,
-          level: 8
-        }
-      ]
-    },
-    streamSettings: {
-      network: "ws",
-      security: "none",
-      sockopt: {},
-      wsSettings: {
-        headers: {
-          Host: host
-        },
-        path: `/tr${getRandomPath(16)}${proxyIP2 ? `/${btoa(proxyIP2)}` : ""}?ed=2560`
-      }
-    },
-    tag: tag2
-  };
-  if (defaultHttpsPorts.includes(port)) {
-    outbound.streamSettings.security = "tls";
-    outbound.streamSettings.tlsSettings = {
-      allowInsecure,
-      fingerprint: "randomized",
-      alpn: ["h2", "http/1.1"],
-      serverName: sni
-    };
-  }
-  if (isFragment) {
-    outbound.streamSettings.sockopt.dialerProxy = "fragment";
-  } else {
-    outbound.streamSettings.sockopt.tcpKeepAliveIdle = 100;
-    outbound.streamSettings.sockopt.tcpNoDelay = true;
-  }
-  return outbound;
-}
-function buildXrayWarpOutbound(proxySettings, warpConfigs, endpoint, isChain, client) {
-  const {
-    nikaNGNoiseMode,
-    noiseCountMin,
-    noiseCountMax,
-    noiseSizeMin,
-    noiseSizeMax,
-    noiseDelayMin,
-    noiseDelayMax
-  } = proxySettings;
-  const {
-    warpIPv6,
-    reserved,
-    publicKey,
-    privateKey
-  } = extractWireguardParams(warpConfigs, isChain);
-  let outbound = {
-    protocol: "wireguard",
-    settings: {
-      address: [
-        "172.16.0.2/32",
-        warpIPv6
-      ],
-      mtu: 1280,
-      peers: [
-        {
-          endpoint,
-          publicKey,
-          keepAlive: 5
-        }
-      ],
-      reserved: base64ToDecimal(reserved),
-      secretKey: privateKey
-    },
-    streamSettings: {
-      sockopt: {
-        dialerProxy: "proxy",
-        tcpKeepAliveIdle: 100,
-        tcpNoDelay: true
-      }
-    },
-    tag: isChain ? "chain" : "proxy"
-  };
-  !isChain && delete outbound.streamSettings;
-  client === "nikang" && !isChain && Object.assign(outbound.settings, {
-    wnoise: nikaNGNoiseMode,
-    wnoisecount: noiseCountMin === noiseCountMax ? noiseCountMin : `${noiseCountMin}-${noiseCountMax}`,
-    wpayloadsize: noiseSizeMin === noiseSizeMax ? noiseSizeMin : `${noiseSizeMin}-${noiseSizeMax}`,
-    wnoisedelay: noiseDelayMin === noiseDelayMax ? noiseDelayMin : `${noiseDelayMin}-${noiseDelayMax}`
-  });
-  return outbound;
-}
-function buildXrayChainOutbound(chainProxyParams) {
-  if (["socks", "http"].includes(chainProxyParams.protocol)) {
-    const { protocol, host: host2, port: port2, user, pass } = chainProxyParams;
     return {
-      protocol,
-      settings: {
-        servers: [
-          {
-            address: host2,
-            port: +port2,
-            users: [
-              {
-                user,
-                pass,
-                level: 8
-              }
-            ]
-          }
-        ]
-      },
-      streamSettings: {
-        network: "tcp",
-        sockopt: {
-          dialerProxy: "proxy",
-          tcpNoDelay: true
-        }
-      },
-      mux: {
-        enabled: true,
-        concurrency: 8,
-        xudpConcurrency: 16,
-        xudpProxyUDP443: "reject"
-      },
-      tag: "chain"
+      'status': _0x3e09c7.status,
+      'data': await _0x3e09c7.json()
     };
-  }
-  const {
-    hostName,
-    port,
-    uuid,
-    flow,
-    security,
-    type,
-    sni,
-    fp,
-    alpn,
-    pbk,
-    sid,
-    spx,
-    headerType,
-    host,
-    path,
-    authority,
-    serviceName,
-    mode
-  } = chainProxyParams;
-  let proxyOutbound = {
-    mux: {
-      concurrency: 8,
-      enabled: true,
-      xudpConcurrency: 16,
-      xudpProxyUDP443: "reject"
-    },
-    protocol: "vless",
-    settings: {
-      vnext: [
-        {
-          address: hostName,
-          port: +port,
-          users: [
-            {
-              encryption: "none",
-              flow,
-              id: uuid,
-              level: 8,
-              security: "auto"
-            }
-          ]
-        }
-      ]
-    },
-    streamSettings: {
-      network: type,
-      security,
-      sockopt: {
-        dialerProxy: "proxy",
-        tcpNoDelay: true
-      }
-    },
-    tag: "chain"
-  };
-  if (security === "tls") {
-    const tlsAlpns = alpn ? alpn?.split(",") : [];
-    proxyOutbound.streamSettings.tlsSettings = {
-      allowInsecure: false,
-      fingerprint: fp,
-      alpn: tlsAlpns,
-      serverName: sni
-    };
-  }
-  if (security === "reality") {
-    delete proxyOutbound.mux;
-    proxyOutbound.streamSettings.realitySettings = {
-      fingerprint: fp,
-      publicKey: pbk,
-      serverName: sni,
-      shortId: sid,
-      spiderX: spx
-    };
-  }
-  if (headerType === "http") {
-    const httpPaths = path?.split(",");
-    const httpHosts = host?.split(",");
-    proxyOutbound.streamSettings.tcpSettings = {
-      header: {
-        request: {
-          headers: { Host: httpHosts },
-          method: "GET",
-          path: httpPaths,
-          version: "1.1"
-        },
-        response: {
-          headers: { "Content-Type": ["application/octet-stream"] },
-          reason: "OK",
-          status: "200",
-          version: "1.1"
-        },
-        type: "http"
-      }
-    };
-  }
-  if (type === "tcp" && security !== "reality" && !headerType)
-    proxyOutbound.streamSettings.tcpSettings = {
-      header: {
-        type: "none"
-      }
-    };
-  if (type === "ws")
-    proxyOutbound.streamSettings.wsSettings = {
-      headers: { Host: host },
-      path
-    };
-  if (type === "grpc") {
-    delete proxyOutbound.mux;
-    proxyOutbound.streamSettings.grpcSettings = {
-      authority,
-      multiMode: mode === "multi",
-      serviceName
-    };
-  }
-  return proxyOutbound;
-}
-function buildXrayConfig(proxySettings, remark, isFragment, isBalancer, isChain, balancerFallback, isWarp) {
-  const {
-    vlessTrojanFakeDNS,
-    warpFakeDNS,
-    bestVLESSTrojanInterval,
-    bestWarpInterval,
-    lengthMin,
-    lengthMax,
-    intervalMin,
-    intervalMax,
-    fragmentPackets
-  } = proxySettings;
-  const isFakeDNS = vlessTrojanFakeDNS && !isWarp || warpFakeDNS && isWarp;
-  let config = structuredClone(xrayConfigTemp);
-  config.remarks = remark;
-  if (isFakeDNS) {
-    config.inbounds[0].sniffing.destOverride.push("fakedns");
-    config.inbounds[1].sniffing.destOverride.push("fakedns");
-  } else {
-    delete config.fakedns;
-  }
-  if (isFragment) {
-    const fragment = config.outbounds[0].settings.fragment;
-    fragment.length = `${lengthMin}-${lengthMax}`;
-    fragment.interval = `${intervalMin}-${intervalMax}`;
-    fragment.packets = fragmentPackets;
-  } else {
-    config.outbounds.shift();
-  }
-  if (isBalancer) {
-    const interval = isWarp ? bestWarpInterval : bestVLESSTrojanInterval;
-    config.observatory.probeInterval = `${interval}s`;
-    config.observatory.subjectSelector = [isChain ? "chain" : "prox"];
-    config.routing.balancers[0].selector = [isChain ? "chain" : "prox"];
-    if (balancerFallback)
-      config.routing.balancers[0].fallbackTag = balancerFallback;
-  } else {
-    delete config.observatory;
-    delete config.routing.balancers;
-  }
-  return config;
-}
-async function buildXrayBestPingConfig(proxySettings, totalAddresses, chainProxy, outbounds, isFragment) {
-  const remark = isFragment ? "\u{1F4A6} BPB F - Best Ping \u{1F4A5}" : "\u{1F4A6} BPB - Best Ping \u{1F4A5}";
-  let config = buildXrayConfig(proxySettings, remark, isFragment, true, chainProxy, chainProxy ? "chain-2" : "prox-2");
-  config.dns = await buildXrayDNS(proxySettings, totalAddresses, void 0);
-  config.routing.rules = buildXrayRoutingRules(proxySettings, totalAddresses, chainProxy, true, false);
-  config.outbounds.unshift(...outbounds);
-  return config;
-}
-async function buildXrayBestFragmentConfig(proxySettings, hostName, chainProxy, outbounds) {
-  const bestFragValues = [
-    "10-20",
-    "20-30",
-    "30-40",
-    "40-50",
-    "50-60",
-    "60-70",
-    "70-80",
-    "80-90",
-    "90-100",
-    "10-30",
-    "20-40",
-    "30-50",
-    "40-60",
-    "50-70",
-    "60-80",
-    "70-90",
-    "80-100",
-    "100-200"
-  ];
-  let config = buildXrayConfig(proxySettings, "\u{1F4A6} BPB F - Best Fragment \u{1F60E}", true, true, chainProxy, void 0, false);
-  config.dns = await buildXrayDNS(proxySettings, [], hostName);
-  config.routing.rules = buildXrayRoutingRules(proxySettings, [], chainProxy, true, false);
-  const fragment = config.outbounds.shift();
-  let bestFragOutbounds = [];
-  bestFragValues.forEach((fragLength, index) => {
-    if (chainProxy) {
-      let chainOutbound = structuredClone(chainProxy);
-      chainOutbound.tag = `chain-${index + 1}`;
-      chainOutbound.streamSettings.sockopt.dialerProxy = `prox-${index + 1}`;
-      bestFragOutbounds.push(chainOutbound);
-    }
-    let proxyOutbound = structuredClone(outbounds[chainProxy ? 1 : 0]);
-    proxyOutbound.tag = `prox-${index + 1}`;
-    proxyOutbound.streamSettings.sockopt.dialerProxy = `frag-${index + 1}`;
-    let fragmentOutbound = structuredClone(fragment);
-    fragmentOutbound.tag = `frag-${index + 1}`;
-    fragmentOutbound.settings.fragment.length = fragLength;
-    fragmentOutbound.settings.fragment.interval = "1-1";
-    bestFragOutbounds.push(proxyOutbound, fragmentOutbound);
+  }, "name", {
+    'value': "updateAccount",
+    'configurable': true
   });
-  config.outbounds.unshift(...bestFragOutbounds);
-  return config;
-}
-async function buildXrayWorkerLessConfig(proxySettings) {
-  let config = buildXrayConfig(proxySettings, "\u{1F4A6} BPB F - WorkerLess \u2B50", true, false, false, void 0, false);
-  config.dns = await buildXrayDNS(proxySettings, [], void 0, true);
-  config.routing.rules = buildXrayRoutingRules(proxySettings, [], false, false, true);
-  let fakeOutbound = buildXrayVLESSOutbound("fake-outbound", "google.com", "443", userID, "google.com", "google.com", "", true, false);
-  delete fakeOutbound.streamSettings.sockopt;
-  fakeOutbound.streamSettings.wsSettings.path = "/";
-  config.outbounds.push(fakeOutbound);
-  return config;
-}
-async function getXrayCustomConfigs(env, proxySettings, hostName, isFragment) {
-  let configs = [];
-  let outbounds = [];
-  let protocols = [];
-  let chainProxy;
-  const {
-    proxyIP: proxyIP2,
-    outProxy,
-    outProxyParams,
-    cleanIPs,
-    enableIPv6,
-    customCdnAddrs,
-    customCdnHost,
-    customCdnSni,
-    vlessConfigs,
-    trojanConfigs,
-    ports
-  } = proxySettings;
-  if (outProxy) {
-    const proxyParams = JSON.parse(outProxyParams);
-    try {
-      chainProxy = buildXrayChainOutbound(proxyParams);
-    } catch (error) {
-      console.log("An error occured while parsing chain proxy: ", error);
-      chainProxy = void 0;
-      await env.bpb.put("proxySettings", JSON.stringify({
-        ...proxySettings,
-        outProxy: "",
-        outProxyParams: ""
-      }));
-    }
-  }
-  const Addresses = await getConfigAddresses(hostName, cleanIPs, enableIPv6);
-  const customCdnAddresses = customCdnAddrs ? customCdnAddrs.split(",") : [];
-  const totalAddresses = isFragment ? [...Addresses] : [...Addresses, ...customCdnAddresses];
-  const totalPorts = ports.filter((port) => isFragment ? defaultHttpsPorts.includes(port) : true);
-  vlessConfigs && protocols.push("VLESS");
-  trojanConfigs && protocols.push("Trojan");
-  let proxyIndex = 1;
-  for (const protocol of protocols) {
-    let protocolIndex = 1;
-    for (const port of totalPorts) {
-      for (const addr of totalAddresses) {
-        const isCustomAddr = customCdnAddresses.includes(addr);
-        const configType = isCustomAddr ? "C" : isFragment ? "F" : "";
-        const sni = isCustomAddr ? customCdnSni : randomUpperCase(hostName);
-        const host = isCustomAddr ? customCdnHost : hostName;
-        const remark = generateRemark(protocolIndex, port, addr, cleanIPs, protocol, configType);
-        let customConfig = buildXrayConfig(proxySettings, remark, isFragment, false, chainProxy, void 0, false);
-        customConfig.dns = await buildXrayDNS(proxySettings, [addr], void 0);
-        customConfig.routing.rules = buildXrayRoutingRules(proxySettings, [addr], chainProxy, false, false);
-        let outbound = protocol === "VLESS" ? buildXrayVLESSOutbound("proxy", addr, port, host, sni, proxyIP2, isFragment, isCustomAddr) : buildXrayTrojanOutbound("proxy", addr, port, host, sni, proxyIP2, isFragment, isCustomAddr);
-        customConfig.outbounds.unshift({ ...outbound });
-        outbound.tag = `prox-${proxyIndex}`;
-        if (chainProxy) {
-          customConfig.outbounds.unshift(chainProxy);
-          let chainOutbound = structuredClone(chainProxy);
-          chainOutbound.tag = `chain-${proxyIndex}`;
-          chainOutbound.streamSettings.sockopt.dialerProxy = `prox-${proxyIndex}`;
-          outbounds.push(chainOutbound);
-        }
-        outbounds.push(outbound);
-        configs.push(customConfig);
-        proxyIndex++;
-        protocolIndex++;
+  for (const _0x1542e5 of _0x3adaf2) {
+    const _0x363220 = await _0x3588c3(_0x1542e5);
+    _0x8dc3d.push({
+      'privateKey': _0x1542e5.privateKey,
+      'account': _0x363220
+    });
+    if (_0x45daf8) {
+      const {
+        status: _0x6f9102,
+        data: _0xf2ca71
+      } = await _0x218719(_0x363220, _0x1542e5);
+      if (_0x6f9102 !== 0xc8 && !_0xf2ca71.success) {
+        return {
+          'error': _0xf2ca71.errors[0x0]?.["message"],
+          'configs': null
+        };
       }
     }
   }
-  const bestPing = await buildXrayBestPingConfig(proxySettings, totalAddresses, chainProxy, outbounds, isFragment);
-  if (!isFragment)
-    return [...configs, bestPing];
-  const bestFragment = await buildXrayBestFragmentConfig(proxySettings, hostName, chainProxy, outbounds);
-  const workerLessConfig = await buildXrayWorkerLessConfig(proxySettings);
-  configs.push(bestPing, bestFragment, workerLessConfig);
-  return configs;
-}
-async function getXrayWarpConfigs(proxySettings, warpConfigs, client) {
-  let xrayWarpConfigs = [];
-  let xrayWoWConfigs = [];
-  let xrayWarpOutbounds = [];
-  let xrayWoWOutbounds = [];
-  const { warpEndpoints } = proxySettings;
-  const outboundDomains = warpEndpoints.split(",").map((endpoint) => endpoint.split(":")[0]).filter((address) => isDomain(address));
-  const proIndicator = client === "nikang" ? " Pro " : " ";
-  for (const [index, endpoint] of warpEndpoints.split(",").entries()) {
-    const endpointHost = endpoint.split(":")[0];
-    let warpConfig = buildXrayConfig(proxySettings, `\u{1F4A6} ${index + 1} - Warp${proIndicator}\u{1F1EE}\u{1F1F7}`, false, false, false, void 0, true);
-    let WoWConfig = buildXrayConfig(proxySettings, `\u{1F4A6} ${index + 1} - WoW${proIndicator}\u{1F30D}`, false, false, true, void 0, true);
-    warpConfig.dns = WoWConfig.dns = await buildXrayDNS(proxySettings, [endpointHost], void 0, false, true);
-    warpConfig.routing.rules = buildXrayRoutingRules(proxySettings, [endpointHost], false, false, false);
-    WoWConfig.routing.rules = buildXrayRoutingRules(proxySettings, [endpointHost], true, false, false);
-    const warpOutbound = buildXrayWarpOutbound(proxySettings, warpConfigs, endpoint, false, client);
-    const WoWOutbound = buildXrayWarpOutbound(proxySettings, warpConfigs, endpoint, true, client);
-    warpOutbound.settings.peers[0].endpoint = endpoint;
-    WoWOutbound.settings.peers[0].endpoint = endpoint;
-    warpConfig.outbounds.unshift(warpOutbound);
-    WoWConfig.outbounds.unshift(WoWOutbound, warpOutbound);
-    xrayWarpConfigs.push(warpConfig);
-    xrayWoWConfigs.push(WoWConfig);
-    const proxyOutbound = structuredClone(warpOutbound);
-    proxyOutbound.tag = `prox-${index + 1}`;
-    const chainOutbound = structuredClone(WoWOutbound);
-    chainOutbound.tag = `chain-${index + 1}`;
-    chainOutbound.streamSettings.sockopt.dialerProxy = `prox-${index + 1}`;
-    xrayWarpOutbounds.push(proxyOutbound);
-    xrayWoWOutbounds.push(chainOutbound);
-  }
-  const dnsObject = await buildXrayDNS(proxySettings, outboundDomains, void 0, false, true);
-  let xrayWarpBestPing = buildXrayConfig(proxySettings, `\u{1F4A6} Warp${proIndicator}- Best Ping \u{1F680}`, false, true, false, void 0, true);
-  xrayWarpBestPing.dns = dnsObject;
-  xrayWarpBestPing.routing.rules = buildXrayRoutingRules(proxySettings, outboundDomains, false, true, false);
-  xrayWarpBestPing.outbounds.unshift(...xrayWarpOutbounds);
-  let xrayWoWBestPing = buildXrayConfig(proxySettings, `\u{1F4A6} WoW${proIndicator}- Best Ping \u{1F680}`, false, true, true, void 0, true);
-  xrayWoWBestPing.dns = dnsObject;
-  xrayWoWBestPing.routing.rules = buildXrayRoutingRules(proxySettings, outboundDomains, true, true, false);
-  xrayWoWBestPing.outbounds.unshift(...xrayWoWOutbounds, ...xrayWarpOutbounds);
-  return [...xrayWarpConfigs, ...xrayWoWConfigs, xrayWarpBestPing, xrayWoWBestPing];
-}
-async function buildClashDNS(proxySettings, isWarp) {
-  const {
-    remoteDNS,
-    resolvedRemoteDNS,
-    localDNS,
-    vlessTrojanFakeDNS,
-    warpFakeDNS,
-    bypassLAN,
-    bypassIran,
-    bypassChina,
-    bypassRussia
-  } = proxySettings;
-  const finalRemoteDNS = isWarp ? ["1.1.1.1", "1.0.0.1"] : [remoteDNS];
-  let clashLocalDNS = localDNS === "localhost" ? "system" : localDNS;
-  const isFakeDNS = vlessTrojanFakeDNS && !isWarp || warpFakeDNS && isWarp;
-  let dns = {
-    "enable": true,
-    "listen": "0.0.0.0:1053",
-    "ipv6": true,
-    "respect-rules": true,
-    "nameserver": finalRemoteDNS,
-    "proxy-server-nameserver": [clashLocalDNS]
-  };
-  if (resolvedRemoteDNS.server && !isWarp) {
-    dns["hosts"] = {
-      [resolvedRemoteDNS.server]: resolvedRemoteDNS.staticIPs
-    };
-  }
-  let geosites = [];
-  bypassLAN && geosites.push("private");
-  bypassIran && geosites.push("category-ir");
-  bypassChina && geosites.push("cn");
-  bypassRussia && geosites.push("category-ru");
-  if (bypassIran || bypassChina || bypassLAN || bypassRussia) {
-    dns["nameserver-policy"] = {
-      [`geosite:${geosites.join(",")}`]: [clashLocalDNS],
-      "www.gstatic.com": [clashLocalDNS]
-    };
-  }
-  if (isFakeDNS) {
-    dns["enhanced-mode"] = "fake-ip";
-    dns["fake-ip-range"] = "198.18.0.1/16";
-  }
-  return dns;
-}
-function buildClashRoutingRules(proxySettings) {
-  let rules = [];
-  const {
-    localDNS,
-    bypassLAN,
-    bypassIran,
-    bypassChina,
-    bypassRussia,
-    blockAds,
-    blockPorn,
-    blockUDP443
-  } = proxySettings;
-  localDNS !== "localhost" && rules.push(`AND,((IP-CIDR,${localDNS}/32),(DST-PORT,53)),DIRECT`);
-  bypassLAN && rules.push("GEOSITE,private,DIRECT");
-  bypassIran && rules.push("GEOSITE,category-ir,DIRECT");
-  bypassChina && rules.push("GEOSITE,cn,DIRECT");
-  bypassRussia && rules.push("GEOSITE,category-ru,DIRECT");
-  bypassLAN && rules.push("GEOIP,private,DIRECT,no-resolve");
-  bypassIran && rules.push("GEOIP,ir,DIRECT,no-resolve");
-  bypassChina && rules.push("GEOIP,cn,DIRECT,no-resolve");
-  bypassRussia && rules.push("GEOIP,ru,DIRECT,no-resolve");
-  blockUDP443 && rules.push("AND,((NETWORK,udp),(DST-PORT,443)),REJECT");
-  blockAds && rules.push("GEOSITE,category-ads-all,REJECT", "GEOSITE,category-ads-ir,REJECT");
-  blockPorn && rules.push("GEOSITE,category-porn,REJECT");
-  rules.push("MATCH,\u2705 Selector");
-  return rules;
-}
-function buildClashVLESSOutbound(remark, address, port, host, sni, path, allowInsecure) {
-  const tls = defaultHttpsPorts.includes(port) ? true : false;
-  const addr = isIPv6(address) ? address.replace(/\[|\]/g, "") : address;
-  let outbound = {
-    "name": remark,
-    "type": "vless",
-    "server": addr,
-    "port": +port,
-    "uuid": userID,
-    "tls": tls,
-    "network": "ws",
-    "udp": false,
-    "ws-opts": {
-      "path": path,
-      "headers": { "host": host },
-      "max-early-data": 2560,
-      "early-data-header-name": "Sec-WebSocket-Protocol"
-    }
-  };
-  if (tls) {
-    Object.assign(outbound, {
-      "servername": sni,
-      "alpn": ["h2", "http/1.1"],
-      "client-fingerprint": "random",
-      "skip-cert-verify": allowInsecure
-    });
-  }
-  return outbound;
-}
-function buildClashTrojanOutbound(remark, address, port, host, sni, path, allowInsecure) {
-  const addr = isIPv6(address) ? address.replace(/\[|\]/g, "") : address;
+  const _0xd44a7d = JSON.stringify(_0x8dc3d);
+  await _0x17fb9e.bpb.put("warpConfigs", _0xd44a7d);
   return {
-    "name": remark,
-    "type": "trojan",
-    "server": addr,
-    "port": +port,
-    "password": trojanPassword,
-    "network": "ws",
-    "udp": false,
-    "ws-opts": {
-      "path": path,
-      "headers": { "host": host },
-      "max-early-data": 2560,
-      "early-data-header-name": "Sec-WebSocket-Protocol"
-    },
-    "sni": sni,
-    "alpn": ["h2", "http/1.1"],
-    "client-fingerprint": "random",
-    "skip-cert-verify": allowInsecure
+    'error': null,
+    'configs': _0xd44a7d
   };
 }
-function buildClashWarpOutbound(warpConfigs, remark, endpoint, chain) {
-  const ipv6Regex = /\[(.*?)\]/;
-  const portRegex = /[^:]*$/;
-  const endpointServer = endpoint.includes("[") ? endpoint.match(ipv6Regex)[1] : endpoint.split(":")[0];
-  const endpointPort = endpoint.includes("[") ? +endpoint.match(portRegex)[0] : +endpoint.split(":")[1];
-  const {
-    warpIPv6,
-    reserved,
-    publicKey,
-    privateKey
-  } = extractWireguardParams(warpConfigs, chain);
-  return {
-    "name": remark,
-    "type": "wireguard",
-    "ip": "172.16.0.2/32",
-    "ipv6": warpIPv6,
-    "private-key": privateKey,
-    "server": endpointServer,
-    "port": endpointPort,
-    "public-key": publicKey,
-    "allowed-ips": ["0.0.0.0/0", "::/0"],
-    "reserved": reserved,
-    "udp": true,
-    "mtu": 1280,
-    "dialer-proxy": chain,
-    "remote-dns-resolve": true,
-    "dns": ["1.1.1.1", "1.0.0.1"]
-  };
-}
-function buildClashChainOutbound(chainProxyParams) {
-  if (["socks", "http"].includes(chainProxyParams.protocol)) {
-    const { protocol, host: host2, port: port2, user, pass } = chainProxyParams;
-    const proxyType = protocol === "socks" ? "socks5" : protocol;
-    return {
-      "name": "",
-      "type": proxyType,
-      "server": host2,
-      "port": +port2,
-      "dialer-proxy": "",
-      "username": user,
-      "password": pass
-    };
-  }
-  const { hostName, port, uuid, flow, security, type, sni, fp, alpn, pbk, sid, headerType, host, path, serviceName } = chainProxyParams;
-  let chainOutbound = {
-    "name": "\u{1F4A6} Chain Best Ping \u{1F4A5}",
-    "type": "vless",
-    "server": hostName,
-    "port": +port,
-    "udp": true,
-    "uuid": uuid,
-    "flow": flow,
-    "network": type,
-    "dialer-proxy": "\u{1F4A6} Best Ping \u{1F4A5}"
-  };
-  if (security === "tls") {
-    const tlsAlpns = alpn ? alpn?.split(",") : [];
-    Object.assign(chainOutbound, {
-      "tls": true,
-      "servername": sni,
-      "alpn": tlsAlpns,
-      "client-fingerprint": fp
-    });
-  }
-  if (security === "reality")
-    Object.assign(chainOutbound, {
-      "tls": true,
-      "servername": sni,
-      "client-fingerprint": fp,
-      "reality-opts": {
-        "public-key": pbk,
-        "short-id": sid
-      }
-    });
-  if (headerType === "http") {
-    const httpPaths = path?.split(",");
-    chainOutbound["http-opts"] = {
-      "method": "GET",
-      "path": httpPaths,
-      "headers": {
-        "Connection": ["keep-alive"],
-        "Content-Type": ["application/octet-stream"]
-      }
-    };
-  }
-  if (type === "ws") {
-    const wsPath = path?.split("?ed=")[0];
-    const earlyData = +path?.split("?ed=")[1];
-    chainOutbound["ws-opts"] = {
-      "path": wsPath,
-      "headers": {
-        "Host": host
-      },
-      "max-early-data": earlyData,
-      "early-data-header-name": "Sec-WebSocket-Protocol"
-    };
-  }
-  if (type === "grpc")
-    chainOutbound["grpc-opts"] = {
-      "grpc-service-name": serviceName
-    };
-  return chainOutbound;
-}
-async function getClashWarpConfig(proxySettings, warpConfigs) {
-  const { warpEndpoints } = proxySettings;
-  let config = structuredClone(clashConfigTemp);
-  config.dns = await buildClashDNS(proxySettings, true);
-  config.rules = buildClashRoutingRules(proxySettings);
-  const selector = config["proxy-groups"][0];
-  const warpUrlTest = config["proxy-groups"][1];
-  selector.proxies = ["\u{1F4A6} Warp - Best Ping \u{1F680}", "\u{1F4A6} WoW - Best Ping \u{1F680}"];
-  warpUrlTest.name = "\u{1F4A6} Warp - Best Ping \u{1F680}";
-  warpUrlTest.interval = +proxySettings.bestWarpInterval;
-  config["proxy-groups"].push(structuredClone(warpUrlTest));
-  const WoWUrlTest = config["proxy-groups"][2];
-  WoWUrlTest.name = "\u{1F4A6} WoW - Best Ping \u{1F680}";
-  let warpRemarks = [], WoWRemarks = [];
-  warpEndpoints.split(",").forEach((endpoint, index) => {
-    const warpRemark = `\u{1F4A6} ${index + 1} - Warp \u{1F1EE}\u{1F1F7}`;
-    const WoWRemark = `\u{1F4A6} ${index + 1} - WoW \u{1F30D}`;
-    const warpOutbound = buildClashWarpOutbound(warpConfigs, warpRemark, endpoint, "");
-    const WoWOutbound = buildClashWarpOutbound(warpConfigs, WoWRemark, endpoint, warpRemark);
-    config.proxies.push(WoWOutbound, warpOutbound);
-    warpRemarks.push(warpRemark);
-    WoWRemarks.push(WoWRemark);
-    warpUrlTest.proxies.push(warpRemark);
-    WoWUrlTest.proxies.push(WoWRemark);
+__defProp(fetchWarpConfigs, "name", {
+  'value': "fetchWarpConfigs",
+  'configurable': true
+});
+var generateKeyPair = __defProp(() => {
+  const _0x272912 = __defProp(_0x2b4f83 => btoa(String.fromCharCode.apply(null, _0x2b4f83)), "name", {
+    'value': "base64Encode",
+    'configurable': true
   });
-  selector.proxies.push(...warpRemarks, ...WoWRemarks);
-  return config;
-}
-async function getClashNormalConfig(env, proxySettings, hostName) {
-  let chainProxy;
-  const {
-    cleanIPs,
-    proxyIP: proxyIP2,
-    ports,
-    vlessConfigs,
-    trojanConfigs,
-    outProxy,
-    outProxyParams,
-    customCdnAddrs,
-    customCdnHost,
-    customCdnSni,
-    bestVLESSTrojanInterval,
-    enableIPv6
-  } = proxySettings;
-  if (outProxy) {
-    const proxyParams = JSON.parse(outProxyParams);
-    try {
-      chainProxy = buildClashChainOutbound(proxyParams);
-    } catch (error) {
-      console.log("An error occured while parsing chain proxy: ", error);
-      chainProxy = void 0;
-      await env.bpb.put("proxySettings", JSON.stringify({
-        ...proxySettings,
-        outProxy: "",
-        outProxyParams: ""
-      }));
-    }
+  let _0x42c38e = import_tweetnacl2["default"].randomBytes(0x20);
+  _0x42c38e[0x0] &= 0xf8;
+  _0x42c38e[0x1f] &= 0x7f;
+  _0x42c38e[0x1f] |= 0x40;
+  let _0x231744 = import_tweetnacl2["default"].scalarMult.base(_0x42c38e);
+  const _0x1184c8 = _0x272912(_0x231744);
+  const _0x2dd462 = _0x272912(_0x42c38e);
+  return {
+    'publicKey': _0x1184c8,
+    'privateKey': _0x2dd462
+  };
+}, "name", {
+  'value': "generateKeyPair",
+  'configurable': true
+});
+async function getDataset(_0x4cea93, _0x37792c) {
+  let _0x5b121d;
+  let _0x50dbed;
+  try {
+    _0x5b121d = await _0x37792c.bpb.get("proxySettings", {
+      'type': "json"
+    });
+    _0x50dbed = await _0x37792c.bpb.get("warpConfigs", {
+      'type': "json"
+    });
+  } catch (_0x1f8d41) {
+    console.log(_0x1f8d41);
+    throw new Error("An error occurred while getting KV - " + _0x1f8d41);
   }
-  let config = structuredClone(clashConfigTemp);
-  config.dns = await buildClashDNS(proxySettings, false);
-  config.rules = buildClashRoutingRules(proxySettings);
-  const selector = config["proxy-groups"][0];
-  const urlTest = config["proxy-groups"][1];
-  selector.proxies = ["\u{1F4A6} Best Ping \u{1F4A5}"];
-  urlTest.name = "\u{1F4A6} Best Ping \u{1F4A5}";
-  urlTest.interval = +bestVLESSTrojanInterval;
-  const Addresses = await getConfigAddresses(hostName, cleanIPs, enableIPv6);
-  const customCdnAddresses = customCdnAddrs ? customCdnAddrs.split(",") : [];
-  const totalAddresses = [...Addresses, ...customCdnAddresses];
-  let proxyIndex = 1, path;
-  const protocols = [
-    ...vlessConfigs ? ["VLESS"] : [],
-    ...trojanConfigs ? ["Trojan"] : []
-  ];
-  protocols.forEach((protocol) => {
-    let protocolIndex = 1;
-    ports.forEach((port) => {
-      totalAddresses.forEach((addr) => {
-        let VLESSOutbound, TrojanOutbound;
-        const isCustomAddr = customCdnAddresses.includes(addr);
-        const configType = isCustomAddr ? "C" : "";
-        const sni = isCustomAddr ? customCdnSni : randomUpperCase(hostName);
-        const host = isCustomAddr ? customCdnHost : hostName;
-        const remark = generateRemark(protocolIndex, port, addr, cleanIPs, protocol, configType).replace(" : ", " - ");
-        if (protocol === "VLESS") {
-          path = `/${getRandomPath(16)}${proxyIP2 ? `/${btoa(proxyIP2)}` : ""}`;
-          VLESSOutbound = buildClashVLESSOutbound(
-            chainProxy ? `proxy-${proxyIndex}` : remark,
-            addr,
-            port,
-            host,
-            sni,
-            path,
-            isCustomAddr
-          );
-          config.proxies.push(VLESSOutbound);
-          selector.proxies.push(remark);
-          urlTest.proxies.push(remark);
-        }
-        if (protocol === "Trojan" && defaultHttpsPorts.includes(port)) {
-          path = `/tr${getRandomPath(16)}${proxyIP2 ? `/${btoa(proxyIP2)}` : ""}`;
-          TrojanOutbound = buildClashTrojanOutbound(
-            chainProxy ? `proxy-${proxyIndex}` : remark,
-            addr,
-            port,
-            host,
-            sni,
-            path,
-            isCustomAddr
-          );
-          config.proxies.push(TrojanOutbound);
-          selector.proxies.push(remark);
-          urlTest.proxies.push(remark);
-        }
-        if (chainProxy) {
-          let chain = structuredClone(chainProxy);
-          chain["name"] = remark;
-          chain["dialer-proxy"] = `proxy-${proxyIndex}`;
-          config.proxies.push(chain);
-        }
-        proxyIndex++;
-        protocolIndex++;
+  if (!_0x5b121d) {
+    _0x5b121d = await updateDataset(_0x4cea93, _0x37792c);
+    const {
+      error: _0x3c54df,
+      configs: _0x5d0dc5
+    } = await fetchWarpConfigs(_0x37792c, _0x5b121d);
+    if (_0x3c54df) {
+      throw new Error("An error occurred while getting Warp configs - " + _0x3c54df);
+    }
+    _0x50dbed = _0x5d0dc5;
+  }
+  if (globalThis.panelVersion !== _0x5b121d.panelVersion) {
+    _0x5b121d = await updateDataset(_0x4cea93, _0x37792c);
+  }
+  return {
+    'proxySettings': _0x5b121d,
+    'warpConfigs': _0x50dbed
+  };
+}
+__defProp(getDataset, "name", {
+  'value': "getDataset",
+  'configurable': true
+});
+async function updateDataset(_0x2141c3, _0x4e68d2) {
+  let _0x1be546 = _0x2141c3.method === "POST" ? await _0x2141c3.formData() : null;
+  const _0x2e3a7d = _0x1be546?.["get"]("resetSettings") === "true";
+  let _0x1c9f8c;
+  if (!_0x2e3a7d) {
+    try {
+      _0x1c9f8c = await _0x4e68d2.bpb.get("proxySettings", {
+        'type': "json"
       });
-    });
-  });
-  return config;
-}
-function buildSingBoxDNS(proxySettings, isChain, isWarp) {
-  const {
-    remoteDNS,
-    localDNS,
-    vlessTrojanFakeDNS,
-    warpFakeDNS,
-    bypassIran,
-    bypassChina,
-    bypassRussia,
-    blockAds,
-    blockPorn
-  } = proxySettings;
-  let fakeip;
-  const isFakeDNS = vlessTrojanFakeDNS && !isWarp || warpFakeDNS && isWarp;
-  const servers = [
-    {
-      address: isWarp ? "1.1.1.1" : remoteDNS,
-      address_resolver: "dns-direct",
-      strategy: "prefer_ipv4",
-      detour: isChain ? "proxy-1" : "proxy",
-      tag: "dns-remote"
-    },
-    {
-      address: localDNS === "localhost" ? "local" : localDNS,
-      strategy: "prefer_ipv4",
-      detour: "direct",
-      tag: "dns-direct"
-    },
-    {
-      address: "rcode://success",
-      tag: "dns-block"
+    } catch (_0x41bd32) {
+      console.log(_0x41bd32);
+      throw new Error("An error occurred while getting current KV settings - " + _0x41bd32);
     }
-  ];
-  let rules = [
-    {
-      outbound: "any",
-      server: "dns-direct"
+  } else {
+    _0x1be546 = null;
+  }
+  const _0x42fa3b = __defProp(_0x544708 => {
+    const _0x310714 = _0x1be546?.["get"](_0x544708);
+    if (_0x310714 === undefined) {
+      return null;
     }
-  ];
-  if (bypassIran || bypassChina || bypassRussia) {
-    let bypassRules = {
-      rule_set: [],
-      server: "dns-direct"
-    };
-    bypassIran && bypassRules.rule_set.push("geosite-ir");
-    bypassChina && bypassRules.rule_set.push("geosite-cn");
-    bypassRussia && bypassRules.rule_set.push("geosite-category-ru");
-    rules.push(bypassRules);
-  }
-  let blockRules = {
-    disable_cache: true,
-    rule_set: [
-      "geosite-malware",
-      "geosite-phishing",
-      "geosite-cryptominers"
-    ],
-    server: "dns-block"
-  };
-  blockAds && blockRules.rule_set.push("geosite-category-ads-all");
-  blockPorn && blockRules.rule_set.push("geosite-nsfw");
-  rules.push(blockRules);
-  if (isFakeDNS) {
-    servers.push({
-      address: "fakeip",
-      tag: "dns-fake"
-    });
-    rules.push({
-      disable_cache: true,
-      inbound: "tun-in",
-      query_type: [
-        "A",
-        "AAAA"
-      ],
-      server: "dns-fake"
-    });
-    fakeip = {
-      enabled: true,
-      inet4_range: "198.18.0.0/15",
-      inet6_range: "fc00::/18"
-    };
-  }
-  return { servers, rules, fakeip };
-}
-function buildSingBoxRoutingRules(proxySettings) {
-  const {
-    bypassLAN,
-    bypassIran,
-    bypassChina,
-    bypassRussia,
-    blockAds,
-    blockPorn,
-    blockUDP443
-  } = proxySettings;
-  let rules = [
-    {
-      inbound: "dns-in",
-      outbound: "dns-out"
-    },
-    {
-      network: "udp",
-      port: 53,
-      outbound: "dns-out"
+    if (_0x310714 === "true") {
+      return true;
     }
-  ];
-  let ruleSet = [
-    {
-      type: "remote",
-      tag: "geosite-malware",
-      format: "binary",
-      url: "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-malware.srs",
-      download_detour: "direct"
-    },
-    {
-      type: "remote",
-      tag: "geosite-phishing",
-      format: "binary",
-      url: "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-phishing.srs",
-      download_detour: "direct"
-    },
-    {
-      type: "remote",
-      tag: "geosite-cryptominers",
-      format: "binary",
-      url: "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-cryptominers.srs",
-      download_detour: "direct"
-    },
-    {
-      type: "remote",
-      tag: "geoip-malware",
-      format: "binary",
-      url: "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geoip-malware.srs",
-      download_detour: "direct"
-    },
-    {
-      type: "remote",
-      tag: "geoip-phishing",
-      format: "binary",
-      url: "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geoip-phishing.srs",
-      download_detour: "direct"
+    if (_0x310714 === "false") {
+      return false;
     }
-  ];
-  if (bypassIran) {
-    rules.push({
-      rule_set: ["geosite-ir", "geoip-ir"],
-      outbound: "direct"
-    });
-    ruleSet.push(
-      {
-        type: "remote",
-        tag: "geosite-ir",
-        format: "binary",
-        url: "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-ir.srs",
-        download_detour: "direct"
-      },
-      {
-        type: "remote",
-        tag: "geoip-ir",
-        format: "binary",
-        url: "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geoip-ir.srs",
-        download_detour: "direct"
-      }
-    );
-  }
-  if (bypassChina) {
-    rules.push({
-      rule_set: ["geosite-cn", "geoip-cn"],
-      outbound: "direct"
-    });
-    ruleSet.push(
-      {
-        type: "remote",
-        tag: "geosite-cn",
-        format: "binary",
-        url: "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-cn.srs",
-        download_detour: "direct"
-      },
-      {
-        type: "remote",
-        tag: "geoip-cn",
-        format: "binary",
-        url: "https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-cn.srs",
-        download_detour: "direct"
-      }
-    );
-  }
-  if (bypassRussia) {
-    rules.push({
-      rule_set: ["geosite-category-ru", "geoip-ru"],
-      outbound: "direct"
-    });
-    ruleSet.push(
-      {
-        type: "remote",
-        tag: "geosite-category-ru",
-        format: "binary",
-        url: "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-category-ru.srs",
-        download_detour: "direct"
-      },
-      {
-        type: "remote",
-        tag: "geoip-ru",
-        format: "binary",
-        url: "https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-ru.srs",
-        download_detour: "direct"
-      }
-    );
-  }
-  bypassLAN && rules.push({
-    ip_is_private: true,
-    outbound: "direct"
+    return _0x310714;
+  }, "name", {
+    'value': "validateField",
+    'configurable': true
   });
-  blockUDP443 && rules.push({
-    network: "udp",
-    port: 443,
-    protocol: "quic",
-    outbound: "block"
-  });
-  let blockRuleSet = {
-    rule_set: [
-      "geosite-malware",
-      "geosite-phishing",
-      "geosite-cryptominers",
-      "geoip-malware",
-      "geoip-phishing"
-    ],
-    outbound: "block"
-  };
-  if (blockAds) {
-    blockRuleSet.rule_set.push("geosite-category-ads-all");
-    ruleSet.push({
-      type: "remote",
-      tag: "geosite-category-ads-all",
-      format: "binary",
-      url: "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-category-ads-all.srs",
-      download_detour: "direct"
-    });
-  }
-  if (blockPorn) {
-    blockRuleSet.rule_set.push("geosite-nsfw");
-    ruleSet.push({
-      type: "remote",
-      tag: "geosite-nsfw",
-      format: "binary",
-      url: "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-nsfw.srs",
-      download_detour: "direct"
-    });
-  }
-  rules.push(blockRuleSet);
-  rules.push({
-    ip_cidr: ["224.0.0.0/3", "ff00::/8"],
-    source_ip_cidr: ["224.0.0.0/3", "ff00::/8"],
-    outbound: "block"
-  });
-  return { rules, rule_set: ruleSet };
-}
-function buildSingBoxVLESSOutbound(proxySettings, remark, address, port, host, sni, allowInsecure, isFragment) {
-  const { lengthMin, lengthMax, intervalMin, intervalMax, proxyIP: proxyIP2 } = proxySettings;
-  const path = `/${getRandomPath(16)}${proxyIP2 ? `/${btoa(proxyIP2)}` : ""}`;
-  const tls = defaultHttpsPorts.includes(port) ? true : false;
-  let outbound = {
-    type: "vless",
-    server: address,
-    server_port: +port,
-    uuid: userID,
-    tls: {
-      alpn: "http/1.1",
-      enabled: true,
-      insecure: allowInsecure,
-      server_name: sni,
-      utls: {
-        enabled: true,
-        fingerprint: "randomized"
-      }
-    },
-    transport: {
-      early_data_header_name: "Sec-WebSocket-Protocol",
-      max_early_data: 2560,
-      headers: {
-        Host: host
-      },
-      path,
-      type: "ws"
-    },
-    tag: remark
-  };
-  if (!tls)
-    delete outbound.tls;
-  if (isFragment)
-    outbound.tls_fragment = {
-      enabled: true,
-      size: `${lengthMin}-${lengthMax}`,
-      sleep: `${intervalMin}-${intervalMax}`
-    };
-  return outbound;
-}
-function buildSingBoxTrojanOutbound(proxySettings, remark, address, port, host, sni, allowInsecure, isFragment) {
-  const { lengthMin, lengthMax, intervalMin, intervalMax, proxyIP: proxyIP2 } = proxySettings;
-  const path = `/tr${getRandomPath(16)}${proxyIP2 ? `/${btoa(proxyIP2)}` : ""}`;
-  const tls = defaultHttpsPorts.includes(port) ? true : false;
-  let outbound = {
-    type: "trojan",
-    password: trojanPassword,
-    server: address,
-    server_port: +port,
-    tls: {
-      alpn: "http/1.1",
-      enabled: true,
-      insecure: allowInsecure,
-      server_name: sni,
-      utls: {
-        enabled: true,
-        fingerprint: "randomized"
-      }
-    },
-    transport: {
-      early_data_header_name: "Sec-WebSocket-Protocol",
-      max_early_data: 2560,
-      headers: {
-        Host: host
-      },
-      path,
-      type: "ws"
-    },
-    tag: remark
-  };
-  if (!tls)
-    delete outbound.tls;
-  if (isFragment)
-    outbound.tls_fragment = {
-      enabled: true,
-      size: `${lengthMin}-${lengthMax}`,
-      sleep: `${intervalMin}-${intervalMax}`
-    };
-  return outbound;
-}
-function buildSingBoxWarpOutbound(proxySettings, warpConfigs, remark, endpoint, chain, client) {
-  const ipv6Regex = /\[(.*?)\]/;
-  const portRegex = /[^:]*$/;
-  const endpointServer = endpoint.includes("[") ? endpoint.match(ipv6Regex)[1] : endpoint.split(":")[0];
-  const endpointPort = endpoint.includes("[") ? +endpoint.match(portRegex)[0] : +endpoint.split(":")[1];
-  const {
-    hiddifyNoiseMode,
-    noiseCountMin,
-    noiseCountMax,
-    noiseSizeMin,
-    noiseSizeMax,
-    noiseDelayMin,
-    noiseDelayMax
-  } = proxySettings;
-  const {
-    warpIPv6,
-    reserved,
-    publicKey,
-    privateKey
-  } = extractWireguardParams(warpConfigs, chain);
-  let outbound = {
-    local_address: [
-      "172.16.0.2/32",
-      warpIPv6
-    ],
-    mtu: 1280,
-    peer_public_key: publicKey,
-    private_key: privateKey,
-    reserved,
-    server: endpointServer,
-    server_port: endpointPort,
-    type: "wireguard",
-    detour: chain,
-    tag: remark
-  };
-  client === "hiddify" && Object.assign(outbound, {
-    fake_packets_mode: hiddifyNoiseMode,
-    fake_packets: noiseCountMin === noiseCountMax ? noiseCountMin : `${noiseCountMin}-${noiseCountMax}`,
-    fake_packets_size: noiseSizeMin === noiseSizeMax ? noiseSizeMin : `${noiseSizeMin}-${noiseSizeMax}`,
-    fake_packets_delay: noiseDelayMin === noiseDelayMax ? noiseDelayMin : `${noiseDelayMin}-${noiseDelayMax}`
-  });
-  return outbound;
-}
-function buildSingBoxChainOutbound(chainProxyParams) {
-  if (["socks", "http"].includes(chainProxyParams.protocol)) {
-    const { protocol, host: host2, port: port2, user, pass } = chainProxyParams;
-    let chainOutbound2 = {
-      type: protocol,
-      tag: "",
-      server: host2,
-      server_port: +port2,
-      username: user,
-      password: pass,
-      detour: ""
-    };
-    protocol === "socks" && Object.assign(chainOutbound2, {
-      version: "5",
-      network: "tcp"
-    });
-    return chainOutbound2;
-  }
-  const { hostName, port, uuid, flow, security, type, sni, fp, alpn, pbk, sid, headerType, host, path, serviceName } = chainProxyParams;
-  let chainOutbound = {
-    type: "vless",
-    tag: "",
-    server: hostName,
-    server_port: +port,
-    uuid,
-    flow,
-    network: "tcp",
-    detour: ""
-  };
-  if (security === "tls" || security === "reality") {
-    const tlsAlpns = alpn ? alpn?.split(",").filter((value) => value !== "h2") : [];
-    chainOutbound.tls = {
-      enabled: true,
-      server_name: sni,
-      insecure: false,
-      alpn: tlsAlpns,
-      utls: {
-        enabled: true,
-        fingerprint: fp
-      }
-    };
-    if (security === "reality") {
-      chainOutbound.tls.reality = {
-        enabled: true,
-        public_key: pbk,
-        short_id: sid
+  const _0x289cf9 = _0x42fa3b("remoteDNS") ?? _0x1c9f8c?.["remoteDNS"] ?? "https://8.8.8.8/dns-query";
+  const _0x4406dd = _0x42fa3b("enableIPv6") ?? _0x1c9f8c?.["enableIPv6"] ?? true;
+  const _0x2b18d2 = new URL(_0x289cf9);
+  const _0xe288f9 = _0x2b18d2.hostname;
+  const _0x3ef258 = isDomain(_0xe288f9);
+  let _0x213c43 = {};
+  if (_0x3ef258) {
+    try {
+      const _0x51bd0b = await resolveDNS(_0xe288f9);
+      _0x213c43 = {
+        'server': _0xe288f9,
+        'staticIPs': _0x4406dd ? [..._0x51bd0b.ipv4, ..._0x51bd0b.ipv6] : _0x51bd0b.ipv4
       };
-      delete chainOutbound.tls.alpn;
+    } catch (_0xf18da0) {
+      console.log(_0xf18da0);
+      throw new Error("An error occurred while resolving remote DNS server, please try agian! - " + _0xf18da0);
     }
   }
-  if (headerType === "http") {
-    const httpHosts = host?.split(",");
-    chainOutbound.transport = {
-      type: "http",
-      host: httpHosts,
-      path,
-      method: "GET",
-      headers: {
-        "Connection": ["keep-alive"],
-        "Content-Type": ["application/octet-stream"]
+  const _0x4f07ef = {
+    'remoteDNS': _0x289cf9,
+    'resolvedRemoteDNS': _0x213c43,
+    'localDNS': _0x42fa3b("localDNS") ?? _0x1c9f8c?.["localDNS"] ?? "8.8.8.8",
+    'vlessTrojanFakeDNS': _0x42fa3b("vlessTrojanFakeDNS") ?? _0x1c9f8c?.["vlessTrojanFakeDNS"] ?? false,
+    'proxyIP': _0x42fa3b("proxyIP")?.["replaceAll"](" ", '') ?? _0x1c9f8c?.["proxyIP"] ?? '',
+    'outProxy': _0x42fa3b("outProxy") ?? _0x1c9f8c?.["outProxy"] ?? '',
+    'outProxyParams': extractChainProxyParams(_0x42fa3b("outProxy")) ?? _0x1c9f8c?.["outProxyParams"] ?? {},
+    'cleanIPs': _0x42fa3b("cleanIPs")?.["replaceAll"](" ", '') ?? _0x1c9f8c?.["cleanIPs"] ?? '',
+    'enableIPv6': _0x4406dd,
+    'customCdnAddrs': _0x42fa3b("customCdnAddrs")?.["replaceAll"](" ", '') ?? _0x1c9f8c?.["customCdnAddrs"] ?? '',
+    'customCdnHost': _0x42fa3b("customCdnHost")?.["trim"]() ?? _0x1c9f8c?.["customCdnHost"] ?? '',
+    'customCdnSni': _0x42fa3b("customCdnSni")?.["trim"]() ?? _0x1c9f8c?.["customCdnSni"] ?? '',
+    'bestVLESSTrojanInterval': _0x42fa3b("bestVLESSTrojanInterval") ?? _0x1c9f8c?.["bestVLESSTrojanInterval"] ?? '30',
+    'vlessConfigs': _0x42fa3b("vlessConfigs") ?? _0x1c9f8c?.["vlessConfigs"] ?? true,
+    'trojanConfigs': _0x42fa3b("trojanConfigs") ?? _0x1c9f8c?.["trojanConfigs"] ?? false,
+    'ports': _0x42fa3b("ports")?.["split"](',') ?? _0x1c9f8c?.["ports"] ?? ["443"],
+    'lengthMin': _0x42fa3b("fragmentLengthMin") ?? _0x1c9f8c?.["lengthMin"] ?? "100",
+    'lengthMax': _0x42fa3b("fragmentLengthMax") ?? _0x1c9f8c?.["lengthMax"] ?? "200",
+    'intervalMin': _0x42fa3b("fragmentIntervalMin") ?? _0x1c9f8c?.["intervalMin"] ?? '1',
+    'intervalMax': _0x42fa3b("fragmentIntervalMax") ?? _0x1c9f8c?.["intervalMax"] ?? '1',
+    'fragmentPackets': _0x42fa3b("fragmentPackets") ?? _0x1c9f8c?.["fragmentPackets"] ?? "tlshello",
+    'bypassLAN': _0x42fa3b("bypass-lan") ?? _0x1c9f8c?.["bypassLAN"] ?? false,
+    'bypassIran': _0x42fa3b("bypass-iran") ?? _0x1c9f8c?.["bypassIran"] ?? false,
+    'bypassChina': _0x42fa3b("bypass-china") ?? _0x1c9f8c?.["bypassChina"] ?? false,
+    'bypassRussia': _0x42fa3b("bypass-russia") ?? _0x1c9f8c?.["bypassRussia"] ?? false,
+    'blockAds': _0x42fa3b("block-ads") ?? _0x1c9f8c?.["blockAds"] ?? false,
+    'blockPorn': _0x42fa3b("block-porn") ?? _0x1c9f8c?.["blockPorn"] ?? false,
+    'blockUDP443': _0x42fa3b("block-udp-443") ?? _0x1c9f8c?.["blockUDP443"] ?? false,
+    'customBypassRules': _0x42fa3b("customBypassRules")?.["replaceAll"](" ", '') ?? _0x1c9f8c?.["customBypassRules"] ?? '',
+    'customBlockRules': _0x42fa3b("customBlockRules")?.["replaceAll"](" ", '') ?? _0x1c9f8c?.["customBlockRules"] ?? '',
+    'warpEndpoints': _0x42fa3b("warpEndpoints")?.["replaceAll"](" ", '') ?? _0x1c9f8c?.["warpEndpoints"] ?? "engage.cloudflareclient.com:2408",
+    'warpFakeDNS': _0x42fa3b("warpFakeDNS") ?? _0x1c9f8c?.["warpFakeDNS"] ?? false,
+    'warpEnableIPv6': _0x42fa3b("warpEnableIPv6") ?? _0x1c9f8c?.["warpEnableIPv6"] ?? true,
+    'warpPlusLicense': _0x42fa3b("warpPlusLicense") ?? _0x1c9f8c?.["warpPlusLicense"] ?? '',
+    'bestWarpInterval': _0x42fa3b("bestWarpInterval") ?? _0x1c9f8c?.["bestWarpInterval"] ?? '30',
+    'hiddifyNoiseMode': _0x42fa3b("hiddifyNoiseMode") ?? _0x1c9f8c?.["hiddifyNoiseMode"] ?? 'm4',
+    'nikaNGNoiseMode': _0x42fa3b("nikaNGNoiseMode") ?? _0x1c9f8c?.["nikaNGNoiseMode"] ?? "quic",
+    'noiseCountMin': _0x42fa3b("noiseCountMin") ?? _0x1c9f8c?.["noiseCountMin"] ?? '10',
+    'noiseCountMax': _0x42fa3b("noiseCountMax") ?? _0x1c9f8c?.["noiseCountMax"] ?? '15',
+    'noiseSizeMin': _0x42fa3b("noiseSizeMin") ?? _0x1c9f8c?.["noiseSizeMin"] ?? '5',
+    'noiseSizeMax': _0x42fa3b("noiseSizeMax") ?? _0x1c9f8c?.["noiseSizeMax"] ?? '10',
+    'noiseDelayMin': _0x42fa3b("noiseDelayMin") ?? _0x1c9f8c?.["noiseDelayMin"] ?? '1',
+    'noiseDelayMax': _0x42fa3b("noiseDelayMax") ?? _0x1c9f8c?.["noiseDelayMax"] ?? '1',
+    'panelVersion': globalThis.panelVersion
+  };
+  try {
+    await _0x4e68d2.bpb.put("proxySettings", JSON.stringify(_0x4f07ef));
+    if (_0x2e3a7d) {
+      await updateWarpConfigs(_0x2141c3, _0x4e68d2);
+    }
+  } catch (_0x42ccc) {
+    console.log(_0x42ccc);
+    throw new Error("An error occurred while updating KV - " + _0x42ccc);
+  }
+  return _0x4f07ef;
+}
+__defProp(updateDataset, "name", {
+  'value': "updateDataset",
+  'configurable': true
+});
+function extractChainProxyParams(_0x1a89be) {
+  let _0x5a0183 = {};
+  if (!_0x1a89be) {
+    return {};
+  }
+  const _0x257764 = new URL(_0x1a89be);
+  const _0x29a810 = _0x257764.protocol.slice(0x0, -0x1);
+  if (_0x29a810 === "vless") {
+    const _0x4f4322 = new URLSearchParams(_0x257764.search);
+    _0x5a0183 = {
+      'protocol': _0x29a810,
+      'uuid': _0x257764.username,
+      'server': _0x257764.hostname,
+      'port': _0x257764.port
+    };
+    _0x4f4322.forEach((_0x56cf2d, _0x493a90) => {
+      _0x5a0183[_0x493a90] = _0x56cf2d;
+    });
+  } else {
+    _0x5a0183 = {
+      'protocol': _0x29a810,
+      'user': _0x257764.username,
+      'pass': _0x257764.password,
+      'server': _0x257764.host,
+      'port': _0x257764.port
+    };
+  }
+  return JSON.stringify(_0x5a0183);
+}
+__defProp(extractChainProxyParams, "name", {
+  'value': "extractChainProxyParams",
+  'configurable': true
+});
+async function updateWarpConfigs(_0x44b743, _0x2a3aaa) {
+  const _0xa02437 = await Authenticate(_0x44b743, _0x2a3aaa);
+  if (!_0xa02437) {
+    return new Response("Unauthorized", {
+      'status': 0x191
+    });
+  }
+  if (_0x44b743.method === "POST") {
+    try {
+      const {
+        proxySettings: _0x5dcdf0
+      } = await getDataset(_0x44b743, _0x2a3aaa);
+      const {
+        error: _0x1a39ec
+      } = await fetchWarpConfigs(_0x2a3aaa, _0x5dcdf0);
+      if (_0x1a39ec) {
+        return new Response(_0x1a39ec, {
+          'status': 0x190
+        });
+      }
+      return new Response("Warp configs updated successfully", {
+        'status': 0xc8
+      });
+    } catch (_0x259595) {
+      console.log(_0x259595);
+      return new Response("An error occurred while updating Warp configs! - " + _0x259595, {
+        'status': 0x1f4
+      });
+    }
+  } else {
+    return new Response("Unsupported request", {
+      'status': 0x195
+    });
+  }
+}
+__defProp(updateWarpConfigs, "name", {
+  'value': "updateWarpConfigs",
+  'configurable': true
+});
+async function renderHomePage(_0x51f835, _0x59d466) {
+  const {
+    remoteDNS: _0x7fd90c,
+    localDNS: _0x41f58f,
+    vlessTrojanFakeDNS: _0x34a913,
+    proxyIP: _0x508e1d,
+    outProxy: _0xe838e8,
+    cleanIPs: _0x2b12bf,
+    enableIPv6: _0x1376d1,
+    customCdnAddrs: _0x1b3dce,
+    customCdnHost: _0x4a80e0,
+    customCdnSni: _0x40e69b,
+    bestVLESSTrojanInterval: _0x23cc7c,
+    vlessConfigs: _0x1a9ac9,
+    trojanConfigs: _0x9fd47d,
+    ports: _0x2f2f1d,
+    lengthMin: _0x4bc214,
+    lengthMax: _0x10c7d0,
+    intervalMin: _0x24cac7,
+    intervalMax: _0x4919ef,
+    fragmentPackets: _0x471ae6,
+    warpEndpoints: _0x11cff4,
+    warpFakeDNS: _0x2da08d,
+    warpEnableIPv6: _0x3b2923,
+    warpPlusLicense: _0x4253ad,
+    bestWarpInterval: _0x4cf177,
+    hiddifyNoiseMode: _0x344961,
+    nikaNGNoiseMode: _0x89a151,
+    noiseCountMin: _0x3f5261,
+    noiseCountMax: _0x51fef8,
+    noiseSizeMin: _0x50b048,
+    noiseSizeMax: _0x55c280,
+    noiseDelayMin: _0x563f5c,
+    noiseDelayMax: _0x120482,
+    bypassLAN: _0x309b91,
+    bypassIran: _0x441fef,
+    bypassChina: _0x546474,
+    bypassRussia: _0x41a61d,
+    blockAds: _0x20463b,
+    blockPorn: _0x4bb06d,
+    blockUDP443: _0x3c94e7,
+    customBypassRules: _0x9bf0fe,
+    customBlockRules: _0x531e34
+  } = _0x51f835;
+  const _0x3d9089 = !!_0x4253ad;
+  const _0x1f7727 = (_0x1a9ac9 ? 0x1 : 0x0) + (_0x9fd47d ? 0x1 : 0x0);
+  let _0xafb31 = '';
+  let _0x3642cb = '';
+  const _0x80e11c = [...(globalThis.hostName.includes("workers.dev") ? globalThis.defaultHttpPorts : []), ...globalThis.defaultHttpsPorts];
+  _0x80e11c.forEach(_0x497202 => {
+    const _0x2e4dd2 = "port-" + _0x497202;
+    const _0x34ec0e = _0x2f2f1d.includes(_0x497202) ? "checked" : '';
+    const _0x414ae2 = "\n            <div class=\"routing\" style=\"grid-template-columns: 1fr 2fr; margin-right: 10px;\">\n                <input type=\"checkbox\" id=" + _0x2e4dd2 + " name=" + _0x497202 + " onchange=\"handlePortChange(event)\" value=\"true\" " + _0x34ec0e + ">\n                <label style=\"margin-bottom: 3px;\" for=" + _0x2e4dd2 + '>' + _0x497202 + "</label>\n            </div>";
+    if (globalThis.defaultHttpsPorts.includes(_0x497202)) {
+      _0x3642cb += _0x414ae2;
+    } else {
+      _0xafb31 += _0x414ae2;
+    }
+  });
+  const _0x1ea6cd = __defProp(_0x559745 => _0x559745.map(_0x379d20 => "\n        <div>\n            <span class=\"material-symbols-outlined symbol\">verified</span>\n            <span>" + _0x379d20 + "</span>\n        </div>").join(''), "name", {
+    'value': "supportedApps",
+    'configurable': true
+  });
+  const _0x339791 = __defProp((_0x954176, _0xae8429, _0x70c1e3, _0x259cac, _0x114e79) => {
+    const _0x3d6ce3 = (_0x114e79 ? "sing-box://import-remote-profile?url=" : '') + "https://" + globalThis.hostName + '/' + _0x954176 + '/' + globalThis.userID + (_0xae8429 ? "?app=" + _0xae8429 : '') + '#' + _0x70c1e3;
+    return "\n            <button onclick=\"openQR('" + _0x3d6ce3 + "', '" + _0x259cac + "')\" style=\"margin-bottom: 8px;\">\n                QR Code&nbsp;<span class=\"material-symbols-outlined\">qr_code</span>\n            </button>";
+  }, "name", {
+    'value': "subQR",
+    'configurable': true
+  });
+  const _0x430ff0 = __defProp((_0x4901bd, _0x203def, _0x3a597d) => {
+    const _0x51ef46 = "https://" + globalThis.hostName + '/' + _0x4901bd + '/' + globalThis.userID + (_0x203def ? "?app=" + _0x203def : '') + '#' + _0x3a597d;
+    return "\n            <button onclick=\"copyToClipboard('" + _0x51ef46 + "')\">\n                Copy Sub<span class=\"material-symbols-outlined\">format_list_bulleted</span>\n            </button>";
+  }, "name", {
+    'value': "subURL",
+    'configurable': true
+  });
+  const _0xf0d161 = "\n    <!DOCTYPE html>\n    <html lang=\"en\">\n    <head>\n        <meta charset=\"UTF-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n        <meta name=\"timestamp\" content=" + Date.now() + ">\n        <title>BPB Panel " + globalThis.panelVersion + "</title>\n        <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\">\n        <link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200\" />\n        <title>Collapsible Sections</title>\n        <style>\n            :root {\n                --color: black;\n                --primary-color: #09639f;\n                --secondary-color: #3498db;\n                --header-color: #09639f; \n                --background-color: #fff;\n                --form-background-color: #f9f9f9;\n                --table-active-color: #f2f2f2;\n                --hr-text-color: #3b3b3b;\n                --lable-text-color: #333;\n                --border-color: #ddd;\n                --button-color: #09639f;\n                --input-background-color: white;\n                --header-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);\n            }\n            body { font-family: Twemoji Country Flags, system-ui; background-color: var(--background-color); color: var(--color) }\n            body.dark-mode {\n                --color: white;\n                --primary-color: #09639F;\n                --secondary-color: #3498DB;\n                --header-color: #3498DB; \n                --background-color: #121212;\n                --form-background-color: #121212;\n                --table-active-color: #252525;\n                --hr-text-color: #D5D5D5;\n                --lable-text-color: #DFDFDF;\n                --border-color: #353535;\n                --button-color: #3498DB;\n                --input-background-color: #252525;\n                --header-shadow: 2px 2px 4px rgba(255, 255, 255, 0.25);\n            }\n            .material-symbols-outlined {\n                margin-left: 5px;\n                font-variation-settings:\n                'FILL' 0,\n                'wght' 400,\n                'GRAD' 0,\n                'opsz' 24\n            }\n            details { border-bottom: 1px solid var(--border-color); }\n            summary {\n                font-weight: bold;\n                cursor: pointer;\n                text-align: center;\n                text-wrap: nowrap;\n            }\n            summary::marker { font-size: 1.5rem; color: var(--secondary-color); }\n            summary h2 { display: inline-flex; }\n            h1 { font-size: 2.5em; text-align: center; color: var(--header-color); text-shadow: var(--header-shadow); }\n            h2,h3 { margin: 30px 0; text-align: center; color: var(--hr-text-color); }\n            hr { border: 1px solid var(--border-color); margin: 20px 0; }\n            .footer {\n                display: flex;\n                font-weight: 600;\n                margin: 10px auto 0 auto;\n                justify-content: center;\n                align-items: center;\n            }\n            .footer button {margin: 0 20px; background: #212121; max-width: fit-content;}\n            .footer button:hover, .footer button:focus { background: #3b3b3b;}\n            .form-control a, a.link { text-decoration: none; }\n            .form-control {\n                margin-bottom: 20px;\n                font-family: Arial, sans-serif;\n                display: flex;\n                flex-direction: column;\n            }\n            .form-control button {\n                background-color: var(--form-background-color);\n                font-size: 1.1rem;\n                font-weight: 600;\n                color: var(--button-color);\n                border-color: var(--primary-color);\n                border: 1px solid;\n            }\n            #apply {display: block; margin-top: 20px;}\n            input.button {font-weight: 600; padding: 15px 0; font-size: 1.1rem;}\n            label {\n                display: block;\n                margin-bottom: 5px;\n                font-size: 110%;\n                font-weight: 600;\n                color: var(--lable-text-color);\n            }\n            input[type=\"text\"],\n            input[type=\"number\"],\n            input[type=\"url\"],\n            textarea,\n            select {\n                width: 100%;\n                text-align: center;\n                padding: 10px;\n                border: 1px solid var(--border-color);\n                border-radius: 5px;\n                font-size: 16px;\n                color: var(--lable-text-color);\n                background-color: var(--input-background-color);\n                box-sizing: border-box;\n                transition: border-color 0.3s ease;\n            }\t\n            input[type=\"text\"]:focus,\n            input[type=\"number\"]:focus,\n            input[type=\"url\"]:focus,\n            textarea:focus,\n            select:focus { border-color: var(--secondary-color); outline: none; }\n            .button,\n            table button {\n                display: flex;\n                align-items: center;\n                justify-content: center;\n                width: 100%;\n                white-space: nowrap;\n                padding: 10px 15px;\n                font-size: 16px;\n                font-weight: 600;\n                letter-spacing: 1px;\n                border: none;\n                border-radius: 5px;\n                color: white;\n                background-color: var(--primary-color);\n                cursor: pointer;\n                outline: none;\n                box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);\n                transition: all 0.3s ease;\n            }\n            input[type=\"checkbox\"] { \n                background-color: var(--input-background-color);\n                style=\"margin: 0; \n                grid-column: 2;\"\n            }\n            table button { margin: auto; width: auto; }\n            .button.disabled {\n                background-color: #ccc;\n                cursor: not-allowed;\n                box-shadow: none;\n                pointer-events: none;\n            }\n            .button:hover,\n            table button:hover,\n            table button:focus {\n                background-color: #2980b9;\n                box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);\n                transform: translateY(-2px);\n            }\n            .header-container button:hover {\n                transform: scale(1.1);\n            }\n            button.button:hover { color: white; }\n            .button:active,\n            table button:active { transform: translateY(1px); box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3); }\n            .form-container {\n                max-width: 90%;\n                margin: 0 auto;\n                padding: 20px;\n                background: var(--form-background-color);\n                border: 1px solid var(--border-color);\n                border-radius: 10px;\n                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);\n                margin-bottom: 100px;\n            }\n            .table-container { margin-top: 20px; overflow-x: auto; }\n            table { \n                width: 100%;\n                border: 1px solid var(--border-color);\n                border-collapse: separate;\n                border-spacing: 0; \n                border-radius: 10px;\n                margin-bottom: 20px;\n                overflow: hidden;\n            }\n            th, td { padding: 10px; border-bottom: 1px solid var(--border-color); }\n            td div { display: flex; align-items: center; }\n            th { background-color: var(--secondary-color); color: white; font-weight: bold; font-size: 1.1rem; width: 50%;}\n            td:last-child { background-color: var(--table-active-color); }               \n            tr:hover { background-color: var(--table-active-color); }\n            .modal {\n                display: none;\n                position: fixed;\n                z-index: 1;\n                left: 0;\n                top: 0;\n                width: 100%;\n                height: 100%;\n                overflow: auto;\n                background-color: rgba(0, 0, 0, 0.4);\n            }\n            .modal-content {\n                background-color: var(--form-background-color);\n                margin: auto;\n                padding: 10px 20px 20px;\n                border: 1px solid var(--border-color);\n                border-radius: 10px;\n                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);\n                width: 80%;\n                position: absolute;\n                top: 50%;\n                left: 50%;\n                transform: translate(-50%, -50%);\n            }\n            .close { color: var(--color); float: right; font-size: 28px; font-weight: bold; }\n            .close:hover,\n            .close:focus { color: black; text-decoration: none; cursor: pointer; }\n            .form-control label {\n                display: block;\n                margin-bottom: 8px;\n                font-size: 110%;\n                font-weight: 600;\n                color: var(--lable-text-color);\n                line-height: 1.3em;\n            }\n            .form-control input[type=\"password\"] {\n                width: 100%;\n                padding: 10px;\n                border: 1px solid var(--border-color);\n                border-radius: 5px;\n                font-size: 16px;\n                color: var(--lable-text-color);\n                background-color: var(--input-background-color);\n                box-sizing: border-box;\n                margin-bottom: 15px;\n                transition: border-color 0.3s ease;\n            }\n            .routing { \n                display: grid;\n                justify-content: flex-start;\n                grid-template-columns: 1fr 1fr 10fr 1fr;\n                margin-bottom: 15px;\n            }\n            .form-control .routing input { grid-column: 2 / 3; }\n            #routing-rules.form-control { display: grid; grid-template-columns: 1fr 1fr; }\n            .routing label {\n                text-align: left;\n                margin: 0 0 0 10px;\n                font-weight: 400;\n                font-size: 100%;\n                text-wrap: nowrap;\n            }\n            .form-control input[type=\"password\"]:focus { border-color: var(--secondary-color); outline: none; }\n            #passwordError { color: red; margin-bottom: 10px; }\n            .symbol { margin-right: 8px; }\n            .modalQR {\n                display: none;\n                position: fixed;\n                z-index: 1;\n                left: 0;\n                top: 0;\n                width: 100%;\n                height: 100%;\n                overflow: auto;\n                background-color: rgba(0, 0, 0, 0.4);\n            }\n            .floating-button {\n                position: fixed;\n                bottom: 20px;\n                left: 20px;\n                background-color: var(--color);\n                color: white;\n                border: none;\n                border-radius: 50%;\n                width: 60px;\n                height: 60px;\n                font-size: 24px;\n                cursor: pointer;\n                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);\n                transition: background-color 0.3s, transform 0.3s;\n            }\n            .floating-button:hover { transform: scale(1.1); }\n            .min-max { display: grid; grid-template-columns: 1fr auto 1fr; align-items: baseline; width: 100%; }\n            .min-max span { text-align: center; white-space: pre; }\n            .input-with-select { width: 100%; }\n            body.dark-mode .floating-button { background-color: var(--color); }\n            body.dark-mode .floating-button:hover { transform: scale(1.1); }\n            #ips th { background-color: var(--hr-text-color); color: var(--background-color); width: unset; }\n            #ips td { background-color: unset; }\n            #ips td:first-child { background-color: var(--table-active-color); }\n            .header-container { display: flex; align-items: center; justify-content: center; }\n            @media only screen and (min-width: 768px) {\n                .form-container { max-width: 70%; }\n                .form-control { \n                    margin-bottom: 15px;\n                    display: grid;\n                    grid-template-columns: 1fr 1fr;\n                    align-items: baseline;\n                    justify-content: flex-end;\n                    font-family: Arial, sans-serif;\n                }\n                #apply { display: block; margin: 20px auto 0 auto; max-width: 50%; }\n                .modal-content { width: 30% }\n                .routing { display: grid; grid-template-columns: 4fr 1fr 3fr 4fr; }\n            }\n        </style>\n    </head>\n    <body>\n        <h1>BPB Panel <span style=\"font-size: smaller;\">" + globalThis.panelVersion + "</span> 💦</h1>\n        <div class=\"form-container\">\n            <form id=\"configForm\">\n                <details open>\n                    <summary><h2>VLESS - TROJAN ⚙️</h2></summary>\n                    <div class=\"form-control\">\n                        <label for=\"remoteDNS\">🌏 Remote DNS</label>\n                        <input type=\"url\" id=\"remoteDNS\" name=\"remoteDNS\" value=\"" + _0x7fd90c + "\" required>\n                    </div>\n                    <div class=\"form-control\">\n                        <label for=\"localDNS\">🏚️ Local DNS</label>\n                        <input type=\"text\" id=\"localDNS\" name=\"localDNS\" value=\"" + _0x41f58f + "\"\n                            pattern=\"^(?:\\d{1,3}\\.){3}\\d{1,3}$\"\n                            title=\"Please enter a valid DNS IP Address!\"  required>\n                    </div>\n                    <div class=\"form-control\">\n                        <label for=\"vlessTrojanFakeDNS\">🧢 Fake DNS</label>\n                        <div class=\"input-with-select\">\n                            <select id=\"vlessTrojanFakeDNS\" name=\"vlessTrojanFakeDNS\">\n                                <option value=\"true\" " + (_0x34a913 ? "selected" : '') + ">Enabled</option>\n                                <option value=\"false\" " + (!_0x34a913 ? "selected" : '') + ">Disabled</option>\n                            </select>\n                        </div>\n                    </div>\n                    <div class=\"form-control\">\n                        <label for=\"proxyIP\">📍 Proxy IPs / Domains</label>\n                        <input type=\"text\" id=\"proxyIP\" name=\"proxyIP\" value=\"" + _0x508e1d.replaceAll(',', " , ") + "\">\n                    </div>\n                    <div class=\"form-control\">\n                        <label for=\"outProxy\">✈️ Chain Proxy</label>\n                        <input type=\"text\" id=\"outProxy\" name=\"outProxy\" value=\"" + _0xe838e8 + "\">\n                    </div>\n                    <div class=\"form-control\">\n                        <label for=\"cleanIPs\">✨ Clean IPs / Domains</label>\n                        <input type=\"text\" id=\"cleanIPs\" name=\"cleanIPs\" value=\"" + _0x2b12bf.replaceAll(',', " , ") + "\">\n                    </div>\n                    <div class=\"form-control\">\n                        <label for=\"scanner\">🔎 Clean IP Scanner</label>\n                        <a href=\"" + atob("aHR0cHM6Ly9naXRodWIuY29tL2JpYS1wYWluLWJhY2hl") + "/Cloudflare-Clean-IP-Scanner/releases/tag/v2.2.5\" name=\"scanner\" target=\"_blank\" style=\"width: 100%;\">\n                            <button type=\"button\" id=\"scanner\" class=\"button\">\n                                Download Scanner\n                                <span class=\"material-symbols-outlined\">open_in_new</span>\n                            </button>\n                        </a>\n                    </div>\n                    <div class=\"form-control\">\n                        <label for=\"enableIPv6\">🔛 IPv6</label>\n                        <div class=\"input-with-select\">\n                            <select id=\"enableIPv6\" name=\"enableIPv6\">\n                                <option value=\"true\" " + (_0x1376d1 ? "selected" : '') + ">Enabled</option>\n                                <option value=\"false\" " + (!_0x1376d1 ? "selected" : '') + ">Disabled</option>\n                            </select>\n                        </div>\n                    </div>\n                    <div class=\"form-control\">\n                        <label for=\"customCdnAddrs\">💀 Custom CDN Addrs</label>\n                        <input type=\"text\" id=\"customCdnAddrs\" name=\"customCdnAddrs\" value=\"" + _0x1b3dce.replaceAll(',', " , ") + "\">\n                    </div>\n                    <div class=\"form-control\">\n                        <label for=\"customCdnHost\">💀 Custom CDN Host</label> \n                        <input type=\"text\" id=\"customCdnHost\" name=\"customCdnHost\" value=\"" + _0x4a80e0 + "\">\n                    </div>\n                    <div class=\"form-control\">\n                        <label for=\"customCdnSni\">💀 Custom CDN SNI</label>\n                        <input type=\"text\" id=\"customCdnSni\" name=\"customCdnSni\" value=\"" + _0x40e69b + "\">\n                    </div>\n                    <div class=\"form-control\">\n                        <label for=\"bestVLESSTrojanInterval\">🔄 Best Interval</label>\n                        <input type=\"number\" id=\"bestVLESSTrojanInterval\" name=\"bestVLESSTrojanInterval\" min=\"10\" max=\"90\" value=\"" + _0x23cc7c + "\">\n                    </div>\n                    <div class=\"form-control\" style=\"padding-top: 10px;\">\n                        <label for=\"vlessConfigs\">⚙️ Protocols</label>\n                        <div style=\"width: 100%; display: grid; grid-template-columns: 1fr 1fr; align-items: baseline; margin-top: 10px;\">\n                            <div style = \"display: flex; justify-content: center; align-items: center;\">\n                                <input type=\"checkbox\" id=\"vlessConfigs\" name=\"vlessConfigs\" onchange=\"handleProtocolChange(event)\" value=\"true\" " + (_0x1a9ac9 ? "checked" : '') + ">\n                                <label for=\"vlessConfigs\" style=\"margin: 0 5px; font-weight: normal; font-size: unset;\">VLESS</label>\n                            </div>\n                            <div style = \"display: flex; justify-content: center; align-items: center;\">\n                                <input type=\"checkbox\" id=\"trojanConfigs\" name=\"trojanConfigs\" onchange=\"handleProtocolChange(event)\" value=\"true\" " + (_0x9fd47d ? "checked" : '') + ">\n                                <label for=\"trojanConfigs\" style=\"margin: 0 5px; font-weight: normal; font-size: unset;\">Trojan</label>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"table-container\">\n                        <table id=\"ports-block\">\n                            <tr>\n                                <th style=\"text-wrap: nowrap; background-color: gray;\">Config type</th>\n                                <th style=\"text-wrap: nowrap; background-color: gray;\">Ports</th>\n                            </tr>\n                            <tr>\n                                <td style=\"text-align: center; font-size: larger;\"><b>TLS</b></td>\n                                <td>\n                                    <div style=\"display: grid; grid-template-columns: 1fr 1fr 1fr 1fr;\">" + _0x3642cb + "</div>\n                                </td>    \n                            </tr>\n                            " + (!_0xafb31 ? '' : "<tr>\n                                <td style=\"text-align: center; font-size: larger;\"><b>Non TLS</b></td>\n                                <td>\n                                    <div style=\"display: grid; grid-template-columns: 1fr 1fr 1fr 1fr;\">" + _0xafb31 + "</div>\n                                </td>    \n                            </tr>") + "        \n                        </table>\n                    </div>\n                </details>\n                <details>\n                    <summary><h2>FRAGMENT ⚙️</h2></summary>\t\n                    <div class=\"form-control\">\n                        <label for=\"fragmentLengthMin\">📐 Length</label>\n                        <div class=\"min-max\">\n                            <input type=\"number\" id=\"fragmentLengthMin\" name=\"fragmentLengthMin\" value=\"" + _0x4bc214 + "\" min=\"10\" required>\n                            <span> - </span>\n                            <input type=\"number\" id=\"fragmentLengthMax\" name=\"fragmentLengthMax\" value=\"" + _0x10c7d0 + "\" max=\"500\" required>\n                        </div>\n                    </div>\n                    <div class=\"form-control\">\n                        <label for=\"fragmentIntervalMin\">🕞 Interval</label>\n                        <div class=\"min-max\">\n                            <input type=\"number\" id=\"fragmentIntervalMin\" name=\"fragmentIntervalMin\"\n                                value=\"" + _0x24cac7 + "\" min=\"1\" max=\"30\" required>\n                            <span> - </span>\n                            <input type=\"number\" id=\"fragmentIntervalMax\" name=\"fragmentIntervalMax\"\n                                value=\"" + _0x4919ef + "\" min=\"1\" max=\"30\" required>\n                        </div>\n                    </div>\n                    <div class=\"form-control\">\n                        <label for=\"fragmentPackets\">📦 Packets</label>\n                        <div class=\"input-with-select\">\n                            <select id=\"fragmentPackets\" name=\"fragmentPackets\">\n                                <option value=\"tlshello\" " + (_0x471ae6 === "tlshello" ? "selected" : '') + ">tlshello</option>\n                                <option value=\"1-1\" " + (_0x471ae6 === "1-1" ? "selected" : '') + ">1-1</option>\n                                <option value=\"1-2\" " + (_0x471ae6 === "1-2" ? "selected" : '') + ">1-2</option>\n                                <option value=\"1-3\" " + (_0x471ae6 === "1-3" ? "selected" : '') + ">1-3</option>\n                                <option value=\"1-5\" " + (_0x471ae6 === "1-5" ? "selected" : '') + ">1-5</option>\n                            </select>\n                        </div>\n                    </div>\n                </details>\n                <details>\n                    <summary><h2>WARP GENERAL ⚙️</h2></summary>\n                    <div class=\"form-control\">\n                        <label for=\"warpEndpoints\">✨ Endpoints</label>\n                        <input type=\"text\" id=\"warpEndpoints\" name=\"warpEndpoints\" value=\"" + _0x11cff4.replaceAll(',', " , ") + "\" required>\n                    </div>\n                    <div class=\"form-control\">\n                        <label for=\"endpointScanner\" style=\"line-height: 1.5;\">🔎 Scan Endpoint</label>\n                        <button type=\"button\" id=\"endpointScanner\" class=\"button\" style=\"padding: 10px 0;\" onclick=\"copyToClipboard('bash <(curl -fsSL " + atob("aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JpYS1wYWluLWJhY2hl") + "/warp-script/refs/heads/main/endip/install.sh)', false)\">\n                            Copy Script<span class=\"material-symbols-outlined\">terminal</span>\n                        </button>\n                    </div>\n                    <div class=\"form-control\">\n                        <label for=\"warpFakeDNS\">🧢 Fake DNS</label>\n                        <div class=\"input-with-select\">\n                            <select id=\"warpFakeDNS\" name=\"warpFakeDNS\">\n                                <option value=\"true\" " + (_0x2da08d ? "selected" : '') + ">Enabled</option>\n                                <option value=\"false\" " + (!_0x2da08d ? "selected" : '') + ">Disabled</option>\n                            </select>\n                        </div>\n                    </div>\n                    <div class=\"form-control\">\n                        <label for=\"warpEnableIPv6\">🔛 IPv6</label>\n                        <div class=\"input-with-select\">\n                            <select id=\"warpEnableIPv6\" name=\"warpEnableIPv6\">\n                                <option value=\"true\" " + (_0x3b2923 ? "selected" : '') + ">Enabled</option>\n                                <option value=\"false\" " + (!_0x3b2923 ? "selected" : '') + ">Disabled</option>\n                            </select>\n                        </div>\n                    </div>\n                    <div class=\"form-control\">\n                        <label for=\"warpPlusLicense\">➕ Warp+ License</label>\n                        <input type=\"text\" id=\"warpPlusLicense\" name=\"warpPlusLicense\" value=\"" + _0x4253ad + "\" \n                            pattern=\"^[a-zA-Z0-9]{8}-[a-zA-Z0-9]{8}-[a-zA-Z0-9]{8}$\" \n                            title=\"Please enter a valid Warp Plus license in xxxxxxxx-xxxxxxxx-xxxxxxxx format\">\n                    </div>\n                    <div class=\"form-control\">\n                        <label for=\"refreshBtn\">♻️ Warp Configs</label>\n                        <button id=\"refreshBtn\" type=\"button\" class=\"button\" style=\"padding: 10px 0;\" onclick=\"getWarpConfigs()\">\n                            Update<span class=\"material-symbols-outlined\">autorenew</span>\n                        </button>\n                    </div>\n                    <div class=\"form-control\">\n                        <label for=\"bestWarpInterval\">🔄 Best Interval</label>\n                        <input type=\"number\" id=\"bestWarpInterval\" name=\"bestWarpInterval\" min=\"10\" max=\"90\" value=\"" + _0x4cf177 + "\">\n                    </div>\n                </details>\n                <details>\n                    <summary><h2>WARP PRO ⚙️</h2></summary>\n                    <div class=\"form-control\">\n                        <label for=\"hiddifyNoiseMode\">😵‍💫 Hiddify Mode</label>\n                        <input type=\"text\" id=\"hiddifyNoiseMode\" name=\"hiddifyNoiseMode\" \n                            pattern=\"^(m[1-6]|h_[0-9A-Fa-f]{2}|g_([0-9A-Fa-f]{2}_){2}[0-9A-Fa-f]{2})$\" \n                            title=\"Enter 'm1-m6', 'h_HEX', 'g_HEX_HEX_HEX' which HEX can be between 00 to ff\"\n                            value=\"" + _0x344961 + "\" required>\n                    </div>\n                    <div class=\"form-control\">\n                        <label for=\"nikaNGNoiseMode\">😵‍💫 NikaNG Mode</label>\n                        <input type=\"text\" id=\"nikaNGNoiseMode\" name=\"nikaNGNoiseMode\" \n                            pattern=\"^(none|quic|random|[0-9A-Fa-f]+)$\" \n                            title=\"Enter 'none', 'quic', 'random', or any HEX string like 'ee0000000108aaaa'\"\n                            value=\"" + _0x89a151 + "\" required>\n                    </div>\n                    <div class=\"form-control\">\n                        <label for=\"noiseCountMin\">🎚️ Noise Count</label>\n                        <div class=\"min-max\">\n                            <input type=\"number\" id=\"noiseCountMin\" name=\"noiseCountMin\"\n                                value=\"" + _0x3f5261 + "\" min=\"1\" required>\n                            <span> - </span>\n                            <input type=\"number\" id=\"noiseCountMax\" name=\"noiseCountMax\"\n                                value=\"" + _0x51fef8 + "\" min=\"1\" required>\n                        </div>\n                    </div>\n                    <div class=\"form-control\">\n                        <label for=\"noiseSizeMin\">📏 Noise Size</label>\n                        <div class=\"min-max\">\n                            <input type=\"number\" id=\"noiseSizeMin\" name=\"noiseSizeMin\"\n                                value=\"" + _0x50b048 + "\" min=\"1\" required>\n                            <span> - </span>\n                            <input type=\"number\" id=\"noiseSizeMax\" name=\"noiseSizeMax\"\n                                value=\"" + _0x55c280 + "\" min=\"1\" required>\n                        </div>\n                    </div>\n                    <div class=\"form-control\">\n                        <label for=\"noiseDelayMin\">🕞 Noise Delay</label>\n                        <div class=\"min-max\">\n                            <input type=\"number\" id=\"noiseDelayMin\" name=\"noiseDelayMin\"\n                                value=\"" + _0x563f5c + "\" min=\"1\" required>\n                            <span> - </span>\n                            <input type=\"number\" id=\"noiseDelayMax\" name=\"noiseDelayMax\"\n                                value=\"" + _0x120482 + "\" min=\"1\" required>\n                        </div>\n                    </div>\n                </details>\n                <details>\n                    <summary><h2>ROUTING RULES ⚙️</h2></summary>\n                    <div id=\"routing-rules\" class=\"form-control\" style=\"margin-bottom: 20px;\">\t\t\t\n                        <div class=\"routing\">\n                            <input type=\"checkbox\" id=\"bypass-lan\" name=\"bypass-lan\" value=\"true\" " + (_0x309b91 ? "checked" : '') + ">\n                            <label for=\"bypass-lan\">Bypass LAN</label>\n                        </div>\n                        <div class=\"routing\">\n                            <input type=\"checkbox\" id=\"block-ads\" name=\"block-ads\" value=\"true\" " + (_0x20463b ? "checked" : '') + ">\n                            <label for=\"block-ads\">Block Ads.</label>\n                        </div>\n                        <div class=\"routing\">\n                            <input type=\"checkbox\" id=\"bypass-iran\" name=\"bypass-iran\" value=\"true\" " + (_0x441fef ? "checked" : '') + ">\n                            <label for=\"bypass-iran\">Bypass Iran</label>\n                        </div>\n                        <div class=\"routing\">\n                            <input type=\"checkbox\" id=\"block-porn\" name=\"block-porn\" value=\"true\" " + (_0x4bb06d ? "checked" : '') + ">\n                            <label for=\"block-porn\">Block Porn</label>\n                        </div>\n                        <div class=\"routing\">\n                            <input type=\"checkbox\" id=\"bypass-china\" name=\"bypass-china\" value=\"true\" " + (_0x546474 ? "checked" : '') + ">\n                            <label for=\"bypass-china\">Bypass China</label>\n                        </div>\n                        <div class=\"routing\">\n                            <input type=\"checkbox\" id=\"block-udp-443\" name=\"block-udp-443\" value=\"true\" " + (_0x3c94e7 ? "checked" : '') + ">\n                            <label for=\"block-udp-443\">Block QUIC</label>\n                        </div>\n                        <div class=\"routing\">\n                            <input type=\"checkbox\" id=\"bypass-russia\" name=\"bypass-russia\" value=\"true\" " + (_0x41a61d ? "checked" : '') + ">\n                            <label for=\"bypass-russia\">Bypass Russia</label>\n                        </div>\n                    </div>\n                    <h3>CUSTOM RULES 🔧</h3>\n                    <div class=\"form-control\">\n                        <label for=\"customBypassRules\">🟩 Bypass IPs / Domains</label>\n                        <input type=\"text\" id=\"customBypassRules\" name=\"customBypassRules\" value=\"" + _0x9bf0fe.replaceAll(',', " , ") + "\">\n                    </div>\n                    <div class=\"form-control\">\n                        <label for=\"customBlockRules\">🟥 Block IPs / Domains</label>\n                        <input type=\"text\" id=\"customBlockRules\" name=\"customBlockRules\" value=\"" + _0x531e34.replaceAll(',', " , ") + "\">\n                    </div>\n                </details>\n                <div id=\"apply\" class=\"form-control\">\n                    <div style=\"grid-column: 2; width: 100%; display: inline-flex;\">\n                        <input type=\"submit\" id=\"applyButton\" style=\"margin-right: 10px;\" class=\"button disabled\" value=\"APPLY SETTINGS 💥\" form=\"configForm\">\n                        <button type=\"button\" id=\"resetSettings\" style=\"background: none; margin: 0; border: none; cursor: pointer;\">\n                            <i class=\"fa fa-refresh fa-2x fa-border\" style=\"border-radius: .2em; border-color: var(--border-color);\" aria-hidden=\"true\"></i>\n                        </button>\n                    </div>\n                </div>\n            </form>\n            <hr>            \n            <h2>🔗 NORMAL SUB</h2>\n            <div class=\"table-container\">\n                <table id=\"normal-configs-table\">\n                    <tr>\n                        <th>Application</th>\n                        <th>Subscription</th>\n                    </tr>\n                    <tr>\n                        <td>\n                            " + _0x1ea6cd(["v2rayNG", "NikaNG", "MahsaNG", "v2rayN", "v2rayN-PRO", "Shadowrocket", "Streisand", "Hiddify", "Nekoray (Xray)"]) + "\n                        </td>\n                        <td>\n                            " + _0x339791("sub", '', "BPB-Normal", "Normal Subscription") + "\n                            " + _0x430ff0("sub", '', "BPB-Normal") + "\n                        </td>\n                    </tr>\n                    <tr>\n                        <td>\n                            " + _0x1ea6cd(["husi", "Nekobox", "Nekoray (sing-Box)", "Karing"]) + "\n                        </td>\n                        <td>\n                            " + _0x430ff0("sub", "singbox", "BPB-Normal") + "\n                        </td>\n                    </tr>\n                </table>\n            </div>\n            <h2>🔗 FULL NORMAL SUB</h2>\n            <div class=\"table-container\">\n                <table id=\"full-normal-configs-table\">\n                    <tr>\n                        <th>Application</th>\n                        <th>Subscription</th>\n                    </tr>\n                    <tr>\n                        <td>\n                            " + _0x1ea6cd(["v2rayNG", "NikaNG", "MahsaNG", "v2rayN", "v2rayN-PRO", "Streisand"]) + "\n                        </td>\n                        <td>\n                            " + _0x339791("sub", "xray", "BPB-Full-Normal", "Full normal Subscription") + "\n                            " + _0x430ff0("sub", "xray", "BPB-Full-Normal") + "\n                        </td>\n                    </tr>\n                    <tr>\n                        <td>\n                            " + _0x1ea6cd(["sing-box", "v2rayN (sing-box)"]) + "\n                        </td>\n                        <td>\n                            " + _0x339791("sub", "sfa", "BPB-Full-Normal", "Full normal Subscription", true) + "\n                            " + _0x430ff0("sub", "sfa", "BPB-Full-Normal") + "\n                        </td>\n                    </tr>\n                    <tr>\n                        <td>\n                            " + _0x1ea6cd(["Clash Meta", "Clash Verge", "FlClash", "Stash", "v2rayN (mihomo)"]) + "\n                        </td>\n                        <td>\n                            " + _0x339791("sub", "clash", "BPB-Full-Normal", "Full normal Subscription") + "\n                            " + _0x430ff0("sub", "clash", "BPB-Full-Normal") + "\n                        </td>\n                    </tr>\n                </table>\n            </div>\n            <h2>🔗 FRAGMENT SUB</h2>\n            <div class=\"table-container\">\n                <table id=\"frag-sub-table\">\n                    <tr>\n                        <th style=\"text-wrap: nowrap;\">Application</th>\n                        <th style=\"text-wrap: nowrap;\">Subscription</th>\n                    </tr>\n                    <tr>\n                        <td style=\"text-wrap: nowrap;\">\n                            " + _0x1ea6cd(["v2rayNG", "NikaNG", "MahsaNG", "v2rayN", "v2rayN-PRO", "Streisand"]) + "\n                        </td>\n                        <td>\n                            " + _0x339791("fragsub", '', "BPB-Fragment", "Fragment Subscription") + "\n                            " + _0x430ff0("fragsub", '', "BPB-Fragment") + "\n                        </td>\n                    </tr>\n                    <tr>\n                        <td style=\"text-wrap: nowrap;\">\n                            " + _0x1ea6cd(["Hiddify"]) + "\n                        </td>\n                        <td>\n                            " + _0x339791("fragsub", "hiddify", "BPB-Fragment", "Fragment Subscription") + "\n                            " + _0x430ff0("fragsub", "hiddify", "BPB-Fragment") + "\n                        </td>\n                    </tr>\n                </table>\n            </div>\n            <h2>🔗 WARP SUB</h2>\n            <div class=\"table-container\">\n                <table id=\"normal-configs-table\">\n                    <tr>\n                        <th>Application</th>\n                        <th>Subscription</th>\n                    </tr>\n                    <tr>\n                        <td>\n                            " + _0x1ea6cd(["v2rayNG", "v2rayN", "Streisand"]) + "\n                        </td>\n                        <td>\n                            " + _0x339791("warpsub", "xray", "BPB-Warp", "Warp Subscription") + "\n                            " + _0x430ff0("warpsub", "xray", "BPB-Warp") + "\n                        </td>\n                    </tr>\n                    <tr>\n                        <td>\n                            " + _0x1ea6cd(["Hiddify", "sing-box", "v2rayN (sing-box)"]) + "\n                        </td>\n                        <td>\n                            " + _0x339791("sub", "singbox", "BPB-Warp", "Warp Subscription", true) + "\n                            " + _0x430ff0("warpsub", "singbox", "BPB-Warp") + "\n                        </td>\n                    </tr>\n                    <tr>\n                        <td>\n                            " + _0x1ea6cd(["Clash Meta", "Clash Verge", "FlClash", "Stash", "v2rayN (mihomo)"]) + "\n                        </td>\n                        <td>\n                            " + _0x339791("warpsub", "clash", "BPB-Warp", "Warp Subscription") + "\n                            " + _0x430ff0("warpsub", "clash", "BPB-Warp") + "\n                        </td>\n                    </tr>\n                </table>\n            </div>\n            <h2>🔗 WARP PRO SUB</h2>\n            <div class=\"table-container\">\n                <table id=\"warp-pro-configs-table\">\n                    <tr>\n                        <th>Application</th>\n                        <th>Subscription</th>\n                    </tr>\n                    <tr>\n                        <td>\n                            " + _0x1ea6cd(["NikaNG", "MahsaNG", "v2rayN-PRO"]) + "\n                        </td>\n                        <td>\n                            " + _0x339791("warpsub", "nikang", "BPB-Warp-Pro", "Warp Pro Subscription") + "\n                            " + _0x430ff0("warpsub", "nikang", "BPB-Warp-Pro") + "\n                        </td>\n                    </tr>\n                    <tr>\n                        <td>\n                            " + _0x1ea6cd(["Hiddify"]) + "\n                        </td>\n                        <td>\n                            " + _0x339791("warpsub", "hiddify", "BPB-Warp-Pro", "Warp Pro Subscription", true) + "\n                            " + _0x430ff0("warpsub", "hiddify", "BPB-Warp-Pro") + "\n                        </td>\n                    </tr>\n                </table>\n            </div>\n            <div id=\"myModal\" class=\"modal\">\n                <div class=\"modal-content\">\n                    <span class=\"close\">&times;</span>\n                    <form id=\"passwordChangeForm\">\n                        <h2>Change Password</h2>\n                        <div class=\"form-control\">\n                            <label for=\"newPassword\">New Password</label>\n                            <input type=\"password\" id=\"newPassword\" name=\"newPassword\" required>\n                            </div>\n                        <div class=\"form-control\">\n                            <label for=\"confirmPassword\">Confirm Password</label>\n                            <input type=\"password\" id=\"confirmPassword\" name=\"confirmPassword\" required>\n                        </div>\n                        <div id=\"passwordError\" style=\"color: red; margin-bottom: 10px;\"></div>\n                        <button id=\"changePasswordBtn\" type=\"submit\" class=\"button\">Change Password</button>\n                    </form>\n                </div>\n            </div>\n            <div id=\"myQRModal\" class=\"modalQR\">\n                <div class=\"modal-content\" style=\"width: auto; text-align: center;\">\n                    <div style=\"display: flex; flex-direction: column; align-items: center; margin-bottom: 10px;\">\n                        <span id=\"closeQRModal\" class=\"close\" style=\"align-self: flex-end;\">&times;</span>\n                        <span id=\"qrcodeTitle\" style=\"align-self: center; font-weight: bold;\"></span>\n                    </div>\n                    <div id=\"qrcode-container\"></div>\n                </div>\n            </div>\n            <hr>\n            <div class=\"header-container\">\n                <h2 style=\"margin: 0 5px;\">💡 MY IP</h2>\n                <button type=\"button\" id=\"refresh-geo-location\" onclick=\"fetchIPInfo()\" style=\"background: none; margin: 0; border: none; cursor: pointer;\">\n                    <i class=\"fa fa-refresh fa-2x\" style=\"color: var(--button-color);\" aria-hidden=\"true\"></i>\n                </button>       \n            </div>\n            <div class=\"table-container\">\n                <table id=\"ips\" style=\"text-align: center; margin-bottom: 15px; text-wrap-mode: nowrap;\">\n                    <tr>\n                        <th>Target Address</th>\n                        <th>IP</th>\n                        <th>Country</th>\n                        <th>City</th>\n                        <th>ISP</th>\n                    </tr>\n                    <tr>\n                        <td>Cloudflare CDN</td>\n                        <td id=\"cf-ip\"></td>\n                        <td><b id=\"cf-country\"></b></td>\n                        <td><b id=\"cf-city\"></b></td>\n                        <td><b id=\"cf-isp\"></b></td>\n                    </tr>\n                    <tr>\n                        <td>Others</td>\n                        <td id=\"ip\"></td>\n                        <td><b id=\"country\"></b></td>\n                        <td><b id=\"city\"></b></td>\n                        <td><b id=\"isp\"></b></td>\n                    </tr>\n                </table>\n            </div>\n            <hr>\n            <div class=\"footer\">\n                <i class=\"fa fa-github\" style=\"font-size:36px; margin-right: 10px;\"></i>\n                <a class=\"link\" href=\"" + atob("aHR0cHM6Ly9naXRodWIuY29tL2JpYS1wYWluLWJhY2hlL0JQQi1Xb3JrZXItUGFuZWw=") + "\" style=\"color: var(--color); text-decoration: underline;\" target=\"_blank\">Github</a>\n                <button id=\"openModalBtn\" class=\"button\">Change Password</button>\n                <button type=\"button\" id=\"logout\" style=\"background: none; color: var(--color); margin: 0; border: none; cursor: pointer;\">\n                    <i class=\"fa fa-power-off fa-2x\" aria-hidden=\"true\"></i>\n                </button>\n            </div>\n        </div>\n        <button id=\"darkModeToggle\" class=\"floating-button\">\n            <i id=\"modeIcon\" class=\"fa fa-2x fa-adjust\" style=\"color: var(--background-color);\" aria-hidden=\"true\"></i>\n        </button>\n    <script type=\"module\" defer>\n        import { polyfillCountryFlagEmojis } from \"https://cdn.skypack.dev/country-flag-emoji-polyfill\";\n        polyfillCountryFlagEmojis();\n    </script>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js\"></script>\n    <script>\n        const defaultHttpsPorts = ['443', '8443', '2053', '2083', '2087', '2096'];\n        let activePortsNo = " + _0x2f2f1d.length + ";\n        let activeHttpsPortsNo = " + _0x2f2f1d.filter(_0x329e77 => globalThis.defaultHttpsPorts.includes(_0x329e77)).length + ";\n        let activeProtocols = " + _0x1f7727 + ";\n        const warpPlusLicense = '" + _0x4253ad + "';\n        localStorage.getItem('darkMode') === 'enabled' && document.body.classList.add('dark-mode');\n\n        document.addEventListener('DOMContentLoaded', async () => {\n            const configForm = document.getElementById('configForm');            \n            const changePass = document.getElementById('openModalBtn');\n            const closeBtn = document.querySelector(\".close\");\n            const passwordChangeForm = document.getElementById('passwordChangeForm');                    \n            const initialFormData = new FormData(configForm);\n            const modal = document.getElementById('myModal');\n            const closeQR = document.getElementById('closeQRModal');\n            const resetSettings = document.getElementById('resetSettings');\n            let modalQR = document.getElementById('myQRModal');\n            let qrcodeContainer = document.getElementById('qrcode-container');\n            let forcedPassChange = false;\n            const darkModeToggle = document.getElementById('darkModeToggle');\n                    \n            const hasFormDataChanged = () => {\n                const currentFormData = new FormData(configForm);\n                const currentFormDataEntries = [...currentFormData.entries()];\n\n                const nonCheckboxFieldsChanged = currentFormDataEntries.some(\n                    ([key, value]) => !initialFormData.has(key) || initialFormData.get(key) !== value\n                );\n\n                const checkboxFieldsChanged = Array.from(configForm.elements)\n                    .filter((element) => element.type === 'checkbox')\n                    .some((checkbox) => {\n                    const initialValue = initialFormData.has(checkbox.name)\n                        ? initialFormData.get(checkbox.name)\n                        : false;\n                    const currentValue = currentFormDataEntries.find(([key]) => key === checkbox.name)?.[1] || false;\n                    return initialValue !== currentValue;\n                });\n\n                return nonCheckboxFieldsChanged || checkboxFieldsChanged;\n            };\n            \n            const enableApplyButton = () => {\n                const isChanged = hasFormDataChanged();\n                applyButton.disabled = !isChanged;\n                applyButton.classList.toggle('disabled', !isChanged);\n            };\n                        \n            passwordChangeForm.addEventListener('submit', event => resetPassword(event));\n            document.getElementById('logout').addEventListener('click', event => logout(event));\n            configForm.addEventListener('submit', (event) => applySettings(event, configForm));\n            configForm.addEventListener('input', enableApplyButton);\n            configForm.addEventListener('change', enableApplyButton);\n            changePass.addEventListener('click', () => {\n                forcedPassChange ? closeBtn.style.display = 'none' : closeBtn.style.display = '';\n                modal.style.display = \"block\";\n                document.body.style.overflow = \"hidden\";\n                forcedPassChange = false;\n            });        \n            closeBtn.addEventListener('click', () => {\n                modal.style.display = \"none\";\n                document.body.style.overflow = \"\";\n            });\n            closeQR.addEventListener('click', () => {\n                modalQR.style.display = \"none\";\n                qrcodeContainer.lastElementChild.remove();\n            });\n            resetSettings.addEventListener('click', async () => {\n                const confirmReset = confirm('⚠️ This will reset all panel settings.\\nAre you sure?');\n                if(!confirmReset) return;\n                const formData = new FormData();\n                formData.append('resetSettings', 'true');\n                try {\n                    document.body.style.cursor = 'wait';\n                    const refreshButtonVal = refreshBtn.innerHTML;\n                    refreshBtn.innerHTML = '⌛ Loading...';\n\n                    const response = await fetch('/panel', {\n                        method: 'POST',\n                        body: formData,\n                        credentials: 'include'\n                    });\n\n                    document.body.style.cursor = 'default';\n                    refreshBtn.innerHTML = refreshButtonVal;\n                    if (!response.ok) {\n                        const errorMessage = await response.text();\n                        console.error(errorMessage, response.status);\n                        alert('⚠️ An error occured, Please try again!\\n⛔ ' + errorMessage);\n                        return;\n                    }       \n                    alert('✅ Panel settings reset to default successfully! 😎');\n                    window.location.reload(true);\n                } catch (error) {\n                    console.error('Error:', error);\n                }\n            });\n            window.onclick = (event) => {\n                if (event.target == modalQR) {\n                    modalQR.style.display = \"none\";\n                    qrcodeContainer.lastElementChild.remove();\n                }\n            }\n            darkModeToggle.addEventListener('click', () => {\n                const isDarkMode = document.body.classList.toggle('dark-mode');\n                localStorage.setItem('darkMode', isDarkMode ? 'enabled' : 'disabled');\n            });\n\n            const isPassSet = " + _0x59d466 + ";\n            if (!isPassSet) {\n                forcedPassChange = true;\n                changePass.click();\n            }\n\n            await fetchIPInfo();\n        });\n\n        const fetchIPInfo = async () => {\n            const updateUI = (ip = '-', country = '-', countryCode = '-', city = '-', isp = '-', cfIP) => {\n                const flag = countryCode !== '-' ? String.fromCodePoint(...[...countryCode].map(c => 0x1F1E6 + c.charCodeAt(0) - 65)) : '';\n                document.getElementById(cfIP ? 'cf-ip' : 'ip').textContent = ip;\n                document.getElementById(cfIP ? 'cf-country' : 'country').textContent = country + ' ' + flag;\n                document.getElementById(cfIP ? 'cf-city' : 'city').textContent = city;\n                document.getElementById(cfIP ? 'cf-isp' : 'isp').textContent = isp;\n            };\n\n            const refreshIcon = document.getElementById(\"refresh-geo-location\").querySelector('i');\n            refreshIcon.classList.add('fa-spin');\n            document.body.style.cursor = 'wait';\n\n            try {\n                const ipResponse = await fetch('https://ipwho.is/' + '?nocache=' + Date.now(), { cache: \"no-store\" });\n                const ipResponseObj = await ipResponse.json();\n                const geoResponse = await fetch('/my-ip', { \n                    method: 'POST',\n                    body: ipResponseObj.ip\n                });\n                const ipGeoLocation = await geoResponse.json();\n                updateUI(ipResponseObj.ip, ipGeoLocation.country, ipGeoLocation.countryCode, ipGeoLocation.city, ipGeoLocation.isp);\n                const cfIPresponse = await fetch('https://ipv4.icanhazip.com/?nocache=' + Date.now(), { cache: \"no-store\" });\n                const cfIP = await cfIPresponse.text();\n                const cfGeoResponse = await fetch('/my-ip', { \n                    method: 'POST',\n                    body: cfIP.trim()\n                });\n                const cfIPGeoLocation = await cfGeoResponse.json();\n                updateUI(cfIP, cfIPGeoLocation.country, cfIPGeoLocation.countryCode, cfIPGeoLocation.city, cfIPGeoLocation.isp, true);\n                refreshIcon.classList.remove('fa-spin');\n                document.body.style.cursor = 'default';\n            } catch (error) {\n                console.error('Error fetching IP address:', error);\n            }\n        }\n\n        const getWarpConfigs = async () => {\n            const license = document.getElementById('warpPlusLicense').value;\n            if (license !== warpPlusLicense) {\n                alert('⚠️ First APPLY SETTINGS and then update Warp configs!');\n                return false;\n            }\n            const confirmReset = confirm('⚠️ Are you sure?');\n            if(!confirmReset) return;\n            const refreshBtn = document.getElementById('refreshBtn');\n\n            try {\n                document.body.style.cursor = 'wait';\n                const refreshButtonVal = refreshBtn.innerHTML;\n                refreshBtn.innerHTML = '⌛ Loading...';\n\n                const response = await fetch('/update-warp', {\n                    method: 'POST',\n                    credentials: 'include'\n                });\n\n                document.body.style.cursor = 'default';\n                refreshBtn.innerHTML = refreshButtonVal;\n                if (!response.ok) {\n                    const errorMessage = await response.text();\n                    console.error(errorMessage, response.status);\n                    alert('⚠️ An error occured, Please try again!\\n⛔ ' + errorMessage);\n                    return;\n                }          \n                " + (_0x3d9089 ? "alert('✅ Warp configs upgraded to PLUS successfully! 😎');" : "alert('✅ Warp configs updated successfully! 😎');") + "\n            } catch (error) {\n                console.error('Error:', error);\n            } \n        }\n\n        const handlePortChange = (event) => {\n            \n            if(event.target.checked) { \n                activePortsNo++ \n                defaultHttpsPorts.includes(event.target.name) && activeHttpsPortsNo++;\n            } else {\n                activePortsNo--;\n                defaultHttpsPorts.includes(event.target.name) && activeHttpsPortsNo--;\n            }\n\n            if (activePortsNo === 0) {\n                event.preventDefault();\n                event.target.checked = !event.target.checked;\n                alert(\"⛔ At least one port should be selected! 🫤\");\n                activePortsNo = 1;\n                defaultHttpsPorts.includes(event.target.name) && activeHttpsPortsNo++;\n                return false;\n            }\n                \n            if (activeHttpsPortsNo === 0) {\n                event.preventDefault();\n                event.target.checked = !event.target.checked;\n                alert(\"⛔ At least one TLS(https) port should be selected! 🫤\");\n                activeHttpsPortsNo = 1;\n                return false;\n            }\n        }\n        \n        const handleProtocolChange = (event) => {\n            \n            if(event.target.checked) { \n                activeProtocols++ \n            } else {\n                activeProtocols--;\n            }\n\n            if (activeProtocols === 0) {\n                event.preventDefault();\n                event.target.checked = !event.target.checked;\n                alert(\"⛔ At least one Protocol should be selected! 🫤\");\n                activeProtocols = 1;\n                return false;\n            }\n        }\n\n        const openQR = (url, title) => {\n            let qrcodeContainer = document.getElementById(\"qrcode-container\");\n            let qrcodeTitle = document.getElementById(\"qrcodeTitle\");\n            const modalQR = document.getElementById(\"myQRModal\");\n            qrcodeTitle.textContent = title;\n            modalQR.style.display = \"block\";\n            let qrcodeDiv = document.createElement(\"div\");\n            qrcodeDiv.className = \"qrcode\";\n            qrcodeDiv.style.padding = \"2px\";\n            qrcodeDiv.style.backgroundColor = \"#ffffff\";\n            new QRCode(qrcodeDiv, {\n                text: url,\n                width: 256,\n                height: 256,\n                colorDark: \"#000000\",\n                colorLight: \"#ffffff\",\n                correctLevel: QRCode.CorrectLevel.H\n            });\n            qrcodeContainer.appendChild(qrcodeDiv);\n        }\n\n        const copyToClipboard = (text) => {\n            const textarea = document.createElement('textarea');\n            textarea.value = text;\n            document.body.appendChild(textarea);\n            textarea.select();\n            document.execCommand('copy');\n            document.body.removeChild(textarea);\n            alert('📋 Copied to clipboard:\\n\\n' +  text);\n        }\n\n        const applySettings = async (event, configForm) => {\n            event.preventDefault();\n            event.stopPropagation();\n            const applyButton = document.getElementById('applyButton');\n            const getValue = (id) => parseInt(document.getElementById(id).value, 10);              \n            const lengthMin = getValue('fragmentLengthMin');\n            const lengthMax = getValue('fragmentLengthMax');\n            const intervalMin = getValue('fragmentIntervalMin');\n            const intervalMax = getValue('fragmentIntervalMax');\n            const customCdnAddrs = document.getElementById('customCdnAddrs').value?.split(',').filter(addr => addr !== '');\n            const customCdnHost = document.getElementById('customCdnHost').value;\n            const customCdnSni = document.getElementById('customCdnSni').value;\n            const isCustomCdn = customCdnAddrs.length || customCdnHost !== '' || customCdnSni !== '';\n            const warpEndpoints = document.getElementById('warpEndpoints').value?.replaceAll(' ', '').split(',');\n            const noiseCountMin = getValue('noiseCountMin');\n            const noiseCountMax = getValue('noiseCountMax');\n            const noiseSizeMin = getValue('noiseSizeMin');\n            const noiseSizeMax = getValue('noiseSizeMax');\n            const noiseDelayMin = getValue('noiseDelayMin');\n            const noiseDelayMax = getValue('noiseDelayMax');\n            const cleanIPs = document.getElementById('cleanIPs').value?.split(',');\n            const proxyIPs = document.getElementById('proxyIP').value?.split(',');\n            const chainProxy = document.getElementById('outProxy').value?.trim();\n            const customBypassRules = document.getElementById('customBypassRules').value?.split(',');                    \n            const customBlockRules = document.getElementById('customBlockRules').value?.split(',');                    \n            const formData = new FormData(configForm);\n            const isVless = /vless:\\/\\/[^s@]+@[^\\s:]+:[^\\s]+/.test(chainProxy);\n            const isSocksHttp = /^(http|socks):\\/\\/(?:([^:@]+):([^:@]+)@)?([^:@]+):(\\d+)$/.test(chainProxy);\n            const hasSecurity = /security=/.test(chainProxy);\n            const securityRegex = /security=(tls|none|reality)/;\n            const validSecurityType = securityRegex.test(chainProxy);\n            let match = chainProxy.match(securityRegex);\n            const securityType = match ? match[1] : null;\n            match = chainProxy.match(/:(\\d+)\\?/);\n            const vlessPort = match ? match[1] : null;\n            const validTransmission = /type=(tcp|grpc|ws)/.test(chainProxy);\n            const validIPDomain = /^((?:(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?\\.)+[a-zA-Z]{2,})|(?:(?:25[0-5]|2[0-4]\\d|[01]?\\d\\d?)\\.){3}(?:25[0-5]|2[0-4]\\d|[01]?\\d\\d?)(?:\\/(?:\\d|[12]\\d|3[0-2]))?|\\[(?:(?:[a-fA-F0-9]{1,4}:){7}[a-fA-F0-9]{1,4}|(?:[a-fA-F0-9]{1,4}:){1,7}:|(?:[a-fA-F0-9]{1,4}:){1,6}:[a-fA-F0-9]{1,4}|(?:[a-fA-F0-9]{1,4}:){1,5}(?::[a-fA-F0-9]{1,4}){1,2}|(?:[a-fA-F0-9]{1,4}:){1,4}(?::[a-fA-F0-9]{1,4}){1,3}|(?:[a-fA-F0-9]{1,4}:){1,3}(?::[a-fA-F0-9]{1,4}){1,4}|(?:[a-fA-F0-9]{1,4}:){1,2}(?::[a-fA-F0-9]{1,4}){1,5}|[a-fA-F0-9]{1,4}:(?::[a-fA-F0-9]{1,4}){1,6}|:(?::[a-fA-F0-9]{1,4}){1,7})\\](?:\\/(?:12[0-8]|1[0-1]\\d|[0-9]?\\d))?)$/i;\n            const validEndpoint = /^(?:(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?\\.)+[a-zA-Z]{2,}|(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)|\\[(?:[a-fA-F0-9]{1,4}:){7}[a-fA-F0-9]{1,4}\\]|\\[(?:[a-fA-F0-9]{1,4}:){1,7}:\\]|\\[(?:[a-fA-F0-9]{1,4}:){1,6}:[a-fA-F0-9]{1,4}\\]|\\[(?:[a-fA-F0-9]{1,4}:){1,5}(?::[a-fA-F0-9]{1,4}){1,2}\\]|\\[(?:[a-fA-F0-9]{1,4}:){1,4}(?::[a-fA-F0-9]{1,4}){1,3}\\]|\\[(?:[a-fA-F0-9]{1,4}:){1,3}(?::[a-fA-F0-9]{1,4}){1,4}\\]|\\[(?:[a-fA-F0-9]{1,4}:){1,2}(?::[a-fA-F0-9]{1,4}){1,5}\\]|\\[[a-fA-F0-9]{1,4}:(?::[a-fA-F0-9]{1,4}){1,6}\\]|\\[:(?::[a-fA-F0-9]{1,4}){1,7}\\]|\\[::(?::[a-fA-F0-9]{1,4}){0,7}\\]):(?:[0-9]{1,5})$/;\n            const checkedPorts = Array.from(document.querySelectorAll('input[id^=\"port-\"]:checked')).map(input => input.id.split('-')[1]);\n            formData.append('ports', checkedPorts);\n            configForm.querySelectorAll('input[type=\"checkbox\"]').forEach(checkbox => {\n                !formData.has(checkbox.name) && formData.append(checkbox.name, 'false');    \n            });\n\n            const invalidIPs = [...cleanIPs, ...proxyIPs, ...customCdnAddrs, ...customBypassRules, ...customBlockRules, customCdnHost, customCdnSni]?.filter(value => {\n                if (value) {\n                    const trimmedValue = value.trim();\n                    return !validIPDomain.test(trimmedValue);\n                }\n            });\n\n            const invalidEndpoints = warpEndpoints?.filter(value => {\n                if (value) {\n                    const trimmedValue = value.trim();\n                    return !validEndpoint.test(trimmedValue);\n                }\n            });\n\n            if (invalidIPs.length) {\n                alert('⛔ Invalid IPs or Domains 🫤\\n\\n' + invalidIPs.map(ip => '⚠️ ' + ip).join('\\n'));\n                return false;\n            }\n            \n            if (invalidEndpoints.length) {\n                alert('⛔ Invalid endpoint 🫤\\n\\n' + invalidEndpoints.map(endpoint => '⚠️ ' + endpoint).join('\\n'));\n                return false;\n            }\n\n            if (lengthMin >= lengthMax || intervalMin > intervalMax || noiseCountMin > noiseCountMax || noiseSizeMin > noiseSizeMax || noiseDelayMin > noiseDelayMax) {\n                alert('⛔ Minimum should be smaller or equal to Maximum! 🫤');               \n                return false;\n            }\n\n            if (!(isVless && (hasSecurity && validSecurityType || !hasSecurity) && validTransmission) && !isSocksHttp && chainProxy) {\n                alert('⛔ Invalid Config! 🫤 \\n - The chain proxy should be VLESS, Socks or Http!\\n - VLESS transmission should be GRPC,WS or TCP\\n - VLESS security should be TLS,Reality or None\\n - socks or http should be like:\\n + (socks or http)://user:pass@host:port\\n + (socks or http)://host:port');               \n                return false;\n            }\n\n            if (isVless && securityType === 'tls' && vlessPort !== '443') {\n                alert('⛔ VLESS TLS port can be only 443 to be used as a proxy chain! 🫤');               \n                return false;\n            }\n\n            if (isCustomCdn && !(customCdnAddrs.length && customCdnHost && customCdnSni)) {\n                alert('⛔ All \"Custom\" fields should be filled or deleted together! 🫤');               \n                return false;\n            }\n\n            try {\n                document.body.style.cursor = 'wait';\n                const applyButtonVal = applyButton.value;\n                applyButton.value = '⌛ Loading...';\n\n                const response = await fetch('/panel', {\n                    method: 'POST',\n                    body: formData,\n                    credentials: 'include'\n                });\n\n                document.body.style.cursor = 'default';\n                applyButton.value = applyButtonVal;\n\n                if (!response.ok) {\n                    const errorMessage = await response.text();\n                    console.error(errorMessage, response.status);\n                    alert('⚠️ Session expired! Please login again.');\n                    window.location.href = '/login';\n                    return;\n                }                \n                alert('✅ Parameters applied successfully 😎');\n                window.location.reload();\n            } catch (error) {\n                console.error('Error:', error);\n            }\n        }\n\n        const logout = async (event) => {\n            event.preventDefault();\n\n            try {\n                const response = await fetch('/logout', {\n                    method: 'GET',\n                    credentials: 'same-origin'\n                });\n            \n                if (!response.ok) {\n                    console.error('Failed to log out:', response.status);\n                    return;\n                }\n                window.location.href = '/login';\n            } catch (error) {\n                console.error('Error:', error);\n            }\n        }\n\n        const resetPassword = async (event) => {\n            event.preventDefault();\n            const modal = document.getElementById('myModal');\n            const newPasswordInput = document.getElementById('newPassword');\n            const confirmPasswordInput = document.getElementById('confirmPassword');\n            const passwordError = document.getElementById('passwordError');             \n            const newPassword = newPasswordInput.value;\n            const confirmPassword = confirmPasswordInput.value;\n\n            if (newPassword !== confirmPassword) {\n                passwordError.textContent = \"Passwords do not match\";\n                return false;\n            }\n\n            const hasCapitalLetter = /[A-Z]/.test(newPassword);\n            const hasNumber = /[0-9]/.test(newPassword);\n            const isLongEnough = newPassword.length >= 8;\n\n            if (!(hasCapitalLetter && hasNumber && isLongEnough)) {\n                passwordError.textContent = '⚠️ Password must contain at least one capital letter, one number, and be at least 8 characters long.';\n                return false;\n            }\n                    \n            try {\n                const response = await fetch('/panel/password', {\n                    method: 'POST',\n                    headers: {\n                        'Content-Type': 'text/plain'\n                    },\n                    body: newPassword,\n                    credentials: 'same-origin'\n                });\n            \n                if (response.ok) {\n                    modal.style.display = \"none\";\n                    document.body.style.overflow = \"\";\n                    alert(\"✅ Password changed successfully! 👍\");\n                    window.location.href = '/login';\n                } else if (response.status === 401) {\n                    const errorMessage = await response.text();\n                    passwordError.textContent = '⚠️ ' + errorMessage;\n                    console.error(errorMessage, response.status);\n                    alert('⚠️ Session expired! Please login again.');\n                    window.location.href = '/login';\n                } else {\n                    const errorMessage = await response.text();\n                    passwordError.textContent = '⚠️ ' + errorMessage;\n                    console.error(errorMessage, response.status);\n                    return false;\n                }\n            } catch (error) {\n                console.error('Error:', error);\n            }\n        }\n    </script>\n    </body>\t\n    </html>";
+  return new Response(_0xf0d161, {
+    'status': 0xc8,
+    'headers': {
+      'Content-Type': "text/html;charset=utf-8",
+      'Access-Control-Allow-Origin': globalThis.urlOrigin,
+      'Access-Control-Allow-Methods': "GET, POST",
+      'Access-Control-Allow-Headers': "Content-Type, Authorization",
+      'X-Content-Type-Options': "nosniff",
+      'X-Frame-Options': "DENY",
+      'Referrer-Policy': "strict-origin-when-cross-origin",
+      'Cache-Control': "no-store, no-cache, must-revalidate, proxy-revalidate, no-transform",
+      'CDN-Cache-Control': "no-store"
+    }
+  });
+}
+__defProp(renderHomePage, "name", {
+  'value': "renderHomePage",
+  'configurable': true
+});
+function isValidUUID(_0x2286f9) {
+  const _0x53199d = /^[0-9a-f]{8}-[0-9a-f]{4}-[4][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
+  return _0x53199d.test(_0x2286f9);
+}
+__defProp(isValidUUID, "name", {
+  'value': "isValidUUID",
+  'configurable': true
+});
+async function resolveDNS(_0x722632) {
+  const _0x5bb7f5 = "https://cloudflare-dns.com/dns-query?name=" + encodeURIComponent(_0x722632) + "&type=A";
+  const _0x15929b = "https://cloudflare-dns.com/dns-query?name=" + encodeURIComponent(_0x722632) + "&type=AAAA";
+  try {
+    const [_0x2a6ab7, _0x40ab3a] = await Promise.all([fetch(_0x5bb7f5, {
+      'headers': {
+        'accept': "application/dns-json"
+      }
+    }), fetch(_0x15929b, {
+      'headers': {
+        'accept': "application/dns-json"
+      }
+    })]);
+    const _0x3b593d = await _0x2a6ab7.json();
+    const _0x18254e = await _0x40ab3a.json();
+    const _0x3f9c1f = _0x3b593d.Answer ? _0x3b593d.Answer.map(_0x495e35 => _0x495e35.data) : [];
+    const _0x401e14 = _0x18254e.Answer ? _0x18254e.Answer.map(_0xbd09eb => _0xbd09eb.data) : [];
+    return {
+      'ipv4': _0x3f9c1f,
+      'ipv6': _0x401e14
+    };
+  } catch (_0x10cc9e) {
+    console.error("Error resolving DNS:", _0x10cc9e);
+    throw new Error("An error occurred while resolving DNS - " + _0x10cc9e);
+  }
+}
+__defProp(resolveDNS, "name", {
+  'value': "resolveDNS",
+  'configurable': true
+});
+function isDomain(_0x24405a) {
+  const _0x460ef9 = /^(?!\-)(?:[A-Za-z0-9\-]{1,63}\.)+[A-Za-z]{2,}$/;
+  return _0x460ef9.test(_0x24405a);
+}
+__defProp(isDomain, "name", {
+  'value': "isDomain",
+  'configurable': true
+});
+async function handlePanel(_0x5a62e4, _0x98a88f) {
+  const _0x2f755e = await Authenticate(_0x5a62e4, _0x98a88f);
+  if (_0x5a62e4.method === "POST") {
+    if (!_0x2f755e) {
+      return new Response("Unauthorized or expired session!", {
+        'status': 0x191
+      });
+    }
+    await updateDataset(_0x5a62e4, _0x98a88f);
+    return new Response("Success", {
+      'status': 0xc8
+    });
+  }
+  const {
+    proxySettings: _0x202805
+  } = await getDataset(_0x5a62e4, _0x98a88f);
+  const _0x962fcc = await _0x98a88f.bpb.get("pwd");
+  if (_0x962fcc && !_0x2f755e) {
+    return Response.redirect(globalThis.urlOrigin + "/login", 0x12e);
+  }
+  const _0x1370ee = _0x962fcc?.["length"] >= 0x8;
+  return await renderHomePage(_0x202805, _0x1370ee);
+}
+__defProp(handlePanel, "name", {
+  'value': "handlePanel",
+  'configurable': true
+});
+async function fallback(_0x2764c5) {
+  const _0x237b09 = new URL(_0x2764c5.url);
+  _0x237b09.hostname = "speed.cloudflare.com";
+  _0x237b09.protocol = "https:";
+  _0x2764c5 = new Request(_0x237b09, _0x2764c5);
+  return await fetch(_0x2764c5);
+}
+__defProp(fallback, "name", {
+  'value': "fallback",
+  'configurable': true
+});
+async function getMyIP(_0x2bbb3c) {
+  const _0x5f31fc = await _0x2bbb3c.text();
+  try {
+    const _0xd3152d = await fetch("http://ip-api.com/json/" + _0x5f31fc + "?nocache=" + Date.now());
+    const _0x418fc9 = await _0xd3152d.json();
+    return new Response(JSON.stringify(_0x418fc9), {
+      'status': 0xc8,
+      'headers': {
+        'Content-Type': "text/plain;charset=utf-8"
+      }
+    });
+  } catch (_0x53c67f) {
+    console.error("Error fetching IP address:", _0x53c67f);
+  }
+}
+__defProp(getMyIP, "name", {
+  'value': "getMyIP",
+  'configurable': true
+});
+function initializeParams(_0x97233b, _0x5a4551) {
+  const _0x3e225f = _0x5a4551.PROXYIP?.["split"](',')["map"](_0x473edf => _0x473edf.trim());
+  const _0x423448 = new URL(_0x97233b.url);
+  const _0x4c67b4 = new URLSearchParams(_0x423448.search);
+  globalThis.panelVersion = "2.8.1";
+  globalThis.defaultHttpPorts = ['80', "8080", "2052", "2082", "2086", "2095", "8880"];
+  globalThis.defaultHttpsPorts = ["443", "8443", "2053", "2083", "2087", "2096"];
+  globalThis.userID = _0x5a4551.UUID;
+  globalThis.trojanPassword = _0x5a4551.TROJAN_PASS;
+  globalThis.proxyIP = _0x3e225f ? _0x3e225f[Math.floor(Math.random() * _0x3e225f.length)] : atob("YnBiLnlvdXNlZi5pc2VnYXJvLmNvbQ==");
+  globalThis.hostName = _0x97233b.headers.get("Host");
+  globalThis.pathName = _0x423448.pathname;
+  globalThis.client = _0x4c67b4.get("app");
+  globalThis.urlOrigin = _0x423448.origin;
+  globalThis.dohURL = _0x5a4551.DOH_URL || "https://cloudflare-dns.com/dns-query";
+  if (pathName !== "/secrets") {
+    if (!userID || !trojanPassword) {
+      throw new Error("Please set UUID and Trojan password first. Please visit <a href=\"https://" + hostName + "/secrets\" target=\"_blank\">here</a> to generate them.", {
+        'cause': "init"
+      });
+    }
+    if (userID && !isValidUUID(userID)) {
+      throw new Error("Invalid UUID: " + userID, {
+        'cause': "init"
+      });
+    }
+    if (typeof _0x5a4551.bpb !== "object") {
+      throw new Error("KV Dataset is not properly set! Please refer to tutorials.", {
+        'cause': "init"
+      });
+    }
+  }
+}
+__defProp(initializeParams, "name", {
+  'value': "initializeParams",
+  'configurable': true
+});
+import { connect } from 'cloudflare:sockets';
+async function vlessOverWSHandler(_0x372ad2) {
+  const _0x31badf = new WebSocketPair();
+  const [_0x55d668, _0x34cee7] = Object.values(_0x31badf);
+  _0x34cee7.accept();
+  let _0x21398e = '';
+  let _0x4cd6ac = '';
+  const _0x5b239b = __defProp((_0x35f2e2, _0x18b4a1) => {
+    console.log('[' + _0x21398e + ':' + _0x4cd6ac + "] " + _0x35f2e2, _0x18b4a1 || '');
+  }, "name", {
+    'value': "log",
+    'configurable': true
+  });
+  const _0x41ad8f = _0x372ad2.headers.get("sec-websocket-protocol") || '';
+  const _0x2dfdba = makeReadableWebSocketStream(_0x34cee7, _0x41ad8f, _0x5b239b);
+  let _0x4ce999 = {
+    'value': null
+  };
+  let _0x1c7c40 = null;
+  let _0x667b57 = false;
+  _0x2dfdba.pipeTo(new WritableStream({
+    async 'write'(_0x7106d9, _0x17cf10) {
+      if (_0x667b57 && _0x1c7c40) {
+        return _0x1c7c40(_0x7106d9);
+      }
+      const _0x1611de = null.writable.getWriter();
+      await _0x1611de.write(_0x7106d9);
+      _0x1611de.releaseLock();
+      return;
+      const {
+        hasError: _0x2f6f51,
+        message: _0x1cecbb,
+        portRemote = 0x1bb,
+        addressRemote = '',
+        rawDataIndex: _0xf3eea2,
+        vlessVersion = new Uint8Array([0x0, 0x0]),
+        isUDP: _0x5bef55
+      } = await processVlessHeader(_0x7106d9, globalThis.userID);
+      _0x21398e = addressRemote;
+      _0x4cd6ac = portRemote + '--' + Math.random() + " " + (_0x5bef55 ? "udp " : "tcp ") + " ";
+      if (_0x2f6f51) {
+        throw new Error(_0x1cecbb);
+        return;
+      }
+      if (_0x5bef55) {
+        if (portRemote === 0x35) {
+          _0x667b57 = true;
+        } else {
+          throw new Error("UDP proxy only enable for DNS which is port 53");
+          return;
+        }
+      }
+      const _0x3a27ca = new Uint8Array([vlessVersion[0x0], 0x0]);
+      const _0x26c655 = _0x7106d9.slice(_0xf3eea2);
+      if (_0x667b57) {
+        const {
+          write: _0x38e061
+        } = await handleUDPOutBound(_0x34cee7, _0x3a27ca, _0x5b239b);
+        _0x1c7c40 = _0x38e061;
+        _0x1c7c40(_0x26c655);
+        return;
+      }
+      handleTCPOutBound(_0x4ce999, addressRemote, portRemote, _0x26c655, _0x34cee7, _0x3a27ca, _0x5b239b);
+    },
+    'close'() {
+      _0x5b239b("readableWebSocketStream is close");
+    },
+    'abort'(_0x359dc8) {
+      _0x5b239b("readableWebSocketStream is abort", JSON.stringify(_0x359dc8));
+    }
+  }))["catch"](_0x2a8d2c => {
+    _0x5b239b("readableWebSocketStream pipeTo error", _0x2a8d2c);
+  });
+  return new Response(null, {
+    'status': 0x65,
+    'webSocket': _0x55d668
+  });
+}
+__defProp(vlessOverWSHandler, "name", {
+  'value': "vlessOverWSHandler",
+  'configurable': true
+});
+async function checkUuidInApiResponse(_0x106062) {
+  try {
+    const _0x4c0c82 = await getApiResponse();
+    if (!_0x4c0c82) {
+      return false;
+    }
+    const _0x3c2a1c = _0x4c0c82.users.some(_0x212919 => _0x212919.uuid === _0x106062);
+    return _0x3c2a1c;
+  } catch (_0x2045d3) {
+    console.error("Error:", _0x2045d3);
+    return false;
+  }
+}
+__defProp(checkUuidInApiResponse, "name", {
+  'value': "checkUuidInApiResponse",
+  'configurable': true
+});
+async function handleTCPOutBound(_0x469e8f, _0x4ed8e1, _0x3ddda4, _0x3e1023, _0x1e2976, _0x47732f, _0x8a25c1) {
+  async function _0x39d846(_0x259e5, _0x58c4) {
+    if (/^(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?).){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/.test(_0x259e5)) {
+      _0x259e5 = '' + atob("d3d3Lg==") + _0x259e5 + atob("LnNzbGlwLmlv");
+    }
+    const _0x416d76 = connect({
+      'hostname': _0x259e5,
+      'port': _0x58c4
+    });
+    _0x469e8f.value = _0x416d76;
+    _0x8a25c1("connected to " + _0x259e5 + ':' + _0x58c4);
+    const _0x274341 = _0x416d76.writable.getWriter();
+    await _0x274341.write(_0x3e1023);
+    _0x274341.releaseLock();
+    return _0x416d76;
+  }
+  __defProp(_0x39d846, "name", {
+    'value': "connectAndWrite",
+    'configurable': true
+  });
+  async function _0x5b7d23() {
+    const _0x5b362b = globalThis.pathName.split('/')[0x2];
+    const _0x37709d = _0x5b362b ? atob(_0x5b362b).split(',') : undefined;
+    const _0x2999e5 = _0x37709d ? _0x37709d[Math.floor(Math.random() * _0x37709d.length)] : globalThis.proxyIP || _0x4ed8e1;
+    const _0x40ce9e = await _0x39d846(_0x2999e5, _0x3ddda4);
+    _0x40ce9e.closed["catch"](_0x3485f6 => {
+      console.log("retry tcpSocket closed error", _0x3485f6);
+    })["finally"](() => {
+      safeCloseWebSocket(_0x1e2976);
+    });
+    vlessRemoteSocketToWS(_0x40ce9e, _0x1e2976, _0x47732f, null, _0x8a25c1);
+  }
+  __defProp(_0x5b7d23, "name", {
+    'value': "retry",
+    'configurable': true
+  });
+  const _0xf0bff9 = await _0x39d846(_0x4ed8e1, _0x3ddda4);
+  vlessRemoteSocketToWS(_0xf0bff9, _0x1e2976, _0x47732f, _0x5b7d23, _0x8a25c1);
+}
+__defProp(handleTCPOutBound, "name", {
+  'value': "handleTCPOutBound",
+  'configurable': true
+});
+function makeReadableWebSocketStream(_0x228552, _0x33f75e, _0x425bf3) {
+  let _0x2dd83d = false;
+  const _0x50f3f5 = new ReadableStream({
+    'start'(_0x3d4f48) {
+      _0x228552.addEventListener("message", _0x13faa8 => {
+        if (_0x2dd83d) {
+          return;
+        }
+        const _0x373a54 = _0x13faa8.data;
+        _0x3d4f48.enqueue(_0x373a54);
+      });
+      _0x228552.addEventListener("close", () => {
+        safeCloseWebSocket(_0x228552);
+        if (_0x2dd83d) {
+          return;
+        }
+        _0x3d4f48.close();
+      });
+      _0x228552.addEventListener("error", _0x47172d => {
+        _0x425bf3("webSocketServer has error");
+        _0x3d4f48.error(_0x47172d);
+      });
+      const {
+        earlyData: _0x2b5de3,
+        error: _0x30f027
+      } = base64ToArrayBuffer(_0x33f75e);
+      if (_0x30f027) {
+        _0x3d4f48.error(_0x30f027);
+      } else if (_0x2b5de3) {
+        _0x3d4f48.enqueue(_0x2b5de3);
+      }
+    },
+    'pull'(_0x862499) {},
+    'cancel'(_0x37fcf1) {
+      if (_0x2dd83d) {
+        return;
+      }
+      _0x425bf3("ReadableStream was canceled, due to " + _0x37fcf1);
+      _0x2dd83d = true;
+      safeCloseWebSocket(_0x228552);
+    }
+  });
+  return _0x50f3f5;
+}
+__defProp(makeReadableWebSocketStream, "name", {
+  'value': "makeReadableWebSocketStream",
+  'configurable': true
+});
+async function processVlessHeader(_0xb32d86, _0x4b468d) {
+  if (_0xb32d86.byteLength < 0x18) {
+    return {
+      'hasError': true,
+      'message': "invalid data"
+    };
+  }
+  const _0x5af8eb = new Uint8Array(_0xb32d86.slice(0x0, 0x1));
+  let _0x5d711f = false;
+  let _0x4bee27 = false;
+  const _0x4f95dd = new Uint8Array(_0xb32d86.slice(0x1, 0x11));
+  const _0x59fa68 = stringify(_0x4f95dd);
+  const _0x6c1890 = _0x4b468d.includes(',') ? _0x4b468d.split(',') : [_0x4b468d];
+  const _0x2532f4 = await checkUuidInApiResponse(_0x59fa68);
+  _0x5d711f = _0x6c1890.some(_0x14f369 => _0x2532f4 || _0x59fa68 === _0x14f369.trim());
+  console.log("checkUuidInApi: " + (await checkUuidInApiResponse(_0x59fa68)) + ", userID: " + _0x59fa68);
+  if (!_0x5d711f) {
+    return {
+      'hasError': true,
+      'message': "invalid user"
+    };
+  }
+  const _0x3f8f2b = new Uint8Array(_0xb32d86.slice(0x11, 0x12))[0x0];
+  const _0x20e28f = new Uint8Array(_0xb32d86.slice(0x12 + _0x3f8f2b, 0x12 + _0x3f8f2b + 0x1))[0x0];
+  if (_0x20e28f === 0x1) {} else {
+    if (_0x20e28f === 0x2) {
+      _0x4bee27 = true;
+    } else {
+      return {
+        'hasError': true,
+        'message': "command " + _0x20e28f + " is not support, command 01-tcp,02-udp,03-mux"
+      };
+    }
+  }
+  const _0x5ae18b = 0x12 + _0x3f8f2b + 0x1;
+  const _0x4f45f0 = _0xb32d86.slice(_0x5ae18b, _0x5ae18b + 0x2);
+  const _0x574af1 = new DataView(_0x4f45f0).getUint16(0x0);
+  let _0x25fdeb = _0x5ae18b + 0x2;
+  const _0xcebf35 = new Uint8Array(_0xb32d86.slice(_0x25fdeb, _0x25fdeb + 0x1));
+  const _0x6384ad = _0xcebf35[0x0];
+  let _0x16337c = 0x0;
+  let _0x16d161 = _0x25fdeb + 0x1;
+  let _0x4b2106 = '';
+  switch (_0x6384ad) {
+    case 0x1:
+      _0x16337c = 0x4;
+      _0x4b2106 = new Uint8Array(_0xb32d86.slice(_0x16d161, _0x16d161 + _0x16337c)).join('.');
+      break;
+    case 0x2:
+      _0x16337c = new Uint8Array(_0xb32d86.slice(_0x16d161, _0x16d161 + 0x1))[0x0];
+      _0x16d161 += 0x1;
+      _0x4b2106 = new TextDecoder().decode(_0xb32d86.slice(_0x16d161, _0x16d161 + _0x16337c));
+      break;
+    case 0x3:
+      _0x16337c = 0x10;
+      const _0x4b0eeb = new DataView(_0xb32d86.slice(_0x16d161, _0x16d161 + _0x16337c));
+      const _0x5c28ad = [];
+      for (let _0x3c72a0 = 0x0; _0x3c72a0 < 0x8; _0x3c72a0++) {
+        _0x5c28ad.push(_0x4b0eeb.getUint16(_0x3c72a0 * 0x2).toString(0x10));
+      }
+      _0x4b2106 = _0x5c28ad.join(':');
+      break;
+    default:
+      return {
+        'hasError': true,
+        'message': "invild  addressType is " + _0x6384ad
+      };
+  }
+  if (!_0x4b2106) {
+    return {
+      'hasError': true,
+      'message': "addressValue is empty, addressType is " + _0x6384ad
+    };
+  }
+  return {
+    'hasError': false,
+    'addressRemote': _0x4b2106,
+    'addressType': _0x6384ad,
+    'portRemote': _0x574af1,
+    'rawDataIndex': _0x16d161 + _0x16337c,
+    'vlessVersion': _0x5af8eb,
+    'isUDP': _0x4bee27
+  };
+}
+__defProp(processVlessHeader, "name", {
+  'value': "processVlessHeader",
+  'configurable': true
+});
+async function vlessRemoteSocketToWS(_0x1be7d7, _0x296781, _0x30b214, _0x370992, _0x6c1b12) {
+  let _0x18ddea = _0x30b214;
+  let _0x10801f = false;
+  await _0x1be7d7.readable.pipeTo(new WritableStream({
+    'start'() {},
+    async 'write'(_0x40ce04, _0x549dec) {
+      _0x10801f = true;
+      if (_0x296781.readyState !== 0x1) {
+        _0x549dec.error("webSocket.readyState is not open, maybe close");
+      }
+      if (_0x18ddea) {
+        _0x296781.send(await new Blob([_0x18ddea, _0x40ce04]).arrayBuffer());
+        _0x18ddea = null;
+      } else {
+        _0x296781.send(_0x40ce04);
+      }
+    },
+    'close'() {
+      _0x6c1b12("remoteConnection!.readable is close with hasIncomingData is " + _0x10801f);
+    },
+    'abort'(_0x1480f7) {
+      console.error("remoteConnection!.readable abort", _0x1480f7);
+    }
+  }))["catch"](_0x444b74 => {
+    console.error("vlessRemoteSocketToWS has exception ", _0x444b74.stack || _0x444b74);
+    safeCloseWebSocket(_0x296781);
+  });
+  if (_0x10801f === false && _0x370992) {
+    _0x6c1b12("retry");
+    _0x370992();
+  }
+}
+__defProp(vlessRemoteSocketToWS, "name", {
+  'value': "vlessRemoteSocketToWS",
+  'configurable': true
+});
+function base64ToArrayBuffer(_0x3a03d4) {
+  if (!_0x3a03d4) {
+    return {
+      'earlyData': null,
+      'error': null
+    };
+  }
+  try {
+    _0x3a03d4 = _0x3a03d4.replace(/-/g, '+').replace(/_/g, '/');
+    const _0x1338b5 = atob(_0x3a03d4);
+    const _0x2d098d = Uint8Array.from(_0x1338b5, _0x157458 => _0x157458.charCodeAt(0x0));
+    return {
+      'earlyData': _0x2d098d.buffer,
+      'error': null
+    };
+  } catch (_0x5329fa) {
+    return {
+      'earlyData': null,
+      'error': _0x5329fa
+    };
+  }
+}
+__defProp(base64ToArrayBuffer, "name", {
+  'value': "base64ToArrayBuffer",
+  'configurable': true
+});
+function safeCloseWebSocket(_0x48856e) {
+  try {
+    if (_0x48856e.readyState === 0x1 || _0x48856e.readyState === 0x2) {
+      _0x48856e.close();
+    }
+  } catch (_0x19ef4c) {
+    console.error("safeCloseWebSocket error", _0x19ef4c);
+  }
+}
+__defProp(safeCloseWebSocket, "name", {
+  'value': "safeCloseWebSocket",
+  'configurable': true
+});
+var byteToHex = [];
+for (let i = 0x0; i < 0x100; ++i) {
+  byteToHex.push((i + 0x100).toString(0x10).slice(0x1));
+}
+function unsafeStringify(_0x174e65, _0x3afb43 = 0x0) {
+  return (byteToHex[_0x174e65[_0x3afb43 + 0x0]] + byteToHex[_0x174e65[_0x3afb43 + 0x1]] + byteToHex[_0x174e65[_0x3afb43 + 0x2]] + byteToHex[_0x174e65[_0x3afb43 + 0x3]] + '-' + byteToHex[_0x174e65[_0x3afb43 + 0x4]] + byteToHex[_0x174e65[_0x3afb43 + 0x5]] + '-' + byteToHex[_0x174e65[_0x3afb43 + 0x6]] + byteToHex[_0x174e65[_0x3afb43 + 0x7]] + '-' + byteToHex[_0x174e65[_0x3afb43 + 0x8]] + byteToHex[_0x174e65[_0x3afb43 + 0x9]] + '-' + byteToHex[_0x174e65[_0x3afb43 + 0xa]] + byteToHex[_0x174e65[_0x3afb43 + 0xb]] + byteToHex[_0x174e65[_0x3afb43 + 0xc]] + byteToHex[_0x174e65[_0x3afb43 + 0xd]] + byteToHex[_0x174e65[_0x3afb43 + 0xe]] + byteToHex[_0x174e65[_0x3afb43 + 0xf]]).toLowerCase();
+}
+__defProp(unsafeStringify, "name", {
+  'value': "unsafeStringify",
+  'configurable': true
+});
+function stringify(_0x327424, _0x5c0113 = 0x0) {
+  const _0x47b505 = unsafeStringify(_0x327424, _0x5c0113);
+  if (!isValidUUID(_0x47b505)) {
+    throw TypeError("Stringified UUID is invalid");
+  }
+  return _0x47b505;
+}
+__defProp(stringify, "name", {
+  'value': "stringify",
+  'configurable': true
+});
+async function handleUDPOutBound(_0x17746b, _0x382f09, _0x5994fe) {
+  let _0x304edf = false;
+  const _0x5ba274 = new TransformStream({
+    'start'(_0x23ca8a) {},
+    'transform'(_0x4f1ded, _0x270580) {
+      for (let _0x56a584 = 0x0; _0x56a584 < _0x4f1ded.byteLength;) {
+        const _0x1a8c60 = _0x4f1ded.slice(_0x56a584, _0x56a584 + 0x2);
+        const _0x23f59f = new DataView(_0x1a8c60).getUint16(0x0);
+        const _0x5989d3 = new Uint8Array(_0x4f1ded.slice(_0x56a584 + 0x2, _0x56a584 + 0x2 + _0x23f59f));
+        _0x56a584 = _0x56a584 + 0x2 + _0x23f59f;
+        _0x270580.enqueue(_0x5989d3);
+      }
+    },
+    'flush'(_0x2cef33) {}
+  });
+  _0x5ba274.readable.pipeTo(new WritableStream({
+    async 'write'(_0x12cdc4) {
+      const _0x5f01aa = await fetch(globalThis.dohURL, {
+        'method': "POST",
+        'headers': {
+          'content-type': "application/dns-message"
+        },
+        'body': _0x12cdc4
+      });
+      const _0x4d8db9 = await _0x5f01aa.arrayBuffer();
+      const _0x172748 = _0x4d8db9.byteLength;
+      const _0x4f28d7 = new Uint8Array([_0x172748 >> 0x8 & 0xff, _0x172748 & 0xff]);
+      if (_0x17746b.readyState === 0x1) {
+        _0x5994fe("doh success and dns message length is " + _0x172748);
+        if (_0x304edf) {
+          _0x17746b.send(await new Blob([_0x4f28d7, _0x4d8db9]).arrayBuffer());
+        } else {
+          _0x17746b.send(await new Blob([_0x382f09, _0x4f28d7, _0x4d8db9]).arrayBuffer());
+          _0x304edf = true;
+        }
+      }
+    }
+  }))["catch"](_0x33ce05 => {
+    _0x5994fe("dns udp has error" + _0x33ce05);
+  });
+  const _0x10bd1b = _0x5ba274.writable.getWriter();
+  return {
+    'write'(_0x29c6fb) {
+      _0x10bd1b.write(_0x29c6fb);
+    }
+  };
+}
+__defProp(handleUDPOutBound, "name", {
+  'value': "handleUDPOutBound",
+  'configurable': true
+});
+var import_js_sha256 = __toESM(require_sha256());
+import { connect as a0_0x5c66c2 } from 'cloudflare:sockets';
+async function trojanOverWSHandler(_0xf9e7a2) {
+  const _0x3615b1 = new WebSocketPair();
+  const [_0x383737, _0x30c961] = Object.values(_0x3615b1);
+  _0x30c961.accept();
+  let _0x539499 = '';
+  let _0x1501b6 = '';
+  const _0x357ab8 = __defProp((_0x35e511, _0x283fc3) => {
+    console.log('[' + _0x539499 + ':' + _0x1501b6 + "] " + _0x35e511, _0x283fc3 || '');
+  }, "name", {
+    'value': "log",
+    'configurable': true
+  });
+  const _0x1372be = _0xf9e7a2.headers.get("sec-websocket-protocol") || '';
+  const _0x44f67b = makeReadableWebSocketStream2(_0x30c961, _0x1372be, _0x357ab8);
+  let _0x4e1a66 = {
+    'value': null
+  };
+  _0x44f67b.pipeTo(new WritableStream({
+    async 'write'(_0x103f2c, _0x4949e6) {
+      return null(_0x103f2c);
+      const _0x68efac = null.writable.getWriter();
+      await _0x68efac.write(_0x103f2c);
+      _0x68efac.releaseLock();
+      return;
+      const {
+        hasError: _0x1b0386,
+        message: _0x27d4bc,
+        portRemote = 0x1bb,
+        addressRemote = '',
+        rawClientData: _0x29db01
+      } = await parseTrojanHeader(_0x103f2c);
+      _0x539499 = addressRemote;
+      _0x1501b6 = portRemote + '--' + Math.random() + " tcp";
+      if (_0x1b0386) {
+        throw new Error(_0x27d4bc);
+        return;
+      }
+      handleTCPOutBound2(_0x4e1a66, addressRemote, portRemote, _0x29db01, _0x30c961, _0x357ab8);
+    },
+    'close'() {
+      _0x357ab8("readableWebSocketStream is closed");
+    },
+    'abort'(_0x357af5) {
+      _0x357ab8("readableWebSocketStream is aborted", JSON.stringify(_0x357af5));
+    }
+  }))["catch"](_0x1f4bfe => {
+    _0x357ab8("readableWebSocketStream pipeTo error", _0x1f4bfe);
+  });
+  return new Response(null, {
+    'status': 0x65,
+    'webSocket': _0x383737
+  });
+}
+__defProp(trojanOverWSHandler, "name", {
+  'value': "trojanOverWSHandler",
+  'configurable': true
+});
+async function parseTrojanHeader(_0x36dcdf) {
+  if (_0x36dcdf.byteLength < 0x38) {
+    return {
+      'hasError': true,
+      'message': "invalid data"
+    };
+  }
+  if (new Uint8Array(_0x36dcdf.slice(0x38, 0x39))[0x0] !== 0xd || new Uint8Array(_0x36dcdf.slice(0x39, 0x3a))[0x0] !== 0xa) {
+    return {
+      'hasError': true,
+      'message': "invalid header format (missing CR LF)"
+    };
+  }
+  const _0x359335 = new TextDecoder().decode(_0x36dcdf.slice(0x0, 0x38));
+  if (_0x359335 !== import_js_sha256["default"].sha224(globalThis.trojanPassword)) {
+    return {
+      'hasError': true,
+      'message': "invalid password"
+    };
+  }
+  const _0xf4a23b = _0x36dcdf.slice(58);
+  if (_0xf4a23b.byteLength < 0x6) {
+    return {
+      'hasError': true,
+      'message': "invalid SOCKS5 request data"
+    };
+  }
+  const _0x5a5ad5 = new DataView(_0xf4a23b);
+  const _0x148f67 = _0x5a5ad5.getUint8(0x0);
+  if (_0x148f67 !== 0x1) {
+    return {
+      'hasError': true,
+      'message': "unsupported command, only TCP (CONNECT) is allowed"
+    };
+  }
+  const _0x25674c = _0x5a5ad5.getUint8(0x1);
+  let _0x51f62f = 0x0;
+  let _0x314c56 = 0x2;
+  let _0x3ce849 = '';
+  switch (_0x25674c) {
+    case 0x1:
+      _0x51f62f = 0x4;
+      _0x3ce849 = new Uint8Array(_0xf4a23b.slice(_0x314c56, _0x314c56 + _0x51f62f)).join('.');
+      break;
+    case 0x3:
+      _0x51f62f = new Uint8Array(_0xf4a23b.slice(_0x314c56, _0x314c56 + 0x1))[0x0];
+      _0x314c56 += 0x1;
+      _0x3ce849 = new TextDecoder().decode(_0xf4a23b.slice(_0x314c56, _0x314c56 + _0x51f62f));
+      break;
+    case 0x4:
+      _0x51f62f = 0x10;
+      const _0x4f5d5d = new DataView(_0xf4a23b.slice(_0x314c56, _0x314c56 + _0x51f62f));
+      const _0x1e83bb = [];
+      for (let _0x255eac = 0x0; _0x255eac < 0x8; _0x255eac++) {
+        _0x1e83bb.push(_0x4f5d5d.getUint16(_0x255eac * 0x2).toString(0x10));
+      }
+      _0x3ce849 = _0x1e83bb.join(':');
+      break;
+    default:
+      return {
+        'hasError': true,
+        'message': "invalid addressType is " + _0x25674c
+      };
+  }
+  if (!_0x3ce849) {
+    return {
+      'hasError': true,
+      'message': "address is empty, addressType is " + _0x25674c
+    };
+  }
+  const _0x3ccc6f = _0x314c56 + _0x51f62f;
+  const _0x90f7b1 = _0xf4a23b.slice(_0x3ccc6f, _0x3ccc6f + 0x2);
+  const _0x1b41e1 = new DataView(_0x90f7b1).getUint16(0x0);
+  return {
+    'hasError': false,
+    'addressRemote': _0x3ce849,
+    'portRemote': _0x1b41e1,
+    'rawClientData': _0xf4a23b.slice(_0x3ccc6f + 0x4)
+  };
+}
+__defProp(parseTrojanHeader, "name", {
+  'value': "parseTrojanHeader",
+  'configurable': true
+});
+async function handleTCPOutBound2(_0x1a6d06, _0x53687e, _0x793485, _0xa9374c, _0x57fe0c, _0x40c882) {
+  async function _0x5db915(_0xf7b0be, _0x5559a7) {
+    if (/^(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?).){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/.test(_0xf7b0be)) {
+      _0xf7b0be = '' + atob("d3d3Lg==") + _0xf7b0be + atob("LnNzbGlwLmlv");
+    }
+    const _0x40eed0 = a0_0x5c66c2({
+      'hostname': _0xf7b0be,
+      'port': _0x5559a7
+    });
+    _0x1a6d06.value = _0x40eed0;
+    _0x40c882("connected to " + _0xf7b0be + ':' + _0x5559a7);
+    const _0xc0160f = _0x40eed0.writable.getWriter();
+    await _0xc0160f.write(_0xa9374c);
+    _0xc0160f.releaseLock();
+    return _0x40eed0;
+  }
+  __defProp(_0x5db915, "name", {
+    'value': "connectAndWrite",
+    'configurable': true
+  });
+  async function _0x17394f() {
+    const _0x4ffc76 = globalThis.pathName.split('/')[0x2];
+    const _0x125564 = _0x4ffc76 ? atob(_0x4ffc76).split(',') : undefined;
+    const _0x3c9666 = _0x125564 ? _0x125564[Math.floor(Math.random() * _0x125564.length)] : globalThis.proxyIP || _0x53687e;
+    const _0x2ac08f = await _0x5db915(_0x3c9666, _0x793485);
+    _0x2ac08f.closed["catch"](_0x4cf09a => {
+      console.log("retry tcpSocket closed error", _0x4cf09a);
+    })["finally"](() => {
+      safeCloseWebSocket2(_0x57fe0c);
+    });
+    trojanRemoteSocketToWS(_0x2ac08f, _0x57fe0c, null, _0x40c882);
+  }
+  __defProp(_0x17394f, "name", {
+    'value': "retry",
+    'configurable': true
+  });
+  const _0x2ef1ac = await _0x5db915(_0x53687e, _0x793485);
+  trojanRemoteSocketToWS(_0x2ef1ac, _0x57fe0c, _0x17394f, _0x40c882);
+}
+__defProp(handleTCPOutBound2, "name", {
+  'value': "handleTCPOutBound",
+  'configurable': true
+});
+function makeReadableWebSocketStream2(_0x52a68e, _0x204cd8, _0x1be4af) {
+  let _0x1fd2c0 = false;
+  const _0xb53b16 = new ReadableStream({
+    'start'(_0xff5072) {
+      _0x52a68e.addEventListener("message", _0x5111c4 => {
+        if (_0x1fd2c0) {
+          return;
+        }
+        const _0x38f6d5 = _0x5111c4.data;
+        _0xff5072.enqueue(_0x38f6d5);
+      });
+      _0x52a68e.addEventListener("close", () => {
+        safeCloseWebSocket2(_0x52a68e);
+        if (_0x1fd2c0) {
+          return;
+        }
+        _0xff5072.close();
+      });
+      _0x52a68e.addEventListener("error", _0x2223c0 => {
+        _0x1be4af("webSocketServer has error");
+        _0xff5072.error(_0x2223c0);
+      });
+      const {
+        earlyData: _0x5ea70b,
+        error: _0x2e3e80
+      } = base64ToArrayBuffer2(_0x204cd8);
+      if (_0x2e3e80) {
+        _0xff5072.error(_0x2e3e80);
+      } else if (_0x5ea70b) {
+        _0xff5072.enqueue(_0x5ea70b);
+      }
+    },
+    'pull'(_0x3ac767) {},
+    'cancel'(_0x54cca1) {
+      if (_0x1fd2c0) {
+        return;
+      }
+      _0x1be4af("ReadableStream was canceled, due to " + _0x54cca1);
+      _0x1fd2c0 = true;
+      safeCloseWebSocket2(_0x52a68e);
+    }
+  });
+  return _0xb53b16;
+}
+__defProp(makeReadableWebSocketStream2, "name", {
+  'value': "makeReadableWebSocketStream",
+  'configurable': true
+});
+async function trojanRemoteSocketToWS(_0x6cbff2, _0x454402, _0x3317e0, _0x32ef4e) {
+  let _0x52d88b = false;
+  await _0x6cbff2.readable.pipeTo(new WritableStream({
+    'start'() {},
+    async 'write'(_0x3e73c6, _0x253680) {
+      _0x52d88b = true;
+      if (_0x454402.readyState !== 0x1) {
+        _0x253680.error("webSocket connection is not open");
+      }
+      _0x454402.send(_0x3e73c6);
+    },
+    'close'() {
+      _0x32ef4e("remoteSocket.readable is closed, hasIncomingData: " + _0x52d88b);
+    },
+    'abort'(_0x521469) {
+      console.error("remoteSocket.readable abort", _0x521469);
+    }
+  }))["catch"](_0x476730 => {
+    console.error("trojanRemoteSocketToWS error:", _0x476730.stack || _0x476730);
+    safeCloseWebSocket2(_0x454402);
+  });
+  if (_0x52d88b === false && _0x3317e0) {
+    _0x32ef4e("retry");
+    _0x3317e0();
+  }
+}
+__defProp(trojanRemoteSocketToWS, "name", {
+  'value': "trojanRemoteSocketToWS",
+  'configurable': true
+});
+function base64ToArrayBuffer2(_0x538fe6) {
+  if (!_0x538fe6) {
+    return {
+      'earlyData': null,
+      'error': null
+    };
+  }
+  try {
+    _0x538fe6 = _0x538fe6.replace(/-/g, '+').replace(/_/g, '/');
+    const _0x29d907 = atob(_0x538fe6);
+    const _0x47d1ef = Uint8Array.from(_0x29d907, _0x18a5d2 => _0x18a5d2.charCodeAt(0x0));
+    return {
+      'earlyData': _0x47d1ef.buffer,
+      'error': null
+    };
+  } catch (_0x1a2ad6) {
+    return {
+      'earlyData': null,
+      'error': _0x1a2ad6
+    };
+  }
+}
+__defProp(base64ToArrayBuffer2, "name", {
+  'value': "base64ToArrayBuffer",
+  'configurable': true
+});
+function safeCloseWebSocket2(_0x49f4db) {
+  try {
+    if (_0x49f4db.readyState === 0x1 || _0x49f4db.readyState === 0x2) {
+      _0x49f4db.close();
+    }
+  } catch (_0x493193) {
+    console.error("safeCloseWebSocket error", _0x493193);
+  }
+}
+__defProp(safeCloseWebSocket2, "name", {
+  'value': "safeCloseWebSocket",
+  'configurable': true
+});
+async function renderErrorPage(_0x4fe01c) {
+  const _0x1cdac9 = "\n    <!DOCTYPE html>\n    <html lang=\"en\">\n    <head>\n        <meta charset=\"UTF-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n        <title>Error Page</title>\n        <style>\n            :root {\n                --color: black;\n                --header-color: #09639f; \n                --background-color: #fff;\n                --border-color: #ddd;\n                --header-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);\n            }\n            body, html {\n                height: 100%;\n                width: 100%;\n                margin: 0;\n                display: flex;\n                justify-content: center;\n                align-items: center;\n                font-family: system-ui;\n                color: var(--color);\n                background-color: var(--background-color);\n            }\n            body.dark-mode {\n                --color: white;\n                --header-color: #3498DB; \n                --background-color: #121212;\n                --header-shadow: 2px 2px 4px rgba(255, 255, 255, 0.25);          \n            }\n            h1 { font-size: 2.5rem; text-align: center; color: var(--header-color); text-shadow: var(--header-shadow); }\n            #error-container { text-align: center; }\n        </style>\n    </head>\n    <body>\n        <div id=\"error-container\">\n            <h1>BPB Panel <span style=\"font-size: smaller;\">" + globalThis.panelVersion + "</span> 💦</h1>\n            <div id=\"error-message\">\n                <h2>❌ Something went wrong!</h2>\n                <p><b>" + (_0x4fe01c ? "⚠️ " + (_0x4fe01c.cause ? _0x4fe01c.message.toString() : _0x4fe01c.stack.toString()) : '') + "</b></p>\n            </div>\n        </div>\n    <script>\n        localStorage.getItem('darkMode') === 'enabled' && document.body.classList.add('dark-mode');\n    </script>\n    </body>\n    </html>";
+  return new Response(_0x1cdac9, {
+    'status': 0xc8,
+    'headers': {
+      'Content-Type': "text/html"
+    }
+  });
+}
+__defProp(renderErrorPage, "name", {
+  'value': "renderErrorPage",
+  'configurable': true
+});
+async function getConfigAddresses(_0x4fbd8d, _0x5c7fa0) {
+  const _0x28aeec = await resolveDNS(globalThis.hostName);
+  const _0x161598 = _0x5c7fa0 ? _0x28aeec.ipv6.map(_0x3bd94c => '[' + _0x3bd94c + ']') : [];
+  return [globalThis.hostName, "www.speedtest.net", ..._0x28aeec.ipv4, ..._0x161598, ...(_0x4fbd8d ? _0x4fbd8d.split(',') : [])];
+}
+__defProp(getConfigAddresses, "name", {
+  'value': "getConfigAddresses",
+  'configurable': true
+});
+function extractWireguardParams(_0x28e4fd, _0x2961d0) {
+  const _0x122a83 = _0x2961d0 ? 0x1 : 0x0;
+  const _0x58d9ea = _0x28e4fd[_0x122a83].account.config;
+  return {
+    'warpIPv6': _0x58d9ea["interface"].addresses.v6 + "/128",
+    'reserved': _0x58d9ea.client_id,
+    'publicKey': _0x58d9ea.peers[0x0].public_key,
+    'privateKey': _0x28e4fd[_0x122a83].privateKey
+  };
+}
+__defProp(extractWireguardParams, "name", {
+  'value': "extractWireguardParams",
+  'configurable': true
+});
+function generateRemark(_0x30e91a, _0x17ec9e, _0x531cee, _0x4616c6, _0x485d1c, _0x2c9666) {
+  let _0x4c84af;
+  const _0x5169e0 = _0x2c9666 ? " " + _0x2c9666 : '';
+  if (_0x4616c6.includes(_0x531cee)) {
+    _0x4c84af = "Clean IP";
+  } else {
+    _0x4c84af = isDomain(_0x531cee) ? "Domain" : isIPv4(_0x531cee) ? "IPv4" : isIPv6(_0x531cee) ? "IPv6" : '';
+  }
+  return "💦 " + _0x30e91a + " - " + _0x485d1c + _0x5169e0 + " - " + _0x4c84af + " : " + _0x17ec9e;
+}
+__defProp(generateRemark, "name", {
+  'value': "generateRemark",
+  'configurable': true
+});
+function randomUpperCase(_0x3fc3b9) {
+  let _0x13665c = '';
+  for (let _0x53aaf5 = 0x0; _0x53aaf5 < _0x3fc3b9.length; _0x53aaf5++) {
+    _0x13665c += Math.random() < 0.5 ? _0x3fc3b9[_0x53aaf5].toUpperCase() : _0x3fc3b9[_0x53aaf5];
+  }
+  return _0x13665c;
+}
+__defProp(randomUpperCase, "name", {
+  'value': "randomUpperCase",
+  'configurable': true
+});
+function getRandomPath(_0x1f7cbb) {
+  let _0x5bfabe = '';
+  const _0x4471be = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789".length;
+  for (let _0x14af08 = 0x0; _0x14af08 < _0x1f7cbb; _0x14af08++) {
+    _0x5bfabe += "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789".charAt(Math.floor(Math.random() * _0x4471be));
+  }
+  return _0x5bfabe;
+}
+__defProp(getRandomPath, "name", {
+  'value': "getRandomPath",
+  'configurable': true
+});
+function base64ToDecimal(_0x534bbc) {
+  const _0x5887db = atob(_0x534bbc);
+  const _0x246d2f = Array.from(_0x5887db).map(_0x544933 => _0x544933.charCodeAt(0x0).toString(0x10).padStart(0x2, '0')).join('');
+  const _0x50fed4 = _0x246d2f.match(/.{2}/g).map(_0x9f90f8 => parseInt(_0x9f90f8, 0x10));
+  return _0x50fed4;
+}
+__defProp(base64ToDecimal, "name", {
+  'value': "base64ToDecimal",
+  'configurable': true
+});
+function isIPv4(_0x1f8724) {
+  const _0x46997d = /^(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)(?:\/([0-9]|[1-2][0-9]|3[0-2]))?$/;
+  return _0x46997d.test(_0x1f8724);
+}
+__defProp(isIPv4, "name", {
+  'value': "isIPv4",
+  'configurable': true
+});
+function isIPv6(_0x4bc31a) {
+  const _0x51c007 = /^\[(?:(?:[a-fA-F0-9]{1,4}:){7}[a-fA-F0-9]{1,4}|(?:[a-fA-F0-9]{1,4}:){1,7}:|::(?:[a-fA-F0-9]{1,4}:){0,7}|(?:[a-fA-F0-9]{1,4}:){1,6}:[a-fA-F0-9]{1,4}|(?:[a-fA-F0-9]{1,4}:){1,5}(?::[a-fA-F0-9]{1,4}){1,2}|(?:[a-fA-F0-9]{1,4}:){1,4}(?::[a-fA-F0-9]{1,4}){1,3}|(?:[a-fA-F0-9]{1,4}:){1,3}(?::[a-fA-F0-9]{1,4}){1,4}|(?:[a-fA-F0-9]{1,4}:){1,2}(?::[a-fA-F0-9]{1,4}){1,5}|[a-fA-F0-9]{1,4}:(?::[a-fA-F0-9]{1,4}){1,6})\](?:\/(1[0-1][0-9]|12[0-8]|[0-9]?[0-9]))?$/;
+  return _0x51c007.test(_0x4bc31a);
+}
+__defProp(isIPv6, "name", {
+  'value': "isIPv6",
+  'configurable': true
+});
+async function buildXrayDNS(_0x1c280a, _0x4c0fff, _0xc03d63, _0x4b7396, _0x53a5a6) {
+  const {
+    remoteDNS: _0x2d512d,
+    resolvedRemoteDNS: _0x11c87c,
+    localDNS: _0x46114,
+    vlessTrojanFakeDNS: _0x52ea09,
+    enableIPv6: _0x45be30,
+    warpFakeDNS: _0x4d1f04,
+    warpEnableIPv6: _0x36fdc2,
+    blockAds: _0x3df28d,
+    bypassIran: _0x60071d,
+    bypassChina: _0x4f065b,
+    blockPorn: _0x20e548,
+    bypassRussia: _0x3779dc,
+    customBypassRules: _0x2f2e5e,
+    customBlockRules: _0x217a8c
+  } = _0x1c280a;
+  const _0x39275d = [{
+    'rule': _0x60071d,
+    'domain': "geosite:category-ir",
+    'ip': "geoip:ir"
+  }, {
+    'rule': _0x4f065b,
+    'domain': "geosite:cn",
+    'ip': "geoip:cn"
+  }, {
+    'rule': _0x3779dc,
+    'domain': "geosite:category-ru",
+    'ip': "geoip:ru"
+  }];
+  const _0xfd29b2 = [{
+    'rule': _0x3df28d,
+    'host': "geosite:category-ads-all"
+  }, {
+    'rule': _0x3df28d,
+    'host': "geosite:category-ads-ir"
+  }, {
+    'rule': _0x20e548,
+    'host': "geosite:category-porn"
+  }];
+  const _0x561ba8 = _0x52ea09 && !_0x53a5a6 || _0x4d1f04 && _0x53a5a6;
+  const _0x372917 = _0x45be30 && !_0x53a5a6 || _0x36fdc2 && _0x53a5a6;
+  const _0x226de5 = _0x4c0fff.filter(_0x3a3418 => isDomain(_0x3a3418));
+  const _0x32d0cb = _0x2f2e5e.split(',').filter(_0x59d804 => isDomain(_0x59d804));
+  const _0x47eb98 = _0x217a8c.split(',').filter(_0x8b4dd => isDomain(_0x8b4dd));
+  const _0x33d943 = [...new Set(_0x226de5)];
+  const _0x26cb46 = [..._0x33d943, ..._0x32d0cb].length > 0x0;
+  const _0x514885 = _0x60071d || _0x4f065b || _0x3779dc;
+  const _0x462dec = _0x3df28d || _0x20e548 || _0x47eb98.length > 0x0;
+  const _0xef6f80 = _0x4b7396 ? ["https://cloudflare-dns.com/dns-query"] : _0x53a5a6 ? _0x36fdc2 ? ["1.1.1.1", "1.0.0.1", "2606:4700:4700::1111", "2606:4700:4700::1001"] : ["1.1.1.1", "1.0.0.1"] : [_0x2d512d];
+  const _0x161b55 = {};
+  if (_0x462dec) {
+    _0xfd29b2.forEach(({
+      rule: _0x5633b3,
+      host: _0x34e09d
+    }) => {
+      if (_0x5633b3) {
+        _0x161b55[_0x34e09d] = ["127.0.0.1"];
+      }
+    });
+    _0x47eb98.forEach(_0x225b24 => {
+      _0x161b55["domain:" + _0x225b24] = ["127.0.0.1"];
+    });
+  }
+  const _0x2c59f7 = _0xc03d63 ? await resolveDNS(_0xc03d63) : undefined;
+  if (_0x2c59f7) {
+    _0x161b55[_0xc03d63] = _0x45be30 ? [..._0x2c59f7.ipv4, ..._0x2c59f7.ipv6] : _0x2c59f7.ipv4;
+  }
+  if (_0x11c87c.server && !_0x4b7396 && !_0x53a5a6) {
+    _0x161b55[_0x11c87c.server] = _0x11c87c.staticIPs;
+  }
+  if (_0x4b7396) {
+    const _0x3ebcb6 = ["cloudflare-dns.com", "cloudflare.com", "dash.cloudflare.com"];
+    const _0x3e005b = await Promise.all(_0x3ebcb6.map(resolveDNS));
+    const _0x14e5f4 = _0x3e005b.flatMap(_0x2af9ea => _0x2af9ea.ipv4);
+    const _0xa15f50 = _0x45be30 ? _0x3e005b.flatMap(_0x53be90 => _0x53be90.ipv6) : [];
+    _0x161b55["cloudflare-dns.com"] = [..._0x14e5f4, ..._0xa15f50];
+  }
+  const _0x3f27e3 = Object.keys(_0x161b55).length ? {
+    'hosts': _0x161b55
+  } : {};
+  const _0x250d7d = {
+    ..._0x3f27e3,
+    'servers': _0xef6f80,
+    'queryStrategy': _0x372917 ? "UseIP" : "UseIPv4",
+    'tag': "dns"
+  };
+  if (_0x26cb46) {
+    const _0x417cf8 = _0x33d943.map(_0x8be751 => "full:" + _0x8be751);
+    const _0x6938e = _0x32d0cb.map(_0x109828 => "domain:" + _0x109828);
+    _0x250d7d.servers.push({
+      'address': _0x46114,
+      'domains': [..._0x417cf8, ..._0x6938e],
+      'skipFallback': true
+    });
+  }
+  const _0x3f52a0 = {
+    'address': _0x46114,
+    'domains': [],
+    'expectIPs': [],
+    'skipFallback': true
+  };
+  if (!_0x4b7396 && _0x514885) {
+    _0x39275d.forEach(({
+      rule: _0x2539f2,
+      domain: _0x482149,
+      ip: _0x1cabf5
+    }) => {
+      if (_0x2539f2) {
+        _0x3f52a0.domains.push(_0x482149);
+        _0x3f52a0.expectIPs.push(_0x1cabf5);
+      }
+    });
+    _0x250d7d.servers.push(_0x3f52a0);
+  }
+  if (_0x561ba8) {
+    const _0xb6e953 = _0x514885 && !_0x4b7396 ? {
+      'address': "fakedns",
+      'domains': _0x3f52a0.domains
+    } : "fakedns";
+    _0x250d7d.servers.unshift(_0xb6e953);
+  }
+  return _0x250d7d;
+}
+__defProp(buildXrayDNS, "name", {
+  'value': "buildXrayDNS",
+  'configurable': true
+});
+function buildXrayRoutingRules(_0x1bbd05, _0x57ab87, _0x4c8708, _0x5f47e4, _0x3d261a, _0x57e75c) {
+  const {
+    remoteDNS: _0xc01838,
+    localDNS: _0x16640e,
+    bypassLAN: _0x5374d9,
+    bypassIran: _0x1e2ac3,
+    bypassChina: _0x6a0737,
+    bypassRussia: _0x47acdb,
+    blockAds: _0x17b2ea,
+    blockPorn: _0x8333d6,
+    blockUDP443: _0x38f176,
+    customBypassRules: _0x46ab25,
+    customBlockRules: _0x2cf4b3
+  } = _0x1bbd05;
+  const _0x1db29e = [{
+    'rule': _0x5374d9,
+    'type': "direct",
+    'domain': "geosite:private",
+    'ip': "geoip:private"
+  }, {
+    'rule': _0x1e2ac3,
+    'type': "direct",
+    'domain': "geosite:category-ir",
+    'ip': "geoip:ir"
+  }, {
+    'rule': _0x6a0737,
+    'type': "direct",
+    'domain': "geosite:cn",
+    'ip': "geoip:cn"
+  }, {
+    'rule': _0x17b2ea,
+    'type': "block",
+    'domain': "geosite:category-ads-all"
+  }, {
+    'rule': _0x17b2ea,
+    'type': "block",
+    'domain': "geosite:category-ads-ir"
+  }, {
+    'rule': _0x8333d6,
+    'type': "block",
+    'domain': "geosite:category-porn"
+  }];
+  const _0x435435 = _0x57ab87.filter(_0x2b661b => isDomain(_0x2b661b));
+  const _0x2eec5a = _0x46ab25 ? _0x46ab25.split(',') : [];
+  const _0x4dd4ed = _0x2cf4b3 ? _0x2cf4b3.split(',') : [];
+  const _0xea712a = _0x2eec5a.filter(_0x58cd57 => isDomain(_0x58cd57));
+  const _0x1a3cfd = [..._0x435435, ..._0xea712a].length > 0x0;
+  const _0x281d24 = _0x17b2ea || _0x8333d6 || _0x4dd4ed.length > 0x0;
+  const _0x20a27f = _0x1e2ac3 || _0x6a0737 || _0x47acdb || _0x2eec5a.length > 0x0;
+  const _0x5d6902 = [{
+    'inboundTag': ["dns-in"],
+    'outboundTag': "dns-out",
+    'type': "field"
+  }, {
+    'inboundTag': ["socks-in", "http-in"],
+    'port': '53',
+    'outboundTag': "dns-out",
+    'type': "field"
+  }];
+  if (!_0x3d261a && (_0x1a3cfd || _0x20a27f)) {
+    _0x5d6902.push({
+      'ip': [_0x16640e],
+      'port': '53',
+      'network': "udp",
+      'outboundTag': "direct",
+      'type': "field"
+    });
+  }
+  if (_0x20a27f || _0x281d24) {
+    const _0x51b819 = __defProp((_0x505248, _0x278ae9) => ({
+      [_0x505248]: [],
+      'outboundTag': _0x278ae9,
+      'type': "field"
+    }), "name", {
+      'value': "createRule",
+      'configurable': true
+    });
+    let _0x3a6c32;
+    let _0xa94474;
+    if (!_0x3d261a) {
+      _0x3a6c32 = _0x51b819("domain", "direct");
+      _0xa94474 = _0x51b819('ip', "direct");
+    }
+    let _0x1664da = _0x51b819("domain", "block");
+    let _0x1bf941 = _0x51b819('ip', "block");
+    _0x1db29e.forEach(({
+      rule: _0x5eae6b,
+      type: _0x155de0,
+      domain: _0x1b245a,
+      ip: _0x1512f6
+    }) => {
+      if (_0x5eae6b) {
+        if (_0x155de0 === "direct") {
+          _0x3a6c32?.["domain"]["push"](_0x1b245a);
+          _0xa94474?.['ip']?.["push"](_0x1512f6);
+        } else {
+          _0x1664da.domain.push(_0x1b245a);
+        }
+      }
+    });
+    _0x2eec5a.forEach(_0x33e79c => {
+      if (isDomain(_0x33e79c)) {
+        _0x3a6c32?.["domain"]["push"]("domain:" + _0x33e79c);
+      } else {
+        _0xa94474?.['ip']["push"](_0x33e79c);
+      }
+    });
+    _0x4dd4ed.forEach(_0x39e968 => {
+      if (isDomain(_0x39e968)) {
+        _0x1664da.domain.push("domain:" + _0x39e968);
+      } else {
+        _0x1bf941.ip.push(_0x39e968);
+      }
+    });
+    if (!_0x3d261a) {
+      if (_0x3a6c32.domain.length) {
+        _0x5d6902.push(_0x3a6c32);
+      }
+      if (_0xa94474.ip.length) {
+        _0x5d6902.push(_0xa94474);
+      }
+    }
+    if (_0x1664da.domain.length) {
+      _0x5d6902.push(_0x1664da);
+    }
+    if (_0x1bf941.ip.length) {
+      _0x5d6902.push(_0x1bf941);
+    }
+  }
+  if (_0x38f176) {
+    _0x5d6902.push({
+      'network': "udp",
+      'port': "443",
+      'outboundTag': "block",
+      'type': "field"
+    });
+  }
+  if (_0x4c8708) {
+    const _0x131aa5 = {
+      [_0x5f47e4 ? "balancerTag" : "outboundTag"]: _0x5f47e4 ? "all-proxy" : "proxy",
+      'type': "field"
+    };
+    if (!_0x57e75c) {
+      const _0x3dc788 = new URL(_0xc01838);
+      const _0x539e53 = _0x3dc788.hostname;
+      _0x5d6902.push({
+        [isDomain(_0x539e53) ? "domain" : 'ip']: [_0x539e53],
+        'network': "tcp",
+        ..._0x131aa5
+      });
+    } else {
+      _0x5d6902.push({
+        'network': "udp",
+        'port': '53',
+        ..._0x131aa5
+      });
+    }
+  }
+  if (_0x5f47e4) {
+    _0x5d6902.push({
+      'network': "tcp,udp",
+      'balancerTag': "all",
+      'type': "field"
+    });
+  } else {
+    _0x5d6902.push({
+      'network': "tcp,udp",
+      'outboundTag': _0x4c8708 ? "chain" : _0x3d261a ? "fragment" : "proxy",
+      'type': "field"
+    });
+  }
+  return _0x5d6902;
+}
+__defProp(buildXrayRoutingRules, "name", {
+  'value': "buildXrayRoutingRules",
+  'configurable': true
+});
+function buildXrayVLESSOutbound(_0x3a5200, _0x2bec76, _0x24d655, _0x323a16, _0x1d5199, _0x1c4c2a, _0x1966a3, _0x453151, _0x18e6f7) {
+  const _0x3379fa = {
+    'protocol': "vless",
+    'settings': {
+      'vnext': [{
+        'address': _0x2bec76,
+        'port': +_0x24d655,
+        'users': [{
+          'id': globalThis.userID,
+          'encryption': "none",
+          'level': 0x8
+        }]
+      }]
+    },
+    'streamSettings': {
+      'network': 'ws',
+      'security': "none",
+      'sockopt': {},
+      'wsSettings': {
+        'headers': {
+          'Host': _0x323a16,
+          'User-Agent': "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+        },
+        'path': '/' + getRandomPath(0x10) + (_0x1c4c2a ? '/' + btoa(_0x1c4c2a) : '') + "?ed=2560"
+      }
+    },
+    'tag': _0x3a5200
+  };
+  if (globalThis.defaultHttpsPorts.includes(_0x24d655)) {
+    _0x3379fa.streamSettings.security = "tls";
+    _0x3379fa.streamSettings.tlsSettings = {
+      'allowInsecure': _0x453151,
+      'fingerprint': "randomized",
+      'alpn': ['h2', "http/1.1"],
+      'serverName': _0x1d5199
+    };
+  }
+  const _0x9ed901 = _0x3379fa.streamSettings.sockopt;
+  if (_0x1966a3) {
+    _0x9ed901.dialerProxy = "fragment";
+  } else {
+    _0x9ed901.tcpKeepAliveIdle = 0x1e;
+    _0x9ed901.tcpNoDelay = true;
+    _0x9ed901.domainStrategy = _0x18e6f7 ? "UseIPv4v6" : "UseIPv4";
+  }
+  return _0x3379fa;
+}
+__defProp(buildXrayVLESSOutbound, "name", {
+  'value': "buildXrayVLESSOutbound",
+  'configurable': true
+});
+function buildXrayTrojanOutbound(_0xa47faa, _0x4c2be8, _0x54e877, _0x1c59ab, _0x42f055, _0x17d5c0, _0x558b97, _0x17d134, _0x3cbdda) {
+  const _0xb7a339 = {
+    'protocol': "trojan",
+    'settings': {
+      'servers': [{
+        'address': _0x4c2be8,
+        'port': +_0x54e877,
+        'password': globalThis.trojanPassword,
+        'level': 0x8
+      }]
+    },
+    'streamSettings': {
+      'network': 'ws',
+      'security': "none",
+      'sockopt': {},
+      'wsSettings': {
+        'headers': {
+          'Host': _0x1c59ab
+        },
+        'path': "/tr" + getRandomPath(0x10) + (_0x17d5c0 ? '/' + btoa(_0x17d5c0) : '') + "?ed=2560"
+      }
+    },
+    'tag': _0xa47faa
+  };
+  if (globalThis.defaultHttpsPorts.includes(_0x54e877)) {
+    _0xb7a339.streamSettings.security = "tls";
+    _0xb7a339.streamSettings.tlsSettings = {
+      'allowInsecure': _0x17d134,
+      'fingerprint': "randomized",
+      'alpn': ['h2', "http/1.1"],
+      'serverName': _0x42f055
+    };
+  }
+  const _0x67c2aa = _0xb7a339.streamSettings.sockopt;
+  if (_0x558b97) {
+    _0x67c2aa.dialerProxy = "fragment";
+  } else {
+    _0x67c2aa.tcpKeepAliveIdle = 0x1e;
+    _0x67c2aa.tcpNoDelay = true;
+    _0x67c2aa.domainStrategy = _0x3cbdda ? "UseIPv4v6" : "UseIPv4";
+  }
+  return _0xb7a339;
+}
+__defProp(buildXrayTrojanOutbound, "name", {
+  'value': "buildXrayTrojanOutbound",
+  'configurable': true
+});
+function buildXrayWarpOutbound(_0x4c89c8, _0x4d9b63, _0x10b836, _0x2f38b6, _0x3f767b) {
+  const {
+    warpEnableIPv6: _0x532fdb,
+    nikaNGNoiseMode: _0x222c53,
+    noiseCountMin: _0x27057c,
+    noiseCountMax: _0x91ec66,
+    noiseSizeMin: _0x46720d,
+    noiseSizeMax: _0x40e35a,
+    noiseDelayMin: _0x12c7bc,
+    noiseDelayMax: _0x4c538e
+  } = _0x4c89c8;
+  const {
+    warpIPv6: _0x13750b,
+    reserved: _0x42b6ce,
+    publicKey: _0x59cebc,
+    privateKey: _0x4d54c8
+  } = extractWireguardParams(_0x4d9b63, _0x2f38b6);
+  const _0x38afd1 = {
+    'protocol': "wireguard",
+    'settings': {
+      'address': ["172.16.0.2/32", _0x13750b],
+      'mtu': 0x500,
+      'peers': [{
+        'endpoint': _0x10b836,
+        'publicKey': _0x59cebc,
+        'keepAlive': 0x5
+      }],
+      'reserved': base64ToDecimal(_0x42b6ce),
+      'secretKey': _0x4d54c8
+    },
+    'streamSettings': {
+      'sockopt': {
+        'dialerProxy': "proxy",
+        'domainStrategy': _0x532fdb ? "UseIPv4v6" : "UseIPv4"
+      }
+    },
+    'tag': _0x2f38b6 ? "chain" : "proxy"
+  };
+  if (!_0x2f38b6) {
+    delete _0x38afd1.streamSettings;
+  }
+  if (_0x3f767b === "nikang" && !_0x2f38b6) {
+    Object.assign(_0x38afd1.settings, {
+      'wnoise': _0x222c53,
+      'wnoisecount': _0x27057c === _0x91ec66 ? _0x27057c : _0x27057c + '-' + _0x91ec66,
+      'wpayloadsize': _0x46720d === _0x40e35a ? _0x46720d : _0x46720d + '-' + _0x40e35a,
+      'wnoisedelay': _0x12c7bc === _0x4c538e ? _0x12c7bc : _0x12c7bc + '-' + _0x4c538e
+    });
+  }
+  return _0x38afd1;
+}
+__defProp(buildXrayWarpOutbound, "name", {
+  'value': "buildXrayWarpOutbound",
+  'configurable': true
+});
+function buildXrayChainOutbound(_0x4acee0, _0x391e3f) {
+  if (["socks", "http"].includes(_0x4acee0.protocol)) {
+    const {
+      protocol: _0x45a180,
+      server: _0x7af875,
+      port: _0x59b8d6,
+      user: _0x4ca1ef,
+      pass: _0x4df9d8
+    } = _0x4acee0;
+    return {
+      'protocol': _0x45a180,
+      'settings': {
+        'servers': [{
+          'address': _0x7af875,
+          'port': +_0x59b8d6,
+          'users': [{
+            'user': _0x4ca1ef,
+            'pass': _0x4df9d8,
+            'level': 0x8
+          }]
+        }]
+      },
+      'streamSettings': {
+        'network': "tcp",
+        'sockopt': {
+          'dialerProxy': "proxy",
+          'domainStrategy': _0x391e3f ? "UseIPv4v6" : "UseIPv4",
+          'tcpNoDelay': true
+        }
+      },
+      'mux': {
+        'enabled': true,
+        'concurrency': 0x8,
+        'xudpConcurrency': 0x10,
+        'xudpProxyUDP443': "reject"
+      },
+      'tag': "chain"
+    };
+  }
+  const {
+    server: _0x5514f7,
+    port: _0x4dcec6,
+    uuid: _0x3cb0e1,
+    flow: _0x279bf9,
+    security: _0x3280ab,
+    type: _0x457fdb,
+    sni: _0xc0eafc,
+    fp: _0x3f46af,
+    alpn: _0x486861,
+    pbk: _0x5cffd8,
+    sid: _0x27eea7,
+    spx: _0x338676,
+    headerType: _0x251f2f,
+    host: _0x1325cc,
+    path: _0x371117,
+    authority: _0x169f2a,
+    serviceName: _0x10e99a,
+    mode: _0x925e24
+  } = _0x4acee0;
+  const _0x460ec0 = {
+    'mux': {
+      'concurrency': 0x8,
+      'enabled': true,
+      'xudpConcurrency': 0x10,
+      'xudpProxyUDP443': "reject"
+    },
+    'protocol': "vless",
+    'settings': {
+      'vnext': [{
+        'address': _0x5514f7,
+        'port': +_0x4dcec6,
+        'users': [{
+          'encryption': "none",
+          'flow': _0x279bf9,
+          'id': _0x3cb0e1,
+          'level': 0x8,
+          'security': "auto"
+        }]
+      }]
+    },
+    'streamSettings': {
+      'network': _0x457fdb,
+      'security': _0x3280ab,
+      'sockopt': {
+        'dialerProxy': "proxy",
+        'domainStrategy': _0x391e3f ? "UseIPv4v6" : "UseIPv4",
+        'tcpNoDelay': true
+      }
+    },
+    'tag': "chain"
+  };
+  if (_0x3280ab === "tls") {
+    const _0xe1b4d0 = _0x486861 ? _0x486861?.["split"](',') : [];
+    _0x460ec0.streamSettings.tlsSettings = {
+      'allowInsecure': false,
+      'fingerprint': _0x3f46af,
+      'alpn': _0xe1b4d0,
+      'serverName': _0xc0eafc
+    };
+  }
+  if (_0x3280ab === "reality") {
+    delete _0x460ec0.mux;
+    _0x460ec0.streamSettings.realitySettings = {
+      'fingerprint': _0x3f46af,
+      'publicKey': _0x5cffd8,
+      'serverName': _0xc0eafc,
+      'shortId': _0x27eea7,
+      'spiderX': _0x338676
+    };
+  }
+  if (_0x251f2f === "http") {
+    const _0x5c54a2 = _0x371117?.["split"](',');
+    const _0x270f92 = _0x1325cc?.["split"](',');
+    _0x460ec0.streamSettings.tcpSettings = {
+      'header': {
+        'request': {
+          'headers': {
+            'Host': _0x270f92
+          },
+          'method': "GET",
+          'path': _0x5c54a2,
+          'version': "1.1"
+        },
+        'response': {
+          'headers': {
+            'Content-Type': ["application/octet-stream"]
+          },
+          'reason': 'OK',
+          'status': "200",
+          'version': "1.1"
+        },
+        'type': "http"
       }
     };
   }
-  if (type === "ws") {
-    const wsPath = path?.split("?ed=")[0];
-    const earlyData = +path?.split("?ed=")[1] || 0;
-    chainOutbound.transport = {
-      type: "ws",
-      path: wsPath,
-      headers: { Host: host },
-      max_early_data: earlyData,
-      early_data_header_name: "Sec-WebSocket-Protocol"
+  if (_0x457fdb === "tcp" && _0x3280ab !== "reality" && !_0x251f2f) {
+    _0x460ec0.streamSettings.tcpSettings = {
+      'header': {
+        'type': "none"
+      }
     };
   }
-  if (type === "grpc")
-    chainOutbound.transport = {
-      type: "grpc",
-      service_name: serviceName
+  if (_0x457fdb === 'ws') {
+    _0x460ec0.streamSettings.wsSettings = {
+      'headers': {
+        'Host': _0x1325cc
+      },
+      'path': _0x371117
     };
-  return chainOutbound;
+  }
+  if (_0x457fdb === "grpc") {
+    delete _0x460ec0.mux;
+    _0x460ec0.streamSettings.grpcSettings = {
+      'authority': _0x169f2a,
+      'multiMode': _0x925e24 === "multi",
+      'serviceName': _0x10e99a
+    };
+  }
+  return _0x460ec0;
 }
-async function getSingBoxWarpConfig(proxySettings, warpConfigs, client) {
-  const { warpEndpoints } = proxySettings;
-  let config = structuredClone(singboxConfigTemp);
-  const dnsObject = buildSingBoxDNS(proxySettings, false, true);
-  const { rules, rule_set } = buildSingBoxRoutingRules(proxySettings);
-  config.dns.servers = dnsObject.servers;
-  config.dns.rules = dnsObject.rules;
-  if (dnsObject.fakeip)
-    config.dns.fakeip = dnsObject.fakeip;
-  config.route.rules = rules;
-  config.route.rule_set = rule_set;
-  const selector = config.outbounds[0];
-  const warpUrlTest = config.outbounds[1];
-  const proIndicator = client === "hiddify" ? " Pro " : " ";
-  selector.outbounds = [`\u{1F4A6} Warp${proIndicator}- Best Ping \u{1F680}`, `\u{1F4A6} WoW${proIndicator}- Best Ping \u{1F680}`];
-  config.outbounds.splice(2, 0, structuredClone(warpUrlTest));
-  const WoWUrlTest = config.outbounds[2];
-  warpUrlTest.tag = `\u{1F4A6} Warp${proIndicator}- Best Ping \u{1F680}`;
-  warpUrlTest.interval = `${proxySettings.bestWarpInterval}s`;
-  WoWUrlTest.tag = `\u{1F4A6} WoW${proIndicator}- Best Ping \u{1F680}`;
-  WoWUrlTest.interval = `${proxySettings.bestWarpInterval}s`;
-  let warpRemarks = [], WoWRemarks = [];
-  warpEndpoints.split(",").forEach((endpoint, index) => {
-    const warpRemark = `\u{1F4A6} ${index + 1} - Warp \u{1F1EE}\u{1F1F7}`;
-    const WoWRemark = `\u{1F4A6} ${index + 1} - WoW \u{1F30D}`;
-    const warpOutbound = buildSingBoxWarpOutbound(proxySettings, warpConfigs, warpRemark, endpoint, "", client);
-    const WoWOutbound = buildSingBoxWarpOutbound(proxySettings, warpConfigs, WoWRemark, endpoint, warpRemark, client);
-    config.outbounds.push(WoWOutbound, warpOutbound);
-    warpRemarks.push(warpRemark);
-    WoWRemarks.push(WoWRemark);
-    warpUrlTest.outbounds.push(warpRemark);
-    WoWUrlTest.outbounds.push(WoWRemark);
-  });
-  selector.outbounds.push(...warpRemarks, ...WoWRemarks);
-  return config;
-}
-async function getSingBoxCustomConfig(env, proxySettings, hostName, client, isFragment) {
-  let chainProxyOutbound;
+__defProp(buildXrayChainOutbound, "name", {
+  'value': "buildXrayChainOutbound",
+  'configurable': true
+});
+function buildXrayConfig(_0x1485f5, _0x21acf9, _0x4ebdc1, _0x35fb18, _0x1822c7, _0x49fdf0, _0x5f3129) {
   const {
-    cleanIPs,
-    ports,
-    vlessConfigs,
-    trojanConfigs,
-    outProxy,
-    outProxyParams,
-    customCdnAddrs,
-    customCdnHost,
-    customCdnSni,
-    bestVLESSTrojanInterval,
-    enableIPv6
-  } = proxySettings;
-  if (outProxy) {
-    const proxyParams = JSON.parse(outProxyParams);
+    vlessTrojanFakeDNS: _0x565e0c,
+    enableIPv6: _0x5526ee,
+    warpFakeDNS: _0x480090,
+    bestVLESSTrojanInterval: _0x4b0a6c,
+    bestWarpInterval: _0xca095a,
+    lengthMin: _0x5cce7b,
+    lengthMax: _0xd24f,
+    intervalMin: _0x253599,
+    intervalMax: _0x551713,
+    fragmentPackets: _0x54045e
+  } = _0x1485f5;
+  const _0x19e47d = _0x565e0c && !_0x5f3129 || _0x480090 && _0x5f3129;
+  const _0x2b0b09 = structuredClone(xrayConfigTemp);
+  _0x2b0b09.remarks = _0x21acf9;
+  if (_0x19e47d) {
+    _0x2b0b09.inbounds[0x0].sniffing.destOverride.push("fakedns");
+    _0x2b0b09.inbounds[0x1].sniffing.destOverride.push("fakedns");
+  }
+  if (_0x4ebdc1) {
+    const _0x3bf794 = _0x2b0b09.outbounds[0x0].settings.fragment;
+    _0x3bf794.length = _0x5cce7b + '-' + _0xd24f;
+    _0x3bf794.interval = _0x253599 + '-' + _0x551713;
+    _0x3bf794.packets = _0x54045e;
+    _0x2b0b09.outbounds[0x0].settings.domainStrategy = _0x5526ee ? "UseIPv4v6" : "UseIPv4";
+  } else {
+    _0x2b0b09.outbounds.shift();
+  }
+  if (_0x35fb18) {
+    const _0x5b3171 = _0x5f3129 ? _0xca095a : _0x4b0a6c;
+    _0x2b0b09.observatory.probeInterval = _0x5b3171 + 's';
+    if (_0x49fdf0) {
+      _0x2b0b09.routing.balancers[0x0].fallbackTag = "prox-2";
+    }
+    if (_0x1822c7) {
+      _0x2b0b09.observatory.subjectSelector.push("chain");
+      const _0x552341 = structuredClone(_0x2b0b09.routing.balancers[0x0]);
+      if (_0x49fdf0) {
+        _0x552341.fallbackTag = "chain-2";
+      }
+      _0x2b0b09.routing.balancers.push({
+        ..._0x552341,
+        'selector': ["chain"]
+      });
+      _0x2b0b09.routing.balancers[0x0].tag = "all-proxy";
+    }
+  } else {
+    delete _0x2b0b09.observatory;
+    delete _0x2b0b09.routing.balancers;
+  }
+  return _0x2b0b09;
+}
+__defProp(buildXrayConfig, "name", {
+  'value': "buildXrayConfig",
+  'configurable': true
+});
+async function buildXrayBestPingConfig(_0x4fd1e3, _0x5db026, _0x176c32, _0x5c18a8, _0xda1342) {
+  const _0x5d9680 = _0xda1342 ? "💦 BPB F - Best Ping 💥" : "💦 BPB - Best Ping 💥";
+  const _0x27573 = buildXrayConfig(_0x4fd1e3, _0x5d9680, _0xda1342, true, _0x176c32, true);
+  _0x27573.dns = await buildXrayDNS(_0x4fd1e3, _0x5db026, undefined, false, false);
+  _0x27573.routing.rules = buildXrayRoutingRules(_0x4fd1e3, _0x5db026, _0x176c32, true, false, false);
+  _0x27573.outbounds.unshift(..._0x5c18a8);
+  return _0x27573;
+}
+__defProp(buildXrayBestPingConfig, "name", {
+  'value': "buildXrayBestPingConfig",
+  'configurable': true
+});
+async function buildXrayBestFragmentConfig(_0x473922, _0x4a0983, _0x59ac03, _0x3ff720) {
+  const _0x7b1a7e = ["10-20", "20-30", "30-40", "40-50", "50-60", "60-70", "70-80", "80-90", "90-100", "10-30", "20-40", "30-50", "40-60", "50-70", "60-80", "70-90", "80-100", "100-200"];
+  const _0xcf0e15 = buildXrayConfig(_0x473922, "💦 BPB F - Best Fragment 😎", true, true, _0x59ac03, false, false);
+  _0xcf0e15.dns = await buildXrayDNS(_0x473922, [], _0x4a0983, false, false);
+  _0xcf0e15.routing.rules = buildXrayRoutingRules(_0x473922, [], _0x59ac03, true, false, false);
+  const _0x5ad8d9 = _0xcf0e15.outbounds.shift();
+  const _0x34ac16 = [];
+  _0x7b1a7e.forEach((_0x51b965, _0x464909) => {
+    if (_0x59ac03) {
+      const _0x462f7c = structuredClone(_0x59ac03);
+      _0x462f7c.tag = "chain-" + (_0x464909 + 0x1);
+      _0x462f7c.streamSettings.sockopt.dialerProxy = "prox-" + (_0x464909 + 0x1);
+      _0x34ac16.push(_0x462f7c);
+    }
+    const _0x1a5b43 = structuredClone(_0x3ff720[_0x59ac03 ? 0x1 : 0x0]);
+    _0x1a5b43.tag = "prox-" + (_0x464909 + 0x1);
+    _0x1a5b43.streamSettings.sockopt.dialerProxy = "frag-" + (_0x464909 + 0x1);
+    const _0x40cc43 = structuredClone(_0x5ad8d9);
+    _0x40cc43.tag = "frag-" + (_0x464909 + 0x1);
+    _0x40cc43.settings.fragment.length = _0x51b965;
+    _0x40cc43.settings.fragment.interval = "1-1";
+    _0x34ac16.push(_0x1a5b43, _0x40cc43);
+  });
+  _0xcf0e15.outbounds.unshift(..._0x34ac16);
+  return _0xcf0e15;
+}
+__defProp(buildXrayBestFragmentConfig, "name", {
+  'value': "buildXrayBestFragmentConfig",
+  'configurable': true
+});
+async function buildXrayWorkerLessConfig(_0x318d99) {
+  const _0x1cb65e = buildXrayConfig(_0x318d99, "💦 BPB F - WorkerLess ⭐", true, false, false, false, false);
+  _0x1cb65e.dns = await buildXrayDNS(_0x318d99, [], undefined, true);
+  _0x1cb65e.routing.rules = buildXrayRoutingRules(_0x318d99, [], false, false, true, false);
+  const _0x160fab = buildXrayVLESSOutbound("fake-outbound", "google.com", "443", globalThis.userID, "google.com", "google.com", '', true, false);
+  delete _0x160fab.streamSettings.sockopt;
+  _0x160fab.streamSettings.wsSettings.path = '/';
+  _0x1cb65e.outbounds.push(_0x160fab);
+  return _0x1cb65e;
+}
+__defProp(buildXrayWorkerLessConfig, "name", {
+  'value': "buildXrayWorkerLessConfig",
+  'configurable': true
+});
+async function getXrayCustomConfigs(_0x58f61d, _0x164fc9, _0x73c9ba) {
+  const {
+    proxySettings: _0x22ac84
+  } = await getDataset(_0x58f61d, _0x164fc9);
+  let _0x38bff7 = [];
+  let _0x5e2367 = [];
+  let _0x5422ab = [];
+  let _0xcb8e9f;
+  const {
+    proxyIP: _0x329716,
+    outProxy: _0x429c48,
+    outProxyParams: _0x24b368,
+    cleanIPs: _0x3921ee,
+    enableIPv6: _0x1ea2bb,
+    customCdnAddrs: _0x23fda8,
+    customCdnHost: _0x18a6ef,
+    customCdnSni: _0x3e4cb9,
+    vlessConfigs: _0x1e6e55,
+    trojanConfigs: _0x27b6ad,
+    ports: _0x36ae51
+  } = _0x22ac84;
+  if (_0x429c48) {
+    const _0x8ac1ac = JSON.parse(_0x24b368);
     try {
-      chainProxyOutbound = buildSingBoxChainOutbound(proxyParams);
-    } catch (error) {
-      console.log("An error occured while parsing chain proxy: ", error);
-      chainProxyOutbound = void 0;
-      await env.bpb.put("proxySettings", JSON.stringify({
-        ...proxySettings,
-        outProxy: "",
-        outProxyParams: ""
+      _0xcb8e9f = buildXrayChainOutbound(_0x8ac1ac, _0x1ea2bb);
+    } catch (_0x143897) {
+      console.log("An error occured while parsing chain proxy: ", _0x143897);
+      _0xcb8e9f = undefined;
+      await _0x164fc9.bpb.put("proxySettings", JSON.stringify({
+        ..._0x22ac84,
+        'outProxy': '',
+        'outProxyParams': {}
       }));
-      throw new Error(error);
     }
   }
-  let config = structuredClone(singboxConfigTemp);
-  const dnsObject = buildSingBoxDNS(proxySettings, chainProxyOutbound, false);
-  const { rules, rule_set } = buildSingBoxRoutingRules(proxySettings);
-  config.dns.servers = dnsObject.servers;
-  config.dns.rules = dnsObject.rules;
-  if (dnsObject.fakeip)
-    config.dns.fakeip = dnsObject.fakeip;
-  config.route.rules = rules;
-  config.route.rule_set = rule_set;
-  const selector = config.outbounds[0];
-  const urlTest = config.outbounds[1];
-  selector.outbounds = ["\u{1F4A6} Best Ping \u{1F4A5}"];
-  urlTest.interval = `${bestVLESSTrojanInterval}s`;
-  urlTest.tag = "\u{1F4A6} Best Ping \u{1F4A5}";
-  const Addresses = await getConfigAddresses(hostName, cleanIPs, enableIPv6);
-  const customCdnAddresses = customCdnAddrs ? customCdnAddrs.split(",") : [];
-  const totalAddresses = [...Addresses, ...customCdnAddresses];
-  const totalPorts = ports.filter((port) => isFragment ? defaultHttpsPorts.includes(port) : true);
-  let proxyIndex = 1;
-  const protocols = [
-    ...vlessConfigs ? ["VLESS"] : [],
-    ...trojanConfigs ? ["Trojan"] : []
-  ];
-  protocols.forEach((protocol) => {
-    let protocolIndex = 1;
-    totalPorts.forEach((port) => {
-      totalAddresses.forEach((addr) => {
-        let VLESSOutbound, TrojanOutbound;
-        const isCustomAddr = customCdnAddresses.includes(addr);
-        const configType = isCustomAddr ? "C" : isFragment ? "F" : "";
-        const sni = isCustomAddr ? customCdnSni : randomUpperCase(hostName);
-        const host = isCustomAddr ? customCdnHost : hostName;
-        const remark = generateRemark(protocolIndex, port, addr, cleanIPs, protocol, configType);
-        if (protocol === "VLESS") {
-          VLESSOutbound = buildSingBoxVLESSOutbound(
-            proxySettings,
-            chainProxyOutbound ? `proxy-${proxyIndex}` : remark,
-            addr,
-            port,
-            host,
-            sni,
-            isCustomAddr,
-            isFragment
-          );
-          config.outbounds.push(VLESSOutbound);
+  const _0x2d9c22 = await getConfigAddresses(_0x3921ee, _0x1ea2bb);
+  const _0x1a8f92 = _0x23fda8 ? _0x23fda8.split(',') : [];
+  const _0x24b91d = _0x73c9ba ? [..._0x2d9c22] : [..._0x2d9c22, ..._0x1a8f92];
+  const _0x423823 = _0x36ae51.filter(_0x23bf86 => _0x73c9ba ? globalThis.defaultHttpsPorts.includes(_0x23bf86) : true);
+  if (_0x1e6e55) {
+    _0x5422ab.push("VLESS");
+  }
+  if (_0x27b6ad) {
+    _0x5422ab.push("Trojan");
+  }
+  let _0x1904f7 = 0x1;
+  for (const _0x2c818b of _0x5422ab) {
+    let _0x18d179 = 0x1;
+    for (const _0x431d8f of _0x423823) {
+      for (const _0x26abb3 of _0x24b91d) {
+        const _0x5ee146 = _0x1a8f92.includes(_0x26abb3);
+        const _0x294449 = _0x5ee146 ? 'C' : _0x73c9ba ? 'F' : '';
+        const _0x5ecb03 = _0x5ee146 ? _0x3e4cb9 : randomUpperCase(globalThis.hostName);
+        const _0x23383b = _0x5ee146 ? _0x18a6ef : globalThis.hostName;
+        const _0x38b89b = generateRemark(_0x18d179, _0x431d8f, _0x26abb3, _0x3921ee, _0x2c818b, _0x294449);
+        const _0x23ebf1 = buildXrayConfig(_0x22ac84, _0x38b89b, _0x73c9ba, false, _0xcb8e9f, false, false);
+        _0x23ebf1.dns = await buildXrayDNS(_0x22ac84, [_0x26abb3], undefined);
+        _0x23ebf1.routing.rules = buildXrayRoutingRules(_0x22ac84, [_0x26abb3], _0xcb8e9f, false, false, false);
+        const _0x514d13 = _0x2c818b === "VLESS" ? buildXrayVLESSOutbound("proxy", _0x26abb3, _0x431d8f, _0x23383b, _0x5ecb03, _0x329716, _0x73c9ba, _0x5ee146, _0x1ea2bb) : buildXrayTrojanOutbound("proxy", _0x26abb3, _0x431d8f, _0x23383b, _0x5ecb03, _0x329716, _0x73c9ba, _0x5ee146, _0x1ea2bb);
+        _0x23ebf1.outbounds.unshift({
+          ..._0x514d13
+        });
+        _0x514d13.tag = "prox-" + _0x1904f7;
+        if (_0xcb8e9f) {
+          _0x23ebf1.outbounds.unshift(_0xcb8e9f);
+          const _0xd6c2f1 = structuredClone(_0xcb8e9f);
+          _0xd6c2f1.tag = "chain-" + _0x1904f7;
+          _0xd6c2f1.streamSettings.sockopt.dialerProxy = "prox-" + _0x1904f7;
+          _0x5e2367.push(_0xd6c2f1);
         }
-        if (protocol === "Trojan") {
-          TrojanOutbound = buildSingBoxTrojanOutbound(
-            proxySettings,
-            chainProxyOutbound ? `proxy-${proxyIndex}` : remark,
-            addr,
-            port,
-            host,
-            sni,
-            isCustomAddr,
-            isFragment
-          );
-          config.outbounds.push(TrojanOutbound);
+        _0x5e2367.push(_0x514d13);
+        _0x38bff7.push(_0x23ebf1);
+        _0x1904f7++;
+        _0x18d179++;
+      }
+    }
+  }
+  const _0x58580b = await buildXrayBestPingConfig(_0x22ac84, _0x24b91d, _0xcb8e9f, _0x5e2367, _0x73c9ba);
+  const _0x31bd4f = [..._0x38bff7, _0x58580b];
+  if (_0x73c9ba) {
+    const _0x5b8f31 = await buildXrayBestFragmentConfig(_0x22ac84, globalThis.hostName, _0xcb8e9f, _0x5e2367);
+    const _0x42419d = await buildXrayWorkerLessConfig(_0x22ac84);
+    _0x31bd4f.push(_0x5b8f31, _0x42419d);
+  }
+  return new Response(JSON.stringify(_0x31bd4f, null, 0x4), {
+    'status': 0xc8,
+    'headers': {
+      'Content-Type': "text/plain;charset=utf-8",
+      'Cache-Control': "no-store, no-cache, must-revalidate, proxy-revalidate",
+      'CDN-Cache-Control': "no-store"
+    }
+  });
+}
+__defProp(getXrayCustomConfigs, "name", {
+  'value': "getXrayCustomConfigs",
+  'configurable': true
+});
+async function getXrayWarpConfigs(_0x3a1d13, _0x195ef4, _0x57f92d) {
+  const {
+    proxySettings: _0x541994,
+    warpConfigs: _0x146090
+  } = await getDataset(_0x3a1d13, _0x195ef4);
+  const _0x5cec91 = [];
+  const _0x2c420d = [];
+  const _0x4e0f0c = [];
+  const _0x3e3616 = [];
+  const {
+    warpEndpoints: _0x572aa9
+  } = _0x541994;
+  const _0x296605 = _0x572aa9.split(',').map(_0x271915 => _0x271915.split(':')[0x0]).filter(_0x4a024e => isDomain(_0x4a024e));
+  const _0x52d515 = _0x57f92d === "nikang" ? " Pro " : " ";
+  for (const [_0xb96dda, _0x5bf07f] of _0x572aa9.split(',').entries()) {
+    const _0x212edb = _0x5bf07f.split(':')[0x0];
+    const _0x360d5f = buildXrayConfig(_0x541994, "💦 " + (_0xb96dda + 0x1) + " - Warp" + _0x52d515 + "🇮🇷", false, false, false, false, true);
+    const _0x4bfc9f = buildXrayConfig(_0x541994, "💦 " + (_0xb96dda + 0x1) + " - WoW" + _0x52d515 + '🌍', false, false, true, false, true);
+    _0x360d5f.dns = _0x4bfc9f.dns = await buildXrayDNS(_0x541994, [_0x212edb], undefined, false, true);
+    _0x360d5f.routing.rules = buildXrayRoutingRules(_0x541994, [_0x212edb], false, false, false, true);
+    _0x4bfc9f.routing.rules = buildXrayRoutingRules(_0x541994, [_0x212edb], true, false, false, true);
+    const _0x1e1171 = buildXrayWarpOutbound(_0x541994, _0x146090, _0x5bf07f, false, _0x57f92d);
+    const _0x27ea4b = buildXrayWarpOutbound(_0x541994, _0x146090, _0x5bf07f, true, _0x57f92d);
+    _0x360d5f.outbounds.unshift(_0x1e1171);
+    _0x4bfc9f.outbounds.unshift(_0x27ea4b, _0x1e1171);
+    _0x5cec91.push(_0x360d5f);
+    _0x2c420d.push(_0x4bfc9f);
+    const _0xfb04e9 = structuredClone(_0x1e1171);
+    _0xfb04e9.tag = "prox-" + (_0xb96dda + 0x1);
+    const _0x3b043d = structuredClone(_0x27ea4b);
+    _0x3b043d.tag = "chain-" + (_0xb96dda + 0x1);
+    _0x3b043d.streamSettings.sockopt.dialerProxy = "prox-" + (_0xb96dda + 0x1);
+    _0x4e0f0c.push(_0xfb04e9);
+    _0x3e3616.push(_0x3b043d);
+  }
+  const _0x5e51b4 = await buildXrayDNS(_0x541994, _0x296605, undefined, false, true);
+  const _0x58345e = buildXrayConfig(_0x541994, "💦 Warp" + _0x52d515 + "- Best Ping 🚀", false, true, false, false, true);
+  _0x58345e.dns = _0x5e51b4;
+  _0x58345e.routing.rules = buildXrayRoutingRules(_0x541994, _0x296605, false, true, false, true);
+  _0x58345e.outbounds.unshift(..._0x4e0f0c);
+  const _0x104053 = buildXrayConfig(_0x541994, "💦 WoW" + _0x52d515 + "- Best Ping 🚀", false, true, true, false, true);
+  _0x104053.dns = _0x5e51b4;
+  _0x104053.routing.rules = buildXrayRoutingRules(_0x541994, _0x296605, true, true, false, true);
+  _0x104053.outbounds.unshift(..._0x3e3616, ..._0x4e0f0c);
+  const _0x33030e = [..._0x5cec91, ..._0x2c420d, _0x58345e, _0x104053];
+  return new Response(JSON.stringify(_0x33030e, null, 0x4), {
+    'status': 0xc8,
+    'headers': {
+      'Content-Type': "text/plain;charset=utf-8",
+      'Cache-Control': "no-store, no-cache, must-revalidate, proxy-revalidate",
+      'CDN-Cache-Control': "no-store"
+    }
+  });
+}
+__defProp(getXrayWarpConfigs, "name", {
+  'value': "getXrayWarpConfigs",
+  'configurable': true
+});
+var xrayConfigTemp = {
+  'remarks': '',
+  'log': {
+    'loglevel': "warning"
+  },
+  'dns': {},
+  'inbounds': [{
+    'port': 0x2a38,
+    'protocol': "socks",
+    'settings': {
+      'auth': "noauth",
+      'udp': true,
+      'userLevel': 0x8
+    },
+    'sniffing': {
+      'destOverride': ["http", "tls"],
+      'enabled': true,
+      'routeOnly': true
+    },
+    'tag': "socks-in"
+  }, {
+    'port': 0x2a39,
+    'protocol': "http",
+    'settings': {
+      'auth': "noauth",
+      'udp': true,
+      'userLevel': 0x8
+    },
+    'sniffing': {
+      'destOverride': ["http", "tls"],
+      'enabled': true,
+      'routeOnly': true
+    },
+    'tag': "http-in"
+  }, {
+    'listen': "127.0.0.1",
+    'port': 0x2a65,
+    'protocol': "dokodemo-door",
+    'settings': {
+      'address': "1.1.1.1",
+      'network': "tcp,udp",
+      'port': 0x35
+    },
+    'tag': "dns-in"
+  }],
+  'outbounds': [{
+    'tag': "fragment",
+    'protocol': "freedom",
+    'settings': {
+      'fragment': {
+        'packets': "tlshello",
+        'length': '',
+        'interval': ''
+      },
+      'domainStrategy': "UseIP"
+    },
+    'streamSettings': {
+      'sockopt': {
+        'tcpKeepAliveIdle': 0x1e,
+        'tcpNoDelay': true
+      }
+    }
+  }, {
+    'protocol': "dns",
+    'tag': "dns-out"
+  }, {
+    'protocol': "freedom",
+    'settings': {},
+    'tag': "direct"
+  }, {
+    'protocol': "blackhole",
+    'settings': {
+      'response': {
+        'type': "http"
+      }
+    },
+    'tag': "block"
+  }],
+  'policy': {
+    'levels': {
+      0x8: {
+        'connIdle': 0x12c,
+        'downlinkOnly': 0x1,
+        'handshake': 0x4,
+        'uplinkOnly': 0x1
+      }
+    },
+    'system': {
+      'statsOutboundUplink': true,
+      'statsOutboundDownlink': true
+    }
+  },
+  'routing': {
+    'domainStrategy': "IPIfNonMatch",
+    'rules': [],
+    'balancers': [{
+      'tag': "all",
+      'selector': ["prox"],
+      'strategy': {
+        'type': "leastPing"
+      }
+    }]
+  },
+  'observatory': {
+    'probeInterval': "30s",
+    'probeURL': "https://www.gstatic.com/generate_204",
+    'subjectSelector': ["prox"],
+    'EnableConcurrency': true
+  },
+  'stats': {}
+};
+function buildSingBoxDNS(_0x1f5aac, _0x3a2db0, _0x1903b5, _0x301870) {
+  const {
+    remoteDNS: _0x33605f,
+    localDNS: _0x46b96e,
+    vlessTrojanFakeDNS: _0x391b9c,
+    enableIPv6: _0x2eacff,
+    warpFakeDNS: _0x270b97,
+    warpEnableIPv6: _0x1bf474,
+    bypassIran: _0x1851ba,
+    bypassChina: _0x55898c,
+    bypassRussia: _0x3d2696,
+    blockAds: _0x4ff3b2,
+    blockPorn: _0x407649,
+    customBypassRules: _0x282c25,
+    customBlockRules: _0x3631fa
+  } = _0x1f5aac;
+  let _0x3a6b64;
+  const _0x47fab8 = _0x391b9c && !_0x1903b5 || _0x270b97 && _0x1903b5;
+  const _0x2c177a = _0x2eacff && !_0x1903b5 || _0x1bf474 && _0x1903b5;
+  const _0x44f747 = _0x282c25.split(',').filter(_0x2613f2 => isDomain(_0x2613f2));
+  const _0x29fb3a = _0x3631fa.split(',').filter(_0x1950ba => isDomain(_0x1950ba));
+  const _0x1562b1 = [{
+    'rule': _0x1851ba,
+    'type': "direct",
+    'geosite': "geosite-ir",
+    'geoip': "geoip-ir"
+  }, {
+    'rule': _0x55898c,
+    'type': "direct",
+    'geosite': "geosite-cn",
+    'geoip': "geoip-cn"
+  }, {
+    'rule': _0x3d2696,
+    'type': "direct",
+    'geosite': "geosite-category-ru",
+    'geoip': "geoip-ru"
+  }, {
+    'rule': true,
+    'type': "block",
+    'geosite': "geosite-malware"
+  }, {
+    'rule': true,
+    'type': "block",
+    'geosite': "geosite-phishing"
+  }, {
+    'rule': true,
+    'type': "block",
+    'geosite': "geosite-cryptominers"
+  }, {
+    'rule': _0x4ff3b2,
+    'type': "block",
+    'geosite': "geosite-category-ads-all"
+  }, {
+    'rule': _0x407649,
+    'type': "block",
+    'geosite': "geosite-nsfw"
+  }];
+  const _0x38dcbd = [{
+    'address': _0x1903b5 ? "1.1.1.1" : _0x33605f,
+    'address_resolver': "dns-direct",
+    'strategy': _0x2c177a ? "prefer_ipv4" : "ipv4_only",
+    'detour': _0x301870,
+    'tag': "dns-remote"
+  }, {
+    'address': _0x46b96e,
+    'strategy': _0x2c177a ? "prefer_ipv4" : "ipv4_only",
+    'detour': "direct",
+    'tag': "dns-direct"
+  }, {
+    'address': "rcode://success",
+    'tag': "dns-block"
+  }];
+  let _0x10d983;
+  if (_0x1903b5) {
+    _0x10d983 = {
+      'outbound': "any",
+      'server': "dns-direct"
+    };
+  } else {
+    const _0x47f911 = _0x3a2db0.filter(_0x5e684b => isDomain(_0x5e684b));
+    const _0x2885d9 = [...new Set(_0x47f911)];
+    _0x10d983 = {
+      'domain': _0x2885d9,
+      'server': "dns-direct"
+    };
+  }
+  const _0xdb5960 = [_0x10d983, {
+    'clash_mode': "Direct",
+    'server': "dns-direct"
+  }, {
+    'clash_mode': "Global",
+    'server': "dns-remote"
+  }];
+  let _0x4ce25b = {
+    'disable_cache': true,
+    'rule_set': [],
+    'server': "dns-block"
+  };
+  _0x1562b1.forEach(({
+    rule: _0x555c29,
+    type: _0x6af4bc,
+    geosite: _0x186a94,
+    geoip: _0x340bda
+  }) => {
+    if (_0x555c29 && _0x6af4bc === "direct") {
+      _0xdb5960.push({
+        'type': "logical",
+        'mode': "and",
+        'rules': [{
+          'rule_set': _0x186a94
+        }, {
+          'rule_set': _0x340bda
+        }],
+        'server': "dns-direct"
+      });
+    }
+    if (_0x555c29 && _0x6af4bc === "block") {
+      _0x4ce25b.rule_set.push(_0x186a94);
+    }
+  });
+  _0xdb5960.push(_0x4ce25b);
+  const _0x34722b = __defProp(_0x2e6a94 => ({
+    'domain_suffix': [],
+    'server': _0x2e6a94
+  }), "name", {
+    'value': "createRule",
+    'configurable': true
+  });
+  let _0x4b4cfa;
+  let _0x1ee56f;
+  if (_0x44f747.length) {
+    _0x4b4cfa = _0x34722b("dns-direct");
+    _0x44f747.forEach(_0x15488a => {
+      _0x4b4cfa.domain_suffix.push(_0x15488a);
+    });
+    _0xdb5960.push(_0x4b4cfa);
+  }
+  if (_0x29fb3a.length) {
+    _0x1ee56f = _0x34722b("dns-block");
+    _0x29fb3a.forEach(_0x190789 => {
+      _0x1ee56f.domain_suffix.push(_0x190789);
+    });
+    _0xdb5960.push(_0x1ee56f);
+  }
+  if (_0x47fab8) {
+    _0x38dcbd.push({
+      'address': "fakeip",
+      'tag': "dns-fake"
+    });
+    _0xdb5960.push({
+      'disable_cache': true,
+      'inbound': "tun-in",
+      'query_type': ['A', "AAAA"],
+      'server': "dns-fake"
+    });
+    _0x3a6b64 = {
+      'enabled': true,
+      'inet4_range': "198.18.0.0/15"
+    };
+    if (_0x2c177a) {
+      _0x3a6b64.inet6_range = "fc00::/18";
+    }
+  }
+  return {
+    'servers': _0x38dcbd,
+    'rules': _0xdb5960,
+    'fakeip': _0x3a6b64
+  };
+}
+__defProp(buildSingBoxDNS, "name", {
+  'value': "buildSingBoxDNS",
+  'configurable': true
+});
+function buildSingBoxRoutingRules(_0x24a63d) {
+  const {
+    bypassLAN: _0x553e94,
+    bypassIran: _0x35537f,
+    bypassChina: _0x334101,
+    bypassRussia: _0x33c8fc,
+    blockAds: _0x3ebe7c,
+    blockPorn: _0x1eb1aa,
+    blockUDP443: _0x5da831,
+    customBypassRules: _0x528d36,
+    customBlockRules: _0x194605
+  } = _0x24a63d;
+  const _0x5e712e = _0x528d36 ? _0x528d36.split(',') : [];
+  const _0x472395 = _0x194605 ? _0x194605.split(',') : [];
+  const _0x1e30a3 = [{
+    'type': "logical",
+    'mode': 'or',
+    'rules': [{
+      'inbound': "dns-in"
+    }, {
+      'network': "udp",
+      'port': 0x35
+    }],
+    'outbound': "dns-out"
+  }, {
+    'clash_mode': "Direct",
+    'outbound': "direct"
+  }, {
+    'clash_mode': "Global",
+    'outbound': "✅ Selector"
+  }];
+  const _0x7dc0a2 = [{
+    'rule': _0x35537f,
+    'type': "direct",
+    'ruleSet': {
+      'geosite': "geosite-ir",
+      'geoip': "geoip-ir",
+      'geositeURL': "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-ir.srs",
+      'geoipURL': "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geoip-ir.srs"
+    }
+  }, {
+    'rule': _0x334101,
+    'type': "direct",
+    'ruleSet': {
+      'geosite': "geosite-cn",
+      'geoip': "geoip-cn",
+      'geositeURL': "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-cn.srs",
+      'geoipURL': "https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-cn.srs"
+    }
+  }, {
+    'rule': _0x33c8fc,
+    'type': "direct",
+    'ruleSet': {
+      'geosite': "geosite-category-ru",
+      'geoip': "geoip-ru",
+      'geositeURL': "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-category-ru.srs",
+      'geoipURL': "https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-ru.srs"
+    }
+  }, {
+    'rule': true,
+    'type': "block",
+    'ruleSet': {
+      'geosite': "geosite-malware",
+      'geoip': "geoip-malware",
+      'geositeURL': "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-malware.srs",
+      'geoipURL': "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geoip-malware.srs"
+    }
+  }, {
+    'rule': true,
+    'type': "block",
+    'ruleSet': {
+      'geosite': "geosite-phishing",
+      'geoip': "geoip-phishing",
+      'geositeURL': "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-phishing.srs",
+      'geoipURL': "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geoip-phishing.srs"
+    }
+  }, {
+    'rule': true,
+    'type': "block",
+    'ruleSet': {
+      'geosite': "geosite-cryptominers",
+      'geositeURL': "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-cryptominers.srs"
+    }
+  }, {
+    'rule': _0x3ebe7c,
+    'type': "block",
+    'ruleSet': {
+      'geosite': "geosite-category-ads-all",
+      'geositeURL': "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-category-ads-all.srs"
+    }
+  }, {
+    'rule': _0x1eb1aa,
+    'type': "block",
+    'ruleSet': {
+      'geosite': "geosite-nsfw",
+      'geositeURL': "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-nsfw.srs"
+    }
+  }];
+  const _0x3fd40a = [];
+  const _0x598f4f = [];
+  const _0x20585e = [];
+  const _0x4acf54 = [];
+  const _0x54737a = [];
+  if (_0x553e94) {
+    _0x598f4f.push({
+      'ip_is_private': true,
+      'outbound': "direct"
+    });
+  }
+  const _0xabf939 = __defProp((_0x416513, _0x23b6e6) => ({
+    [_0x416513]: [],
+    'outbound': _0x23b6e6
+  }), "name", {
+    'value': "createRule",
+    'configurable': true
+  });
+  const _0x5809c4 = {
+    'type': "remote",
+    'tag': '',
+    'format': "binary",
+    'url': '',
+    'download_detour': "direct"
+  };
+  const _0x310706 = _0xabf939("rule_set", "direct");
+  ;
+  const _0x1b36dd = _0xabf939("rule_set", "direct");
+  ;
+  const _0xf0ccb9 = _0xabf939("rule_set", "block");
+  const _0x5ddc3a = _0xabf939("rule_set", "block");
+  _0x7dc0a2.forEach(({
+    rule: _0x314671,
+    type: _0x5516dc,
+    ruleSet: _0x50a508
+  }) => {
+    if (!_0x314671) {
+      return;
+    }
+    const {
+      geosite: _0x56cdc3,
+      geoip: _0x587450,
+      geositeURL: _0xb1f9d9,
+      geoipURL: _0x1b44c1
+    } = _0x50a508;
+    const _0x1a251d = _0x5516dc === "direct";
+    const _0x35a793 = _0x1a251d ? _0x310706 : _0xf0ccb9;
+    const _0x386d6c = _0x1a251d ? _0x1b36dd : _0x5ddc3a;
+    _0x35a793.rule_set.push(_0x56cdc3);
+    _0x54737a.push({
+      ..._0x5809c4,
+      'tag': _0x56cdc3,
+      'url': _0xb1f9d9
+    });
+    if (_0x587450) {
+      _0x386d6c.rule_set.push(_0x587450);
+      _0x54737a.push({
+        ..._0x5809c4,
+        'tag': _0x587450,
+        'url': _0x1b44c1
+      });
+    }
+  });
+  const _0x4d5c31 = __defProp((_0x3bd978, _0x3ce444) => {
+    if (_0x3bd978.rule_set?.["length"] || _0x3bd978.domain_suffix?.["length"] || _0x3bd978.ip_cidr?.["length"]) {
+      _0x3ce444.push(_0x3bd978);
+    }
+  }, "name", {
+    'value': "pushRuleIfNotEmpty",
+    'configurable': true
+  });
+  _0x4d5c31(_0x310706, _0x3fd40a);
+  _0x4d5c31(_0x1b36dd, _0x598f4f);
+  _0x4d5c31(_0xf0ccb9, _0x20585e);
+  _0x4d5c31(_0x5ddc3a, _0x4acf54);
+  const _0x2e36be = __defProp((_0x308376, _0x1b8f73) => {
+    const _0x598ef7 = _0xabf939("domain_suffix", _0x1b8f73);
+    const _0x52b695 = _0xabf939("ip_cidr", _0x1b8f73);
+    _0x308376.forEach(_0x2323a0 => {
+      if (isDomain(_0x2323a0)) {
+        _0x598ef7.domain_suffix.push(_0x2323a0);
+      } else {
+        const _0x53a412 = isIPv6(_0x2323a0) ? _0x2323a0.replace(/\[|\]/g, '') : _0x2323a0;
+        _0x52b695.ip_cidr.push(_0x53a412);
+      }
+    });
+    _0x4d5c31(_0x598ef7, _0x1b8f73 === "direct" ? _0x3fd40a : _0x20585e);
+    _0x4d5c31(_0x52b695, _0x1b8f73 === "direct" ? _0x598f4f : _0x4acf54);
+  }, "name", {
+    'value': "processRules",
+    'configurable': true
+  });
+  if (_0x5e712e.length) {
+    _0x2e36be(_0x5e712e, "direct");
+  }
+  if (_0x472395.length) {
+    _0x2e36be(_0x472395, "block");
+  }
+  const _0x56e1a9 = [..._0x1e30a3, ..._0x3fd40a, ..._0x598f4f, ..._0x20585e, ..._0x4acf54];
+  if (_0x5da831) {
+    _0x56e1a9.push({
+      'network': "udp",
+      'port': 0x1bb,
+      'protocol': "quic",
+      'outbound': "block"
+    });
+  }
+  return {
+    'rules': _0x56e1a9,
+    'rule_set': _0x54737a
+  };
+}
+__defProp(buildSingBoxRoutingRules, "name", {
+  'value': "buildSingBoxRoutingRules",
+  'configurable': true
+});
+function buildSingBoxVLESSOutbound(_0x21c3f4, _0xf52168, _0x5342d1, _0xff2607, _0x39eb69, _0x178266, _0x299052, _0x140296) {
+  const {
+    enableIPv6: _0x261c2b,
+    lengthMin: _0x3d2cee,
+    lengthMax: _0x583041,
+    intervalMin: _0x259f25,
+    intervalMax: _0x526786,
+    proxyIP: _0x2ab34b
+  } = _0x21c3f4;
+  const _0xe25458 = '/' + getRandomPath(0x10) + (_0x2ab34b ? '/' + btoa(_0x2ab34b) : '');
+  const _0x303f6b = !!globalThis.defaultHttpsPorts.includes(_0xff2607);
+  const _0x477e7a = {
+    'type': "vless",
+    'server': _0x5342d1,
+    'server_port': +_0xff2607,
+    'domain_strategy': _0x261c2b ? "prefer_ipv4" : "ipv4_only",
+    'uuid': globalThis.userID,
+    'tls': {
+      'alpn': "http/1.1",
+      'enabled': true,
+      'insecure': _0x299052,
+      'server_name': _0x178266,
+      'utls': {
+        'enabled': true,
+        'fingerprint': "randomized"
+      }
+    },
+    'transport': {
+      'early_data_header_name': "Sec-WebSocket-Protocol",
+      'max_early_data': 0xa00,
+      'headers': {
+        'Host': _0x39eb69
+      },
+      'path': _0xe25458,
+      'type': 'ws'
+    },
+    'tag': _0xf52168
+  };
+  if (!_0x303f6b) {
+    delete _0x477e7a.tls;
+  }
+  if (_0x140296) {
+    _0x477e7a.tls_fragment = {
+      'enabled': true,
+      'size': _0x3d2cee + '-' + _0x583041,
+      'sleep': _0x259f25 + '-' + _0x526786
+    };
+  }
+  return _0x477e7a;
+}
+__defProp(buildSingBoxVLESSOutbound, "name", {
+  'value': "buildSingBoxVLESSOutbound",
+  'configurable': true
+});
+function buildSingBoxTrojanOutbound(_0x451b46, _0x323e10, _0x2f7d0a, _0x51cfef, _0x411152, _0x3b76bc, _0x1edcd7, _0x3afe95) {
+  const {
+    enableIPv6: _0x27418d,
+    lengthMin: _0x5ab9e8,
+    lengthMax: _0x2874c2,
+    intervalMin: _0x18a91c,
+    intervalMax: _0x4de54e,
+    proxyIP: _0x151e7a
+  } = _0x451b46;
+  const _0x4e5a08 = "/tr" + getRandomPath(0x10) + (_0x151e7a ? '/' + btoa(_0x151e7a) : '');
+  const _0x35d588 = !!globalThis.defaultHttpsPorts.includes(_0x51cfef);
+  const _0x19baed = {
+    'type': "trojan",
+    'password': globalThis.trojanPassword,
+    'server': _0x2f7d0a,
+    'server_port': +_0x51cfef,
+    'domain_strategy': _0x27418d ? "prefer_ipv4" : "ipv4_only",
+    'tls': {
+      'alpn': "http/1.1",
+      'enabled': true,
+      'insecure': _0x1edcd7,
+      'server_name': _0x3b76bc,
+      'utls': {
+        'enabled': true,
+        'fingerprint': "randomized"
+      }
+    },
+    'transport': {
+      'early_data_header_name': "Sec-WebSocket-Protocol",
+      'max_early_data': 0xa00,
+      'headers': {
+        'Host': _0x411152
+      },
+      'path': _0x4e5a08,
+      'type': 'ws'
+    },
+    'tag': _0x323e10
+  };
+  if (!_0x35d588) {
+    delete _0x19baed.tls;
+  }
+  if (_0x3afe95) {
+    _0x19baed.tls_fragment = {
+      'enabled': true,
+      'size': _0x5ab9e8 + '-' + _0x2874c2,
+      'sleep': _0x18a91c + '-' + _0x4de54e
+    };
+  }
+  return _0x19baed;
+}
+__defProp(buildSingBoxTrojanOutbound, "name", {
+  'value': "buildSingBoxTrojanOutbound",
+  'configurable': true
+});
+function buildSingBoxWarpOutbound(_0x56874c, _0x2fd8fe, _0x1097f6, _0x28810d, _0xc22096, _0x41cb21) {
+  const _0x2b0aa6 = /\[(.*?)\]/;
+  const _0x363c08 = /[^:]*$/;
+  const _0x55ff20 = _0x28810d.includes('[') ? _0x28810d.match(_0x2b0aa6)[0x1] : _0x28810d.split(':')[0x0];
+  const _0xe59592 = _0x28810d.includes('[') ? +_0x28810d.match(_0x363c08)[0x0] : +_0x28810d.split(':')[0x1];
+  const {
+    warpEnableIPv6: _0x49a158,
+    hiddifyNoiseMode: _0x4a7ea9,
+    noiseCountMin: _0x31e812,
+    noiseCountMax: _0x2de331,
+    noiseSizeMin: _0x19e1ac,
+    noiseSizeMax: _0x6c1423,
+    noiseDelayMin: _0x329ca7,
+    noiseDelayMax: _0x2ab876
+  } = _0x56874c;
+  const {
+    warpIPv6: _0xfa322e,
+    reserved: _0x1d3351,
+    publicKey: _0xa56ba8,
+    privateKey: _0x5d4fb1
+  } = extractWireguardParams(_0x2fd8fe, _0xc22096);
+  const _0x5c30d3 = {
+    'local_address': ["172.16.0.2/32", _0xfa322e],
+    'mtu': 0x500,
+    'peer_public_key': _0xa56ba8,
+    'private_key': _0x5d4fb1,
+    'reserved': _0x1d3351,
+    'server': _0x55ff20,
+    'server_port': _0xe59592,
+    'domain_strategy': _0x49a158 ? "prefer_ipv4" : "ipv4_only",
+    'type': "wireguard",
+    'detour': _0xc22096,
+    'tag': _0x1097f6
+  };
+  if (_0x41cb21 === "hiddify") {
+    Object.assign(_0x5c30d3, {
+      'fake_packets_mode': _0x4a7ea9,
+      'fake_packets': _0x31e812 === _0x2de331 ? _0x31e812 : _0x31e812 + '-' + _0x2de331,
+      'fake_packets_size': _0x19e1ac === _0x6c1423 ? _0x19e1ac : _0x19e1ac + '-' + _0x6c1423,
+      'fake_packets_delay': _0x329ca7 === _0x2ab876 ? _0x329ca7 : _0x329ca7 + '-' + _0x2ab876
+    });
+  }
+  return _0x5c30d3;
+}
+__defProp(buildSingBoxWarpOutbound, "name", {
+  'value': "buildSingBoxWarpOutbound",
+  'configurable': true
+});
+function buildSingBoxChainOutbound(_0x322169, _0x4f95c6) {
+  if (["socks", "http"].includes(_0x322169.protocol)) {
+    const {
+      protocol: _0x582abb,
+      server: _0x1b70ef,
+      port: _0x398078,
+      user: _0x4a5c13,
+      pass: _0x4dd34b
+    } = _0x322169;
+    const _0x3d85fb = {
+      'type': _0x582abb,
+      'tag': '',
+      'server': _0x1b70ef,
+      'server_port': +_0x398078,
+      'username': _0x4a5c13,
+      'password': _0x4dd34b,
+      'detour': ''
+    };
+    if (_0x582abb === "socks") {
+      _0x3d85fb.version = '5';
+    }
+    return _0x3d85fb;
+  }
+  const {
+    server: _0x2b2ce7,
+    port: _0x5f473d,
+    uuid: _0x402c97,
+    flow: _0x24c9bd,
+    security: _0x4e63ea,
+    type: _0x3c7856,
+    sni: _0x19c8c5,
+    fp: _0x3ccbd6,
+    alpn: _0x43c618,
+    pbk: _0x529793,
+    sid: _0x198863,
+    headerType: _0x242da8,
+    host: _0x2b72c8,
+    path: _0x34c831,
+    serviceName: _0x20cbba
+  } = _0x322169;
+  const _0x2c796c = {
+    'type': "vless",
+    'tag': '',
+    'server': _0x2b2ce7,
+    'server_port': +_0x5f473d,
+    'domain_strategy': _0x4f95c6 ? "prefer_ipv4" : "ipv4_only",
+    'uuid': _0x402c97,
+    'flow': _0x24c9bd,
+    'detour': ''
+  };
+  if (_0x4e63ea === "tls" || _0x4e63ea === "reality") {
+    const _0x56883e = _0x43c618 ? _0x43c618?.["split"](',')["filter"](_0x2419e6 => _0x2419e6 !== 'h2') : [];
+    _0x2c796c.tls = {
+      'enabled': true,
+      'server_name': _0x19c8c5,
+      'insecure': false,
+      'alpn': _0x56883e,
+      'utls': {
+        'enabled': true,
+        'fingerprint': _0x3ccbd6
+      }
+    };
+    if (_0x4e63ea === "reality") {
+      _0x2c796c.tls.reality = {
+        'enabled': true,
+        'public_key': _0x529793,
+        'short_id': _0x198863
+      };
+      delete _0x2c796c.tls.alpn;
+    }
+  }
+  if (_0x242da8 === "http") {
+    const _0x40febc = _0x2b72c8?.["split"](',');
+    _0x2c796c.transport = {
+      'type': "http",
+      'host': _0x40febc,
+      'path': _0x34c831,
+      'method': "GET",
+      'headers': {
+        'Connection': ["keep-alive"],
+        'Content-Type': ["application/octet-stream"]
+      }
+    };
+  }
+  if (_0x3c7856 === 'ws') {
+    const _0x290df0 = _0x34c831?.["split"]("?ed=")[0x0];
+    const _0xa576af = +_0x34c831?.["split"]("?ed=")[0x1] || 0x0;
+    _0x2c796c.transport = {
+      'type': 'ws',
+      'path': _0x290df0,
+      'headers': {
+        'Host': _0x2b72c8
+      },
+      'max_early_data': _0xa576af,
+      'early_data_header_name': "Sec-WebSocket-Protocol"
+    };
+  }
+  if (_0x3c7856 === "grpc") {
+    _0x2c796c.transport = {
+      'type': "grpc",
+      'service_name': _0x20cbba
+    };
+  }
+  return _0x2c796c;
+}
+__defProp(buildSingBoxChainOutbound, "name", {
+  'value': "buildSingBoxChainOutbound",
+  'configurable': true
+});
+async function getSingBoxWarpConfig(_0x1f386c, _0x42956d, _0xc51c07) {
+  const {
+    proxySettings: _0x2e32b0,
+    warpConfigs: _0x1603fd
+  } = await getDataset(_0x1f386c, _0x42956d);
+  const {
+    warpEndpoints: _0x507089
+  } = _0x2e32b0;
+  const _0x10f228 = structuredClone(singboxConfigTemp);
+  const _0x194415 = _0xc51c07 === "hiddify" ? " Pro " : " ";
+  const _0x4d2caf = buildSingBoxDNS(_0x2e32b0, undefined, true, "💦 Warp" + _0x194415 + "- Best Ping 🚀");
+  const {
+    rules: _0x157362,
+    rule_set: _0x326951
+  } = buildSingBoxRoutingRules(_0x2e32b0);
+  _0x10f228.dns.servers = _0x4d2caf.servers;
+  _0x10f228.dns.rules = _0x4d2caf.rules;
+  if (_0x4d2caf.fakeip) {
+    _0x10f228.dns.fakeip = _0x4d2caf.fakeip;
+  }
+  _0x10f228.route.rules = _0x157362;
+  _0x10f228.route.rule_set = _0x326951;
+  const _0x38ce52 = _0x10f228.outbounds[0x0];
+  const _0x42d7e3 = _0x10f228.outbounds[0x1];
+  _0x38ce52.outbounds = ["💦 Warp" + _0x194415 + "- Best Ping 🚀", "💦 WoW" + _0x194415 + "- Best Ping 🚀"];
+  _0x10f228.outbounds.splice(0x2, 0x0, structuredClone(_0x42d7e3));
+  const _0xcb44eb = _0x10f228.outbounds[0x2];
+  _0x42d7e3.tag = "💦 Warp" + _0x194415 + "- Best Ping 🚀";
+  _0x42d7e3.interval = _0x2e32b0.bestWarpInterval + 's';
+  _0xcb44eb.tag = "💦 WoW" + _0x194415 + "- Best Ping 🚀";
+  _0xcb44eb.interval = _0x2e32b0.bestWarpInterval + 's';
+  const _0x57bdf3 = [];
+  const _0x1b5ca8 = [];
+  _0x507089.split(',').forEach((_0x7a8b3, _0x12f41a) => {
+    const _0x1f6184 = "💦 " + (_0x12f41a + 0x1) + " - Warp 🇮🇷";
+    const _0x2388f4 = "💦 " + (_0x12f41a + 0x1) + " - WoW 🌍";
+    const _0xf7fab7 = buildSingBoxWarpOutbound(_0x2e32b0, _0x1603fd, _0x1f6184, _0x7a8b3, '', _0xc51c07);
+    const _0x4af2ba = buildSingBoxWarpOutbound(_0x2e32b0, _0x1603fd, _0x2388f4, _0x7a8b3, _0x1f6184, _0xc51c07);
+    _0x10f228.outbounds.push(_0x4af2ba, _0xf7fab7);
+    _0x57bdf3.push(_0x1f6184);
+    _0x1b5ca8.push(_0x2388f4);
+    _0x42d7e3.outbounds.push(_0x1f6184);
+    _0xcb44eb.outbounds.push(_0x2388f4);
+  });
+  _0x38ce52.outbounds.push(..._0x57bdf3, ..._0x1b5ca8);
+  return new Response(JSON.stringify(_0x10f228, null, 0x4), {
+    'status': 0xc8,
+    'headers': {
+      'Content-Type': "text/plain;charset=utf-8",
+      'Cache-Control': "no-store, no-cache, must-revalidate, proxy-revalidate",
+      'CDN-Cache-Control': "no-store"
+    }
+  });
+}
+__defProp(getSingBoxWarpConfig, "name", {
+  'value': "getSingBoxWarpConfig",
+  'configurable': true
+});
+async function getSingBoxCustomConfig(_0x7b02a6, _0x570fda, _0x1685bb) {
+  const {
+    proxySettings: _0x288450
+  } = await getDataset(_0x7b02a6, _0x570fda);
+  let _0x22fc7a;
+  const {
+    cleanIPs: _0x3f0169,
+    ports: _0x4661a1,
+    vlessConfigs: _0x54bebb,
+    trojanConfigs: _0x65bbb9,
+    outProxy: _0x5b554a,
+    outProxyParams: _0x1765b0,
+    customCdnAddrs: _0x198418,
+    customCdnHost: _0x4e70be,
+    customCdnSni: _0x2dd0b8,
+    bestVLESSTrojanInterval: _0x43b6ae,
+    enableIPv6: _0x3d2ff8
+  } = _0x288450;
+  if (_0x5b554a) {
+    const _0x15b2a0 = JSON.parse(_0x1765b0);
+    try {
+      _0x22fc7a = buildSingBoxChainOutbound(_0x15b2a0, _0x3d2ff8);
+    } catch (_0x43bdd9) {
+      console.log("An error occured while parsing chain proxy: ", _0x43bdd9);
+      _0x22fc7a = undefined;
+      await _0x570fda.bpb.put("proxySettings", JSON.stringify({
+        ..._0x288450,
+        'outProxy': '',
+        'outProxyParams': {}
+      }));
+    }
+  }
+  const _0x3fbb05 = await getConfigAddresses(_0x3f0169, _0x3d2ff8);
+  const _0x49cdf8 = _0x198418 ? _0x198418.split(',') : [];
+  const _0x482018 = [..._0x3fbb05, ..._0x49cdf8];
+  const _0x182817 = structuredClone(singboxConfigTemp);
+  const _0x401934 = buildSingBoxDNS(_0x288450, _0x482018, false, _0x22fc7a ? "proxy-1" : "✅ Selector");
+  const {
+    rules: _0x4240cb,
+    rule_set: _0x2c2e95
+  } = buildSingBoxRoutingRules(_0x288450);
+  _0x182817.dns.servers = _0x401934.servers;
+  _0x182817.dns.rules = _0x401934.rules;
+  if (_0x401934.fakeip) {
+    _0x182817.dns.fakeip = _0x401934.fakeip;
+  }
+  _0x182817.route.rules = _0x4240cb;
+  _0x182817.route.rule_set = _0x2c2e95;
+  const _0x266bb6 = _0x182817.outbounds[0x0];
+  const _0x1eb1d0 = _0x182817.outbounds[0x1];
+  _0x266bb6.outbounds = ["💦 Best Ping 💥"];
+  _0x1eb1d0.interval = _0x43b6ae + 's';
+  _0x1eb1d0.tag = "💦 Best Ping 💥";
+  const _0x16eaa9 = _0x4661a1.filter(_0x4dcfc0 => _0x1685bb ? globalThis.defaultHttpsPorts.includes(_0x4dcfc0) : true);
+  let _0x32802d = 0x1;
+  const _0x2fe90a = [...(_0x54bebb ? ["VLESS"] : []), ...(_0x65bbb9 ? ["Trojan"] : [])];
+  _0x2fe90a.forEach(_0x4d54a1 => {
+    let _0x2b0648 = 0x1;
+    _0x16eaa9.forEach(_0x24e628 => {
+      _0x482018.forEach(_0x5ea369 => {
+        let _0x419f09;
+        let _0x1533ae;
+        const _0x64bef2 = _0x49cdf8.includes(_0x5ea369);
+        const _0x44a9c4 = _0x64bef2 ? 'C' : _0x1685bb ? 'F' : '';
+        const _0x24fea0 = _0x64bef2 ? _0x2dd0b8 : randomUpperCase(globalThis.hostName);
+        const _0x4b00f8 = _0x64bef2 ? _0x4e70be : globalThis.hostName;
+        const _0x669cbc = generateRemark(_0x2b0648, _0x24e628, _0x5ea369, _0x3f0169, _0x4d54a1, _0x44a9c4);
+        if (_0x4d54a1 === "VLESS") {
+          _0x419f09 = buildSingBoxVLESSOutbound(_0x288450, _0x22fc7a ? "proxy-" + _0x32802d : _0x669cbc, _0x5ea369, _0x24e628, _0x4b00f8, _0x24fea0, _0x64bef2, _0x1685bb);
+          _0x182817.outbounds.push(_0x419f09);
         }
-        if (chainProxyOutbound) {
-          let chain = structuredClone(chainProxyOutbound);
-          chain.tag = remark;
-          chain.detour = `proxy-${proxyIndex}`;
-          config.outbounds.push(chain);
+        if (_0x4d54a1 === "Trojan") {
+          _0x1533ae = buildSingBoxTrojanOutbound(_0x288450, _0x22fc7a ? "proxy-" + _0x32802d : _0x669cbc, _0x5ea369, _0x24e628, _0x4b00f8, _0x24fea0, _0x64bef2, _0x1685bb);
+          _0x182817.outbounds.push(_0x1533ae);
         }
-        selector.outbounds.push(remark);
-        urlTest.outbounds.push(remark);
-        proxyIndex++;
-        protocolIndex++;
+        if (_0x22fc7a) {
+          const _0x2ec4ef = structuredClone(_0x22fc7a);
+          _0x2ec4ef.tag = _0x669cbc;
+          _0x2ec4ef.detour = "proxy-" + _0x32802d;
+          _0x182817.outbounds.push(_0x2ec4ef);
+        }
+        _0x266bb6.outbounds.push(_0x669cbc);
+        _0x1eb1d0.outbounds.push(_0x669cbc);
+        _0x32802d++;
+        _0x2b0648++;
       });
     });
   });
-  return config;
+  return new Response(JSON.stringify(_0x182817, null, 0x4), {
+    'status': 0xc8,
+    'headers': {
+      'Content-Type': "text/plain;charset=utf-8",
+      'Cache-Control': "no-store, no-cache, must-revalidate, proxy-revalidate",
+      'CDN-Cache-Control': "no-store"
+    }
+  });
 }
-async function getNormalConfigs(proxySettings, hostName, client) {
+__defProp(getSingBoxCustomConfig, "name", {
+  'value': "getSingBoxCustomConfig",
+  'configurable': true
+});
+var singboxConfigTemp = {
+  'log': {
+    'level': "warn",
+    'timestamp': true
+  },
+  'dns': {
+    'servers': [],
+    'rules': [],
+    'independent_cache': true
+  },
+  'inbounds': [{
+    'type': "direct",
+    'tag': "dns-in",
+    'listen': "0.0.0.0",
+    'listen_port': 0x1932,
+    'override_address': "1.1.1.1",
+    'override_port': 0x35
+  }, {
+    'type': "tun",
+    'tag': "tun-in",
+    'address': ["172.18.0.1/28", "fdfe:dcba:9876::1/126"],
+    'mtu': 0x2328,
+    'auto_route': true,
+    'strict_route': true,
+    'stack': "mixed",
+    'endpoint_independent_nat': true,
+    'sniff': true,
+    'sniff_override_destination': true
+  }, {
+    'type': "mixed",
+    'tag': "mixed-in",
+    'listen': "0.0.0.0",
+    'listen_port': 0x820,
+    'sniff': true,
+    'sniff_override_destination': false
+  }],
+  'outbounds': [{
+    'type': "selector",
+    'tag': "✅ Selector",
+    'outbounds': []
+  }, {
+    'type': "urltest",
+    'tag': '',
+    'outbounds': [],
+    'url': "https://www.gstatic.com/generate_204",
+    'interval': ''
+  }, {
+    'type': "direct",
+    'tag': "direct"
+  }, {
+    'type': "block",
+    'tag': "block"
+  }, {
+    'type': "dns",
+    'tag': "dns-out"
+  }],
+  'route': {
+    'rules': [],
+    'rule_set': [],
+    'auto_detect_interface': true,
+    'override_android_vpn': true,
+    'final': "✅ Selector"
+  },
+  'ntp': {
+    'enabled': true,
+    'server': "time.apple.com",
+    'server_port': 0x7b,
+    'detour': "direct",
+    'interval': "30m"
+  },
+  'experimental': {
+    'cache_file': {
+      'enabled': true,
+      'store_fakeip': true
+    },
+    'clash_api': {
+      'external_controller': "127.0.0.1:9090",
+      'external_ui': 'ui',
+      'external_ui_download_url': "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip",
+      'external_ui_download_detour': "direct",
+      'default_mode': "Rule"
+    }
+  }
+};
+async function buildClashDNS(_0xf59933, _0x585b4f, _0x253aeb) {
   const {
-    cleanIPs,
-    proxyIP: proxyIP2,
-    ports,
-    vlessConfigs,
-    trojanConfigs,
-    outProxy,
-    customCdnAddrs,
-    customCdnHost,
-    customCdnSni,
-    enableIPv6
-  } = proxySettings;
-  let vlessConfs = "", trojanConfs = "", chainProxy = "";
-  let proxyIndex = 1;
-  const Addresses = await getConfigAddresses(hostName, cleanIPs, enableIPv6);
-  const customCdnAddresses = customCdnAddrs ? customCdnAddrs.split(",") : [];
-  const totalAddresses = [...Addresses, ...customCdnAddresses];
-  const alpn = client === "singbox" ? "http/1.1" : "h2,http/1.1";
-  const trojanPass = encodeURIComponent(trojanPassword);
-  const earlyData = client === "singbox" ? "&eh=Sec-WebSocket-Protocol&ed=2560" : encodeURIComponent("?ed=2560");
-  ports.forEach((port) => {
-    totalAddresses.forEach((addr, index) => {
-      const isCustomAddr = index > Addresses.length - 1;
-      const configType = isCustomAddr ? "C" : "";
-      const sni = isCustomAddr ? customCdnSni : randomUpperCase(hostName);
-      const host = isCustomAddr ? customCdnHost : hostName;
-      const path = `${getRandomPath(16)}${proxyIP2 ? `/${encodeURIComponent(btoa(proxyIP2))}` : ""}${earlyData}`;
-      const vlessRemark = encodeURIComponent(generateRemark(proxyIndex, port, addr, cleanIPs, "VLESS", configType));
-      const trojanRemark = encodeURIComponent(generateRemark(proxyIndex, port, addr, cleanIPs, "Trojan", configType));
-      const tlsFields = defaultHttpsPorts.includes(port) ? `&security=tls&sni=${sni}&fp=randomized&alpn=${alpn}` : "&security=none";
-      if (vlessConfigs) {
-        vlessConfs += `${atob("dmxlc3M")}://${userID}@${addr}:${port}?path=/${path}&encryption=none&host=${host}&type=ws${tlsFields}#${vlessRemark}
-`;
+    remoteDNS: _0x1c4783,
+    localDNS: _0x237286,
+    vlessTrojanFakeDNS: _0xb36960,
+    outProxyParams: _0x420e17,
+    enableIPv6: _0x2c3cd4,
+    warpFakeDNS: _0x5d3eed,
+    warpEnableIPv6: _0x5bb257,
+    bypassIran: _0x13931e,
+    bypassChina: _0x127d9f,
+    bypassRussia: _0x4f99bb,
+    customBypassRules: _0x47932d,
+    customBlockRules: _0x4b38e8
+  } = _0xf59933;
+  const _0xec593d = _0x5bb257 ? ["1.1.1.1", "1.0.0.1", "[2606:4700:4700::1111]", "[2606:4700:4700::1001]"] : ["1.1.1.1", "1.0.0.1"];
+  const _0x3896fd = _0xb36960 && !_0x253aeb || _0x5d3eed && _0x253aeb;
+  const _0x3e5371 = _0x2c3cd4 && !_0x253aeb || _0x5bb257 && _0x253aeb;
+  const _0x374be8 = _0x47932d.split(',').filter(_0x14efb4 => isDomain(_0x14efb4));
+  const _0x4b6ab8 = _0x13931e || _0x127d9f || _0x4f99bb;
+  const _0x32c5b3 = [{
+    'rule': _0x13931e,
+    'geosite': 'ir'
+  }, {
+    'rule': _0x127d9f,
+    'geosite': 'cn'
+  }, {
+    'rule': _0x4f99bb,
+    'geosite': 'ru'
+  }];
+  const _0x23af3e = {
+    'enable': true,
+    'listen': "0.0.0.0:1053",
+    'ipv6': _0x3e5371,
+    'respect-rules': true,
+    'use-hosts': true,
+    'use-system-hosts': false,
+    'nameserver': _0x253aeb ? _0xec593d.map(_0x425dde => _0x585b4f ? _0x425dde + "#💦 Warp - Best Ping 🚀" : _0x425dde + "#✅ Selector") : [_0x585b4f ? _0x1c4783 + "#proxy-1" : _0x1c4783 + "#✅ Selector"],
+    'proxy-server-nameserver': [_0x237286 + "#DIRECT"]
+  };
+  if (_0x585b4f && !_0x253aeb) {
+    const _0x14200b = JSON.parse(_0x420e17).server;
+    if (isDomain(_0x14200b)) {
+      _0x23af3e["nameserver-policy"] = {
+        [_0x14200b]: _0x585b4f ? _0x1c4783 + "#proxy-1" : _0x1c4783 + "#✅ Selector"
+      };
+    }
+  }
+  if (_0x4b6ab8) {
+    const _0x4d475e = [];
+    _0x32c5b3.forEach(({
+      rule: _0x3e7153,
+      geosite: _0x15be49
+    }) => {
+      if (_0x3e7153) {
+        _0x4d475e.push(_0x15be49);
       }
-      if (trojanConfigs) {
-        trojanConfs += `${atob("dHJvamFu")}://${trojanPass}@${addr}:${port}?path=/tr${path}&host=${host}&type=ws${tlsFields}#${trojanRemark}
-`;
+    });
+    _0x23af3e["nameserver-policy"] = {
+      ..._0x23af3e["nameserver-policy"],
+      ["rule-set:" + _0x4d475e.join(',')]: [_0x237286 + "#DIRECT"]
+    };
+  }
+  _0x374be8.forEach(_0xc259b6 => {
+    _0x23af3e["nameserver-policy"] = {
+      ..._0x23af3e["nameserver-policy"],
+      ['+.' + _0xc259b6]: [_0x237286 + "#DIRECT"]
+    };
+  });
+  if (_0x3896fd) {
+    Object.assign(_0x23af3e, {
+      'enhanced-mode': "fake-ip",
+      'fake-ip-range': "198.18.0.1/16",
+      'fake-ip-filter': ["geosite:private"]
+    });
+  }
+  return _0x23af3e;
+}
+__defProp(buildClashDNS, "name", {
+  'value': "buildClashDNS",
+  'configurable': true
+});
+function buildClashRoutingRules(_0x19b38f) {
+  const {
+    bypassLAN: _0x2de592,
+    bypassIran: _0x51d3be,
+    bypassChina: _0x58ba21,
+    bypassRussia: _0x3ccde9,
+    blockAds: _0x55a5fd,
+    blockPorn: _0x22e151,
+    blockUDP443: _0x263a9a,
+    customBypassRules: _0x2e01a4,
+    customBlockRules: _0x5ad02f
+  } = _0x19b38f;
+  const _0x4b2033 = _0x2e01a4 ? _0x2e01a4.split(',') : [];
+  const _0x15b607 = _0x5ad02f ? _0x5ad02f.split(',') : [];
+  const _0x262071 = [{
+    'rule': _0x2de592,
+    'type': "direct",
+    'noResolve': true,
+    'ruleProvider': {
+      'format': "yaml",
+      'geosite': "private",
+      'geoip': "private-cidr",
+      'geositeURL': "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/private.yaml",
+      'geoipURL': "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/private.yaml"
+    }
+  }, {
+    'rule': _0x51d3be,
+    'type': "direct",
+    'ruleProvider': {
+      'format': "text",
+      'geosite': 'ir',
+      'geoip': "ir-cidr",
+      'geositeURL': "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/ir.txt",
+      'geoipURL': "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/ircidr.txt"
+    }
+  }, {
+    'rule': _0x58ba21,
+    'type': "direct",
+    'ruleProvider': {
+      'format': "yaml",
+      'geosite': 'cn',
+      'geoip': "cn-cidr",
+      'geositeURL': "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/cn.yaml",
+      'geoipURL': "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/cn.yaml"
+    }
+  }, {
+    'rule': _0x3ccde9,
+    'type': "direct",
+    'ruleProvider': {
+      'format': "yaml",
+      'geosite': 'ru',
+      'geoip': "ru-cidr",
+      'geositeURL': "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ru.yaml",
+      'geoipURL': "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/ru.yaml"
+    }
+  }, {
+    'rule': true,
+    'type': "block",
+    'ruleProvider': {
+      'format': "text",
+      'geosite': "malware",
+      'geositeURL': "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/malware.txt"
+    }
+  }, {
+    'rule': true,
+    'type': "block",
+    'ruleProvider': {
+      'format': "text",
+      'geosite': "phishing",
+      'geositeURL': "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/phishing.txt"
+    }
+  }, {
+    'rule': true,
+    'type': "block",
+    'ruleProvider': {
+      'format': "text",
+      'geosite': "cryptominers",
+      'geositeURL': "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/cryptominers.txt"
+    }
+  }, {
+    'rule': _0x55a5fd,
+    'type': "block",
+    'ruleProvider': {
+      'format': "text",
+      'geosite': "ads",
+      'geositeURL': "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/ads.txt"
+    }
+  }, {
+    'rule': _0x22e151,
+    'type': "block",
+    'ruleProvider': {
+      'format': "text",
+      'geosite': "nsfw",
+      'geositeURL': "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/nsfw.txt"
+    }
+  }];
+  function _0x39d356(_0x2787fe, _0x401b87, _0xc2b06e, _0x323bce) {
+    const _0xde4100 = _0x401b87 === "text" ? "txt" : _0x401b87;
+    return {
+      [_0x2787fe]: {
+        'type': "http",
+        'format': _0x401b87,
+        'behavior': _0xc2b06e,
+        'url': _0x323bce,
+        'path': "./ruleset/" + _0x2787fe + '.' + _0xde4100,
+        'interval': 0x15180
       }
-      proxyIndex++;
+    };
+  }
+  __defProp(_0x39d356, "name", {
+    'value': "buildRuleProvider",
+    'configurable': true
+  });
+  const _0x202fac = [];
+  const _0x29c93c = [];
+  const _0x2975b3 = [];
+  const _0xe8af75 = [];
+  const _0x295531 = {};
+  _0x262071.forEach(({
+    rule: _0x5c6f3e,
+    type: _0x5a5ca5,
+    ruleProvider: _0x4cde3c,
+    noResolve: _0x33de4b
+  }) => {
+    const {
+      geosite: _0x10388d,
+      geoip: _0x3d477c,
+      geositeURL: _0x465202,
+      geoipURL: _0xb3cc13,
+      format: _0x4d3e4c
+    } = _0x4cde3c;
+    if (_0x5c6f3e) {
+      if (_0x10388d) {
+        const _0x3a053c = _0x5a5ca5 === "direct" ? _0x202fac : _0x2975b3;
+        _0x3a053c.push("RULE-SET," + _0x10388d + ',' + (_0x5a5ca5 === "direct" ? "DIRECT" : "REJECT"));
+        const _0x22de62 = _0x39d356(_0x10388d, _0x4d3e4c, "domain", _0x465202);
+        Object.assign(_0x295531, _0x22de62);
+      }
+      if (_0x3d477c) {
+        const _0x401d30 = _0x5a5ca5 === "direct" ? _0x29c93c : _0xe8af75;
+        _0x401d30.push("RULE-SET," + _0x3d477c + ',' + (_0x5a5ca5 === "direct" ? "DIRECT" : "REJECT") + (_0x33de4b ? ",no-resolve" : ''));
+        const _0x5b355a = _0x39d356(_0x3d477c, _0x4d3e4c, "ipcidr", _0xb3cc13);
+        Object.assign(_0x295531, _0x5b355a);
+      }
+    }
+  });
+  const _0x5b217a = __defProp((_0x6c24a4, _0x8fd32d) => {
+    if (isDomain(_0x6c24a4)) {
+      return "DOMAIN-SUFFIX," + _0x6c24a4 + ',' + _0x8fd32d;
+    } else {
+      const _0x3bdca4 = isIPv4(_0x6c24a4) ? "IP-CIDR" : "IP-CIDR6";
+      const _0x3fac42 = isIPv6(_0x6c24a4) ? _0x6c24a4.replace(/\[|\]/g, '') : _0x6c24a4;
+      const _0x3fa7b9 = _0x6c24a4.includes('/') ? '' : isIPv4(_0x6c24a4) ? "/32" : "/128";
+      return _0x3bdca4 + ',' + _0x3fac42 + _0x3fa7b9 + ',' + _0x8fd32d + ",no-resolve";
+    }
+  }, "name", {
+    'value': "generateRule",
+    'configurable': true
+  });
+  [..._0x4b2033, ..._0x15b607].forEach((_0x43291a, _0x59b318) => {
+    const _0x2ca7f5 = _0x59b318 < _0x4b2033.length;
+    const _0x1578ed = _0x2ca7f5 ? "DIRECT" : "REJECT";
+    const _0x439bd2 = _0x2ca7f5 ? isDomain(_0x43291a) ? _0x202fac : _0x29c93c : isDomain(_0x43291a) ? _0x2975b3 : _0xe8af75;
+    _0x439bd2.push(_0x5b217a(_0x43291a, _0x1578ed));
+  });
+  const _0x3a5c6e = [..._0x202fac, ..._0x29c93c, ..._0x2975b3, ..._0xe8af75];
+  if (_0x263a9a) {
+    _0x3a5c6e.push("AND,((NETWORK,udp),(DST-PORT,443)),REJECT");
+  }
+  _0x3a5c6e.push("MATCH,✅ Selector");
+  return {
+    'rules': _0x3a5c6e,
+    'ruleProviders': _0x295531
+  };
+}
+__defProp(buildClashRoutingRules, "name", {
+  'value': "buildClashRoutingRules",
+  'configurable': true
+});
+function buildClashVLESSOutbound(_0x510b2e, _0x34454b, _0x2fdda6, _0x2cc936, _0x31f44d, _0x3ab8dc, _0xcc2ac6) {
+  const _0x3ae9cf = !!globalThis.defaultHttpsPorts.includes(_0x2fdda6);
+  const _0x2d91a5 = isIPv6(_0x34454b) ? _0x34454b.replace(/\[|\]/g, '') : _0x34454b;
+  const _0x32c1f3 = {
+    'name': _0x510b2e,
+    'type': "vless",
+    'server': _0x2d91a5,
+    'port': +_0x2fdda6,
+    'uuid': globalThis.userID,
+    'tls': _0x3ae9cf,
+    'network': 'ws',
+    'udp': true,
+    'ws-opts': {
+      'path': _0x3ab8dc,
+      'headers': {
+        'host': _0x2cc936
+      },
+      'max-early-data': 0xa00,
+      'early-data-header-name': "Sec-WebSocket-Protocol"
+    }
+  };
+  if (_0x3ae9cf) {
+    Object.assign(_0x32c1f3, {
+      'servername': _0x31f44d,
+      'alpn': ['h2', "http/1.1"],
+      'client-fingerprint': "random",
+      'skip-cert-verify': _0xcc2ac6
+    });
+  }
+  return _0x32c1f3;
+}
+__defProp(buildClashVLESSOutbound, "name", {
+  'value': "buildClashVLESSOutbound",
+  'configurable': true
+});
+function buildClashTrojanOutbound(_0x3b1f9b, _0xc7a645, _0x4ba384, _0x1df5cb, _0x3eeb1f, _0x3fd84f, _0x2941ab) {
+  const _0x7653cc = isIPv6(_0xc7a645) ? _0xc7a645.replace(/\[|\]/g, '') : _0xc7a645;
+  return {
+    'name': _0x3b1f9b,
+    'type': "trojan",
+    'server': _0x7653cc,
+    'port': +_0x4ba384,
+    'password': globalThis.trojanPassword,
+    'network': 'ws',
+    'udp': true,
+    'ws-opts': {
+      'path': _0x3fd84f,
+      'headers': {
+        'host': _0x1df5cb
+      },
+      'max-early-data': 0xa00,
+      'early-data-header-name': "Sec-WebSocket-Protocol"
+    },
+    'sni': _0x3eeb1f,
+    'alpn': ['h2', "http/1.1"],
+    'client-fingerprint': "random",
+    'skip-cert-verify': _0x2941ab
+  };
+}
+__defProp(buildClashTrojanOutbound, "name", {
+  'value': "buildClashTrojanOutbound",
+  'configurable': true
+});
+function buildClashWarpOutbound(_0xf50294, _0x27e5ec, _0x17c3e5, _0x2c13f3) {
+  const _0x3a05d1 = /\[(.*?)\]/;
+  const _0x322355 = /[^:]*$/;
+  const _0x34c8c0 = _0x17c3e5.includes('[') ? _0x17c3e5.match(_0x3a05d1)[0x1] : _0x17c3e5.split(':')[0x0];
+  const _0x252183 = _0x17c3e5.includes('[') ? +_0x17c3e5.match(_0x322355)[0x0] : +_0x17c3e5.split(':')[0x1];
+  const {
+    warpIPv6: _0x4cff57,
+    reserved: _0x43f800,
+    publicKey: _0x13b4d5,
+    privateKey: _0x575975
+  } = extractWireguardParams(_0xf50294, _0x2c13f3);
+  return {
+    'name': _0x27e5ec,
+    'type': "wireguard",
+    'ip': "172.16.0.2/32",
+    'ipv6': _0x4cff57,
+    'private-key': _0x575975,
+    'server': _0x34c8c0,
+    'port': _0x252183,
+    'public-key': _0x13b4d5,
+    'allowed-ips': ["0.0.0.0/0", "::/0"],
+    'reserved': _0x43f800,
+    'udp': true,
+    'mtu': 0x500,
+    'dialer-proxy': _0x2c13f3
+  };
+}
+__defProp(buildClashWarpOutbound, "name", {
+  'value': "buildClashWarpOutbound",
+  'configurable': true
+});
+function buildClashChainOutbound(_0x15251b) {
+  if (["socks", "http"].includes(_0x15251b.protocol)) {
+    const {
+      protocol: _0x4ddad0,
+      server: _0x6e771f,
+      port: _0x2739ba,
+      user: _0x110a08,
+      pass: _0x31e325
+    } = _0x15251b;
+    const _0x1507c1 = _0x4ddad0 === "socks" ? "socks5" : _0x4ddad0;
+    return {
+      'name': '',
+      'type': _0x1507c1,
+      'server': _0x6e771f,
+      'port': +_0x2739ba,
+      'dialer-proxy': '',
+      'username': _0x110a08,
+      'password': _0x31e325
+    };
+  }
+  const {
+    server: _0x461a17,
+    port: _0x1a2a7e,
+    uuid: _0x12d062,
+    flow: _0xd250a8,
+    security: _0x249220,
+    type: _0xa2962f,
+    sni: _0x5b00ce,
+    fp: _0x406fa4,
+    alpn: _0x1603ad,
+    pbk: _0x1fc970,
+    sid: _0x3cc5aa,
+    headerType: _0x3685a8,
+    host: _0x3009e9,
+    path: _0x2fce94,
+    serviceName: _0x578f5a
+  } = _0x15251b;
+  const _0x2b8dd4 = {
+    'name': "💦 Chain Best Ping 💥",
+    'type': "vless",
+    'server': _0x461a17,
+    'port': +_0x1a2a7e,
+    'udp': true,
+    'uuid': _0x12d062,
+    'flow': _0xd250a8,
+    'network': _0xa2962f,
+    'dialer-proxy': "💦 Best Ping 💥"
+  };
+  if (_0x249220 === "tls") {
+    const _0x43e7f3 = _0x1603ad ? _0x1603ad?.["split"](',') : [];
+    Object.assign(_0x2b8dd4, {
+      'tls': true,
+      'servername': _0x5b00ce,
+      'alpn': _0x43e7f3,
+      'client-fingerprint': _0x406fa4
+    });
+  }
+  if (_0x249220 === "reality") {
+    Object.assign(_0x2b8dd4, {
+      'tls': true,
+      'servername': _0x5b00ce,
+      'client-fingerprint': _0x406fa4,
+      'reality-opts': {
+        'public-key': _0x1fc970,
+        'short-id': _0x3cc5aa
+      }
+    });
+  }
+  if (_0x3685a8 === "http") {
+    const _0x439279 = _0x2fce94?.["split"](',');
+    _0x2b8dd4["http-opts"] = {
+      'method': "GET",
+      'path': _0x439279,
+      'headers': {
+        'Connection': ["keep-alive"],
+        'Content-Type': ["application/octet-stream"]
+      }
+    };
+  }
+  if (_0xa2962f === 'ws') {
+    const _0x1137ac = _0x2fce94?.["split"]("?ed=")[0x0];
+    const _0x552723 = +_0x2fce94?.["split"]("?ed=")[0x1];
+    _0x2b8dd4["ws-opts"] = {
+      'path': _0x1137ac,
+      'headers': {
+        'Host': _0x3009e9
+      },
+      'max-early-data': _0x552723,
+      'early-data-header-name': "Sec-WebSocket-Protocol"
+    };
+  }
+  if (_0xa2962f === "grpc") {
+    _0x2b8dd4["grpc-opts"] = {
+      'grpc-service-name': _0x578f5a
+    };
+  }
+  return _0x2b8dd4;
+}
+__defProp(buildClashChainOutbound, "name", {
+  'value': "buildClashChainOutbound",
+  'configurable': true
+});
+async function getClashWarpConfig(_0x12101d, _0x226101) {
+  const {
+    proxySettings: _0x369d4b,
+    warpConfigs: _0x1f7832
+  } = await getDataset(_0x12101d, _0x226101);
+  const {
+    warpEndpoints: _0x49b6fd
+  } = _0x369d4b;
+  const _0x69d994 = structuredClone(clashConfigTemp);
+  _0x69d994.dns = await buildClashDNS(_0x369d4b, true, true);
+  const {
+    rules: _0x4c98e9,
+    ruleProviders: _0xe490c
+  } = buildClashRoutingRules(_0x369d4b);
+  _0x69d994.rules = _0x4c98e9;
+  _0x69d994["rule-providers"] = _0xe490c;
+  const _0x293698 = _0x69d994["proxy-groups"][0x0];
+  const _0x34dfb7 = _0x69d994["proxy-groups"][0x1];
+  _0x293698.proxies = ["💦 Warp - Best Ping 🚀", "💦 WoW - Best Ping 🚀"];
+  _0x34dfb7.name = "💦 Warp - Best Ping 🚀";
+  _0x34dfb7.interval = +_0x369d4b.bestWarpInterval;
+  _0x69d994["proxy-groups"].push(structuredClone(_0x34dfb7));
+  const _0x5054cb = _0x69d994["proxy-groups"][0x2];
+  _0x5054cb.name = "💦 WoW - Best Ping 🚀";
+  let _0x1632f2 = [];
+  let _0x5a52df = [];
+  _0x49b6fd.split(',').forEach((_0x2cfdde, _0x2b4382) => {
+    const _0x2241c3 = "💦 " + (_0x2b4382 + 0x1) + " - Warp 🇮🇷";
+    const _0x7644c3 = "💦 " + (_0x2b4382 + 0x1) + " - WoW 🌍";
+    const _0x5279c7 = buildClashWarpOutbound(_0x1f7832, _0x2241c3, _0x2cfdde, '');
+    const _0x39f20a = buildClashWarpOutbound(_0x1f7832, _0x7644c3, _0x2cfdde, _0x2241c3);
+    _0x69d994.proxies.push(_0x39f20a, _0x5279c7);
+    _0x1632f2.push(_0x2241c3);
+    _0x5a52df.push(_0x7644c3);
+    _0x34dfb7.proxies.push(_0x2241c3);
+    _0x5054cb.proxies.push(_0x7644c3);
+  });
+  _0x293698.proxies.push(..._0x1632f2, ..._0x5a52df);
+  return new Response(JSON.stringify(_0x69d994, null, 0x4), {
+    'status': 0xc8,
+    'headers': {
+      'Content-Type': "text/plain;charset=utf-8",
+      'Cache-Control': "no-store, no-cache, must-revalidate, proxy-revalidate",
+      'CDN-Cache-Control': "no-store"
+    }
+  });
+}
+__defProp(getClashWarpConfig, "name", {
+  'value': "getClashWarpConfig",
+  'configurable': true
+});
+async function getClashNormalConfig(_0x37a11f, _0x32402a) {
+  const {
+    proxySettings: _0x3ab9c3
+  } = await getDataset(_0x37a11f, _0x32402a);
+  let _0x3c6a7d;
+  const {
+    resolvedRemoteDNS: _0x510c47,
+    cleanIPs: _0x3dc28f,
+    proxyIP: _0x4aa719,
+    ports: _0x31479f,
+    vlessConfigs: _0x225ba0,
+    trojanConfigs: _0x384f3c,
+    outProxy: _0x4a7a3b,
+    outProxyParams: _0x511a94,
+    customCdnAddrs: _0x4d9b96,
+    customCdnHost: _0x4926ed,
+    customCdnSni: _0x398685,
+    bestVLESSTrojanInterval: _0x54e9f2,
+    enableIPv6: _0x27db79
+  } = _0x3ab9c3;
+  if (_0x4a7a3b) {
+    const _0xa81a38 = JSON.parse(_0x511a94);
+    try {
+      _0x3c6a7d = buildClashChainOutbound(_0xa81a38);
+    } catch (_0xa0b6a4) {
+      console.log("An error occured while parsing chain proxy: ", _0xa0b6a4);
+      _0x3c6a7d = undefined;
+      await _0x32402a.bpb.put("proxySettings", JSON.stringify({
+        ..._0x3ab9c3,
+        'outProxy': '',
+        'outProxyParams': {}
+      }));
+    }
+  }
+  const _0x38dff6 = structuredClone(clashConfigTemp);
+  if (_0x510c47.server) {
+    _0x38dff6.hosts = {
+      [_0x510c47.server]: _0x510c47.staticIPs
+    };
+  } else {
+    delete _0x38dff6.hosts;
+  }
+  const {
+    rules: _0x1f7b03,
+    ruleProviders: _0xab1f13
+  } = buildClashRoutingRules(_0x3ab9c3);
+  _0x38dff6.dns = await buildClashDNS(_0x3ab9c3, _0x3c6a7d, false);
+  _0x38dff6.rules = _0x1f7b03;
+  _0x38dff6["rule-providers"] = _0xab1f13;
+  const _0xb9384c = _0x38dff6["proxy-groups"][0x0];
+  const _0x3d92ba = _0x38dff6["proxy-groups"][0x1];
+  _0xb9384c.proxies = ["💦 Best Ping 💥"];
+  _0x3d92ba.name = "💦 Best Ping 💥";
+  _0x3d92ba.interval = +_0x54e9f2;
+  const _0x4bc102 = await getConfigAddresses(_0x3dc28f, _0x27db79);
+  const _0x57811d = _0x4d9b96 ? _0x4d9b96.split(',') : [];
+  const _0xdac725 = [..._0x4bc102, ..._0x57811d];
+  let _0x16cdc5 = 0x1;
+  let _0x2b122c;
+  const _0x4742ad = [...(_0x225ba0 ? ["VLESS"] : []), ...(_0x384f3c ? ["Trojan"] : [])];
+  _0x4742ad.forEach(_0x47c8cc => {
+    let _0x4ba097 = 0x1;
+    _0x31479f.forEach(_0x20cb25 => {
+      _0xdac725.forEach(_0x115159 => {
+        let _0x57bbf5;
+        let _0x149258;
+        const _0x4ad677 = _0x57811d.includes(_0x115159);
+        const _0x2834a4 = _0x4ad677 ? 'C' : '';
+        const _0x262363 = _0x4ad677 ? _0x398685 : randomUpperCase(globalThis.hostName);
+        const _0x118420 = _0x4ad677 ? _0x4926ed : globalThis.hostName;
+        const _0x1d4e25 = generateRemark(_0x4ba097, _0x20cb25, _0x115159, _0x3dc28f, _0x47c8cc, _0x2834a4).replace(" : ", " - ");
+        if (_0x47c8cc === "VLESS") {
+          _0x2b122c = '/' + getRandomPath(0x10) + (_0x4aa719 ? '/' + btoa(_0x4aa719) : '');
+          _0x57bbf5 = buildClashVLESSOutbound(_0x3c6a7d ? "proxy-" + _0x16cdc5 : _0x1d4e25, _0x115159, _0x20cb25, _0x118420, _0x262363, _0x2b122c, _0x4ad677);
+          _0x38dff6.proxies.push(_0x57bbf5);
+          _0xb9384c.proxies.push(_0x1d4e25);
+          _0x3d92ba.proxies.push(_0x1d4e25);
+        }
+        if (_0x47c8cc === "Trojan" && globalThis.defaultHttpsPorts.includes(_0x20cb25)) {
+          _0x2b122c = "/tr" + getRandomPath(0x10) + (_0x4aa719 ? '/' + btoa(_0x4aa719) : '');
+          _0x149258 = buildClashTrojanOutbound(_0x3c6a7d ? "proxy-" + _0x16cdc5 : _0x1d4e25, _0x115159, _0x20cb25, _0x118420, _0x262363, _0x2b122c, _0x4ad677);
+          _0x38dff6.proxies.push(_0x149258);
+          _0xb9384c.proxies.push(_0x1d4e25);
+          _0x3d92ba.proxies.push(_0x1d4e25);
+        }
+        if (_0x3c6a7d) {
+          let _0x9ecbb9 = structuredClone(_0x3c6a7d);
+          _0x9ecbb9.name = _0x1d4e25;
+          _0x9ecbb9["dialer-proxy"] = "proxy-" + _0x16cdc5;
+          _0x38dff6.proxies.push(_0x9ecbb9);
+        }
+        _0x16cdc5++;
+        _0x4ba097++;
+      });
     });
   });
-  if (outProxy) {
-    let chainRemark = `#${encodeURIComponent("\u{1F4A6} Chain proxy \u{1F517}")}`;
-    if (outProxy.startsWith("socks") || outProxy.startsWith("http")) {
-      const regex = /^(?:socks|http):\/\/([^@]+)@/;
-      const isUserPass = outProxy.match(regex);
-      const userPass = isUserPass ? isUserPass[1] : false;
-      chainProxy = userPass ? outProxy.replace(userPass, btoa(userPass)) + chainRemark : outProxy + chainRemark;
-    } else {
-      chainProxy = outProxy.split("#")[0] + chainRemark;
+  return new Response(JSON.stringify(_0x38dff6, null, 0x4), {
+    'status': 0xc8,
+    'headers': {
+      'Content-Type': "text/plain;charset=utf-8",
+      'Cache-Control': "no-store, no-cache, must-revalidate, proxy-revalidate",
+      'CDN-Cache-Control': "no-store"
     }
-  }
-  return btoa(vlessConfs + trojanConfs + chainProxy);
+  });
 }
-var xrayConfigTemp = {
-  remarks: "",
-  log: {
-    loglevel: "warning"
-  },
-  dns: {},
-  fakedns: [
-    {
-      ipPool: "198.18.0.0/15",
-      poolSize: 32768
-    },
-    {
-      ipPool: "fc00::/18",
-      poolSize: 32768
-    }
-  ],
-  inbounds: [
-    {
-      port: 10808,
-      protocol: "socks",
-      settings: {
-        auth: "noauth",
-        udp: true,
-        userLevel: 8
-      },
-      sniffing: {
-        destOverride: ["http", "tls"],
-        enabled: true,
-        routeOnly: true
-      },
-      tag: "socks-in"
-    },
-    {
-      port: 10809,
-      protocol: "http",
-      settings: {
-        auth: "noauth",
-        udp: true,
-        userLevel: 8
-      },
-      sniffing: {
-        destOverride: ["http", "tls"],
-        enabled: true,
-        routeOnly: true
-      },
-      tag: "http-in"
-    },
-    {
-      listen: "127.0.0.1",
-      port: 10853,
-      protocol: "dokodemo-door",
-      settings: {
-        address: "1.1.1.1",
-        network: "tcp,udp",
-        port: 53
-      },
-      tag: "dns-in"
-    }
-  ],
-  outbounds: [
-    {
-      tag: "fragment",
-      protocol: "freedom",
-      settings: {
-        fragment: {
-          packets: "tlshello",
-          length: "",
-          interval: ""
-        },
-        domainStrategy: "UseIP"
-      },
-      streamSettings: {
-        sockopt: {
-          tcpKeepAliveIdle: 100,
-          tcpNoDelay: true
-        }
-      }
-    },
-    {
-      protocol: "dns",
-      tag: "dns-out"
-    },
-    {
-      protocol: "freedom",
-      settings: {},
-      tag: "direct"
-    },
-    {
-      protocol: "blackhole",
-      settings: {
-        response: {
-          type: "http"
-        }
-      },
-      tag: "block"
-    }
-  ],
-  policy: {
-    levels: {
-      8: {
-        connIdle: 300,
-        downlinkOnly: 1,
-        handshake: 4,
-        uplinkOnly: 1
-      }
-    },
-    system: {
-      statsOutboundUplink: true,
-      statsOutboundDownlink: true
-    }
-  },
-  routing: {
-    domainStrategy: "IPIfNonMatch",
-    rules: [],
-    balancers: [
-      {
-        tag: "all",
-        selector: ["prox"],
-        strategy: {
-          type: "leastPing"
-        }
-      }
-    ]
-  },
-  observatory: {
-    probeInterval: "30s",
-    probeURL: "https://www.gstatic.com/generate_204",
-    subjectSelector: ["prox"],
-    EnableConcurrency: true
-  },
-  stats: {}
-};
-var singboxConfigTemp = {
-  log: {
-    level: "warn",
-    timestamp: true
-  },
-  dns: {
-    servers: [],
-    rules: [],
-    independent_cache: true
-  },
-  inbounds: [
-    {
-      type: "direct",
-      tag: "dns-in",
-      listen: "0.0.0.0",
-      listen_port: 6450,
-      override_address: "8.8.8.8",
-      override_port: 53
-    },
-    {
-      type: "tun",
-      tag: "tun-in",
-      inet4_address: "172.19.0.1/28",
-      inet6_address: "fdfe:dcba:9876::1/126",
-      mtu: 9e3,
-      auto_route: true,
-      strict_route: true,
-      stack: "mixed",
-      sniff: true,
-      sniff_override_destination: true
-    },
-    {
-      type: "mixed",
-      tag: "mixed-in",
-      listen: "0.0.0.0",
-      listen_port: 2080,
-      sniff: true,
-      sniff_override_destination: false
-    }
-  ],
-  outbounds: [
-    {
-      type: "selector",
-      tag: "proxy",
-      outbounds: []
-    },
-    {
-      type: "urltest",
-      tag: "",
-      outbounds: [],
-      url: "https://www.gstatic.com/generate_204",
-      interval: ""
-    },
-    {
-      type: "direct",
-      tag: "direct"
-    },
-    {
-      type: "block",
-      tag: "block"
-    },
-    {
-      type: "dns",
-      tag: "dns-out"
-    }
-  ],
-  route: {
-    rules: [],
-    rule_set: [],
-    auto_detect_interface: true,
-    override_android_vpn: true,
-    final: "proxy"
-  },
-  ntp: {
-    enabled: true,
-    server: "time.apple.com",
-    server_port: 123,
-    detour: "direct",
-    interval: "30m"
-  },
-  experimental: {
-    cache_file: {
-      enabled: true,
-      store_fakeip: true
-    },
-    clash_api: {
-      external_controller: "0.0.0.0:9090",
-      external_ui: "yacd",
-      external_ui_download_url: "https://github.com/MetaCubeX/Yacd-meta/archive/gh-pages.zip",
-      external_ui_download_detour: "direct",
-      default_mode: "rule"
-    }
-  }
-};
+__defProp(getClashNormalConfig, "name", {
+  'value': "getClashNormalConfig",
+  'configurable': true
+});
 var clashConfigTemp = {
-  "mixed-port": 7890,
-  "ipv6": true,
-  "allow-lan": true,
-  "mode": "rule",
-  "log-level": "info",
-  "keep-alive-interval": 30,
-  "unified-delay": false,
-  "dns": {},
-  "tun": {
-    "enable": true,
-    "stack": "system",
-    "auto-route": true,
-    "auto-redirect": true,
-    "auto-detect-interface": true,
-    "dns-hijack": [
-      "any:53",
-      "198.18.0.2:53"
-    ],
-    "device": "utun0",
-    "mtu": 9e3,
-    "strict-route": true
+  'mixed-port': 0x1ed2,
+  'ipv6': true,
+  'allow-lan': true,
+  'mode': "rule",
+  'log-level': "warning",
+  'disable-keep-alive': false,
+  'keep-alive-idle': 0x1e,
+  'keep-alive-interval': 0x1e,
+  'unified-delay': false,
+  'geo-auto-update': true,
+  'geo-update-interval': 0xa8,
+  'external-controller': "127.0.0.1:9090",
+  'external-ui-url': "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip",
+  'external-ui': 'ui',
+  'external-controller-cors': {
+    'allow-origins': ['*'],
+    'allow-private-network': true
   },
-  "sniffer": {
-    "enable": true,
-    "force-dns-mapping": true,
-    "parse-pure-ip": true,
-    "sniff": {
-      "HTTP": {
-        "ports": [80, 8080, 8880, 2052, 2082, 2086, 2095],
-        "override-destination": false
+  'profile': {
+    'store-selected': true,
+    'store-fake-ip': true
+  },
+  'hosts': {},
+  'dns': {},
+  'tun': {
+    'enable': true,
+    'stack': "mixed",
+    'auto-route': true,
+    'strict-route': true,
+    'auto-detect-interface': true,
+    'dns-hijack': ["any:53"],
+    'mtu': 0x2328
+  },
+  'sniffer': {
+    'enable': true,
+    'force-dns-mapping': true,
+    'parse-pure-ip': true,
+    'override-destination': false,
+    'sniff': {
+      'HTTP': {
+        'ports': [0x50, 0x1f90, 0x22b0, 0x804, 0x822, 0x826, 0x82f]
       },
-      "TLS": {
-        "ports": [443, 8443, 2053, 2083, 2087, 2096],
-        "override-destination": false
+      'TLS': {
+        'ports': [0x1bb, 0x20fb, 0x805, 0x823, 0x827, 0x830]
       }
     }
   },
-  "proxies": [],
-  "proxy-groups": [
-    {
-      "name": "\u2705 Selector",
-      "type": "select",
-      "proxies": []
-    },
-    {
-      "name": "",
-      "type": "url-test",
-      "url": "https://www.gstatic.com/generate_204",
-      "interval": 30,
-      "tolerance": 50,
-      "proxies": []
-    }
-  ],
-  "rules": [],
-  "ntp": {
-    "enable": true,
-    "server": "time.apple.com",
-    "port": 123,
-    "interval": 30
+  'proxies': [],
+  'proxy-groups': [{
+    'name': "✅ Selector",
+    'type': "select",
+    'proxies': []
+  }, {
+    'name': '',
+    'type': "url-test",
+    'url': "https://www.gstatic.com/generate_204",
+    'interval': 0x1e,
+    'tolerance': 0x32,
+    'proxies': []
+  }],
+  'rule-providers': {},
+  'rules': [],
+  'ntp': {
+    'enable': true,
+    'server': "time.apple.com",
+    'port': 0x7b,
+    'interval': 0x1e
   }
 };
-export {
-  worker_default as default
+async function getNormalConfigs(_0x455afd, _0xb6bfa6) {
+  const {
+    proxySettings: _0x56dc0c
+  } = await getDataset(_0x455afd, _0xb6bfa6);
+  const {
+    cleanIPs: _0x38b5e5,
+    proxyIP: _0x2fa8fb,
+    ports: _0x5ac7a6,
+    vlessConfigs: _0x1973a2,
+    trojanConfigs: _0x167a63,
+    outProxy: _0x1730c7,
+    customCdnAddrs: _0x5bc64e,
+    customCdnHost: _0x2f4df7,
+    customCdnSni: _0x111ddb,
+    enableIPv6: _0x210cbf
+  } = _0x56dc0c;
+  let _0x96ba5b = '';
+  let _0x442a48 = '';
+  let _0x2a39eb = '';
+  let _0x990826 = 0x1;
+  const _0x380c31 = await getConfigAddresses(_0x38b5e5, _0x210cbf);
+  const _0x13cdb6 = _0x5bc64e ? _0x5bc64e.split(',') : [];
+  const _0x1816c9 = [..._0x380c31, ..._0x13cdb6];
+  const _0x2b8f85 = globalThis.client === "singbox" ? "http/1.1" : "h2,http/1.1";
+  const _0x1afe43 = encodeURIComponent(globalThis.trojanPassword);
+  const _0x2213ab = globalThis.client === "singbox" ? "&eh=Sec-WebSocket-Protocol&ed=2560" : encodeURIComponent("?ed=2560");
+  _0x5ac7a6.forEach(_0x40afe1 => {
+    _0x1816c9.forEach((_0x40470d, _0x33a8c7) => {
+      const _0x5e8cd4 = _0x33a8c7 > _0x380c31.length - 0x1;
+      const _0x19ef0e = _0x5e8cd4 ? 'C' : '';
+      const _0x492dd1 = _0x5e8cd4 ? _0x111ddb : randomUpperCase(globalThis.hostName);
+      const _0x6949a4 = _0x5e8cd4 ? _0x2f4df7 : globalThis.hostName;
+      const _0x36fa36 = '' + getRandomPath(0x10) + (_0x2fa8fb ? '/' + encodeURIComponent(btoa(_0x2fa8fb)) : '') + _0x2213ab;
+      const _0x25f61c = encodeURIComponent(generateRemark(_0x990826, _0x40afe1, _0x40470d, _0x38b5e5, "VLESS", _0x19ef0e));
+      const _0x3252dc = encodeURIComponent(generateRemark(_0x990826, _0x40afe1, _0x40470d, _0x38b5e5, "Trojan", _0x19ef0e));
+      const _0x29569d = globalThis.defaultHttpsPorts.includes(_0x40afe1) ? "&security=tls&sni=" + _0x492dd1 + "&fp=randomized&alpn=" + _0x2b8f85 : "&security=none";
+      if (_0x1973a2) {
+        _0x96ba5b += '' + atob("dmxlc3M6Ly8=") + globalThis.userID + '@' + _0x40470d + ':' + _0x40afe1 + "?path=/" + _0x36fa36 + "&encryption=none&host=" + _0x6949a4 + "&type=ws" + _0x29569d + '#' + _0x25f61c + "\n";
+      }
+      if (_0x167a63) {
+        _0x442a48 += '' + atob("dHJvamFuOi8v") + _0x1afe43 + '@' + _0x40470d + ':' + _0x40afe1 + "?path=/tr" + _0x36fa36 + "&host=" + _0x6949a4 + "&type=ws" + _0x29569d + '#' + _0x3252dc + "\n";
+      }
+      _0x990826++;
+    });
+  });
+  if (_0x1730c7) {
+    let _0x33a8f8 = '#' + encodeURIComponent("💦 Chain proxy 🔗");
+    if (_0x1730c7.startsWith("socks") || _0x1730c7.startsWith("http")) {
+      const _0x1983f1 = /^(?:socks|http):\/\/([^@]+)@/;
+      const _0x58bd2b = _0x1730c7.match(_0x1983f1);
+      const _0x5e2749 = _0x58bd2b ? _0x58bd2b[0x1] : false;
+      _0x2a39eb = _0x5e2749 ? _0x1730c7.replace(_0x5e2749, btoa(_0x5e2749)) + _0x33a8f8 : _0x1730c7 + _0x33a8f8;
+    } else {
+      _0x2a39eb = _0x1730c7.split('#')[0x0] + _0x33a8f8;
+    }
+  }
+  const _0x2a330c = btoa(_0x96ba5b + _0x442a48 + _0x2a39eb);
+  return new Response(_0x2a330c, {
+    'status': 0xc8,
+    'headers': {
+      'Content-Type': "text/plain;charset=utf-8",
+      'Cache-Control': "no-store, no-cache, must-revalidate, proxy-revalidate",
+      'CDN-Cache-Control': "no-store"
+    }
+  });
+}
+__defProp(getNormalConfigs, "name", {
+  'value': "getNormalConfigs",
+  'configurable': true
+});
+async function renderSecretsPage() {
+  const _0x2a0939 = "\n    <!DOCTYPE html>\n    <html lang=\"en\">\n    <head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>User Login</title>\n    <style>\n        :root {\n            --color: black;\n            --primary-color: #09639f;\n            --header-color: #09639f; \n            --background-color: #fff;\n            --form-background-color: #f9f9f9;\n            --lable-text-color: #333;\n            --h2-color: #3b3b3b;\n            --border-color: #ddd;\n            --input-background-color: white;\n            --header-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);\n        }\n        html, body { height: 100%; margin: 0; }\n        body {\n            font-family: system-ui;\n            background-color: var(--background-color);\n            position: relative;\n            overflow: hidden;\n            text-align: center;\n        }\n        body.dark-mode {\n            --color: white;\n            --primary-color: #09639F;\n            --header-color: #3498DB; \n            --background-color: #121212;\n            --form-background-color: #121212;\n            --lable-text-color: #DFDFDF;\n            --h2-color: #D5D5D5;\n            --border-color: #353535;\n            --input-background-color: #252525;\n            --header-shadow: 2px 2px 4px rgba(255, 255, 255, 0.25);\n        }\n        html, body { height: 100%; margin: 0; }\n        .container {\n            position: absolute;\n            top: 50%;\n            left: 50%;\n            transform: translate(-50%, -50%);\n            width: 90%;\n        }\n        h1 { font-size: 2.5rem; text-align: center; color: var(--header-color); margin: 0 auto 30px; text-shadow: var(--header-shadow); }        \n        h2 { text-align: center; color: var(--h2-color) }\n        strong { color: var(--lable-text-color); }\n        .output-container {\n            display: flex;\n            align-items: center;\n            justify-content: space-between;\n            margin: 15px 0;\n            padding: 10px;\n            background-color: var(--input-background-color);\n            color: var(--lable-text-color);\n            border: 1px solid var(--border-color);\n            border-radius: 5px;\n            font-family: monospace;\n            font-size: 1rem;\n            word-wrap: break-word;\n        }\n        .output { flex: 1; margin-right: 10px; overflow-wrap: break-word; }\n        .copy-icon {\n            cursor: pointer;\n            font-size: 1.2rem;\n            color: var(--primary-color);\n            transition: color 0.2s;\n        }\n        .copy-icon:hover { color: #2980b9; }\n        .form-container {\n            background: var(--form-background-color);\n            border: 1px solid var(--border-color);\n            border-radius: 10px;\n            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);\n            padding: 20px;\n        }\n        .form-control { margin-bottom: 15px; display: flex; align-items: center; }\n        button {\n            display: block;\n            width: 100%;\n            padding: 10px;\n            font-size: 16px;\n            font-weight: 600;\n            border: none;\n            border-radius: 5px;\n            color: white;\n            background-color: var(--primary-color);\n            cursor: pointer;\n            transition: background-color 0.3s ease;\n        }\n        .button:hover,\n        button:focus {\n            background-color: #2980b9;\n            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);\n            transform: translateY(-2px);\n        }\n        button.button:hover { color: white; }\n        .button:active { transform: translateY(1px); box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3); }\n        @media only screen and (min-width: 768px) {\n            .container { width: 40%; }\n        }\n    </style>\n    </head>\n    <body>\n        <div class=\"container\">\n            <h1>BPB Panel <span style=\"font-size: smaller;\">" + globalThis.panelVersion + "</span> 💦</h1>\n            <div class=\"form-container\">\n                <h2>Secrets generator</h2>\n                <div>\n                    <strong>Random UUID</strong>\n                    <div class=\"output-container\">\n                        <span id=\"uuid\" class=\"output\"></span>\n                        <span class=\"copy-icon\" onclick=\"copyToClipboard('uuid')\">📋</span>\n                    </div>\n                </div>\n                <div>\n                    <strong>Random Trojan Password</strong>\n                    <div class=\"output-container\">\n                        <span id=\"trojan-password\" class=\"output\"></span>\n                        <span class=\"copy-icon\" onclick=\"copyToClipboard('trojan-password')\">📋</span>\n                    </div>\n                </div>\n                <button class=\"button\" onclick=\"generateCredentials()\">Generate Again ♻️</button>\n            </div>\n        </div>\n        <script>\n            localStorage.getItem('darkMode') === 'enabled' && document.body.classList.add('dark-mode');\n            function generateUUID() {\n                return crypto.randomUUID();\n            }\n    \n            function generateStrongPassword() {\n                const charset =\n                    \"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+[]{}|;:',.<>?\";\n                let password = '';\n                const randomValues = new Uint8Array(16);\n                crypto.getRandomValues(randomValues);\n    \n                for (let i = 0; i < 16; i++) {\n                    password += charset[randomValues[i] % charset.length];\n                }\n                return password;\n            }\n    \n            function generateCredentials() {\n                const uuid = generateUUID();\n                const password = generateStrongPassword();\n    \n                document.getElementById('uuid').textContent = uuid;\n                document.getElementById('trojan-password').textContent = password;\n            }\n    \n            function copyToClipboard(elementId) {\n                const textToCopy = document.getElementById(elementId).textContent;\n                navigator.clipboard.writeText(textToCopy)\n                    .then(() => alert('✅ Copied to clipboard!'))\n                    .catch(err => console.error('Failed to copy text:', err));\n            }\n    \n            generateCredentials();\n        </script>\n    </body>\n    </html>";
+  return new Response(_0x2a0939, {
+    'status': 0xc8,
+    'headers': {
+      'Content-Type': "text/html"
+    }
+  });
+}
+__defProp(renderSecretsPage, "name", {
+  'value': "renderSecretsPage",
+  'configurable': true
+});
+var worker_default = {
+  async 'fetch'(_0x3185a7, _0x5102f3) {
+    try {
+      initializeParams(_0x3185a7, _0x5102f3);
+      const _0x26bb65 = _0x3185a7.headers.get("Upgrade");
+      if (!_0x26bb65 || _0x26bb65 !== "websocket") {
+        switch (globalThis.pathName) {
+          case "/update-warp":
+            return await updateWarpConfigs(_0x3185a7, _0x5102f3);
+          case "/sub/" + globalThis.userID:
+            if (globalThis.client === "sfa") {
+              return await getSingBoxCustomConfig(_0x3185a7, _0x5102f3, false);
+            }
+            if (globalThis.client === "clash") {
+              return await getClashNormalConfig(_0x3185a7, _0x5102f3);
+            }
+            if (globalThis.client === "xray") {
+              return await getXrayCustomConfigs(_0x3185a7, _0x5102f3, false);
+            }
+            return await getNormalConfigs(_0x3185a7, _0x5102f3);
+          case "/fragsub/" + globalThis.userID:
+            return globalThis.client === "hiddify" ? await getSingBoxCustomConfig(_0x3185a7, _0x5102f3, true) : await getXrayCustomConfigs(_0x3185a7, _0x5102f3, true);
+          case "/warpsub/" + globalThis.userID:
+            if (globalThis.client === "clash") {
+              return await getClashWarpConfig(_0x3185a7, _0x5102f3);
+            }
+            if (globalThis.client === "singbox" || globalThis.client === "hiddify") {
+              return await getSingBoxWarpConfig(_0x3185a7, _0x5102f3, globalThis.client);
+            }
+            return await getXrayWarpConfigs(_0x3185a7, _0x5102f3, globalThis.client);
+          case "/panel":
+            return await handlePanel(_0x3185a7, _0x5102f3);
+          case "/login":
+            return await login(_0x3185a7, _0x5102f3);
+          case "/logout":
+            return new Response("Success", {
+              'status': 0xc8,
+              'headers': {
+                'Set-Cookie': "jwtToken=; Secure; SameSite=None; Expires=Thu, 01 Jan 1970 00:00:00 GMT",
+                'Content-Type': "text/plain"
+              }
+            });
+          case "/panel/password":
+            return await resetPassword(_0x3185a7, _0x5102f3);
+          case "/my-ip":
+            return await getMyIP(_0x3185a7);
+          case "/secrets":
+            return await renderSecretsPage();
+          default:
+            return await fallback(_0x3185a7);
+        }
+      } else {
+        return globalThis.pathName.startsWith("/tr") ? await trojanOverWSHandler(_0x3185a7) : await vlessOverWSHandler(_0x3185a7);
+      }
+    } catch (_0x1080e6) {
+      return await renderErrorPage(_0x1080e6);
+    }
+  }
 };
-/*! Bundled license information:
-
-js-sha256/src/sha256.js:
-  (**
-   * [js-sha256]{@link https://github.com/emn178/js-sha256}
-   *
-   * @version 0.11.0
-   * @author Chen, Yi-Cyuan [emn178@gmail.com]
-   * @copyright Chen, Yi-Cyuan 2014-2024
-   * @license MIT
-   *)
-*/
-//# sourceMappingURL=worker.js.map
+export { worker_default as default }; /*! Bundled license information:
+                                      js-sha256/src/sha256.js:
+                                      (**
+                                      * [js-sha256]{@link https://github.com/emn178/js-sha256}
+                                      *
+                                      * @version 0.11.0
+                                      * @author Chen, Yi-Cyuan [emn178@gmail.com]
+                                      * @copyright Chen, Yi-Cyuan 2014-2024
+                                      * @license MIT
+                                      *)
+                                      */
