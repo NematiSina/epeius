@@ -1,8 +1,3 @@
-his time we will combine Cloudflare Worker with the free GitHub node collection project, use Worker to filter out those nodes that can be proxied by Worker, create a subscription link, and choose your own clean IP!
-
-Create a Worker
-Create a Worker with the following code, plz use Google to search tutorials for creating a Cloudflare Worker!
-
 const subLink = 'https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub/sub_merge.txt';
 
 export default {
