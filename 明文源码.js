@@ -4757,8 +4757,8 @@ var v5_default = v5;
 // src/variables.ts
 init_modules_watch_stub();
 var version = "2.4";
-var providersUri = atob("aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3ZmYXJpZC92MnJheS13b3JrZXIvbWFpbi9yZXNvdXJjZXMvcHJvdmlkZXItbGlzdC50eHQ=");
-var proxiesUri = atob("aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3ZmYXJpZC92MnJheS13b3JrZXIvbWFpbi9yZXNvdXJjZXMvcHJveHktbGlzdC50eHQ=");
+var providersUri = "https://raw.githubusercontent.com/vfarid/v2ray-worker/main/resources/provider-list.txt";
+var proxiesUri = "https://raw.githubusercontent.com/vfarid/v2ray-worker/main/resources/proxy-list.txt";
 var defaultProtocols = [
   "vmess",
   "built-in-vless",
@@ -4789,11 +4789,6 @@ var defaultPFList = [
 ];
 var cfPorts = [
   443,
-  2053,
-  2083,
-  2087,
-  2096,
-  8443
 ];
 var fragmentsLengthList = [
   "10-20",
@@ -4865,7 +4860,7 @@ function IsIp(str2) {
 function IsValidUUID(uuid) {
   return /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(uuid);
 }
-function GenerateVConfig(no, uuid, sni, address, port) {
+function GetVlessConfig(no, uuid, sni, address, port) {
   if (address.toLowerCase() == sni.toLowerCase()) {
     address = sni;
   }
@@ -4879,11 +4874,11 @@ function GenerateVConfig(no, uuid, sni, address, port) {
     sni,
     uuid,
     host: sni,
-    path: "connect_a/?ed=2048",
+    path: "vless-ws/?ed=2048",
     address
   };
 }
-function GenerateTConfig(no, sha224Password, sni, address, port) {
+function GetTrojanConfig(no, sha224Password, sni, address, port) {
   if (address.toLowerCase() == sni.toLowerCase()) {
     address = sni;
   }
@@ -4897,7 +4892,7 @@ function GenerateTConfig(no, sha224Password, sni, address, port) {
     sni,
     password: sha224Password,
     host: sni,
-    path: "connect_b/?ed=2048",
+    path: "trojan-ws/?ed=2048",
     address
   };
 }
@@ -4951,19 +4946,19 @@ function getSHA224Password(sni) {
 // src/vless.ts
 var WS_READY_STATE_OPEN = 1;
 var WS_READY_STATE_CLOSING = 2;
-var remoteAddr = "";
-var remoteAddrList = [];
+var proxyIP = "";
+var proxyList = [];
 var blockPorn = "";
 var filterCountries = "";
 var countries = [];
 async function GetVlessConfigList(sni, addressList, start, max, env) {
   filterCountries = "";
   blockPorn = "";
-  remoteAddrList = [];
+  proxyList = [];
   const uuid = getUUID(sni);
   let configList = [];
   for (let i = 0; i < max; i++) {
-    configList.push(GenerateVConfig(
+    configList.push(GetVlessConfig(
       i + start,
       uuid,
       MuddleDomain(sni),
@@ -4973,7 +4968,7 @@ async function GetVlessConfigList(sni, addressList, start, max, env) {
   }
   return configList;
 }
-async function handleVConnection(request, sni, env) {
+async function VlessOverWSHandler(request, sni, env) {
   const uuid = getUUID(sni);
   const [client, webSocket] = Object.values(new WebSocketPair());
   webSocket.accept();
@@ -5006,7 +5001,7 @@ async function handleVConnection(request, sni, env) {
         vlessVersion = new Uint8Array([0, 0]),
         isUDP,
         isMUX
-      } = ParseVHeader(chunk, uuid);
+      } = ProcessVlessHeader(chunk, uuid);
       address = addressRemote;
       if (hasError) {
         throw new Error(message);
@@ -5075,7 +5070,7 @@ function MakeReadableWebSocketStream(webSocketServer, earlyDataHeader) {
   });
   return stream;
 }
-function ParseVHeader(vlessBuffer, uuid) {
+function ProcessVlessHeader(vlessBuffer, uuid) {
   if (vlessBuffer.byteLength < 24) {
     return {
       hasError: true,
@@ -5187,7 +5182,7 @@ async function HandleUDPOutbound(webSocket, vlessResponseHeader, env) {
     }
   });
   if (blockPorn == "") {
-    blockPorn = await env.settings.get("BlockPorn") || "no";
+    blockPorn = await env.cvkos.get("BlockPorn") || "no";
   }
   transformStream.readable.pipeTo(new WritableStream({
     async write(chunk) {
@@ -5243,23 +5238,23 @@ async function HandleTCPOutbound(remoteSocket, addressRemote, portRemote, rawCli
     if (retryCount > maxRetryCount) {
       return;
     }
-    if (!remoteAddrList.length) {
-      countries = (await env.settings.get("Countries"))?.split(",").filter((t) => t.trim().length > 0) || [];
-      remoteAddrList = await fetch(proxiesUri).then((r) => r.text()).then((t) => t.trim().split("\n").filter((t2) => t2.trim().length > 0));
+    if (!proxyList.length) {
+      countries = (await env.cvkos.get("Countries"))?.split(",").filter((t) => t.trim().length > 0) || [];
+      proxyList = await fetch(proxiesUri).then((r) => r.text()).then((t) => t.trim().split("\n").filter((t2) => t2.trim().length > 0));
       if (countries.length > 0) {
-        remoteAddrList = remoteAddrList.filter((t) => {
+        proxyList = proxyList.filter((t) => {
           const arr = t.split(",");
           if (arr.length > 0) {
             return countries.includes(arr[1]);
           }
         });
       }
-      remoteAddrList = remoteAddrList.map((ip) => ip.split(",")[0]);
-      console.log(remoteAddrList);
+      proxyList = proxyList.map((ip) => ip.split(",")[0]);
+      console.log(proxyList);
     }
-    if (remoteAddrList.length > 0) {
-      remoteAddr = remoteAddrList[Math.floor(Math.random() * remoteAddrList.length)];
-      const tcpSocket2 = await connectAndWrite(remoteAddr, portRemote);
+    if (proxyList.length > 0) {
+      proxyIP = proxyList[Math.floor(Math.random() * proxyList.length)];
+      const tcpSocket2 = await connectAndWrite(proxyIP, portRemote);
       RemoteSocketToWS(tcpSocket2, webSocket, vlessResponseHeader, retry);
     }
   }
@@ -5358,7 +5353,7 @@ async function GetTrojanConfigList(sni, addressList, start, max, env) {
   proxyList2 = [];
   let configList = [];
   for (let i = 0; i < max; i++) {
-    configList.push(GenerateTConfig(
+    configList.push(GetTrojanConfig(
       i + start,
       getUUID(sni),
       MuddleDomain(sni),
@@ -5368,7 +5363,7 @@ async function GetTrojanConfigList(sni, addressList, start, max, env) {
   }
   return configList;
 }
-async function handleTConnection(request, sni, env) {
+async function TrojanOverWSHandler(request, sni, env) {
   const sha224Password = getSHA224Password(getUUID(sni));
   const [client, webSocket] = Object.values(new WebSocketPair());
   webSocket.accept();
@@ -5392,7 +5387,7 @@ async function handleTConnection(request, sni, env) {
         portRemote = 443,
         addressRemote = "",
         rawClientData
-      } = await ParseTHeader(chunk, sha224Password);
+      } = await ParseTrojanHeader(chunk, sha224Password);
       address = addressRemote;
       if (hasError) {
         throw new Error(message);
@@ -5406,7 +5401,7 @@ async function handleTConnection(request, sni, env) {
     webSocket: client
   });
 }
-async function ParseTHeader(buffer, sha224Password) {
+async function ParseTrojanHeader(buffer, sha224Password) {
   if (buffer.byteLength < 56) {
     return {
       hasError: true,
@@ -5514,7 +5509,7 @@ async function HandleTCPOutbound2(remoteSocket, addressRemote, portRemote, rawCl
       return;
     }
     if (!proxyList2.length) {
-      countries2 = (await env.settings.get("Countries"))?.split(",").filter((t) => t.trim().length > 0) || [];
+      countries2 = (await env.cvkos.get("Countries"))?.split(",").filter((t) => t.trim().length > 0) || [];
       proxyList2 = await fetch(proxiesUri).then((r) => r.text()).then((t) => t.trim().split("\n").filter((t2) => t2.trim().length > 0));
       if (countries2.length > 0) {
         proxyList2 = proxyList2.filter((t) => {
@@ -5636,28 +5631,28 @@ var bcrypt = __toESM(require_bcrypt());
 async function GetPanel(request, env) {
   const url = new URL(request.url);
   try {
-    const hash2 = await env.settings.get("Password");
-    const token = await env.settings.get("Token");
+    const hash2 = await env.cvkos.get("Password");
+    const token = await env.cvkos.get("Token");
     if (hash2 && url.searchParams.get("token") != token) {
       return Response.redirect(`${url.origin}/login`, 302);
     }
-    const settingsVersion = await env.settings.get("Version") || "2.0";
+    const settingsVersion = await env.cvkos.get("Version") || "2.0";
     if (settingsVersion != version) {
-      await env.settings.delete("Providers");
-      await env.settings.delete("Protocols");
+      await env.cvkos.delete("Providers");
+      await env.cvkos.delete("Protocols");
     }
-    const maxConfigs = parseInt(await env.settings.get("MaxConfigs") || "200");
-    const protocols = (await env.settings.get("Protocols"))?.split("\n").filter((t) => t.trim().length > 0) || defaultProtocols;
-    const alpnList = (await env.settings.get("ALPNs"))?.split("\n").filter((t) => t.trim().length > 0) || [];
-    const fingerPrints = (await env.settings.get("FingerPrints"))?.split("\n").filter((t) => t.trim().length > 0) || [];
-    const cleanDomainIPs = (await env.settings.get("CleanDomainIPs"))?.split("\n").filter((t) => t.trim().length > 0) || [];
-    const configs = (await env.settings.get("Configs"))?.split("\n").filter((t) => t.trim().length > 0) || [];
-    const includeOriginalConfigs = await env.settings.get("IncludeOriginalConfigs") || "yes";
-    const includeMergedConfigs = await env.settings.get("IncludeMergedConfigs") || "yes";
-    const enableFragments = await env.settings.get("EnableFragments") || "no";
-    const blockPorn2 = await env.settings.get("BlockPorn") || "no";
-    const providers = (await env.settings.get("Providers"))?.split("\n").filter((t) => t.trim().length > 0) || [];
-    const countries3 = (await env.settings.get("Countries"))?.split(",").filter((t) => t.trim().length > 0) || [];
+    const maxConfigs = parseInt(await env.cvkos.get("MaxConfigs") || "200");
+    const protocols = (await env.cvkos.get("Protocols"))?.split("\n").filter((t) => t.trim().length > 0) || defaultProtocols;
+    const alpnList = (await env.cvkos.get("ALPNs"))?.split("\n").filter((t) => t.trim().length > 0) || [];
+    const fingerPrints = (await env.cvkos.get("FingerPrints"))?.split("\n").filter((t) => t.trim().length > 0) || [];
+    const cleanDomainIPs = (await env.cvkos.get("CleanDomainIPs"))?.split("\n").filter((t) => t.trim().length > 0) || [];
+    const configs = (await env.cvkos.get("Configs"))?.split("\n").filter((t) => t.trim().length > 0) || [];
+    const includeOriginalConfigs = await env.cvkos.get("IncludeOriginalConfigs") || "yes";
+    const includeMergedConfigs = await env.cvkos.get("IncludeMergedConfigs") || "yes";
+    const enableFragments = await env.cvkos.get("EnableFragments") || "no";
+    const blockPorn2 = await env.cvkos.get("BlockPorn") || "no";
+    const providers = (await env.cvkos.get("Providers"))?.split("\n").filter((t) => t.trim().length > 0) || [];
+    const countries3 = (await env.cvkos.get("Countries"))?.split(",").filter((t) => t.trim().length > 0) || [];
     let allCountries = await fetch(proxiesUri).then((r) => r.text()).then((t) => {
       return t.trim().split("\n").map((t2) => {
         const arr = t2.split(",");
@@ -5833,9 +5828,9 @@ async function GetPanel(request, env) {
       
         const strings = {
           en: {
-            "page-title": "Worker Service Panel",
+            "page-title": "V2ray Worker Control Panel",
             "text-version": "Version",
-            "sub-link-title": "Subscription link for compatible clients (v2rayN, v2rayNG, v2rayA, Nekobox, Nekoray, V2Box...)",
+            "sub-link-title": "Your subscription link for v2ray clients (v2rayN, v2rayNG, v2rayA, Nekobox, Nekoray, V2Box...)",
             // "custom-link-title": "Your subscription link for custom configs",
             "clash-link-title": "Your subscription link for clash clients (Clash, ClashX, ClashMeta...)",
             "includes-title": "Merged and original configs",
@@ -5866,7 +5861,7 @@ async function GetPanel(request, env) {
             "reset-button": "Reset",
           },
           fa: {
-            "page-title": "\u067E\u0646\u0644 \u0645\u062F\u06CC\u0631\u06CC\u062A \u0633\u0631\u0648\u06CC\u0633",
+            "page-title": "\u067E\u0646\u0644 \u06A9\u0646\u062A\u0631\u0644 \u0648\u0631\u06A9\u0631 v2ray",
             "text-version": "\u0646\u0633\u062E\u0647",
             "sub-link-title": "\u0644\u06CC\u0646\u06A9 \u062B\u0628\u062A \u0646\u0627\u0645 \u0634\u0645\u0627 \u0628\u0631\u0627\u06CC \u06A9\u0644\u0627\u06CC\u0646\u062A\u200C\u0647\u0627\u06CC v2rayN, v2rayNG, v2rayA, Nekobox, Nekoray, V2Box \u0648...",
             // "custom-link-title": "\u0644\u06CC\u0646\u06A9 \u062B\u0628\u062A \u0646\u0627\u0645 \u0634\u0645\u0627 \u0628\u0631\u0627\u06CC \u06A9\u0627\u0646\u0641\u06CC\u06AF\u200C\u0647\u0627\u06CC Custom",
@@ -5944,19 +5939,19 @@ async function GetPanel(request, env) {
             <div id="type">
               <div>
                 <input type="checkbox" name="protocols" value="vmess" class="form-check-input" id="vmess-protocol-ckeck" ${protocols.includes("vmess") ? "checked" : ""} />
-                <label class="form-check-label" for="vmess-protocol-ckeck">Method D</label>
+                <label class="form-check-label" for="vmess-protocol-ckeck">VMESS</label>
               </div>
               <div>
                 <input type="checkbox" name="protocols" value="vless" class="form-check-input" id="vless-protocol-ckeck" ${protocols.includes("vless") ? "checked" : ""} />
-                <label class="form-check-label" for="vless-protocol-ckeck">Method C</label>
+                <label class="form-check-label" for="vless-protocol-ckeck">VLESS</label>
               </div>
               <div>
                 <input type="checkbox" name="protocols" value="built-in-vless" class="form-check-input" id="built-in-vless-protocol-ckeck" ${protocols.includes("built-in-vless") ? "checked" : ""} />
-                <label class="form-check-label" for="built-in-vless-protocol-ckeck">Method A (Built-in)</label>
+                <label class="form-check-label" for="built-in-vless-protocol-ckeck">Built-in VLESS</label>
               </div>
               <div>
                 <input type="checkbox" name="protocols" value="built-in-trojan" class="form-check-input" id="built-in-trojan-protocol-ckeck" ${protocols.includes("built-in-trojan") ? "checked" : ""} />
-                <label class="form-check-label" for="built-in-trojan-protocol-ckeck">Method B (Built-in)</label>
+                <label class="form-check-label" for="built-in-trojan-protocol-ckeck">Built-in Trojan</label>
               </div>
             </div>
           </div>
@@ -6170,9 +6165,9 @@ async function GetPanel(request, env) {
       
         const strings = {
           en: {
-            "page-title": "Worker Service Panel",
+            "page-title": "V2ray Worker Control Panel",
             "text-version": "Version",
-            "sub-link-title": "Subscription link for compatible clients (v2rayN, v2rayNG, v2rayA, Nekobox, Nekoray, V2Box...)",
+            "sub-link-title": "Your subscription link for v2ray clients (v2rayN, v2rayNG, v2rayA, Nekobox, Nekoray, V2Box...)",
             // "custom-link-title": "Your subscription link for custom configs",
             "clash-link-title": "Your subscription link for clash clients (Clash, ClashX, ClashMeta...)",
             "you-can-use-your-worker-message": "You can continue using your worker without control panel.",
@@ -6181,7 +6176,7 @@ async function GetPanel(request, env) {
             "open-variables-text": "Open Worker's Variables",
           },
           fa: {
-            "page-title": "\u067E\u0646\u0644 \u0645\u062F\u06CC\u0631\u06CC\u062A \u0633\u0631\u0648\u06CC\u0633",
+            "page-title": "\u067E\u0646\u0644 \u06A9\u0646\u062A\u0631\u0644 \u0648\u0631\u06A9\u0631 v2ray",
             "text-version": "\u0646\u0633\u062E\u0647",
             "sub-link-title": "\u0644\u06CC\u0646\u06A9 \u062B\u0628\u062A \u0646\u0627\u0645 \u0634\u0645\u0627 \u0628\u0631\u0627\u06CC \u06A9\u0644\u0627\u06CC\u0646\u062A\u200C\u0647\u0627\u06CC v2rayN, v2rayNG, v2rayA, Nekobox, Nekoray, V2Box \u0648...",
             // "custom-link-title": "\u0644\u06CC\u0646\u06A9 \u062B\u0628\u062A \u0646\u0627\u0645 \u0634\u0645\u0627 \u0628\u0631\u0627\u06CC \u06A9\u0627\u0646\u0641\u06CC\u06AF\u200C\u0647\u0627\u06CC Custom",
@@ -6205,16 +6200,16 @@ async function GetPanel(request, env) {
 }
 async function PostPanel(request, env) {
   const url = new URL(request.url);
-  let token = await env.settings.get("Token");
+  let token = await env.cvkos.get("Token");
   try {
     const formData = await request.formData();
-    let hashedPassword = await env.settings.get("Password");
+    let hashedPassword = await env.cvkos.get("Password");
     if (hashedPassword && url.searchParams.get("token") != token) {
       return Response.redirect(`${url.origin}/login`, 302);
     }
     if (formData.get("reset_password")) {
-      await env.settings.delete("Password");
-      await env.settings.delete("Token");
+      await env.cvkos.delete("Password");
+      await env.cvkos.delete("Token");
       return Response.redirect(`${url.origin}?message=success`, 302);
     } else if (formData.get("save")) {
       const password = formData.get("password")?.toString() || "";
@@ -6224,42 +6219,42 @@ async function PostPanel(request, env) {
         }
         hashedPassword = await bcrypt.hash(password, 10);
         token = GenerateToken(24);
-        await env.settings.put("Password", hashedPassword);
-        await env.settings.put("Token", token);
+        await env.cvkos.put("Password", hashedPassword);
+        await env.cvkos.put("Token", token);
       }
       let maxConfigs = parseInt(formData.get("max")?.toString() || "200");
       if (maxConfigs < 50) {
         maxConfigs = 50;
       }
-      await env.settings.put("MaxConfigs", maxConfigs.toString());
-      await env.settings.put("Protocols", formData.getAll("protocols")?.join("\n").trim());
-      await env.settings.put("ALPNs", formData.get("alpn_list_check")?.toString() ? formData.get("alpn_list")?.toString().trim().split("\n").map((str2) => str2.trim()).join("\n") || "" : "");
-      await env.settings.put("FingerPrints", formData.get("fp_list_check")?.toString() ? formData.get("fp_list")?.toString().trim().split("\n").map((str2) => str2.trim()).join("\n") || "" : "");
-      await env.settings.put("Providers", formData.get("providers_check")?.toString() ? formData.get("providers")?.toString().trim().split("\n").map((str2) => str2.trim()).join("\n") || "" : "");
-      await env.settings.put("Countries", formData.get("countries_check")?.toString() ? formData.getAll("countries[]")?.join(",") || "" : "");
-      await env.settings.put("CleanDomainIPs", formData.get("clean_ips_check")?.toString() ? formData.get("clean_ips")?.toString().trim().split("\n").map((str2) => str2.trim()).join("\n") || "" : "");
-      await env.settings.put("Configs", formData.get("configs_check")?.toString() ? formData.get("configs")?.toString().trim().split("\n").map((str2) => str2.trim()).join("\n") || "" : "");
-      await env.settings.put("IncludeOriginalConfigs", formData.get("original")?.toString() || "no");
-      await env.settings.put("IncludeMergedConfigs", formData.get("merged")?.toString() || "no");
-      await env.settings.put("BlockPorn", formData.get("block_porn")?.toString() || "no");
-      await env.settings.put("EnableFragments", formData.get("enable_fragments")?.toString() || "no");
-      await env.settings.put("Version", version);
+      await env.cvkos.put("MaxConfigs", maxConfigs.toString());
+      await env.cvkos.put("Protocols", formData.getAll("protocols")?.join("\n").trim());
+      await env.cvkos.put("ALPNs", formData.get("alpn_list_check")?.toString() ? formData.get("alpn_list")?.toString().trim().split("\n").map((str2) => str2.trim()).join("\n") || "" : "");
+      await env.cvkos.put("FingerPrints", formData.get("fp_list_check")?.toString() ? formData.get("fp_list")?.toString().trim().split("\n").map((str2) => str2.trim()).join("\n") || "" : "");
+      await env.cvkos.put("Providers", formData.get("providers_check")?.toString() ? formData.get("providers")?.toString().trim().split("\n").map((str2) => str2.trim()).join("\n") || "" : "");
+      await env.cvkos.put("Countries", formData.get("countries_check")?.toString() ? formData.getAll("countries[]")?.join(",") || "" : "");
+      await env.cvkos.put("CleanDomainIPs", formData.get("clean_ips_check")?.toString() ? formData.get("clean_ips")?.toString().trim().split("\n").map((str2) => str2.trim()).join("\n") || "" : "");
+      await env.cvkos.put("Configs", formData.get("configs_check")?.toString() ? formData.get("configs")?.toString().trim().split("\n").map((str2) => str2.trim()).join("\n") || "" : "");
+      await env.cvkos.put("IncludeOriginalConfigs", formData.get("original")?.toString() || "no");
+      await env.cvkos.put("IncludeMergedConfigs", formData.get("merged")?.toString() || "no");
+      await env.cvkos.put("BlockPorn", formData.get("block_porn")?.toString() || "no");
+      await env.cvkos.put("EnableFragments", formData.get("enable_fragments")?.toString() || "no");
+      await env.cvkos.put("Version", version);
     } else {
-      await env.settings.delete("MaxConfigs");
-      await env.settings.delete("Protocols");
-      await env.settings.delete("ALPNs");
-      await env.settings.delete("FingerPrints");
-      await env.settings.delete("Providers");
-      await env.settings.delete("Countries");
-      await env.settings.delete("CleanDomainIPs");
-      await env.settings.delete("Configs");
-      await env.settings.delete("IncludeOriginalConfigs");
-      await env.settings.delete("IncludeMergedConfigs");
-      await env.settings.delete("UUID");
-      await env.settings.delete("Password");
-      await env.settings.delete("Token");
-      await env.settings.delete("BlockPorn");
-      await env.settings.delete("EnableFragments");
+      await env.cvkos.delete("MaxConfigs");
+      await env.cvkos.delete("Protocols");
+      await env.cvkos.delete("ALPNs");
+      await env.cvkos.delete("FingerPrints");
+      await env.cvkos.delete("Providers");
+      await env.cvkos.delete("Countries");
+      await env.cvkos.delete("CleanDomainIPs");
+      await env.cvkos.delete("Configs");
+      await env.cvkos.delete("IncludeOriginalConfigs");
+      await env.cvkos.delete("IncludeMergedConfigs");
+      await env.cvkos.delete("UUID");
+      await env.cvkos.delete("Password");
+      await env.cvkos.delete("Token");
+      await env.cvkos.delete("BlockPorn");
+      await env.cvkos.delete("EnableFragments");
     }
     return Response.redirect(`${url.origin}?message=success${token ? "&token=" + token : ""}`, 302);
   } catch (e) {
@@ -6317,12 +6312,12 @@ async function PostLogin(request, env) {
   const url = new URL(request.url);
   const formData = await request.formData();
   const password = formData.get("password") || "";
-  let hashedPassword = await env.settings.get("Password") || "";
+  let hashedPassword = await env.cvkos.get("Password") || "";
   await Delay(1e3);
   const match = await bcrypt2.compare(password, hashedPassword);
   if (match) {
     const token = GenerateToken(24);
-    await env.settings.put("Token", token);
+    await env.cvkos.put("Token", token);
     return Response.redirect(`${url.protocol}//${url.hostname}${url.port != "443" ? ":" + url.port : ""}/?token=${token}`, 302);
   }
   return Response.redirect(`${url.protocol}//${url.hostname}${url.port != "443" ? ":" + url.port : ""}/login?message=error`, 302);
@@ -9173,15 +9168,15 @@ async function GetConfigList(url, env) {
   let settingsNotAvailable = true;
   let enableFragments = false;
   try {
-    maxConfigs = parseInt(await env.settings.get("MaxConfigs") || "200");
-    const settingsVersion = await env.settings.get("Version") || "2.0";
+    maxConfigs = parseInt(await env.cvkos.get("MaxConfigs") || "200");
+    const settingsVersion = await env.cvkos.get("Version") || "2.0";
     if (settingsVersion == version) {
-      protocols = await env.settings.get("Protocols").then((val) => {
+      protocols = await env.cvkos.get("Protocols").then((val) => {
         return val ? val.split("\n") : [];
       });
     }
-    const blockPorn2 = await env.settings.get("BlockPorn") == "yes";
-    const limitCountries = (await env.settings.get("Countries") || "").trim().length > 0;
+    const blockPorn2 = await env.cvkos.get("BlockPorn") == "yes";
+    const limitCountries = (await env.cvkos.get("Countries") || "").trim().length > 0;
     if (blockPorn2) {
       protocols = ["built-in-vless"];
       maxConfigs = maxBuiltInConfigsPerType;
@@ -9189,15 +9184,15 @@ async function GetConfigList(url, env) {
       protocols = ["built-in-vless", "built-in-trojan"];
       maxConfigs = maxBuiltInConfigsPerType * 2;
     }
-    providers = (await env.settings.get("Providers"))?.split("\n").filter((t) => t.trim().length > 0) || [];
-    alpnList = (await env.settings.get("ALPNs"))?.split("\n").filter((t) => t.trim().length > 0) || [];
-    fingerPrints = (await env.settings.get("FingerPrints"))?.split("\n").filter((t) => t.trim().length > 0) || [];
-    includeOriginalConfigs = (await env.settings.get("IncludeOriginalConfigs") || "yes") == "yes";
-    includeMergedConfigs = (await env.settings.get("IncludeMergedConfigs") || "yes") == "yes" && (protocols.includes("vmess") || protocols.includes("vless"));
-    cleanDomainIPs = (await env.settings.get("CleanDomainIPs"))?.split("\n").filter((t) => t.trim().length > 0) || [];
-    settingsNotAvailable = await env.settings.get("MaxConfigs") === null;
-    myConfigs = (await env.settings.get("Configs"))?.split("\n").filter((t) => t.trim().length > 0) || [];
-    enableFragments = await env.settings.get("EnableFragments") == "yes";
+    providers = (await env.cvkos.get("Providers"))?.split("\n").filter((t) => t.trim().length > 0) || [];
+    alpnList = (await env.cvkos.get("ALPNs"))?.split("\n").filter((t) => t.trim().length > 0) || [];
+    fingerPrints = (await env.cvkos.get("FingerPrints"))?.split("\n").filter((t) => t.trim().length > 0) || [];
+    includeOriginalConfigs = (await env.cvkos.get("IncludeOriginalConfigs") || "yes") == "yes";
+    includeMergedConfigs = (await env.cvkos.get("IncludeMergedConfigs") || "yes") == "yes" && (protocols.includes("vmess") || protocols.includes("vless"));
+    cleanDomainIPs = (await env.cvkos.get("CleanDomainIPs"))?.split("\n").filter((t) => t.trim().length > 0) || [];
+    settingsNotAvailable = await env.cvkos.get("MaxConfigs") === null;
+    myConfigs = (await env.cvkos.get("Configs"))?.split("\n").filter((t) => t.trim().length > 0) || [];
+    enableFragments = await env.cvkos.get("EnableFragments") == "yes";
   } catch {
   }
   protocols = protocols.length ? protocols : defaultProtocols;
@@ -9437,10 +9432,10 @@ var worker_default = {
       } else {
         return new Response(ToBase64Subscription(configList));
       }
-    } else if (lcPath == "connect_a") {
-      return handleVConnection(request, url.hostname, env);
-    } else if (lcPath == "connect_b") {
-      return handleTConnection(request, url.hostname, env);
+    } else if (lcPath == "vless-ws") {
+      return VlessOverWSHandler(request, url.hostname, env);
+    } else if (lcPath == "trojan-ws") {
+      return TrojanOverWSHandler(request, url.hostname, env);
     } else if (lcPath == "login") {
       if (request.method === "GET") {
         return GetLogin(request, env);
