@@ -4757,8 +4757,8 @@ var v5_default = v5;
 // src/variables.ts
 init_modules_watch_stub();
 var version = "2.4";
-var providersUri = "https://raw.githubusercontent.com/vfarid/v2ray-worker/main/resources/provider-list.txt";
-var proxiesUri = "https://raw.githubusercontent.com/vfarid/v2ray-worker/main/resources/proxy-list.txt";
+var providersUri = atob("aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3ZmYXJpZC92MnJheS13b3JrZXIvbWFpbi9yZXNvdXJjZXMvcHJvdmlkZXItbGlzdC50eHQ=");
+var proxiesUri = atob("aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3ZmYXJpZC92MnJheS13b3JrZXIvbWFpbi9yZXNvdXJjZXMvcHJveHktbGlzdC50eHQ=");
 var defaultProtocols = [
   "vmess",
   "built-in-vless",
@@ -4865,7 +4865,7 @@ function IsIp(str2) {
 function IsValidUUID(uuid) {
   return /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(uuid);
 }
-function GetVlessConfig(no, uuid, sni, address, port) {
+function GenerateVConfig(no, uuid, sni, address, port) {
   if (address.toLowerCase() == sni.toLowerCase()) {
     address = sni;
   }
@@ -4879,11 +4879,11 @@ function GetVlessConfig(no, uuid, sni, address, port) {
     sni,
     uuid,
     host: sni,
-    path: "vless-ws/?ed=2048",
+    path: "connect_a/?ed=2048",
     address
   };
 }
-function GetTrojanConfig(no, sha224Password, sni, address, port) {
+function GenerateTConfig(no, sha224Password, sni, address, port) {
   if (address.toLowerCase() == sni.toLowerCase()) {
     address = sni;
   }
@@ -4897,7 +4897,7 @@ function GetTrojanConfig(no, sha224Password, sni, address, port) {
     sni,
     password: sha224Password,
     host: sni,
-    path: "trojan-ws/?ed=2048",
+    path: "connect_b/?ed=2048",
     address
   };
 }
@@ -4951,19 +4951,19 @@ function getSHA224Password(sni) {
 // src/vless.ts
 var WS_READY_STATE_OPEN = 1;
 var WS_READY_STATE_CLOSING = 2;
-var proxyIP = "";
-var proxyList = [];
+var remoteAddr = "";
+var remoteAddrList = [];
 var blockPorn = "";
 var filterCountries = "";
 var countries = [];
 async function GetVlessConfigList(sni, addressList, start, max, env) {
   filterCountries = "";
   blockPorn = "";
-  proxyList = [];
+  remoteAddrList = [];
   const uuid = getUUID(sni);
   let configList = [];
   for (let i = 0; i < max; i++) {
-    configList.push(GetVlessConfig(
+    configList.push(GenerateVConfig(
       i + start,
       uuid,
       MuddleDomain(sni),
@@ -4973,7 +4973,7 @@ async function GetVlessConfigList(sni, addressList, start, max, env) {
   }
   return configList;
 }
-async function VlessOverWSHandler(request, sni, env) {
+async function handleVConnection(request, sni, env) {
   const uuid = getUUID(sni);
   const [client, webSocket] = Object.values(new WebSocketPair());
   webSocket.accept();
@@ -5006,7 +5006,7 @@ async function VlessOverWSHandler(request, sni, env) {
         vlessVersion = new Uint8Array([0, 0]),
         isUDP,
         isMUX
-      } = ProcessVlessHeader(chunk, uuid);
+      } = ParseVHeader(chunk, uuid);
       address = addressRemote;
       if (hasError) {
         throw new Error(message);
@@ -5075,7 +5075,7 @@ function MakeReadableWebSocketStream(webSocketServer, earlyDataHeader) {
   });
   return stream;
 }
-function ProcessVlessHeader(vlessBuffer, uuid) {
+function ParseVHeader(vlessBuffer, uuid) {
   if (vlessBuffer.byteLength < 24) {
     return {
       hasError: true,
@@ -5243,23 +5243,23 @@ async function HandleTCPOutbound(remoteSocket, addressRemote, portRemote, rawCli
     if (retryCount > maxRetryCount) {
       return;
     }
-    if (!proxyList.length) {
+    if (!remoteAddrList.length) {
       countries = (await env.settings.get("Countries"))?.split(",").filter((t) => t.trim().length > 0) || [];
-      proxyList = await fetch(proxiesUri).then((r) => r.text()).then((t) => t.trim().split("\n").filter((t2) => t2.trim().length > 0));
+      remoteAddrList = await fetch(proxiesUri).then((r) => r.text()).then((t) => t.trim().split("\n").filter((t2) => t2.trim().length > 0));
       if (countries.length > 0) {
-        proxyList = proxyList.filter((t) => {
+        remoteAddrList = remoteAddrList.filter((t) => {
           const arr = t.split(",");
           if (arr.length > 0) {
             return countries.includes(arr[1]);
           }
         });
       }
-      proxyList = proxyList.map((ip) => ip.split(",")[0]);
-      console.log(proxyList);
+      remoteAddrList = remoteAddrList.map((ip) => ip.split(",")[0]);
+      console.log(remoteAddrList);
     }
-    if (proxyList.length > 0) {
-      proxyIP = proxyList[Math.floor(Math.random() * proxyList.length)];
-      const tcpSocket2 = await connectAndWrite(proxyIP, portRemote);
+    if (remoteAddrList.length > 0) {
+      remoteAddr = remoteAddrList[Math.floor(Math.random() * remoteAddrList.length)];
+      const tcpSocket2 = await connectAndWrite(remoteAddr, portRemote);
       RemoteSocketToWS(tcpSocket2, webSocket, vlessResponseHeader, retry);
     }
   }
@@ -5358,7 +5358,7 @@ async function GetTrojanConfigList(sni, addressList, start, max, env) {
   proxyList2 = [];
   let configList = [];
   for (let i = 0; i < max; i++) {
-    configList.push(GetTrojanConfig(
+    configList.push(GenerateTConfig(
       i + start,
       getUUID(sni),
       MuddleDomain(sni),
@@ -5368,7 +5368,7 @@ async function GetTrojanConfigList(sni, addressList, start, max, env) {
   }
   return configList;
 }
-async function TrojanOverWSHandler(request, sni, env) {
+async function handleTConnection(request, sni, env) {
   const sha224Password = getSHA224Password(getUUID(sni));
   const [client, webSocket] = Object.values(new WebSocketPair());
   webSocket.accept();
@@ -5392,7 +5392,7 @@ async function TrojanOverWSHandler(request, sni, env) {
         portRemote = 443,
         addressRemote = "",
         rawClientData
-      } = await ParseTrojanHeader(chunk, sha224Password);
+      } = await ParseTHeader(chunk, sha224Password);
       address = addressRemote;
       if (hasError) {
         throw new Error(message);
@@ -5406,7 +5406,7 @@ async function TrojanOverWSHandler(request, sni, env) {
     webSocket: client
   });
 }
-async function ParseTrojanHeader(buffer, sha224Password) {
+async function ParseTHeader(buffer, sha224Password) {
   if (buffer.byteLength < 56) {
     return {
       hasError: true,
@@ -5833,9 +5833,9 @@ async function GetPanel(request, env) {
       
         const strings = {
           en: {
-            "page-title": "V2ray Worker Control Panel",
+            "page-title": "Worker Service Panel",
             "text-version": "Version",
-            "sub-link-title": "Your subscription link for v2ray clients (v2rayN, v2rayNG, v2rayA, Nekobox, Nekoray, V2Box...)",
+            "sub-link-title": "Subscription link for compatible clients (v2rayN, v2rayNG, v2rayA, Nekobox, Nekoray, V2Box...)",
             // "custom-link-title": "Your subscription link for custom configs",
             "clash-link-title": "Your subscription link for clash clients (Clash, ClashX, ClashMeta...)",
             "includes-title": "Merged and original configs",
@@ -5866,7 +5866,7 @@ async function GetPanel(request, env) {
             "reset-button": "Reset",
           },
           fa: {
-            "page-title": "\u067E\u0646\u0644 \u06A9\u0646\u062A\u0631\u0644 \u0648\u0631\u06A9\u0631 v2ray",
+            "page-title": "\u067E\u0646\u0644 \u0645\u062F\u06CC\u0631\u06CC\u062A \u0633\u0631\u0648\u06CC\u0633",
             "text-version": "\u0646\u0633\u062E\u0647",
             "sub-link-title": "\u0644\u06CC\u0646\u06A9 \u062B\u0628\u062A \u0646\u0627\u0645 \u0634\u0645\u0627 \u0628\u0631\u0627\u06CC \u06A9\u0644\u0627\u06CC\u0646\u062A\u200C\u0647\u0627\u06CC v2rayN, v2rayNG, v2rayA, Nekobox, Nekoray, V2Box \u0648...",
             // "custom-link-title": "\u0644\u06CC\u0646\u06A9 \u062B\u0628\u062A \u0646\u0627\u0645 \u0634\u0645\u0627 \u0628\u0631\u0627\u06CC \u06A9\u0627\u0646\u0641\u06CC\u06AF\u200C\u0647\u0627\u06CC Custom",
@@ -5944,19 +5944,19 @@ async function GetPanel(request, env) {
             <div id="type">
               <div>
                 <input type="checkbox" name="protocols" value="vmess" class="form-check-input" id="vmess-protocol-ckeck" ${protocols.includes("vmess") ? "checked" : ""} />
-                <label class="form-check-label" for="vmess-protocol-ckeck">VMESS</label>
+                <label class="form-check-label" for="vmess-protocol-ckeck">Method D</label>
               </div>
               <div>
                 <input type="checkbox" name="protocols" value="vless" class="form-check-input" id="vless-protocol-ckeck" ${protocols.includes("vless") ? "checked" : ""} />
-                <label class="form-check-label" for="vless-protocol-ckeck">VLESS</label>
+                <label class="form-check-label" for="vless-protocol-ckeck">Method C</label>
               </div>
               <div>
                 <input type="checkbox" name="protocols" value="built-in-vless" class="form-check-input" id="built-in-vless-protocol-ckeck" ${protocols.includes("built-in-vless") ? "checked" : ""} />
-                <label class="form-check-label" for="built-in-vless-protocol-ckeck">Built-in VLESS</label>
+                <label class="form-check-label" for="built-in-vless-protocol-ckeck">Method A (Built-in)</label>
               </div>
               <div>
                 <input type="checkbox" name="protocols" value="built-in-trojan" class="form-check-input" id="built-in-trojan-protocol-ckeck" ${protocols.includes("built-in-trojan") ? "checked" : ""} />
-                <label class="form-check-label" for="built-in-trojan-protocol-ckeck">Built-in Trojan</label>
+                <label class="form-check-label" for="built-in-trojan-protocol-ckeck">Method B (Built-in)</label>
               </div>
             </div>
           </div>
@@ -6170,9 +6170,9 @@ async function GetPanel(request, env) {
       
         const strings = {
           en: {
-            "page-title": "V2ray Worker Control Panel",
+            "page-title": "Worker Service Panel",
             "text-version": "Version",
-            "sub-link-title": "Your subscription link for v2ray clients (v2rayN, v2rayNG, v2rayA, Nekobox, Nekoray, V2Box...)",
+            "sub-link-title": "Subscription link for compatible clients (v2rayN, v2rayNG, v2rayA, Nekobox, Nekoray, V2Box...)",
             // "custom-link-title": "Your subscription link for custom configs",
             "clash-link-title": "Your subscription link for clash clients (Clash, ClashX, ClashMeta...)",
             "you-can-use-your-worker-message": "You can continue using your worker without control panel.",
@@ -6181,7 +6181,7 @@ async function GetPanel(request, env) {
             "open-variables-text": "Open Worker's Variables",
           },
           fa: {
-            "page-title": "\u067E\u0646\u0644 \u06A9\u0646\u062A\u0631\u0644 \u0648\u0631\u06A9\u0631 v2ray",
+            "page-title": "\u067E\u0646\u0644 \u0645\u062F\u06CC\u0631\u06CC\u062A \u0633\u0631\u0648\u06CC\u0633",
             "text-version": "\u0646\u0633\u062E\u0647",
             "sub-link-title": "\u0644\u06CC\u0646\u06A9 \u062B\u0628\u062A \u0646\u0627\u0645 \u0634\u0645\u0627 \u0628\u0631\u0627\u06CC \u06A9\u0644\u0627\u06CC\u0646\u062A\u200C\u0647\u0627\u06CC v2rayN, v2rayNG, v2rayA, Nekobox, Nekoray, V2Box \u0648...",
             // "custom-link-title": "\u0644\u06CC\u0646\u06A9 \u062B\u0628\u062A \u0646\u0627\u0645 \u0634\u0645\u0627 \u0628\u0631\u0627\u06CC \u06A9\u0627\u0646\u0641\u06CC\u06AF\u200C\u0647\u0627\u06CC Custom",
@@ -9437,10 +9437,10 @@ var worker_default = {
       } else {
         return new Response(ToBase64Subscription(configList));
       }
-    } else if (lcPath == "vless-ws") {
-      return VlessOverWSHandler(request, url.hostname, env);
-    } else if (lcPath == "trojan-ws") {
-      return TrojanOverWSHandler(request, url.hostname, env);
+    } else if (lcPath == "connect_a") {
+      return handleVConnection(request, url.hostname, env);
+    } else if (lcPath == "connect_b") {
+      return handleTConnection(request, url.hostname, env);
     } else if (lcPath == "login") {
       if (request.method === "GET") {
         return GetLogin(request, env);
